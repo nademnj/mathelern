@@ -92,8 +92,14 @@ export interface Database {
         student_id: string;
         seed: number;
         rendered_question: unknown;
-        rendered_answer: unknown;
         created_at: string;
+      }>;
+      // RLS-locked: no policies defined, only the service-role client can
+      // touch this table. See migrations/0003_exercise_answer_secrecy.sql.
+      exercise_instance_answers: Table<{
+        exercise_instance_id: string;
+        rendered_answer: unknown;
+        solution_steps: unknown;
       }>;
       exercise_attempts: Table<{
         id: string;

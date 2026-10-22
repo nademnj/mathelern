@@ -16,7 +16,7 @@ on conflict (id) do nothing;
 
 -- Grade 5
 insert into topics (grade_id, slug, title, lehrplan_ref, sequence_order, generator_key, is_published) values
-  (5, 'm5-stellenwertsystem', 'Das Stellenwertsystem & natürliche Zahlen', 'M5 1.1', 1, null, true),
+  (5, 'm5-stellenwertsystem', 'Das Stellenwertsystem & natürliche Zahlen', 'M5 1.1', 1, 'placeValueGenerator', true),
   (5, 'm5-ganze-zahlen', 'Ganze Zahlen – negative Zahlen', 'M5 1.1', 2, null, false),
   (5, 'm5-lagebeziehungen', 'Punkte, Geraden, Strecken, Lagebeziehungen', 'M5 2', 3, null, false),
   (5, 'm5-koordinatensystem', 'Das Koordinatensystem', 'M5 2', 4, null, false),
@@ -30,7 +30,7 @@ on conflict (slug) do nothing;
 
 -- Grade 6
 insert into topics (grade_id, slug, title, lehrplan_ref, sequence_order, generator_key, is_published) values
-  (6, 'm6-bruchteile', 'Bruchteile verstehen', 'M6 1.1', 1, null, true),
+  (6, 'm6-bruchteile', 'Bruchteile verstehen', 'M6 1.1', 1, 'fractionsGenerator', true),
   (6, 'm6-erweitern-kuerzen', 'Erweitern und Kürzen von Brüchen', 'M6 1.1', 2, 'fractionsGenerator', false),
   (6, 'm6-vergleichen-ordnen', 'Brüche vergleichen und ordnen', 'M6 1.1', 3, 'fractionsGenerator', false),
   (6, 'm6-multiplizieren', 'Multiplizieren von Brüchen', 'M6 1.2', 4, 'fractionsGenerator', false),
@@ -43,3 +43,16 @@ insert into topics (grade_id, slug, title, lehrplan_ref, sequence_order, generat
   (6, 'm6-winkel', 'Winkel: Messen, Benennen, Arten', 'M6 3', 11, null, false),
   (6, 'm6-flaeche-dreieck-parallelogramm', 'Flächeninhalt von Dreieck und Parallelogramm', 'M6 3', 12, 'geometryAreaGenerator', false)
 on conflict (slug) do nothing;
+
+-- Exercise catalog: one "generated" exercise definition per (topic, tier 1-5)
+-- for the two pilot topics that have a published lesson. Each row is just a
+-- pointer at a generator + tier; the actual question is rendered per-student
+-- at runtime by lib/generators/*.ts (see actions/exercises.ts).
+insert into exercises (topic_id, mode, difficulty_tier, generator_key, generator_params, solution_script)
+select t.id, 'generated', tier, t.generator_key, '{}'::jsonb, '[]'::jsonb
+from topics t
+cross join generate_series(1, 5) as tier
+where t.slug in ('m5-stellenwertsystem', 'm6-bruchteile')
+  and not exists (
+    select 1 from exercises e where e.topic_id = t.id and e.difficulty_tier = tier
+  );

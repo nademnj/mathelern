@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { createClient } from "@/lib/supabase/server";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
 
 export default async function TopicPage({
   params,
@@ -65,6 +66,17 @@ export default async function TopicPage({
           )}
         </CardContent>
       </Card>
+
+      {topic.generator_key && (
+        <Card>
+          <CardHeader>
+            <CardTitle>Übungen</CardTitle>
+          </CardHeader>
+          <CardContent>
+            <Button render={<Link href={`/exercise/${topic.slug}`}>Übungen starten</Link>} />
+          </CardContent>
+        </Card>
+      )}
     </div>
   );
 }
