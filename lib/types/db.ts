@@ -68,6 +68,7 @@ export interface Database {
         title: string;
         episode_number: number;
         script_md: string;
+        script_json: unknown;
         storyboard_json: unknown;
         video_url: string | null;
         duration_seconds_estimate: number | null;

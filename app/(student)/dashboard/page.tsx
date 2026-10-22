@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { createClient } from "@/lib/supabase/server";
 import { requireStudent } from "@/lib/auth/roles";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -26,8 +27,13 @@ export default async function StudentDashboardPage() {
           {topics && topics.length > 0 ? (
             <ul className="space-y-2">
               {topics.map((t) => (
-                <li key={t.id} className="rounded-md border px-4 py-3">
-                  {t.title}
+                <li key={t.id}>
+                  <Link
+                    href={`/topic/${t.slug}`}
+                    className="block rounded-md border px-4 py-3 hover:bg-muted"
+                  >
+                    {t.title}
+                  </Link>
                 </li>
               ))}
             </ul>

@@ -1,0 +1,79 @@
+{
+  "slug": "m5-stellenwertsystem-ep1",
+  "topicSlug": "m5-stellenwertsystem",
+  "topicRef": "M5 1.1",
+  "title": "Das Stellenwertsystem verstehen",
+  "episodeNumber": 1,
+  "estimatedMinutes": 3,
+  "script": [
+    {
+      "beatId": "intro",
+      "narration": "Stell dir vor, du zählst Murmeln: 1, 2, 3... Jede Zahl hat ihren festen Platz auf einem Zahlenstrahl. Schau dir die 7 an."
+    },
+    {
+      "beatId": "why",
+      "narration": "Aber was, wenn wir riesige Zahlen wie 4.000.000 zählen wollen? Dafür brauchen wir ein System, das jeder Ziffer einen Wert je nach ihrer Stelle gibt – das Stellenwertsystem."
+    },
+    {
+      "beatId": "breakdown",
+      "narration": "Nimm die Zahl 2385. Jede Ziffer steht für etwas anderes: Tausender, Hunderter, Zehner, Einer. Klicke dich durch die Zerlegung."
+    },
+    {
+      "beatId": "reallife",
+      "narration": "Das nutzt du ständig im echten Leben: Ein Preis von 12,50 € oder die Hausnummer 2385 – überall steckt das Stellenwertsystem dahinter."
+    },
+    {
+      "beatId": "recap",
+      "narration": "Zusammengefasst: Jede Ziffer einer Zahl hat einen Stellenwert – Einer, Zehner, Hunderter, Tausender und so weiter. So kannst du auch sehr große Zahlen lesen und verstehen."
+    }
+  ],
+  "storyboard": [
+    {
+      "beatId": "beat-intro",
+      "narrationRef": "intro",
+      "component": "NumberLineViz",
+      "props": { "min": 0, "max": 20, "step": 1, "highlight": [7] }
+    },
+    {
+      "beatId": "beat-why",
+      "narrationRef": "why",
+      "component": "NumberLineViz",
+      "props": { "min": 0, "max": 100, "step": 10, "highlight": [40], "jumpTo": 40 }
+    },
+    {
+      "beatId": "beat-breakdown",
+      "narrationRef": "breakdown",
+      "component": "EquationStepReveal",
+      "props": {
+        "steps": [
+          { "label": "Ausgangszahl", "expression": "2385" },
+          { "label": "Tausender", "expression": "2 · 1000 = 2000" },
+          { "label": "Hunderter", "expression": "3 · 100 = 300" },
+          { "label": "Zehner", "expression": "8 · 10 = 80" },
+          { "label": "Einer", "expression": "5 · 1 = 5" },
+          { "label": "Summe", "expression": "2000 + 300 + 80 + 5 = 2385" }
+        ]
+      }
+    },
+    {
+      "beatId": "beat-reallife",
+      "narrationRef": "reallife",
+      "component": "EquationStepReveal",
+      "props": {
+        "steps": [
+          { "label": "Preis", "expression": "12,50 €" },
+          { "label": "Euro-Stelle (Zehner)", "expression": "1 · 10 = 10 €" },
+          { "label": "Euro-Stelle (Einer)", "expression": "2 · 1 = 2 €" },
+          { "label": "Cent-Stellen", "expression": "0,50 €" }
+        ]
+      }
+    },
+    {
+      "beatId": "beat-recap",
+      "narrationRef": "recap",
+      "component": "NumberLineViz",
+      "props": { "min": 0, "max": 20, "step": 1, "highlight": [7], "jumpTo": 7 }
+    }
+  ],
+  "videoUrl": null
+}

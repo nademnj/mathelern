@@ -16,7 +16,7 @@ on conflict (id) do nothing;
 
 -- Grade 5
 insert into topics (grade_id, slug, title, lehrplan_ref, sequence_order, generator_key, is_published) values
-  (5, 'm5-stellenwertsystem', 'Das Stellenwertsystem & natürliche Zahlen', 'M5 1.1', 1, null, false),
+  (5, 'm5-stellenwertsystem', 'Das Stellenwertsystem & natürliche Zahlen', 'M5 1.1', 1, null, true),
   (5, 'm5-ganze-zahlen', 'Ganze Zahlen – negative Zahlen', 'M5 1.1', 2, null, false),
   (5, 'm5-lagebeziehungen', 'Punkte, Geraden, Strecken, Lagebeziehungen', 'M5 2', 3, null, false),
   (5, 'm5-koordinatensystem', 'Das Koordinatensystem', 'M5 2', 4, null, false),
@@ -30,7 +30,7 @@ on conflict (slug) do nothing;
 
 -- Grade 6
 insert into topics (grade_id, slug, title, lehrplan_ref, sequence_order, generator_key, is_published) values
-  (6, 'm6-bruchteile', 'Bruchteile verstehen', 'M6 1.1', 1, null, false),
+  (6, 'm6-bruchteile', 'Bruchteile verstehen', 'M6 1.1', 1, null, true),
   (6, 'm6-erweitern-kuerzen', 'Erweitern und Kürzen von Brüchen', 'M6 1.1', 2, 'fractionsGenerator', false),
   (6, 'm6-vergleichen-ordnen', 'Brüche vergleichen und ordnen', 'M6 1.1', 3, 'fractionsGenerator', false),
   (6, 'm6-multiplizieren', 'Multiplizieren von Brüchen', 'M6 1.2', 4, 'fractionsGenerator', false),
