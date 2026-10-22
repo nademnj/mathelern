@@ -1,6 +1,7 @@
 "use client";
 
 import { useActionState } from "react";
+import { useRouter } from "next/navigation";
 import { linkChild } from "@/actions/parentLinks";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -9,8 +10,13 @@ import { Label } from "@/components/ui/label";
 type FormState = { error: string } | undefined;
 
 export function LinkChildForm() {
+  const router = useRouter();
   const [state, formAction, pending] = useActionState<FormState, FormData>(
-    async (_prev, formData) => (await linkChild(formData)) ?? undefined,
+    async (_prev, formData) => {
+      const result = await linkChild(formData);
+      if (!result) router.refresh(); // success: refresh so the new child shows up without a manual reload
+      return result ?? undefined;
+    },
     undefined
   );
 
