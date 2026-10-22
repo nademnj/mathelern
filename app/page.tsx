@@ -12,10 +12,11 @@ export default function Home() {
           Elternbereich mit echten Fortschritten.
         </p>
         <div className="flex flex-col gap-3 sm:flex-row">
-          <Button size="lg" render={<Link href="/register">Als Schüler/in starten</Link>} />
+          <Button size="lg" nativeButton={false} render={<Link href="/register">Als Schüler/in starten</Link>} />
           <Button
             variant="outline"
             size="lg"
+            nativeButton={false}
             render={<Link href="/register/parent">Elternkonto erstellen</Link>}
           />
         </div>

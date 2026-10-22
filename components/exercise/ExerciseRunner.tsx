@@ -86,7 +86,7 @@ export function ExerciseRunner({ topicSlug, topicTitle, topicHref }: { topicSlug
           Du beherrschst „{topicTitle}“ jetzt richtig gut. Mastery-Score: {Math.round(feedback.masteryScore)}/100
         </p>
         <WorkedSolutionPanel steps={feedback.solutionSteps} />
-        <Button render={<Link href={topicHref}>Zurück zum Thema</Link>} />
+        <Button nativeButton={false} render={<Link href={topicHref}>Zurück zum Thema</Link>} />
       </div>
     );
   }
@@ -133,7 +133,7 @@ export function ExerciseRunner({ topicSlug, topicTitle, topicHref }: { topicSlug
           <WorkedSolutionPanel steps={feedback.solutionSteps} />
           {feedback.needsWorkedExamples && <MasterySignalToast />}
           <div className="flex justify-center gap-3">
-            <Button variant="outline" render={<Link href={topicHref}>Beenden</Link>} />
+            <Button variant="outline" nativeButton={false} render={<Link href={topicHref}>Beenden</Link>} />
             <Button onClick={loadNext}>Nächste Übung</Button>
           </div>
         </div>

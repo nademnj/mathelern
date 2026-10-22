@@ -73,7 +73,7 @@ export default async function TopicPage({
             <CardTitle>Übungen</CardTitle>
           </CardHeader>
           <CardContent>
-            <Button render={<Link href={`/exercise/${topic.slug}`}>Übungen starten</Link>} />
+            <Button nativeButton={false} render={<Link href={`/exercise/${topic.slug}`}>Übungen starten</Link>} />
           </CardContent>
         </Card>
       )}
