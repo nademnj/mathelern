@@ -31,6 +31,7 @@ export function RegisterStudentForm({ gradesByTrack }: RegisterStudentFormProps)
   const tracks = Object.keys(gradesByTrack) as SchoolTrack[];
   const [schoolTrack, setSchoolTrack] = useState<SchoolTrack>(tracks[0] ?? "gymnasium_g9");
   const grades = gradesByTrack[schoolTrack] ?? [];
+  const gradeLabelByNumber = new Map(grades.map((g) => [String(g.gradeNumber), g.label]));
 
   const [state, formAction, pending] = useActionState<FormState, FormData>(
     async (_prev, formData) => (await registerStudent(formData)) ?? undefined,
@@ -51,7 +52,9 @@ export function RegisterStudentForm({ gradesByTrack }: RegisterStudentFormProps)
           onValueChange={(v) => setSchoolTrack(v as SchoolTrack)}
         >
           <SelectTrigger id="schoolTrack" className="w-full">
-            <SelectValue placeholder="Schulart wählen" />
+            <SelectValue placeholder="Schulart wählen">
+              {(value: SchoolTrack) => TRACK_LABEL[value] ?? value}
+            </SelectValue>
           </SelectTrigger>
           <SelectContent>
             {tracks.map((t) => (
@@ -70,7 +73,9 @@ export function RegisterStudentForm({ gradesByTrack }: RegisterStudentFormProps)
           key={schoolTrack}
         >
           <SelectTrigger id="gradeLevel" className="w-full">
-            <SelectValue placeholder="Klasse wählen" />
+            <SelectValue placeholder="Klasse wählen">
+              {(value: string) => gradeLabelByNumber.get(value) ?? value}
+            </SelectValue>
           </SelectTrigger>
           <SelectContent>
             {grades.map((g) => (
