@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import { createClient } from "@/lib/supabase/server";
 import { requireParent } from "@/lib/auth/roles";
+import { getGrade } from "@/lib/curriculum/getGrade";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
 import { MasteryBar } from "@/components/progress/MasteryBar";
@@ -25,15 +26,17 @@ export default async function ChildDetailPage({
     .single();
   const { data: student } = await supabase
     .from("students")
-    .select("grade_level")
+    .select("grade_level, school_track")
     .eq("id", studentId)
     .single();
   if (!childProfile || !student) notFound();
 
+  const grade = await getGrade(supabase, student.grade_level, student.school_track);
+
   const { data: topics } = await supabase
     .from("topics")
     .select("*")
-    .eq("grade_id", student.grade_level)
+    .eq("grade_id", grade?.id ?? "")
     .order("sequence_order");
   const { data: masteryRows } = await supabase
     .from("topic_mastery")
@@ -44,7 +47,7 @@ export default async function ChildDetailPage({
   const { data: milestones } = await supabase
     .from("milestones")
     .select("*")
-    .eq("grade_id", student.grade_level)
+    .eq("grade_id", grade?.id ?? "")
     .order("sequence_order");
   const { data: achievedRows } = await supabase
     .from("student_milestones")
@@ -65,7 +68,7 @@ export default async function ChildDetailPage({
   return (
     <div className="mx-auto max-w-2xl space-y-6">
       <h1 className="text-2xl font-semibold">
-        {childProfile.display_name} · {student.grade_level}. Klasse
+        {childProfile.display_name} · {grade?.label ?? `${student.grade_level}. Klasse`}
       </h1>
 
       <Card>

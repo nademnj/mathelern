@@ -1,5 +1,6 @@
 import { createClient } from "@/lib/supabase/server";
 import { requireStudent } from "@/lib/auth/roles";
+import { getGrade } from "@/lib/curriculum/getGrade";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
 import { GradeRoadmap, type RoadmapTopic } from "@/components/progress/GradeRoadmap";
@@ -10,10 +11,12 @@ export default async function ProgressPage() {
   const supabase = await createClient();
   const gradeLevel = student?.grade_level ?? 5;
 
+  const grade = await getGrade(supabase, gradeLevel, student?.school_track ?? "gymnasium_g9");
+
   const { data: topics } = await supabase
     .from("topics")
     .select("*")
-    .eq("grade_id", gradeLevel)
+    .eq("grade_id", grade?.id ?? "")
     .order("sequence_order");
 
   const { data: masteryRows } = await supabase
@@ -38,7 +41,7 @@ export default async function ProgressPage() {
   const { data: milestones } = await supabase
     .from("milestones")
     .select("*")
-    .eq("grade_id", gradeLevel)
+    .eq("grade_id", grade?.id ?? "")
     .order("sequence_order");
 
   const { data: achievedRows } = await supabase
@@ -49,7 +52,7 @@ export default async function ProgressPage() {
 
   return (
     <div className="mx-auto max-w-2xl space-y-6">
-      <h1 className="text-2xl font-semibold">Fortschritt – {gradeLevel}. Klasse</h1>
+      <h1 className="text-2xl font-semibold">Fortschritt – {grade?.label ?? `${gradeLevel}. Klasse`}</h1>
 
       <Card>
         <CardHeader>

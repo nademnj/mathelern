@@ -1,16 +1,19 @@
 import Link from "next/link";
 import { createClient } from "@/lib/supabase/server";
 import { requireStudent } from "@/lib/auth/roles";
+import { getGrade } from "@/lib/curriculum/getGrade";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 export default async function StudentDashboardPage() {
   const { profile, student } = await requireStudent();
   const supabase = await createClient();
 
+  const grade = await getGrade(supabase, student?.grade_level ?? 5, student?.school_track ?? "gymnasium_g9");
+
   const { data: topics } = await supabase
     .from("topics")
     .select("*")
-    .eq("grade_id", student?.grade_level ?? 5)
+    .eq("grade_id", grade?.id ?? "")
     .order("sequence_order");
 
   return (
@@ -21,7 +24,7 @@ export default async function StudentDashboardPage() {
 
       <Card>
         <CardHeader>
-          <CardTitle>{student?.grade_level}. Klasse – Themen</CardTitle>
+          <CardTitle>{grade?.label ?? `${student?.grade_level}. Klasse`} – Themen</CardTitle>
         </CardHeader>
         <CardContent>
           {topics && topics.length > 0 ? (

@@ -1,0 +1,95 @@
+{
+  "slug": "fos11-lineare-quadratische-funktionen-ep1",
+  "topicSlug": "fos11-lineare-quadratische-funktionen",
+  "topicRef": "FOS11 LB1",
+  "title": "Lineare & quadratische Funktionen: Eigenschaften und Graphen",
+  "episodeNumber": 1,
+  "estimatedMinutes": 4,
+  "script": [
+    {
+      "beatId": "intro",
+      "narration": "Eine Funktion beschreibt, wie sich eine Größe verändert, wenn eine andere sich ändert – zum Beispiel, wie der Preis eines Produkts von der verkauften Menge abhängt."
+    },
+    {
+      "beatId": "why",
+      "narration": "Wenn du die Eigenschaften einer Funktion kennst – Steigung, Nullstellen, Scheitelpunkt – kannst du ihr Verhalten vorhersagen, ohne jeden einzelnen Punkt zu berechnen."
+    },
+    {
+      "beatId": "linear_properties",
+      "narration": "Eine lineare Funktion y = m·x + t hat zwei Kennzahlen: die Steigung m (wie steil die Gerade ist) und den y-Achsenabschnitt t (wo sie die y-Achse schneidet)."
+    },
+    {
+      "beatId": "quadratic_properties",
+      "narration": "Eine quadratische Funktion y = x² + px + q hat einen Scheitelpunkt – den höchsten oder tiefsten Punkt der Parabel. Seine x-Koordinate findest du mit x_s = -p/2."
+    },
+    {
+      "beatId": "reallife",
+      "narration": "Quadratische Funktionen beschreiben zum Beispiel die Flugbahn eines Balls oder den Gewinnverlauf eines Unternehmens – beide haben einen Höhepunkt, den Scheitelpunkt."
+    }
+  ],
+  "storyboard": [
+    {
+      "beatId": "beat-intro",
+      "narrationRef": "intro",
+      "component": "CoordinatePlaneViz",
+      "props": {
+        "range": 6,
+        "points": [
+          { "x": 0, "y": 1, "label": "t" },
+          { "x": 2, "y": 5, "label": "P" }
+        ]
+      }
+    },
+    {
+      "beatId": "beat-why",
+      "narrationRef": "why",
+      "component": "CoordinatePlaneViz",
+      "props": {
+        "range": 6,
+        "points": [
+          { "x": -2, "y": 0, "label": "Nullstelle" },
+          { "x": 0, "y": -4, "label": "Scheitel" },
+          { "x": 2, "y": 0, "label": "Nullstelle" }
+        ]
+      }
+    },
+    {
+      "beatId": "beat-linear-properties",
+      "narrationRef": "linear_properties",
+      "component": "EquationStepReveal",
+      "props": {
+        "steps": [
+          { "label": "Funktionsgleichung", "expression": "y = m · x + t" },
+          { "label": "Beispiel", "expression": "y = 2x + 1" },
+          { "label": "Steigung", "expression": "m = 2" },
+          { "label": "y-Achsenabschnitt", "expression": "t = 1" }
+        ]
+      }
+    },
+    {
+      "beatId": "beat-quadratic-properties",
+      "narrationRef": "quadratic_properties",
+      "component": "EquationStepReveal",
+      "props": {
+        "steps": [
+          { "label": "Funktionsgleichung", "expression": "y = x² - 4" },
+          { "label": "Scheitelpunktformel", "expression": "x_s = -p / 2" },
+          { "label": "Einsetzen (p = 0)", "expression": "x_s = -0 / 2 = 0" },
+          { "label": "Scheitelpunkt", "expression": "S(0 | -4)" }
+        ]
+      }
+    },
+    {
+      "beatId": "beat-reallife",
+      "narrationRef": "reallife",
+      "component": "CoordinatePlaneViz",
+      "props": {
+        "range": 6,
+        "points": [
+          { "x": 0, "y": -4, "label": "Scheitel (Höhepunkt)" }
+        ]
+      }
+    }
+  ],
+  "videoUrl": null
+}

@@ -42,7 +42,7 @@ async function isUnlocked(
  * attempt updates topic_mastery — cheap at this scale (a handful of
  * milestones per grade), no need for DB triggers.
  */
-export async function checkAndAwardMilestones(studentId: string, gradeId: number) {
+export async function checkAndAwardMilestones(studentId: string, gradeId: string) {
   const admin = createAdminClient();
 
   const { data: milestones } = await admin.from("milestones").select("*").eq("grade_id", gradeId);

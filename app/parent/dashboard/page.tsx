@@ -1,5 +1,6 @@
 import { createClient } from "@/lib/supabase/server";
 import { requireParent } from "@/lib/auth/roles";
+import { getGrade } from "@/lib/curriculum/getGrade";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { ChildSummaryCard } from "@/components/parent/ChildSummaryCard";
 import { LinkChildForm } from "@/components/parent/LinkChildForm";
@@ -17,12 +18,13 @@ export default async function ParentDashboardPage() {
     (links ?? []).map(async (link) => {
       const [{ data: childProfile }, { data: student }] = await Promise.all([
         supabase.from("profiles").select("display_name").eq("id", link.student_id).single(),
-        supabase.from("students").select("grade_level").eq("id", link.student_id).single(),
+        supabase.from("students").select("grade_level, school_track").eq("id", link.student_id).single(),
       ]);
       const gradeLevel = student?.grade_level ?? 5;
+      const grade = await getGrade(supabase, gradeLevel, student?.school_track ?? "gymnasium_g9");
 
       const [{ data: topics }, { data: masteryRows }] = await Promise.all([
-        supabase.from("topics").select("id").eq("is_published", true).eq("grade_id", gradeLevel),
+        supabase.from("topics").select("id").eq("is_published", true).eq("grade_id", grade?.id ?? ""),
         supabase.from("topic_mastery").select("status").eq("student_id", link.student_id),
       ]);
 

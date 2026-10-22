@@ -4,6 +4,10 @@ import { redirect } from "next/navigation";
 import { createClient } from "@/lib/supabase/server";
 import { createAdminClient } from "@/lib/supabase/admin";
 import { generateInviteCode } from "@/lib/auth/inviteCode";
+import { getGrade } from "@/lib/curriculum/getGrade";
+import type { SchoolTrack } from "@/lib/types/db";
+
+const VALID_SCHOOL_TRACKS: SchoolTrack[] = ["gymnasium_g9", "mittelschule_m", "fos"];
 
 type ActionResult = { error: string } | void;
 
@@ -15,13 +19,25 @@ export async function registerStudent(formData: FormData): Promise<ActionResult>
   const password = String(formData.get("password") ?? "");
   const displayName = String(formData.get("displayName") ?? "").trim();
   const gradeLevel = Number(formData.get("gradeLevel"));
+  const schoolTrack = String(formData.get("schoolTrack") ?? "") as SchoolTrack;
 
   if (!email || !password || !displayName) return { error: "Bitte alle Felder ausfüllen." };
   if (!Number.isInteger(gradeLevel) || gradeLevel < 5 || gradeLevel > 13) {
     return { error: "Bitte eine Klasse zwischen 5 und 13 wählen." };
   }
+  if (!VALID_SCHOOL_TRACKS.includes(schoolTrack)) {
+    return { error: "Bitte eine gültige Schulart wählen." };
+  }
 
+  // Reject a (grade, track) pair with no seeded curriculum — e.g. Gymnasium
+  // grade 10, not yet built — rather than silently registering a student
+  // into a combination with no visible content.
   const admin = createAdminClient();
+  const grade = await getGrade(admin, gradeLevel, schoolTrack);
+  if (!grade) {
+    return { error: "Für diese Kombination aus Schulart und Klasse gibt es noch kein Lernangebot." };
+  }
+
   const { data: created, error: createError } = await admin.auth.admin.createUser({
     email,
     password,
@@ -43,7 +59,7 @@ export async function registerStudent(formData: FormData): Promise<ActionResult>
     const { error } = await admin.from("students").insert({
       id: userId,
       grade_level: gradeLevel,
-      school_track: "gymnasium_g9",
+      school_track: schoolTrack,
       invite_code: generateInviteCode(),
     });
     studentError = error;

@@ -1,0 +1,92 @@
+{
+  "slug": "ms10-potenzgesetze-ep1",
+  "topicSlug": "ms10-potenzgesetze",
+  "topicRef": "M10 LB1",
+  "title": "Potenzschreibweise & Potenzgesetze",
+  "episodeNumber": 1,
+  "estimatedMinutes": 4,
+  "script": [
+    {
+      "beatId": "intro",
+      "narration": "Stell dir vor, du verdoppelst eine Menge immer wieder: 2, 4, 8, 16... Statt 2·2·2·2 zu schreiben, schreiben wir kurz 2 hoch 4 – eine Potenz."
+    },
+    {
+      "beatId": "why",
+      "narration": "Potenzen sparen Schreibarbeit bei sehr großen Zahlen. 2 hoch 10 zu schreiben ist viel kürzer als zehnmal die 2 zu multiplizieren – und das Ergebnis ist 1024."
+    },
+    {
+      "beatId": "product_rule",
+      "narration": "Erstes Potenzgesetz: Multiplizierst du zwei Potenzen mit gleicher Basis, addierst du die Exponenten. a hoch m mal a hoch n ist a hoch (m+n)."
+    },
+    {
+      "beatId": "negative_exponent",
+      "narration": "Teilst du Potenzen mit gleicher Basis, subtrahierst du die Exponenten. Wird der Exponent dabei negativ, landest du im Nenner eines Bruchs: a hoch -n ist 1 durch a hoch n."
+    },
+    {
+      "beatId": "reallife",
+      "narration": "Das nutzt du ständig: Ein Gigabyte sind 2 hoch 30 Byte, und beim Zinseszins wächst dein Geld jedes Jahr um einen weiteren Faktor – das lernst du in der nächsten Lektion genauer."
+    }
+  ],
+  "storyboard": [
+    {
+      "beatId": "beat-intro",
+      "narrationRef": "intro",
+      "component": "EquationStepReveal",
+      "props": {
+        "steps": [
+          { "label": "Wiederholte Multiplikation", "expression": "2 · 2 · 2 · 2" },
+          { "label": "Als Potenz", "expression": "2⁴" },
+          { "label": "Ergebnis", "expression": "2⁴ = 16" }
+        ]
+      }
+    },
+    {
+      "beatId": "beat-why",
+      "narrationRef": "why",
+      "component": "EquationStepReveal",
+      "props": {
+        "steps": [
+          { "label": "Lange Schreibweise", "expression": "2·2·2·2·2·2·2·2·2·2" },
+          { "label": "Kurze Schreibweise", "expression": "2¹⁰" },
+          { "label": "Ergebnis", "expression": "2¹⁰ = 1024" }
+        ]
+      }
+    },
+    {
+      "beatId": "beat-product-rule",
+      "narrationRef": "product_rule",
+      "component": "EquationStepReveal",
+      "props": {
+        "steps": [
+          { "label": "Regel", "expression": "aᵐ · aⁿ = aᵐ⁺ⁿ" },
+          { "label": "Beispiel", "expression": "2³ · 2² = 2⁵" },
+          { "label": "Ergebnis", "expression": "2⁵ = 32" }
+        ]
+      }
+    },
+    {
+      "beatId": "beat-negative-exponent",
+      "narrationRef": "negative_exponent",
+      "component": "EquationStepReveal",
+      "props": {
+        "steps": [
+          { "label": "Regel", "expression": "aᵐ ÷ aⁿ = aᵐ⁻ⁿ" },
+          { "label": "Beispiel", "expression": "2² ÷ 2⁴ = 2⁻²" },
+          { "label": "Negativer Exponent", "expression": "2⁻² = 1/2² = 1/4" }
+        ]
+      }
+    },
+    {
+      "beatId": "beat-reallife",
+      "narrationRef": "reallife",
+      "component": "EquationStepReveal",
+      "props": {
+        "steps": [
+          { "label": "1 Gigabyte", "expression": "2³⁰ Byte" },
+          { "label": "In Zahlen", "expression": "≈ 1 073 741 824 Byte" }
+        ]
+      }
+    }
+  ],
+  "videoUrl": null
+}

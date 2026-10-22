@@ -3,6 +3,12 @@ import { requireStudent } from "@/lib/auth/roles";
 import { logout } from "@/actions/auth";
 import { Button } from "@/components/ui/button";
 
+const TRACK_LABEL: Record<string, string> = {
+  gymnasium_g9: "Gymnasium",
+  mittelschule_m: "Mittelschule M-Zug",
+  fos: "FOS",
+};
+
 export default async function StudentLayout({ children }: { children: React.ReactNode }) {
   const { profile, student } = await requireStudent();
 
@@ -16,7 +22,8 @@ export default async function StudentLayout({ children }: { children: React.Reac
           <Link href="/dashboard">Übersicht</Link>
           <Link href="/progress">Fortschritt</Link>
           <span className="text-muted-foreground">
-            {profile.display_name} · {student?.grade_level ?? "?"}. Klasse
+            {profile.display_name} · {student?.grade_level ?? "?"}. Klasse (
+            {TRACK_LABEL[student?.school_track ?? ""] ?? student?.school_track})
           </span>
           <form action={logout}>
             <Button variant="outline" size="sm" type="submit">

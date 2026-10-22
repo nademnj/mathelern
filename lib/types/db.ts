@@ -4,7 +4,7 @@
 // and re-apply any manual additions here.
 
 export type UserRole = "student" | "parent";
-export type SchoolTrack = "gymnasium_g9";
+export type SchoolTrack = "gymnasium_g9" | "mittelschule_m" | "fos";
 export type ParentLinkStatus = "pending" | "approved" | "revoked";
 export type LessonStatus = "draft" | "review" | "published";
 export type ExerciseMode = "static" | "generated";
@@ -46,13 +46,14 @@ export interface Database {
         created_at: string;
       }>;
       grades: Table<{
-        id: number;
+        id: string;
+        grade_number: number;
         label: string;
         school_track: SchoolTrack;
       }>;
       topics: Table<{
         id: string;
-        grade_id: number;
+        grade_id: string;
         parent_topic_id: string | null;
         slug: string;
         title: string;
@@ -134,7 +135,7 @@ export interface Database {
       }>;
       milestones: Table<{
         id: string;
-        grade_id: number;
+        grade_id: string;
         topic_id: string | null;
         title: string;
         icon_key: string;

@@ -1,5 +1,6 @@
 "use client";
 
+import { useState } from "react";
 import { useActionState } from "react";
 import { registerStudent } from "@/actions/auth";
 import { Button } from "@/components/ui/button";
@@ -12,12 +13,25 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
+import type { SchoolTrack } from "@/lib/types/db";
 
 type FormState = { error: string } | undefined;
 
-const GRADES = Array.from({ length: 9 }, (_, i) => i + 5); // 5..13
+const TRACK_LABEL: Record<SchoolTrack, string> = {
+  gymnasium_g9: "Gymnasium (G9)",
+  mittelschule_m: "Mittelschule (M-Zug)",
+  fos: "Fachoberschule (FOS)",
+};
 
-export function RegisterStudentForm() {
+interface RegisterStudentFormProps {
+  gradesByTrack: Record<SchoolTrack, { gradeNumber: number; label: string }[]>;
+}
+
+export function RegisterStudentForm({ gradesByTrack }: RegisterStudentFormProps) {
+  const tracks = Object.keys(gradesByTrack) as SchoolTrack[];
+  const [schoolTrack, setSchoolTrack] = useState<SchoolTrack>(tracks[0] ?? "gymnasium_g9");
+  const grades = gradesByTrack[schoolTrack] ?? [];
+
   const [state, formAction, pending] = useActionState<FormState, FormData>(
     async (_prev, formData) => (await registerStudent(formData)) ?? undefined,
     undefined
@@ -30,15 +44,38 @@ export function RegisterStudentForm() {
         <Input id="displayName" name="displayName" required autoComplete="name" />
       </div>
       <div className="space-y-2">
+        <Label htmlFor="schoolTrack">Schulart</Label>
+        <Select
+          name="schoolTrack"
+          value={schoolTrack}
+          onValueChange={(v) => setSchoolTrack(v as SchoolTrack)}
+        >
+          <SelectTrigger id="schoolTrack" className="w-full">
+            <SelectValue placeholder="Schulart wählen" />
+          </SelectTrigger>
+          <SelectContent>
+            {tracks.map((t) => (
+              <SelectItem key={t} value={t}>
+                {TRACK_LABEL[t] ?? t}
+              </SelectItem>
+            ))}
+          </SelectContent>
+        </Select>
+      </div>
+      <div className="space-y-2">
         <Label htmlFor="gradeLevel">Klasse</Label>
-        <Select name="gradeLevel" defaultValue="5">
+        <Select
+          name="gradeLevel"
+          defaultValue={grades[0] ? String(grades[0].gradeNumber) : undefined}
+          key={schoolTrack}
+        >
           <SelectTrigger id="gradeLevel" className="w-full">
             <SelectValue placeholder="Klasse wählen" />
           </SelectTrigger>
           <SelectContent>
-            {GRADES.map((g) => (
-              <SelectItem key={g} value={String(g)}>
-                {g}. Klasse
+            {grades.map((g) => (
+              <SelectItem key={g.gradeNumber} value={String(g.gradeNumber)}>
+                {g.label}
               </SelectItem>
             ))}
           </SelectContent>
