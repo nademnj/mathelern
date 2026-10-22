@@ -1,8 +1,18 @@
 # MatheLern
 
-Interactive math-learning web app for the Bavarian LehrplanPLUS curriculum
-(Gymnasium G9, grades 5–13). Pilot scope: grade 5 and 6, full vertical slice
-(lessons, adaptive exercises, progress/milestones, parent dashboard).
+Interactive math-learning web app for the Bavarian LehrplanPLUS curriculum,
+covering three school tracks: Gymnasium G9 (grades 5–13), Mittelschule M-Zug
+(M10), and Fachoberschule (FOS 11). Each track has one fully-built pilot
+topic (lesson + adaptive exercises) and a seeded, unpublished topic list for
+the rest of that track's curriculum:
+
+- **Gymnasium**: grade 5 "Das Stellenwertsystem", grade 6 "Bruchteile"
+- **Mittelschule M10**: "Potenzschreibweise & Potenzgesetze"
+- **FOS 11**: "Lineare & quadratische Funktionen" (shared by every Ausbildungsrichtung)
+
+A `grades` table keyed by `(grade_number, school_track)` is what makes this
+possible — e.g. grade 10 exists once for Gymnasium and once for Mittelschule,
+as separate rows (see `supabase/migrations/0005`-`0007`).
 
 See the full architecture/plan behind this build for context on design
 decisions, data model, and the adaptive difficulty algorithm.
@@ -102,17 +112,36 @@ written).
   `{generator_key, seed}`, so any served question is reproducible).
 - `lib/content/lessonSchema.ts` — zod schema for lesson JSON content; keep in
   sync with `components/visuals/VizRegistry.ts`.
-- `content/lessons/grade-{5,6}/*.json` — authored lesson content (git-
-  reviewable; add new grades/topics purely by adding files + topic rows).
-- `supabase/migrations/` — schema + RLS policies, applied in order.
-- `supabase/seed.sql` — grades 5–13, pilot topics, the exercise catalog for
-  the two pilot topics, and milestones.
+- `content/lessons/grade-{5,6,10-mittelschule,11-fos}/*.json` — authored
+  lesson content (git-reviewable; add new grades/topics purely by adding
+  files + topic rows).
+- `lib/curriculum/getGrade.ts` — resolves a `(gradeNumber, schoolTrack)` pair
+  to its `grades.id`; every page that queries topics/milestones by grade
+  goes through this instead of assuming grade_number alone is unique.
+- `supabase/migrations/` — schema + RLS policies, applied in order. Note
+  0006 rebuilt `grades` from scratch (to rekey it); 0007 is a bug-fix
+  migration restoring the RLS policy that rebuild silently dropped — a
+  reminder that a `CREATE TABLE`-based rebuild needs its RLS/policies
+  re-added explicitly, unlike a plain `ALTER TABLE` column change.
+- `supabase/seed.sql` — all three tracks' grades, pilot topics, the exercise
+  catalog for the four pilot topics, and milestones.
 
 ## Known gaps / next steps
 
-- Only grade 5 ("Das Stellenwertsystem") and grade 6 ("Bruchteile") have a
-  published lesson + exercises; all other seeded topics are
+- Only one pilot topic per track has a published lesson + exercises; all
+  other seeded topics (17 for M10, 21 for FOS11, the rest of grade 5/6, and
+  grades 7–13/grade-7-up Mittelschule/FOS not seeded at all yet) are
   `is_published = false` placeholders for future content authoring.
+- FOS has no way to represent "Ausbildungsrichtung" (branch) yet — the
+  pilot topic is shared by every branch so it doesn't need one, but the
+  seeded (unpublished) Stochastik-vs-Vektoren branch topics will need either
+  a `students.fos_branch` column or splitting `fos` into `fos`/`fos_technik`
+  as two `school_track` values before they're built. Decide before authoring
+  that content, not after.
+- FOS 11 content is confirmed from LehrplanPLUS but marked "gültig ab
+  Schuljahr 2017/18" (older than the M10 page's 2022/23 tag) — spot-check
+  against a current textbook/ISB PDF before content lock, same non-blocking
+  caveat as the grade 5/6 content.
 - No real recorded video yet — lessons render their storyboard/script
   instead; `lessons.video_url` is wired up and ready for when video exists.
 - Grade 5/6 chapter numbering beyond the explicitly `(confirmed)` chapters
