@@ -11,6 +11,7 @@ import {
 import { selectNextDifficulty } from "@/lib/adaptive/selectNextDifficulty";
 import { computeMasterySignal, REMEDIAL_ROUND_CAP } from "@/lib/adaptive/masterySignals";
 import { STRUGGLING_THRESHOLD } from "@/lib/adaptive/masteryModel";
+import { checkAndAwardMilestones } from "@/lib/milestones/checkMilestones";
 
 function toMasteryState(row: {
   mastery_score: number;
@@ -197,6 +198,9 @@ export async function submitAttempt(
     },
     { onConflict: "student_id,topic_id" }
   );
+
+  const { data: topicRow } = await admin.from("topics").select("grade_id").eq("id", exerciseDef.topic_id).single();
+  if (topicRow) await checkAndAwardMilestones(studentId, topicRow.grade_id);
 
   // Escalate to a parent recommendation once remedial rounds run out without recovery.
   if (

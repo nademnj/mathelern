@@ -3,6 +3,7 @@
 import { redirect } from "next/navigation";
 import { createClient } from "@/lib/supabase/server";
 import { createAdminClient } from "@/lib/supabase/admin";
+import { generateInviteCode } from "@/lib/auth/inviteCode";
 
 type ActionResult = { error: string } | void;
 
@@ -36,9 +37,18 @@ export async function registerStudent(formData: FormData): Promise<ActionResult>
     .insert({ id: userId, role: "student", display_name: displayName });
   if (profileError) return { error: profileError.message };
 
-  const { error: studentError } = await admin
-    .from("students")
-    .insert({ id: userId, grade_level: gradeLevel, school_track: "gymnasium_g9" });
+  // Retry a few times on the rare invite_code collision (unique constraint).
+  let studentError: { message: string } | null = null;
+  for (let attempt = 0; attempt < 5; attempt++) {
+    const { error } = await admin.from("students").insert({
+      id: userId,
+      grade_level: gradeLevel,
+      school_track: "gymnasium_g9",
+      invite_code: generateInviteCode(),
+    });
+    studentError = error;
+    if (!error || error.code !== "23505") break;
+  }
   if (studentError) return { error: studentError.message };
 
   const supabase = await createClient();

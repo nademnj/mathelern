@@ -56,3 +56,17 @@ where t.slug in ('m5-stellenwertsystem', 'm6-bruchteile')
   and not exists (
     select 1 from exercises e where e.topic_id = t.id and e.difficulty_tier = tier
   );
+
+-- Milestones (see lib/milestones/checkMilestones.ts for the unlock_rule shapes
+-- it understands: lesson_completed by lessonSlug, topic_mastered by topicSlug).
+-- No natural unique key on this table, so guard re-running seed.sql with NOT EXISTS.
+insert into milestones (grade_id, title, icon_key, sequence_order, unlock_rule)
+select * from (values
+  (5::smallint, 'Erste Lektion: Stellenwertsystem', 'book-open', 1, '{"type": "lesson_completed", "lessonSlug": "m5-stellenwertsystem-ep1"}'::jsonb),
+  (5::smallint, 'Stellenwertsystem gemeistert', 'trophy', 2, '{"type": "topic_mastered", "topicSlug": "m5-stellenwertsystem"}'::jsonb),
+  (6::smallint, 'Erste Lektion: Bruchteile', 'book-open', 1, '{"type": "lesson_completed", "lessonSlug": "m6-bruchteile-ep1"}'::jsonb),
+  (6::smallint, 'Brüche gemeistert', 'trophy', 2, '{"type": "topic_mastered", "topicSlug": "m6-bruchteile"}'::jsonb)
+) as new_milestones(grade_id, title, icon_key, sequence_order, unlock_rule)
+where not exists (
+  select 1 from milestones m where m.grade_id = new_milestones.grade_id and m.title = new_milestones.title
+);

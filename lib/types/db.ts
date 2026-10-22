@@ -34,6 +34,7 @@ export interface Database {
         id: string;
         grade_level: number;
         school_track: SchoolTrack;
+        invite_code: string | null;
       }>;
       parents: Table<{ id: string }>;
       parent_child_links: Table<{

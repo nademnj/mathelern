@@ -45,6 +45,18 @@ export default async function StudentDashboardPage() {
           )}
         </CardContent>
       </Card>
+
+      <Card>
+        <CardHeader>
+          <CardTitle>Einladungscode für Eltern</CardTitle>
+        </CardHeader>
+        <CardContent>
+          <p className="text-sm text-muted-foreground">
+            Gib diesen Code deinen Eltern, damit sie deinen Fortschritt sehen können:
+          </p>
+          <p className="mt-2 font-mono text-2xl tracking-widest">{student?.invite_code}</p>
+        </CardContent>
+      </Card>
     </div>
   );
 }
