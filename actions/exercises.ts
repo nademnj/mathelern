@@ -12,6 +12,7 @@ import { selectNextDifficulty } from "@/lib/adaptive/selectNextDifficulty";
 import { computeMasterySignal, REMEDIAL_ROUND_CAP } from "@/lib/adaptive/masterySignals";
 import { STRUGGLING_THRESHOLD } from "@/lib/adaptive/masteryModel";
 import { checkAndAwardMilestones } from "@/lib/milestones/checkMilestones";
+import { generateExamStyleExercise } from "@/lib/chat/exerciseGenerator";
 
 function toMasteryState(row: {
   mastery_score: number;
@@ -83,6 +84,111 @@ export async function getNextExercise(
   const seed = Math.floor(Math.random() * 2 ** 31);
   const exercise = generatorFn({ difficultyTier, seed });
 
+  const { data: instance, error: instanceError } = await admin
+    .from("exercise_instances")
+    .insert({
+      exercise_id: exerciseDef.id,
+      student_id: studentId,
+      seed,
+      rendered_question: exercise.question,
+    })
+    .select("id")
+    .single();
+  if (instanceError || !instance) return { error: instanceError?.message ?? "Übung konnte nicht erstellt werden." };
+
+  const { error: answerError } = await admin.from("exercise_instance_answers").insert({
+    exercise_instance_id: instance.id,
+    rendered_answer: exercise.answer,
+    solution_steps: exercise.solutionSteps,
+  });
+  if (answerError) return { error: answerError.message };
+
+  return {
+    exerciseInstanceId: instance.id,
+    question: exercise.question,
+    difficultyTier,
+    isRemedial,
+    masteryScore: masteryState?.masteryScore ?? 0,
+    masteryStatus: masteryState?.status ?? "not_started",
+  };
+}
+
+/**
+ * Exam-prep mode: instead of the deterministic PRNG generator, an AI-authored
+ * exercise is created fresh in the real Bavarian Schulaufgabe style, at the
+ * same difficulty tier the adaptive ladder would pick next -- so it starts
+ * easy and climbs exactly like regular practice, just exam-flavored. It is
+ * persisted through the normal exercises/exercise_instances tables so
+ * submitAttempt() and the mastery ladder need no changes at all.
+ */
+export async function generateAiExercise(
+  topicSlug: string
+): Promise<NextExercisePayload | { error: string }> {
+  const supabase = await createClient();
+  const { data: auth } = await supabase.auth.getUser();
+  if (!auth.user) return { error: "Nicht angemeldet." };
+  const studentId = auth.user.id;
+
+  const admin = createAdminClient();
+
+  const { data: topic } = await admin
+    .from("topics")
+    .select("id, title, lehrplan_ref, is_published")
+    .eq("slug", topicSlug)
+    .single();
+  if (!topic || !topic.is_published) return { error: "Thema nicht gefunden." };
+
+  const { data: masteryRow } = await admin
+    .from("topic_mastery")
+    .select("*")
+    .eq("student_id", studentId)
+    .eq("topic_id", topic.id)
+    .maybeSingle();
+  const masteryState = masteryRow ? toMasteryState(masteryRow) : null;
+  const difficultyTier = selectNextDifficulty(masteryState);
+  const isRemedial = masteryState ? computeMasterySignal(masteryState).needsWorkedExamples : false;
+
+  const { data: topicExerciseRows } = await admin.from("exercises").select("id").eq("topic_id", topic.id);
+  const topicExerciseIds = (topicExerciseRows ?? []).map((r) => r.id);
+  const { data: recentRows } =
+    topicExerciseIds.length > 0
+      ? await admin
+          .from("exercise_instances")
+          .select("rendered_question")
+          .eq("student_id", studentId)
+          .in("exercise_id", topicExerciseIds)
+          .order("created_at", { ascending: false })
+          .limit(5)
+      : { data: [] as { rendered_question: unknown }[] };
+  const avoidPrompts = (recentRows ?? []).map((r) => (r.rendered_question as { prompt: string }).prompt);
+
+  let exercise;
+  try {
+    exercise = await generateExamStyleExercise({
+      topicTitle: topic.title,
+      lehrplanRef: topic.lehrplan_ref ?? topic.title,
+      difficultyTier,
+      avoidPrompts,
+    });
+  } catch (err) {
+    return { error: err instanceof Error ? err.message : "Die Prüfungsaufgabe konnte nicht erstellt werden." };
+  }
+
+  const { data: exerciseDef, error: exerciseError } = await admin
+    .from("exercises")
+    .insert({
+      topic_id: topic.id,
+      mode: "static",
+      difficulty_tier: difficultyTier,
+      static_payload: exercise.question,
+      solution_script: exercise.solutionSteps,
+      tags: ["ai_generated", "exam_style"],
+    })
+    .select("id")
+    .single();
+  if (exerciseError || !exerciseDef) return { error: exerciseError?.message ?? "Übung konnte nicht erstellt werden." };
+
+  const seed = Math.floor(Math.random() * 2 ** 31);
   const { data: instance, error: instanceError } = await admin
     .from("exercise_instances")
     .insert({

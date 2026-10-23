@@ -2,7 +2,13 @@
 
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
-import { getNextExercise, submitAttempt, type NextExercisePayload, type SubmitAttemptResult } from "@/actions/exercises";
+import {
+  getNextExercise,
+  generateAiExercise,
+  submitAttempt,
+  type NextExercisePayload,
+  type SubmitAttemptResult,
+} from "@/actions/exercises";
 import type { GeneratedAnswer } from "@/lib/generators";
 import { ExerciseQuestion, type AnswerDraft } from "./ExerciseQuestion";
 import { WorkedSolutionPanel } from "./WorkedSolutionPanel";
@@ -11,7 +17,7 @@ import { Button } from "@/components/ui/button";
 import { Progress } from "@/components/ui/progress";
 import { Card, CardContent } from "@/components/ui/card";
 
-type Status = "loading" | "active" | "submitting" | "feedback" | "mastered" | "error";
+type Status = "loading" | "loadingAi" | "active" | "submitting" | "feedback" | "mastered" | "error";
 
 function draftToAnswer(format: "numeric" | "fraction" | "text", draft: AnswerDraft): GeneratedAnswer {
   if (format === "fraction") {
@@ -34,13 +40,31 @@ export function ExerciseRunner({ topicSlug, topicTitle, topicHref }: { topicSlug
   const [draft, setDraft] = useState<AnswerDraft>({});
   const [feedback, setFeedback] = useState<SubmitAttemptResult | null>(null);
   const [errorMessage, setErrorMessage] = useState<string | null>(null);
+  const [isExamMode, setIsExamMode] = useState(false);
   const startedAt = useRef(Date.now());
 
   async function loadNext() {
     setStatus("loading");
     setFeedback(null);
     setDraft({});
+    setIsExamMode(false);
     const result = await getNextExercise(topicSlug);
+    if ("error" in result) {
+      setErrorMessage(result.error);
+      setStatus("error");
+      return;
+    }
+    setExercise(result);
+    startedAt.current = Date.now();
+    setStatus("active");
+  }
+
+  async function loadNextAiExercise() {
+    setStatus("loadingAi");
+    setFeedback(null);
+    setDraft({});
+    setIsExamMode(true);
+    const result = await generateAiExercise(topicSlug);
     if ("error" in result) {
       setErrorMessage(result.error);
       setStatus("error");
@@ -94,7 +118,14 @@ export function ExerciseRunner({ topicSlug, topicTitle, topicHref }: { topicSlug
   return (
     <div className="mx-auto max-w-md space-y-6">
       <div>
-        <h1 className="text-xl font-semibold">{topicTitle} – Übung</h1>
+        <div className="flex items-start justify-between gap-3">
+          <h1 className="text-xl font-semibold">{topicTitle} – Übung</h1>
+          {isExamMode && (
+            <span className="shrink-0 rounded-full bg-secondary px-2 py-0.5 text-xs font-medium text-secondary-foreground">
+              📝 Prüfungsmodus
+            </span>
+          )}
+        </div>
         {exercise && (
           <>
             <Progress value={exercise.masteryScore} className="mt-3" />
@@ -103,10 +134,22 @@ export function ExerciseRunner({ topicSlug, topicTitle, topicHref }: { topicSlug
             </p>
           </>
         )}
+        {(status === "active" || status === "submitting") && (
+          <button
+            onClick={loadNextAiExercise}
+            className="mt-2 text-xs text-primary underline hover:no-underline"
+          >
+            📝 Prüfungsaufgabe generieren (KI, steigende Schwierigkeit)
+          </button>
+        )}
       </div>
 
       {status === "loading" || status === "submitting" ? (
         <p className="text-center text-muted-foreground">Lädt…</p>
+      ) : status === "loadingAi" ? (
+        <p className="text-center text-muted-foreground">
+          📝 KI erstellt eine Prüfungsaufgabe im Stil einer echten Schulaufgabe…
+        </p>
       ) : exercise && status === "active" ? (
         <Card>
           <CardContent className="pt-6">
@@ -132,9 +175,12 @@ export function ExerciseRunner({ topicSlug, topicTitle, topicHref }: { topicSlug
           </p>
           <WorkedSolutionPanel steps={feedback.solutionSteps} />
           {feedback.needsWorkedExamples && <MasterySignalToast />}
-          <div className="flex justify-center gap-3">
+          <div className="flex flex-wrap justify-center gap-3">
             <Button variant="outline" nativeButton={false} render={<Link href={topicHref}>Beenden</Link>} />
-            <Button onClick={loadNext}>Nächste Übung</Button>
+            <Button variant="outline" onClick={loadNext}>
+              Nächste Übung
+            </Button>
+            <Button onClick={loadNextAiExercise}>📝 Nächste Prüfungsaufgabe</Button>
           </div>
         </div>
       ) : null}
