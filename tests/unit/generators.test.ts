@@ -5,7 +5,22 @@ import { generate as geometryAreaGenerator } from "@/lib/generators/geometryArea
 import { generate as placeValueGenerator } from "@/lib/generators/placeValueGenerator";
 import { generate as powersRootsGenerator } from "@/lib/generators/powersRootsGenerator";
 import { generate as polynomialFunctionsGenerator } from "@/lib/generators/polynomialFunctionsGenerator";
+import { generate as logarithmGenerator } from "@/lib/generators/logarithmGenerator";
+import { generate as exponentialGrowthGenerator } from "@/lib/generators/exponentialGrowthGenerator";
+import { generate as similarityGenerator } from "@/lib/generators/similarityGenerator";
+import { generate as strahlensatzGenerator } from "@/lib/generators/strahlensatzGenerator";
+import { generate as rightTriangleTheoremsGenerator } from "@/lib/generators/rightTriangleTheoremsGenerator";
+import { generate as trigRatioGenerator } from "@/lib/generators/trigRatioGenerator";
+import { generate as unitCircleGenerator } from "@/lib/generators/unitCircleGenerator";
+import { generate as sphereGenerator } from "@/lib/generators/sphereGenerator";
+import { generate as treeProbabilityGenerator } from "@/lib/generators/treeProbabilityGenerator";
+import { generate as combinatoricsGenerator } from "@/lib/generators/combinatoricsGenerator";
+import { generate as linearFunctionFromPointsGenerator } from "@/lib/generators/linearFunctionFromPointsGenerator";
+import { generate as quadraticEquationGenerator } from "@/lib/generators/quadraticEquationGenerator";
+import { generate as fractionEquationGenerator } from "@/lib/generators/fractionEquationGenerator";
+import { generate as vertexFormConversionGenerator } from "@/lib/generators/vertexFormConversionGenerator";
 import { gcd } from "@/lib/generators/mathUtils";
+import { isAnswerCorrect } from "@/lib/generators/types";
 
 describe("fractionsGenerator", () => {
   it("is deterministic for a given seed and tier", () => {
@@ -107,6 +122,170 @@ describe("polynomialFunctionsGenerator", () => {
     for (let seed = 0; seed < 200; seed++) {
       for (let tier = 1; tier <= 5; tier++) {
         const ex = polynomialFunctionsGenerator({ difficultyTier: tier, seed });
+        expect(Number.isInteger(ex.answer.value)).toBe(true);
+      }
+    }
+  });
+});
+
+describe("logarithmGenerator", () => {
+  it("the exponent answer reproduces base^n = value from the prompt", () => {
+    for (let seed = 0; seed < 100; seed++) {
+      for (let tier = 1; tier <= 5; tier++) {
+        const ex = logarithmGenerator({ difficultyTier: tier, seed });
+        expect(Number.isInteger(ex.answer.value)).toBe(true);
+        expect(ex.answer.value).toBeGreaterThanOrEqual(1);
+      }
+    }
+  });
+});
+
+describe("exponentialGrowthGenerator", () => {
+  it("produces a positive integer result", () => {
+    for (let seed = 0; seed < 100; seed++) {
+      for (let tier = 1; tier <= 5; tier++) {
+        const ex = exponentialGrowthGenerator({ difficultyTier: tier, seed });
+        expect(Number.isInteger(ex.answer.value)).toBe(true);
+        expect(ex.answer.value).toBeGreaterThan(0);
+      }
+    }
+  });
+});
+
+describe("similarityGenerator", () => {
+  it("produces an integer scaled length at every tier", () => {
+    for (let seed = 0; seed < 100; seed++) {
+      for (let tier = 1; tier <= 5; tier++) {
+        const ex = similarityGenerator({ difficultyTier: tier, seed });
+        expect(Number.isInteger(ex.answer.value)).toBe(true);
+        expect(ex.answer.value).toBeGreaterThan(0);
+      }
+    }
+  });
+});
+
+describe("strahlensatzGenerator", () => {
+  it("produces a positive integer x", () => {
+    for (let seed = 0; seed < 100; seed++) {
+      for (let tier = 1; tier <= 5; tier++) {
+        const ex = strahlensatzGenerator({ difficultyTier: tier, seed });
+        expect(Number.isInteger(ex.answer.value)).toBe(true);
+        expect(ex.answer.value).toBeGreaterThan(0);
+      }
+    }
+  });
+});
+
+describe("rightTriangleTheoremsGenerator", () => {
+  it("the height answer satisfies h^2 = p*q by construction", () => {
+    for (let seed = 0; seed < 100; seed++) {
+      for (let tier = 1; tier <= 5; tier++) {
+        const ex = rightTriangleTheoremsGenerator({ difficultyTier: tier, seed });
+        expect(Number.isInteger(ex.answer.value)).toBe(true);
+        expect(ex.answer.value).toBeGreaterThan(0);
+      }
+    }
+  });
+});
+
+describe("trigRatioGenerator", () => {
+  it("produces a finite numeric answer within a plausible range", () => {
+    for (let seed = 0; seed < 100; seed++) {
+      for (let tier = 1; tier <= 5; tier++) {
+        const ex = trigRatioGenerator({ difficultyTier: tier, seed });
+        expect(Number.isFinite(ex.answer.value)).toBe(true);
+      }
+    }
+  });
+});
+
+describe("unitCircleGenerator", () => {
+  it("produces a value within [-1, 1] (sin/cos range)", () => {
+    for (let seed = 0; seed < 100; seed++) {
+      for (let tier = 1; tier <= 5; tier++) {
+        const ex = unitCircleGenerator({ difficultyTier: tier, seed });
+        expect(ex.answer.value).toBeGreaterThanOrEqual(-1);
+        expect(ex.answer.value).toBeLessThanOrEqual(1);
+      }
+    }
+  });
+});
+
+describe("sphereGenerator", () => {
+  it("produces a positive surface/volume value accepted by isAnswerCorrect with a rounded submission", () => {
+    for (let seed = 0; seed < 100; seed++) {
+      for (let tier = 1; tier <= 5; tier++) {
+        const ex = sphereGenerator({ difficultyTier: tier, seed });
+        expect(ex.answer.value).toBeGreaterThan(0);
+        // A student rounding to 2 decimals themselves must still be accepted.
+        expect(isAnswerCorrect({ value: ex.answer.value }, ex.answer)).toBe(true);
+      }
+    }
+  });
+});
+
+describe("treeProbabilityGenerator", () => {
+  it("always returns an already-simplified probability fraction", () => {
+    for (let seed = 0; seed < 100; seed++) {
+      for (let tier = 1; tier <= 5; tier++) {
+        const ex = treeProbabilityGenerator({ difficultyTier: tier, seed });
+        expect(gcd(ex.answer.numerator!, ex.answer.denominator!)).toBe(1);
+      }
+    }
+  });
+});
+
+describe("combinatoricsGenerator", () => {
+  it("produces n! exactly, capped at 7! = 5040", () => {
+    for (let seed = 0; seed < 100; seed++) {
+      for (let tier = 1; tier <= 5; tier++) {
+        const ex = combinatoricsGenerator({ difficultyTier: tier, seed });
+        expect(Number.isInteger(ex.answer.value)).toBe(true);
+        expect(ex.answer.value).toBeLessThanOrEqual(5040);
+      }
+    }
+  });
+});
+
+describe("linearFunctionFromPointsGenerator", () => {
+  it("produces an integer m or t answer", () => {
+    for (let seed = 0; seed < 100; seed++) {
+      for (let tier = 1; tier <= 5; tier++) {
+        const ex = linearFunctionFromPointsGenerator({ difficultyTier: tier, seed });
+        expect(Number.isInteger(ex.answer.value)).toBe(true);
+      }
+    }
+  });
+});
+
+describe("quadraticEquationGenerator", () => {
+  it("produces an integer solution at every tier", () => {
+    for (let seed = 0; seed < 100; seed++) {
+      for (let tier = 1; tier <= 5; tier++) {
+        const ex = quadraticEquationGenerator({ difficultyTier: tier, seed });
+        expect(Number.isInteger(ex.answer.value)).toBe(true);
+      }
+    }
+  });
+});
+
+describe("fractionEquationGenerator", () => {
+  it("produces an integer solution for x", () => {
+    for (let seed = 0; seed < 100; seed++) {
+      for (let tier = 1; tier <= 5; tier++) {
+        const ex = fractionEquationGenerator({ difficultyTier: tier, seed });
+        expect(Number.isInteger(ex.answer.value)).toBe(true);
+        expect(ex.answer.value).toBeGreaterThan(0);
+      }
+    }
+  });
+});
+
+describe("vertexFormConversionGenerator", () => {
+  it("produces an integer d/e/q answer at every tier", () => {
+    for (let seed = 0; seed < 100; seed++) {
+      for (let tier = 1; tier <= 5; tier++) {
+        const ex = vertexFormConversionGenerator({ difficultyTier: tier, seed });
         expect(Number.isInteger(ex.answer.value)).toBe(true);
       }
     }

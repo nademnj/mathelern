@@ -30,7 +30,10 @@ export function isAnswerCorrect(submitted: GeneratedAnswer, expected: GeneratedA
     return submitted.numerator === expected.numerator && submitted.denominator === expected.denominator;
   }
   if (expected.value !== undefined) {
-    return typeof submitted.value === "number" && Math.abs(submitted.value - expected.value) < 1e-6;
+    // Wide enough to absorb a student's own pi/calculator rounding (e.g.
+    // sphereGenerator's surface/volume answers) without weakening exact
+    // integer checks in any meaningful way.
+    return typeof submitted.value === "number" && Math.abs(submitted.value - expected.value) < 0.05;
   }
   if (expected.text !== undefined) {
     return submitted.text?.trim().toLowerCase() === expected.text.trim().toLowerCase();

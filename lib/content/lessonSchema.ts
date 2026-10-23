@@ -70,6 +70,15 @@ const barModelVizSchema = z.object({
   }),
 });
 
+const treeDiagramVizSchema = z.object({
+  component: z.literal("TreeDiagramViz"),
+  props: z.object({
+    branches: z.array(z.object({ label: z.string(), probability: z.string() })).min(1),
+    secondBranches: z.array(z.object({ label: z.string(), probability: z.string() })).min(1),
+    highlightPath: z.tuple([z.string(), z.string()]).optional(),
+  }),
+});
+
 export const storyboardBeatSchema = z
   .discriminatedUnion("component", [
     numberLineVizSchema,
@@ -79,6 +88,7 @@ export const storyboardBeatSchema = z
     angleVizSchema,
     coordinatePlaneVizSchema,
     barModelVizSchema,
+    treeDiagramVizSchema,
   ])
   .and(
     z.object({

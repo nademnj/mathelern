@@ -7,6 +7,7 @@ import {
   AngleViz,
   CoordinatePlaneViz,
   BarModelViz,
+  TreeDiagramViz,
 } from "@/components/visuals/VizRegistry";
 
 // Thin dispatcher: storyboard beat -> the matching Viz component. A switch
@@ -28,6 +29,8 @@ export function StoryboardStepRenderer({ beat }: { beat: StoryboardBeat }) {
       return <CoordinatePlaneViz {...beat.props} />;
     case "BarModelViz":
       return <BarModelViz {...beat.props} />;
+    case "TreeDiagramViz":
+      return <TreeDiagramViz {...beat.props} />;
     default:
       return null;
   }

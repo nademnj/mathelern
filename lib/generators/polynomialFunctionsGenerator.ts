@@ -1,4 +1,5 @@
 import { makeRng } from "./prng";
+import { makeMonicQuadraticFromRoots, formatQuadratic } from "./mathUtils";
 import type { GeneratedExercise, GeneratorArgs } from "./types";
 
 // Linear & quadratic functions (FOS11 Lernbereich 1). Tiers 1-2: read the
@@ -36,16 +37,8 @@ export function generate({ difficultyTier, seed }: GeneratorArgs): GeneratedExer
     };
   }
 
-  // Tiers 3-5: pick two integer roots of the same parity so (r1+r2)/2 (the
-  // vertex x-coordinate) is always a whole number.
-  const r1 = rng.int(-6, 6);
-  let r2 = rng.int(-6, 6);
-  while (r2 === r1 || (r2 - r1) % 2 !== 0) r2 = rng.int(-6, 6);
-  const p = -(r1 + r2);
-  const q = r1 * r2;
-  const funcExpr = `y = x² ${p >= 0 ? "+" : "-"} ${Math.abs(p)}x ${q >= 0 ? "+" : "-"} ${Math.abs(q)}`;
-  const vertexX = (r1 + r2) / 2;
-  const vertexY = vertexX * vertexX + p * vertexX + q;
+  const { r1, r2, p, q, vertexX, vertexY } = makeMonicQuadraticFromRoots(rng);
+  const funcExpr = formatQuadratic(p, q);
 
   if (difficultyTier === 3) {
     return {

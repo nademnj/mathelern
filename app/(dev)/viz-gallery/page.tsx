@@ -8,6 +8,7 @@ import {
   AngleViz,
   CoordinatePlaneViz,
   BarModelViz,
+  TreeDiagramViz,
 } from "@/components/visuals/VizRegistry";
 
 export default function VizGalleryPage() {
@@ -49,6 +50,22 @@ export default function VizGalleryPage() {
             { value: 60, label: "Richtig" },
             { value: 40, label: "Übung" },
           ]}
+        />
+      ),
+    },
+    {
+      name: "TreeDiagramViz",
+      node: (
+        <TreeDiagramViz
+          branches={[
+            { label: "rot", probability: "3/5" },
+            { label: "blau", probability: "2/5" },
+          ]}
+          secondBranches={[
+            { label: "rot", probability: "3/5" },
+            { label: "blau", probability: "2/5" },
+          ]}
+          highlightPath={["rot", "blau"]}
         />
       ),
     },
