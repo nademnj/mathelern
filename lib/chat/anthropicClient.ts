@@ -94,6 +94,9 @@ export async function askTutor(
   const response = await client.messages.create({
     model: MODEL,
     max_tokens: 1024,
+    // Short tutoring replies don't need the default "high" reasoning depth;
+    // "medium" keeps answer quality while capping billed thinking tokens.
+    output_config: { effort: "medium" },
     system: buildSystemPrompt(context.gradeLevel, context.schoolTrackLabel, context.topicTitle, context.lessonInfo),
     messages: history.map((turn) => ({
       role: turn.role === "student" ? "user" : "assistant",

@@ -72,6 +72,9 @@ export async function generateExamStyleExercise(context: {
   const response = await client.messages.create({
     model: MODEL,
     max_tokens: 800,
+    // Short, schema-constrained JSON generation doesn't need deep reasoning
+    // -- "low" effort keeps the (billed) adaptive-thinking overhead small.
+    output_config: { effort: "low" },
     system: buildSystemPrompt(context.topicTitle, context.lehrplanRef, context.difficultyTier, context.avoidPrompts),
     messages: [{ role: "user", content: "Erstelle die Prüfungsaufgabe jetzt." }],
   });
