@@ -1,0 +1,33 @@
+{
+  "slug": "fos11-differenzialquotient-tangentensteigung-ep1",
+  "topicSlug": "fos11-differenzialquotient-tangentensteigung",
+  "topicRef": "FOS11 LB2",
+  "title": "Differenzialquotient & Tangentensteigung",
+  "episodeNumber": 1,
+  "estimatedMinutes": 4,
+  "script": [
+    { "beatId": "intro", "narration": "Lässt du beim Differenzenquotienten den zweiten Punkt immer näher an den ersten heranrücken, erhältst du den Differenzialquotienten – die Steigung der Tangente in genau einem Punkt." },
+    { "beatId": "why", "narration": "Das ist die Momentangeschwindigkeit statt der Durchschnittsgeschwindigkeit – wie schnell sich etwas GENAU JETZT verändert." },
+    { "beatId": "derivative", "narration": "Für f(x) gleich x hoch 2 ist die Ableitung f'(x) gleich 2x – eine Formel, die dir sofort die Tangentensteigung an jeder Stelle gibt." },
+    { "beatId": "example", "narration": "An der Stelle x gleich 3 ist die Tangentensteigung f'(3) gleich 2 mal 3 gleich 6." },
+    { "beatId": "recap", "narration": "Zusammengefasst: Der Differenzialquotient f'(x) gibt dir die Steigung der Tangente an einem einzelnen Punkt." }
+  ],
+  "storyboard": [
+    { "beatId": "beat-intro", "narrationRef": "intro", "component": "CoordinatePlaneViz", "props": { "range": 6, "points": [ { "x": 3, "y": 3, "label": "P" } ] } },
+    { "beatId": "beat-why", "narrationRef": "why", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Anwendung", "expression": "Momentangeschwindigkeit" }
+    ] } },
+    { "beatId": "beat-derivative", "narrationRef": "derivative", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Funktion", "expression": "f(x) = x²" },
+      { "label": "Ableitung", "expression": "f'(x) = 2x" }
+    ] } },
+    { "beatId": "beat-example", "narrationRef": "example", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Einsetzen", "expression": "f'(3) = 2 · 3" },
+      { "label": "Ergebnis", "expression": "f'(3) = 6" }
+    ] } },
+    { "beatId": "beat-recap", "narrationRef": "recap", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Merksatz", "expression": "f'(x) = Tangentensteigung an der Stelle x" }
+    ] } }
+  ],
+  "videoUrl": null
+}

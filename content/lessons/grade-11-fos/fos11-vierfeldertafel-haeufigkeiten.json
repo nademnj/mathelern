@@ -1,0 +1,34 @@
+{
+  "slug": "fos11-vierfeldertafel-haeufigkeiten-ep1",
+  "topicSlug": "fos11-vierfeldertafel-haeufigkeiten",
+  "topicRef": "FOS11 LB4",
+  "title": "Vierfeldertafel & relative Häufigkeiten",
+  "episodeNumber": 1,
+  "estimatedMinutes": 3,
+  "script": [
+    { "beatId": "intro", "narration": "Eine Vierfeldertafel ordnet Daten nach zwei Merkmalen gleichzeitig – zum Beispiel 'männlich/weiblich' und 'Raucher/Nichtraucher'." },
+    { "beatId": "why", "narration": "So siehst du auf einen Blick, wie zwei Merkmale zusammenhängen – wichtig für Statistik in Medizin, Marktforschung und mehr." },
+    { "beatId": "structure", "narration": "Die vier Felder zeigen die Kombinationen: A und B, A und nicht-B, nicht-A und B, nicht-A und nicht-B. Zeilen- und Spaltensummen ergänzen die Tafel." },
+    { "beatId": "example", "narration": "Ist |A ∩ B| gleich 15 und |A ∩ nicht-B| gleich 10, dann ist die Zeilensumme |A| gleich 15 plus 10 gleich 25." },
+    { "beatId": "recap", "narration": "Zusammengefasst: Zeilen- und Spaltensummen einer Vierfeldertafel ergeben sich durch einfaches Addieren der Felder." }
+  ],
+  "storyboard": [
+    { "beatId": "beat-intro", "narrationRef": "intro", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Zwei Merkmale", "expression": "A/Ā und B/B̄" }
+    ] } },
+    { "beatId": "beat-why", "narrationRef": "why", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Anwendung", "expression": "Statistik, Medizin, Marktforschung" }
+    ] } },
+    { "beatId": "beat-structure", "narrationRef": "structure", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Vier Felder", "expression": "A∩B, A∩B̄, Ā∩B, Ā∩B̄" }
+    ] } },
+    { "beatId": "beat-example", "narrationRef": "example", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Gegeben", "expression": "|A ∩ B| = 15, |A ∩ B̄| = 10" },
+      { "label": "Zeilensumme", "expression": "|A| = 15 + 10 = 25" }
+    ] } },
+    { "beatId": "beat-recap", "narrationRef": "recap", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Merksatz", "expression": "Randsummen = Summe der Felder in Zeile/Spalte" }
+    ] } }
+  ],
+  "videoUrl": null
+}

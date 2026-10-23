@@ -1,0 +1,32 @@
+{
+  "slug": "fos11-differenzenquotient-sekantensteigung-ep1",
+  "topicSlug": "fos11-differenzenquotient-sekantensteigung",
+  "topicRef": "FOS11 LB2",
+  "title": "Differenzenquotient & Sekantensteigung",
+  "episodeNumber": 1,
+  "estimatedMinutes": 4,
+  "script": [
+    { "beatId": "intro", "narration": "Der Differenzenquotient misst die durchschnittliche Änderungsrate zwischen zwei Punkten einer Funktion – die Steigung der Sekante." },
+    { "beatId": "why", "narration": "So berechnest du zum Beispiel die Durchschnittsgeschwindigkeit zwischen zwei Zeitpunkten, wenn du nur die zurückgelegte Strecke kennst." },
+    { "beatId": "formula", "narration": "Die Formel: Differenzenquotient gleich (f von x2 minus f von x1) geteilt durch (x2 minus x1)." },
+    { "beatId": "example", "narration": "Für f(x) gleich x hoch 2, zwischen x1 gleich 1 und x2 gleich 4: (16 minus 1) durch (4 minus 1) gleich 15 durch 3 gleich 5." },
+    { "beatId": "recap", "narration": "Zusammengefasst: Der Differenzenquotient ist die Steigung der Sekante durch zwei Punkte – eine durchschnittliche Änderungsrate." }
+  ],
+  "storyboard": [
+    { "beatId": "beat-intro", "narrationRef": "intro", "component": "CoordinatePlaneViz", "props": { "range": 6, "points": [ { "x": 1, "y": 1, "label": "P1" }, { "x": 4, "y": 4, "label": "P2" } ] } },
+    { "beatId": "beat-why", "narrationRef": "why", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Anwendung", "expression": "Durchschnittsgeschwindigkeit" }
+    ] } },
+    { "beatId": "beat-formula", "narrationRef": "formula", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Formel", "expression": "(f(x₂) - f(x₁)) / (x₂ - x₁)" }
+    ] } },
+    { "beatId": "beat-example", "narrationRef": "example", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "f(x) = x², x₁=1, x₂=4", "expression": "(16 - 1) / (4 - 1)" },
+      { "label": "Ergebnis", "expression": "15 / 3 = 5" }
+    ] } },
+    { "beatId": "beat-recap", "narrationRef": "recap", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Merksatz", "expression": "Differenzenquotient = Sekantensteigung" }
+    ] } }
+  ],
+  "videoUrl": null
+}

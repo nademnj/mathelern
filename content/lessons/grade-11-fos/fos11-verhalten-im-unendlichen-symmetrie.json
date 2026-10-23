@@ -1,0 +1,35 @@
+{
+  "slug": "fos11-verhalten-im-unendlichen-symmetrie-ep1",
+  "topicSlug": "fos11-verhalten-im-unendlichen-symmetrie",
+  "topicRef": "FOS11 LB1",
+  "title": "Verhalten im Unendlichen & Symmetrie",
+  "episodeNumber": 1,
+  "estimatedMinutes": 3,
+  "script": [
+    { "beatId": "intro", "narration": "Was passiert mit einer Funktion, wenn x sehr groß oder sehr klein wird? Das Verhalten im Unendlichen hängt vom höchsten Exponenten und seinem Vorzeichen ab." },
+    { "beatId": "why", "narration": "Damit kannst du vorhersagen, ob ein Graph nach oben oder unten wegläuft – ohne jeden Punkt einzeln zu berechnen." },
+    { "beatId": "symmetry", "narration": "Enthält die Funktion nur gerade Exponenten, ist sie achsensymmetrisch zur y-Achse. Nur ungerade Exponenten bedeuten punktsymmetrisch zum Ursprung." },
+    { "beatId": "example", "narration": "y gleich x hoch 4 hat nur den geraden Exponenten 4 – der Graph ist also achsensymmetrisch." },
+    { "beatId": "recap", "narration": "Zusammengefasst: Gerade Exponenten → achsensymmetrisch. Ungerade Exponenten → punktsymmetrisch." }
+  ],
+  "storyboard": [
+    { "beatId": "beat-intro", "narrationRef": "intro", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Frage", "expression": "Was passiert für x → ±∞?" }
+    ] } },
+    { "beatId": "beat-why", "narrationRef": "why", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Anwendung", "expression": "Grobe Vorhersage des Graphenverlaufs" }
+    ] } },
+    { "beatId": "beat-symmetry", "narrationRef": "symmetry", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Gerade Exponenten", "expression": "achsensymmetrisch (y-Achse)" },
+      { "label": "Ungerade Exponenten", "expression": "punktsymmetrisch (Ursprung)" }
+    ] } },
+    { "beatId": "beat-example", "narrationRef": "example", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Funktion", "expression": "y = x⁴" },
+      { "label": "Ergebnis", "expression": "achsensymmetrisch" }
+    ] } },
+    { "beatId": "beat-recap", "narrationRef": "recap", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Merksatz", "expression": "gerade → Achse, ungerade → Ursprung" }
+    ] } }
+  ],
+  "videoUrl": null
+}

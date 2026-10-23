@@ -1,0 +1,34 @@
+{
+  "slug": "fos11-grenzwert-differenzierbarkeit-ep1",
+  "topicSlug": "fos11-grenzwert-differenzierbarkeit",
+  "topicRef": "FOS11 LB2",
+  "title": "Grenzwert & Differenzierbarkeit",
+  "episodeNumber": 1,
+  "estimatedMinutes": 3,
+  "script": [
+    { "beatId": "intro", "narration": "Ein Grenzwert beschreibt, welchem Wert sich eine Funktion annähert, wenn sich x einem bestimmten Wert nähert." },
+    { "beatId": "why", "narration": "Grenzwerte sind die Grundlage der Differenzialrechnung – ohne sie gäbe es keine Ableitung." },
+    { "beatId": "continuity", "narration": "Bei stetigen Funktionen wie Polynomen ist der Grenzwert einfach der Funktionswert an der Stelle – du setzt einfach ein." },
+    { "beatId": "example", "narration": "Der Grenzwert von x hoch 2 plus 1 für x gegen 3 ist 3 hoch 2 plus 1 gleich 10." },
+    { "beatId": "recap", "narration": "Zusammengefasst: Bei stetigen Funktionen berechnest du Grenzwerte durch einfaches Einsetzen." }
+  ],
+  "storyboard": [
+    { "beatId": "beat-intro", "narrationRef": "intro", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Schreibweise", "expression": "lim (x → a) f(x)" }
+    ] } },
+    { "beatId": "beat-why", "narrationRef": "why", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Grundlage für", "expression": "Differenzialrechnung" }
+    ] } },
+    { "beatId": "beat-continuity", "narrationRef": "continuity", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Bei stetigen Funktionen", "expression": "Grenzwert = Funktionswert" }
+    ] } },
+    { "beatId": "beat-example", "narrationRef": "example", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Aufgabe", "expression": "lim (x → 3) von (x² + 1)" },
+      { "label": "Einsetzen", "expression": "3² + 1 = 10" }
+    ] } },
+    { "beatId": "beat-recap", "narrationRef": "recap", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Merksatz", "expression": "Stetig → einfach einsetzen" }
+    ] } }
+  ],
+  "videoUrl": null
+}

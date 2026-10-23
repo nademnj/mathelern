@@ -1,0 +1,35 @@
+{
+  "slug": "fos11-ereignisse-mengenoperationen-ep1",
+  "topicSlug": "fos11-ereignisse-mengenoperationen",
+  "topicRef": "FOS11 LB3",
+  "title": "Ereignisse & Mengenoperationen",
+  "episodeNumber": 1,
+  "estimatedMinutes": 3,
+  "script": [
+    { "beatId": "intro", "narration": "Ein Ereignis ist eine Teilmenge des Ergebnisraums – zum Beispiel 'gerade Zahl würfeln'. Mit Mengenoperationen verknüpfst du mehrere Ereignisse." },
+    { "beatId": "why", "narration": "So kannst du komplexere Fragen beantworten, wie 'Wahrscheinlichkeit für A oder B' oder 'A und B gleichzeitig'." },
+    { "beatId": "operations", "narration": "Vereinigung A ∪ B: A oder B tritt ein. Schnittmenge A ∩ B: beide treten ein. Komplement Ā: A tritt nicht ein." },
+    { "beatId": "formula", "narration": "Für die Vereinigung gilt: |A ∪ B| gleich |A| plus |B| minus |A ∩ B| – sonst zählst du die Schnittmenge doppelt." },
+    { "beatId": "recap", "narration": "Zusammengefasst: Vereinigung, Schnittmenge und Komplement sind die Grundwerkzeuge, um Ereignisse zu kombinieren." }
+  ],
+  "storyboard": [
+    { "beatId": "beat-intro", "narrationRef": "intro", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Beispiel", "expression": "A = {gerade Zahl} = {2, 4, 6}" }
+    ] } },
+    { "beatId": "beat-why", "narrationRef": "why", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Anwendung", "expression": "P(A oder B), P(A und B)" }
+    ] } },
+    { "beatId": "beat-operations", "narrationRef": "operations", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Vereinigung", "expression": "A ∪ B" },
+      { "label": "Schnittmenge", "expression": "A ∩ B" },
+      { "label": "Komplement", "expression": "Ā" }
+    ] } },
+    { "beatId": "beat-formula", "narrationRef": "formula", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Formel", "expression": "|A ∪ B| = |A| + |B| - |A ∩ B|" }
+    ] } },
+    { "beatId": "beat-recap", "narrationRef": "recap", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Merksatz", "expression": "Schnittmenge nicht doppelt zählen" }
+    ] } }
+  ],
+  "videoUrl": null
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "fos11-kombinatorik-zaehlprinzip-ep1",
+  "topicSlug": "fos11-kombinatorik-zaehlprinzip",
+  "topicRef": "FOS11 LB5",
+  "title": "Kombinatorik: Zählprinzip",
+  "episodeNumber": 1,
+  "estimatedMinutes": 3,
+  "script": [
+    { "beatId": "intro", "narration": "Das Zählprinzip sagt: Triffst du mehrere unabhängige Entscheidungen nacheinander, multiplizierst du die Anzahl der Möglichkeiten." },
+    { "beatId": "why", "narration": "Damit zählst du schnell riesige Mengen an Kombinationen – von Outfits bis Passwörtern – ohne sie einzeln aufzuschreiben." },
+    { "beatId": "formula", "narration": "Bei k unabhängigen Entscheidungen mit n1, n2, ..., nk Möglichkeiten ist die Gesamtzahl n1 mal n2 mal ... mal nk." },
+    { "beatId": "example", "narration": "3 Hemden und 4 Hosen ergeben 3 mal 4 gleich 12 mögliche Kombinationen." },
+    { "beatId": "recap", "narration": "Zusammengefasst: Unabhängige Entscheidungen hintereinander – die Anzahl der Möglichkeiten multiplizierst du." }
+  ],
+  "storyboard": [
+    { "beatId": "beat-intro", "narrationRef": "intro", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Prinzip", "expression": "unabhängige Entscheidungen → multiplizieren" }
+    ] } },
+    { "beatId": "beat-why", "narrationRef": "why", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Beispiele", "expression": "Outfits, Passwörter, Menüs" }
+    ] } },
+    { "beatId": "beat-formula", "narrationRef": "formula", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Formel", "expression": "Anzahl = n₁ · n₂ · ... · nₖ" }
+    ] } },
+    { "beatId": "beat-example", "narrationRef": "example", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "3 Hemden, 4 Hosen", "expression": "3 · 4" },
+      { "label": "Ergebnis", "expression": "12" }
+    ] } },
+    { "beatId": "beat-recap", "narrationRef": "recap", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Merksatz", "expression": "Anzahl = n₁ · n₂ · ..." }
+    ] } }
+  ],
+  "videoUrl": null
+}

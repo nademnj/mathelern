@@ -1,0 +1,33 @@
+{
+  "slug": "fos11-bedingte-wahrscheinlichkeit-unabhaengigkeit-ep1",
+  "topicSlug": "fos11-bedingte-wahrscheinlichkeit-unabhaengigkeit",
+  "topicRef": "FOS11 LB4",
+  "title": "Bedingte Wahrscheinlichkeit & Unabhängigkeit",
+  "episodeNumber": 1,
+  "estimatedMinutes": 4,
+  "script": [
+    { "beatId": "intro", "narration": "Bedingte Wahrscheinlichkeit beantwortet die Frage: Wie wahrscheinlich ist A, WENN wir schon wissen, dass B eingetreten ist?" },
+    { "beatId": "why", "narration": "Das ist entscheidend für medizinische Tests: Wie wahrscheinlich ist eine Krankheit, wenn der Test positiv ist?" },
+    { "beatId": "formula", "narration": "Die Formel: P(A gegeben B) gleich P(A geschnitten B) geteilt durch P(B)." },
+    { "beatId": "independence", "narration": "A und B heißen unabhängig, wenn P(A gegeben B) gleich P(A) ist – das Wissen über B ändert nichts an der Wahrscheinlichkeit von A." },
+    { "beatId": "recap", "narration": "Zusammengefasst: Bedingte Wahrscheinlichkeit verengt den Blick auf ein bekanntes Ereignis B – bei Unabhängigkeit ändert sich dadurch nichts." }
+  ],
+  "storyboard": [
+    { "beatId": "beat-intro", "narrationRef": "intro", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Frage", "expression": "P(A | B) = ?" }
+    ] } },
+    { "beatId": "beat-why", "narrationRef": "why", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Anwendung", "expression": "Medizinische Tests, Diagnostik" }
+    ] } },
+    { "beatId": "beat-formula", "narrationRef": "formula", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Formel", "expression": "P(A|B) = P(A ∩ B) / P(B)" }
+    ] } },
+    { "beatId": "beat-independence", "narrationRef": "independence", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Unabhängigkeit", "expression": "P(A|B) = P(A)" }
+    ] } },
+    { "beatId": "beat-recap", "narrationRef": "recap", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Merksatz", "expression": "P(A|B) = |A ∩ B| / |B|" }
+    ] } }
+  ],
+  "videoUrl": null
+}

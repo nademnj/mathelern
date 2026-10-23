@@ -1,0 +1,35 @@
+{
+  "slug": "fos11-funktionsgraphen-skizzieren-ungleichungen-ep1",
+  "topicSlug": "fos11-funktionsgraphen-skizzieren-ungleichungen",
+  "topicRef": "FOS11 LB1",
+  "title": "Funktionsgraphen skizzieren & Ungleichungen",
+  "episodeNumber": 1,
+  "estimatedMinutes": 4,
+  "script": [
+    { "beatId": "intro", "narration": "Mit Nullstellen, Symmetrie und Verhalten im Unendlichen kannst du einen Funktionsgraphen skizzieren, ohne jeden Punkt zu berechnen." },
+    { "beatId": "why", "narration": "Ungleichungen wie 'wann ist die Funktion positiv?' beantwortest du direkt an der Skizze – dort, wo der Graph über der x-Achse liegt." },
+    { "beatId": "steps", "narration": "Schritt für Schritt: Nullstellen markieren, Symmetrie prüfen, Verhalten im Unendlichen einzeichnen, dann verbinden." },
+    { "beatId": "example", "narration": "Eine Gerade mit Nullstelle bei x gleich 2 ist positiv für x größer als 2, wenn die Steigung positiv ist." },
+    { "beatId": "recap", "narration": "Zusammengefasst: Skizze nutzt Nullstellen und Symmetrie – Ungleichungen liest du direkt am Graphen ab." }
+  ],
+  "storyboard": [
+    { "beatId": "beat-intro", "narrationRef": "intro", "component": "CoordinatePlaneViz", "props": { "range": 6, "points": [ { "x": 2, "y": 0, "label": "Nullstelle" } ] } },
+    { "beatId": "beat-why", "narrationRef": "why", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Frage", "expression": "f(x) > 0 für welche x?" }
+    ] } },
+    { "beatId": "beat-steps", "narrationRef": "steps", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "1", "expression": "Nullstellen markieren" },
+      { "label": "2", "expression": "Symmetrie prüfen" },
+      { "label": "3", "expression": "Verhalten im Unendlichen" },
+      { "label": "4", "expression": "Verbinden" }
+    ] } },
+    { "beatId": "beat-example", "narrationRef": "example", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Funktion", "expression": "y = x - 2" },
+      { "label": "Lösung", "expression": "y > 0 für x > 2" }
+    ] } },
+    { "beatId": "beat-recap", "narrationRef": "recap", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Merksatz", "expression": "Skizze zeigt, wo f(x) positiv/negativ ist" }
+    ] } }
+  ],
+  "videoUrl": null
+}

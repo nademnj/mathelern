@@ -1,0 +1,35 @@
+{
+  "slug": "fos11-funktionsterme-aus-eigenschaften-ermitteln-ep1",
+  "topicSlug": "fos11-funktionsterme-aus-eigenschaften-ermitteln",
+  "topicRef": "FOS11 LB1",
+  "title": "Funktionsterm aus Eigenschaften ermitteln",
+  "episodeNumber": 1,
+  "estimatedMinutes": 3,
+  "script": [
+    { "beatId": "intro", "narration": "Kennst du die Nullstellen einer quadratischen Funktion, kannst du daraus die komplette Funktionsgleichung rekonstruieren." },
+    { "beatId": "why", "narration": "Das ist nützlich, wenn du aus einer Beschreibung – zum Beispiel 'die Funktion hat Nullstellen bei 2 und 5' – die konkrete Formel bauen musst." },
+    { "beatId": "method", "narration": "Der Ansatz: y gleich (x minus x1) mal (x minus x2), dann ausmultiplizieren, um Normalform zu erhalten." },
+    { "beatId": "example", "narration": "Bei Nullstellen x1 gleich -2 und x2 gleich 3: y gleich (x+2)(x-3) gleich x hoch 2 minus x minus 6." },
+    { "beatId": "recap", "narration": "Zusammengefasst: Aus den Nullstellen baust du den Funktionsterm als Produktform und multiplizierst aus." }
+  ],
+  "storyboard": [
+    { "beatId": "beat-intro", "narrationRef": "intro", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Gegeben", "expression": "Nullstellen x₁, x₂" }
+    ] } },
+    { "beatId": "beat-why", "narrationRef": "why", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Anwendung", "expression": "Aus Beschreibung die Formel rekonstruieren" }
+    ] } },
+    { "beatId": "beat-method", "narrationRef": "method", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Ansatz", "expression": "y = (x - x₁)(x - x₂)" }
+    ] } },
+    { "beatId": "beat-example", "narrationRef": "example", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Nullstellen", "expression": "x₁ = -2, x₂ = 3" },
+      { "label": "Ansatz", "expression": "y = (x + 2)(x - 3)" },
+      { "label": "Ausmultipliziert", "expression": "y = x² - x - 6" }
+    ] } },
+    { "beatId": "beat-recap", "narrationRef": "recap", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Merksatz", "expression": "y = (x - x₁)(x - x₂) ausmultiplizieren" }
+    ] } }
+  ],
+  "videoUrl": null
+}

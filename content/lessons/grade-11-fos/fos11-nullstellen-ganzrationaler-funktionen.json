@@ -1,0 +1,32 @@
+{
+  "slug": "fos11-nullstellen-ganzrationaler-funktionen-ep1",
+  "topicSlug": "fos11-nullstellen-ganzrationaler-funktionen",
+  "topicRef": "FOS11 LB1",
+  "title": "Nullstellen ganzrationaler Funktionen",
+  "episodeNumber": 1,
+  "estimatedMinutes": 4,
+  "script": [
+    { "beatId": "intro", "narration": "Nullstellen sind die Stellen, an denen der Graph einer Funktion die x-Achse schneidet – dort ist y gleich 0." },
+    { "beatId": "why", "narration": "Nullstellen verraten dir, wann ein Prozess startet oder endet – zum Beispiel, wann ein Gewinn bei null liegt." },
+    { "beatId": "method", "narration": "Bei quadratischen Funktionen nutzt du die Mitternachtsformel: x gleich minus p plus/minus Wurzel aus (p hoch 2 minus 4q), geteilt durch 2." },
+    { "beatId": "example", "narration": "Für x hoch 2 plus 3x minus 4 gleich 0 ergibt die Mitternachtsformel die Lösungen x1 gleich -4 und x2 gleich 1." },
+    { "beatId": "recap", "narration": "Zusammengefasst: Nullstellen findest du, indem du die Funktionsgleichung gleich 0 setzt und auflöst." }
+  ],
+  "storyboard": [
+    { "beatId": "beat-intro", "narrationRef": "intro", "component": "CoordinatePlaneViz", "props": { "range": 6, "points": [ { "x": -4, "y": 0, "label": "Nullstelle" }, { "x": 1, "y": 0, "label": "Nullstelle" } ] } },
+    { "beatId": "beat-why", "narrationRef": "why", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Anwendung", "expression": "Gewinnschwelle, Break-even-Punkt" }
+    ] } },
+    { "beatId": "beat-method", "narrationRef": "method", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Mitternachtsformel", "expression": "x = (-p ± √(p² - 4q)) / 2" }
+    ] } },
+    { "beatId": "beat-example", "narrationRef": "example", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Gleichung", "expression": "x² + 3x - 4 = 0" },
+      { "label": "Lösungen", "expression": "x₁ = -4, x₂ = 1" }
+    ] } },
+    { "beatId": "beat-recap", "narrationRef": "recap", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Merksatz", "expression": "Nullstelle: Funktionsgleichung = 0 setzen" }
+    ] } }
+  ],
+  "videoUrl": null
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "fos11-zufallsexperiment-ergebnisraum-ep1",
+  "topicSlug": "fos11-zufallsexperiment-ergebnisraum",
+  "topicRef": "FOS11 LB3",
+  "title": "Zufallsexperiment & Ergebnisraum",
+  "episodeNumber": 1,
+  "estimatedMinutes": 3,
+  "script": [
+    { "beatId": "intro", "narration": "Ein Zufallsexperiment hat einen ungewissen Ausgang – wie Würfeln oder Münzwurf. Alle möglichen Ergebnisse zusammen bilden den Ergebnisraum Ω." },
+    { "beatId": "why", "narration": "Den Ergebnisraum zu kennen ist die Grundlage für jede Wahrscheinlichkeitsberechnung – du musst wissen, was überhaupt passieren kann." },
+    { "beatId": "counting", "narration": "Bei mehreren Durchgängen multiplizierst du die Anzahl der Möglichkeiten pro Durchgang – das Zählprinzip." },
+    { "beatId": "example", "narration": "Beim zweimaligen Würfeln hat der Ergebnisraum 6 mal 6 gleich 36 Elemente." },
+    { "beatId": "recap", "narration": "Zusammengefasst: Der Ergebnisraum Ω enthält alle möglichen Ausgänge – seine Größe berechnest du oft über das Zählprinzip." }
+  ],
+  "storyboard": [
+    { "beatId": "beat-intro", "narrationRef": "intro", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Würfel", "expression": "Ω = {1, 2, 3, 4, 5, 6}" }
+    ] } },
+    { "beatId": "beat-why", "narrationRef": "why", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Grundlage für", "expression": "Jede Wahrscheinlichkeitsberechnung" }
+    ] } },
+    { "beatId": "beat-counting", "narrationRef": "counting", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Zählprinzip", "expression": "|Ω| = Möglichkeiten pro Durchgang^Anzahl Durchgänge" }
+    ] } },
+    { "beatId": "beat-example", "narrationRef": "example", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Zweimal würfeln", "expression": "6 · 6 = 36" }
+    ] } },
+    { "beatId": "beat-recap", "narrationRef": "recap", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Merksatz", "expression": "Ω = Menge aller möglichen Ergebnisse" }
+    ] } }
+  ],
+  "videoUrl": null
+}

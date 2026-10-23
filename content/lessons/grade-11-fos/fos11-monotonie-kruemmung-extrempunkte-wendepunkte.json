@@ -1,0 +1,37 @@
+{
+  "slug": "fos11-monotonie-kruemmung-extrempunkte-wendepunkte-ep1",
+  "topicSlug": "fos11-monotonie-kruemmung-extrempunkte-wendepunkte",
+  "topicRef": "FOS11 LB2",
+  "title": "Monotonie, Krümmung, Extrem- & Wendepunkte",
+  "episodeNumber": 1,
+  "estimatedMinutes": 4,
+  "script": [
+    { "beatId": "intro", "narration": "Die Ableitung verrät dir, ob eine Funktion steigt oder fällt (Monotonie) und wo sie einen Hoch- oder Tiefpunkt hat (Extrempunkt)." },
+    { "beatId": "why", "narration": "So findest du zum Beispiel den maximalen Gewinn oder den minimalen Materialverbrauch – ohne den ganzen Graphen zeichnen zu müssen." },
+    { "beatId": "method", "narration": "An einem Extrempunkt ist die Ableitung gleich 0: f'(x) gleich 2x plus p gleich 0, also x gleich minus p halbe." },
+    { "beatId": "example", "narration": "Für f(x) gleich x hoch 2 minus 4x plus 1 ist f'(x) gleich 2x minus 4. Nullsetzen ergibt x gleich 2 – den Extrempunkt." },
+    { "beatId": "recap", "narration": "Zusammengefasst: Ableitung gleich 0 setzen und auflösen – das findet Extrempunkte." }
+  ],
+  "storyboard": [
+    { "beatId": "beat-intro", "narrationRef": "intro", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "f'(x) > 0", "expression": "Funktion steigt" },
+      { "label": "f'(x) < 0", "expression": "Funktion fällt" }
+    ] } },
+    { "beatId": "beat-why", "narrationRef": "why", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Anwendung", "expression": "Maximaler Gewinn, minimaler Verbrauch" }
+    ] } },
+    { "beatId": "beat-method", "narrationRef": "method", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Extrempunkt-Bedingung", "expression": "f'(x) = 0" },
+      { "label": "Für x² + px + q", "expression": "2x + p = 0 → x = -p/2" }
+    ] } },
+    { "beatId": "beat-example", "narrationRef": "example", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Funktion", "expression": "f(x) = x² - 4x + 1" },
+      { "label": "Ableitung", "expression": "f'(x) = 2x - 4" },
+      { "label": "Nullsetzen", "expression": "2x - 4 = 0 → x = 2" }
+    ] } },
+    { "beatId": "beat-recap", "narrationRef": "recap", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Merksatz", "expression": "f'(x) = 0 → Extrempunkt" }
+    ] } }
+  ],
+  "videoUrl": null
+}

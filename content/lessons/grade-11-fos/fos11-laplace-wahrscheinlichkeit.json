@@ -1,0 +1,29 @@
+{
+  "slug": "fos11-laplace-wahrscheinlichkeit-ep1",
+  "topicSlug": "fos11-laplace-wahrscheinlichkeit",
+  "topicRef": "FOS11 LB4",
+  "title": "Laplace-Wahrscheinlichkeit",
+  "episodeNumber": 1,
+  "estimatedMinutes": 3,
+  "script": [
+    { "beatId": "intro", "narration": "Sind alle Ergebnisse eines Zufallsexperiments gleich wahrscheinlich, sprechen wir von einem Laplace-Experiment – wie beim fairen Würfel." },
+    { "beatId": "why", "narration": "Die Laplace-Formel ist die einfachste Methode, um Wahrscheinlichkeiten zu berechnen, wenn Symmetrie vorliegt." },
+    { "beatId": "formula", "narration": "P von A gleich Anzahl der günstigen Ergebnisse geteilt durch Anzahl aller möglichen Ergebnisse." },
+    { "beatId": "example", "narration": "In einer Urne mit 8 Kugeln, davon 3 rote: P(rot) gleich 3 durch 8." },
+    { "beatId": "recap", "narration": "Zusammengefasst: Laplace-Wahrscheinlichkeit gleich günstige durch mögliche Ergebnisse – nur bei Gleichwahrscheinlichkeit anwendbar." }
+  ],
+  "storyboard": [
+    { "beatId": "beat-intro", "narrationRef": "intro", "component": "FractionBarViz", "props": { "numerator": 3, "denominator": 8, "label": "rote Kugeln" } },
+    { "beatId": "beat-why", "narrationRef": "why", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Voraussetzung", "expression": "Alle Ergebnisse gleich wahrscheinlich" }
+    ] } },
+    { "beatId": "beat-formula", "narrationRef": "formula", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Laplace-Formel", "expression": "P(A) = günstige / mögliche" }
+    ] } },
+    { "beatId": "beat-example", "narrationRef": "example", "component": "FractionBarViz", "props": { "numerator": 3, "denominator": 8, "label": "P(rot)" } },
+    { "beatId": "beat-recap", "narrationRef": "recap", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Merksatz", "expression": "P(A) = günstige / mögliche" }
+    ] } }
+  ],
+  "videoUrl": null
+}
