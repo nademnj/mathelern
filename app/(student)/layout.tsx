@@ -2,6 +2,7 @@ import Link from "next/link";
 import { requireStudent } from "@/lib/auth/roles";
 import { logout } from "@/actions/auth";
 import { Button } from "@/components/ui/button";
+import { ChatWidget } from "@/components/chat/ChatWidget";
 
 const TRACK_LABEL: Record<string, string> = {
   gymnasium_g9: "Gymnasium",
@@ -19,7 +20,7 @@ export default async function StudentLayout({ children }: { children: React.Reac
           MatheLern
         </Link>
         <nav className="flex items-center gap-4 text-sm">
-          <Link href="/dashboard">Übersicht</Link>
+          <Link href="/dashboard">Lektionen</Link>
           <Link href="/progress">Fortschritt</Link>
           <span className="text-muted-foreground">
             {profile.display_name} · {student?.grade_level ?? "?"}. Klasse (
@@ -33,6 +34,7 @@ export default async function StudentLayout({ children }: { children: React.Reac
         </nav>
       </header>
       <main className="flex-1 px-6 py-8">{children}</main>
+      <ChatWidget />
     </div>
   );
 }

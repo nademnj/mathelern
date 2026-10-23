@@ -11,6 +11,7 @@ export type ExerciseMode = "static" | "generated";
 export type TopicMasteryStatus = "not_started" | "in_progress" | "struggling" | "mastered";
 export type LessonProgressStatus = "not_started" | "in_progress" | "completed";
 export type RecommendationSeverity = "info" | "suggested" | "priority";
+export type ChatRole = "student" | "assistant";
 
 interface Table<Row, Insert extends Partial<Row> = Partial<Row>, Update extends Partial<Row> = Partial<Row>> {
   Row: Row;
@@ -158,6 +159,16 @@ export interface Database {
         generated_at: string;
         dismissed_at: string | null;
         generated_by: string;
+      }>;
+      chat_messages: Table<{
+        id: string;
+        student_id: string;
+        role: ChatRole;
+        content: string;
+        topic_slug: string | null;
+        generated_title: string | null;
+        generated_steps: unknown;
+        created_at: string;
       }>;
     };
   };

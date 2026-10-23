@@ -7,6 +7,7 @@ import { Progress } from "@/components/ui/progress";
 import { MasteryBar } from "@/components/progress/MasteryBar";
 import { MilestoneBadge } from "@/components/progress/MilestoneBadge";
 import { RecommendationCard } from "@/components/parent/RecommendationCard";
+import { ChatMessageBubble } from "@/components/chat/ChatMessageBubble";
 
 export default async function ChildDetailPage({
   params,
@@ -64,6 +65,14 @@ export default async function ChildDetailPage({
 
   const masteredCount = (topics ?? []).filter((t) => masteryByTopic.get(t.id)?.status === "mastered").length;
   const overallPercent = topics && topics.length > 0 ? Math.round((masteredCount / topics.length) * 100) : 0;
+
+  const { data: chatMessages } = await supabase
+    .from("chat_messages")
+    .select("*")
+    .eq("student_id", studentId)
+    .order("created_at", { ascending: false })
+    .limit(20);
+  const recentChatMessages = (chatMessages ?? []).slice().reverse();
 
   return (
     <div className="mx-auto max-w-2xl space-y-6">
@@ -123,6 +132,27 @@ export default async function ChildDetailPage({
           {(milestones ?? []).map((m) => (
             <MilestoneBadge key={m.id} title={m.title} achieved={achievedIds.has(m.id)} />
           ))}
+        </CardContent>
+      </Card>
+
+      <Card>
+        <CardHeader>
+          <CardTitle>Chat mit dem Mathe-Tutor (letzte Nachrichten)</CardTitle>
+        </CardHeader>
+        <CardContent className="space-y-3">
+          {recentChatMessages.length > 0 ? (
+            recentChatMessages.map((m) => (
+              <ChatMessageBubble
+                key={m.id}
+                role={m.role}
+                content={m.content}
+                generatedTitle={m.generated_title}
+                generatedSteps={m.generated_steps as { label: string; expression: string }[] | null}
+              />
+            ))
+          ) : (
+            <p className="text-sm text-muted-foreground">Noch keine Chat-Nachrichten.</p>
+          )}
         </CardContent>
       </Card>
     </div>
