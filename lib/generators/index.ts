@@ -19,6 +19,19 @@ import { generate as linearFunctionFromPointsGenerator } from "./linearFunctionF
 import { generate as quadraticEquationGenerator } from "./quadraticEquationGenerator";
 import { generate as fractionEquationGenerator } from "./fractionEquationGenerator";
 import { generate as vertexFormConversionGenerator } from "./vertexFormConversionGenerator";
+import { generate as endBehaviorSymmetryGenerator } from "./endBehaviorSymmetryGenerator";
+import { generate as inequalityGenerator } from "./inequalityGenerator";
+import { generate as functionFromZerosGenerator } from "./functionFromZerosGenerator";
+import { generate as differenceQuotientGenerator } from "./differenceQuotientGenerator";
+import { generate as derivativeSlopeGenerator } from "./derivativeSlopeGenerator";
+import { generate as limitGenerator } from "./limitGenerator";
+import { generate as extremumViaDerivativeGenerator } from "./extremumViaDerivativeGenerator";
+import { generate as sampleSpaceGenerator } from "./sampleSpaceGenerator";
+import { generate as setOperationsGenerator } from "./setOperationsGenerator";
+import { generate as contingencyTableGenerator } from "./contingencyTableGenerator";
+import { generate as laplaceProbabilityGenerator } from "./laplaceProbabilityGenerator";
+import { generate as conditionalProbabilityGenerator } from "./conditionalProbabilityGenerator";
+import { generate as countingPrincipleGenerator } from "./countingPrincipleGenerator";
 import type { GeneratorFn } from "./types";
 
 export const generatorRegistry: Record<string, GeneratorFn> = {
@@ -43,6 +56,19 @@ export const generatorRegistry: Record<string, GeneratorFn> = {
   quadraticEquationGenerator,
   fractionEquationGenerator,
   vertexFormConversionGenerator,
+  endBehaviorSymmetryGenerator,
+  inequalityGenerator,
+  functionFromZerosGenerator,
+  differenceQuotientGenerator,
+  derivativeSlopeGenerator,
+  limitGenerator,
+  extremumViaDerivativeGenerator,
+  sampleSpaceGenerator,
+  setOperationsGenerator,
+  contingencyTableGenerator,
+  laplaceProbabilityGenerator,
+  conditionalProbabilityGenerator,
+  countingPrincipleGenerator,
 };
 
 export type { GeneratedExercise, GeneratedAnswer, SolutionStep, GeneratorArgs } from "./types";

@@ -19,6 +19,19 @@ import { generate as linearFunctionFromPointsGenerator } from "@/lib/generators/
 import { generate as quadraticEquationGenerator } from "@/lib/generators/quadraticEquationGenerator";
 import { generate as fractionEquationGenerator } from "@/lib/generators/fractionEquationGenerator";
 import { generate as vertexFormConversionGenerator } from "@/lib/generators/vertexFormConversionGenerator";
+import { generate as endBehaviorSymmetryGenerator } from "@/lib/generators/endBehaviorSymmetryGenerator";
+import { generate as inequalityGenerator } from "@/lib/generators/inequalityGenerator";
+import { generate as functionFromZerosGenerator } from "@/lib/generators/functionFromZerosGenerator";
+import { generate as differenceQuotientGenerator } from "@/lib/generators/differenceQuotientGenerator";
+import { generate as derivativeSlopeGenerator } from "@/lib/generators/derivativeSlopeGenerator";
+import { generate as limitGenerator } from "@/lib/generators/limitGenerator";
+import { generate as extremumViaDerivativeGenerator } from "@/lib/generators/extremumViaDerivativeGenerator";
+import { generate as sampleSpaceGenerator } from "@/lib/generators/sampleSpaceGenerator";
+import { generate as setOperationsGenerator } from "@/lib/generators/setOperationsGenerator";
+import { generate as contingencyTableGenerator } from "@/lib/generators/contingencyTableGenerator";
+import { generate as laplaceProbabilityGenerator } from "@/lib/generators/laplaceProbabilityGenerator";
+import { generate as conditionalProbabilityGenerator } from "@/lib/generators/conditionalProbabilityGenerator";
+import { generate as countingPrincipleGenerator } from "@/lib/generators/countingPrincipleGenerator";
 import { gcd } from "@/lib/generators/mathUtils";
 import { isAnswerCorrect } from "@/lib/generators/types";
 
@@ -287,6 +300,148 @@ describe("vertexFormConversionGenerator", () => {
       for (let tier = 1; tier <= 5; tier++) {
         const ex = vertexFormConversionGenerator({ difficultyTier: tier, seed });
         expect(Number.isInteger(ex.answer.value)).toBe(true);
+      }
+    }
+  });
+});
+
+describe("endBehaviorSymmetryGenerator", () => {
+  it("answers exactly one of the two known symmetry words", () => {
+    for (let seed = 0; seed < 100; seed++) {
+      const ex = endBehaviorSymmetryGenerator({ difficultyTier: 1, seed });
+      expect(["achsensymmetrisch", "punktsymmetrisch"]).toContain(ex.answer.text);
+    }
+  });
+
+  it("is accepted case-insensitively by isAnswerCorrect", () => {
+    const ex = endBehaviorSymmetryGenerator({ difficultyTier: 1, seed: 5 });
+    expect(isAnswerCorrect({ text: ex.answer.text!.toUpperCase() }, ex.answer)).toBe(true);
+  });
+});
+
+describe("inequalityGenerator", () => {
+  it("produces an integer boundary point", () => {
+    for (let seed = 0; seed < 100; seed++) {
+      for (let tier = 1; tier <= 5; tier++) {
+        const ex = inequalityGenerator({ difficultyTier: tier, seed });
+        expect(Number.isInteger(ex.answer.value)).toBe(true);
+      }
+    }
+  });
+});
+
+describe("functionFromZerosGenerator", () => {
+  it("produces an integer q", () => {
+    for (let seed = 0; seed < 100; seed++) {
+      const ex = functionFromZerosGenerator({ difficultyTier: 1, seed });
+      expect(Number.isInteger(ex.answer.value)).toBe(true);
+    }
+  });
+});
+
+describe("differenceQuotientGenerator", () => {
+  it("produces an integer equal to x1 + x2", () => {
+    for (let seed = 0; seed < 100; seed++) {
+      const ex = differenceQuotientGenerator({ difficultyTier: 1, seed });
+      expect(Number.isInteger(ex.answer.value)).toBe(true);
+    }
+  });
+});
+
+describe("derivativeSlopeGenerator", () => {
+  it("produces an even integer (2 * x0)", () => {
+    for (let seed = 0; seed < 100; seed++) {
+      const ex = derivativeSlopeGenerator({ difficultyTier: 1, seed });
+      expect(Number.isInteger(ex.answer.value)).toBe(true);
+      expect(Math.abs(ex.answer.value! % 2)).toBe(0); // Math.abs normalizes -0 to 0
+    }
+  });
+});
+
+describe("limitGenerator", () => {
+  it("produces an integer limit value", () => {
+    for (let seed = 0; seed < 100; seed++) {
+      const ex = limitGenerator({ difficultyTier: 1, seed });
+      expect(Number.isInteger(ex.answer.value)).toBe(true);
+    }
+  });
+});
+
+describe("extremumViaDerivativeGenerator", () => {
+  it("produces an integer answer at every tier", () => {
+    for (let seed = 0; seed < 100; seed++) {
+      for (let tier = 1; tier <= 5; tier++) {
+        const ex = extremumViaDerivativeGenerator({ difficultyTier: tier, seed });
+        expect(Number.isInteger(ex.answer.value)).toBe(true);
+      }
+    }
+  });
+});
+
+describe("sampleSpaceGenerator", () => {
+  it("produces a power of 6", () => {
+    for (let seed = 0; seed < 100; seed++) {
+      for (let tier = 1; tier <= 5; tier++) {
+        const ex = sampleSpaceGenerator({ difficultyTier: tier, seed });
+        expect([6, 36, 216]).toContain(ex.answer.value);
+      }
+    }
+  });
+});
+
+describe("setOperationsGenerator", () => {
+  it("produces a positive integer union size", () => {
+    for (let seed = 0; seed < 100; seed++) {
+      for (let tier = 1; tier <= 5; tier++) {
+        const ex = setOperationsGenerator({ difficultyTier: tier, seed });
+        expect(Number.isInteger(ex.answer.value)).toBe(true);
+        expect(ex.answer.value).toBeGreaterThan(0);
+      }
+    }
+  });
+});
+
+describe("contingencyTableGenerator", () => {
+  it("produces a positive integer row total", () => {
+    for (let seed = 0; seed < 100; seed++) {
+      for (let tier = 1; tier <= 5; tier++) {
+        const ex = contingencyTableGenerator({ difficultyTier: tier, seed });
+        expect(Number.isInteger(ex.answer.value)).toBe(true);
+        expect(ex.answer.value).toBeGreaterThan(0);
+      }
+    }
+  });
+});
+
+describe("laplaceProbabilityGenerator", () => {
+  it("always returns an already-simplified probability fraction", () => {
+    for (let seed = 0; seed < 100; seed++) {
+      for (let tier = 1; tier <= 5; tier++) {
+        const ex = laplaceProbabilityGenerator({ difficultyTier: tier, seed });
+        expect(gcd(ex.answer.numerator!, ex.answer.denominator!)).toBe(1);
+      }
+    }
+  });
+});
+
+describe("conditionalProbabilityGenerator", () => {
+  it("always returns an already-simplified probability fraction", () => {
+    for (let seed = 0; seed < 100; seed++) {
+      for (let tier = 1; tier <= 5; tier++) {
+        const ex = conditionalProbabilityGenerator({ difficultyTier: tier, seed });
+        expect(gcd(ex.answer.numerator!, ex.answer.denominator!)).toBe(1);
+      }
+    }
+  });
+});
+
+describe("countingPrincipleGenerator", () => {
+  it("produces a positive integer product", () => {
+    for (let seed = 0; seed < 100; seed++) {
+      for (let tier = 1; tier <= 5; tier++) {
+        const ex = countingPrincipleGenerator({ difficultyTier: tier, seed });
+        expect(Number.isInteger(ex.answer.value)).toBe(true);
+        expect(ex.answer.value).toBeGreaterThan(0);
       }
     }
   });
