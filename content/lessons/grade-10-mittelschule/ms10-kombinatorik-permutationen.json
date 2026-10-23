@@ -1,0 +1,36 @@
+{
+  "slug": "ms10-kombinatorik-permutationen-ep1",
+  "topicSlug": "ms10-kombinatorik-permutationen",
+  "topicRef": "M10 LB6",
+  "title": "Kombinatorik: Permutationen",
+  "episodeNumber": 1,
+  "estimatedMinutes": 3,
+  "script": [
+    { "beatId": "intro", "narration": "Eine Permutation ist eine Anordnung von Dingen in einer bestimmten Reihenfolge. Wie viele Reihenfolgen gibt es für 3 Personen in einer Schlange?" },
+    { "beatId": "why", "narration": "Kombinatorik brauchst du überall, wo du zählen musst, wie viele verschiedene Anordnungen oder Auswahlen möglich sind – vom Sitzplan bis zum Passwort." },
+    { "beatId": "formula", "narration": "Die Anzahl der Reihenfolgen von n verschiedenen Dingen ist n Fakultät: n mal (n-1) mal (n-2) mal ... mal 1." },
+    { "beatId": "example", "narration": "Für 4 Personen gibt es 4 Fakultät Möglichkeiten: 4 mal 3 mal 2 mal 1, also 24 verschiedene Reihenfolgen." },
+    { "beatId": "recap", "narration": "Zusammengefasst: n! zählt alle Reihenfolgen von n verschiedenen Objekten – bei jedem weiteren Objekt wird die Zahl der Möglichkeiten sehr schnell größer." }
+  ],
+  "storyboard": [
+    { "beatId": "beat-intro", "narrationRef": "intro", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "3 Personen", "expression": "ABC, ACB, BAC, BCA, CAB, CBA" },
+      { "label": "Anzahl", "expression": "6 Reihenfolgen" }
+    ] } },
+    { "beatId": "beat-why", "narrationRef": "why", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Beispiele", "expression": "Sitzpläne, Ranglisten, Passwörter" }
+    ] } },
+    { "beatId": "beat-formula", "narrationRef": "formula", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Fakultät", "expression": "n! = n · (n-1) · (n-2) · ... · 1" }
+    ] } },
+    { "beatId": "beat-example", "narrationRef": "example", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Aufgabe", "expression": "4!" },
+      { "label": "Einsetzen", "expression": "4 · 3 · 2 · 1" },
+      { "label": "Ergebnis", "expression": "24" }
+    ] } },
+    { "beatId": "beat-recap", "narrationRef": "recap", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Merksatz", "expression": "Anzahl Reihenfolgen = n!" }
+    ] } }
+  ],
+  "videoUrl": null
+}

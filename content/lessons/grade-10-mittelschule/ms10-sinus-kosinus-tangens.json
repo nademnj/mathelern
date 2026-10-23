@@ -1,0 +1,34 @@
+{
+  "slug": "ms10-sinus-kosinus-tangens-ep1",
+  "topicSlug": "ms10-sinus-kosinus-tangens",
+  "topicRef": "M10 LB4",
+  "title": "Sinus, Kosinus, Tangens im rechtwinkligen Dreieck",
+  "episodeNumber": 1,
+  "estimatedMinutes": 4,
+  "script": [
+    { "beatId": "intro", "narration": "In einem rechtwinkligen Dreieck beschreiben Sinus, Kosinus und Tangens das Verhältnis zweier Seiten zueinander, abhängig vom Winkel." },
+    { "beatId": "why", "narration": "Mit diesen Verhältnissen kannst du fehlende Seiten oder Winkel berechnen, ohne sie direkt zu messen – zum Beispiel die Höhe eines Turms." },
+    { "beatId": "definitions", "narration": "Sinus ist Gegenkathete durch Hypotenuse, Kosinus ist Ankathete durch Hypotenuse, Tangens ist Gegenkathete durch Ankathete." },
+    { "beatId": "example", "narration": "Der Tangens von 60 Grad ist etwa 1,73 – das nutzt du, um zum Beispiel eine Höhe aus einem Winkel und einer Entfernung zu berechnen." },
+    { "beatId": "recap", "narration": "Zusammengefasst: Merke dir die Eselsbrücke SOH-CAH-TOA – Sinus, Kosinus, Tangens als Seitenverhältnisse im rechtwinkligen Dreieck." }
+  ],
+  "storyboard": [
+    { "beatId": "beat-intro", "narrationRef": "intro", "component": "AngleViz", "props": { "degrees": 50, "label": "α" } },
+    { "beatId": "beat-why", "narrationRef": "why", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Anwendung", "expression": "Höhe eines Turms aus Winkel und Entfernung" }
+    ] } },
+    { "beatId": "beat-definitions", "narrationRef": "definitions", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Sinus", "expression": "sin(α) = Gegenkathete / Hypotenuse" },
+      { "label": "Kosinus", "expression": "cos(α) = Ankathete / Hypotenuse" },
+      { "label": "Tangens", "expression": "tan(α) = Gegenkathete / Ankathete" }
+    ] } },
+    { "beatId": "beat-example", "narrationRef": "example", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Aufgabe", "expression": "tan(60°) = ?" },
+      { "label": "Taschenrechner", "expression": "tan(60°) ≈ 1,73" }
+    ] } },
+    { "beatId": "beat-recap", "narrationRef": "recap", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Eselsbrücke", "expression": "SOH - CAH - TOA" }
+    ] } }
+  ],
+  "videoUrl": null
+}

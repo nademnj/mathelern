@@ -1,0 +1,37 @@
+{
+  "slug": "ms10-logarithmus-einfuehrung-ep1",
+  "topicSlug": "ms10-logarithmus-einfuehrung",
+  "topicRef": "M10 LB1",
+  "title": "Logarithmus zur Exponentenermittlung",
+  "episodeNumber": 1,
+  "estimatedMinutes": 3,
+  "script": [
+    { "beatId": "intro", "narration": "Du kennst schon: 2 hoch 3 ist 8. Aber was, wenn du den Exponenten suchst? 2 hoch WAS ergibt 8? Genau das beantwortet der Logarithmus." },
+    { "beatId": "why", "narration": "Logarithmen helfen dir, Exponentialgleichungen zu lösen – zum Beispiel, wie viele Jahre es dauert, bis sich ein Betrag bei einem festen Wachstumsfaktor verdoppelt." },
+    { "beatId": "definition", "narration": "Der Logarithmus von b zur Basis a ist der Exponent, mit dem du a potenzieren musst, um b zu erhalten: a hoch log_a(b) = b." },
+    { "beatId": "example", "narration": "Log zur Basis 2 von 8 ist 3, weil 2 hoch 3 gleich 8 ist." },
+    { "beatId": "recap", "narration": "Zusammengefasst: Der Logarithmus ist die Umkehrung des Potenzierens – er beantwortet die Frage 'welcher Exponent?'." }
+  ],
+  "storyboard": [
+    { "beatId": "beat-intro", "narrationRef": "intro", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Bekannt", "expression": "2³ = 8" },
+      { "label": "Gesucht", "expression": "2^? = 8" }
+    ] } },
+    { "beatId": "beat-why", "narrationRef": "why", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Wachstumsfrage", "expression": "2^n = 16" },
+      { "label": "Gesucht", "expression": "n = ?" }
+    ] } },
+    { "beatId": "beat-definition", "narrationRef": "definition", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Definition", "expression": "a^(log_a(b)) = b" }
+    ] } },
+    { "beatId": "beat-example", "narrationRef": "example", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Aufgabe", "expression": "log₂(8) = ?" },
+      { "label": "Probe", "expression": "2³ = 8" },
+      { "label": "Ergebnis", "expression": "log₂(8) = 3" }
+    ] } },
+    { "beatId": "beat-recap", "narrationRef": "recap", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Merksatz", "expression": "log_a(b) = n  ⟺  a^n = b" }
+    ] } }
+  ],
+  "videoUrl": null
+}

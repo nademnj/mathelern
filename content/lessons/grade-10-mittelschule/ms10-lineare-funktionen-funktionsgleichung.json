@@ -1,0 +1,36 @@
+{
+  "slug": "ms10-lineare-funktionen-funktionsgleichung-ep1",
+  "topicSlug": "ms10-lineare-funktionen-funktionsgleichung",
+  "topicRef": "M10 LB7",
+  "title": "Lineare Funktionsgleichungen bestimmen",
+  "episodeNumber": 1,
+  "estimatedMinutes": 4,
+  "script": [
+    { "beatId": "intro", "narration": "Kennst du zwei Punkte einer Geraden, kannst du daraus ihre vollständige Funktionsgleichung y = mx + t bestimmen." },
+    { "beatId": "why", "narration": "Das brauchst du, um aus Messdaten oder zwei bekannten Punkten eine Formel zu finden, mit der du jeden anderen Punkt der Geraden berechnen kannst." },
+    { "beatId": "slope", "narration": "Zuerst berechnest du die Steigung: m ist die Differenz der y-Werte geteilt durch die Differenz der x-Werte." },
+    { "beatId": "intercept", "narration": "Dann setzt du m und einen Punkt in y = mx + t ein und löst nach t auf – das ist der y-Achsenabschnitt." },
+    { "beatId": "recap", "narration": "Zusammengefasst: Erst die Steigung aus zwei Punkten berechnen, dann t durch Einsetzen bestimmen." }
+  ],
+  "storyboard": [
+    { "beatId": "beat-intro", "narrationRef": "intro", "component": "CoordinatePlaneViz", "props": { "range": 6, "points": [
+      { "x": -2, "y": -1, "label": "A" },
+      { "x": 1, "y": 5, "label": "B" }
+    ] } },
+    { "beatId": "beat-why", "narrationRef": "why", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Anwendung", "expression": "Aus Messdaten eine Formel bestimmen" }
+    ] } },
+    { "beatId": "beat-slope", "narrationRef": "slope", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Steigungsformel", "expression": "m = (y₂ - y₁) / (x₂ - x₁)" },
+      { "label": "Einsetzen", "expression": "m = (5 - (-1)) / (1 - (-2)) = 2" }
+    ] } },
+    { "beatId": "beat-intercept", "narrationRef": "intercept", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Einsetzen mit Punkt A", "expression": "-1 = 2 · (-2) + t" },
+      { "label": "Nach t auflösen", "expression": "t = 3" }
+    ] } },
+    { "beatId": "beat-recap", "narrationRef": "recap", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Ergebnis", "expression": "y = 2x + 3" }
+    ] } }
+  ],
+  "videoUrl": null
+}

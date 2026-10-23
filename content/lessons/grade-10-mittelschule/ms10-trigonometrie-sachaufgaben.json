@@ -1,0 +1,35 @@
+{
+  "slug": "ms10-trigonometrie-sachaufgaben-ep1",
+  "topicSlug": "ms10-trigonometrie-sachaufgaben",
+  "topicRef": "M10 LB4",
+  "title": "Trigonometrische Sachaufgaben",
+  "episodeNumber": 1,
+  "estimatedMinutes": 3,
+  "script": [
+    { "beatId": "intro", "narration": "Jetzt wenden wir Sinus, Kosinus und Tangens auf echte Alltagssituationen an – mit einer Skizze als erstem Schritt." },
+    { "beatId": "why", "narration": "Landvermesser, Architekten und Piloten nutzen Trigonometrie ständig, um Höhen und Entfernungen zu berechnen, die sie nicht direkt messen können." },
+    { "beatId": "approach", "narration": "Zuerst zeichnest du ein rechtwinkliges Dreieck, markierst den bekannten Winkel und die bekannte Seite, dann wählst du die passende Formel." },
+    { "beatId": "example", "narration": "Eine Leiter steht im 65-Grad-Winkel an einer Wand, der Fußabstand beträgt 2 m. Die Höhe ist 2 mal tan(65°), also etwa 4,29 m." },
+    { "beatId": "recap", "narration": "Zusammengefasst: Skizze zeichnen, bekannte Größen markieren, passende Formel wählen – so löst du jede trigonometrische Sachaufgabe." }
+  ],
+  "storyboard": [
+    { "beatId": "beat-intro", "narrationRef": "intro", "component": "AngleViz", "props": { "degrees": 65, "label": "65°" } },
+    { "beatId": "beat-why", "narrationRef": "why", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Berufe", "expression": "Landvermessung, Architektur, Luftfahrt" }
+    ] } },
+    { "beatId": "beat-approach", "narrationRef": "approach", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Schritt 1", "expression": "Skizze zeichnen" },
+      { "label": "Schritt 2", "expression": "Bekannte Größen markieren" },
+      { "label": "Schritt 3", "expression": "Passende Formel wählen" }
+    ] } },
+    { "beatId": "beat-example", "narrationRef": "example", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Ansatz", "expression": "Höhe = Abstand · tan(Winkel)" },
+      { "label": "Einsetzen", "expression": "2 · tan(65°)" },
+      { "label": "Ergebnis", "expression": "≈ 4,29 m" }
+    ] } },
+    { "beatId": "beat-recap", "narrationRef": "recap", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Merksatz", "expression": "Skizze → Markieren → Formel wählen" }
+    ] } }
+  ],
+  "videoUrl": null
+}

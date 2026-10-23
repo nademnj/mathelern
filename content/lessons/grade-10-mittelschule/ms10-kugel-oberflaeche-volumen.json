@@ -1,0 +1,36 @@
+{
+  "slug": "ms10-kugel-oberflaeche-volumen-ep1",
+  "topicSlug": "ms10-kugel-oberflaeche-volumen",
+  "topicRef": "M10 LB5",
+  "title": "Kugel: Oberfläche und Volumen",
+  "episodeNumber": 1,
+  "estimatedMinutes": 3,
+  "script": [
+    { "beatId": "intro", "narration": "Eine Kugel ist rundum gleich weit vom Mittelpunkt entfernt – dieser Abstand ist der Radius r. Für Oberfläche und Volumen gibt es feste Formeln." },
+    { "beatId": "why", "narration": "Bälle, Planeten, Tropfen – viele Dinge sind kugelförmig. Mit den Formeln berechnest du, wie viel Material oder Volumen sie haben." },
+    { "beatId": "formulas", "narration": "Oberfläche: 4 mal π mal r zum Quadrat. Volumen: 4 Drittel mal π mal r hoch 3." },
+    { "beatId": "example", "narration": "Bei r = 5 cm ist die Oberfläche 4 mal π mal 25, also etwa 314,16 cm²." },
+    { "beatId": "recap", "narration": "Zusammengefasst: Merke dir die beiden Formeln für Oberfläche und Volumen der Kugel – beide hängen nur vom Radius ab." }
+  ],
+  "storyboard": [
+    { "beatId": "beat-intro", "narrationRef": "intro", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Kugel", "expression": "Radius r = Abstand vom Mittelpunkt" }
+    ] } },
+    { "beatId": "beat-why", "narrationRef": "why", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Beispiele", "expression": "Bälle, Planeten, Tropfen" }
+    ] } },
+    { "beatId": "beat-formulas", "narrationRef": "formulas", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Oberfläche", "expression": "O = 4 · π · r²" },
+      { "label": "Volumen", "expression": "V = (4/3) · π · r³" }
+    ] } },
+    { "beatId": "beat-example", "narrationRef": "example", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Gegeben", "expression": "r = 5 cm" },
+      { "label": "Einsetzen", "expression": "O = 4 · π · 5²" },
+      { "label": "Ergebnis", "expression": "O ≈ 314,16 cm²" }
+    ] } },
+    { "beatId": "beat-recap", "narrationRef": "recap", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Merksatz", "expression": "O = 4πr² ,  V = (4/3)πr³" }
+    ] } }
+  ],
+  "videoUrl": null
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "ms10-exponentielles-wachstum-ep1",
+  "topicSlug": "ms10-exponentielles-wachstum",
+  "topicRef": "M10 LB2",
+  "title": "Exponentielles Wachstum & Abnahme",
+  "episodeNumber": 1,
+  "estimatedMinutes": 4,
+  "script": [
+    { "beatId": "intro", "narration": "Bei linearem Wachstum kommt jedes Mal derselbe Betrag dazu. Bei exponentiellem Wachstum wird jedes Mal mit demselben Faktor multipliziert – das geht viel schneller." },
+    { "beatId": "why", "narration": "Zinseszins, Bevölkerungswachstum, radioaktiver Zerfall – überall, wo sich etwas um einen Prozentsatz verändert, wächst oder schrumpft es exponentiell." },
+    { "beatId": "formula", "narration": "Die Formel: Endwert = Startwert mal Wachstumsfaktor hoch Anzahl der Zeiträume." },
+    { "beatId": "example", "narration": "Eine Bakterienkultur mit 20 Bakterien verdoppelt sich jede Stunde. Nach 3 Stunden sind es 20 mal 2 hoch 3, also 160 Bakterien." },
+    { "beatId": "recap", "narration": "Zusammengefasst: Exponentielles Wachstum multipliziert statt zu addieren – kleine Unterschiede im Faktor machen auf lange Sicht einen riesigen Unterschied." }
+  ],
+  "storyboard": [
+    { "beatId": "beat-intro", "narrationRef": "intro", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Linear", "expression": "10, 20, 30, 40, ..." },
+      { "label": "Exponentiell", "expression": "10, 20, 40, 80, ..." }
+    ] } },
+    { "beatId": "beat-why", "narrationRef": "why", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Beispiele", "expression": "Zinseszins, Bevölkerung, radioaktiver Zerfall" }
+    ] } },
+    { "beatId": "beat-formula", "narrationRef": "formula", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Formel", "expression": "W(n) = Start · Faktor^n" }
+    ] } },
+    { "beatId": "beat-example", "narrationRef": "example", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Start", "expression": "20 Bakterien" },
+      { "label": "Einsetzen", "expression": "W(3) = 20 · 2³" },
+      { "label": "Ergebnis", "expression": "W(3) = 160" }
+    ] } },
+    { "beatId": "beat-recap", "narrationRef": "recap", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Merksatz", "expression": "Exponentiell: multiplizieren statt addieren" }
+    ] } }
+  ],
+  "videoUrl": null
+}

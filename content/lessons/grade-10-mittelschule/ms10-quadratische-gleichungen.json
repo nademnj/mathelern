@@ -1,0 +1,37 @@
+{
+  "slug": "ms10-quadratische-gleichungen-ep1",
+  "topicSlug": "ms10-quadratische-gleichungen",
+  "topicRef": "M10 LB7",
+  "title": "Rein-/gemischtquadratische Gleichungen",
+  "episodeNumber": 1,
+  "estimatedMinutes": 4,
+  "script": [
+    { "beatId": "intro", "narration": "Eine quadratische Gleichung enthält x hoch 2. Rein-quadratisch heißt: kein x-Term, nur x hoch 2 und eine Zahl, zum Beispiel x hoch 2 gleich 25." },
+    { "beatId": "why", "narration": "Quadratische Gleichungen tauchen auf, wenn du Flächen, Flugbahnen oder Gewinnverläufe berechnest – überall dort, wo eine Größe im Quadrat vorkommt." },
+    { "beatId": "pure", "narration": "Rein-quadratisch löst du durch Wurzelziehen: x hoch 2 gleich 25 ergibt x gleich plus/minus 5." },
+    { "beatId": "mixed", "narration": "Gemischtquadratische Gleichungen wie x hoch 2 plus 3x minus 4 gleich 0 löst du mit der Mitternachtsformel." },
+    { "beatId": "recap", "narration": "Zusammengefasst: Rein-quadratisch per Wurzel, gemischtquadratisch per Mitternachtsformel – beide liefern meist zwei Lösungen." }
+  ],
+  "storyboard": [
+    { "beatId": "beat-intro", "narrationRef": "intro", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Rein-quadratisch", "expression": "x² = 25" },
+      { "label": "Gemischtquadratisch", "expression": "x² + 3x - 4 = 0" }
+    ] } },
+    { "beatId": "beat-why", "narrationRef": "why", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Beispiele", "expression": "Flächen, Flugbahnen, Gewinnverläufe" }
+    ] } },
+    { "beatId": "beat-pure", "narrationRef": "pure", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Gleichung", "expression": "x² = 25" },
+      { "label": "Wurzel ziehen", "expression": "x = ±√25" },
+      { "label": "Lösungen", "expression": "x = 5 oder x = -5" }
+    ] } },
+    { "beatId": "beat-mixed", "narrationRef": "mixed", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Mitternachtsformel", "expression": "x = (-p ± √(p² - 4q)) / 2" },
+      { "label": "Lösungen", "expression": "x₁ = -4, x₂ = 1" }
+    ] } },
+    { "beatId": "beat-recap", "narrationRef": "recap", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Merksatz", "expression": "Rein: Wurzel. Gemischt: Mitternachtsformel." }
+    ] } }
+  ],
+  "videoUrl": null
+}

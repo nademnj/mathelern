@@ -1,0 +1,37 @@
+{
+  "slug": "ms10-wurzeln-wurzelgesetze-ep1",
+  "topicSlug": "ms10-wurzeln-wurzelgesetze",
+  "topicRef": "M10 LB1",
+  "title": "n-te Wurzel & Wurzelgesetze",
+  "episodeNumber": 1,
+  "estimatedMinutes": 4,
+  "script": [
+    { "beatId": "intro", "narration": "Die Wurzel ist die Umkehrung des Potenzierens: Welche Zahl musst du mit sich selbst multiplizieren, um 16 zu erhalten? Die Antwort ist 4 – die Wurzel aus 16." },
+    { "beatId": "why", "narration": "Wurzeln brauchst du überall dort, wo du von einer Fläche oder einem Volumen zurück auf eine Seitenlänge schließen willst – zum Beispiel bei einem quadratischen Grundstück." },
+    { "beatId": "notation", "narration": "Bei der n-ten Wurzel fragst du: Welche Zahl hoch n ergibt den Radikanden? Die 3. Wurzel aus 27 ist 3, weil 3 hoch 3 gleich 27 ist." },
+    { "beatId": "connection", "narration": "Wurzeln und Potenzen hängen zusammen: Die n-te Wurzel aus a ist dasselbe wie a hoch (1/n) – ein Bruch als Exponent." },
+    { "beatId": "recap", "narration": "Zusammengefasst: Die n-te Wurzel sucht die Zahl, die hoch n den Radikanden ergibt, und lässt sich auch als Potenz mit Bruchexponent schreiben." }
+  ],
+  "storyboard": [
+    { "beatId": "beat-intro", "narrationRef": "intro", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Frage", "expression": "? · ? = 16" },
+      { "label": "Antwort", "expression": "4 · 4 = 16" },
+      { "label": "Als Wurzel", "expression": "√16 = 4" }
+    ] } },
+    { "beatId": "beat-why", "narrationRef": "why", "component": "AreaGridViz", "props": { "width": 4, "height": 4, "unit": "m" } },
+    { "beatId": "beat-notation", "narrationRef": "notation", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Aufgabe", "expression": "3√27 = ?" },
+      { "label": "Probe", "expression": "3 · 3 · 3 = 27" },
+      { "label": "Ergebnis", "expression": "3√27 = 3" }
+    ] } },
+    { "beatId": "beat-connection", "narrationRef": "connection", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Wurzelschreibweise", "expression": "n√a" },
+      { "label": "Potenzschreibweise", "expression": "a^(1/n)" },
+      { "label": "Beispiel", "expression": "3√27 = 27^(1/3) = 3" }
+    ] } },
+    { "beatId": "beat-recap", "narrationRef": "recap", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Merksatz", "expression": "n√a = a^(1/n)" }
+    ] } }
+  ],
+  "videoUrl": null
+}

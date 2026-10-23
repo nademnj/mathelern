@@ -1,0 +1,36 @@
+{
+  "slug": "ms10-bruchgleichungen-ep1",
+  "topicSlug": "ms10-bruchgleichungen",
+  "topicRef": "M10 LB7",
+  "title": "Bruchgleichungen",
+  "episodeNumber": 1,
+  "estimatedMinutes": 3,
+  "script": [
+    { "beatId": "intro", "narration": "Eine Bruchgleichung hat die Unbekannte x im Nenner oder im Zähler eines Bruchs, zum Beispiel 6 durch x gleich 3." },
+    { "beatId": "why", "narration": "Bruchgleichungen tauchen auf, wenn du Verhältnisse, Geschwindigkeiten oder Mischungsverhältnisse berechnest." },
+    { "beatId": "method", "narration": "Du multiplizierst beide Seiten mit dem Nenner, um x aus dem Nenner zu befreien, und löst dann wie gewohnt auf." },
+    { "beatId": "example", "narration": "6 durch x gleich 3: Multipliziere beide Seiten mit x, das ergibt 6 gleich 3x. Teile durch 3: x gleich 2." },
+    { "beatId": "recap", "narration": "Zusammengefasst: Nenner wegmultiplizieren, dann ganz normal nach x auflösen – und am Ende prüfen, dass x nicht 0 ergibt." }
+  ],
+  "storyboard": [
+    { "beatId": "beat-intro", "narrationRef": "intro", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Beispiel", "expression": "6 / x = 3" }
+    ] } },
+    { "beatId": "beat-why", "narrationRef": "why", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Beispiele", "expression": "Verhältnisse, Geschwindigkeiten, Mischungen" }
+    ] } },
+    { "beatId": "beat-method", "narrationRef": "method", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Schritt 1", "expression": "Mit dem Nenner multiplizieren" },
+      { "label": "Schritt 2", "expression": "Normal nach x auflösen" }
+    ] } },
+    { "beatId": "beat-example", "narrationRef": "example", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Gleichung", "expression": "6 / x = 3" },
+      { "label": "Mit x multiplizieren", "expression": "6 = 3x" },
+      { "label": "Ergebnis", "expression": "x = 2" }
+    ] } },
+    { "beatId": "beat-recap", "narrationRef": "recap", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Merksatz", "expression": "Nenner wegmultiplizieren, x ≠ 0 prüfen" }
+    ] } }
+  ],
+  "videoUrl": null
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "ms10-kathetensatz-hoehensatz-ep1",
+  "topicSlug": "ms10-kathetensatz-hoehensatz",
+  "topicRef": "M10 LB3",
+  "title": "Kathetensatz und Höhensatz",
+  "episodeNumber": 1,
+  "estimatedMinutes": 3,
+  "script": [
+    { "beatId": "intro", "narration": "In einem rechtwinkligen Dreieck teilt die Höhe auf die Hypotenuse diese in zwei Abschnitte p und q. Daraus ergeben sich zwei nützliche Sätze." },
+    { "beatId": "why", "narration": "Diese Sätze helfen dir, fehlende Längen in rechtwinkligen Dreiecken zu berechnen, ohne den Satz des Pythagoras direkt zu benutzen." },
+    { "beatId": "hoehensatz", "narration": "Der Höhensatz: Die Höhe zum Quadrat ist gleich p mal q – das Produkt der beiden Hypotenusenabschnitte." },
+    { "beatId": "example", "narration": "Bei p = 4 cm und q = 9 cm ist h hoch 2 gleich 36, also h gleich 6 cm." },
+    { "beatId": "recap", "narration": "Zusammengefasst: Der Höhensatz verbindet die Höhe eines rechtwinkligen Dreiecks mit den beiden Hypotenusenabschnitten." }
+  ],
+  "storyboard": [
+    { "beatId": "beat-intro", "narrationRef": "intro", "component": "AngleViz", "props": { "degrees": 90, "label": "90°" } },
+    { "beatId": "beat-why", "narrationRef": "why", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Anwendung", "expression": "Fehlende Längen in rechtwinkligen Dreiecken" }
+    ] } },
+    { "beatId": "beat-hoehensatz", "narrationRef": "hoehensatz", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Höhensatz", "expression": "h² = p · q" }
+    ] } },
+    { "beatId": "beat-example", "narrationRef": "example", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Gegeben", "expression": "p = 4, q = 9" },
+      { "label": "Einsetzen", "expression": "h² = 4 · 9 = 36" },
+      { "label": "Wurzel ziehen", "expression": "h = √36 = 6" }
+    ] } },
+    { "beatId": "beat-recap", "narrationRef": "recap", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Merksatz", "expression": "h² = p · q" }
+    ] } }
+  ],
+  "videoUrl": null
+}

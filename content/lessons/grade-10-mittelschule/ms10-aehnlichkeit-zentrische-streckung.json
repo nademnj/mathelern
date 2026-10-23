@@ -1,0 +1,37 @@
+{
+  "slug": "ms10-aehnlichkeit-zentrische-streckung-ep1",
+  "topicSlug": "ms10-aehnlichkeit-zentrische-streckung",
+  "topicRef": "M10 LB3",
+  "title": "Ähnliche Figuren & zentrische Streckung",
+  "episodeNumber": 1,
+  "estimatedMinutes": 3,
+  "script": [
+    { "beatId": "intro", "narration": "Zwei Figuren sind ähnlich, wenn sie die gleiche Form, aber unterschiedliche Größe haben – wie ein Foto, das du vergrößerst oder verkleinerst." },
+    { "beatId": "why", "narration": "Architekten nutzen ähnliche Figuren für Baupläne im Maßstab, und Kartografen für Landkarten – alles bleibt proportional." },
+    { "beatId": "scale_factor", "narration": "Der Streckungsfaktor k sagt dir, wie stark vergrößert oder verkleinert wird: k größer als 1 vergrößert, k zwischen 0 und 1 verkleinert." },
+    { "beatId": "example", "narration": "Eine Strecke von 4 cm wird mit dem Faktor 3 gestreckt: 4 mal 3 ergibt 12 cm." },
+    { "beatId": "recap", "narration": "Zusammengefasst: Bei einer zentrischen Streckung werden alle Längen mit demselben Faktor multipliziert – die Form bleibt gleich." }
+  ],
+  "storyboard": [
+    { "beatId": "beat-intro", "narrationRef": "intro", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Original", "expression": "Dreieck ABC" },
+      { "label": "Ähnlich", "expression": "Dreieck A'B'C' (gleiche Form, andere Größe)" }
+    ] } },
+    { "beatId": "beat-why", "narrationRef": "why", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Beispiele", "expression": "Bauplan 1:100, Landkarte 1:25000" }
+    ] } },
+    { "beatId": "beat-scale-factor", "narrationRef": "scale_factor", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Vergrößerung", "expression": "k > 1" },
+      { "label": "Verkleinerung", "expression": "0 < k < 1" }
+    ] } },
+    { "beatId": "beat-example", "narrationRef": "example", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Original", "expression": "4 cm" },
+      { "label": "Streckungsfaktor", "expression": "k = 3" },
+      { "label": "Neue Länge", "expression": "4 · 3 = 12 cm" }
+    ] } },
+    { "beatId": "beat-recap", "narrationRef": "recap", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Merksatz", "expression": "neue Länge = alte Länge · k" }
+    ] } }
+  ],
+  "videoUrl": null
+}

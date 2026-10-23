@@ -1,0 +1,32 @@
+{
+  "slug": "ms10-einheitskreis-periodische-funktionen-ep1",
+  "topicSlug": "ms10-einheitskreis-periodische-funktionen",
+  "topicRef": "M10 LB4",
+  "title": "Einheitskreis & periodische Vorgänge",
+  "episodeNumber": 1,
+  "estimatedMinutes": 4,
+  "script": [
+    { "beatId": "intro", "narration": "Der Einheitskreis hat den Radius 1. Jeder Punkt auf ihm hat die Koordinaten (cos(Winkel) | sin(Winkel)) – so erweiterst du Sinus und Kosinus über 90 Grad hinaus." },
+    { "beatId": "why", "narration": "Viele Vorgänge wiederholen sich periodisch: Ebbe und Flut, Tageszeiten, Schwingungen – der Einheitskreis macht diese Wiederholung sichtbar." },
+    { "beatId": "coordinates", "narration": "Bei 0 Grad bist du am Punkt (1|0), bei 90 Grad am Punkt (0|1) – der Punkt wandert gegen den Uhrzeigersinn um den Kreis." },
+    { "beatId": "example", "narration": "Bei 180 Grad ist der Punkt (-1|0): cos(180°) ist -1, sin(180°) ist 0." },
+    { "beatId": "recap", "narration": "Zusammengefasst: y = sin(x) beschreibt periodische Vorgänge – die Kurve wiederholt sich alle 360 Grad, genau wie der Punkt auf dem Einheitskreis." }
+  ],
+  "storyboard": [
+    { "beatId": "beat-intro", "narrationRef": "intro", "component": "CoordinatePlaneViz", "props": { "range": 2, "points": [ { "x": 1, "y": 0, "label": "0°" } ] } },
+    { "beatId": "beat-why", "narrationRef": "why", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Beispiele", "expression": "Gezeiten, Tageszeiten, Schwingungen" }
+    ] } },
+    { "beatId": "beat-coordinates", "narrationRef": "coordinates", "component": "CoordinatePlaneViz", "props": { "range": 2, "points": [
+      { "x": 1, "y": 0, "label": "0°" },
+      { "x": 0, "y": 1, "label": "90°" }
+    ] } },
+    { "beatId": "beat-example", "narrationRef": "example", "component": "CoordinatePlaneViz", "props": { "range": 2, "points": [
+      { "x": -1, "y": 0, "label": "180°" }
+    ] } },
+    { "beatId": "beat-recap", "narrationRef": "recap", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Merksatz", "expression": "Punkt bei Winkel α: (cos α | sin α)" }
+    ] } }
+  ],
+  "videoUrl": null
+}

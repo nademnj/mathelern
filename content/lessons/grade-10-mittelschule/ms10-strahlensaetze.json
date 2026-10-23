@@ -1,0 +1,37 @@
+{
+  "slug": "ms10-strahlensaetze-ep1",
+  "topicSlug": "ms10-strahlensaetze",
+  "topicRef": "M10 LB3",
+  "title": "Strahlensätze",
+  "episodeNumber": 1,
+  "estimatedMinutes": 3,
+  "script": [
+    { "beatId": "intro", "narration": "Wenn zwei Strahlen von einem Punkt ausgehen und von zwei parallelen Linien geschnitten werden, entstehen feste Längenverhältnisse – das ist der Strahlensatz." },
+    { "beatId": "why", "narration": "Mit dem Strahlensatz kannst du unerreichbare Längen berechnen – zum Beispiel die Höhe eines Baumes über seinen Schatten." },
+    { "beatId": "formula", "narration": "Die Grundregel: a zu c verhält sich wie b zu x – die Verhältnisse auf beiden Strahlen sind gleich." },
+    { "beatId": "example", "narration": "Gegeben: a = 3 cm, c = 9 cm, b = 4 cm. Dann ist x = (b mal c) durch a, also (4 mal 9) durch 3 gleich 12 cm." },
+    { "beatId": "recap", "narration": "Zusammengefasst: Strahlensätze nutzen gleiche Verhältnisse, um aus drei bekannten Längen die vierte zu berechnen." }
+  ],
+  "storyboard": [
+    { "beatId": "beat-intro", "narrationRef": "intro", "component": "CoordinatePlaneViz", "props": { "range": 6, "points": [
+      { "x": 0, "y": 0, "label": "Z" },
+      { "x": 2, "y": 2, "label": "A" },
+      { "x": 4, "y": 4, "label": "C" }
+    ] } },
+    { "beatId": "beat-why", "narrationRef": "why", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Anwendung", "expression": "Baumhöhe über Schattenlänge berechnen" }
+    ] } },
+    { "beatId": "beat-formula", "narrationRef": "formula", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Strahlensatz", "expression": "a : c = b : x" }
+    ] } },
+    { "beatId": "beat-example", "narrationRef": "example", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Gegeben", "expression": "a = 3, c = 9, b = 4" },
+      { "label": "Formel", "expression": "x = (b · c) / a" },
+      { "label": "Ergebnis", "expression": "x = (4 · 9) / 3 = 12" }
+    ] } },
+    { "beatId": "beat-recap", "narrationRef": "recap", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Merksatz", "expression": "a : c = b : x" }
+    ] } }
+  ],
+  "videoUrl": null
+}

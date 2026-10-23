@@ -1,0 +1,36 @@
+{
+  "slug": "ms10-baumdiagramme-pfadregeln-ep1",
+  "topicSlug": "ms10-baumdiagramme-pfadregeln",
+  "topicRef": "M10 LB6",
+  "title": "Baumdiagramme & Pfadregeln",
+  "episodeNumber": 1,
+  "estimatedMinutes": 4,
+  "script": [
+    { "beatId": "intro", "narration": "Ein Baumdiagramm zeigt alle möglichen Ausgänge eines mehrstufigen Zufallsexperiments als Äste – jeder Ast trägt eine Wahrscheinlichkeit." },
+    { "beatId": "why", "narration": "Mit Baumdiagrammen behältst du bei mehreren Zufallsschritten den Überblick – zum Beispiel beim zweimaligen Ziehen aus einer Urne." },
+    { "beatId": "path_rule", "narration": "Die Pfadregel: Um die Wahrscheinlichkeit eines Pfades zu berechnen, multiplizierst du die Wahrscheinlichkeiten entlang des Weges." },
+    { "beatId": "example", "narration": "Eine Urne hat 3 rote und 2 blaue Kugeln. Du ziehst zweimal mit Zurücklegen. Die Wahrscheinlichkeit für 'rot dann blau' ist 3/5 mal 2/5, also 6/25." },
+    { "beatId": "recap", "narration": "Zusammengefasst: Äste multiplizieren für einen Pfad, mehrere passende Pfade addierst du am Ende." }
+  ],
+  "storyboard": [
+    { "beatId": "beat-intro", "narrationRef": "intro", "component": "TreeDiagramViz", "props": {
+      "branches": [ { "label": "rot", "probability": "3/5" }, { "label": "blau", "probability": "2/5" } ],
+      "secondBranches": [ { "label": "rot", "probability": "3/5" }, { "label": "blau", "probability": "2/5" } ]
+    } },
+    { "beatId": "beat-why", "narrationRef": "why", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Anwendung", "expression": "Mehrstufige Zufallsexperimente" }
+    ] } },
+    { "beatId": "beat-path-rule", "narrationRef": "path_rule", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Pfadregel", "expression": "P(Pfad) = P(Ast 1) · P(Ast 2) · ..." }
+    ] } },
+    { "beatId": "beat-example", "narrationRef": "example", "component": "TreeDiagramViz", "props": {
+      "branches": [ { "label": "rot", "probability": "3/5" }, { "label": "blau", "probability": "2/5" } ],
+      "secondBranches": [ { "label": "rot", "probability": "3/5" }, { "label": "blau", "probability": "2/5" } ],
+      "highlightPath": ["rot", "blau"]
+    } },
+    { "beatId": "beat-recap", "narrationRef": "recap", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Merksatz", "expression": "Entlang eines Pfades: multiplizieren" }
+    ] } }
+  ],
+  "videoUrl": null
+}

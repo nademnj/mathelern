@@ -1,0 +1,36 @@
+{
+  "slug": "ms10-quadratische-funktionen-normalform-scheitelpunktform-ep1",
+  "topicSlug": "ms10-quadratische-funktionen-normalform-scheitelpunktform",
+  "topicRef": "M10 LB7",
+  "title": "Quadratische Funktionen: Normalform ↔ Scheitelpunktform",
+  "episodeNumber": 1,
+  "estimatedMinutes": 4,
+  "script": [
+    { "beatId": "intro", "narration": "Eine quadratische Funktion lässt sich auf zwei Arten schreiben: als Normalform y = x² + px + q oder als Scheitelpunktform y = (x - d)² + e." },
+    { "beatId": "why", "narration": "Die Scheitelpunktform zeigt dir sofort den höchsten oder tiefsten Punkt der Parabel – praktisch, um den Scheitelpunkt ohne Rechnung abzulesen." },
+    { "beatId": "formula", "narration": "Umrechnung: d ist -p durch 2, und e berechnest du, indem du d in die Normalform einsetzt." },
+    { "beatId": "example", "narration": "Bei y = x² - 4x + 1 ist d = -(-4)/2 = 2, und e = 2² - 4·2 + 1 = -3. Die Scheitelpunktform ist y = (x - 2)² - 3." },
+    { "beatId": "recap", "narration": "Zusammengefasst: d = -p/2 gibt dir die x-Koordinate, Einsetzen gibt dir die y-Koordinate des Scheitelpunkts." }
+  ],
+  "storyboard": [
+    { "beatId": "beat-intro", "narrationRef": "intro", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Normalform", "expression": "y = x² + px + q" },
+      { "label": "Scheitelpunktform", "expression": "y = (x - d)² + e" }
+    ] } },
+    { "beatId": "beat-why", "narrationRef": "why", "component": "CoordinatePlaneViz", "props": { "range": 6, "points": [ { "x": 2, "y": -3, "label": "Scheitel" } ] } },
+    { "beatId": "beat-formula", "narrationRef": "formula", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "x-Koordinate", "expression": "d = -p / 2" },
+      { "label": "y-Koordinate", "expression": "e = d² + p·d + q" }
+    ] } },
+    { "beatId": "beat-example", "narrationRef": "example", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Gegeben", "expression": "y = x² - 4x + 1" },
+      { "label": "d berechnen", "expression": "d = -(-4)/2 = 2" },
+      { "label": "e berechnen", "expression": "e = 2² - 4·2 + 1 = -3" },
+      { "label": "Ergebnis", "expression": "y = (x - 2)² - 3" }
+    ] } },
+    { "beatId": "beat-recap", "narrationRef": "recap", "component": "EquationStepReveal", "props": { "steps": [
+      { "label": "Merksatz", "expression": "d = -p/2,  e = Funktionswert an der Stelle d" }
+    ] } }
+  ],
+  "videoUrl": null
+}
