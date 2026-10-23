@@ -3,6 +3,7 @@ import { requireStudent } from "@/lib/auth/roles";
 import { logout } from "@/actions/auth";
 import { Button } from "@/components/ui/button";
 import { ChatWidget } from "@/components/chat/ChatWidget";
+import { CurrentLessonProvider } from "@/lib/chat/CurrentLessonContext";
 
 const TRACK_LABEL: Record<string, string> = {
   gymnasium_g9: "Gymnasium",
@@ -33,8 +34,10 @@ export default async function StudentLayout({ children }: { children: React.Reac
           </form>
         </nav>
       </header>
-      <main className="flex-1 px-6 py-8">{children}</main>
-      <ChatWidget />
+      <CurrentLessonProvider>
+        <main className="flex-1 px-6 py-8">{children}</main>
+        <ChatWidget />
+      </CurrentLessonProvider>
     </div>
   );
 }

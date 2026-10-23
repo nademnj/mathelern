@@ -6,12 +6,15 @@ import { getChatHistory, sendChatMessage, type ChatMessageRow } from "@/actions/
 import { ChatMessageBubble } from "./ChatMessageBubble";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
+import { useCurrentLesson } from "@/lib/chat/CurrentLessonContext";
 
 export function ChatWidget() {
   const pathname = usePathname();
+  const { currentLesson } = useCurrentLesson();
   // Only /topic/:slug and /exercise/:slug carry the topic slug directly in
   // the URL -- good enough context for "what is the student looking at"
-  // without trying to reverse-map a lesson slug back to its topic.
+  // on those pages. On a lesson page, currentLesson (set by LessonPlayer)
+  // carries the richer lesson+step context instead.
   const topicSlug = useMemo(() => {
     const match = pathname.match(/^\/(topic|exercise)\/([^/]+)/);
     return match ? match[2] : null;
@@ -55,7 +58,13 @@ export function ChatWidget() {
       },
     ]);
     setPending(true);
-    const result = await sendChatMessage(text, topicSlug);
+    const result = await sendChatMessage(
+      text,
+      topicSlug,
+      currentLesson
+        ? { lessonId: currentLesson.lessonId, currentStepIndex: currentLesson.currentStepIndex }
+        : null
+    );
     setPending(false);
     if ("error" in result) {
       setError(result.error);
@@ -76,8 +85,13 @@ export function ChatWidget() {
 
       {isOpen && (
         <div className="fixed right-5 bottom-24 z-50 flex h-[32rem] w-[22rem] max-w-[calc(100vw-2.5rem)] flex-col rounded-lg border border-border bg-card shadow-xl">
-          <div className="flex items-center justify-between border-b border-border px-4 py-3">
+          <div className="border-b border-border px-4 py-3">
             <span className="text-sm font-semibold">Mathe-Tutor</span>
+            {currentLesson && (
+              <p className="mt-0.5 text-xs text-muted-foreground">
+                📍 sieht gerade: {currentLesson.lessonTitle} (Schritt {currentLesson.currentStepIndex + 1})
+              </p>
+            )}
           </div>
 
           <div className="flex-1 space-y-3 overflow-y-auto px-4 py-3">

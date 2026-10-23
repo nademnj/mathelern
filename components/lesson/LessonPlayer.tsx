@@ -8,6 +8,7 @@ import { ScriptCaptionBar } from "@/components/lesson/ScriptCaptionBar";
 import { Button } from "@/components/ui/button";
 import { Progress } from "@/components/ui/progress";
 import { markLessonStarted, markLessonCompleted } from "@/actions/progress";
+import { useCurrentLesson } from "@/lib/chat/CurrentLessonContext";
 
 interface LessonPlayerProps {
   lessonId: string;
@@ -23,10 +24,21 @@ export function LessonPlayer({ lessonId, title, storyboard, script, videoUrl, ne
   const [index, setIndex] = useState(0);
   const [completing, setCompleting] = useState(false);
   const startedAt = useRef(Date.now());
+  const { setCurrentLesson } = useCurrentLesson();
 
   useEffect(() => {
     markLessonStarted(lessonId);
   }, [lessonId]);
+
+  // Keep the chat widget aware of exactly which step is on screen.
+  useEffect(() => {
+    setCurrentLesson({ lessonId, lessonTitle: title, currentStepIndex: index });
+  }, [lessonId, title, index, setCurrentLesson]);
+
+  useEffect(() => {
+    return () => setCurrentLesson(null);
+    // eslint-disable-next-line react-hooks/exhaustive-deps -- unmount-only cleanup
+  }, []);
 
   const beat = storyboard[index];
   const narration = script.find((s) => s.beatId === beat.narrationRef)?.narration ?? "";

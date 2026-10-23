@@ -2,7 +2,7 @@
 
 import { createClient } from "@/lib/supabase/server";
 import { createAdminClient } from "@/lib/supabase/admin";
-import { askTutor, type ChatTurn } from "@/lib/chat/anthropicClient";
+import { askTutor, type ChatTurn, type LessonInfo } from "@/lib/chat/anthropicClient";
 
 const MAX_MESSAGE_LENGTH = 500;
 const MAX_MESSAGES_PER_DAY = 100;
@@ -48,7 +48,8 @@ export async function getChatHistory(): Promise<ChatMessageRow[] | { error: stri
 
 export async function sendChatMessage(
   message: string,
-  topicSlug: string | null
+  topicSlug: string | null,
+  lessonContext: { lessonId: string; currentStepIndex: number } | null
 ): Promise<{ assistantMessage: ChatMessageRow } | { error: string }> {
   const trimmed = message.trim();
   if (!trimmed) return { error: "Bitte eine Frage eingeben." };
@@ -88,6 +89,33 @@ export async function sendChatMessage(
     topicTitle = topic?.title ?? null;
   }
 
+  // Full lesson content + exactly which storyboard step is on screen, so
+  // the tutor can explain the actual part the student is looking at
+  // instead of just knowing the topic's name.
+  let lessonInfo: LessonInfo | null = null;
+  if (lessonContext) {
+    const { data: lesson } = await admin
+      .from("lessons")
+      .select("title, topic_id, storyboard_json, script_json")
+      .eq("id", lessonContext.lessonId)
+      .maybeSingle();
+    if (lesson) {
+      const storyboard = lesson.storyboard_json as { narrationRef: string }[];
+      const script = lesson.script_json as { beatId: string; narration: string }[];
+      const scriptByBeatId = new Map(script.map((s) => [s.beatId, s.narration]));
+      const orderedNarrations = storyboard.map((beat) => scriptByBeatId.get(beat.narrationRef) ?? "");
+      lessonInfo = {
+        title: lesson.title,
+        orderedNarrations,
+        currentStepIndex: Math.min(lessonContext.currentStepIndex, orderedNarrations.length - 1),
+      };
+      if (!topicTitle) {
+        const { data: topic } = await admin.from("topics").select("title").eq("id", lesson.topic_id).maybeSingle();
+        topicTitle = topic?.title ?? null;
+      }
+    }
+  }
+
   const { data: recentRows } = await admin
     .from("chat_messages")
     .select("role, content")
@@ -113,6 +141,7 @@ export async function sendChatMessage(
       gradeLevel: student.grade_level,
       schoolTrackLabel: TRACK_LABEL[student.school_track] ?? student.school_track,
       topicTitle,
+      lessonInfo,
     });
   } catch (err) {
     return { error: err instanceof Error ? err.message : "Der Tutor ist gerade nicht erreichbar." };
