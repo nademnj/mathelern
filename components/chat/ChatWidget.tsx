@@ -7,6 +7,7 @@ import { ChatMessageBubble } from "./ChatMessageBubble";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { useCurrentLesson } from "@/lib/chat/CurrentLessonContext";
+import { speakGerman } from "@/lib/chat/speak";
 
 export function ChatWidget() {
   const pathname = usePathname();
@@ -26,6 +27,7 @@ export function ChatWidget() {
   const [input, setInput] = useState("");
   const [pending, setPending] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const [voiceOn, setVoiceOn] = useState(true);
   const bottomRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -71,6 +73,7 @@ export function ChatWidget() {
       return;
     }
     setMessages((prev) => [...prev, result.assistantMessage]);
+    if (voiceOn) speakGerman(result.assistantMessage.content);
   }
 
   return (
@@ -86,7 +89,20 @@ export function ChatWidget() {
       {isOpen && (
         <div className="fixed right-5 bottom-24 z-50 flex h-[32rem] w-[22rem] max-w-[calc(100vw-2.5rem)] flex-col rounded-lg border border-border bg-card shadow-xl">
           <div className="border-b border-border px-4 py-3">
-            <span className="text-sm font-semibold">Mathe-Tutor</span>
+            <div className="flex items-center justify-between">
+              <span className="text-sm font-semibold">Mathe-Tutor</span>
+              <button
+                onClick={() => {
+                  setVoiceOn((v) => !v);
+                  if (voiceOn) window.speechSynthesis?.cancel();
+                }}
+                className="text-xs text-muted-foreground hover:text-foreground"
+                aria-label={voiceOn ? "Sprachausgabe stummschalten" : "Sprachausgabe einschalten"}
+                title={voiceOn ? "Sprachausgabe stummschalten" : "Sprachausgabe einschalten"}
+              >
+                {voiceOn ? "🔊" : "🔇"}
+              </button>
+            </div>
             {currentLesson && (
               <p className="mt-0.5 text-xs text-muted-foreground">
                 📍 sieht gerade: {currentLesson.lessonTitle} (Schritt {currentLesson.currentStepIndex + 1})

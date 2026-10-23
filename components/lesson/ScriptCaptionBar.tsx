@@ -1,7 +1,15 @@
-export function ScriptCaptionBar({ narration }: { narration: string }) {
+export function ScriptCaptionBar({ narration, onReplay }: { narration: string; onReplay?: () => void }) {
   return (
-    <p className="mx-auto max-w-xl rounded-md bg-muted px-4 py-3 text-center text-base leading-relaxed">
-      {narration}
-    </p>
+    <div className="mx-auto max-w-xl rounded-md bg-muted px-4 py-3 text-center">
+      <p className="text-base leading-relaxed">{narration}</p>
+      {onReplay && (
+        <button
+          onClick={onReplay}
+          className="mt-2 text-xs text-muted-foreground underline hover:text-foreground"
+        >
+          🔊 Nochmal hören
+        </button>
+      )}
+    </div>
   );
 }

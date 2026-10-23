@@ -1,6 +1,7 @@
 "use client";
 
 import { EquationStepReveal } from "@/components/visuals/EquationStepReveal";
+import { speakGerman } from "@/lib/chat/speak";
 
 export interface ChatMessageBubbleProps {
   role: "student" | "assistant";
@@ -12,17 +13,6 @@ export interface ChatMessageBubbleProps {
 export function ChatMessageBubble({ role, content, generatedTitle, generatedSteps }: ChatMessageBubbleProps) {
   const isStudent = role === "student";
 
-  function speak() {
-    try {
-      window.speechSynthesis.cancel();
-      const utterance = new SpeechSynthesisUtterance(content);
-      utterance.lang = "de-DE";
-      window.speechSynthesis.speak(utterance);
-    } catch {
-      // Web Speech API unavailable (unsupported browser) -- fail silently, text is still shown.
-    }
-  }
-
   return (
     <div className={`flex ${isStudent ? "justify-end" : "justify-start"}`}>
       <div
@@ -33,7 +23,7 @@ export function ChatMessageBubble({ role, content, generatedTitle, generatedStep
         <p className="whitespace-pre-wrap">{content}</p>
         {!isStudent && (
           <button
-            onClick={speak}
+            onClick={() => speakGerman(content)}
             className="mt-1 text-xs text-muted-foreground underline hover:text-foreground"
           >
             🔊 Vorlesen

@@ -9,6 +9,7 @@ import { Button } from "@/components/ui/button";
 import { Progress } from "@/components/ui/progress";
 import { markLessonStarted, markLessonCompleted } from "@/actions/progress";
 import { useCurrentLesson } from "@/lib/chat/CurrentLessonContext";
+import { speakGerman, stopSpeaking } from "@/lib/chat/speak";
 
 interface LessonPlayerProps {
   lessonId: string;
@@ -23,6 +24,7 @@ export function LessonPlayer({ lessonId, title, storyboard, script, videoUrl, ne
   const router = useRouter();
   const [index, setIndex] = useState(0);
   const [completing, setCompleting] = useState(false);
+  const [voiceOn, setVoiceOn] = useState(true);
   const startedAt = useRef(Date.now());
   const { setCurrentLesson } = useCurrentLesson();
 
@@ -36,13 +38,23 @@ export function LessonPlayer({ lessonId, title, storyboard, script, videoUrl, ne
   }, [lessonId, title, index, setCurrentLesson]);
 
   useEffect(() => {
-    return () => setCurrentLesson(null);
+    return () => {
+      setCurrentLesson(null);
+      stopSpeaking();
+    };
     // eslint-disable-next-line react-hooks/exhaustive-deps -- unmount-only cleanup
   }, []);
 
   const beat = storyboard[index];
   const narration = script.find((s) => s.beatId === beat.narrationRef)?.narration ?? "";
   const isLast = index === storyboard.length - 1;
+
+  // Read each step aloud as it appears, like a teacher narrating the lesson.
+  useEffect(() => {
+    if (voiceOn && narration) speakGerman(narration);
+    return () => stopSpeaking();
+    // eslint-disable-next-line react-hooks/exhaustive-deps -- re-run only when the visible step/text changes
+  }, [narration, index]);
 
   async function handleNext() {
     if (!isLast) {
@@ -57,7 +69,25 @@ export function LessonPlayer({ lessonId, title, storyboard, script, videoUrl, ne
   return (
     <div className="mx-auto max-w-2xl space-y-6">
       <div>
-        <h1 className="text-xl font-semibold">{title}</h1>
+        <div className="flex items-center justify-between">
+          <h1 className="text-xl font-semibold">{title}</h1>
+          <button
+            onClick={() => {
+              if (voiceOn) {
+                stopSpeaking();
+                setVoiceOn(false);
+              } else {
+                setVoiceOn(true);
+                if (narration) speakGerman(narration);
+              }
+            }}
+            className="text-xs text-muted-foreground hover:text-foreground"
+            aria-label={voiceOn ? "Vorlesen stummschalten" : "Vorlesen einschalten"}
+            title={voiceOn ? "Vorlesen stummschalten" : "Vorlesen einschalten"}
+          >
+            {voiceOn ? "🔊" : "🔇"}
+          </button>
+        </div>
         <Progress value={((index + 1) / storyboard.length) * 100} className="mt-3" />
         <p className="mt-1 text-xs text-muted-foreground">
           Schritt {index + 1} von {storyboard.length}
@@ -70,7 +100,7 @@ export function LessonPlayer({ lessonId, title, storyboard, script, videoUrl, ne
       ) : (
         <div className="space-y-4 rounded-lg border border-border p-6">
           <StoryboardStepRenderer beat={beat} />
-          <ScriptCaptionBar narration={narration} />
+          <ScriptCaptionBar narration={narration} onReplay={() => speakGerman(narration)} />
         </div>
       )}
 
