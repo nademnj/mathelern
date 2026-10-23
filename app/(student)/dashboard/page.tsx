@@ -1,8 +1,8 @@
-import Link from "next/link";
 import { createClient } from "@/lib/supabase/server";
 import { requireStudent } from "@/lib/auth/roles";
 import { getGrade } from "@/lib/curriculum/getGrade";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { GradeRoadmap, type RoadmapTopic } from "@/components/progress/GradeRoadmap";
 
 export default async function StudentDashboardPage() {
   const { profile, student } = await requireStudent();
@@ -16,6 +16,22 @@ export default async function StudentDashboardPage() {
     .eq("grade_id", grade?.id ?? "")
     .order("sequence_order");
 
+  const { data: masteryRows } = await supabase
+    .from("topic_mastery")
+    .select("*")
+    .eq("student_id", student!.id);
+  const masteryByTopic = new Map((masteryRows ?? []).map((m) => [m.topic_id, m]));
+
+  const roadmapTopics: RoadmapTopic[] = (topics ?? []).map((t) => {
+    const mastery = masteryByTopic.get(t.id);
+    return {
+      slug: t.slug,
+      title: t.title,
+      status: mastery?.status ?? "not_started",
+      masteryScore: mastery?.mastery_score ?? 0,
+    };
+  });
+
   return (
     <div className="mx-auto max-w-3xl space-y-6">
       <h1 className="text-2xl font-semibold">
@@ -24,22 +40,11 @@ export default async function StudentDashboardPage() {
 
       <Card>
         <CardHeader>
-          <CardTitle>{grade?.label ?? `${student?.grade_level}. Klasse`} – Themen</CardTitle>
+          <CardTitle>{grade?.label ?? `${student?.grade_level}. Klasse`} – Lektionen wählen</CardTitle>
         </CardHeader>
         <CardContent>
-          {topics && topics.length > 0 ? (
-            <ul className="space-y-2">
-              {topics.map((t) => (
-                <li key={t.id}>
-                  <Link
-                    href={`/topic/${t.slug}`}
-                    className="block rounded-md border px-4 py-3 hover:bg-muted"
-                  >
-                    {t.title}
-                  </Link>
-                </li>
-              ))}
-            </ul>
+          {roadmapTopics.length > 0 ? (
+            <GradeRoadmap topics={roadmapTopics} />
           ) : (
             <p className="text-sm text-muted-foreground">
               Für deine Klasse sind noch keine Lektionen veröffentlicht. Schau
