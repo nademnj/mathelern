@@ -13,6 +13,7 @@ import { computeMasterySignal, REMEDIAL_ROUND_CAP } from "@/lib/adaptive/mastery
 import { STRUGGLING_THRESHOLD } from "@/lib/adaptive/masteryModel";
 import { checkAndAwardMilestones } from "@/lib/milestones/checkMilestones";
 import { generateExamStyleExercise } from "@/lib/chat/exerciseGenerator";
+import { explainExerciseSolution, type ExplainedStep } from "@/lib/chat/solutionExplainer";
 
 function toMasteryState(row: {
   mastery_score: number;
@@ -344,4 +345,75 @@ export async function submitAttempt(
     difficultyTier: nextState.lastDifficultyTier,
     needsWorkedExamples: signal.needsWorkedExamples,
   };
+}
+
+/**
+ * The on-demand "explain step by step" panel: takes the terse
+ * label/expression solution steps already shown after every attempt and
+ * has the AI expand each one with why/how, optionally linking a step to
+ * another topic in the same grade when it genuinely depends on it. Slugs
+ * are only ever accepted from a server-fetched candidate list, so a
+ * hallucinated link can never reach the UI.
+ */
+export async function explainSolution(
+  exerciseInstanceId: string
+): Promise<{ steps: ExplainedStep[] } | { error: string }> {
+  const supabase = await createClient();
+  const { data: auth } = await supabase.auth.getUser();
+  if (!auth.user) return { error: "Nicht angemeldet." };
+  const studentId = auth.user.id;
+
+  const admin = createAdminClient();
+
+  const { data: instance } = await admin
+    .from("exercise_instances")
+    .select("id, exercise_id, rendered_question, student_id")
+    .eq("id", exerciseInstanceId)
+    .eq("student_id", studentId)
+    .single();
+  if (!instance) return { error: "Übung nicht gefunden." };
+
+  const { data: answerRow } = await admin
+    .from("exercise_instance_answers")
+    .select("solution_steps")
+    .eq("exercise_instance_id", instance.id)
+    .single();
+  if (!answerRow) return { error: "Lösung nicht gefunden." };
+
+  const { data: exerciseDef } = await admin
+    .from("exercises")
+    .select("topic_id")
+    .eq("id", instance.exercise_id)
+    .single();
+  if (!exerciseDef) return { error: "Übung nicht gefunden." };
+
+  const { data: topic } = await admin
+    .from("topics")
+    .select("title, grade_id")
+    .eq("id", exerciseDef.topic_id)
+    .single();
+  if (!topic) return { error: "Thema nicht gefunden." };
+
+  const { data: siblingTopics } = await admin
+    .from("topics")
+    .select("slug, title")
+    .eq("grade_id", topic.grade_id)
+    .eq("is_published", true)
+    .neq("id", exerciseDef.topic_id)
+    .limit(25);
+
+  const basicSteps = (answerRow.solution_steps as { label: string; expression: string }[]) ?? [];
+  if (basicSteps.length === 0) return { error: "Für diese Übung gibt es keinen Lösungsweg." };
+
+  try {
+    const steps = await explainExerciseSolution({
+      questionPrompt: (instance.rendered_question as { prompt: string }).prompt,
+      basicSteps,
+      topicTitle: topic.title,
+      candidateTopics: siblingTopics ?? [],
+    });
+    return { steps };
+  } catch (err) {
+    return { error: err instanceof Error ? err.message : "Die Erklärung konnte nicht erstellt werden." };
+  }
 }
