@@ -12,6 +12,7 @@ const numberLineVizSchema = z.object({
     step: z.number().positive().optional(),
     highlight: z.array(z.number()).default([]),
     jumpTo: z.number().optional(),
+    highlightLabel: z.string().optional(),
   }),
 });
 

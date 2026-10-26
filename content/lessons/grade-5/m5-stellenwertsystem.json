@@ -79,13 +79,13 @@
       "beatId": "beat-intro",
       "narrationRef": "intro",
       "component": "NumberLineViz",
-      "props": { "min": 0, "max": 20, "step": 1, "highlight": [7] }
+      "props": { "min": 0, "max": 20, "step": 1, "highlight": [7], "highlightLabel": "Die Zahl 7" }
     },
     {
       "beatId": "beat-why",
       "narrationRef": "why",
       "component": "NumberLineViz",
-      "props": { "min": 0, "max": 100, "step": 10, "highlight": [40], "jumpTo": 40 }
+      "props": { "min": 0, "max": 100, "step": 10, "highlight": [40], "jumpTo": 40, "highlightLabel": "Sprung zu 40" }
     },
     {
       "beatId": "beat-breakdown",
@@ -119,7 +119,7 @@
       "beatId": "beat-recap",
       "narrationRef": "recap",
       "component": "NumberLineViz",
-      "props": { "min": 0, "max": 20, "step": 1, "highlight": [7], "jumpTo": 7 }
+      "props": { "min": 0, "max": 20, "step": 1, "highlight": [7], "jumpTo": 7, "highlightLabel": "Zurück zur 7" }
     }
   ],
   "videoUrl": null

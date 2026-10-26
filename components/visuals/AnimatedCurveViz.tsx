@@ -1,7 +1,8 @@
 "use client";
 
-import { useId, useState } from "react";
+import { useState } from "react";
 import { motion } from "framer-motion";
+import { CalloutArrow } from "./CalloutArrow";
 
 export interface AnimatedCurveVizProps {
   curveType: "quadratic" | "linear" | "exponential" | "circular";
@@ -93,7 +94,22 @@ function formatTick(v: number): string {
 export function AnimatedCurveViz(props: AnimatedCurveVizProps) {
   const { mover = "⚽", label, markVertex } = props;
   const [replayKey, setReplayKey] = useState(0);
-  const arrowId = useId();
+
+  // Vertex of a quadratic (x = -b/2a) -- computed, not hand-tuned per lesson,
+  // so it always matches a/b/c exactly.
+  const vertex =
+    props.curveType === "quadratic" && markVertex
+      ? (() => {
+          const a = props.a ?? 1;
+          const b = props.b ?? 0;
+          const vx = -b / (2 * a);
+          return { x: vx, y: evaluate(props, vx) };
+        })()
+      : null;
+  // A dedicated margin strip above the whole chart, reserved only for the
+  // callout label -- the curve never draws into it, so the name is always
+  // outside the curve instead of competing with it for space.
+  const topBand = vertex ? 36 : 0;
 
   const points = samplePoints(props);
   const xValues = points.map((p) => p.x);
@@ -109,47 +125,27 @@ export function AnimatedCurveViz(props: AnimatedCurveVizProps) {
   const yDomain: [number, number] = [yLo - yPad, yHi + yPad];
 
   const plotSize = SIZE - PAD * 2;
+  const plotTop = PAD + topBand;
+  const plotBottom = SIZE - PAD;
+  const plotHeight = plotBottom - plotTop;
   const toX = (x: number) => PAD + ((x - xDomain[0]) / (xDomain[1] - xDomain[0])) * plotSize;
-  const toY = (y: number) => PAD + plotSize - ((y - yDomain[0]) / (yDomain[1] - yDomain[0])) * plotSize;
+  const toY = (y: number) => plotTop + plotHeight - ((y - yDomain[0]) / (yDomain[1] - yDomain[0])) * plotHeight;
 
   const d = points.map((p, i) => `${i === 0 ? "M" : "L"} ${toX(p.x).toFixed(1)} ${toY(p.y).toFixed(1)}`).join(" ");
   const xTicks = ticksFor(xDomain[0], xDomain[1]);
   const yTicks = ticksFor(yDomain[0], yDomain[1]);
 
-  // Vertex of a quadratic (x = -b/2a) -- computed, not hand-tuned per lesson,
-  // so it always matches a/b/c exactly.
-  const vertex =
-    props.curveType === "quadratic" && markVertex
-      ? (() => {
-          const a = props.a ?? 1;
-          const b = props.b ?? 0;
-          const vx = -b / (2 * a);
-          return { x: vx, y: evaluate(props, vx), opensUp: a > 0 };
-        })()
-      : null;
   const vPx = vertex ? toX(vertex.x) : 0;
   const vPy = vertex ? toY(vertex.y) : 0;
-  const labelGap = 14;
-  const labelOffset = 42;
-  const labelAnchorY = vertex
-    ? vertex.opensUp
-      ? Math.max(PAD + 8, vPy - labelOffset)
-      : Math.min(PAD + plotSize - 8, vPy + labelOffset)
-    : 0;
-  const lineStartY = vertex ? (vertex.opensUp ? labelAnchorY + labelGap : labelAnchorY - labelGap) : 0;
+  const vLabelX = vertex ? Math.min(Math.max(vPx, PAD + 40), SIZE - PAD - 40) : 0;
 
   return (
     <div className="space-y-2">
       <svg viewBox={`0 0 ${SIZE} ${SIZE}`} className="mx-auto w-full max-w-sm" role="img" aria-label={label ?? "Animierte Kurve"}>
-        <defs>
-          <marker id={arrowId} viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
-            <path d="M 0 0 L 10 5 L 0 10 z" className="fill-foreground" />
-          </marker>
-        </defs>
         {xTicks.map((v) => (
           <g key={`x-${v}`}>
-            <line x1={toX(v)} y1={PAD} x2={toX(v)} y2={PAD + plotSize} className="stroke-border/40" />
-            <text x={toX(v)} y={PAD + plotSize + 14} textAnchor="middle" className="fill-muted-foreground text-[9px]">
+            <line x1={toX(v)} y1={plotTop} x2={toX(v)} y2={plotBottom} className="stroke-border/40" />
+            <text x={toX(v)} y={plotBottom + 14} textAnchor="middle" className="fill-muted-foreground text-[9px]">
               {formatTick(v)}
             </text>
           </g>
@@ -163,7 +159,7 @@ export function AnimatedCurveViz(props: AnimatedCurveVizProps) {
           </g>
         ))}
         <line x1={PAD} y1={toY(0)} x2={PAD + plotSize} y2={toY(0)} className="stroke-border" strokeWidth={1.5} />
-        <line x1={toX(0)} y1={PAD} x2={toX(0)} y2={PAD + plotSize} className="stroke-border" strokeWidth={1.5} />
+        <line x1={toX(0)} y1={plotTop} x2={toX(0)} y2={plotBottom} className="stroke-border" strokeWidth={1.5} />
 
         <motion.path
           key={`path-${replayKey}`}
@@ -188,35 +184,16 @@ export function AnimatedCurveViz(props: AnimatedCurveVizProps) {
           {mover}
         </motion.text>
 
-        {vertex && (
-          <motion.g
+        {vertex && markVertex && (
+          <CalloutArrow
             key={`vertex-${replayKey}`}
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: DURATION + 0.3, duration: 0.5 }}
-          >
-            <circle cx={vPx} cy={vPy} r={4.5} className="fill-primary" />
-            <line
-              x1={vPx}
-              y1={lineStartY}
-              x2={vPx}
-              y2={vPy}
-              className="stroke-foreground"
-              strokeWidth={1.5}
-              markerEnd={`url(#${arrowId})`}
-            />
-            <text
-              x={vPx}
-              y={vertex.opensUp ? labelAnchorY - 6 : labelAnchorY + 14}
-              textAnchor="middle"
-              className="fill-foreground text-[11px] font-medium"
-              stroke="var(--background)"
-              strokeWidth={5}
-              paintOrder="stroke"
-            >
-              {markVertex}
-            </text>
-          </motion.g>
+            targetX={vPx}
+            targetY={vPy}
+            labelX={vLabelX}
+            labelY={18}
+            label={markVertex}
+            delaySeconds={DURATION + 0.3}
+          />
         )}
       </svg>
 

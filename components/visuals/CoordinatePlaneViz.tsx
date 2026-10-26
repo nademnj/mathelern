@@ -1,3 +1,5 @@
+import { CalloutArrow } from "./CalloutArrow";
+
 export interface CoordinatePlaneVizProps {
   range?: number;
   points?: { x: number; y: number; label?: string }[];
@@ -21,16 +23,30 @@ export function CoordinatePlaneViz({ range = 10, points = [] }: CoordinatePlaneV
       ))}
       <line x1={0} y1={toY(0)} x2={size} y2={toY(0)} className="stroke-border" strokeWidth={1.5} />
       <line x1={toX(0)} y1={0} x2={toX(0)} y2={size} className="stroke-border" strokeWidth={1.5} />
-      {points.map((p, i) => (
-        <g key={i}>
-          <circle cx={toX(p.x)} cy={toY(p.y)} r={5} className="fill-primary" />
-          {p.label && (
-            <text x={toX(p.x) + 8} y={toY(p.y) - 8} className="fill-foreground text-xs">
-              {p.label} ({p.x}|{p.y})
-            </text>
-          )}
-        </g>
-      ))}
+      {points.map((p, i) => {
+        const px = toX(p.x);
+        const py = toY(p.y);
+        if (!p.label) {
+          return <circle key={i} cx={px} cy={py} r={5} className="fill-primary" />;
+        }
+        // Push the label out and away from the origin so it sits clear of
+        // the axes and any curve through this point, not right on top of it.
+        const dirX = p.x >= 0 ? 1 : -1;
+        const dirY = p.y >= 0 ? -1 : 1;
+        const labelX = Math.min(Math.max(px + dirX * 36, 30), size - 30);
+        const labelY = Math.min(Math.max(py + dirY * 24, 14), size - 10);
+        return (
+          <CalloutArrow
+            key={i}
+            targetX={px}
+            targetY={py}
+            labelX={labelX}
+            labelY={labelY}
+            label={`${p.label} (${p.x}|${p.y})`}
+            textAnchor={dirX > 0 ? "start" : "end"}
+          />
+        );
+      })}
     </svg>
   );
 }
