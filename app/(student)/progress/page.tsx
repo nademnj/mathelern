@@ -11,7 +11,7 @@ export default async function ProgressPage() {
   const supabase = await createClient();
   const gradeLevel = student?.grade_level ?? 5;
 
-  const grade = await getGrade(supabase, gradeLevel, student?.school_track ?? "gymnasium_g9");
+  const grade = await getGrade(supabase, gradeLevel, student?.school_track ?? "realschule");
 
   const { data: topics } = await supabase
     .from("topics")

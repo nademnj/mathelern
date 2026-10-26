@@ -21,7 +21,7 @@ export default async function ParentDashboardPage() {
         supabase.from("students").select("grade_level, school_track").eq("id", link.student_id).single(),
       ]);
       const gradeLevel = student?.grade_level ?? 5;
-      const grade = await getGrade(supabase, gradeLevel, student?.school_track ?? "gymnasium_g9");
+      const grade = await getGrade(supabase, gradeLevel, student?.school_track ?? "realschule");
 
       const [{ data: topics }, { data: masteryRows }] = await Promise.all([
         supabase.from("topics").select("id").eq("is_published", true).eq("grade_id", grade?.id ?? ""),

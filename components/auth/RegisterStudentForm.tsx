@@ -18,7 +18,7 @@ import type { SchoolTrack } from "@/lib/types/db";
 type FormState = { error: string } | undefined;
 
 const TRACK_LABEL: Record<SchoolTrack, string> = {
-  gymnasium_g9: "Gymnasium (G9)",
+  realschule: "Realschule",
   mittelschule_m: "Mittelschule (M-Zug)",
   fos: "Fachoberschule (FOS)",
 };
@@ -29,7 +29,7 @@ interface RegisterStudentFormProps {
 
 export function RegisterStudentForm({ gradesByTrack }: RegisterStudentFormProps) {
   const tracks = Object.keys(gradesByTrack) as SchoolTrack[];
-  const [schoolTrack, setSchoolTrack] = useState<SchoolTrack>(tracks[0] ?? "gymnasium_g9");
+  const [schoolTrack, setSchoolTrack] = useState<SchoolTrack>(tracks[0] ?? "realschule");
   const grades = gradesByTrack[schoolTrack] ?? [];
   const gradeLabelByNumber = new Map(grades.map((g) => [String(g.gradeNumber), g.label]));
 

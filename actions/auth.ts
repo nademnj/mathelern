@@ -7,7 +7,7 @@ import { generateInviteCode } from "@/lib/auth/inviteCode";
 import { getGrade } from "@/lib/curriculum/getGrade";
 import type { SchoolTrack } from "@/lib/types/db";
 
-const VALID_SCHOOL_TRACKS: SchoolTrack[] = ["gymnasium_g9", "mittelschule_m", "fos"];
+const VALID_SCHOOL_TRACKS: SchoolTrack[] = ["mittelschule_m", "fos", "realschule"];
 
 type ActionResult = { error: string } | void;
 

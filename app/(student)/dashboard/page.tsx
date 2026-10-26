@@ -8,7 +8,7 @@ export default async function StudentDashboardPage() {
   const { profile, student } = await requireStudent();
   const supabase = await createClient();
 
-  const grade = await getGrade(supabase, student?.grade_level ?? 5, student?.school_track ?? "gymnasium_g9");
+  const grade = await getGrade(supabase, student?.grade_level ?? 5, student?.school_track ?? "realschule");
 
   const { data: topics } = await supabase
     .from("topics")

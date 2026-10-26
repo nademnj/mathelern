@@ -4,7 +4,7 @@
 // and re-apply any manual additions here.
 
 export type UserRole = "student" | "parent";
-export type SchoolTrack = "gymnasium_g9" | "mittelschule_m" | "fos";
+export type SchoolTrack = "mittelschule_m" | "fos" | "realschule";
 export type ParentLinkStatus = "pending" | "approved" | "revoked";
 export type LessonStatus = "draft" | "review" | "published";
 export type ExerciseMode = "static" | "generated";

@@ -1,67 +1,45 @@
--- Seed data: grades 5-13 (Gymnasium G9) + grade 10 (Mittelschule M-Zug) +
--- grade 11 (FOS). Mittelschule M10 (17/17 topics) and FOS 11's common-core +
+-- Seed data: grade 5 (Realschule) + grade 10 (Mittelschule M-Zug) + grade 11
+-- (FOS). Mittelschule M10 (17/17 topics) and FOS 11's common-core +
 -- non-Technik path (16/21 topics — the 5 Technik-only Vektoren topics stay
 -- unpublished, see the FOS11 insert's comment) are built out to full
--- lesson+exercise depth. Gymnasium 5/6 still has just its one pilot topic
--- published per grade, with the rest of its topic list seeded unpublished
--- for later. Topics are marked is_published = true so they're visible to
--- students immediately; flip to false for any topic whose content isn't
--- ready yet.
+-- lesson+exercise depth. Realschule 5 has just its one pilot topic
+-- published, with the rest of its topic list seeded unpublished for later.
+-- Topics are marked is_published = true so they're visible to students
+-- immediately; flip to false for any topic whose content isn't ready yet.
+--
+-- Gymnasium was removed (see migrations 0009/0010) -- this file no longer
+-- seeds it, and re-running this file will not bring it back.
 --
 -- grades is keyed by (grade_number, school_track) — see migrations
--- 0005/0006 — so every topics/milestones insert below resolves grade_id via
--- a join rather than a literal integer.
+-- 0005/0006/0009/0010 — so every topics/milestones insert below resolves
+-- grade_id via a join rather than a literal integer.
 
 insert into grades (grade_number, label, school_track) values
-  (5, '5. Klasse', 'gymnasium_g9'),
-  (6, '6. Klasse', 'gymnasium_g9'),
-  (7, '7. Klasse', 'gymnasium_g9'),
-  (8, '8. Klasse', 'gymnasium_g9'),
-  (9, '9. Klasse', 'gymnasium_g9'),
-  (10, '10. Klasse', 'gymnasium_g9'),
-  (11, '11. Klasse', 'gymnasium_g9'),
-  (12, '12. Klasse', 'gymnasium_g9'),
-  (13, '13. Klasse', 'gymnasium_g9'),
+  (5, '5. Klasse', 'realschule'),
   (10, '10. Klasse (M-Zug)', 'mittelschule_m'),
   (11, '11. Klasse', 'fos')
 on conflict (grade_number, school_track) do nothing;
 
--- Grade 5 (Gymnasium)
+-- Grade 5 (Realschule) — "rs5-" prefix, matching the ms10-/fos11- pattern.
+-- LehrplanPLUS ref for the pilot topic confirmed directly against
+-- Realschule's own Fachlehrplan (not carried over from Gymnasium); the rest
+-- of the list still needs the same spot-check every other track's
+-- unpublished topics are waiting on.
 insert into topics (grade_id, slug, title, lehrplan_ref, sequence_order, generator_key, is_published)
 select g.id, v.slug, v.title, v.lehrplan_ref, v.sequence_order, v.generator_key, v.is_published
 from (values
-  ('m5-stellenwertsystem', 'Das Stellenwertsystem & natürliche Zahlen', 'M5 1.1', 1, 'placeValueGenerator', true),
-  ('m5-ganze-zahlen', 'Ganze Zahlen – negative Zahlen', 'M5 1.1', 2, null, false),
-  ('m5-lagebeziehungen', 'Punkte, Geraden, Strecken, Lagebeziehungen', 'M5 2', 3, null, false),
-  ('m5-koordinatensystem', 'Das Koordinatensystem', 'M5 2', 4, null, false),
-  ('m5-kreise-tangenten', 'Kreise und Tangenten', 'M5 2', 5, null, false),
-  ('m5-grundrechenarten', 'Grundrechenarten & Rechengesetze', 'M5 3', 6, null, false),
-  ('m5-schriftlich-multiplizieren-dividieren', 'Schriftliche Multiplikation und Division', 'M5 3', 7, null, false),
-  ('m5-umfang-flaeche-rechteck', 'Umfang und Flächeninhalt von Rechteck/Quadrat', 'M5 4', 8, 'geometryAreaGenerator', false),
-  ('m5-quader-wuerfel', 'Quader und Würfel: Oberfläche, Volumen', 'M5 4', 9, null, false),
-  ('m5-achsensymmetrie', 'Achsensymmetrie', 'M5 5', 10, null, false)
+  ('rs5-stellenwertsystem', 'Das Stellenwertsystem & natürliche Zahlen', 'M5 1.1', 1, 'placeValueGenerator', true),
+  ('rs5-ganze-zahlen', 'Ganze Zahlen – negative Zahlen', 'M5 1.2', 2, null, false),
+  ('rs5-lagebeziehungen', 'Punkte, Geraden, Strecken, Lagebeziehungen', 'M5 2', 3, null, false),
+  ('rs5-koordinatensystem', 'Das Koordinatensystem', 'M5 2', 4, null, false),
+  ('rs5-kreise-tangenten', 'Kreise und Tangenten', 'M5 2', 5, null, false),
+  ('rs5-grundrechenarten', 'Grundrechenarten & Rechengesetze', 'M5 1.2', 6, null, false),
+  ('rs5-schriftlich-multiplizieren-dividieren', 'Schriftliche Multiplikation und Division', 'M5 1.2', 7, null, false),
+  ('rs5-umfang-flaeche-rechteck', 'Umfang und Flächeninhalt von Rechteck/Quadrat', 'M5 3', 8, 'geometryAreaGenerator', false),
+  ('rs5-quader-wuerfel', 'Quader und Würfel: Oberfläche, Volumen', 'M5 3', 9, null, false),
+  ('rs5-achsensymmetrie', 'Achsensymmetrie', 'M5 4', 10, null, false)
 ) as v(slug, title, lehrplan_ref, sequence_order, generator_key, is_published)
-join grades g on g.grade_number = 5 and g.school_track = 'gymnasium_g9'
-on conflict (slug) do nothing;
-
--- Grade 6 (Gymnasium)
-insert into topics (grade_id, slug, title, lehrplan_ref, sequence_order, generator_key, is_published)
-select g.id, v.slug, v.title, v.lehrplan_ref, v.sequence_order, v.generator_key, v.is_published
-from (values
-  ('m6-bruchteile', 'Bruchteile verstehen', 'M6 1.1', 1, 'fractionsGenerator', true),
-  ('m6-erweitern-kuerzen', 'Erweitern und Kürzen von Brüchen', 'M6 1.1', 2, 'fractionsGenerator', false),
-  ('m6-vergleichen-ordnen', 'Brüche vergleichen und ordnen', 'M6 1.1', 3, 'fractionsGenerator', false),
-  ('m6-multiplizieren', 'Multiplizieren von Brüchen', 'M6 1.2', 4, 'fractionsGenerator', false),
-  ('m6-dividieren', 'Dividieren von Brüchen', 'M6 1.2', 5, 'fractionsGenerator', false),
-  ('m6-addieren-subtrahieren', 'Addieren/Subtrahieren von Brüchen', 'M6 1.3', 6, 'fractionsGenerator', false),
-  ('m6-rationale-zahlen', 'Rationale Zahlen: negative Brüche', 'M6 1.3', 7, 'fractionsGenerator', false),
-  ('m6-dezimalbrueche-stellenwerte', 'Dezimalbrüche: Stellenwerte, Runden', 'M6 2', 8, 'decimalsGenerator', false),
-  ('m6-dezimalbrueche-rechnen', 'Rechnen mit Dezimalbrüchen', 'M6 2', 9, 'decimalsGenerator', false),
-  ('m6-umwandlung', 'Umwandlung Brüche ↔ Dezimalbrüche', 'M6 2', 10, 'decimalsGenerator', false),
-  ('m6-winkel', 'Winkel: Messen, Benennen, Arten', 'M6 3', 11, null, false),
-  ('m6-flaeche-dreieck-parallelogramm', 'Flächeninhalt von Dreieck und Parallelogramm', 'M6 3', 12, 'geometryAreaGenerator', false)
-) as v(slug, title, lehrplan_ref, sequence_order, generator_key, is_published)
-join grades g on g.grade_number = 6 and g.school_track = 'gymnasium_g9'
+join grades g on g.grade_number = 5 and g.school_track = 'realschule'
 on conflict (slug) do nothing;
 
 -- Grade 10 Mittelschule M-Zug (M10) — LehrplanPLUS, confirmed current
@@ -155,10 +133,8 @@ where t.generator_key is not null
 insert into milestones (grade_id, title, icon_key, sequence_order, unlock_rule)
 select g.id, v.title, v.icon_key, v.sequence_order, v.unlock_rule
 from (values
-  (5, 'gymnasium_g9', 'Erste Lektion: Stellenwertsystem', 'book-open', 1, '{"type": "lesson_completed", "lessonSlug": "m5-stellenwertsystem-ep1"}'::jsonb),
-  (5, 'gymnasium_g9', 'Stellenwertsystem gemeistert', 'trophy', 2, '{"type": "topic_mastered", "topicSlug": "m5-stellenwertsystem"}'::jsonb),
-  (6, 'gymnasium_g9', 'Erste Lektion: Bruchteile', 'book-open', 1, '{"type": "lesson_completed", "lessonSlug": "m6-bruchteile-ep1"}'::jsonb),
-  (6, 'gymnasium_g9', 'Brüche gemeistert', 'trophy', 2, '{"type": "topic_mastered", "topicSlug": "m6-bruchteile"}'::jsonb),
+  (5, 'realschule', 'Erste Lektion: Stellenwertsystem', 'book-open', 1, '{"type": "lesson_completed", "lessonSlug": "rs5-stellenwertsystem-ep1"}'::jsonb),
+  (5, 'realschule', 'Stellenwertsystem gemeistert', 'trophy', 2, '{"type": "topic_mastered", "topicSlug": "rs5-stellenwertsystem"}'::jsonb),
   (10, 'mittelschule_m', 'Erste Lektion: Potenzgesetze', 'book-open', 1, '{"type": "lesson_completed", "lessonSlug": "ms10-potenzgesetze-ep1"}'::jsonb),
   (10, 'mittelschule_m', 'Potenzgesetze gemeistert', 'trophy', 2, '{"type": "topic_mastered", "topicSlug": "ms10-potenzgesetze"}'::jsonb),
   (10, 'mittelschule_m', 'Wurzeln gemeistert', 'trophy', 3, '{"type": "topic_mastered", "topicSlug": "ms10-wurzeln-wurzelgesetze"}'::jsonb),

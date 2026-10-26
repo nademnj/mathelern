@@ -9,9 +9,9 @@ const MAX_MESSAGES_PER_DAY = 100;
 const HISTORY_TURNS_FOR_CONTEXT = 20;
 
 const TRACK_LABEL: Record<string, string> = {
-  gymnasium_g9: "Gymnasium",
   mittelschule_m: "Mittelschule M-Zug",
   fos: "FOS",
+  realschule: "Realschule",
 };
 
 export interface ChatMessageRow {

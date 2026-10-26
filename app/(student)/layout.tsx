@@ -6,9 +6,9 @@ import { ChatWidget } from "@/components/chat/ChatWidget";
 import { CurrentLessonProvider } from "@/lib/chat/CurrentLessonContext";
 
 const TRACK_LABEL: Record<string, string> = {
-  gymnasium_g9: "Gymnasium",
   mittelschule_m: "Mittelschule M-Zug",
   fos: "FOS",
+  realschule: "Realschule",
 };
 
 export default async function StudentLayout({ children }: { children: React.ReactNode }) {

@@ -1,18 +1,23 @@
 # MatheLern
 
 Interactive math-learning web app for the Bavarian LehrplanPLUS curriculum,
-covering three school tracks: Gymnasium G9 (grades 5–13), Mittelschule M-Zug
+covering three school tracks: Realschule (grade 5), Mittelschule M-Zug
 (M10), and Fachoberschule (FOS 11). Each track has one fully-built pilot
 topic (lesson + adaptive exercises) and a seeded, unpublished topic list for
 the rest of that track's curriculum:
 
-- **Gymnasium**: grade 5 "Das Stellenwertsystem", grade 6 "Bruchteile"
+- **Realschule**: grade 5 "Das Stellenwertsystem"
 - **Mittelschule M10**: "Potenzschreibweise & Potenzgesetze"
 - **FOS 11**: "Lineare & quadratische Funktionen" (shared by every Ausbildungsrichtung)
 
+Gymnasium was removed (see migrations `0009`-`0010`) in favor of this
+lineup — its content, grade rows, and the `gymnasium_g9` track are gone from
+the app, though the enum literal itself stays defined on `school_track`
+(Postgres has no `DROP VALUE`; nothing references it any more).
+
 A `grades` table keyed by `(grade_number, school_track)` is what makes this
-possible — e.g. grade 10 exists once for Gymnasium and once for Mittelschule,
-as separate rows (see `supabase/migrations/0005`-`0007`).
+possible — e.g. grade 10 would exist once per track that teaches it, as
+separate rows (see `supabase/migrations/0005`-`0007`, `0009`-`0010`).
 
 See the full architecture/plan behind this build for context on design
 decisions, data model, and the adaptive difficulty algorithm.
@@ -122,15 +127,17 @@ written).
   0006 rebuilt `grades` from scratch (to rekey it); 0007 is a bug-fix
   migration restoring the RLS policy that rebuild silently dropped — a
   reminder that a `CREATE TABLE`-based rebuild needs its RLS/policies
-  re-added explicitly, unlike a plain `ALTER TABLE` column change.
+  re-added explicitly, unlike a plain `ALTER TABLE` column change. 0009-0010
+  swap Gymnasium out for Realschule 5 and remove Gymnasium's content/grades.
 - `supabase/seed.sql` — all three tracks' grades, pilot topics, the exercise
-  catalog for the four pilot topics, and milestones.
+  catalog for the pilot topics, and milestones. Re-running it will not bring
+  Gymnasium back.
 
 ## Known gaps / next steps
 
 - Only one pilot topic per track has a published lesson + exercises; all
-  other seeded topics (17 for M10, 21 for FOS11, the rest of grade 5/6, and
-  grades 7–13/grade-7-up Mittelschule/FOS not seeded at all yet) are
+  other seeded topics (17 for M10, 21 for FOS11, the rest of grade 5, and
+  grades beyond each track's pilot grade not seeded at all yet) are
   `is_published = false` placeholders for future content authoring.
 - FOS has no way to represent "Ausbildungsrichtung" (branch) yet — the
   pilot topic is shared by every branch so it doesn't need one, but the
@@ -144,9 +151,10 @@ written).
   caveat as the grade 5/6 content.
 - No real recorded video yet — lessons render their storyboard/script
   instead; `lessons.video_url` is wired up and ready for when video exists.
-- Grade 5/6 chapter numbering beyond the explicitly `(confirmed)` chapters
-  in the pilot content outline should be spot-checked against a current
-  approved textbook or the live LehrplanPLUS site before content lock.
+- Realschule grade 5's unpublished topic list (beyond the published pilot)
+  was carried over from the old Gymnasium grade-5 list and hasn't been
+  individually spot-checked against the Realschule Fachlehrplan yet — do
+  that before publishing any of them.
 - No Playwright e2e test yet (suggested: register → lesson → exercises →
   parent link → recommendation, as the standing regression test).
 - Parent-initiated signup (parent creates the account, invites the child) is
