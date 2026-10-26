@@ -129,12 +129,17 @@
     {
       "beatId": "beat-reallife",
       "narrationRef": "reallife",
-      "component": "CoordinatePlaneViz",
+      "component": "AnimatedCurveViz",
       "props": {
+        "curveType": "quadratic",
+        "a": -1,
+        "b": 0,
+        "c": 4,
+        "xMin": -2,
+        "xMax": 2,
         "range": 6,
-        "points": [
-          { "x": 0, "y": -4, "label": "Scheitel (Höhepunkt)" }
-        ]
+        "mover": "⚽",
+        "label": "Flugbahn eines geworfenen Balls – der Scheitelpunkt ist der höchste Punkt"
       }
     }
   ],

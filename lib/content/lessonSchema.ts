@@ -79,6 +79,28 @@ const treeDiagramVizSchema = z.object({
   }),
 });
 
+// A real-world-example scene: a mover (e.g. a ball) actually travels along
+// a drawn curve -- projectile motion for a parabola, growth for an
+// exponential, etc. -- instead of a static labeled point.
+const animatedCurveVizSchema = z.object({
+  component: z.literal("AnimatedCurveViz"),
+  props: z.object({
+    curveType: z.enum(["quadratic", "linear", "exponential"]),
+    a: z.number().optional(),
+    b: z.number().optional(),
+    c: z.number().optional(),
+    m: z.number().optional(),
+    t: z.number().optional(),
+    base: z.number().optional(),
+    initial: z.number().optional(),
+    xMin: z.number(),
+    xMax: z.number(),
+    range: z.number().positive().optional(),
+    mover: z.string().optional(),
+    label: z.string().optional(),
+  }),
+});
+
 // The animated "why are we learning this" intro that opens every lesson --
 // history / motivation / real-world-uses, rendered as its own storyboard
 // beats so it reuses LessonPlayer's existing step-through + auto-narration
@@ -104,6 +126,7 @@ export const storyboardBeatSchema = z
     barModelVizSchema,
     treeDiagramVizSchema,
     lessonIntroVizSchema,
+    animatedCurveVizSchema,
   ])
   .and(
     z.object({
