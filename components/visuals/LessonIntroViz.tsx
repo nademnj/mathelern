@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import { FormulaText } from "@/components/ui/FormulaText";
 
 export interface LessonIntroVizProps {
   phase: "history" | "why" | "realWorld";
@@ -46,7 +47,7 @@ export function LessonIntroViz({ phase, heading, body, items }: LessonIntroVizPr
           transition={{ delay: 0.45, duration: 0.5 }}
           className="text-sm leading-relaxed text-muted-foreground"
         >
-          {body}
+          <FormulaText text={body} />
         </motion.p>
       )}
 

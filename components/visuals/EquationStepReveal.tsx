@@ -16,7 +16,9 @@ export function EquationStepReveal({ steps }: EquationStepRevealProps) {
         {steps.slice(0, visible).map((step, i) => (
           <div key={i} className="flex items-baseline justify-between gap-4">
             <span className="text-sm text-muted-foreground">{step.label}</span>
-            <span className="font-mono text-base">{step.expression}</span>
+            <span className="rounded bg-accent px-1.5 py-0.5 font-mono text-base text-accent-foreground">
+              {step.expression}
+            </span>
           </div>
         ))}
       </div>

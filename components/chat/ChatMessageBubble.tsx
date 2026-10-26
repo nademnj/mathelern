@@ -1,6 +1,7 @@
 "use client";
 
 import { EquationStepReveal } from "@/components/visuals/EquationStepReveal";
+import { FormulaText } from "@/components/ui/FormulaText";
 import { speakGerman } from "@/lib/chat/speak";
 
 export interface ChatMessageBubbleProps {
@@ -20,7 +21,7 @@ export function ChatMessageBubble({ role, content, generatedTitle, generatedStep
           isStudent ? "bg-primary text-primary-foreground" : "bg-muted text-foreground"
         }`}
       >
-        <p className="whitespace-pre-wrap">{content}</p>
+        <p className="whitespace-pre-wrap">{isStudent ? content : <FormulaText text={content} />}</p>
         {!isStudent && (
           <button
             onClick={() => speakGerman(content)}

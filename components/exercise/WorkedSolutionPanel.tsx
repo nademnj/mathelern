@@ -10,7 +10,9 @@ export function WorkedSolutionPanel({ steps }: { steps: { label: string; express
         {steps.map((step, i) => (
           <div key={i} className="flex items-baseline justify-between gap-4 text-sm">
             <span className="text-muted-foreground">{step.label}</span>
-            <span className="whitespace-pre-line text-right font-mono">{step.expression}</span>
+            <span className="whitespace-pre-line rounded bg-accent px-1.5 py-0.5 text-right font-mono text-accent-foreground">
+              {step.expression}
+            </span>
           </div>
         ))}
       </CardContent>

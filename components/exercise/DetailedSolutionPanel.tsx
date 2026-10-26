@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { FormulaText } from "@/components/ui/FormulaText";
 import type { ExplainedStep } from "@/lib/chat/solutionExplainer";
 
 export function DetailedSolutionPanel({ steps }: { steps: ExplainedStep[] }) {
@@ -12,9 +13,11 @@ export function DetailedSolutionPanel({ steps }: { steps: ExplainedStep[] }) {
         {steps.map((step, i) => (
           <div key={i} className="space-y-1">
             <p className="text-sm font-semibold">
-              {i + 1}. {step.title}
+              {i + 1}. <FormulaText text={step.title} />
             </p>
-            <p className="text-sm leading-relaxed text-muted-foreground">{step.explanation}</p>
+            <p className="text-sm leading-relaxed text-muted-foreground">
+              <FormulaText text={step.explanation} />
+            </p>
             {step.relatedTopicSlug && (
               <Link
                 href={`/topic/${step.relatedTopicSlug}`}

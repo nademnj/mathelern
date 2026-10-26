@@ -1,4 +1,5 @@
 import { Input } from "@/components/ui/input";
+import { FormulaText } from "@/components/ui/FormulaText";
 import { AnswerInputNumeric } from "./AnswerInputNumeric";
 import { AnswerInputFraction } from "./AnswerInputFraction";
 
@@ -23,7 +24,9 @@ export function ExerciseQuestion({
 }) {
   return (
     <div className="space-y-4 text-center">
-      <p className="text-lg">{prompt}</p>
+      <p className="text-lg">
+        <FormulaText text={prompt} />
+      </p>
       {format === "numeric" && (
         <div className="flex justify-center">
           <AnswerInputNumeric
