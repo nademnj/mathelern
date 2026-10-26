@@ -7,6 +7,18 @@
   "estimatedMinutes": 3,
   "script": [
     {
+      "beatId": "intro_history",
+      "narration": "Vor über 1500 Jahren erfanden Gelehrte in Indien eine geniale Idee: Jede Ziffer bekommt einen Wert, je nachdem, an welcher Stelle sie steht. Arabische Händler brachten diese Idee später nach Europa. Die alten Römer kannten das noch nicht – sie mussten für die Zahl 1994 umständlich MCMXCIV schreiben!"
+    },
+    {
+      "beatId": "intro_why",
+      "narration": "Wir lernen das Stellenwertsystem, weil es uns erlaubt, mit nur zehn Ziffern – 0 bis 9 – jede noch so große Zahl zu schreiben. Ohne dieses System bräuchten wir für jede Zahl ein eigenes Symbol, so wie die Römer. Rechnen wäre dann viel schwerer."
+    },
+    {
+      "beatId": "intro_realworld",
+      "narration": "Du benutzt das Stellenwertsystem jeden Tag: beim Ablesen eines Preises, beim Wählen einer Telefonnummer, beim Merken deiner Hausnummer oder wenn du die Einwohnerzahl einer Stadt liest."
+    },
+    {
       "beatId": "intro",
       "narration": "Stell dir vor, du zählst Murmeln: 1, 2, 3... Jede Zahl hat ihren festen Platz auf einem Zahlenstrahl. Schau dir die 7 an."
     },
@@ -28,6 +40,41 @@
     }
   ],
   "storyboard": [
+    {
+      "beatId": "beat-intro-history",
+      "narrationRef": "intro_history",
+      "component": "LessonIntroViz",
+      "props": {
+        "phase": "history",
+        "heading": "Woher kommt das Stellenwertsystem?",
+        "body": "Vor über 1500 Jahren erfunden in Indien, später von arabischen Händlern nach Europa gebracht. Die Römer kannten es noch nicht – sie schrieben 1994 als MCMXCIV!"
+      }
+    },
+    {
+      "beatId": "beat-intro-why",
+      "narrationRef": "intro_why",
+      "component": "LessonIntroViz",
+      "props": {
+        "phase": "why",
+        "heading": "Warum lernen wir das?",
+        "body": "Mit nur zehn Ziffern (0–9) kannst du jede noch so große Zahl schreiben. Ohne dieses System bräuchte jede Zahl ein eigenes Symbol – Rechnen wäre viel schwerer."
+      }
+    },
+    {
+      "beatId": "beat-intro-realworld",
+      "narrationRef": "intro_realworld",
+      "component": "LessonIntroViz",
+      "props": {
+        "phase": "realWorld",
+        "heading": "Wo begegnet dir das im echten Leben?",
+        "items": [
+          "💶 Preise im Laden lesen",
+          "📞 Telefonnummern wählen",
+          "🏠 Deine Hausnummer merken",
+          "🏙️ Einwohnerzahlen von Städten verstehen"
+        ]
+      }
+    },
     {
       "beatId": "beat-intro",
       "narrationRef": "intro",

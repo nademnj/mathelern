@@ -6,6 +6,7 @@ import { AngleViz, type AngleVizProps } from "./AngleViz";
 import { CoordinatePlaneViz, type CoordinatePlaneVizProps } from "./CoordinatePlaneViz";
 import { BarModelViz, type BarModelVizProps } from "./BarModelViz";
 import { TreeDiagramViz, type TreeDiagramVizProps } from "./TreeDiagramViz";
+import { LessonIntroViz, type LessonIntroVizProps } from "./LessonIntroViz";
 
 export {
   NumberLineViz,
@@ -16,6 +17,7 @@ export {
   CoordinatePlaneViz,
   BarModelViz,
   TreeDiagramViz,
+  LessonIntroViz,
 };
 
 // Single source of truth mapping a storyboard beat's `component` string to
@@ -30,6 +32,7 @@ export const VizRegistry = {
   CoordinatePlaneViz,
   BarModelViz,
   TreeDiagramViz,
+  LessonIntroViz,
 } as const;
 
 export type VizComponentName = keyof typeof VizRegistry;
@@ -43,4 +46,5 @@ export type VizPropsMap = {
   CoordinatePlaneViz: CoordinatePlaneVizProps;
   BarModelViz: BarModelVizProps;
   TreeDiagramViz: TreeDiagramVizProps;
+  LessonIntroViz: LessonIntroVizProps;
 };

@@ -7,6 +7,18 @@
   "estimatedMinutes": 4,
   "script": [
     {
+      "beatId": "intro_history",
+      "narration": "Der Funktionsbegriff entstand im 17. Jahrhundert, als Gottfried Wilhelm Leibniz ihn erstmals verwendete, um zu beschreiben, wie eine Größe von einer anderen abhängt. René Descartes hatte kurz zuvor das Koordinatensystem erfunden – damit konnte man Funktionen zum ersten Mal als Graphen zeichnen und sichtbar machen."
+    },
+    {
+      "beatId": "intro_why",
+      "narration": "Wir lernen Funktionen, weil fast jede Veränderung in der Welt sich als Funktion beschreiben lässt: Temperatur über die Zeit, Kosten über die Stückzahl, Geschwindigkeit über die Strecke. Wer Funktionen versteht, kann solche Zusammenhänge vorhersagen, statt sie nur zu beobachten."
+    },
+    {
+      "beatId": "intro_realworld",
+      "narration": "Lineare und quadratische Funktionen begegnen dir ständig: Ein Taxitarif mit Grundgebühr plus Preis pro Kilometer ist linear. Die Flugbahn eines geworfenen Balls oder die Bremsstrecke eines Autos sind quadratisch. Auch Gewinnkurven in der Betriebswirtschaft nutzen genau dieses Modell."
+    },
+    {
       "beatId": "intro",
       "narration": "Eine Funktion beschreibt, wie sich eine Größe verändert, wenn eine andere sich ändert – zum Beispiel, wie der Preis eines Produkts von der verkauften Menge abhängt."
     },
@@ -28,6 +40,41 @@
     }
   ],
   "storyboard": [
+    {
+      "beatId": "beat-intro-history",
+      "narrationRef": "intro_history",
+      "component": "LessonIntroViz",
+      "props": {
+        "phase": "history",
+        "heading": "Woher kommt die Idee der Funktion?",
+        "body": "Leibniz prägte um 1670 den Begriff „Funktion\". Mit Descartes' neu erfundenem Koordinatensystem ließ sich eine Funktion erstmals als Kurve zeichnen statt nur als Formel aufzuschreiben."
+      }
+    },
+    {
+      "beatId": "beat-intro-why",
+      "narrationRef": "intro_why",
+      "component": "LessonIntroViz",
+      "props": {
+        "phase": "why",
+        "heading": "Warum lernen wir das?",
+        "body": "Fast jede Veränderung lässt sich als Funktion beschreiben. Wer ihre Eigenschaften kennt, kann Entwicklungen vorhersagen, statt sie nur abzuwarten und zu beobachten."
+      }
+    },
+    {
+      "beatId": "beat-intro-realworld",
+      "narrationRef": "intro_realworld",
+      "component": "LessonIntroViz",
+      "props": {
+        "phase": "realWorld",
+        "heading": "Wo begegnet dir das im echten Leben?",
+        "items": [
+          "🚕 Taxitarif: Grundgebühr + Preis pro Kilometer (linear)",
+          "⚽ Flugbahn eines Balls beim Schuss (quadratisch)",
+          "📈 Gewinnkurve eines Unternehmens (quadratisch)",
+          "🚗 Bremsweg eines Autos abhängig von der Geschwindigkeit"
+        ]
+      }
+    },
     {
       "beatId": "beat-intro",
       "narrationRef": "intro",

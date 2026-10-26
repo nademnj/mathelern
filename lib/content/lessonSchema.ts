@@ -79,6 +79,20 @@ const treeDiagramVizSchema = z.object({
   }),
 });
 
+// The animated "why are we learning this" intro that opens every lesson --
+// history / motivation / real-world-uses, rendered as its own storyboard
+// beats so it reuses LessonPlayer's existing step-through + auto-narration
+// + replay machinery with zero player changes.
+const lessonIntroVizSchema = z.object({
+  component: z.literal("LessonIntroViz"),
+  props: z.object({
+    phase: z.enum(["history", "why", "realWorld"]),
+    heading: z.string().min(1),
+    body: z.string().optional(),
+    items: z.array(z.string().min(1)).optional(),
+  }),
+});
+
 export const storyboardBeatSchema = z
   .discriminatedUnion("component", [
     numberLineVizSchema,
@@ -89,6 +103,7 @@ export const storyboardBeatSchema = z
     coordinatePlaneVizSchema,
     barModelVizSchema,
     treeDiagramVizSchema,
+    lessonIntroVizSchema,
   ])
   .and(
     z.object({

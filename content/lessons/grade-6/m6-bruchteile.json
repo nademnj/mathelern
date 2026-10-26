@@ -7,6 +7,18 @@
   "estimatedMinutes": 3,
   "script": [
     {
+      "beatId": "intro_history",
+      "narration": "Schon vor über 3500 Jahren rechneten die alten Ägypter mit Brüchen – das zeigt der berühmte Papyrus Rhind. Sie nutzten fast nur Stammbrüche wie ein Halb oder ein Drittel. Die Babylonier teilten den Kreis in 360 Grad und die Stunde in 60 Minuten – deshalb rechnen wir bis heute in 60ern bei der Zeit."
+    },
+    {
+      "beatId": "intro_why",
+      "narration": "Wir lernen Brüche, weil nicht alles in ganzen Stücken aufgeht. Ob Pizza, Zeit oder Geld – oft müssen wir etwas in gleiche Teile zerlegen und genau beschreiben, wie viel davon wir meinen."
+    },
+    {
+      "beatId": "intro_realworld",
+      "narration": "Brüche stecken überall: eine halbe Stunde, ein Viertel Liter Milch, drei Viertel der Klasse waren da, oder ein Rabatt von einem Drittel auf den Preis."
+    },
+    {
       "beatId": "intro",
       "narration": "Du teilst eine Pizza mit Freunden. Sie wird in 8 Stücke geschnitten, und du nimmst dir 3 davon. Das ist ein Bruchteil: 3 von 8 Stücken."
     },
@@ -28,6 +40,41 @@
     }
   ],
   "storyboard": [
+    {
+      "beatId": "beat-intro-history",
+      "narrationRef": "intro_history",
+      "component": "LessonIntroViz",
+      "props": {
+        "phase": "history",
+        "heading": "Woher kommen Brüche?",
+        "body": "Die alten Ägypter rechneten vor über 3500 Jahren mit Brüchen (Papyrus Rhind). Die Babylonier teilten Kreis und Stunde in 60 Teile – deshalb hat eine Stunde bis heute 60 Minuten."
+      }
+    },
+    {
+      "beatId": "beat-intro-why",
+      "narrationRef": "intro_why",
+      "component": "LessonIntroViz",
+      "props": {
+        "phase": "why",
+        "heading": "Warum lernen wir das?",
+        "body": "Nicht alles geht in ganzen Stücken auf. Brüche helfen uns, genau zu beschreiben, wie viel von einem Ganzen wir meinen – bei Pizza, Zeit oder Geld."
+      }
+    },
+    {
+      "beatId": "beat-intro-realworld",
+      "narrationRef": "intro_realworld",
+      "component": "LessonIntroViz",
+      "props": {
+        "phase": "realWorld",
+        "heading": "Wo begegnet dir das im echten Leben?",
+        "items": [
+          "⏰ Eine halbe Stunde warten",
+          "🥛 Ein Viertel Liter Milch abmessen",
+          "🏫 Drei Viertel der Klasse waren da",
+          "🏷️ Ein Drittel Rabatt auf den Preis"
+        ]
+      }
+    },
     {
       "beatId": "beat-intro",
       "narrationRef": "intro",

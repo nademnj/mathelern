@@ -7,6 +7,18 @@
   "estimatedMinutes": 4,
   "script": [
     {
+      "beatId": "intro_history",
+      "narration": "Schon babylonische Tontafeln vor fast 4000 Jahren enthielten Tabellen mit Quadrat- und Kubikzahlen. Die kurze Schreibweise mit hochgestellter Zahl, die wir heute nutzen, führte aber erst 1637 der französische Mathematiker René Descartes ein – vorher schrieb man mühsam 'a mal a mal a' aus."
+    },
+    {
+      "beatId": "intro_why",
+      "narration": "Wir lernen Potenzen, weil sie extrem große und extrem kleine Zahlen handhabbar machen. Ohne sie müssten Wissenschaftler und Informatiker riesige Zahlenketten ausschreiben, statt kurz 2 hoch 30 zu notieren."
+    },
+    {
+      "beatId": "intro_realworld",
+      "narration": "Potenzen begegnen dir in der Technik ständig: Speichergrößen wie Gigabyte sind Zweierpotenzen, Erdbebenstärken auf der Richterskala wachsen exponentiell, und beim Zinseszins vermehrt sich Geld Jahr für Jahr um eine weitere Potenz."
+    },
+    {
       "beatId": "intro",
       "narration": "Stell dir vor, du verdoppelst eine Menge immer wieder: 2, 4, 8, 16... Statt 2·2·2·2 zu schreiben, schreiben wir kurz 2 hoch 4 – eine Potenz."
     },
@@ -28,6 +40,41 @@
     }
   ],
   "storyboard": [
+    {
+      "beatId": "beat-intro-history",
+      "narrationRef": "intro_history",
+      "component": "LessonIntroViz",
+      "props": {
+        "phase": "history",
+        "heading": "Woher kommt die Potenzschreibweise?",
+        "body": "Babylonische Tontafeln zeigten vor fast 4000 Jahren schon Quadrat- und Kubikzahlen. Die hochgestellte Schreibweise aᵐ führte aber erst 1637 René Descartes ein."
+      }
+    },
+    {
+      "beatId": "beat-intro-why",
+      "narrationRef": "intro_why",
+      "component": "LessonIntroViz",
+      "props": {
+        "phase": "why",
+        "heading": "Warum lernen wir das?",
+        "body": "Potenzen machen riesige und winzige Zahlen handhabbar. Ohne sie müssten wir lange Zahlenketten ausschreiben statt kurz 2³⁰ zu notieren."
+      }
+    },
+    {
+      "beatId": "beat-intro-realworld",
+      "narrationRef": "intro_realworld",
+      "component": "LessonIntroViz",
+      "props": {
+        "phase": "realWorld",
+        "heading": "Wo begegnet dir das im echten Leben?",
+        "items": [
+          "💾 Speichergrößen wie Gigabyte sind Zweierpotenzen",
+          "🌍 Die Richterskala für Erdbeben wächst exponentiell",
+          "💰 Zinseszins: Geld wächst Jahr für Jahr um eine weitere Potenz",
+          "🦠 Bakterien verdoppeln sich potenzartig"
+        ]
+      }
+    },
     {
       "beatId": "beat-intro",
       "narrationRef": "intro",
