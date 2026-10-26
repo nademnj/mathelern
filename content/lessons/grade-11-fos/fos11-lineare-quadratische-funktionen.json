@@ -138,6 +138,7 @@
         "xMin": -2,
         "xMax": 2,
         "mover": "⚽",
+        "markVertex": "Scheitelpunkt (Höhepunkt)",
         "label": "Flugbahn eines geworfenen Balls – der Scheitelpunkt ist der höchste Punkt"
       }
     }

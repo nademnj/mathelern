@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useId, useState } from "react";
 import { motion } from "framer-motion";
 
 export interface AnimatedCurveVizProps {
@@ -19,6 +19,8 @@ export interface AnimatedCurveVizProps {
   sweepDeg?: number;
   mover?: string;
   label?: string;
+  /** Labels the parabola's vertex with an arrow once the animation settles (quadratic curves only). */
+  markVertex?: string;
 }
 
 const SAMPLES = 48;
@@ -89,8 +91,9 @@ function formatTick(v: number): string {
 // works for wildly different scales (a ball's arc vs. bacteria counts)
 // without per-lesson tuning.
 export function AnimatedCurveViz(props: AnimatedCurveVizProps) {
-  const { mover = "⚽", label } = props;
+  const { mover = "⚽", label, markVertex } = props;
   const [replayKey, setReplayKey] = useState(0);
+  const arrowId = useId();
 
   const points = samplePoints(props);
   const xValues = points.map((p) => p.x);
@@ -113,9 +116,36 @@ export function AnimatedCurveViz(props: AnimatedCurveVizProps) {
   const xTicks = ticksFor(xDomain[0], xDomain[1]);
   const yTicks = ticksFor(yDomain[0], yDomain[1]);
 
+  // Vertex of a quadratic (x = -b/2a) -- computed, not hand-tuned per lesson,
+  // so it always matches a/b/c exactly.
+  const vertex =
+    props.curveType === "quadratic" && markVertex
+      ? (() => {
+          const a = props.a ?? 1;
+          const b = props.b ?? 0;
+          const vx = -b / (2 * a);
+          return { x: vx, y: evaluate(props, vx), opensUp: a > 0 };
+        })()
+      : null;
+  const vPx = vertex ? toX(vertex.x) : 0;
+  const vPy = vertex ? toY(vertex.y) : 0;
+  const labelGap = 14;
+  const labelOffset = 42;
+  const labelAnchorY = vertex
+    ? vertex.opensUp
+      ? Math.max(PAD + 8, vPy - labelOffset)
+      : Math.min(PAD + plotSize - 8, vPy + labelOffset)
+    : 0;
+  const lineStartY = vertex ? (vertex.opensUp ? labelAnchorY + labelGap : labelAnchorY - labelGap) : 0;
+
   return (
     <div className="space-y-2">
       <svg viewBox={`0 0 ${SIZE} ${SIZE}`} className="mx-auto w-full max-w-sm" role="img" aria-label={label ?? "Animierte Kurve"}>
+        <defs>
+          <marker id={arrowId} viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+            <path d="M 0 0 L 10 5 L 0 10 z" className="fill-foreground" />
+          </marker>
+        </defs>
         {xTicks.map((v) => (
           <g key={`x-${v}`}>
             <line x1={toX(v)} y1={PAD} x2={toX(v)} y2={PAD + plotSize} className="stroke-border/40" />
@@ -157,6 +187,37 @@ export function AnimatedCurveViz(props: AnimatedCurveVizProps) {
         >
           {mover}
         </motion.text>
+
+        {vertex && (
+          <motion.g
+            key={`vertex-${replayKey}`}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: DURATION + 0.3, duration: 0.5 }}
+          >
+            <circle cx={vPx} cy={vPy} r={4.5} className="fill-primary" />
+            <line
+              x1={vPx}
+              y1={lineStartY}
+              x2={vPx}
+              y2={vPy}
+              className="stroke-foreground"
+              strokeWidth={1.5}
+              markerEnd={`url(#${arrowId})`}
+            />
+            <text
+              x={vPx}
+              y={vertex.opensUp ? labelAnchorY - 6 : labelAnchorY + 14}
+              textAnchor="middle"
+              className="fill-foreground text-[11px] font-medium"
+              stroke="var(--background)"
+              strokeWidth={5}
+              paintOrder="stroke"
+            >
+              {markVertex}
+            </text>
+          </motion.g>
+        )}
       </svg>
 
       {label && <p className="text-center text-xs text-muted-foreground">{label}</p>}

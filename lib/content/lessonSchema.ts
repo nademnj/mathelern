@@ -100,6 +100,7 @@ const animatedCurveVizSchema = z.object({
     sweepDeg: z.number().optional(),
     mover: z.string().optional(),
     label: z.string().optional(),
+    markVertex: z.string().optional(),
   }),
 });
 

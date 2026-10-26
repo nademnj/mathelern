@@ -25,6 +25,7 @@
       "xMin": -1,
       "xMax": 5,
       "mover": "🔵",
+      "markVertex": "Scheitelpunkt S(2|-3)",
       "label": "Der Scheitelpunkt ist der höchste oder tiefste Punkt der Parabel"
     } },
     { "beatId": "beat-formula", "narrationRef": "formula", "component": "EquationStepReveal", "props": { "steps": [
