@@ -17,10 +17,14 @@
     { "beatId": "beat-why", "narrationRef": "why", "component": "EquationStepReveal", "props": { "steps": [
       { "label": "Beispiele", "expression": "Gezeiten, Tageszeiten, Schwingungen" }
     ] } },
-    { "beatId": "beat-coordinates", "narrationRef": "coordinates", "component": "CoordinatePlaneViz", "props": { "range": 2, "points": [
-      { "x": 1, "y": 0, "label": "0°" },
-      { "x": 0, "y": 1, "label": "90°" }
-    ] } },
+    { "beatId": "beat-coordinates", "narrationRef": "coordinates", "component": "AnimatedCurveViz", "props": {
+      "curveType": "circular",
+      "radius": 1,
+      "startAngleDeg": 0,
+      "sweepDeg": 360,
+      "mover": "🔴",
+      "label": "Der Punkt wandert einmal gegen den Uhrzeigersinn um den Einheitskreis"
+    } },
     { "beatId": "beat-example", "narrationRef": "example", "component": "CoordinatePlaneViz", "props": { "range": 2, "points": [
       { "x": -1, "y": 0, "label": "180°" }
     ] } },

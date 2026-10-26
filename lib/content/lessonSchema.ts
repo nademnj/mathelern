@@ -85,7 +85,7 @@ const treeDiagramVizSchema = z.object({
 const animatedCurveVizSchema = z.object({
   component: z.literal("AnimatedCurveViz"),
   props: z.object({
-    curveType: z.enum(["quadratic", "linear", "exponential"]),
+    curveType: z.enum(["quadratic", "linear", "exponential", "circular"]),
     a: z.number().optional(),
     b: z.number().optional(),
     c: z.number().optional(),
@@ -93,9 +93,11 @@ const animatedCurveVizSchema = z.object({
     t: z.number().optional(),
     base: z.number().optional(),
     initial: z.number().optional(),
-    xMin: z.number(),
-    xMax: z.number(),
-    range: z.number().positive().optional(),
+    xMin: z.number().optional(),
+    xMax: z.number().optional(),
+    radius: z.number().positive().optional(),
+    startAngleDeg: z.number().optional(),
+    sweepDeg: z.number().optional(),
     mover: z.string().optional(),
     label: z.string().optional(),
   }),

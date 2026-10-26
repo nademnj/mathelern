@@ -23,11 +23,15 @@
     { "beatId": "beat-formula", "narrationRef": "formula", "component": "EquationStepReveal", "props": { "steps": [
       { "label": "Formel", "expression": "W(n) = Start · Faktor^n" }
     ] } },
-    { "beatId": "beat-example", "narrationRef": "example", "component": "EquationStepReveal", "props": { "steps": [
-      { "label": "Start", "expression": "20 Bakterien" },
-      { "label": "Einsetzen", "expression": "W(3) = 20 · 2³" },
-      { "label": "Ergebnis", "expression": "W(3) = 160" }
-    ] } },
+    { "beatId": "beat-example", "narrationRef": "example", "component": "AnimatedCurveViz", "props": {
+      "curveType": "exponential",
+      "initial": 20,
+      "base": 2,
+      "xMin": 0,
+      "xMax": 3,
+      "mover": "🦠",
+      "label": "Bakterienkultur verdoppelt sich jede Stunde: 20 → 40 → 80 → 160"
+    } },
     { "beatId": "beat-recap", "narrationRef": "recap", "component": "EquationStepReveal", "props": { "steps": [
       { "label": "Merksatz", "expression": "Exponentiell: multiplizieren statt addieren" }
     ] } }

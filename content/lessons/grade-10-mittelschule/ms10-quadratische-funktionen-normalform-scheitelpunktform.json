@@ -17,7 +17,16 @@
       { "label": "Normalform", "expression": "y = x² + px + q" },
       { "label": "Scheitelpunktform", "expression": "y = (x - d)² + e" }
     ] } },
-    { "beatId": "beat-why", "narrationRef": "why", "component": "CoordinatePlaneViz", "props": { "range": 6, "points": [ { "x": 2, "y": -3, "label": "Scheitel" } ] } },
+    { "beatId": "beat-why", "narrationRef": "why", "component": "AnimatedCurveViz", "props": {
+      "curveType": "quadratic",
+      "a": 1,
+      "b": -4,
+      "c": 1,
+      "xMin": -1,
+      "xMax": 5,
+      "mover": "🔵",
+      "label": "Der Scheitelpunkt ist der höchste oder tiefste Punkt der Parabel"
+    } },
     { "beatId": "beat-formula", "narrationRef": "formula", "component": "EquationStepReveal", "props": { "steps": [
       { "label": "x-Koordinate", "expression": "d = -p / 2" },
       { "label": "y-Koordinate", "expression": "e = d² + p·d + q" }

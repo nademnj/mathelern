@@ -13,10 +13,15 @@
     { "beatId": "recap", "narration": "Zusammengefasst: Der Differenzenquotient ist die Steigung der Sekante durch zwei Punkte – eine durchschnittliche Änderungsrate." }
   ],
   "storyboard": [
-    { "beatId": "beat-intro", "narrationRef": "intro", "component": "CoordinatePlaneViz", "props": { "range": 6, "points": [ { "x": 1, "y": 1, "label": "P1" }, { "x": 4, "y": 4, "label": "P2" } ] } },
-    { "beatId": "beat-why", "narrationRef": "why", "component": "EquationStepReveal", "props": { "steps": [
-      { "label": "Anwendung", "expression": "Durchschnittsgeschwindigkeit" }
-    ] } },
+    { "beatId": "beat-intro", "narrationRef": "intro", "component": "CoordinatePlaneViz", "props": { "range": 18, "points": [ { "x": 1, "y": 1, "label": "P1" }, { "x": 4, "y": 16, "label": "P2" } ] } },
+    { "beatId": "beat-why", "narrationRef": "why", "component": "AnimatedCurveViz", "props": {
+      "curveType": "quadratic",
+      "a": 1,
+      "xMin": 1,
+      "xMax": 4,
+      "mover": "🚗",
+      "label": "Durchschnittsgeschwindigkeit zwischen zwei Zeitpunkten = Sekantensteigung"
+    } },
     { "beatId": "beat-formula", "narrationRef": "formula", "component": "EquationStepReveal", "props": { "steps": [
       { "label": "Formel", "expression": "(f(x₂) - f(x₁)) / (x₂ - x₁)" }
     ] } },

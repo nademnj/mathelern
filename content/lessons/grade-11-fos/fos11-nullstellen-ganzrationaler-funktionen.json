@@ -13,7 +13,16 @@
     { "beatId": "recap", "narration": "Zusammengefasst: Nullstellen findest du, indem du die Funktionsgleichung gleich 0 setzt und auflöst." }
   ],
   "storyboard": [
-    { "beatId": "beat-intro", "narrationRef": "intro", "component": "CoordinatePlaneViz", "props": { "range": 6, "points": [ { "x": -4, "y": 0, "label": "Nullstelle" }, { "x": 1, "y": 0, "label": "Nullstelle" } ] } },
+    { "beatId": "beat-intro", "narrationRef": "intro", "component": "AnimatedCurveViz", "props": {
+      "curveType": "quadratic",
+      "a": 1,
+      "b": 3,
+      "c": -4,
+      "xMin": -5,
+      "xMax": 2,
+      "mover": "💰",
+      "label": "Gewinnkurve: die Nullstellen sind die Gewinnschwelle (Break-even)"
+    } },
     { "beatId": "beat-why", "narrationRef": "why", "component": "EquationStepReveal", "props": { "steps": [
       { "label": "Anwendung", "expression": "Gewinnschwelle, Break-even-Punkt" }
     ] } },

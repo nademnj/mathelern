@@ -17,9 +17,15 @@
       { "x": -2, "y": -1, "label": "A" },
       { "x": 1, "y": 5, "label": "B" }
     ] } },
-    { "beatId": "beat-why", "narrationRef": "why", "component": "EquationStepReveal", "props": { "steps": [
-      { "label": "Anwendung", "expression": "Aus Messdaten eine Formel bestimmen" }
-    ] } },
+    { "beatId": "beat-why", "narrationRef": "why", "component": "AnimatedCurveViz", "props": {
+      "curveType": "linear",
+      "m": 2,
+      "t": 3,
+      "xMin": -2,
+      "xMax": 1,
+      "mover": "🚗",
+      "label": "Konstante Geschwindigkeit: gleichmäßige Steigung über die Zeit"
+    } },
     { "beatId": "beat-slope", "narrationRef": "slope", "component": "EquationStepReveal", "props": { "steps": [
       { "label": "Steigungsformel", "expression": "m = (y₂ - y₁) / (x₂ - x₁)" },
       { "label": "Einsetzen", "expression": "m = (5 - (-1)) / (1 - (-2)) = 2" }

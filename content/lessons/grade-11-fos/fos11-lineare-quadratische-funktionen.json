@@ -137,7 +137,6 @@
         "c": 4,
         "xMin": -2,
         "xMax": 2,
-        "range": 6,
         "mover": "⚽",
         "label": "Flugbahn eines geworfenen Balls – der Scheitelpunkt ist der höchste Punkt"
       }
