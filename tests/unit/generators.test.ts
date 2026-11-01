@@ -31,7 +31,6 @@ import { generate as setOperationsGenerator } from "@/lib/generators/setOperatio
 import { generate as contingencyTableGenerator } from "@/lib/generators/contingencyTableGenerator";
 import { generate as laplaceProbabilityGenerator } from "@/lib/generators/laplaceProbabilityGenerator";
 import { generate as conditionalProbabilityGenerator } from "@/lib/generators/conditionalProbabilityGenerator";
-import { generate as countingPrincipleGenerator } from "@/lib/generators/countingPrincipleGenerator";
 import { generate as integerOperationsGenerator } from "@/lib/generators/integerOperationsGenerator";
 import { generate as divisibilityGenerator } from "@/lib/generators/divisibilityGenerator";
 import { generate as angleBasicsGenerator } from "@/lib/generators/angleBasicsGenerator";
@@ -446,18 +445,6 @@ describe("conditionalProbabilityGenerator", () => {
       for (let tier = 1; tier <= 5; tier++) {
         const ex = conditionalProbabilityGenerator({ difficultyTier: tier, seed });
         expect(gcd(ex.answer.numerator!, ex.answer.denominator!)).toBe(1);
-      }
-    }
-  });
-});
-
-describe("countingPrincipleGenerator", () => {
-  it("produces a positive integer product", () => {
-    for (let seed = 0; seed < 100; seed++) {
-      for (let tier = 1; tier <= 5; tier++) {
-        const ex = countingPrincipleGenerator({ difficultyTier: tier, seed });
-        expect(Number.isInteger(ex.answer.value)).toBe(true);
-        expect(ex.answer.value).toBeGreaterThan(0);
       }
     }
   });

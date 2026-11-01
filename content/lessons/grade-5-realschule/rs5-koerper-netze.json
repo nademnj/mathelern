@@ -1,10 +1,10 @@
 {
   "slug": "rs5-koerper-netze-ep1",
   "topicSlug": "rs5-koerper-netze",
-  "topicRef": "M5 3",
-  "title": "Körper, Netze und Schrägbilder",
+  "topicRef": "Kapitel 6",
+  "title": "Ebene und räumliche Figuren: Von Dreiecken bis zum Quader",
   "episodeNumber": 1,
-  "estimatedMinutes": 4,
+  "estimatedMinutes": 5,
   "script": [
     {
       "beatId": "intro_history",
@@ -19,8 +19,16 @@
       "narration": "Du siehst Netze ständig: wenn eine Müsli- oder Versandschachtel zum Recycling flachgefaltet wird, beim Entwerfen von Verpackungen, an den sechs Seiten eines Spielwürfels oder bei Architekturmodellen von Gebäuden."
     },
     {
+      "beatId": "ebene_figuren_dreiecke",
+      "narration": "Fangen wir flach an, mit ebenen Figuren. Ein Dreieck wird nach seinen Seiten benannt: Sind alle drei Seiten gleich lang, heißt es gleichseitig. Sind nur zwei Seiten gleich lang, heißt es gleichschenklig. Sind alle drei verschieden, heißt es unregelmäßig. Nach den Winkeln unterscheidet man spitzwinklige, rechtwinklige und stumpfwinklige Dreiecke."
+    },
+    {
+      "beatId": "ebene_figuren_vierecke",
+      "narration": "Auch Vierecke haben Familiennamen. Ein Quadrat hat vier gleich lange Seiten und vier rechte Winkel. Ein Rechteck hat vier rechte Winkel, aber nur gegenüberliegende Seiten sind gleich lang. Ein Parallelogramm hat zwei Paare paralleler Seiten, eine Raute vier gleich lange Seiten ohne rechte Winkel, und ein Trapez nur ein Paar paralleler Seiten."
+    },
+    {
       "beatId": "intro",
-      "narration": "Ein Quader hat 6 Flächen, 8 Ecken und 12 Kanten. Je drei Kanten treffen sich in jeder Ecke – eine Länge, eine Breite, eine Höhe."
+      "narration": "Jetzt geht's in den Raum: Ein Quader hat 6 Flächen, 8 Ecken und 12 Kanten. Je drei Kanten treffen sich in jeder Ecke – eine Länge, eine Breite, eine Höhe."
     },
     {
       "beatId": "why",
@@ -72,6 +80,33 @@
           "🎲 Die sechs Seiten eines Spielwürfels",
           "🏗️ Verpackungen entwerfen",
           "🏛️ Architekturmodelle von Gebäuden"
+        ]
+      }
+    },
+    {
+      "beatId": "beat-ebene-figuren-dreiecke",
+      "narrationRef": "ebene_figuren_dreiecke",
+      "component": "EquationStepReveal",
+      "props": {
+        "steps": [
+          { "label": "Gleichseitig", "expression": "alle 3 Seiten gleich lang" },
+          { "label": "Gleichschenklig", "expression": "genau 2 Seiten gleich lang" },
+          { "label": "Unregelmäßig", "expression": "alle 3 Seiten verschieden" },
+          { "label": "Rechtwinklig", "expression": "ein Winkel = 90°" }
+        ]
+      }
+    },
+    {
+      "beatId": "beat-ebene-figuren-vierecke",
+      "narrationRef": "ebene_figuren_vierecke",
+      "component": "EquationStepReveal",
+      "props": {
+        "steps": [
+          { "label": "Quadrat", "expression": "4 gleich lange Seiten, 4 rechte Winkel" },
+          { "label": "Rechteck", "expression": "gegenüberliegende Seiten gleich lang, 4 rechte Winkel" },
+          { "label": "Parallelogramm", "expression": "2 Paare paralleler Seiten" },
+          { "label": "Raute", "expression": "4 gleich lange Seiten, keine rechten Winkel" },
+          { "label": "Trapez", "expression": "1 Paar paralleler Seiten" }
         ]
       }
     },

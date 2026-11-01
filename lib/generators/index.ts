@@ -31,7 +31,6 @@ import { generate as setOperationsGenerator } from "./setOperationsGenerator";
 import { generate as contingencyTableGenerator } from "./contingencyTableGenerator";
 import { generate as laplaceProbabilityGenerator } from "./laplaceProbabilityGenerator";
 import { generate as conditionalProbabilityGenerator } from "./conditionalProbabilityGenerator";
-import { generate as countingPrincipleGenerator } from "./countingPrincipleGenerator";
 import { generate as integerOperationsGenerator } from "./integerOperationsGenerator";
 import { generate as divisibilityGenerator } from "./divisibilityGenerator";
 import { generate as angleBasicsGenerator } from "./angleBasicsGenerator";
@@ -83,7 +82,6 @@ export const generatorRegistry: Record<string, GeneratorFn> = {
   contingencyTableGenerator,
   laplaceProbabilityGenerator,
   conditionalProbabilityGenerator,
-  countingPrincipleGenerator,
   integerOperationsGenerator,
   divisibilityGenerator,
   angleBasicsGenerator,
