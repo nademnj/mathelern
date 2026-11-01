@@ -1,0 +1,124 @@
+{
+  "slug": "rs5-ebene-figuren-winkel-ep1",
+  "topicSlug": "rs5-ebene-figuren-winkel",
+  "topicRef": "M5 3",
+  "title": "Ebene Figuren, Koordinatensystem & Winkel",
+  "episodeNumber": 1,
+  "estimatedMinutes": 4,
+  "script": [
+    {
+      "beatId": "intro_history",
+      "narration": "Vor über 2300 Jahren schrieb der griechische Mathematiker Euklid ein berühmtes Buch über Geometrie. Darin legte er fest, was ein Punkt, eine Gerade und ein Winkel genau sind. Diese Grundlagen lernst du heute noch genauso, wie er sie aufgeschrieben hat!"
+    },
+    {
+      "beatId": "intro_why",
+      "narration": "Winkel beschreiben Richtungen und Drehungen – sie sind überall, sobald man anfängt, darauf zu achten. Wenn du weißt, wie sich Winkel an einem Punkt oder auf einer Geraden zu einer festen Summe ergänzen, kannst du einen fehlenden Winkel berechnen, ohne zu messen."
+    },
+    {
+      "beatId": "intro_realworld",
+      "narration": "Winkel begegnen dir ständig: auf einem Verkehrsschild, das eine Kurve zeigt, bei der Neigung einer Skateboard-Rampe oder eines Daches, bei der Kompassrichtung beim Wandern oder beim Öffnungswinkel eines Laptop-Deckels."
+    },
+    {
+      "beatId": "intro",
+      "narration": "Stell dir einen rechten Winkel vor, wie die Ecke eines Blattes Papier – genau 90°. Zwei Winkel, die sich zu einem rechten Winkel ergänzen, heißen Komplementärwinkel."
+    },
+    {
+      "beatId": "why",
+      "narration": "Liegen zwei Winkel nebeneinander auf einer geraden Linie, ergänzen sie sich immer zu 180°. Das nennt man Nebenwinkel. Kennst du einen der beiden, findest du den anderen ganz leicht."
+    },
+    {
+      "beatId": "example",
+      "narration": "Ein Winkel misst 35°. Er liegt zusammen mit einem zweiten Winkel auf einer Geraden. Wie groß ist der zweite Winkel? Rechnung: 180° minus 35° gleich 145°."
+    },
+    {
+      "beatId": "reallife",
+      "narration": "Eine Rampe ist so gebaut, dass sie zusammen mit dem Boden einen rechten Winkel bildet. Wenn die Rampe selbst 65° zum Boden hat, bleiben für den Rest bis zur Hauswand 25° übrig – 90° minus 65°."
+    },
+    {
+      "beatId": "recap",
+      "narration": "Zusammengefasst: Winkel an einem Punkt auf einer Geraden ergeben zusammen 180°, ein rechter Winkel wird aus zwei Winkeln mit zusammen 90° gebildet. Kennst du einen Winkel, findest du den anderen durch Subtraktion."
+    }
+  ],
+  "storyboard": [
+    {
+      "beatId": "beat-intro-history",
+      "narrationRef": "intro_history",
+      "component": "LessonIntroViz",
+      "props": {
+        "phase": "history",
+        "heading": "Woher kommt die Geometrie?",
+        "body": "Vor über 2300 Jahren legte der griechische Mathematiker Euklid in einem berühmten Buch fest, was Punkte, Geraden und Winkel sind – Grundlagen, die bis heute gelten."
+      }
+    },
+    {
+      "beatId": "beat-intro-why",
+      "narrationRef": "intro_why",
+      "component": "LessonIntroViz",
+      "props": {
+        "phase": "why",
+        "heading": "Warum lernen wir das?",
+        "body": "Winkel beschreiben Richtung und Drehung. Wenn du weißt, wie sich Winkel zu 90° oder 180° ergänzen, findest du einen fehlenden Winkel ohne zu messen."
+      }
+    },
+    {
+      "beatId": "beat-intro-realworld",
+      "narrationRef": "intro_realworld",
+      "component": "LessonIntroViz",
+      "props": {
+        "phase": "realWorld",
+        "heading": "Wo begegnet dir das im echten Leben?",
+        "items": [
+          "🚧 Verkehrsschilder mit Kurvenwinkel",
+          "🛹 Die Neigung einer Skateboard-Rampe",
+          "🧭 Kompassrichtungen beim Wandern",
+          "💻 Der Öffnungswinkel eines Laptop-Deckels"
+        ]
+      }
+    },
+    {
+      "beatId": "beat-intro",
+      "narrationRef": "intro",
+      "component": "AngleViz",
+      "props": { "degrees": 90, "label": "90° (rechter Winkel)" }
+    },
+    {
+      "beatId": "beat-why",
+      "narrationRef": "why",
+      "component": "AngleViz",
+      "props": { "degrees": 180, "label": "180° (gestreckter Winkel)" }
+    },
+    {
+      "beatId": "beat-example",
+      "narrationRef": "example",
+      "component": "EquationStepReveal",
+      "props": {
+        "steps": [
+          { "label": "Gesamtwinkel (Gerade)", "expression": "180°" },
+          { "label": "Bekannter Winkel", "expression": "35°" },
+          { "label": "Rechnung", "expression": "180° - 35° = 145°" },
+          { "label": "Ergebnis", "expression": "145°" }
+        ]
+      }
+    },
+    {
+      "beatId": "beat-reallife",
+      "narrationRef": "reallife",
+      "component": "EquationStepReveal",
+      "props": {
+        "steps": [
+          { "label": "Gesamtwinkel (rechter Winkel)", "expression": "90°" },
+          { "label": "Winkel der Rampe", "expression": "65°" },
+          { "label": "Rechnung", "expression": "90° - 65° = 25°" },
+          { "label": "Ergebnis", "expression": "25°" }
+        ]
+      }
+    },
+    {
+      "beatId": "beat-recap",
+      "narrationRef": "recap",
+      "component": "AngleViz",
+      "props": { "degrees": 45, "label": "Merke: Winkel ergänzen sich zu 90° oder 180°" }
+    }
+  ],
+  "videoUrl": null
+}

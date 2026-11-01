@@ -1,0 +1,132 @@
+{
+  "slug": "rs5-ganze-zahlen-ep1",
+  "topicSlug": "rs5-ganze-zahlen",
+  "topicRef": "M5 2",
+  "title": "Ganze Zahlen – negative Zahlen",
+  "episodeNumber": 1,
+  "estimatedMinutes": 4,
+  "script": [
+    {
+      "beatId": "intro_history",
+      "narration": "Chinesische Mathematiker benutzten vor über 2000 Jahren rote und schwarze Rechenstäbchen, um positive und negative Zahlen darzustellen – lange bevor negative Zahlen in Europa akzeptiert wurden. Noch im 17. Jahrhundert nannten manche europäische Mathematiker sie „absurd“ oder „unmöglich“."
+    },
+    {
+      "beatId": "intro_why",
+      "narration": "Nicht alles lässt sich nur mit positiven Zahlen beschreiben. Sobald etwas „unter null“ gehen kann, brauchst du negative Zahlen – zum Beispiel für Temperaturen, Schulden oder Höhen unter dem Meeresspiegel."
+    },
+    {
+      "beatId": "intro_realworld",
+      "narration": "Negative Zahlen begegnen dir ständig: bei Minusgraden im Winter, beim Minus auf dem Kontoauszug, oder wenn ein Taucher tiefer als null Meter unter die Wasseroberfläche taucht."
+    },
+    {
+      "beatId": "intro",
+      "narration": "Stell dir einen Zahlenstrahl vor, der nach links über die 0 hinausgeht. Rechts von 0 liegen die positiven Zahlen, links davon die negativen. Je weiter links eine Zahl liegt, desto kleiner ist sie."
+    },
+    {
+      "beatId": "addition",
+      "narration": "Addieren auf dem Zahlenstrahl heißt: nach rechts gehen. Bei -3 + 5 startest du bei -3 und gehst 5 Schritte nach rechts – du landest bei 2."
+    },
+    {
+      "beatId": "subtraction",
+      "narration": "Subtrahieren heißt: nach links gehen. Bei 2 - 6 startest du bei 2 und gehst 6 Schritte nach links – du landest bei -4."
+    },
+    {
+      "beatId": "doubleminus",
+      "narration": "Eine Besonderheit: Minus mal Minus wird Plus! Bei 3 - (-4) wird daraus 3 + 4 = 7. Zwei Minuszeichen hintereinander heben sich auf, so wie „nicht nicht gehen“ eigentlich „gehen“ bedeutet."
+    },
+    {
+      "beatId": "reallife",
+      "narration": "Heute Morgen waren es -5 Grad. Bis Mittag steigt die Temperatur um 8 Grad. Die neue Temperatur ist -5 + 8 = 3 Grad – über dem Gefrierpunkt!"
+    },
+    {
+      "beatId": "recap",
+      "narration": "Zusammengefasst: Addieren bedeutet auf dem Zahlenstrahl nach rechts gehen, subtrahieren nach links. Minus mal Minus wird Plus. Negative Zahlen beschreiben alles, was „unter null“ liegt."
+    }
+  ],
+  "storyboard": [
+    {
+      "beatId": "beat-intro-history",
+      "narrationRef": "intro_history",
+      "component": "LessonIntroViz",
+      "props": {
+        "phase": "history",
+        "heading": "Woher kommen negative Zahlen?",
+        "body": "Chinesische Mathematiker nutzten vor über 2000 Jahren rote und schwarze Rechenstäbchen für positive und negative Zahlen – lange bevor Europa sie akzeptierte."
+      }
+    },
+    {
+      "beatId": "beat-intro-why",
+      "narrationRef": "intro_why",
+      "component": "LessonIntroViz",
+      "props": {
+        "phase": "why",
+        "heading": "Warum lernen wir das?",
+        "body": "Nicht alles lässt sich nur mit positiven Zahlen beschreiben. Für alles „unter null“ brauchst du negative Zahlen."
+      }
+    },
+    {
+      "beatId": "beat-intro-realworld",
+      "narrationRef": "intro_realworld",
+      "component": "LessonIntroViz",
+      "props": {
+        "phase": "realWorld",
+        "heading": "Wo begegnet dir das im echten Leben?",
+        "items": [
+          "🌡️ Minusgrade im Winter",
+          "🏦 Minus auf dem Kontoauszug (Schulden)",
+          "🏊 Tauchtiefe unter der Wasseroberfläche",
+          "🛗 Stockwerke im Keller (−1, −2)"
+        ]
+      }
+    },
+    {
+      "beatId": "beat-intro",
+      "narrationRef": "intro",
+      "component": "NumberLineViz",
+      "props": { "min": -10, "max": 10, "step": 1, "highlight": [-4], "highlightLabel": "Eine negative Zahl" }
+    },
+    {
+      "beatId": "beat-addition",
+      "narrationRef": "addition",
+      "component": "NumberLineViz",
+      "props": { "min": -10, "max": 10, "step": 1, "highlight": [-3], "jumpTo": 2, "highlightLabel": "-3 + 5 = 2" }
+    },
+    {
+      "beatId": "beat-subtraction",
+      "narrationRef": "subtraction",
+      "component": "NumberLineViz",
+      "props": { "min": -10, "max": 10, "step": 1, "highlight": [2], "jumpTo": -4, "highlightLabel": "2 - 6 = -4" }
+    },
+    {
+      "beatId": "beat-doubleminus",
+      "narrationRef": "doubleminus",
+      "component": "EquationStepReveal",
+      "props": {
+        "steps": [
+          { "label": "Aufgabe", "expression": "3 - (-4)" },
+          { "label": "Minus mal Minus wird Plus", "expression": "3 + 4" },
+          { "label": "Ergebnis", "expression": "7" }
+        ]
+      }
+    },
+    {
+      "beatId": "beat-reallife",
+      "narrationRef": "reallife",
+      "component": "EquationStepReveal",
+      "props": {
+        "steps": [
+          { "label": "Morgens", "expression": "-5 °C" },
+          { "label": "Anstieg", "expression": "+8 °C" },
+          { "label": "Mittags", "expression": "-5 + 8 = 3 °C" }
+        ]
+      }
+    },
+    {
+      "beatId": "beat-recap",
+      "narrationRef": "recap",
+      "component": "NumberLineViz",
+      "props": { "min": -10, "max": 10, "step": 1, "highlight": [0], "highlightLabel": "Die Null trennt Plus und Minus" }
+    }
+  ],
+  "videoUrl": null
+}

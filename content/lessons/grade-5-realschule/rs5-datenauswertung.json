@@ -1,0 +1,139 @@
+{
+  "slug": "rs5-datenauswertung-ep1",
+  "topicSlug": "rs5-datenauswertung",
+  "topicRef": "M5 6",
+  "title": "Auswertung von Daten",
+  "episodeNumber": 1,
+  "estimatedMinutes": 3,
+  "script": [
+    {
+      "beatId": "intro_history",
+      "narration": "Die Statistik als eigenes Fachgebiet entstand vor allem im 17. bis 19. Jahrhundert, als Regierungen Bevölkerungen zählen und Versicherungen Risiken vorhersagen wollten. Einer der ersten Pioniere, John Graunt, untersuchte 1662 Sterberegister aus London und fand darin überraschende Muster."
+    },
+    {
+      "beatId": "intro_why",
+      "narration": "Ein Haufen roher Zahlen oder Strichlisten ist schwer zu verstehen. Wenn du sie ordentlich in Tabellen und Diagramme bringst und gute Fragen dazu stellst, wird aus Daten nützliche Information."
+    },
+    {
+      "beatId": "intro_realworld",
+      "narration": "Datenauswertung begegnet dir bei einer Klassenumfrage zur Lieblingseissorte, bei Sportstatistiken, bei der Temperaturkurve in einer Wetter-App oder beim Auszählen von Stimmen bei einer Wahl."
+    },
+    {
+      "beatId": "intro",
+      "narration": "Stell dir vor, deine Klasse macht eine Strichliste: Wie viele Mitschüler haben welches Haustier? Jeder Strich zählt eine Person."
+    },
+    {
+      "beatId": "why",
+      "narration": "Addierst du alle Werte aus der Tabelle, bekommst du die Gesamtzahl der befragten Personen – eine einfache, aber wichtige erste Auswertung."
+    },
+    {
+      "beatId": "example",
+      "narration": "Eine Umfrage zu Lieblingsfarben ergab: Rot 6, Blau 9, Grün 4, Gelb 3. Wie viele Personen wurden insgesamt befragt? Addiere alle Werte: 6 plus 9 plus 4 plus 3 gleich 22."
+    },
+    {
+      "beatId": "reallife",
+      "narration": "Deine Klasse hat 25 Schüler. Bei einer Umfrage zum Lieblingsfach sagten 10 Mathe, 8 Sport, 7 Kunst. Stimmt das mit der Klassengröße überein? 10 plus 8 plus 7 gleich 25 – ja!"
+    },
+    {
+      "beatId": "recap",
+      "narration": "Zusammengefasst: Daten aus einer Tabelle oder Strichliste kannst du addieren, um die Gesamtzahl zu finden. Das ist der erste Schritt, um aus Zahlen echte Informationen zu gewinnen."
+    }
+  ],
+  "storyboard": [
+    {
+      "beatId": "beat-intro-history",
+      "narrationRef": "intro_history",
+      "component": "LessonIntroViz",
+      "props": {
+        "phase": "history",
+        "heading": "Woher kommt die Statistik?",
+        "body": "Die Statistik entstand vor allem im 17.–19. Jahrhundert. John Graunt untersuchte 1662 Sterberegister aus London und fand darin überraschende Muster."
+      }
+    },
+    {
+      "beatId": "beat-intro-why",
+      "narrationRef": "intro_why",
+      "component": "LessonIntroViz",
+      "props": {
+        "phase": "why",
+        "heading": "Warum lernen wir das?",
+        "body": "Ein Haufen roher Zahlen ist schwer zu verstehen. Ordentlich in Tabellen gebracht, werden aus Daten nützliche Informationen."
+      }
+    },
+    {
+      "beatId": "beat-intro-realworld",
+      "narrationRef": "intro_realworld",
+      "component": "LessonIntroViz",
+      "props": {
+        "phase": "realWorld",
+        "heading": "Wo begegnet dir das im echten Leben?",
+        "items": [
+          "🍦 Eine Klassenumfrage zur Lieblingseissorte",
+          "⚽ Sportstatistiken",
+          "🌤️ Die Temperaturkurve in einer Wetter-App",
+          "🗳️ Stimmen bei einer Wahl auszählen"
+        ]
+      }
+    },
+    {
+      "beatId": "beat-intro",
+      "narrationRef": "intro",
+      "component": "BarModelViz",
+      "props": {
+        "total": 20,
+        "parts": [
+          { "value": 8, "label": "Hund" },
+          { "value": 5, "label": "Katze" },
+          { "value": 4, "label": "Kaninchen" },
+          { "value": 3, "label": "Keins" }
+        ],
+        "unit": " Schüler"
+      }
+    },
+    {
+      "beatId": "beat-why",
+      "narrationRef": "why",
+      "component": "EquationStepReveal",
+      "props": {
+        "steps": [
+          { "label": "Regel", "expression": "Gesamtzahl = Summe aller Werte" }
+        ]
+      }
+    },
+    {
+      "beatId": "beat-example",
+      "narrationRef": "example",
+      "component": "EquationStepReveal",
+      "props": {
+        "steps": [
+          { "label": "Werte", "expression": "Rot: 6, Blau: 9, Grün: 4, Gelb: 3" },
+          { "label": "Addieren", "expression": "6 + 9 + 4 + 3" },
+          { "label": "Ergebnis", "expression": "22" }
+        ]
+      }
+    },
+    {
+      "beatId": "beat-reallife",
+      "narrationRef": "reallife",
+      "component": "EquationStepReveal",
+      "props": {
+        "steps": [
+          { "label": "Werte", "expression": "Mathe: 10, Sport: 8, Kunst: 7" },
+          { "label": "Addieren", "expression": "10 + 8 + 7" },
+          { "label": "Ergebnis", "expression": "25" }
+        ]
+      }
+    },
+    {
+      "beatId": "beat-recap",
+      "narrationRef": "recap",
+      "component": "EquationStepReveal",
+      "props": {
+        "steps": [
+          { "label": "Merksatz", "expression": "Alle Werte der Tabelle addieren = Gesamtzahl" }
+        ]
+      }
+    }
+  ],
+  "videoUrl": null
+}

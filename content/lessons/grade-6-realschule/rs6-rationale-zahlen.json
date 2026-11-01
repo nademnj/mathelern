@@ -1,0 +1,131 @@
+{
+  "slug": "rs6-rationale-zahlen-ep1",
+  "topicSlug": "rs6-rationale-zahlen",
+  "topicRef": "M6 LB1",
+  "title": "Rationale Zahlen: Vergleichen und Ordnen",
+  "episodeNumber": 1,
+  "estimatedMinutes": 4,
+  "script": [
+    {
+      "beatId": "intro_history",
+      "narration": "Schon vor über 2000 Jahren rechneten chinesische Mathematiker mit negativen ganzen Zahlen. Jetzt erweitern wir diese Idee auf Dezimalzahlen und Brüche – derselbe Zahlenstrahl, nur mit feineren Strichen zwischen den ganzen Zahlen."
+    },
+    {
+      "beatId": "intro_why",
+      "narration": "Dieselbe überraschende Regel wie bei ganzen Zahlen gilt auch hier: Die negative Zahl mit dem größeren Abstand von null ist die kleinere Zahl. Das gilt auch, wenn Dezimalstellen dabei sind."
+    },
+    {
+      "beatId": "intro_realworld",
+      "narration": "Du vergleichst das zum Beispiel bei Temperaturänderungen (-3,5 °C oder -1,2 °C – was ist kälter?), bei Kontoständen im Minus, oder bei Höhenangaben unter dem Meeresspiegel mit Nachkommastellen."
+    },
+    {
+      "beatId": "intro",
+      "narration": "Vergleiche -2,5 und -1,8. Beide sind negativ. Welche Zahl ist kleiner?"
+    },
+    {
+      "beatId": "why",
+      "narration": "Schau dir die Beträge an: |-2,5| = 2,5 und |-1,8| = 1,8. Der größere Betrag gehört zur kleineren Zahl – also ist -2,5 kleiner als -1,8."
+    },
+    {
+      "beatId": "breakdown",
+      "narration": "Ordne -0,5, -3,1 und -1,7 von klein nach groß. Vergleiche die Beträge: 3,1 ist am größten, also ist -3,1 am kleinsten. Die Reihenfolge: -3,1 < -1,7 < -0,5."
+    },
+    {
+      "beatId": "reallife",
+      "narration": "Das Tote Meer liegt bei etwa -430,5 Metern, der tiefste Punkt an Land. Das ist viel weiter unter dem Meeresspiegel als ein Keller bei -3,2 Metern – also -430,5 ist viel kleiner."
+    },
+    {
+      "beatId": "recap",
+      "narration": "Zusammengefasst: Bei negativen Zahlen – auch mit Nachkommastellen – ist die Zahl mit dem größeren Betrag immer die kleinere Zahl."
+    }
+  ],
+  "storyboard": [
+    {
+      "beatId": "beat-intro-history",
+      "narrationRef": "intro_history",
+      "component": "LessonIntroViz",
+      "props": {
+        "phase": "history",
+        "heading": "Woher kommen rationale Zahlen?",
+        "body": "Chinesische Mathematiker rechneten vor über 2000 Jahren mit negativen ganzen Zahlen. Jetzt erweitern wir das auf Brüche und Dezimalzahlen."
+      }
+    },
+    {
+      "beatId": "beat-intro-why",
+      "narrationRef": "intro_why",
+      "component": "LessonIntroViz",
+      "props": {
+        "phase": "why",
+        "heading": "Warum lernen wir das?",
+        "body": "Die negative Zahl mit dem größeren Abstand von null ist immer die kleinere Zahl – auch bei Dezimalzahlen und Brüchen gilt diese Regel."
+      }
+    },
+    {
+      "beatId": "beat-intro-realworld",
+      "narrationRef": "intro_realworld",
+      "component": "LessonIntroViz",
+      "props": {
+        "phase": "realWorld",
+        "heading": "Wo begegnet dir das im echten Leben?",
+        "items": [
+          "🌡️ Temperaturänderungen vergleichen",
+          "🏦 Kontostände im Minus",
+          "🌊 Höhenangaben unter dem Meeresspiegel",
+          "📉 Kursänderungen an der Börse"
+        ]
+      }
+    },
+    {
+      "beatId": "beat-intro",
+      "narrationRef": "intro",
+      "component": "NumberLineViz",
+      "props": { "min": -5, "max": 0, "step": 1, "highlight": [-3, -2], "highlightLabel": "Welche Zahl ist kleiner?" }
+    },
+    {
+      "beatId": "beat-why",
+      "narrationRef": "why",
+      "component": "EquationStepReveal",
+      "props": {
+        "steps": [
+          { "label": "Beträge", "expression": "|-2,5| = 2,5 und |-1,8| = 1,8" },
+          { "label": "Größerer Betrag = kleinere Zahl", "expression": "-2,5 < -1,8" }
+        ]
+      }
+    },
+    {
+      "beatId": "beat-breakdown",
+      "narrationRef": "breakdown",
+      "component": "EquationStepReveal",
+      "props": {
+        "steps": [
+          { "label": "Zahlen", "expression": "-0,5, -3,1, -1,7" },
+          { "label": "Beträge vergleichen", "expression": "0,5 < 1,7 < 3,1" },
+          { "label": "Reihenfolge", "expression": "-3,1 < -1,7 < -0,5" }
+        ]
+      }
+    },
+    {
+      "beatId": "beat-reallife",
+      "narrationRef": "reallife",
+      "component": "EquationStepReveal",
+      "props": {
+        "steps": [
+          { "label": "Totes Meer", "expression": "-430,5 m" },
+          { "label": "Keller", "expression": "-3,2 m" },
+          { "label": "Vergleich", "expression": "-430,5 m ist viel kleiner als -3,2 m" }
+        ]
+      }
+    },
+    {
+      "beatId": "beat-recap",
+      "narrationRef": "recap",
+      "component": "EquationStepReveal",
+      "props": {
+        "steps": [
+          { "label": "Merksatz", "expression": "Größerer Betrag = kleinere negative Zahl" }
+        ]
+      }
+    }
+  ],
+  "videoUrl": null
+}

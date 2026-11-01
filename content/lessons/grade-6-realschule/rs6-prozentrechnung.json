@@ -1,0 +1,132 @@
+{
+  "slug": "rs6-prozentrechnung-ep1",
+  "topicSlug": "rs6-prozentrechnung",
+  "topicRef": "M6 LB1",
+  "title": "Prozentrechnung",
+  "episodeNumber": 1,
+  "estimatedMinutes": 4,
+  "script": [
+    {
+      "beatId": "intro_history",
+      "narration": "Das Wort „Prozent“ kommt vom lateinischen „per centum“ – „von Hundert“. Schon Kaufleute und Banken im mittelalterlichen Italien des 14. und 15. Jahrhunderts nutzten Prozente, um Zinsen, Steuern und Handelsgebühren zu berechnen. Deshalb stammen viele Fachbegriffe der Prozentrechnung aus dem Lateinischen und Italienischen."
+    },
+    {
+      "beatId": "intro_why",
+      "narration": "Prozente lassen dich Anteile fair vergleichen, auch wenn die Gesamtmengen völlig verschieden sind. „20 von 50“ und „40 von 100“ sind beide 40 Prozent – das erkennst du viel schneller als bei den rohen Brüchen."
+    },
+    {
+      "beatId": "intro_realworld",
+      "narration": "Prozente begegnen dir überall: ein Rabatt von 20 % im Laden, der Akkustand deines Handys, der Anteil richtiger Antworten in einer Prüfung, oder die Mehrwertsteuer auf einen Einkauf."
+    },
+    {
+      "beatId": "intro",
+      "narration": "Wie viel sind 25 % von 80? Der Grundwert ist 80, der Prozentsatz ist 25 %. Gesucht ist der Prozentwert."
+    },
+    {
+      "beatId": "why",
+      "narration": "Die Formel: Prozentwert = Grundwert mal Prozentsatz geteilt durch 100. Setze ein: 80 · 25 / 100 = 20."
+    },
+    {
+      "beatId": "breakdown",
+      "narration": "Umgekehrt kannst du auch fragen: 15 sind wie viel Prozent von 60? Hier ist der Prozentwert bekannt, der Prozentsatz gesucht: (15 / 60) · 100 = 25 %."
+    },
+    {
+      "beatId": "reallife",
+      "narration": "Ein Pullover kostet 40 €, es gibt 25 % Rabatt. Der Rabatt beträgt 40 · 25 / 100 = 10 €. Du zahlst also 40 € - 10 € = 30 €."
+    },
+    {
+      "beatId": "recap",
+      "narration": "Zusammengefasst: Prozentwert = Grundwert · Prozentsatz / 100. Je nachdem, was gesucht ist, stellst du diese Formel nach der passenden Größe um."
+    }
+  ],
+  "storyboard": [
+    {
+      "beatId": "beat-intro-history",
+      "narrationRef": "intro_history",
+      "component": "LessonIntroViz",
+      "props": {
+        "phase": "history",
+        "heading": "Woher kommt die Prozentrechnung?",
+        "body": "„Prozent“ kommt vom lateinischen „per centum“ (von Hundert). Schon im mittelalterlichen Italien berechneten Kaufleute damit Zinsen und Gebühren."
+      }
+    },
+    {
+      "beatId": "beat-intro-why",
+      "narrationRef": "intro_why",
+      "component": "LessonIntroViz",
+      "props": {
+        "phase": "why",
+        "heading": "Warum lernen wir das?",
+        "body": "Prozente machen Anteile vergleichbar, auch bei unterschiedlich großen Gesamtmengen – „20 von 50“ und „40 von 100“ sind beide 40 %."
+      }
+    },
+    {
+      "beatId": "beat-intro-realworld",
+      "narrationRef": "intro_realworld",
+      "component": "LessonIntroViz",
+      "props": {
+        "phase": "realWorld",
+        "heading": "Wo begegnet dir das im echten Leben?",
+        "items": [
+          "🏷️ Rabatte im Geschäft",
+          "🔋 Akkustand deines Handys",
+          "📝 Richtige Antworten in einer Prüfung",
+          "🧾 Mehrwertsteuer beim Einkauf"
+        ]
+      }
+    },
+    {
+      "beatId": "beat-intro",
+      "narrationRef": "intro",
+      "component": "BarModelViz",
+      "props": { "total": 80, "parts": [{ "value": 20, "label": "25 %" }, { "value": 60, "label": "Rest" }], "unit": "" }
+    },
+    {
+      "beatId": "beat-why",
+      "narrationRef": "why",
+      "component": "EquationStepReveal",
+      "props": {
+        "steps": [
+          { "label": "Formel", "expression": "Prozentwert = Grundwert · Prozentsatz / 100" },
+          { "label": "Einsetzen", "expression": "80 · 25 / 100" },
+          { "label": "Ergebnis", "expression": "20" }
+        ]
+      }
+    },
+    {
+      "beatId": "beat-breakdown",
+      "narrationRef": "breakdown",
+      "component": "EquationStepReveal",
+      "props": {
+        "steps": [
+          { "label": "Formel", "expression": "Prozentsatz = (Prozentwert / Grundwert) · 100" },
+          { "label": "Einsetzen", "expression": "(15 / 60) · 100" },
+          { "label": "Ergebnis", "expression": "25 %" }
+        ]
+      }
+    },
+    {
+      "beatId": "beat-reallife",
+      "narrationRef": "reallife",
+      "component": "EquationStepReveal",
+      "props": {
+        "steps": [
+          { "label": "Preis", "expression": "40 €" },
+          { "label": "Rabatt (25 %)", "expression": "40 · 25 / 100 = 10 €" },
+          { "label": "Zu zahlen", "expression": "40 € - 10 € = 30 €" }
+        ]
+      }
+    },
+    {
+      "beatId": "beat-recap",
+      "narrationRef": "recap",
+      "component": "EquationStepReveal",
+      "props": {
+        "steps": [
+          { "label": "Merksatz", "expression": "Prozentwert = Grundwert · Prozentsatz / 100" }
+        ]
+      }
+    }
+  ],
+  "videoUrl": null
+}

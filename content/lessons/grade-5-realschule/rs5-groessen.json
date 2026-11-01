@@ -1,0 +1,137 @@
+{
+  "slug": "rs5-groessen-ep1",
+  "topicSlug": "rs5-groessen",
+  "topicRef": "M5 4",
+  "title": "Größen: Einheiten und Umrechnen",
+  "episodeNumber": 1,
+  "estimatedMinutes": 4,
+  "script": [
+    {
+      "beatId": "intro_history",
+      "narration": "Früher nutzte jede Stadt in Europa eigene Maßeinheiten – das machte Handel verwirrend und fehleranfällig. 1795 führte Frankreich während der Französischen Revolution das metrische System ein: ein einziges, auf Zehnerschritten basierendes System für alle Menschen und für alle Zeit. Heute nutzen es fast alle Länder der Welt."
+    },
+    {
+      "beatId": "intro_why",
+      "narration": "Du musst ständig zwischen Einheiten umrechnen – ein Rezept in Gramm, eine Kartenstrecke in Kilometern, eine Reisezeit in Minuten. Verrechnest du dich beim Umrechnungsfaktor, entstehen echte Fehler."
+    },
+    {
+      "beatId": "intro_realworld",
+      "narration": "Umrechnen brauchst du beim Kochen nach Rezept, beim Ablesen einer Kartenmaßstabsleiste, beim Berechnen einer Reisezeit oder beim Umrechnen des Gewichts eines Babys vom Kinderarzt."
+    },
+    {
+      "beatId": "intro",
+      "narration": "Größen bestehen aus einer Maßzahl und einer Maßeinheit – zum Beispiel 3 Kilometer. Innerhalb einer Einheitenfamilie wie Länge (mm, cm, m, km) kannst du immer umrechnen."
+    },
+    {
+      "beatId": "why",
+      "narration": "Jede Umrechnung hat einen festen Faktor: 1 Meter sind 100 Zentimeter, 1 Kilogramm sind 1000 Gramm, 1 Stunde sind 60 Minuten. Mit diesem Faktor multiplizierst oder dividierst du."
+    },
+    {
+      "beatId": "example",
+      "narration": "Wandle 3,5 Kilometer in Meter um. Der Umrechnungsfaktor ist 1000. Also: 3,5 mal 1000 gleich 3500 Meter."
+    },
+    {
+      "beatId": "reallife",
+      "narration": "Ein Rezept braucht 0,75 Liter Milch, aber dein Messbecher zeigt nur Milliliter an. 1 Liter sind 1000 Milliliter, also sind 0,75 Liter gleich 750 Milliliter."
+    },
+    {
+      "beatId": "recap",
+      "narration": "Zusammengefasst: Innerhalb einer Einheitenfamilie rechnest du mit einem festen Faktor um – meistens 10, 100 oder 1000. Multiplizieren beim Umrechnen in eine kleinere Einheit, Dividieren beim Umrechnen in eine größere."
+    }
+  ],
+  "storyboard": [
+    {
+      "beatId": "beat-intro-history",
+      "narrationRef": "intro_history",
+      "component": "LessonIntroViz",
+      "props": {
+        "phase": "history",
+        "heading": "Woher kommt das metrische System?",
+        "body": "Früher nutzte jede Stadt eigene Maße. 1795 führte Frankreich das metrische System ein – ein einziges System für alle, das heute fast die ganze Welt nutzt."
+      }
+    },
+    {
+      "beatId": "beat-intro-why",
+      "narrationRef": "intro_why",
+      "component": "LessonIntroViz",
+      "props": {
+        "phase": "why",
+        "heading": "Warum lernen wir das?",
+        "body": "Du musst ständig zwischen Einheiten umrechnen – beim Kochen, bei Entfernungen, bei der Zeit. Ein falscher Umrechnungsfaktor führt zu echten Fehlern."
+      }
+    },
+    {
+      "beatId": "beat-intro-realworld",
+      "narrationRef": "intro_realworld",
+      "component": "LessonIntroViz",
+      "props": {
+        "phase": "realWorld",
+        "heading": "Wo begegnet dir das im echten Leben?",
+        "items": [
+          "🍳 Ein Rezept nachkochen",
+          "🗺️ Die Maßstabsleiste einer Karte lesen",
+          "⏱️ Eine Reisezeit berechnen",
+          "👶 Das Gewicht eines Babys umrechnen"
+        ]
+      }
+    },
+    {
+      "beatId": "beat-intro",
+      "narrationRef": "intro",
+      "component": "EquationStepReveal",
+      "props": {
+        "steps": [
+          { "label": "Beispiel-Größe", "expression": "3 km" },
+          { "label": "Einheitenfamilie Länge", "expression": "mm, cm, m, km" }
+        ]
+      }
+    },
+    {
+      "beatId": "beat-why",
+      "narrationRef": "why",
+      "component": "EquationStepReveal",
+      "props": {
+        "steps": [
+          { "label": "Länge", "expression": "1 m = 100 cm" },
+          { "label": "Masse", "expression": "1 kg = 1000 g" },
+          { "label": "Zeit", "expression": "1 h = 60 min" }
+        ]
+      }
+    },
+    {
+      "beatId": "beat-example",
+      "narrationRef": "example",
+      "component": "EquationStepReveal",
+      "props": {
+        "steps": [
+          { "label": "Umrechnungsfaktor", "expression": "1 km = 1000 m" },
+          { "label": "Einsetzen", "expression": "3,5 · 1000" },
+          { "label": "Ergebnis", "expression": "3500 m" }
+        ]
+      }
+    },
+    {
+      "beatId": "beat-reallife",
+      "narrationRef": "reallife",
+      "component": "EquationStepReveal",
+      "props": {
+        "steps": [
+          { "label": "Umrechnungsfaktor", "expression": "1 l = 1000 ml" },
+          { "label": "Einsetzen", "expression": "0,75 · 1000" },
+          { "label": "Ergebnis", "expression": "750 ml" }
+        ]
+      }
+    },
+    {
+      "beatId": "beat-recap",
+      "narrationRef": "recap",
+      "component": "EquationStepReveal",
+      "props": {
+        "steps": [
+          { "label": "Merksatz", "expression": "Kleinere Einheit: · Faktor  |  Größere Einheit: : Faktor" }
+        ]
+      }
+    }
+  ],
+  "videoUrl": null
+}

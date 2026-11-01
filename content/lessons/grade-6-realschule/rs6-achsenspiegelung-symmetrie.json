@@ -1,0 +1,126 @@
+{
+  "slug": "rs6-achsenspiegelung-symmetrie-ep1",
+  "topicSlug": "rs6-achsenspiegelung-symmetrie",
+  "topicRef": "M6 LB2",
+  "title": "Achsenspiegelung und Symmetrie",
+  "episodeNumber": 1,
+  "estimatedMinutes": 4,
+  "script": [
+    {
+      "beatId": "intro_history",
+      "narration": "Symmetrie fasziniert Menschen schon seit der Antike: griechische Tempel, islamische Kunstmuster und unzählige Kulturen nutzten gezielt Spiegelsymmetrie in Architektur und Kunst. Warum Symmetrie so funktioniert, wie sie funktioniert, erklärten Mathematiker erst viel später – im 19. Jahrhundert – mit einem Teilgebiet, das heute Gruppentheorie heißt."
+    },
+    {
+      "beatId": "intro_why",
+      "narration": "Eine Achsenspiegelung klappt eine Figur über eine Linie wie an einem Spiegel. Jeder Punkt bleibt gleich weit von der Spiegelachse entfernt – nur auf der anderen Seite. Genau deshalb sieht dein Spiegelbild aus wie du, aber seitenverkehrt."
+    },
+    {
+      "beatId": "intro_realworld",
+      "narration": "Du siehst Achsenspiegelung ständig: dein Spiegelbild im Spiegel oder in stillem Wasser, Schmetterlingsflügel, ein Gesicht (ungefähr symmetrisch), oder Gebäudefassaden und Logos, die bewusst spiegelsymmetrisch gestaltet wurden."
+    },
+    {
+      "beatId": "intro",
+      "narration": "Spiegle den Punkt P(3|2) an der x-Achse. Die x-Achse ist die waagrechte Linie – bei einer Spiegelung daran bleibt die x-Koordinate gleich, aber die y-Koordinate wird negativ."
+    },
+    {
+      "beatId": "why",
+      "narration": "Regel: Spiegelung an der x-Achse ändert nur das Vorzeichen von y. Spiegelung an der y-Achse ändert nur das Vorzeichen von x. Die jeweils andere Koordinate bleibt unverändert."
+    },
+    {
+      "beatId": "breakdown",
+      "narration": "P(3|2) gespiegelt an der x-Achse: x bleibt 3, y wird von 2 zu -2. Das Ergebnis ist P'(3|-2)."
+    },
+    {
+      "beatId": "reallife",
+      "narration": "Stell dir einen See vor: Ein Baum am Ufer bei Höhe 5 Metern hat sein Spiegelbild im Wasser bei -5 Metern – genauso weit unter der Wasserlinie wie der Baum darüber."
+    },
+    {
+      "beatId": "recap",
+      "narration": "Zusammengefasst: Bei der Spiegelung an der x-Achse ändert sich das Vorzeichen von y, bei der y-Achse das Vorzeichen von x. Gib dein Ergebnis als x|y ein, zum Beispiel 3|-2."
+    }
+  ],
+  "storyboard": [
+    {
+      "beatId": "beat-intro-history",
+      "narrationRef": "intro_history",
+      "component": "LessonIntroViz",
+      "props": {
+        "phase": "history",
+        "heading": "Woher kommt die Symmetrie in der Mathematik?",
+        "body": "Griechische Tempel und islamische Kunst nutzten Spiegelsymmetrie seit der Antike. Warum sie funktioniert, erklärten Mathematiker erst im 19. Jahrhundert mit der Gruppentheorie."
+      }
+    },
+    {
+      "beatId": "beat-intro-why",
+      "narrationRef": "intro_why",
+      "component": "LessonIntroViz",
+      "props": {
+        "phase": "why",
+        "heading": "Warum lernen wir das?",
+        "body": "Eine Achsenspiegelung klappt eine Figur über eine Linie wie an einem Spiegel – jeder Punkt bleibt gleich weit von der Achse entfernt, nur auf der anderen Seite."
+      }
+    },
+    {
+      "beatId": "beat-intro-realworld",
+      "narrationRef": "intro_realworld",
+      "component": "LessonIntroViz",
+      "props": {
+        "phase": "realWorld",
+        "heading": "Wo begegnet dir das im echten Leben?",
+        "items": [
+          "🪞 Dein Spiegelbild im Spiegel oder Wasser",
+          "🦋 Schmetterlingsflügel",
+          "😀 Ein Gesicht (ungefähr symmetrisch)",
+          "🏛️ Gebäudefassaden und Logos"
+        ]
+      }
+    },
+    {
+      "beatId": "beat-intro",
+      "narrationRef": "intro",
+      "component": "CoordinatePlaneViz",
+      "props": { "range": 5, "points": [{ "x": 3, "y": 2, "label": "P" }] }
+    },
+    {
+      "beatId": "beat-why",
+      "narrationRef": "why",
+      "component": "EquationStepReveal",
+      "props": {
+        "steps": [
+          { "label": "Spiegelung an der x-Achse", "expression": "(x|y) → (x|-y)" },
+          { "label": "Spiegelung an der y-Achse", "expression": "(x|y) → (-x|y)" }
+        ]
+      }
+    },
+    {
+      "beatId": "beat-breakdown",
+      "narrationRef": "breakdown",
+      "component": "CoordinatePlaneViz",
+      "props": { "range": 5, "points": [{ "x": 3, "y": 2, "label": "P" }, { "x": 3, "y": -2, "label": "P'" }] }
+    },
+    {
+      "beatId": "beat-reallife",
+      "narrationRef": "reallife",
+      "component": "EquationStepReveal",
+      "props": {
+        "steps": [
+          { "label": "Baum am Ufer", "expression": "Höhe +5 m" },
+          { "label": "Spiegelbild im Wasser", "expression": "Höhe -5 m" }
+        ]
+      }
+    },
+    {
+      "beatId": "beat-recap",
+      "narrationRef": "recap",
+      "component": "EquationStepReveal",
+      "props": {
+        "steps": [
+          { "label": "x-Achse", "expression": "y wechselt das Vorzeichen" },
+          { "label": "y-Achse", "expression": "x wechselt das Vorzeichen" },
+          { "label": "Antwortformat", "expression": "x|y, z.B. 3|-2" }
+        ]
+      }
+    }
+  ],
+  "videoUrl": null
+}

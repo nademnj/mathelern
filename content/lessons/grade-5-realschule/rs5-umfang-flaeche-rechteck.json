@@ -1,0 +1,125 @@
+{
+  "slug": "rs5-umfang-flaeche-rechteck-ep1",
+  "topicSlug": "rs5-umfang-flaeche-rechteck",
+  "topicRef": "M5 5",
+  "title": "Umfang und Flächeninhalt von Rechteck/Quadrat",
+  "episodeNumber": 1,
+  "estimatedMinutes": 4,
+  "script": [
+    {
+      "beatId": "intro_history",
+      "narration": "Im alten Ägypten vermaßen sogenannte Seilspanner jedes Jahr neu die Grenzen der Felder der Bauern, nachdem der Nil sie überflutet und die Markierungen weggeschwemmt hatte. Mit geknoteten Seilen spannten sie rechte Winkel und maßen die Fläche – darauf basierten dann die Steuern. Das Wort Geometrie bedeutet wörtlich Erdvermessung."
+    },
+    {
+      "beatId": "intro_why",
+      "narration": "Wenn du Umfang und Flächeninhalt einer Form kennst, weißt du vorher, wie viel Material, Platz oder Geld du brauchst – bevor du dich festlegst."
+    },
+    {
+      "beatId": "intro_realworld",
+      "narration": "Du brauchst das, um zu wissen, wie viel Bodenbelag oder Teppich ein Zimmer braucht (Fläche), wie viel Zaun ein Garten braucht (Umfang), wie viel Farbe eine Wand bedeckt oder wie groß ein Grundstück ist."
+    },
+    {
+      "beatId": "intro",
+      "narration": "Ein Rechteck hat eine Breite und eine Höhe. Der Flächeninhalt ist Breite mal Höhe – so viele Kästchen passen hinein."
+    },
+    {
+      "beatId": "why",
+      "narration": "Der Umfang ist der Weg einmal ganz außen herum – also zweimal Breite plus zweimal Höhe."
+    },
+    {
+      "beatId": "example",
+      "narration": "Ein Rechteck ist 6 cm breit und 4 cm hoch. Flächeninhalt: 6 mal 4 gleich 24 Quadratzentimeter. Umfang: 2 mal (6 plus 4) gleich 20 Zentimeter."
+    },
+    {
+      "beatId": "reallife",
+      "narration": "Dein Zimmer ist 4 Meter breit und 5 Meter lang. Wie viel Quadratmeter Teppich brauchst du? 4 mal 5 gleich 20 Quadratmeter."
+    },
+    {
+      "beatId": "recap",
+      "narration": "Zusammengefasst: Flächeninhalt eines Rechtecks ist Breite mal Höhe. Umfang ist 2 mal (Breite plus Höhe). Beim Quadrat sind Breite und Höhe gleich lang."
+    }
+  ],
+  "storyboard": [
+    {
+      "beatId": "beat-intro-history",
+      "narrationRef": "intro_history",
+      "component": "LessonIntroViz",
+      "props": {
+        "phase": "history",
+        "heading": "Woher kommt die Flächenberechnung?",
+        "body": "Ägyptische Seilspanner vermaßen jedes Jahr die Felder neu, nachdem der Nil die Grenzen weggeschwemmt hatte – mit geknoteten Seilen. Geometrie heißt wörtlich Erdvermessung."
+      }
+    },
+    {
+      "beatId": "beat-intro-why",
+      "narrationRef": "intro_why",
+      "component": "LessonIntroViz",
+      "props": {
+        "phase": "why",
+        "heading": "Warum lernen wir das?",
+        "body": "Kennst du Umfang und Fläche einer Form, weißt du vorher, wie viel Material, Platz oder Geld du brauchst – bevor du dich festlegst."
+      }
+    },
+    {
+      "beatId": "beat-intro-realworld",
+      "narrationRef": "intro_realworld",
+      "component": "LessonIntroViz",
+      "props": {
+        "phase": "realWorld",
+        "heading": "Wo begegnet dir das im echten Leben?",
+        "items": [
+          "🏠 Bodenbelag für ein Zimmer berechnen",
+          "🌳 Zaun für einen Garten planen",
+          "🎨 Farbe für eine Wand abschätzen",
+          "📐 Die Größe eines Grundstücks"
+        ]
+      }
+    },
+    {
+      "beatId": "beat-intro",
+      "narrationRef": "intro",
+      "component": "AreaGridViz",
+      "props": { "width": 5, "height": 3, "unit": "cm", "highlightArea": true }
+    },
+    {
+      "beatId": "beat-why",
+      "narrationRef": "why",
+      "component": "EquationStepReveal",
+      "props": {
+        "steps": [
+          { "label": "Formel Fläche", "expression": "A = Breite · Höhe" },
+          { "label": "Formel Umfang", "expression": "U = 2 · (Breite + Höhe)" }
+        ]
+      }
+    },
+    {
+      "beatId": "beat-example",
+      "narrationRef": "example",
+      "component": "EquationStepReveal",
+      "props": {
+        "steps": [
+          { "label": "Fläche", "expression": "6 · 4 = 24 cm²" },
+          { "label": "Umfang", "expression": "2 · (6 + 4) = 20 cm" }
+        ]
+      }
+    },
+    {
+      "beatId": "beat-reallife",
+      "narrationRef": "reallife",
+      "component": "EquationStepReveal",
+      "props": {
+        "steps": [
+          { "label": "Zimmer", "expression": "4 m breit, 5 m lang" },
+          { "label": "Fläche", "expression": "4 · 5 = 20 m²" }
+        ]
+      }
+    },
+    {
+      "beatId": "beat-recap",
+      "narrationRef": "recap",
+      "component": "AreaGridViz",
+      "props": { "width": 4, "height": 4, "unit": "cm", "highlightArea": true }
+    }
+  ],
+  "videoUrl": null
+}

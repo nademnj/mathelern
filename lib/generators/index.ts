@@ -32,6 +32,21 @@ import { generate as contingencyTableGenerator } from "./contingencyTableGenerat
 import { generate as laplaceProbabilityGenerator } from "./laplaceProbabilityGenerator";
 import { generate as conditionalProbabilityGenerator } from "./conditionalProbabilityGenerator";
 import { generate as countingPrincipleGenerator } from "./countingPrincipleGenerator";
+import { generate as integerOperationsGenerator } from "./integerOperationsGenerator";
+import { generate as divisibilityGenerator } from "./divisibilityGenerator";
+import { generate as angleBasicsGenerator } from "./angleBasicsGenerator";
+import { generate as solidPropertiesGenerator } from "./solidPropertiesGenerator";
+import { generate as unitConversionGenerator } from "./unitConversionGenerator";
+import { generate as dataReadingGenerator } from "./dataReadingGenerator";
+import { generate as basicArithmeticGenerator } from "./basicArithmeticGenerator";
+import { generate as fractionArithmeticGenerator } from "./fractionArithmeticGenerator";
+import { generate as rationalNumberGenerator } from "./rationalNumberGenerator";
+import { generate as percentageGenerator } from "./percentageGenerator";
+import { generate as reflectionSymmetryGenerator } from "./reflectionSymmetryGenerator";
+import { generate as polygonAreaGenerator } from "./polygonAreaGenerator";
+import { generate as cuboidSurfaceVolumeGenerator } from "./cuboidSurfaceVolumeGenerator";
+import { generate as termEvaluationGenerator } from "./termEvaluationGenerator";
+import { generate as directProportionGenerator } from "./directProportionGenerator";
 import type { GeneratorFn } from "./types";
 
 export const generatorRegistry: Record<string, GeneratorFn> = {
@@ -69,6 +84,21 @@ export const generatorRegistry: Record<string, GeneratorFn> = {
   laplaceProbabilityGenerator,
   conditionalProbabilityGenerator,
   countingPrincipleGenerator,
+  integerOperationsGenerator,
+  divisibilityGenerator,
+  angleBasicsGenerator,
+  solidPropertiesGenerator,
+  unitConversionGenerator,
+  dataReadingGenerator,
+  basicArithmeticGenerator,
+  fractionArithmeticGenerator,
+  rationalNumberGenerator,
+  percentageGenerator,
+  reflectionSymmetryGenerator,
+  polygonAreaGenerator,
+  cuboidSurfaceVolumeGenerator,
+  termEvaluationGenerator,
+  directProportionGenerator,
 };
 
 export type { GeneratedExercise, GeneratedAnswer, SolutionStep, GeneratorArgs } from "./types";

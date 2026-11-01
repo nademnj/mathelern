@@ -1,0 +1,155 @@
+{
+  "slug": "rs6-quader-wuerfel-ep1",
+  "topicSlug": "rs6-quader-wuerfel",
+  "topicRef": "M6 LB3/LB4",
+  "title": "Oberfläche und Volumen von Quader und Würfel",
+  "episodeNumber": 1,
+  "estimatedMinutes": 4,
+  "script": [
+    {
+      "beatId": "intro_history",
+      "narration": "Schon vor über 3800 Jahren berechneten babylonische Ingenieure Rauminhalte – eine Tontafel aus etwa 1800 vor Christus zeigt, wie man ausrechnet, wie viel Getreide ein Lagerraum fasst. Auch die alten Ägypter mussten für ihre Pyramiden genau wissen, wie viele Steine sie brauchten."
+    },
+    {
+      "beatId": "intro_why",
+      "narration": "Oberfläche und Volumen beantworten zwei verschiedene Fragen: Die Oberfläche sagt dir, wie viel Material die Außenseite bedeckt – wie Geschenkpapier. Das Volumen sagt dir, wie viel Platz im Inneren ist – wie Wasser, das etwas füllt. Das wird leicht verwechselt."
+    },
+    {
+      "beatId": "intro_realworld",
+      "narration": "Du brauchst das ständig: wie viel Geschenkpapier ein Karton braucht (Oberfläche), wie viel Wasser ein Aquarium fasst (Volumen), wie viele Kisten in einen Container passen, oder wie viel Farbe die Wände eines Zimmers brauchen."
+    },
+    {
+      "beatId": "intro",
+      "narration": "Ein Würfel hat 6 gleich große quadratische Seiten. Bei einer Kantenlänge von 5 Zentimetern hat jede Seite eine Fläche von 5 mal 5, also 25 Quadratzentimetern. Die Oberfläche ist 6 mal 25, also 150 Quadratzentimeter."
+    },
+    {
+      "beatId": "why_volume",
+      "narration": "Das Volumen eines Würfels mit Kantenlänge 5 Zentimetern ist 5 mal 5 mal 5, also 125 Kubikzentimeter – das Volumen misst in Kubikeinheiten, nicht in Quadrateinheiten wie die Oberfläche."
+    },
+    {
+      "beatId": "breakdown_surface",
+      "narration": "Ein Quader hat die Kanten 4, 3 und 2 Zentimeter. Für die Oberfläche berechnest du die drei verschiedenen Seitenflächen und verdoppelst die Summe, weil jede Fläche zweimal vorkommt."
+    },
+    {
+      "beatId": "breakdown_volume",
+      "narration": "Für das Volumen desselben Quaders multiplizierst du einfach alle drei Kantenlängen miteinander."
+    },
+    {
+      "beatId": "reallife",
+      "narration": "Ein Aquarium ist 50 Zentimeter lang, 30 Zentimeter breit und 30 Zentimeter hoch. Das Volumen sagt dir, wie viele Liter Wasser hineinpassen."
+    },
+    {
+      "beatId": "recap",
+      "narration": "Zusammengefasst: Oberfläche ist Material von außen (in cm²), Volumen ist Platz von innen (in cm³). Bei Quader und Würfel gibt es für beides feste Formeln."
+    }
+  ],
+  "storyboard": [
+    {
+      "beatId": "beat-intro-history",
+      "narrationRef": "intro_history",
+      "component": "LessonIntroViz",
+      "props": {
+        "phase": "history",
+        "heading": "Woher kommt die Volumenberechnung?",
+        "body": "Babylonische Ingenieure berechneten vor fast 4000 Jahren das Fassungsvermögen von Getreidespeichern. Ägyptische Baumeister brauchten ähnliche Rechnungen für ihre Pyramiden."
+      }
+    },
+    {
+      "beatId": "beat-intro-why",
+      "narrationRef": "intro_why",
+      "component": "LessonIntroViz",
+      "props": {
+        "phase": "why",
+        "heading": "Warum lernen wir das?",
+        "body": "Oberfläche = wie viel Material von außen bedeckt (wie Geschenkpapier). Volumen = wie viel Platz im Inneren ist (wie Wasser). Zwei verschiedene Fragen, zwei verschiedene Formeln."
+      }
+    },
+    {
+      "beatId": "beat-intro-realworld",
+      "narrationRef": "intro_realworld",
+      "component": "LessonIntroViz",
+      "props": {
+        "phase": "realWorld",
+        "heading": "Wo begegnet dir das im echten Leben?",
+        "items": [
+          "🎁 Geschenkpapier für einen Karton (Oberfläche)",
+          "🐠 Wasser in einem Aquarium (Volumen)",
+          "📦 Kisten in einem Container stapeln",
+          "🎨 Wandfarbe für ein Zimmer berechnen"
+        ]
+      }
+    },
+    {
+      "beatId": "beat-intro",
+      "narrationRef": "intro",
+      "component": "EquationStepReveal",
+      "props": {
+        "steps": [
+          { "label": "Würfel, Kante 5 cm", "expression": "Eine Seite: 5 · 5 = 25 cm²" },
+          { "label": "6 Seiten", "expression": "O = 6 · 25" },
+          { "label": "Ergebnis", "expression": "O = 150 cm²" }
+        ]
+      }
+    },
+    {
+      "beatId": "beat-why-volume",
+      "narrationRef": "why_volume",
+      "component": "EquationStepReveal",
+      "props": {
+        "steps": [
+          { "label": "Würfel, Kante 5 cm", "expression": "V = 5 · 5 · 5" },
+          { "label": "Ergebnis", "expression": "V = 125 cm³" }
+        ]
+      }
+    },
+    {
+      "beatId": "beat-breakdown-surface",
+      "narrationRef": "breakdown_surface",
+      "component": "EquationStepReveal",
+      "props": {
+        "steps": [
+          { "label": "Gegeben", "expression": "a = 4 cm, b = 3 cm, c = 2 cm" },
+          { "label": "Formel", "expression": "O = 2 · (a·b + a·c + b·c)" },
+          { "label": "Einsetzen", "expression": "O = 2 · (4·3 + 4·2 + 3·2)" },
+          { "label": "Ergebnis", "expression": "O = 52 cm²" }
+        ]
+      }
+    },
+    {
+      "beatId": "beat-breakdown-volume",
+      "narrationRef": "breakdown_volume",
+      "component": "EquationStepReveal",
+      "props": {
+        "steps": [
+          { "label": "Formel", "expression": "V = a · b · c" },
+          { "label": "Einsetzen", "expression": "V = 4 · 3 · 2" },
+          { "label": "Ergebnis", "expression": "V = 24 cm³" }
+        ]
+      }
+    },
+    {
+      "beatId": "beat-reallife",
+      "narrationRef": "reallife",
+      "component": "EquationStepReveal",
+      "props": {
+        "steps": [
+          { "label": "Aquarium", "expression": "50 cm · 30 cm · 30 cm" },
+          { "label": "Formel", "expression": "V = a · b · c" },
+          { "label": "Ergebnis", "expression": "V = 45 000 cm³ = 45 Liter" }
+        ]
+      }
+    },
+    {
+      "beatId": "beat-recap",
+      "narrationRef": "recap",
+      "component": "EquationStepReveal",
+      "props": {
+        "steps": [
+          { "label": "Oberfläche (außen)", "expression": "O = 2 · (a·b + a·c + b·c)" },
+          { "label": "Volumen (innen)", "expression": "V = a · b · c" }
+        ]
+      }
+    }
+  ],
+  "videoUrl": null
+}

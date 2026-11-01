@@ -1,0 +1,156 @@
+{
+  "slug": "rs6-proportionalitaet-ep1",
+  "topicSlug": "rs6-proportionalitaet",
+  "topicRef": "M6 LB6",
+  "title": "Direkte Proportionalität und Dreisatz",
+  "episodeNumber": 1,
+  "estimatedMinutes": 4,
+  "script": [
+    {
+      "beatId": "intro_history",
+      "narration": "Der „Dreisatz“ war über Jahrhunderte DIE zentrale Rechenmethode an europäischen Handelsschulen – schon im Mittelalter mussten Kaufleute ständig Preise und Mengen umrechnen. Die Methode war so wichtig für den Handel, dass alte Rechenbücher sie wörtlich „die goldene Regel“ nannten."
+    },
+    {
+      "beatId": "intro_why",
+      "narration": "Wenn eine Größe direkt proportional zu einer anderen wächst, wächst sie um genau denselben Faktor: doppelte Menge, doppelter Preis. Der Dreisatz ist eine zuverlässige Methode mit zwei Schritten, die bei solchen Aufgaben immer funktioniert."
+    },
+    {
+      "beatId": "intro_realworld",
+      "narration": "Du brauchst direkte Proportionalität beim Geldumtausch im Urlaub, beim Hochrechnen eines Rezepts für mehr Gäste, beim Berechnen der Benzinkosten für eine längere Fahrt, oder beim Vergleichen von Preisen pro Kilogramm im Supermarkt."
+    },
+    {
+      "beatId": "intro",
+      "narration": "Zwei Größen sind direkt proportional, wenn das Verhältnis zwischen ihnen immer gleich bleibt: Kaufst du doppelt so viel, zahlst du doppelt so viel. Kaufst du halb so viel, zahlst du halb so viel."
+    },
+    {
+      "beatId": "why_dreisatz",
+      "narration": "Der Dreisatz hat zwei Schritte: Zuerst rechnest du auf EINE Einheit herunter – zum Beispiel den Preis für 1 Kilogramm. Dann rechnest du auf die gefragte Menge hoch."
+    },
+    {
+      "beatId": "breakdown",
+      "narration": "4 Kilogramm Äpfel kosten 10 Euro. Wie viel kosten 7 Kilogramm? Rechne zuerst auf 1 Kilogramm herunter, dann auf 7 Kilogramm hoch."
+    },
+    {
+      "beatId": "linear_curve",
+      "narration": "Trägst du den Preis über die Menge in einem Diagramm auf, ergibt direkte Proportionalität immer eine gerade Linie durch den Nullpunkt – je mehr Kilogramm, desto mehr Euro, in einer geraden Linie."
+    },
+    {
+      "beatId": "reallife",
+      "narration": "Im Supermarkt kosten 3 Liter Orangensaft 4,50 Euro. Mit dem Dreisatz findest du heraus, wie viel 1 Liter oder 5 Liter kosten würden – praktisch zum Preisvergleich."
+    },
+    {
+      "beatId": "recap",
+      "narration": "Zusammengefasst: Bei direkter Proportionalität wächst alles im gleichen Verhältnis. Der Dreisatz rechnet zuerst auf 1 Einheit herunter und dann auf die gesuchte Menge hoch."
+    }
+  ],
+  "storyboard": [
+    {
+      "beatId": "beat-intro-history",
+      "narrationRef": "intro_history",
+      "component": "LessonIntroViz",
+      "props": {
+        "phase": "history",
+        "heading": "Woher kommt der Dreisatz?",
+        "body": "Der Dreisatz war jahrhundertelang DIE Rechenmethode an europäischen Handelsschulen – alte Rechenbücher nannten ihn wegen seiner Bedeutung für den Handel „die goldene Regel“."
+      }
+    },
+    {
+      "beatId": "beat-intro-why",
+      "narrationRef": "intro_why",
+      "component": "LessonIntroViz",
+      "props": {
+        "phase": "why",
+        "heading": "Warum lernen wir das?",
+        "body": "Wächst eine Größe im gleichen Verhältnis wie eine andere, nennt man das direkt proportional. Der Dreisatz ist eine zuverlässige Zwei-Schritte-Methode, die dabei immer funktioniert."
+      }
+    },
+    {
+      "beatId": "beat-intro-realworld",
+      "narrationRef": "intro_realworld",
+      "component": "LessonIntroViz",
+      "props": {
+        "phase": "realWorld",
+        "heading": "Wo begegnet dir das im echten Leben?",
+        "items": [
+          "💱 Geld im Urlaub umtauschen",
+          "🍳 Ein Rezept für mehr Gäste hochrechnen",
+          "⛽ Benzinkosten für eine längere Fahrt berechnen",
+          "🛒 Preise pro Kilogramm im Supermarkt vergleichen"
+        ]
+      }
+    },
+    {
+      "beatId": "beat-intro",
+      "narrationRef": "intro",
+      "component": "EquationStepReveal",
+      "props": {
+        "steps": [
+          { "label": "Regel", "expression": "Doppelte Menge → doppelter Preis" },
+          { "label": "Regel", "expression": "Halbe Menge → halber Preis" }
+        ]
+      }
+    },
+    {
+      "beatId": "beat-why-dreisatz",
+      "narrationRef": "why_dreisatz",
+      "component": "EquationStepReveal",
+      "props": {
+        "steps": [
+          { "label": "Schritt 1", "expression": "Herunterrechnen auf 1 Einheit" },
+          { "label": "Schritt 2", "expression": "Hochrechnen auf die gesuchte Menge" }
+        ]
+      }
+    },
+    {
+      "beatId": "beat-breakdown",
+      "narrationRef": "breakdown",
+      "component": "EquationStepReveal",
+      "props": {
+        "steps": [
+          { "label": "Gegeben", "expression": "4 kg = 10 €" },
+          { "label": "Schritt 1: auf 1 kg", "expression": "10 € : 4 = 2,50 €" },
+          { "label": "Schritt 2: auf 7 kg", "expression": "2,50 € · 7" },
+          { "label": "Ergebnis", "expression": "17,50 €" }
+        ]
+      }
+    },
+    {
+      "beatId": "beat-linear-curve",
+      "narrationRef": "linear_curve",
+      "component": "AnimatedCurveViz",
+      "props": {
+        "curveType": "linear",
+        "m": 2.5,
+        "t": 0,
+        "xMin": 0,
+        "xMax": 8,
+        "mover": "🛒",
+        "label": "Preis = 2,50 € pro Kilogramm · Menge – eine Gerade durch den Nullpunkt"
+      }
+    },
+    {
+      "beatId": "beat-reallife",
+      "narrationRef": "reallife",
+      "component": "EquationStepReveal",
+      "props": {
+        "steps": [
+          { "label": "Gegeben", "expression": "3 l = 4,50 €" },
+          { "label": "Schritt 1: auf 1 l", "expression": "4,50 € : 3 = 1,50 €" },
+          { "label": "Schritt 2: auf 5 l", "expression": "1,50 € · 5" },
+          { "label": "Ergebnis", "expression": "7,50 €" }
+        ]
+      }
+    },
+    {
+      "beatId": "beat-recap",
+      "narrationRef": "recap",
+      "component": "EquationStepReveal",
+      "props": {
+        "steps": [
+          { "label": "Merksatz", "expression": "Erst auf 1 Einheit, dann auf die gesuchte Menge" }
+        ]
+      }
+    }
+  ],
+  "videoUrl": null
+}

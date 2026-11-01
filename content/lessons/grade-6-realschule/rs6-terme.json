@@ -1,0 +1,138 @@
+{
+  "slug": "rs6-terme-ep1",
+  "topicSlug": "rs6-terme",
+  "topicRef": "M6 LB5",
+  "title": "Terme mit Variablen",
+  "episodeNumber": 1,
+  "estimatedMinutes": 4,
+  "script": [
+    {
+      "beatId": "intro_history",
+      "narration": "Das Wort „Algebra“ stammt aus dem Titel eines Buches, das um das Jahr 820 in Bagdad geschrieben wurde: „Al-Dschabr wal-Muqabala“ von Al-Chwarizmi. Er war einer der Ersten, der mit unbekannten Größen und allgemeinen Regeln rechnete – statt jedes Zahlenrätsel einzeln von Null an zu lösen."
+    },
+    {
+      "beatId": "intro_why",
+      "narration": "Ein Term mit einer Variablen, wie 3x plus 5, ist eine kurze, wiederverwendbare Formel. Statt jede Rechnung neu aufzuschreiben, schreibst du das Muster einmal auf und setzt dann jede beliebige Zahl für x ein."
+    },
+    {
+      "beatId": "intro_realworld",
+      "narration": "Terme stecken überall: in der Kostenformel eines Handyvertrags (Grundgebühr plus Preis pro Minute mal Minuten), in einem Rezept, das für mehr Gäste hochgerechnet wird, oder in einer Tabellenkalkulation, die sich automatisch neu berechnet, wenn du eine Zahl änderst."
+    },
+    {
+      "beatId": "intro",
+      "narration": "Ein Term wie 4x plus 7 besteht aus einer Variablen x, einem Koeffizienten (hier 4) und einer Zahl (hier 7). Um ihn auszuwerten, setzt du für x eine konkrete Zahl ein."
+    },
+    {
+      "beatId": "why_pattern",
+      "narration": "Setzt du für x die Zahl 3 ein, wird aus 4x plus 7 die Rechnung 4 mal 3 plus 7. Du rechnest zuerst die Multiplikation, dann die Addition – genau wie bei den Rechengesetzen, die du schon kennst."
+    },
+    {
+      "beatId": "breakdown",
+      "narration": "Berechne den Wert des Terms 4x plus 7 für x gleich 3. Setze x ein und rechne Schritt für Schritt."
+    },
+    {
+      "beatId": "reallife",
+      "narration": "Ein Handyvertrag kostet 10 Euro Grundgebühr plus 0,20 Euro pro Minute. Der Term dafür ist 10 plus 0,2 mal m, wobei m die Anzahl der Minuten ist. Bei 50 Minuten setzt du m gleich 50 ein."
+    },
+    {
+      "beatId": "recap",
+      "narration": "Zusammengefasst: Ein Term ist eine Formel mit einer Variablen. Um ihn auszuwerten, ersetzt du die Variable durch eine Zahl und rechnest die Punkt-vor-Strich-Regel wie gewohnt."
+    }
+  ],
+  "storyboard": [
+    {
+      "beatId": "beat-intro-history",
+      "narrationRef": "intro_history",
+      "component": "LessonIntroViz",
+      "props": {
+        "phase": "history",
+        "heading": "Woher kommt die Algebra?",
+        "body": "Das Wort „Algebra“ stammt aus einem Buchtitel von Al-Chwarizmi (Bagdad, um 820). Er rechnete erstmals systematisch mit unbekannten Größen statt nur mit einzelnen Zahlenbeispielen."
+      }
+    },
+    {
+      "beatId": "beat-intro-why",
+      "narrationRef": "intro_why",
+      "component": "LessonIntroViz",
+      "props": {
+        "phase": "why",
+        "heading": "Warum lernen wir das?",
+        "body": "Ein Term mit Variable ist eine wiederverwendbare Formel. Du schreibst das Muster einmal auf und setzt dann jede beliebige Zahl ein, statt immer neu zu rechnen."
+      }
+    },
+    {
+      "beatId": "beat-intro-realworld",
+      "narrationRef": "intro_realworld",
+      "component": "LessonIntroViz",
+      "props": {
+        "phase": "realWorld",
+        "heading": "Wo begegnet dir das im echten Leben?",
+        "items": [
+          "📱 Handyvertrag: Grundgebühr + Preis pro Minute",
+          "🍳 Ein Rezept für mehr oder weniger Gäste",
+          "📊 Eine Tabellenkalkulation, die sich automatisch neu berechnet",
+          "💰 Taschengeld, das jede Woche um einen festen Betrag wächst"
+        ]
+      }
+    },
+    {
+      "beatId": "beat-intro",
+      "narrationRef": "intro",
+      "component": "EquationStepReveal",
+      "props": {
+        "steps": [
+          { "label": "Term", "expression": "4x + 7" },
+          { "label": "Koeffizient", "expression": "4" },
+          { "label": "Variable", "expression": "x" }
+        ]
+      }
+    },
+    {
+      "beatId": "beat-why-pattern",
+      "narrationRef": "why_pattern",
+      "component": "EquationStepReveal",
+      "props": {
+        "steps": [
+          { "label": "x = 3 einsetzen", "expression": "4 · 3 + 7" },
+          { "label": "Punkt vor Strich", "expression": "12 + 7" },
+          { "label": "Ergebnis", "expression": "19" }
+        ]
+      }
+    },
+    {
+      "beatId": "beat-breakdown",
+      "narrationRef": "breakdown",
+      "component": "EquationStepReveal",
+      "props": {
+        "steps": [
+          { "label": "Term", "expression": "4x + 7" },
+          { "label": "x einsetzen", "expression": "4 · 3 + 7" },
+          { "label": "Ergebnis", "expression": "19" }
+        ]
+      }
+    },
+    {
+      "beatId": "beat-reallife",
+      "narrationRef": "reallife",
+      "component": "EquationStepReveal",
+      "props": {
+        "steps": [
+          { "label": "Term", "expression": "10 + 0,2 · m" },
+          { "label": "m = 50 einsetzen", "expression": "10 + 0,2 · 50" },
+          { "label": "Ergebnis", "expression": "20 €" }
+        ]
+      }
+    },
+    {
+      "beatId": "beat-recap",
+      "narrationRef": "recap",
+      "component": "EquationStepReveal",
+      "props": {
+        "steps": [
+          { "label": "Merksatz", "expression": "Variable durch Zahl ersetzen, dann Punkt vor Strich rechnen" }
+        ]
+      }
+    }
+  ],
+  "videoUrl": null
+}

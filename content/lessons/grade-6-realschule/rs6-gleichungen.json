@@ -1,0 +1,138 @@
+{
+  "slug": "rs6-gleichungen-ep1",
+  "topicSlug": "rs6-gleichungen",
+  "topicRef": "M6 LB5",
+  "title": "Gleichungen lösen",
+  "episodeNumber": 1,
+  "estimatedMinutes": 4,
+  "script": [
+    {
+      "beatId": "intro_history",
+      "narration": "Al-Chwarizmi – derselbe Mathematiker, nach dessen Buch die Algebra benannt ist – entwickelte im Bagdad des 9. Jahrhunderts auch die ersten systematischen Methoden, um Gleichungen zu lösen: beide Seiten im Gleichgewicht halten und Schritt für Schritt umformen. Das ist im Kern bis heute genau die Methode, die wir benutzen."
+    },
+    {
+      "beatId": "intro_why",
+      "narration": "Eine Gleichung ist der nahe Verwandte eines Terms: Statt für x eine Zahl einzusetzen, kennst du das Ergebnis schon und musst rückwärts arbeiten, um die unbekannte Zahl x zu finden – indem du auf beiden Seiten der Gleichung dieselbe Rechnung machst, damit sie im Gleichgewicht bleibt."
+    },
+    {
+      "beatId": "intro_realworld",
+      "narration": "Du löst Gleichungen ständig, ohne es zu merken: wie viele Wochen du sparen musst, bis dein Taschengeld für etwas reicht, wie viel ein einzelner Artikel kostet, wenn du nur den Gesamtpreis kennst, oder beim Lösen eines Zahlenrätsels."
+    },
+    {
+      "beatId": "intro",
+      "narration": "Stell dir eine Gleichung wie eine Waage vor: Beide Seiten müssen immer gleich schwer bleiben. Was du auf der einen Seite tust, musst du auf der anderen Seite genauso tun."
+    },
+    {
+      "beatId": "why_balance",
+      "narration": "Um x in 3x plus 4 gleich 19 herauszufinden, ziehst du zuerst auf beiden Seiten 4 ab. Dann steht nur noch 3x auf der linken Seite – und du teilst beide Seiten durch 3."
+    },
+    {
+      "beatId": "breakdown",
+      "narration": "Löse die Gleichung 3x plus 4 gleich 19 nach x auf. Gehe die Schritte der Reihe nach durch."
+    },
+    {
+      "beatId": "reallife",
+      "narration": "Du möchtest ein Spiel für 45 Euro kaufen und hast schon 15 Euro gespart. Jede Woche bekommst du 6 Euro Taschengeld. Die Gleichung 15 plus 6 mal w gleich 45 sagt dir, wie viele Wochen w du noch sparen musst."
+    },
+    {
+      "beatId": "recap",
+      "narration": "Zusammengefasst: Eine Gleichung löst du, indem du auf beiden Seiten dieselben Rechenschritte machst, bis nur noch x allein auf einer Seite steht – wie eine Waage im Gleichgewicht."
+    }
+  ],
+  "storyboard": [
+    {
+      "beatId": "beat-intro-history",
+      "narrationRef": "intro_history",
+      "component": "LessonIntroViz",
+      "props": {
+        "phase": "history",
+        "heading": "Woher kommt das Gleichungslösen?",
+        "body": "Al-Chwarizmi entwickelte im Bagdad des 9. Jahrhunderts die ersten systematischen Methoden, Gleichungen durch Umformen im Gleichgewicht zu lösen – im Kern dieselbe Methode wie heute."
+      }
+    },
+    {
+      "beatId": "beat-intro-why",
+      "narrationRef": "intro_why",
+      "component": "LessonIntroViz",
+      "props": {
+        "phase": "why",
+        "heading": "Warum lernen wir das?",
+        "body": "Bei einer Gleichung kennst du das Ergebnis schon und suchst die unbekannte Zahl x – indem du beide Seiten gleich behandelst, damit die Gleichung im Gleichgewicht bleibt."
+      }
+    },
+    {
+      "beatId": "beat-intro-realworld",
+      "narrationRef": "intro_realworld",
+      "component": "LessonIntroViz",
+      "props": {
+        "phase": "realWorld",
+        "heading": "Wo begegnet dir das im echten Leben?",
+        "items": [
+          "💰 Wie viele Wochen sparen, bis das Taschengeld reicht",
+          "🛒 Den Preis eines einzelnen Artikels aus dem Gesamtpreis finden",
+          "🧩 Ein Zahlenrätsel lösen",
+          "⏱️ Berechnen, wann zwei Dinge gleich groß werden"
+        ]
+      }
+    },
+    {
+      "beatId": "beat-intro",
+      "narrationRef": "intro",
+      "component": "EquationStepReveal",
+      "props": {
+        "steps": [
+          { "label": "Regel", "expression": "Beide Seiten bleiben immer im Gleichgewicht" }
+        ]
+      }
+    },
+    {
+      "beatId": "beat-why-balance",
+      "narrationRef": "why_balance",
+      "component": "EquationStepReveal",
+      "props": {
+        "steps": [
+          { "label": "Gleichung", "expression": "3x + 4 = 19" },
+          { "label": "Beide Seiten - 4", "expression": "3x = 15" },
+          { "label": "Beide Seiten : 3", "expression": "x = 5" }
+        ]
+      }
+    },
+    {
+      "beatId": "beat-breakdown",
+      "narrationRef": "breakdown",
+      "component": "EquationStepReveal",
+      "props": {
+        "steps": [
+          { "label": "Gleichung", "expression": "3x + 4 = 19" },
+          { "label": "Subtrahiere 4", "expression": "3x = 15" },
+          { "label": "Teile durch 3", "expression": "x = 15 / 3" },
+          { "label": "Ergebnis", "expression": "x = 5" }
+        ]
+      }
+    },
+    {
+      "beatId": "beat-reallife",
+      "narrationRef": "reallife",
+      "component": "EquationStepReveal",
+      "props": {
+        "steps": [
+          { "label": "Gleichung", "expression": "15 + 6w = 45" },
+          { "label": "Subtrahiere 15", "expression": "6w = 30" },
+          { "label": "Teile durch 6", "expression": "w = 5" },
+          { "label": "Ergebnis", "expression": "5 Wochen" }
+        ]
+      }
+    },
+    {
+      "beatId": "beat-recap",
+      "narrationRef": "recap",
+      "component": "EquationStepReveal",
+      "props": {
+        "steps": [
+          { "label": "Merksatz", "expression": "Gleiche Schritte auf beiden Seiten, bis x allein steht" }
+        ]
+      }
+    }
+  ],
+  "videoUrl": null
+}

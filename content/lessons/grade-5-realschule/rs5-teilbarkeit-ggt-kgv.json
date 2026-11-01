@@ -1,0 +1,138 @@
+{
+  "slug": "rs5-teilbarkeit-ggt-kgv-ep1",
+  "topicSlug": "rs5-teilbarkeit-ggt-kgv",
+  "topicRef": "M5 1.3",
+  "title": "Teilbarkeit, Primfaktoren, ggT und kgV",
+  "episodeNumber": 1,
+  "estimatedMinutes": 4,
+  "script": [
+    {
+      "beatId": "intro_history",
+      "narration": "Das Verfahren, mit dem wir den größten gemeinsamen Teiler finden, stammt vom griechischen Mathematiker Euklid. Er schrieb es vor etwa 2300 Jahren in seinem Buch „Elemente“ auf – und wir benutzen genau diese Methode bis heute."
+    },
+    {
+      "beatId": "intro_why",
+      "narration": "Der ggT hilft dir, Brüche so weit wie möglich zu kürzen. Das kgV sagt dir, wann sich zwei sich wiederholende Dinge wieder treffen – zum Beispiel zwei Busse, die beide irgendwann an derselben Haltestelle ankommen."
+    },
+    {
+      "beatId": "intro_realworld",
+      "narration": "Mit dem ggT teilst du eine Tafel Schokolade gerecht unter verschieden großen Gruppen auf. Mit dem kgV findest du heraus, wann sich zwei Freunde, die unterschiedlich oft vorbeikommen, wieder am selben Tag treffen."
+    },
+    {
+      "beatId": "intro",
+      "narration": "Ein Teiler einer Zahl ist eine Zahl, durch die sie sich ohne Rest teilen lässt. 12 lässt sich teilen durch 1, 2, 3, 4, 6 und 12 – das sind alle Teiler von 12."
+    },
+    {
+      "beatId": "ggt",
+      "narration": "Der größte gemeinsame Teiler (ggT) zweier Zahlen ist die größte Zahl, die beide ohne Rest teilt. Bei 12 und 18: Teiler von 12 sind 1, 2, 3, 4, 6, 12. Teiler von 18 sind 1, 2, 3, 6, 9, 18. Der größte gemeinsame ist 6."
+    },
+    {
+      "beatId": "kgv",
+      "narration": "Das kleinste gemeinsame Vielfache (kgV) ist die kleinste Zahl, die ein Vielfaches von beiden ist. Für 4 und 6: Du kannst es schnell berechnen mit kgV = (a · b) : ggT(a,b), also (4 · 6) : 2 = 12."
+    },
+    {
+      "beatId": "reallife",
+      "narration": "Ein Freund besucht dich alle 4 Tage, ein anderer alle 6 Tage. Beide waren heute da. Das kgV von 4 und 6 ist 12 – in 12 Tagen kommen also wieder beide am selben Tag vorbei!"
+    },
+    {
+      "beatId": "recap",
+      "narration": "Zusammengefasst: Der ggT ist der größte gemeinsame Teiler – nützlich zum Kürzen. Das kgV ist das kleinste gemeinsame Vielfache – nützlich, um herauszufinden, wann sich Wiederholungen treffen."
+    }
+  ],
+  "storyboard": [
+    {
+      "beatId": "beat-intro-history",
+      "narrationRef": "intro_history",
+      "component": "LessonIntroViz",
+      "props": {
+        "phase": "history",
+        "heading": "Woher kommt das ggT-Verfahren?",
+        "body": "Der griechische Mathematiker Euklid beschrieb es vor rund 2300 Jahren in seinem Buch „Elemente“ – eines der ältesten bis heute genutzten Rechenverfahren überhaupt."
+      }
+    },
+    {
+      "beatId": "beat-intro-why",
+      "narrationRef": "intro_why",
+      "component": "LessonIntroViz",
+      "props": {
+        "phase": "why",
+        "heading": "Warum lernen wir das?",
+        "body": "Der ggT hilft beim Kürzen von Brüchen. Das kgV sagt dir, wann sich wiederkehrende Ereignisse wieder am selben Tag treffen."
+      }
+    },
+    {
+      "beatId": "beat-intro-realworld",
+      "narrationRef": "intro_realworld",
+      "component": "LessonIntroViz",
+      "props": {
+        "phase": "realWorld",
+        "heading": "Wo begegnet dir das im echten Leben?",
+        "items": [
+          "🍫 Eine Schokolade gerecht auf Gruppen verteilen (ggT)",
+          "🚌 Zwei Buslinien treffen sich wieder (kgV)",
+          "👫 Zwei Freunde besuchen dich wieder am selben Tag (kgV)",
+          "🍕 Pizzastücke gleichmäßig an Freunde verteilen (ggT)"
+        ]
+      }
+    },
+    {
+      "beatId": "beat-intro",
+      "narrationRef": "intro",
+      "component": "EquationStepReveal",
+      "props": {
+        "steps": [
+          { "label": "Zahl", "expression": "12" },
+          { "label": "Teiler von 12", "expression": "1, 2, 3, 4, 6, 12" }
+        ]
+      }
+    },
+    {
+      "beatId": "beat-ggt",
+      "narrationRef": "ggt",
+      "component": "EquationStepReveal",
+      "props": {
+        "steps": [
+          { "label": "Teiler von 12", "expression": "1, 2, 3, 4, 6, 12" },
+          { "label": "Teiler von 18", "expression": "1, 2, 3, 6, 9, 18" },
+          { "label": "ggT(12, 18)", "expression": "6" }
+        ]
+      }
+    },
+    {
+      "beatId": "beat-kgv",
+      "narrationRef": "kgv",
+      "component": "EquationStepReveal",
+      "props": {
+        "steps": [
+          { "label": "Formel", "expression": "kgV(a,b) = (a · b) / ggT(a,b)" },
+          { "label": "Einsetzen", "expression": "(4 · 6) / 2" },
+          { "label": "kgV(4, 6)", "expression": "12" }
+        ]
+      }
+    },
+    {
+      "beatId": "beat-reallife",
+      "narrationRef": "reallife",
+      "component": "EquationStepReveal",
+      "props": {
+        "steps": [
+          { "label": "Freund 1 kommt alle", "expression": "4 Tage" },
+          { "label": "Freund 2 kommt alle", "expression": "6 Tage" },
+          { "label": "Wieder zusammen in", "expression": "kgV(4,6) = 12 Tagen" }
+        ]
+      }
+    },
+    {
+      "beatId": "beat-recap",
+      "narrationRef": "recap",
+      "component": "EquationStepReveal",
+      "props": {
+        "steps": [
+          { "label": "ggT", "expression": "größter gemeinsamer Teiler → Kürzen" },
+          { "label": "kgV", "expression": "kleinstes gemeinsames Vielfaches → Treffen" }
+        ]
+      }
+    }
+  ],
+  "videoUrl": null
+}

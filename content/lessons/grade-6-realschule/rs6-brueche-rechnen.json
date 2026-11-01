@@ -1,0 +1,133 @@
+{
+  "slug": "rs6-brueche-rechnen-ep1",
+  "topicSlug": "rs6-brueche-rechnen",
+  "topicRef": "M6 LB1",
+  "title": "Rechnen mit Brüchen",
+  "episodeNumber": 1,
+  "estimatedMinutes": 4,
+  "script": [
+    {
+      "beatId": "intro_history",
+      "narration": "Der indische Mathematiker Brahmagupta schrieb im 7. Jahrhundert nach Christus als einer der Ersten klare, allgemeine Regeln auf, wie man Brüche addiert, subtrahiert, multipliziert und dividiert. Über arabische Gelehrte gelangten diese Regeln Jahrhunderte später nach Europa."
+    },
+    {
+      "beatId": "intro_why",
+      "narration": "Um Brüche zu addieren oder zu subtrahieren, brauchst du zuerst gleich große Teile – einen gemeinsamen Nenner. Beim Multiplizieren und Dividieren brauchst du das nicht. Zu wissen, welche Regel zu welcher Rechenart gehört, ist die wichtigste Fähigkeit hier."
+    },
+    {
+      "beatId": "intro_realworld",
+      "narration": "Du kombinierst ständig Bruchteile: eine Viertelstunde plus eine halbe Stunde warten, Zutaten aus zwei Rezepten zusammenrechnen, oder eine Pizza zwischen mehreren Gruppen aufteilen."
+    },
+    {
+      "beatId": "intro",
+      "narration": "Addiere 1/4 und 1/2. Die Nenner sind unterschiedlich – du kannst nicht einfach die Zähler addieren. Zuerst brauchst du gleich große Teile."
+    },
+    {
+      "beatId": "why",
+      "narration": "Erweitere 1/2 zu 2/4 – jetzt haben beide Brüche denselben Nenner. Erst dann darfst du die Zähler addieren: 1/4 + 2/4 = 3/4."
+    },
+    {
+      "beatId": "breakdown",
+      "narration": "Multiplizieren ist einfacher: Zähler mal Zähler, Nenner mal Nenner. Für 2/3 mal 3/4 rechnest du (2·3)/(3·4) = 6/12, gekürzt 1/2."
+    },
+    {
+      "beatId": "reallife",
+      "narration": "Ein Rezept für 4 Personen braucht 3/4 Liter Milch. Du kochst nur für 2 Personen – also die Hälfte: 3/4 mal 1/2 = 3/8 Liter."
+    },
+    {
+      "beatId": "recap",
+      "narration": "Zusammengefasst: Addieren/Subtrahieren brauchen einen gemeinsamen Nenner. Multiplizieren/Dividieren brauchen das nicht – dort rechnest du direkt mit Zähler und Nenner."
+    }
+  ],
+  "storyboard": [
+    {
+      "beatId": "beat-intro-history",
+      "narrationRef": "intro_history",
+      "component": "LessonIntroViz",
+      "props": {
+        "phase": "history",
+        "heading": "Woher kommen die Rechenregeln für Brüche?",
+        "body": "Brahmagupta schrieb im 7. Jahrhundert klare Regeln für das Rechnen mit Brüchen auf – über arabische Gelehrte kamen sie später nach Europa."
+      }
+    },
+    {
+      "beatId": "beat-intro-why",
+      "narrationRef": "intro_why",
+      "component": "LessonIntroViz",
+      "props": {
+        "phase": "why",
+        "heading": "Warum lernen wir das?",
+        "body": "Addieren/Subtrahieren brauchen einen gemeinsamen Nenner. Multiplizieren/Dividieren brauchen das nicht. Beide Regeln zu kennen ist der Kern dieses Themas."
+      }
+    },
+    {
+      "beatId": "beat-intro-realworld",
+      "narrationRef": "intro_realworld",
+      "component": "LessonIntroViz",
+      "props": {
+        "phase": "realWorld",
+        "heading": "Wo begegnet dir das im echten Leben?",
+        "items": [
+          "⏰ Zeitspannen zusammenrechnen",
+          "🥘 Zutaten aus zwei Rezepten kombinieren",
+          "🍕 Pizza unter Gruppen aufteilen",
+          "📏 Längen zusammenfügen"
+        ]
+      }
+    },
+    {
+      "beatId": "beat-intro",
+      "narrationRef": "intro",
+      "component": "FractionBarViz",
+      "props": { "numerator": 1, "denominator": 4, "compareNumerator": 1, "compareDenominator": 2, "label": "1/4 und 1/2 haben verschiedene Nenner" }
+    },
+    {
+      "beatId": "beat-why",
+      "narrationRef": "why",
+      "component": "EquationStepReveal",
+      "props": {
+        "steps": [
+          { "label": "Aufgabe", "expression": "1/4 + 1/2" },
+          { "label": "Erweitern", "expression": "1/2 = 2/4" },
+          { "label": "Zähler addieren", "expression": "1/4 + 2/4 = 3/4" }
+        ]
+      }
+    },
+    {
+      "beatId": "beat-breakdown",
+      "narrationRef": "breakdown",
+      "component": "EquationStepReveal",
+      "props": {
+        "steps": [
+          { "label": "Aufgabe", "expression": "2/3 · 3/4" },
+          { "label": "Zähler · Zähler, Nenner · Nenner", "expression": "(2 · 3) / (3 · 4)" },
+          { "label": "Ergebnis", "expression": "6/12 = 1/2" }
+        ]
+      }
+    },
+    {
+      "beatId": "beat-reallife",
+      "narrationRef": "reallife",
+      "component": "EquationStepReveal",
+      "props": {
+        "steps": [
+          { "label": "Für 4 Personen", "expression": "3/4 Liter Milch" },
+          { "label": "Für 2 Personen: halbieren", "expression": "3/4 · 1/2" },
+          { "label": "Ergebnis", "expression": "3/8 Liter" }
+        ]
+      }
+    },
+    {
+      "beatId": "beat-recap",
+      "narrationRef": "recap",
+      "component": "EquationStepReveal",
+      "props": {
+        "steps": [
+          { "label": "Addieren/Subtrahieren", "expression": "braucht gemeinsamen Nenner" },
+          { "label": "Multiplizieren/Dividieren", "expression": "braucht keinen gemeinsamen Nenner" }
+        ]
+      }
+    }
+  ],
+  "videoUrl": null
+}

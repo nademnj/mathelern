@@ -1,0 +1,155 @@
+{
+  "slug": "rs6-flaeche-vielecke-ep1",
+  "topicSlug": "rs6-flaeche-vielecke",
+  "topicRef": "M6 LB3",
+  "title": "Flächeninhalt von Dreieck und Parallelogramm",
+  "episodeNumber": 1,
+  "estimatedMinutes": 4,
+  "script": [
+    {
+      "beatId": "intro_history",
+      "narration": "Die alten griechischen Geometer kannten einen cleveren Trick, den wir heute noch benutzen: Sie haben ein Dreieck oder Parallelogramm einfach in Stücke geschnitten und so umgelegt, dass daraus ein Rechteck wurde. So war sofort klar, wie groß die Fläche ist – ganz ohne Formel auswendig zu lernen."
+    },
+    {
+      "beatId": "intro_why",
+      "narration": "Wenn du weißt, dass ein Rechteck die Fläche Grundseite mal Höhe hat, kannst du daraus die Formeln für Dreieck und Parallelogramm einfach ableiten – du musst nicht drei unabhängige Regeln auswendig lernen."
+    },
+    {
+      "beatId": "intro_realworld",
+      "narration": "Diese Formeln brauchst du überall, wo Flächen nicht rechteckig sind: beim Dachgiebel eines Hauses, bei einem schräg geparkten Auto, bei einem Drachen oder Segel, oder bei einem Grundstück mit schrägen Grenzen."
+    },
+    {
+      "beatId": "intro",
+      "narration": "Ein Dreieck ist genau die Hälfte eines Parallelogramms mit gleicher Grundseite und gleicher Höhe. Deshalb lautet die Formel: Flächeninhalt gleich Grundseite mal Höhe, geteilt durch 2."
+    },
+    {
+      "beatId": "why_parallelogram",
+      "narration": "Ein Parallelogramm kannst du dir gedanklich zu einem Rechteck umklappen, ohne dass sich die Fläche ändert. Deshalb brauchst du bei ihm kein Teilen durch 2: Flächeninhalt gleich Grundseite mal Höhe."
+    },
+    {
+      "beatId": "breakdown_triangle",
+      "narration": "Ein Dreieck hat die Grundseite 10 Zentimeter und die Höhe 4 Zentimeter. Setze beide Werte in die Formel ein und teile durch 2."
+    },
+    {
+      "beatId": "breakdown_parallelogram",
+      "narration": "Ein Parallelogramm hat die Grundseite 6 Zentimeter und die Höhe 5 Zentimeter. Hier multiplizierst du einfach, ohne zu teilen."
+    },
+    {
+      "beatId": "reallife",
+      "narration": "Ein Dachgiebel hat die Form eines Dreiecks mit 6 Metern Grundseite und 2,5 Metern Höhe. So berechnest du, wie viele Ziegel oder wie viel Farbe du brauchst."
+    },
+    {
+      "beatId": "recap",
+      "narration": "Zusammengefasst: Beim Dreieck rechnest du Grundseite mal Höhe geteilt durch 2, beim Parallelogramm nur Grundseite mal Höhe. Beide Formeln kommen direkt von der Rechteckfläche."
+    }
+  ],
+  "storyboard": [
+    {
+      "beatId": "beat-intro-history",
+      "narrationRef": "intro_history",
+      "component": "LessonIntroViz",
+      "props": {
+        "phase": "history",
+        "heading": "Woher kommen diese Formeln?",
+        "body": "Griechische Geometer haben Dreiecke und Parallelogramme in Stücke geschnitten und zu einem Rechteck umgelegt – so wurde die Flächenformel sichtbar statt nur auswendig gelernt."
+      }
+    },
+    {
+      "beatId": "beat-intro-why",
+      "narrationRef": "intro_why",
+      "component": "LessonIntroViz",
+      "props": {
+        "phase": "why",
+        "heading": "Warum lernen wir das?",
+        "body": "Aus der Rechteckfläche (Grundseite mal Höhe) lassen sich die Formeln für Dreieck und Parallelogramm ableiten – statt drei Regeln auswendig zu lernen, reicht eine Idee."
+      }
+    },
+    {
+      "beatId": "beat-intro-realworld",
+      "narrationRef": "intro_realworld",
+      "component": "LessonIntroViz",
+      "props": {
+        "phase": "realWorld",
+        "heading": "Wo begegnet dir das im echten Leben?",
+        "items": [
+          "🏠 Die Dreiecksfläche eines Dachgiebels",
+          "🚗 Eine schräg eingezeichnete Parkbucht",
+          "🪁 Die Stofffläche eines Drachens oder Segels",
+          "🗺️ Grundstücke mit schrägen Grenzen"
+        ]
+      }
+    },
+    {
+      "beatId": "beat-intro",
+      "narrationRef": "intro",
+      "component": "EquationStepReveal",
+      "props": {
+        "steps": [
+          { "label": "Idee", "expression": "Dreieck = halbes Parallelogramm" },
+          { "label": "Formel", "expression": "A = (g · h) / 2" }
+        ]
+      }
+    },
+    {
+      "beatId": "beat-why-parallelogram",
+      "narrationRef": "why_parallelogram",
+      "component": "EquationStepReveal",
+      "props": {
+        "steps": [
+          { "label": "Idee", "expression": "Parallelogramm umklappen zu Rechteck" },
+          { "label": "Formel", "expression": "A = g · h" }
+        ]
+      }
+    },
+    {
+      "beatId": "beat-breakdown-triangle",
+      "narrationRef": "breakdown_triangle",
+      "component": "EquationStepReveal",
+      "props": {
+        "steps": [
+          { "label": "Gegeben", "expression": "g = 10 cm, h = 4 cm" },
+          { "label": "Formel", "expression": "A = (g · h) / 2" },
+          { "label": "Einsetzen", "expression": "A = (10 · 4) / 2" },
+          { "label": "Ergebnis", "expression": "A = 20 cm²" }
+        ]
+      }
+    },
+    {
+      "beatId": "beat-breakdown-parallelogram",
+      "narrationRef": "breakdown_parallelogram",
+      "component": "EquationStepReveal",
+      "props": {
+        "steps": [
+          { "label": "Gegeben", "expression": "g = 6 cm, h = 5 cm" },
+          { "label": "Formel", "expression": "A = g · h" },
+          { "label": "Einsetzen", "expression": "A = 6 · 5" },
+          { "label": "Ergebnis", "expression": "A = 30 cm²" }
+        ]
+      }
+    },
+    {
+      "beatId": "beat-reallife",
+      "narrationRef": "reallife",
+      "component": "EquationStepReveal",
+      "props": {
+        "steps": [
+          { "label": "Dachgiebel", "expression": "g = 6 m, h = 2,5 m" },
+          { "label": "Formel", "expression": "A = (g · h) / 2" },
+          { "label": "Ergebnis", "expression": "A = 7,5 m²" }
+        ]
+      }
+    },
+    {
+      "beatId": "beat-recap",
+      "narrationRef": "recap",
+      "component": "EquationStepReveal",
+      "props": {
+        "steps": [
+          { "label": "Dreieck", "expression": "A = (g · h) / 2" },
+          { "label": "Parallelogramm", "expression": "A = g · h" }
+        ]
+      }
+    }
+  ],
+  "videoUrl": null
+}

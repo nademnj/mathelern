@@ -1,0 +1,154 @@
+{
+  "slug": "rs5-grundrechenarten-ep1",
+  "topicSlug": "rs5-grundrechenarten",
+  "topicRef": "M5 1.2",
+  "title": "Grundrechenarten & Rechengesetze",
+  "episodeNumber": 1,
+  "estimatedMinutes": 4,
+  "script": [
+    {
+      "beatId": "intro_history",
+      "narration": "Die Regel „Punkt vor Strich“ war nicht immer selbstverständlich. Erst als die Mathematik im 19. Jahrhundert mit Buchstaben und Formeln (Algebra) arbeitete, legten Mathematiker feste Regeln fest – damit zwei Menschen beim Lesen derselben Aufgabe nicht auf zwei verschiedene Ergebnisse kommen."
+    },
+    {
+      "beatId": "intro_why",
+      "narration": "Ohne eine feste Regel könnte „3 + 4 · 5“ entweder 35 oder 23 bedeuten – je nachdem, wer rechnet. Mit „Punkt vor Strich“ bekommt jeder Mensch auf der Welt dasselbe Ergebnis."
+    },
+    {
+      "beatId": "intro_realworld",
+      "narration": "Du nutzt das ständig: beim Berechnen einer Einkaufsrechnung mit mehreren Artikeln, beim Aufteilen einer Restaurantrechnung mit Trinkgeld, oder beim Hochrechnen eines Rezepts für mehr Gäste."
+    },
+    {
+      "beatId": "intro",
+      "narration": "Stell dir vor, du kaufst 3 Hefte zu je 2 Euro und bekommst noch 4 Euro Taschengeld dazu. Schreibst du das als 4 + 3 · 2, musst du zuerst 3 · 2 rechnen – nicht 4 + 3."
+    },
+    {
+      "beatId": "rule",
+      "narration": "Die Regel heißt „Punkt vor Strich“: Multiplikation (·) und Division (:) werden vor Addition (+) und Subtraktion (−) gerechnet. Klammern werden immer zuerst berechnet – sie haben Vorrang vor allem anderen."
+    },
+    {
+      "beatId": "breakdown",
+      "narration": "Rechne 5 + 2 · 6. Zuerst Punkt vor Strich: 2 · 6 = 12. Dann addieren: 5 + 12 = 17. Hättest du einfach von links nach rechts gerechnet, wärst du auf ein falsches Ergebnis gekommen."
+    },
+    {
+      "beatId": "brackets",
+      "narration": "Steht eine Klammer da, zählt sie zuerst – egal was davor steht. Bei (5 + 2) · 6 rechnest du zuerst 5 + 2 = 7, dann 7 · 6 = 42. Das ist ein ganz anderes Ergebnis als ohne Klammer!"
+    },
+    {
+      "beatId": "reallife",
+      "narration": "Im Geschäft kaufst du 3 Packungen Kekse zu je 2 € und 1 Saft für 3 €. Die Gesamtsumme ist 3 · 2 + 3 – zuerst die Kekse berechnen, dann den Saft dazuzählen: 6 + 3 = 9 €."
+    },
+    {
+      "beatId": "recap",
+      "narration": "Zusammengefasst: Klammern zuerst, dann Punkt vor Strich (· und : vor + und −). So bekommt jeder beim Nachrechnen dasselbe Ergebnis – egal wo auf der Welt."
+    }
+  ],
+  "storyboard": [
+    {
+      "beatId": "beat-intro-history",
+      "narrationRef": "intro_history",
+      "component": "LessonIntroViz",
+      "props": {
+        "phase": "history",
+        "heading": "Woher kommt „Punkt vor Strich“?",
+        "body": "Erst im 19. Jahrhundert, als die Algebra mit Formeln arbeitete, legten Mathematiker feste Regeln fest – damit alle beim Rechnen auf dasselbe Ergebnis kommen."
+      }
+    },
+    {
+      "beatId": "beat-intro-why",
+      "narrationRef": "intro_why",
+      "component": "LessonIntroViz",
+      "props": {
+        "phase": "why",
+        "heading": "Warum lernen wir das?",
+        "body": "Ohne feste Regel könnte „3 + 4 · 5“ zwei verschiedene Ergebnisse haben. Mit „Punkt vor Strich“ bekommt jeder dasselbe Ergebnis."
+      }
+    },
+    {
+      "beatId": "beat-intro-realworld",
+      "narrationRef": "intro_realworld",
+      "component": "LessonIntroViz",
+      "props": {
+        "phase": "realWorld",
+        "heading": "Wo begegnet dir das im echten Leben?",
+        "items": [
+          "🛒 Einkaufsrechnung mit mehreren Artikeln",
+          "🍽️ Restaurantrechnung mit Trinkgeld aufteilen",
+          "👨‍🍳 Ein Rezept für mehr Gäste hochrechnen",
+          "💶 Taschengeld plus gesparte Beträge zusammenzählen"
+        ]
+      }
+    },
+    {
+      "beatId": "beat-intro",
+      "narrationRef": "intro",
+      "component": "EquationStepReveal",
+      "props": {
+        "steps": [
+          { "label": "Aufgabe", "expression": "4 + 3 · 2" },
+          { "label": "Falsch (von links)", "expression": "(4 + 3) · 2 = 14 ✗" },
+          { "label": "Richtig (Punkt vor Strich)", "expression": "4 + (3 · 2) = 10 ✓" }
+        ]
+      }
+    },
+    {
+      "beatId": "beat-rule",
+      "narrationRef": "rule",
+      "component": "EquationStepReveal",
+      "props": {
+        "steps": [
+          { "label": "Reihenfolge 1", "expression": "Klammern zuerst" },
+          { "label": "Reihenfolge 2", "expression": "Punkt (· und :) vor Strich (+ und −)" },
+          { "label": "Reihenfolge 3", "expression": "Rest von links nach rechts" }
+        ]
+      }
+    },
+    {
+      "beatId": "beat-breakdown",
+      "narrationRef": "breakdown",
+      "component": "EquationStepReveal",
+      "props": {
+        "steps": [
+          { "label": "Aufgabe", "expression": "5 + 2 · 6" },
+          { "label": "Punkt vor Strich", "expression": "2 · 6 = 12" },
+          { "label": "Dann addieren", "expression": "5 + 12 = 17" }
+        ]
+      }
+    },
+    {
+      "beatId": "beat-brackets",
+      "narrationRef": "brackets",
+      "component": "EquationStepReveal",
+      "props": {
+        "steps": [
+          { "label": "Ohne Klammer", "expression": "5 + 2 · 6 = 17" },
+          { "label": "Mit Klammer", "expression": "(5 + 2) · 6" },
+          { "label": "Klammer zuerst", "expression": "7 · 6 = 42" }
+        ]
+      }
+    },
+    {
+      "beatId": "beat-reallife",
+      "narrationRef": "reallife",
+      "component": "EquationStepReveal",
+      "props": {
+        "steps": [
+          { "label": "3 Kekspackungen à 2 €", "expression": "3 · 2 = 6 €" },
+          { "label": "Plus 1 Saft", "expression": "6 + 3 = 9 €" },
+          { "label": "Gesamt", "expression": "3 · 2 + 3 = 9 €" }
+        ]
+      }
+    },
+    {
+      "beatId": "beat-recap",
+      "narrationRef": "recap",
+      "component": "EquationStepReveal",
+      "props": {
+        "steps": [
+          { "label": "Merksatz", "expression": "Klammer, dann Punkt vor Strich" }
+        ]
+      }
+    }
+  ],
+  "videoUrl": null
+}

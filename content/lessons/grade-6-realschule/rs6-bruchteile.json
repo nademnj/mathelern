@@ -1,0 +1,127 @@
+{
+  "slug": "rs6-bruchteile-ep1",
+  "topicSlug": "rs6-bruchteile",
+  "topicRef": "M6 LB1",
+  "title": "Bruchteile: Erweitern und Kürzen",
+  "episodeNumber": 1,
+  "estimatedMinutes": 4,
+  "script": [
+    {
+      "beatId": "intro_history",
+      "narration": "Vor über 3500 Jahren rechneten die alten Ägypter mit Brüchen – das zeigt der berühmte Papyrus Rhind. Sie nutzten fast nur Stammbrüche wie ein Halb oder ein Drittel, also Brüche mit der 1 oben. Jeden anderen Bruch mussten sie mühsam aus solchen Stammbrüchen zusammensetzen – ein viel schwierigeres System als unseres heute."
+    },
+    {
+      "beatId": "intro_why",
+      "narration": "Denselben Bruch kannst du auf viele Arten schreiben: ein Halb ist dasselbe wie zwei Viertel oder fünfzig Hundertstel. Erweitern und Kürzen helfen dir, einen Bruch so umzuschreiben, wie er gerade am besten passt – ohne seinen Wert zu verändern."
+    },
+    {
+      "beatId": "intro_realworld",
+      "narration": "Du nutzt das ständig: Ein halber Becher Mehl ist dasselbe wie zwei Viertelbecher. Drei von sechs Freiwürfen getroffen ist dasselbe wie einer von zwei. Erweitern und Kürzen machen Brüche vergleichbar."
+    },
+    {
+      "beatId": "intro",
+      "narration": "Schau dir den Bruch 1/2 an. Wenn du Zähler und Nenner mit derselben Zahl multiplizierst, ändert sich der Wert nicht – nur die Anzahl der Teile."
+    },
+    {
+      "beatId": "why",
+      "narration": "Erweitern heißt: Zähler und Nenner mit derselben Zahl multiplizieren. Kürzen heißt: beide durch denselben Teiler dividieren. Beides verändert nur die Schreibweise, nicht den Wert des Bruchs."
+    },
+    {
+      "beatId": "breakdown",
+      "narration": "Kürze den Bruch 8/12 so weit wie möglich. Suche den größten gemeinsamen Teiler von 8 und 12 – das ist 4. Teile Zähler und Nenner durch 4."
+    },
+    {
+      "beatId": "reallife",
+      "narration": "Ein Rezept braucht 2/8 Liter Milch. Das lässt sich auf 1/4 Liter kürzen – leichter abzumessen und zu verstehen."
+    },
+    {
+      "beatId": "recap",
+      "narration": "Zusammengefasst: Erweitern (mal derselben Zahl) und Kürzen (geteilt durch denselben Teiler) verändern nie den Wert eines Bruchs – nur, wie er geschrieben wird."
+    }
+  ],
+  "storyboard": [
+    {
+      "beatId": "beat-intro-history",
+      "narrationRef": "intro_history",
+      "component": "LessonIntroViz",
+      "props": {
+        "phase": "history",
+        "heading": "Woher kommen Brüche?",
+        "body": "Die alten Ägypter rechneten vor über 3500 Jahren mit Brüchen (Papyrus Rhind) – fast immer mit der 1 oben, ein viel umständlicheres System als unseres heute."
+      }
+    },
+    {
+      "beatId": "beat-intro-why",
+      "narrationRef": "intro_why",
+      "component": "LessonIntroViz",
+      "props": {
+        "phase": "why",
+        "heading": "Warum lernen wir das?",
+        "body": "Derselbe Bruch lässt sich auf viele Arten schreiben. Erweitern und Kürzen helfen dir, die passendste Schreibweise zu finden, ohne den Wert zu verändern."
+      }
+    },
+    {
+      "beatId": "beat-intro-realworld",
+      "narrationRef": "intro_realworld",
+      "component": "LessonIntroViz",
+      "props": {
+        "phase": "realWorld",
+        "heading": "Wo begegnet dir das im echten Leben?",
+        "items": [
+          "🥣 Rezeptmengen: 1/2 Becher = 2/4 Becher",
+          "🏀 Sportstatistik: 3 von 6 Würfen = 1 von 2",
+          "📊 Testergebnisse vergleichen",
+          "🍕 Pizza gerecht aufteilen"
+        ]
+      }
+    },
+    {
+      "beatId": "beat-intro",
+      "narrationRef": "intro",
+      "component": "FractionBarViz",
+      "props": { "numerator": 1, "denominator": 2, "compareNumerator": 2, "compareDenominator": 4, "label": "1/2 und 2/4 sind gleich groß" }
+    },
+    {
+      "beatId": "beat-why",
+      "narrationRef": "why",
+      "component": "EquationStepReveal",
+      "props": {
+        "steps": [
+          { "label": "Erweitern", "expression": "1/2 · 2/2 = 2/4" },
+          { "label": "Kürzen", "expression": "2/4 : 2/2 = 1/2" }
+        ]
+      }
+    },
+    {
+      "beatId": "beat-breakdown",
+      "narrationRef": "breakdown",
+      "component": "EquationStepReveal",
+      "props": {
+        "steps": [
+          { "label": "Ausgangsbruch", "expression": "8/12" },
+          { "label": "Größter gemeinsamer Teiler", "expression": "ggT(8, 12) = 4" },
+          { "label": "Beide Seiten teilen", "expression": "8 ÷ 4 / 12 ÷ 4" },
+          { "label": "Ergebnis", "expression": "2/3" }
+        ]
+      }
+    },
+    {
+      "beatId": "beat-reallife",
+      "narrationRef": "reallife",
+      "component": "FractionBarViz",
+      "props": { "numerator": 2, "denominator": 8, "compareNumerator": 1, "compareDenominator": 4, "label": "2/8 Liter = 1/4 Liter" }
+    },
+    {
+      "beatId": "beat-recap",
+      "narrationRef": "recap",
+      "component": "EquationStepReveal",
+      "props": {
+        "steps": [
+          { "label": "Erweitern", "expression": "Zähler und Nenner · gleiche Zahl" },
+          { "label": "Kürzen", "expression": "Zähler und Nenner : gleicher Teiler" }
+        ]
+      }
+    }
+  ],
+  "videoUrl": null
+}

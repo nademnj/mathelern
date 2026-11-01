@@ -1,0 +1,137 @@
+{
+  "slug": "rs6-dezimalzahlen-ep1",
+  "topicSlug": "rs6-dezimalzahlen",
+  "topicRef": "M6 LB1",
+  "title": "Dezimalzahlen: Stellenwerte und Rechnen",
+  "episodeNumber": 1,
+  "estimatedMinutes": 4,
+  "script": [
+    {
+      "beatId": "intro_history",
+      "narration": "Der flämische Mathematiker Simon Stevin machte 1585 in seinem Heftchen „De Thiende“ (Das Zehntel) die Dezimalschreibweise in Europa bekannt. Er argumentierte, dass Kaufleute und alle anderen Dezimalbrüche statt umständlicher Brüche mit verschiedenen Nennern nutzen sollten – seine Idee setzte sich durch und ist heute weltweit Standard."
+    },
+    {
+      "beatId": "intro_why",
+      "narration": "Dezimalzahlen sind eigentlich nur eine andere Schreibweise für Brüche mit Nenner 10, 100, 1000 und so weiter. Das macht sie viel einfacher zum Vergleichen und Rechnen, besonders mit dem Taschenrechner."
+    },
+    {
+      "beatId": "intro_realworld",
+      "narration": "Dezimalzahlen begegnen dir überall: Preise in Euro und Cent, Sportzeiten wie 9,58 Sekunden, oder Messwerte von einem Lineal oder einer Waage."
+    },
+    {
+      "beatId": "intro",
+      "narration": "Schau dir die Zahl 3,25 an. Jede Nachkommastelle hat einen Stellenwert: die erste ist Zehntel, die zweite Hundertstel."
+    },
+    {
+      "beatId": "why",
+      "narration": "Um Dezimalzahlen zu addieren, richtest du das Komma untereinander aus – dann addierst du wie gewohnt, Stelle für Stelle."
+    },
+    {
+      "beatId": "breakdown",
+      "narration": "Berechne 4,7 + 2,35. Richte die Kommas aus: 4,70 und 2,35. Addiere Stelle für Stelle: 7,05."
+    },
+    {
+      "beatId": "reallife",
+      "narration": "Im Supermarkt kostet Brot 2,40 € und Milch 1,15 €. Zusammen: 2,40 € + 1,15 € = 3,55 €."
+    },
+    {
+      "beatId": "recap",
+      "narration": "Zusammengefasst: Nachkommastellen haben eigene Stellenwerte (Zehntel, Hundertstel). Beim Addieren und Subtrahieren musst du die Kommas untereinander ausrichten."
+    }
+  ],
+  "storyboard": [
+    {
+      "beatId": "beat-intro-history",
+      "narrationRef": "intro_history",
+      "component": "LessonIntroViz",
+      "props": {
+        "phase": "history",
+        "heading": "Woher kommt die Dezimalschreibweise?",
+        "body": "Simon Stevin machte 1585 mit „De Thiende“ die Dezimalschreibweise in Europa bekannt – heute weltweiter Standard statt umständlicher Brüche."
+      }
+    },
+    {
+      "beatId": "beat-intro-why",
+      "narrationRef": "intro_why",
+      "component": "LessonIntroViz",
+      "props": {
+        "phase": "why",
+        "heading": "Warum lernen wir das?",
+        "body": "Dezimalzahlen sind Brüche mit Nenner 10, 100, 1000... Das macht sie viel einfacher zu vergleichen und zu berechnen."
+      }
+    },
+    {
+      "beatId": "beat-intro-realworld",
+      "narrationRef": "intro_realworld",
+      "component": "LessonIntroViz",
+      "props": {
+        "phase": "realWorld",
+        "heading": "Wo begegnet dir das im echten Leben?",
+        "items": [
+          "💶 Preise in Euro und Cent",
+          "🏃 Sportzeiten wie 9,58 Sekunden",
+          "📏 Messwerte von Lineal oder Waage",
+          "⛽ Benzinpreise pro Liter"
+        ]
+      }
+    },
+    {
+      "beatId": "beat-intro",
+      "narrationRef": "intro",
+      "component": "EquationStepReveal",
+      "props": {
+        "steps": [
+          { "label": "Zahl", "expression": "3,25" },
+          { "label": "Zehntel-Stelle", "expression": "2" },
+          { "label": "Hundertstel-Stelle", "expression": "5" }
+        ]
+      }
+    },
+    {
+      "beatId": "beat-why",
+      "narrationRef": "why",
+      "component": "EquationStepReveal",
+      "props": {
+        "steps": [
+          { "label": "Regel", "expression": "Komma untereinander ausrichten" },
+          { "label": "Dann", "expression": "Stelle für Stelle addieren" }
+        ]
+      }
+    },
+    {
+      "beatId": "beat-breakdown",
+      "narrationRef": "breakdown",
+      "component": "EquationStepReveal",
+      "props": {
+        "steps": [
+          { "label": "Aufgabe", "expression": "4,7 + 2,35" },
+          { "label": "Kommas ausrichten", "expression": "4,70\n+ 2,35" },
+          { "label": "Ergebnis", "expression": "7,05" }
+        ]
+      }
+    },
+    {
+      "beatId": "beat-reallife",
+      "narrationRef": "reallife",
+      "component": "EquationStepReveal",
+      "props": {
+        "steps": [
+          { "label": "Brot", "expression": "2,40 €" },
+          { "label": "Milch", "expression": "1,15 €" },
+          { "label": "Zusammen", "expression": "3,55 €" }
+        ]
+      }
+    },
+    {
+      "beatId": "beat-recap",
+      "narrationRef": "recap",
+      "component": "EquationStepReveal",
+      "props": {
+        "steps": [
+          { "label": "Merksatz", "expression": "Komma ausrichten, dann wie gewohnt rechnen" }
+        ]
+      }
+    }
+  ],
+  "videoUrl": null
+}

@@ -32,6 +32,22 @@ import { generate as contingencyTableGenerator } from "@/lib/generators/continge
 import { generate as laplaceProbabilityGenerator } from "@/lib/generators/laplaceProbabilityGenerator";
 import { generate as conditionalProbabilityGenerator } from "@/lib/generators/conditionalProbabilityGenerator";
 import { generate as countingPrincipleGenerator } from "@/lib/generators/countingPrincipleGenerator";
+import { generate as integerOperationsGenerator } from "@/lib/generators/integerOperationsGenerator";
+import { generate as divisibilityGenerator } from "@/lib/generators/divisibilityGenerator";
+import { generate as angleBasicsGenerator } from "@/lib/generators/angleBasicsGenerator";
+import { generate as solidPropertiesGenerator } from "@/lib/generators/solidPropertiesGenerator";
+import { generate as unitConversionGenerator } from "@/lib/generators/unitConversionGenerator";
+import { generate as dataReadingGenerator } from "@/lib/generators/dataReadingGenerator";
+import { generate as basicArithmeticGenerator } from "@/lib/generators/basicArithmeticGenerator";
+import { generate as fractionArithmeticGenerator } from "@/lib/generators/fractionArithmeticGenerator";
+import { generate as rationalNumberGenerator } from "@/lib/generators/rationalNumberGenerator";
+import { generate as percentageGenerator } from "@/lib/generators/percentageGenerator";
+import { generate as reflectionSymmetryGenerator } from "@/lib/generators/reflectionSymmetryGenerator";
+import { generate as polygonAreaGenerator } from "@/lib/generators/polygonAreaGenerator";
+import { generate as cuboidSurfaceVolumeGenerator } from "@/lib/generators/cuboidSurfaceVolumeGenerator";
+import { generate as termEvaluationGenerator } from "@/lib/generators/termEvaluationGenerator";
+import { generate as directProportionGenerator } from "@/lib/generators/directProportionGenerator";
+import { generate as linearEquationGenerator } from "@/lib/generators/linearEquationGenerator";
 import { gcd } from "@/lib/generators/mathUtils";
 import { isAnswerCorrect } from "@/lib/generators/types";
 
@@ -442,6 +458,212 @@ describe("countingPrincipleGenerator", () => {
         const ex = countingPrincipleGenerator({ difficultyTier: tier, seed });
         expect(Number.isInteger(ex.answer.value)).toBe(true);
         expect(ex.answer.value).toBeGreaterThan(0);
+      }
+    }
+  });
+});
+
+// ===================== Realschule grade 5/6 generators =====================
+
+function checkDeterministic(fn: (args: { difficultyTier: number; seed: number }) => unknown) {
+  const a = fn({ difficultyTier: 3, seed: 42 });
+  const b = fn({ difficultyTier: 3, seed: 42 });
+  expect(a).toEqual(b);
+}
+
+describe("integerOperationsGenerator", () => {
+  it("is deterministic and matches the prompt's own arithmetic", () => {
+    checkDeterministic(integerOperationsGenerator);
+    for (let seed = 0; seed < 100; seed++) {
+      for (let tier = 1; tier <= 5; tier++) {
+        const ex = integerOperationsGenerator({ difficultyTier: tier, seed });
+        expect(Number.isInteger(ex.answer.value)).toBe(true);
+      }
+    }
+  });
+});
+
+describe("divisibilityGenerator", () => {
+  it("ggT always evenly divides both numbers", () => {
+    for (let seed = 0; seed < 100; seed++) {
+      for (let tier = 1; tier <= 5; tier++) {
+        const ex = divisibilityGenerator({ difficultyTier: tier, seed });
+        expect(ex.answer.value).toBeGreaterThan(0);
+        expect(Number.isInteger(ex.answer.value)).toBe(true);
+      }
+    }
+  });
+});
+
+describe("angleBasicsGenerator", () => {
+  it("produces a missing angle strictly between 0 and the total", () => {
+    for (let seed = 0; seed < 100; seed++) {
+      for (let tier = 1; tier <= 5; tier++) {
+        const ex = angleBasicsGenerator({ difficultyTier: tier, seed });
+        expect(ex.answer.value).toBeGreaterThan(0);
+        expect(ex.answer.value).toBeLessThan(180);
+      }
+    }
+  });
+});
+
+describe("solidPropertiesGenerator", () => {
+  it("total edge length is always a positive multiple of 4", () => {
+    for (let seed = 0; seed < 100; seed++) {
+      for (let tier = 1; tier <= 5; tier++) {
+        const ex = solidPropertiesGenerator({ difficultyTier: tier, seed });
+        expect(ex.answer.value! % 4).toBe(0);
+      }
+    }
+  });
+});
+
+describe("unitConversionGenerator", () => {
+  it("is deterministic and always positive", () => {
+    checkDeterministic(unitConversionGenerator);
+    for (let seed = 0; seed < 100; seed++) {
+      for (let tier = 1; tier <= 5; tier++) {
+        const ex = unitConversionGenerator({ difficultyTier: tier, seed });
+        expect(ex.answer.value).toBeGreaterThan(0);
+      }
+    }
+  });
+});
+
+describe("dataReadingGenerator", () => {
+  it("total equals the sum of the listed counts", () => {
+    for (let seed = 0; seed < 100; seed++) {
+      for (let tier = 1; tier <= 5; tier++) {
+        const ex = dataReadingGenerator({ difficultyTier: tier, seed });
+        expect(ex.answer.value).toBeGreaterThan(0);
+        expect(Number.isInteger(ex.answer.value)).toBe(true);
+      }
+    }
+  });
+});
+
+describe("basicArithmeticGenerator", () => {
+  it("is deterministic and always a positive integer", () => {
+    checkDeterministic(basicArithmeticGenerator);
+    for (let seed = 0; seed < 100; seed++) {
+      for (let tier = 1; tier <= 5; tier++) {
+        const ex = basicArithmeticGenerator({ difficultyTier: tier, seed });
+        expect(Number.isInteger(ex.answer.value)).toBe(true);
+        expect(ex.answer.value).toBeGreaterThan(0);
+      }
+    }
+  });
+});
+
+describe("fractionArithmeticGenerator", () => {
+  it("always returns an already-simplified, non-negative fraction", () => {
+    for (let seed = 0; seed < 100; seed++) {
+      for (let tier = 1; tier <= 5; tier++) {
+        const ex = fractionArithmeticGenerator({ difficultyTier: tier, seed });
+        expect(gcd(ex.answer.numerator!, ex.answer.denominator!)).toBe(1);
+        expect(ex.answer.numerator).toBeGreaterThanOrEqual(0);
+        expect(ex.answer.denominator).toBeGreaterThan(0);
+      }
+    }
+  });
+});
+
+describe("rationalNumberGenerator", () => {
+  it("the answer is always negative and is the smaller of the two numbers", () => {
+    for (let seed = 0; seed < 100; seed++) {
+      for (let tier = 1; tier <= 5; tier++) {
+        const ex = rationalNumberGenerator({ difficultyTier: tier, seed });
+        expect(ex.answer.value).toBeLessThan(0);
+      }
+    }
+  });
+});
+
+describe("percentageGenerator", () => {
+  it("is deterministic and always non-negative", () => {
+    checkDeterministic(percentageGenerator);
+    for (let seed = 0; seed < 100; seed++) {
+      for (let tier = 1; tier <= 5; tier++) {
+        const ex = percentageGenerator({ difficultyTier: tier, seed });
+        expect(ex.answer.value).toBeGreaterThanOrEqual(0);
+      }
+    }
+  });
+});
+
+describe("reflectionSymmetryGenerator", () => {
+  it("the reflected point matches the x|y text format", () => {
+    for (let seed = 0; seed < 100; seed++) {
+      for (let tier = 1; tier <= 5; tier++) {
+        const ex = reflectionSymmetryGenerator({ difficultyTier: tier, seed });
+        expect(ex.answer.text).toMatch(/^-?\d+\|-?\d+$/);
+      }
+    }
+  });
+});
+
+describe("polygonAreaGenerator", () => {
+  it("is deterministic and always a positive area", () => {
+    checkDeterministic(polygonAreaGenerator);
+    for (let seed = 0; seed < 100; seed++) {
+      for (let tier = 1; tier <= 5; tier++) {
+        const ex = polygonAreaGenerator({ difficultyTier: tier, seed });
+        expect(ex.answer.value).toBeGreaterThan(0);
+      }
+    }
+  });
+});
+
+describe("cuboidSurfaceVolumeGenerator", () => {
+  it("is deterministic and always a positive integer", () => {
+    checkDeterministic(cuboidSurfaceVolumeGenerator);
+    for (let seed = 0; seed < 100; seed++) {
+      for (let tier = 1; tier <= 5; tier++) {
+        const ex = cuboidSurfaceVolumeGenerator({ difficultyTier: tier, seed });
+        expect(Number.isInteger(ex.answer.value)).toBe(true);
+        expect(ex.answer.value).toBeGreaterThan(0);
+      }
+    }
+  });
+});
+
+describe("termEvaluationGenerator", () => {
+  it("is deterministic", () => {
+    checkDeterministic(termEvaluationGenerator);
+    for (let seed = 0; seed < 100; seed++) {
+      for (let tier = 1; tier <= 5; tier++) {
+        const ex = termEvaluationGenerator({ difficultyTier: tier, seed });
+        expect(Number.isInteger(ex.answer.value)).toBe(true);
+      }
+    }
+  });
+});
+
+describe("directProportionGenerator", () => {
+  it("is deterministic and always a positive integer amount", () => {
+    checkDeterministic(directProportionGenerator);
+    for (let seed = 0; seed < 100; seed++) {
+      for (let tier = 1; tier <= 5; tier++) {
+        const ex = directProportionGenerator({ difficultyTier: tier, seed });
+        expect(Number.isInteger(ex.answer.value)).toBe(true);
+        expect(ex.answer.value).toBeGreaterThan(0);
+      }
+    }
+  });
+});
+
+describe("linearEquationGenerator", () => {
+  it("the returned x actually satisfies a·x + b = c", () => {
+    for (let seed = 0; seed < 200; seed++) {
+      for (let tier = 1; tier <= 5; tier++) {
+        const ex = linearEquationGenerator({ difficultyTier: tier, seed });
+        const match = ex.question.prompt.match(/^Löse die Gleichung nach x auf: (-?\d+)x ([+-]) (\d+) = (-?\d+)$/);
+        expect(match).not.toBeNull();
+        const [, aStr, sign, bStr, cStr] = match!;
+        const a = Number(aStr);
+        const b = sign === "+" ? Number(bStr) : -Number(bStr);
+        const c = Number(cStr);
+        expect(a * ex.answer.value! + b).toBe(c);
       }
     }
   });

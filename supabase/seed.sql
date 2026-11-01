@@ -1,11 +1,12 @@
--- Seed data: grade 5 (Realschule) + grade 10 (Mittelschule M-Zug) + grade 11
--- (FOS). Mittelschule M10 (17/17 topics) and FOS 11's common-core +
--- non-Technik path (16/21 topics — the 5 Technik-only Vektoren topics stay
--- unpublished, see the FOS11 insert's comment) are built out to full
--- lesson+exercise depth. Realschule 5 has just its one pilot topic
--- published, with the rest of its topic list seeded unpublished for later.
--- Topics are marked is_published = true so they're visible to students
--- immediately; flip to false for any topic whose content isn't ready yet.
+-- Seed data: grades 5+6 (Realschule) + grade 10 (Mittelschule M-Zug) + grade
+-- 11 (FOS). Every track is now built out to full lesson+exercise depth --
+-- Mittelschule M10 (17/17 topics), FOS 11's common-core + non-Technik path
+-- (16/21 — the 5 Technik-only Vektoren topics stay unpublished, see the
+-- FOS11 insert's comment), and Realschule 5+6 (21/21 topics, verified
+-- directly against Realschule's own Fachlehrplan -- see migration 0011 for
+-- the grade-5 topics this replaced). Topics are marked is_published = true
+-- so they're visible to students immediately; flip to false for any topic
+-- whose content isn't ready yet.
 --
 -- Gymnasium was removed (see migrations 0009/0010) -- this file no longer
 -- seeds it, and re-running this file will not bring it back.
@@ -13,34 +14,70 @@
 -- grades is keyed by (grade_number, school_track) — see migrations
 -- 0005/0006/0009/0010 — so every topics/milestones insert below resolves
 -- grade_id via a join rather than a literal integer.
+--
+-- Run migration 0011 (deletes the 6 unverified grade-5 placeholders) BEFORE
+-- re-running this file, or their slugs will linger unpublished alongside
+-- the corrected list below.
 
 insert into grades (grade_number, label, school_track) values
   (5, '5. Klasse', 'realschule'),
+  (6, '6. Klasse', 'realschule'),
   (10, '10. Klasse (M-Zug)', 'mittelschule_m'),
   (11, '11. Klasse', 'fos')
 on conflict (grade_number, school_track) do nothing;
 
 -- Grade 5 (Realschule) — "rs5-" prefix, matching the ms10-/fos11- pattern.
--- LehrplanPLUS ref for the pilot topic confirmed directly against
--- Realschule's own Fachlehrplan (not carried over from Gymnasium); the rest
--- of the list still needs the same spot-check every other track's
--- unpublished topics are waiting on.
+-- All 10 topics verified directly against Realschule's own Fachlehrplan
+-- (LehrplanPLUS, fetched 2026-11-01): M5 LB1 Natürliche Zahlen (~50 Std.,
+-- split across 4 topics below), LB2 Ganze Zahlen, LB3 Geometrische
+-- Grundvorstellungen (2 topics), LB4 Größen, LB5 Umfang/Flächeninhalt, LB6
+-- Auswertung von Daten.
 insert into topics (grade_id, slug, title, lehrplan_ref, sequence_order, generator_key, is_published)
 select g.id, v.slug, v.title, v.lehrplan_ref, v.sequence_order, v.generator_key, v.is_published
 from (values
   ('rs5-stellenwertsystem', 'Das Stellenwertsystem & natürliche Zahlen', 'M5 1.1', 1, 'placeValueGenerator', true),
-  ('rs5-ganze-zahlen', 'Ganze Zahlen – negative Zahlen', 'M5 1.2', 2, null, false),
-  ('rs5-lagebeziehungen', 'Punkte, Geraden, Strecken, Lagebeziehungen', 'M5 2', 3, null, false),
-  ('rs5-koordinatensystem', 'Das Koordinatensystem', 'M5 2', 4, null, false),
-  ('rs5-kreise-tangenten', 'Kreise und Tangenten', 'M5 2', 5, null, false),
-  ('rs5-grundrechenarten', 'Grundrechenarten & Rechengesetze', 'M5 1.2', 6, null, false),
-  ('rs5-schriftlich-multiplizieren-dividieren', 'Schriftliche Multiplikation und Division', 'M5 1.2', 7, null, false),
-  ('rs5-umfang-flaeche-rechteck', 'Umfang und Flächeninhalt von Rechteck/Quadrat', 'M5 3', 8, 'geometryAreaGenerator', false),
-  ('rs5-quader-wuerfel', 'Quader und Würfel: Oberfläche, Volumen', 'M5 3', 9, null, false),
-  ('rs5-achsensymmetrie', 'Achsensymmetrie', 'M5 4', 10, null, false)
+  ('rs5-grundrechenarten', 'Grundrechenarten & Rechengesetze', 'M5 1.2', 2, 'basicArithmeticGenerator', true),
+  ('rs5-teilbarkeit-ggt-kgv', 'Teilbarkeit, Primfaktoren, ggT und kgV', 'M5 1.3', 3, 'divisibilityGenerator', true),
+  ('rs5-kombinatorik', 'Kombinatorik: einfache Zählprinzipien', 'M5 1.4', 4, 'countingPrincipleGenerator', true),
+  ('rs5-ganze-zahlen', 'Ganze Zahlen – negative Zahlen', 'M5 2', 5, 'integerOperationsGenerator', true),
+  ('rs5-ebene-figuren-winkel', 'Ebene Figuren, Koordinatensystem & Winkel', 'M5 3', 6, 'angleBasicsGenerator', true),
+  ('rs5-koerper-netze', 'Körper, Netze und Schrägbilder', 'M5 3', 7, 'solidPropertiesGenerator', true),
+  ('rs5-groessen', 'Größen: Einheiten und Umrechnen', 'M5 4', 8, 'unitConversionGenerator', true),
+  ('rs5-umfang-flaeche-rechteck', 'Umfang und Flächeninhalt von Rechteck/Quadrat', 'M5 5', 9, 'geometryAreaGenerator', true),
+  ('rs5-datenauswertung', 'Auswertung von Daten', 'M5 6', 10, 'dataReadingGenerator', true)
 ) as v(slug, title, lehrplan_ref, sequence_order, generator_key, is_published)
 join grades g on g.grade_number = 5 and g.school_track = 'realschule'
-on conflict (slug) do nothing;
+on conflict (slug) do update set
+  title = excluded.title,
+  lehrplan_ref = excluded.lehrplan_ref,
+  generator_key = excluded.generator_key,
+  is_published = excluded.is_published;
+
+-- Grade 6 (Realschule) — "rs6-" prefix. All 11 topics verified against
+-- Realschule's Fachlehrplan: M6 LB1 Rationale Zahlen (~68 Std., the
+-- biggest, split across 5 topics), LB2 Achsenspiegelung und Symmetrie, LB3
+-- Flächeninhalt ebener Figuren, LB4 Raumgeometrie (merged with LB3's solid
+-- surface area into one Quader/Würfel topic -- same solids), LB5 Terme und
+-- Gleichungen (2 topics), LB6 Direkte Proportionalität.
+insert into topics (grade_id, slug, title, lehrplan_ref, sequence_order, generator_key, is_published)
+select g.id, v.slug, v.title, v.lehrplan_ref, v.sequence_order, v.generator_key, v.is_published
+from (values
+  ('rs6-bruchteile', 'Bruchteile: Erweitern und Kürzen', 'M6 LB1', 1, 'fractionsGenerator', true),
+  ('rs6-brueche-rechnen', 'Rechnen mit Brüchen', 'M6 LB1', 2, 'fractionArithmeticGenerator', true),
+  ('rs6-dezimalzahlen', 'Dezimalzahlen: Stellenwerte und Rechnen', 'M6 LB1', 3, 'decimalsGenerator', true),
+  ('rs6-rationale-zahlen', 'Rationale Zahlen: Vergleichen und Ordnen', 'M6 LB1', 4, 'rationalNumberGenerator', true),
+  ('rs6-prozentrechnung', 'Prozentrechnung', 'M6 LB1', 5, 'percentageGenerator', true),
+  ('rs6-achsenspiegelung-symmetrie', 'Achsenspiegelung und Symmetrie', 'M6 LB2', 6, 'reflectionSymmetryGenerator', true),
+  ('rs6-flaeche-vielecke', 'Flächeninhalt von Dreieck und Parallelogramm', 'M6 LB3', 7, 'polygonAreaGenerator', true),
+  ('rs6-quader-wuerfel', 'Oberfläche und Volumen von Quader und Würfel', 'M6 LB3/LB4', 8, 'cuboidSurfaceVolumeGenerator', true),
+  ('rs6-terme', 'Terme mit Variablen', 'M6 LB5', 9, 'termEvaluationGenerator', true),
+  ('rs6-gleichungen', 'Gleichungen lösen', 'M6 LB5', 10, 'linearEquationGenerator', true),
+  ('rs6-proportionalitaet', 'Direkte Proportionalität und Dreisatz', 'M6 LB6', 11, 'directProportionGenerator', true)
+) as v(slug, title, lehrplan_ref, sequence_order, generator_key, is_published)
+join grades g on g.grade_number = 6 and g.school_track = 'realschule'
+on conflict (slug) do update set
+  generator_key = excluded.generator_key,
+  is_published = excluded.is_published;
 
 -- Grade 10 Mittelschule M-Zug (M10) — LehrplanPLUS, confirmed current
 -- ("gültig ab Schuljahr 2022/23"). Full program: all 17 topics published,
@@ -135,6 +172,27 @@ select g.id, v.title, v.icon_key, v.sequence_order, v.unlock_rule
 from (values
   (5, 'realschule', 'Erste Lektion: Stellenwertsystem', 'book-open', 1, '{"type": "lesson_completed", "lessonSlug": "rs5-stellenwertsystem-ep1"}'::jsonb),
   (5, 'realschule', 'Stellenwertsystem gemeistert', 'trophy', 2, '{"type": "topic_mastered", "topicSlug": "rs5-stellenwertsystem"}'::jsonb),
+  (5, 'realschule', 'Grundrechenarten gemeistert', 'trophy', 3, '{"type": "topic_mastered", "topicSlug": "rs5-grundrechenarten"}'::jsonb),
+  (5, 'realschule', 'ggT und kgV gemeistert', 'trophy', 4, '{"type": "topic_mastered", "topicSlug": "rs5-teilbarkeit-ggt-kgv"}'::jsonb),
+  (5, 'realschule', 'Kombinatorik gemeistert', 'trophy', 5, '{"type": "topic_mastered", "topicSlug": "rs5-kombinatorik"}'::jsonb),
+  (5, 'realschule', 'Ganze Zahlen gemeistert', 'trophy', 6, '{"type": "topic_mastered", "topicSlug": "rs5-ganze-zahlen"}'::jsonb),
+  (5, 'realschule', 'Winkel gemeistert', 'trophy', 7, '{"type": "topic_mastered", "topicSlug": "rs5-ebene-figuren-winkel"}'::jsonb),
+  (5, 'realschule', 'Körper gemeistert', 'trophy', 8, '{"type": "topic_mastered", "topicSlug": "rs5-koerper-netze"}'::jsonb),
+  (5, 'realschule', 'Größen gemeistert', 'trophy', 9, '{"type": "topic_mastered", "topicSlug": "rs5-groessen"}'::jsonb),
+  (5, 'realschule', 'Umfang und Fläche gemeistert', 'trophy', 10, '{"type": "topic_mastered", "topicSlug": "rs5-umfang-flaeche-rechteck"}'::jsonb),
+  (5, 'realschule', 'Datenauswertung gemeistert', 'trophy', 11, '{"type": "topic_mastered", "topicSlug": "rs5-datenauswertung"}'::jsonb),
+  (6, 'realschule', 'Erste Lektion: Bruchteile', 'book-open', 1, '{"type": "lesson_completed", "lessonSlug": "rs6-bruchteile-ep1"}'::jsonb),
+  (6, 'realschule', 'Bruchteile gemeistert', 'trophy', 2, '{"type": "topic_mastered", "topicSlug": "rs6-bruchteile"}'::jsonb),
+  (6, 'realschule', 'Bruchrechnen gemeistert', 'trophy', 3, '{"type": "topic_mastered", "topicSlug": "rs6-brueche-rechnen"}'::jsonb),
+  (6, 'realschule', 'Dezimalzahlen gemeistert', 'trophy', 4, '{"type": "topic_mastered", "topicSlug": "rs6-dezimalzahlen"}'::jsonb),
+  (6, 'realschule', 'Rationale Zahlen gemeistert', 'trophy', 5, '{"type": "topic_mastered", "topicSlug": "rs6-rationale-zahlen"}'::jsonb),
+  (6, 'realschule', 'Prozentrechnung gemeistert', 'trophy', 6, '{"type": "topic_mastered", "topicSlug": "rs6-prozentrechnung"}'::jsonb),
+  (6, 'realschule', 'Achsenspiegelung gemeistert', 'trophy', 7, '{"type": "topic_mastered", "topicSlug": "rs6-achsenspiegelung-symmetrie"}'::jsonb),
+  (6, 'realschule', 'Flächeninhalt gemeistert', 'trophy', 8, '{"type": "topic_mastered", "topicSlug": "rs6-flaeche-vielecke"}'::jsonb),
+  (6, 'realschule', 'Quader und Würfel gemeistert', 'trophy', 9, '{"type": "topic_mastered", "topicSlug": "rs6-quader-wuerfel"}'::jsonb),
+  (6, 'realschule', 'Terme gemeistert', 'trophy', 10, '{"type": "topic_mastered", "topicSlug": "rs6-terme"}'::jsonb),
+  (6, 'realschule', 'Gleichungen gemeistert', 'trophy', 11, '{"type": "topic_mastered", "topicSlug": "rs6-gleichungen"}'::jsonb),
+  (6, 'realschule', 'Proportionalität gemeistert', 'trophy', 12, '{"type": "topic_mastered", "topicSlug": "rs6-proportionalitaet"}'::jsonb),
   (10, 'mittelschule_m', 'Erste Lektion: Potenzgesetze', 'book-open', 1, '{"type": "lesson_completed", "lessonSlug": "ms10-potenzgesetze-ep1"}'::jsonb),
   (10, 'mittelschule_m', 'Potenzgesetze gemeistert', 'trophy', 2, '{"type": "topic_mastered", "topicSlug": "ms10-potenzgesetze"}'::jsonb),
   (10, 'mittelschule_m', 'Wurzeln gemeistert', 'trophy', 3, '{"type": "topic_mastered", "topicSlug": "ms10-wurzeln-wurzelgesetze"}'::jsonb),
