@@ -28,6 +28,15 @@ export interface LessonInfo {
   currentStepIndex: number;
 }
 
+export interface ExerciseInfo {
+  questionPrompt: string;
+  questionFormat: "numeric" | "fraction" | "text";
+  /** The lesson-recap bullets shown in the sidebar next to the exercise, if any. */
+  lessonSummaryBullets: string[] | null;
+  /** The student's last submitted attempt on this exact question, if they already answered. */
+  feedback: { isCorrect: boolean; solutionSteps: { label: string; expression: string }[] } | null;
+}
+
 function buildLessonSection(lessonInfo: LessonInfo | null): string {
   if (!lessonInfo) return "";
   const lines = lessonInfo.orderedNarrations
@@ -37,6 +46,23 @@ function buildLessonSection(lessonInfo: LessonInfo | null): string {
 ${lines}
 
 Der Schüler ist GERADE auf Schritt ${lessonInfo.currentStepIndex + 1} von ${lessonInfo.orderedNarrations.length} (oben markiert). Wenn der Schüler nach "das hier", "dieser Teil" o.ä. fragt, oder allgemein um Hilfe bittet, bezieht sich das auf GENAU DIESEN Schritt, nicht auf die Lektion als Ganzes - erkläre bevorzugt diesen Teil, kannst aber auf frühere Schritte verweisen, wenn das hilft.`;
+}
+
+function buildExerciseSection(exerciseInfo: ExerciseInfo | null): string {
+  if (!exerciseInfo) return "";
+  const summary = exerciseInfo.lessonSummaryBullets
+    ? `\nZur Erinnerung steht dem Schüler daneben diese Lektions-Zusammenfassung zur Verfügung:\n${exerciseInfo.lessonSummaryBullets.map((b) => `- ${b}`).join("\n")}`
+    : "";
+  const feedback = exerciseInfo.feedback
+    ? exerciseInfo.feedback.isCorrect
+      ? "\nDer Schüler hat diese Aufgabe gerade RICHTIG gelöst."
+      : `\nDer Schüler hat diese Aufgabe gerade FALSCH gelöst. Der korrekte Lösungsweg (noch nicht notwendigerweise vom Schüler gesehen):\n${exerciseInfo.feedback.solutionSteps.map((s) => `- ${s.label}: ${s.expression}`).join("\n")}`
+    : "\nDer Schüler hat diese Aufgabe noch nicht beantwortet.";
+  return `\n\nDer Schüler bearbeitet GERADE diese Übungsaufgabe (Antwortformat: ${exerciseInfo.questionFormat}):
+"${exerciseInfo.questionPrompt}"
+${feedback}${summary}
+
+Wenn der Schüler nach "das hier", "dieser Aufgabe" o.ä. fragt, oder allgemein um Hilfe bittet, bezieht sich das auf GENAU DIESE Aufgabe. Verrate NICHT direkt die fertige Lösung oder das Endergebnis, auch wenn du es oben siehst - gib stattdessen einen Denkanstoß oder den nächsten Schritt, damit der Schüler selbst weiterkommt, außer er bittet ausdrücklich um die vollständige Lösung oder hat die Aufgabe schon falsch gelöst und braucht die Erklärung dazu.`;
 }
 
 // Some API keys/models reject a forced tool_choice (400: "tool_choice: type
@@ -49,14 +75,15 @@ function buildSystemPrompt(
   gradeLevel: number,
   schoolTrackLabel: string,
   topicTitle: string | null,
-  lessonInfo: LessonInfo | null
+  lessonInfo: LessonInfo | null,
+  exerciseInfo: ExerciseInfo | null
 ) {
   return `Du bist ein geduldiger, freundlicher Mathe-Nachhilfelehrer für einen Schüler der ${gradeLevel}. Klasse (${schoolTrackLabel}) nach dem bayerischen LehrplanPLUS. Der Schüler hat oft wenig Konzentrationsausdauer, also:
 - Antworte kurz (2-4 Sätze), klar und ermutigend, auf Deutsch.
 - Erkläre Schritt für Schritt, nicht alles auf einmal.
 - Bleibe beim Thema Mathematik; bei anderen Themen lenke freundlich zurück zur Matheaufgabe.
 - Wenn der Schüler sagt, er versteht es immer noch nicht, oder wenn eine schrittweise visuelle Aufschlüsselung wirklich helfen würde, füge eine kurze Schritt-für-Schritt-Erklärung hinzu (2-6 Schritte). Nutze das NICHT für jede Antwort - nur wenn eine normale Textantwort nicht reicht.
-${topicTitle ? `Der Schüler befindet sich gerade im Thema "${topicTitle}".` : ""}${buildLessonSection(lessonInfo)}
+${topicTitle ? `Der Schüler befindet sich gerade im Thema "${topicTitle}".` : ""}${buildLessonSection(lessonInfo)}${buildExerciseSection(exerciseInfo)}
 
 WICHTIG - Antwortformat: Antworte AUSSCHLIESSLICH mit einem JSON-Objekt, keine Markdown-Codeblöcke, kein Text davor oder danach. Exaktes Format:
 {"chatMessage": "deine Antwort hier", "visualExplanation": {"title": "kurzer Titel", "steps": [{"label": "...", "expression": "..."}]}}
@@ -84,6 +111,7 @@ export async function askTutor(
     schoolTrackLabel: string;
     topicTitle: string | null;
     lessonInfo: LessonInfo | null;
+    exerciseInfo: ExerciseInfo | null;
   }
 ): Promise<TutorResponse> {
   const apiKey = process.env.ANTHROPIC_API_KEY;
@@ -97,7 +125,13 @@ export async function askTutor(
     // Short tutoring replies don't need the default "high" reasoning depth;
     // "medium" keeps answer quality while capping billed thinking tokens.
     output_config: { effort: "medium" },
-    system: buildSystemPrompt(context.gradeLevel, context.schoolTrackLabel, context.topicTitle, context.lessonInfo),
+    system: buildSystemPrompt(
+      context.gradeLevel,
+      context.schoolTrackLabel,
+      context.topicTitle,
+      context.lessonInfo,
+      context.exerciseInfo
+    ),
     messages: history.map((turn) => ({
       role: turn.role === "student" ? "user" : "assistant",
       content: turn.content,

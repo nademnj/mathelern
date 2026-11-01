@@ -2,7 +2,7 @@
 
 import { createClient } from "@/lib/supabase/server";
 import { createAdminClient } from "@/lib/supabase/admin";
-import { askTutor, type ChatTurn, type LessonInfo } from "@/lib/chat/anthropicClient";
+import { askTutor, type ChatTurn, type LessonInfo, type ExerciseInfo } from "@/lib/chat/anthropicClient";
 
 const MAX_MESSAGE_LENGTH = 500;
 const MAX_MESSAGES_PER_DAY = 100;
@@ -46,10 +46,20 @@ export async function getChatHistory(): Promise<ChatMessageRow[] | { error: stri
   }));
 }
 
+export type ChatScreenContext =
+  | { kind: "lesson"; lessonId: string; currentStepIndex: number }
+  | {
+      kind: "exercise";
+      questionPrompt: string;
+      questionFormat: "numeric" | "fraction" | "text";
+      lessonSummaryBullets: string[] | null;
+      feedback: { isCorrect: boolean; solutionSteps: { label: string; expression: string }[] } | null;
+    };
+
 export async function sendChatMessage(
   message: string,
   topicSlug: string | null,
-  lessonContext: { lessonId: string; currentStepIndex: number } | null
+  screenContext: ChatScreenContext | null
 ): Promise<{ assistantMessage: ChatMessageRow } | { error: string }> {
   const trimmed = message.trim();
   if (!trimmed) return { error: "Bitte eine Frage eingeben." };
@@ -93,11 +103,11 @@ export async function sendChatMessage(
   // the tutor can explain the actual part the student is looking at
   // instead of just knowing the topic's name.
   let lessonInfo: LessonInfo | null = null;
-  if (lessonContext) {
+  if (screenContext?.kind === "lesson") {
     const { data: lesson } = await admin
       .from("lessons")
       .select("title, topic_id, storyboard_json, script_json")
-      .eq("id", lessonContext.lessonId)
+      .eq("id", screenContext.lessonId)
       .maybeSingle();
     if (lesson) {
       const storyboard = lesson.storyboard_json as { narrationRef: string }[];
@@ -107,7 +117,7 @@ export async function sendChatMessage(
       lessonInfo = {
         title: lesson.title,
         orderedNarrations,
-        currentStepIndex: Math.min(lessonContext.currentStepIndex, orderedNarrations.length - 1),
+        currentStepIndex: Math.min(screenContext.currentStepIndex, orderedNarrations.length - 1),
       };
       if (!topicTitle) {
         const { data: topic } = await admin.from("topics").select("title").eq("id", lesson.topic_id).maybeSingle();
@@ -115,6 +125,19 @@ export async function sendChatMessage(
       }
     }
   }
+
+  // The exact question on screen (and whether the student's last attempt
+  // was right or wrong), straight from the client -- it already rendered
+  // this exact text, so there's nothing to re-derive server-side.
+  const exerciseInfo: ExerciseInfo | null =
+    screenContext?.kind === "exercise"
+      ? {
+          questionPrompt: screenContext.questionPrompt,
+          questionFormat: screenContext.questionFormat,
+          lessonSummaryBullets: screenContext.lessonSummaryBullets,
+          feedback: screenContext.feedback,
+        }
+      : null;
 
   const { data: recentRows } = await admin
     .from("chat_messages")
@@ -142,6 +165,7 @@ export async function sendChatMessage(
       schoolTrackLabel: TRACK_LABEL[student.school_track] ?? student.school_track,
       topicTitle,
       lessonInfo,
+      exerciseInfo,
     });
   } catch (err) {
     return { error: err instanceof Error ? err.message : "Der Tutor ist gerade nicht erreichbar." };

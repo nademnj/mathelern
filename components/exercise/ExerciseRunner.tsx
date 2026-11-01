@@ -20,6 +20,7 @@ import { MasterySignalToast } from "./MasterySignalToast";
 import { Button } from "@/components/ui/button";
 import { Progress } from "@/components/ui/progress";
 import { Card, CardContent } from "@/components/ui/card";
+import { useCurrentScreen } from "@/lib/chat/CurrentScreenContext";
 
 type Status = "loading" | "loadingAi" | "active" | "submitting" | "feedback" | "mastered" | "error";
 type ExplainStatus = "idle" | "loading" | "loaded" | "error";
@@ -62,6 +63,28 @@ export function ExerciseRunner({
   const [explainStatus, setExplainStatus] = useState<ExplainStatus>("idle");
   const [explainedSteps, setExplainedSteps] = useState<ExplainedStep[] | null>(null);
   const startedAt = useRef(Date.now());
+  const { setCurrentScreen } = useCurrentScreen();
+
+  // Keep the chat widget aware of exactly which question is on screen, and
+  // whether the student just got it right or wrong -- without this, the
+  // tutor only knows the topic's name, not what's actually being asked.
+  useEffect(() => {
+    if (!exercise) return;
+    setCurrentScreen({
+      kind: "exercise",
+      topicSlug,
+      topicTitle,
+      questionPrompt: exercise.question.prompt,
+      questionFormat: exercise.question.format,
+      lessonSummaryBullets: lessonSummary?.bullets ?? null,
+      feedback: feedback ? { isCorrect: feedback.isCorrect, solutionSteps: feedback.solutionSteps } : null,
+    });
+  }, [exercise, feedback, topicSlug, topicTitle, lessonSummary, setCurrentScreen]);
+
+  useEffect(() => {
+    return () => setCurrentScreen(null);
+    // eslint-disable-next-line react-hooks/exhaustive-deps -- unmount-only cleanup
+  }, []);
 
   async function loadNext() {
     setStatus("loading");

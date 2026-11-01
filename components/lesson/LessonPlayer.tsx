@@ -8,7 +8,7 @@ import { ScriptCaptionBar } from "@/components/lesson/ScriptCaptionBar";
 import { Button } from "@/components/ui/button";
 import { Progress } from "@/components/ui/progress";
 import { markLessonStarted, markLessonCompleted } from "@/actions/progress";
-import { useCurrentLesson } from "@/lib/chat/CurrentLessonContext";
+import { useCurrentScreen } from "@/lib/chat/CurrentScreenContext";
 import { speakGerman, stopSpeaking } from "@/lib/chat/speak";
 
 interface LessonPlayerProps {
@@ -26,7 +26,7 @@ export function LessonPlayer({ lessonId, title, storyboard, script, videoUrl, ne
   const [completing, setCompleting] = useState(false);
   const [voiceOn, setVoiceOn] = useState(true);
   const startedAt = useRef(Date.now());
-  const { setCurrentLesson } = useCurrentLesson();
+  const { setCurrentScreen } = useCurrentScreen();
 
   useEffect(() => {
     markLessonStarted(lessonId);
@@ -34,12 +34,12 @@ export function LessonPlayer({ lessonId, title, storyboard, script, videoUrl, ne
 
   // Keep the chat widget aware of exactly which step is on screen.
   useEffect(() => {
-    setCurrentLesson({ lessonId, lessonTitle: title, currentStepIndex: index });
-  }, [lessonId, title, index, setCurrentLesson]);
+    setCurrentScreen({ kind: "lesson", lessonId, lessonTitle: title, currentStepIndex: index });
+  }, [lessonId, title, index, setCurrentScreen]);
 
   useEffect(() => {
     return () => {
-      setCurrentLesson(null);
+      setCurrentScreen(null);
       stopSpeaking();
     };
     // eslint-disable-next-line react-hooks/exhaustive-deps -- unmount-only cleanup

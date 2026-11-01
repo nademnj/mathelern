@@ -3,7 +3,7 @@ import { requireStudent } from "@/lib/auth/roles";
 import { logout } from "@/actions/auth";
 import { Button } from "@/components/ui/button";
 import { ChatWidget } from "@/components/chat/ChatWidget";
-import { CurrentLessonProvider } from "@/lib/chat/CurrentLessonContext";
+import { CurrentScreenProvider } from "@/lib/chat/CurrentScreenContext";
 
 const TRACK_LABEL: Record<string, string> = {
   mittelschule_m: "Mittelschule M-Zug",
@@ -34,10 +34,10 @@ export default async function StudentLayout({ children }: { children: React.Reac
           </form>
         </nav>
       </header>
-      <CurrentLessonProvider>
+      <CurrentScreenProvider>
         <main className="flex-1 px-6 py-8">{children}</main>
         <ChatWidget />
-      </CurrentLessonProvider>
+      </CurrentScreenProvider>
     </div>
   );
 }

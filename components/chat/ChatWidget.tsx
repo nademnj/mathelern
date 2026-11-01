@@ -6,16 +6,16 @@ import { getChatHistory, sendChatMessage, type ChatMessageRow } from "@/actions/
 import { ChatMessageBubble } from "./ChatMessageBubble";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { useCurrentLesson } from "@/lib/chat/CurrentLessonContext";
+import { useCurrentScreen } from "@/lib/chat/CurrentScreenContext";
 import { speakGerman } from "@/lib/chat/speak";
 
 export function ChatWidget() {
   const pathname = usePathname();
-  const { currentLesson } = useCurrentLesson();
+  const { currentScreen } = useCurrentScreen();
   // Only /topic/:slug and /exercise/:slug carry the topic slug directly in
   // the URL -- good enough context for "what is the student looking at"
-  // on those pages. On a lesson page, currentLesson (set by LessonPlayer)
-  // carries the richer lesson+step context instead.
+  // on those pages. On a lesson or exercise page, currentScreen (set by
+  // LessonPlayer / ExerciseRunner) carries the richer on-screen context.
   const topicSlug = useMemo(() => {
     const match = pathname.match(/^\/(topic|exercise)\/([^/]+)/);
     return match ? match[2] : null;
@@ -60,13 +60,19 @@ export function ChatWidget() {
       },
     ]);
     setPending(true);
-    const result = await sendChatMessage(
-      text,
-      topicSlug,
-      currentLesson
-        ? { lessonId: currentLesson.lessonId, currentStepIndex: currentLesson.currentStepIndex }
-        : null
-    );
+    const screenContext =
+      currentScreen?.kind === "lesson"
+        ? { kind: "lesson" as const, lessonId: currentScreen.lessonId, currentStepIndex: currentScreen.currentStepIndex }
+        : currentScreen?.kind === "exercise"
+          ? {
+              kind: "exercise" as const,
+              questionPrompt: currentScreen.questionPrompt,
+              questionFormat: currentScreen.questionFormat,
+              lessonSummaryBullets: currentScreen.lessonSummaryBullets,
+              feedback: currentScreen.feedback,
+            }
+          : null;
+    const result = await sendChatMessage(text, topicSlug, screenContext);
     setPending(false);
     if ("error" in result) {
       setError(result.error);
@@ -103,9 +109,14 @@ export function ChatWidget() {
                 {voiceOn ? "🔊" : "🔇"}
               </button>
             </div>
-            {currentLesson && (
+            {currentScreen?.kind === "lesson" && (
               <p className="mt-0.5 text-xs text-muted-foreground">
-                📍 sieht gerade: {currentLesson.lessonTitle} (Schritt {currentLesson.currentStepIndex + 1})
+                📍 sieht gerade: {currentScreen.lessonTitle} (Schritt {currentScreen.currentStepIndex + 1})
+              </p>
+            )}
+            {currentScreen?.kind === "exercise" && (
+              <p className="mt-0.5 text-xs text-muted-foreground">
+                📍 sieht gerade: {currentScreen.topicTitle} – „{currentScreen.questionPrompt}“
               </p>
             )}
           </div>
