@@ -1,0 +1,525 @@
+{
+  "id": "jagdrecht",
+  "order": 6,
+  "titleDe": "Rechtsvorschriften: Jagd-, Tierschutz-, Naturschutz- und Landschaftspflegerecht",
+  "titleEn": "Law: hunting, animal welfare, nature conservation and landscape law",
+  "summaryDe": "Bundesjagdgesetz und Landesjagdgesetz, Jagdbezirke und Jagdpacht, Jagdschein, sachliche Verbote, Jagd- und Schonzeiten, Tierschutz- und Naturschutzrecht.",
+  "summaryEn": "Federal and state hunting acts, hunting districts and leases, the hunting licence, prohibited practices, open and closed seasons, animal welfare and nature conservation law.",
+  "researchTopics": [
+    "Landesjagdgesetz Besonderheiten",
+    "Jagdschutz Befugnisse Jagdaufseher",
+    "Wildfolge Landesrecht",
+    "Bundesnaturschutzgesetz besonders geschützte Arten Jäger",
+    "Landesjagdzeitenverordnung"
+  ],
+  "lessons": [
+    {
+      "id": "jagdrecht-grundlagen",
+      "titleDe": "Jagdrecht und Reviersystem",
+      "titleEn": "The hunting right and the hunting-district system",
+      "paragraphs": [
+        {
+          "de": "Das Jagdrecht ist die ausschließliche Befugnis, auf einem bestimmten Gebiet wildlebende Tiere, die dem Jagdrecht unterliegen, (Wild) zu hegen, auf sie die Jagd auszuüben und sie sich anzueignen. Mit dem Jagdrecht ist die Pflicht zur Hege verbunden.",
+          "en": "The hunting right is the exclusive authority, in a given area, to manage wild animals that are subject to hunting law (game), to hunt them and to take possession of them. The hunting right comes with the duty of game management (Hege). [§ 1(1) BJagdG]",
+          "quote": true
+        },
+        {
+          "de": "Die Jagdausübung erstreckt sich auf das Aufsuchen, Nachstellen, Erlegen und Fangen von Wild. Bei der Ausübung der Jagd sind die allgemein anerkannten Grundsätze deutscher Waidgerechtigkeit zu beachten (§ 1 Abs. 3 und 4 BJagdG).",
+          "en": "Hunting covers searching for, pursuing, killing and catching game. When hunting, the generally recognised principles of German hunting ethics (Waidgerechtigkeit) must be observed (§ 1(3) and (4) BJagdG)."
+        },
+        {
+          "de": "Das Jagdrecht steht dem Eigentümer auf seinem Grund und Boden zu und ist untrennbar mit dem Eigentum verbunden (§ 3 BJagdG). Ausüben darf es der Eigentümer aber nur in einem Jagdbezirk. Deutschland hat also ein Reviersystem: Jagen darf man nur in Jagdbezirken, und nur, wer dort jagdausübungsberechtigt ist oder eine Erlaubnis hat.",
+          "en": "The hunting right belongs to the owner of the land and is inseparably linked to ownership (§ 3 BJagdG). But the owner may only exercise it within a hunting district (Jagdbezirk). So Germany has a district system: you may hunt only in hunting districts, and only if you are entitled to hunt there or have permission."
+        },
+        {
+          "de": "Ein Eigenjagdbezirk entsteht, wenn zusammenhängende land-, forst- oder fischereiwirtschaftlich nutzbare Flächen desselben Eigentümers mindestens 75 Hektar umfassen (§ 7 BJagdG). Alle übrigen Flächen einer Gemeinde bilden einen gemeinschaftlichen Jagdbezirk, wenn sie zusammen mindestens 150 Hektar groß sind (§ 8 BJagdG). Die Länder können die Mindestgrößen anders festsetzen.",
+          "en": "A private hunting district (Eigenjagdbezirk) exists when connected land usable for farming, forestry or fishing belonging to the same owner covers at least 75 hectares (§ 7 BJagdG). All other land in a municipality forms a communal hunting district (gemeinschaftlicher Jagdbezirk) if it totals at least 150 hectares (§ 8 BJagdG). The states may set different minimum sizes."
+        },
+        {
+          "de": "Die Eigentümer der Flächen eines gemeinschaftlichen Jagdbezirks bilden die Jagdgenossenschaft. Sie verpachtet die Jagd in der Regel. Die Pachtdauer soll mindestens neun Jahre betragen; die Länder können eine längere Mindestpachtzeit festsetzen (§ 11 BJagdG). Pächter kann nur sein, wer einen Jahresjagdschein besitzt und schon vorher einen solchen drei Jahre lang besessen hat.",
+          "en": "The owners of the land in a communal hunting district form the hunting cooperative (Jagdgenossenschaft). It usually leases out the hunting. The lease should run for at least nine years; the states may set a longer minimum (§ 11 BJagdG). Only someone who holds an annual hunting licence and has held one for three years before may become a leaseholder."
+        },
+        {
+          "de": "Das Jagdjahr beginnt am 1. April und endet am 31. März (§ 11 Abs. 4 BJagdG).",
+          "en": "The hunting year starts on 1 April and ends on 31 March (§ 11(4) BJagdG)."
+        }
+      ],
+      "keyTerms": [
+        {
+          "de": "Jagdrecht",
+          "en": "hunting right",
+          "note": "Tied to land ownership."
+        },
+        {
+          "de": "Jagdausübungsrecht",
+          "en": "right to exercise hunting",
+          "note": "Only within a hunting district."
+        },
+        {
+          "de": "Waidgerechtigkeit",
+          "en": "hunting ethics / fair chase"
+        },
+        {
+          "de": "Reviersystem",
+          "en": "hunting-district system"
+        },
+        {
+          "de": "Eigenjagdbezirk",
+          "en": "private hunting district",
+          "note": "≥ 75 ha of one owner."
+        },
+        {
+          "de": "gemeinschaftlicher Jagdbezirk",
+          "en": "communal hunting district",
+          "note": "≥ 150 ha."
+        },
+        {
+          "de": "Jagdgenossenschaft",
+          "en": "hunting cooperative"
+        },
+        {
+          "de": "Jagdpacht",
+          "en": "hunting lease",
+          "note": "At least 9 years."
+        },
+        {
+          "de": "Jagdjahr",
+          "en": "hunting year",
+          "note": "1 April – 31 March."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Bundesjagdgesetz (BJagdG) – gesetze-im-internet.de",
+          "url": "https://www.gesetze-im-internet.de/bjagdg/"
+        }
+      ],
+      "origin": "seed",
+      "updatedAt": "2026-11-12"
+    },
+    {
+      "id": "jagdschein-und-verbote",
+      "titleDe": "Jagdschein, sachliche Verbote und Schonzeiten",
+      "titleEn": "Hunting licence, prohibited practices and closed seasons",
+      "paragraphs": [
+        {
+          "de": "Wer die Jagd ausübt, muss einen auf seinen Namen lautenden Jagdschein mit sich führen (§ 15 BJagdG). Der Jahresjagdschein gilt für höchstens drei Jagdjahre, der Tagesjagdschein für 14 aufeinanderfolgende Tage. Voraussetzung für den ersten Jagdschein ist die bestandene Jägerprüfung.",
+          "en": "Anyone hunting must carry a hunting licence (Jagdschein) in their own name (§ 15 BJagdG). The annual licence (Jahresjagdschein) is valid for at most three hunting years, the day licence (Tagesjagdschein) for 14 consecutive days. Passing the hunting exam is required for the first licence."
+        },
+        {
+          "de": "Der Jagdschein wird unter anderem versagt, wenn keine ausreichende Jagdhaftpflichtversicherung nachgewiesen wird – mindestens 500.000 Euro für Personenschäden und 50.000 Euro für Sachschäden (§ 17 BJagdG). Jugendliche ab 16 Jahren können einen Jugendjagdschein erhalten; mit ihm dürfen sie nur in Begleitung eines Erwachsenen mit Jagdschein jagen und nicht an Gesellschaftsjagden teilnehmen (§ 16 BJagdG).",
+          "en": "The licence is refused, among other reasons, if adequate hunting liability insurance is not proven — at least €500,000 for personal injury and €50,000 for property damage (§ 17 BJagdG). Young people aged 16 or over can get a youth hunting licence; with it they may only hunt accompanied by an adult licence holder and may not take part in group hunts (§ 16 BJagdG)."
+        },
+        {
+          "de": "§ 19 BJagdG enthält die sachlichen Verbote. Verboten ist zum Beispiel, Schalenwild sowie Auer-, Birk- und Rackelwild zur Nachtzeit zu erlegen – ausgenommen ist Schwarzwild. Als Nachtzeit gilt die Zeit von eineinhalb Stunden nach Sonnenuntergang bis eineinhalb Stunden vor Sonnenaufgang. Verboten ist auch, künstliche Lichtquellen und Nachtzielgeräte zu verwenden, soweit das Landesrecht nichts anderes zulässt, sowie Wild aus Kraftfahrzeugen zu beschießen.",
+          "en": "§ 19 BJagdG lists the prohibited practices. It is forbidden, for example, to kill cloven-hoofed game and capercaillie, black grouse and their hybrid at night — wild boar is excepted. Night is the time from one and a half hours after sunset to one and a half hours before sunrise. It is also forbidden to use artificial light sources and night-sighting devices unless state law allows them, and to shoot game from motor vehicles."
+        },
+        {
+          "de": "Die Jagdzeiten legt die Bundesjagdzeitenverordnung fest; die Länder können sie abkürzen oder aufheben und teilweise eigene Jagdzeiten bestimmen. Außerhalb der Jagdzeit ist das Wild mit der Jagd zu verschonen (Schonzeit). Unabhängig von der Jagdzeit dürfen nach § 22 Abs. 4 BJagdG in den Setz- und Brutzeiten die für die Aufzucht notwendigen Elterntiere bis zum Selbständigwerden der Jungtiere nicht bejagt werden.",
+          "en": "Open seasons are set by the federal hunting-season regulation; the states can shorten or cancel them and partly set their own seasons. Outside the open season game must be left alone (closed season, Schonzeit). Regardless of the open season, § 22(4) BJagdG forbids hunting parent animals needed to raise young during the birth and breeding season until the young are independent."
+        },
+        {
+          "de": "Neben dem Jagdrecht gelten das Tierschutzgesetz – niemand darf einem Tier ohne vernünftigen Grund Schmerzen, Leiden oder Schäden zufügen (§ 1 TierSchG) – und das Naturschutzrecht, zum Beispiel der Schutz von Brut- und Nistplätzen und besonders geschützter Arten nach dem Bundesnaturschutzgesetz.",
+          "en": "Besides hunting law, the Animal Welfare Act applies — nobody may cause an animal pain, suffering or harm without good reason (§ 1 TierSchG) — and nature conservation law, for example the protection of breeding and nesting sites and specially protected species under the Federal Nature Conservation Act."
+        }
+      ],
+      "keyTerms": [
+        {
+          "de": "Jahresjagdschein",
+          "en": "annual hunting licence",
+          "note": "Max. three hunting years."
+        },
+        {
+          "de": "Tagesjagdschein",
+          "en": "day hunting licence",
+          "note": "14 consecutive days."
+        },
+        {
+          "de": "Jugendjagdschein",
+          "en": "youth hunting licence",
+          "note": "From 16, accompanied only."
+        },
+        {
+          "de": "Jagdhaftpflichtversicherung",
+          "en": "hunting liability insurance",
+          "note": "€500,000 / €50,000 minimum."
+        },
+        {
+          "de": "sachliche Verbote",
+          "en": "prohibited hunting practices",
+          "note": "§ 19 BJagdG."
+        },
+        {
+          "de": "Nachtzeit",
+          "en": "night (legal definition)",
+          "note": "1.5 h after sunset to 1.5 h before sunrise."
+        },
+        {
+          "de": "Schonzeit",
+          "en": "closed season"
+        },
+        {
+          "de": "Setz- und Brutzeit",
+          "en": "birth and breeding season"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Bundesjagdgesetz (BJagdG) – gesetze-im-internet.de",
+          "url": "https://www.gesetze-im-internet.de/bjagdg/"
+        },
+        {
+          "title": "Verordnung über die Jagdzeiten (JagdzeitV) – gesetze-im-internet.de",
+          "url": "https://www.gesetze-im-internet.de/jagdzeitv_1977/"
+        },
+        {
+          "title": "Tierschutzgesetz (TierSchG) – gesetze-im-internet.de",
+          "url": "https://www.gesetze-im-internet.de/tierschg/"
+        },
+        {
+          "title": "Bundesnaturschutzgesetz (BNatSchG) – gesetze-im-internet.de",
+          "url": "https://www.gesetze-im-internet.de/bnatschg_2009/"
+        }
+      ],
+      "origin": "seed",
+      "updatedAt": "2026-11-12"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "recht-jagdrecht-def",
+      "lessonId": "jagdrecht-grundlagen",
+      "questionDe": "Was umfasst das Jagdrecht nach § 1 BJagdG?",
+      "questionEn": "What does the hunting right comprise under § 1 BJagdG?",
+      "options": [
+        {
+          "de": "Wild zu hegen",
+          "en": "To manage game"
+        },
+        {
+          "de": "Auf Wild die Jagd auszuüben",
+          "en": "To hunt game"
+        },
+        {
+          "de": "Sich Wild anzueignen",
+          "en": "To take possession of game"
+        },
+        {
+          "de": "Wild auf fremden Flächen außerhalb von Jagdbezirken zu verfolgen",
+          "en": "To pursue game on others' land outside hunting districts"
+        }
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanationDe": "Hegen, bejagen und aneignen – auf einem bestimmten Gebiet. Mit dem Jagdrecht ist die Hegepflicht verbunden.",
+      "explanationEn": "Manage, hunt and appropriate — in a given area. The duty of game management comes with the right.",
+      "origin": "seed"
+    },
+    {
+      "id": "recht-jagdrecht-eigentum",
+      "lessonId": "jagdrecht-grundlagen",
+      "questionDe": "Wem steht das Jagdrecht zu?",
+      "questionEn": "Who holds the hunting right?",
+      "options": [
+        {
+          "de": "Dem Eigentümer auf seinem Grund und Boden",
+          "en": "The owner on their own land"
+        },
+        {
+          "de": "Dem Staat",
+          "en": "The state"
+        },
+        {
+          "de": "Jedem Inhaber eines Jagdscheins",
+          "en": "Every licence holder"
+        },
+        {
+          "de": "Dem Landesjagdverband",
+          "en": "The state hunting association"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Das Jagdrecht ist untrennbar mit dem Eigentum an Grund und Boden verbunden (§ 3 BJagdG).",
+      "explanationEn": "The hunting right is inseparably linked to land ownership (§ 3 BJagdG).",
+      "origin": "seed"
+    },
+    {
+      "id": "recht-eigenjagd",
+      "lessonId": "jagdrecht-grundlagen",
+      "questionDe": "Wie groß muss ein Eigenjagdbezirk nach Bundesrecht mindestens sein?",
+      "questionEn": "What is the federal minimum size of a private hunting district?",
+      "options": [
+        {
+          "de": "75 ha",
+          "en": "75 ha"
+        },
+        {
+          "de": "150 ha",
+          "en": "150 ha"
+        },
+        {
+          "de": "250 ha",
+          "en": "250 ha"
+        },
+        {
+          "de": "50 ha",
+          "en": "50 ha"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "75 ha zusammenhängende Fläche eines Eigentümers (§ 7); gemeinschaftlicher Jagdbezirk 150 ha (§ 8). Länder können abweichen.",
+      "explanationEn": "75 ha of connected land of one owner (§ 7); communal district 150 ha (§ 8). States may differ.",
+      "origin": "seed"
+    },
+    {
+      "id": "recht-jagdjahr",
+      "lessonId": "jagdrecht-grundlagen",
+      "questionDe": "Wann beginnt das Jagdjahr?",
+      "questionEn": "When does the hunting year start?",
+      "options": [
+        {
+          "de": "1. April",
+          "en": "1 April"
+        },
+        {
+          "de": "1. Januar",
+          "en": "1 January"
+        },
+        {
+          "de": "1. Mai",
+          "en": "1 May"
+        },
+        {
+          "de": "1. Oktober",
+          "en": "1 October"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Das Jagdjahr läuft vom 1. April bis 31. März.",
+      "explanationEn": "The hunting year runs from 1 April to 31 March.",
+      "origin": "seed"
+    },
+    {
+      "id": "recht-pachtdauer",
+      "lessonId": "jagdrecht-grundlagen",
+      "questionDe": "Wie lange soll die Jagdpacht nach § 11 BJagdG mindestens dauern?",
+      "questionEn": "What is the minimum lease term under § 11 BJagdG?",
+      "options": [
+        {
+          "de": "9 Jahre",
+          "en": "9 years"
+        },
+        {
+          "de": "3 Jahre",
+          "en": "3 years"
+        },
+        {
+          "de": "12 Jahre",
+          "en": "12 years"
+        },
+        {
+          "de": "1 Jagdjahr",
+          "en": "1 hunting year"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Mindestens neun Jahre; die Länder können mehr vorschreiben.",
+      "explanationEn": "At least nine years; states may require more.",
+      "origin": "seed"
+    },
+    {
+      "id": "recht-jahresjagdschein",
+      "lessonId": "jagdschein-und-verbote",
+      "questionDe": "Für wie lange kann ein Jahresjagdschein höchstens erteilt werden?",
+      "questionEn": "For how long at most can an annual hunting licence be issued?",
+      "options": [
+        {
+          "de": "Drei Jagdjahre",
+          "en": "Three hunting years"
+        },
+        {
+          "de": "Ein Kalenderjahr",
+          "en": "One calendar year"
+        },
+        {
+          "de": "Fünf Jahre",
+          "en": "Five years"
+        },
+        {
+          "de": "Unbefristet",
+          "en": "Indefinitely"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "§ 15 BJagdG: höchstens drei Jagdjahre. Der Tagesjagdschein gilt 14 Tage.",
+      "explanationEn": "§ 15 BJagdG: at most three hunting years. The day licence is valid for 14 days.",
+      "origin": "seed"
+    },
+    {
+      "id": "recht-versicherung",
+      "lessonId": "jagdschein-und-verbote",
+      "questionDe": "Welche Mindestdeckung muss die Jagdhaftpflichtversicherung haben?",
+      "questionEn": "What minimum cover must hunting liability insurance have?",
+      "options": [
+        {
+          "de": "500.000 € für Personenschäden",
+          "en": "€500,000 for personal injury"
+        },
+        {
+          "de": "50.000 € für Sachschäden",
+          "en": "€50,000 for property damage"
+        },
+        {
+          "de": "1 Mio. € pauschal",
+          "en": "€1 million flat"
+        },
+        {
+          "de": "Keine, die Versicherung ist freiwillig",
+          "en": "None, insurance is voluntary"
+        }
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanationDe": "§ 17 BJagdG: mindestens 500.000 € Personenschäden und 50.000 € Sachschäden.",
+      "explanationEn": "§ 17 BJagdG: at least €500,000 personal injury and €50,000 property damage.",
+      "origin": "seed"
+    },
+    {
+      "id": "recht-nachtzeit",
+      "lessonId": "jagdschein-und-verbote",
+      "questionDe": "Wie ist die Nachtzeit im Sinne des § 19 BJagdG definiert?",
+      "questionEn": "How is night defined under § 19 BJagdG?",
+      "options": [
+        {
+          "de": "1½ Stunden nach Sonnenuntergang bis 1½ Stunden vor Sonnenaufgang",
+          "en": "1½ hours after sunset to 1½ hours before sunrise"
+        },
+        {
+          "de": "Von Sonnenuntergang bis Sonnenaufgang",
+          "en": "From sunset to sunrise"
+        },
+        {
+          "de": "22 Uhr bis 6 Uhr",
+          "en": "10 pm to 6 am"
+        },
+        {
+          "de": "1 Stunde nach Sonnenuntergang bis 1 Stunde vor Sonnenaufgang",
+          "en": "1 hour after sunset to 1 hour before sunrise"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Nachtzeit: eineinhalb Stunden nach Sonnenuntergang bis eineinhalb Stunden vor Sonnenaufgang.",
+      "explanationEn": "Night: one and a half hours after sunset to one and a half hours before sunrise.",
+      "origin": "seed"
+    },
+    {
+      "id": "recht-nachtjagd-arten",
+      "lessonId": "jagdschein-und-verbote",
+      "questionDe": "Welche Wildart darf nach § 19 BJagdG auch zur Nachtzeit erlegt werden?",
+      "questionEn": "Which species may also be killed at night under § 19 BJagdG?",
+      "options": [
+        {
+          "de": "Schwarzwild",
+          "en": "Wild boar"
+        },
+        {
+          "de": "Rehwild",
+          "en": "Roe deer"
+        },
+        {
+          "de": "Rotwild",
+          "en": "Red deer"
+        },
+        {
+          "de": "Auerwild",
+          "en": "Capercaillie"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Das Nachtjagdverbot gilt für Schalenwild außer Schwarzwild sowie Auer-, Birk- und Rackelwild.",
+      "explanationEn": "The night ban covers cloven-hoofed game except wild boar, plus capercaillie, black grouse and their hybrid.",
+      "origin": "seed"
+    },
+    {
+      "id": "recht-muttertierschutz",
+      "lessonId": "jagdschein-und-verbote",
+      "questionDe": "Eine Ricke führt im Oktober noch zwei Kitze. Die Jagdzeit für Ricken ist offen. Darf sie erlegt werden?",
+      "questionEn": "In October a doe is still leading two kids. The doe season is open. May she be shot?",
+      "options": [
+        {
+          "de": "Nein, Muttertierschutz nach § 22 Abs. 4 BJagdG – zuerst die Kitze",
+          "en": "No — protection of mothers under § 22(4); take the kids first"
+        },
+        {
+          "de": "Ja, die Jagdzeit ist offen",
+          "en": "Yes, the season is open"
+        },
+        {
+          "de": "Ja, wenn danach sofort die Kitze erlegt werden",
+          "en": "Yes, if the kids are shot right afterwards"
+        },
+        {
+          "de": "Nur mit Genehmigung der Behörde",
+          "en": "Only with official permission"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Für die Aufzucht notwendige Elterntiere sind bis zum Selbständigwerden der Jungen geschützt. Waidgerecht: zuerst die Kitze, dann die Ricke.",
+      "explanationEn": "Parent animals needed for rearing are protected until the young are independent. Ethical order: kids first, then the doe.",
+      "origin": "seed"
+    },
+    {
+      "id": "recht-jugendjagdschein",
+      "lessonId": "jagdschein-und-verbote",
+      "questionDe": "Was gilt für den Jugendjagdschein?",
+      "questionEn": "What applies to the youth hunting licence?",
+      "options": [
+        {
+          "de": "Ab 16 Jahren möglich",
+          "en": "Available from age 16"
+        },
+        {
+          "de": "Jagd nur in Begleitung eines Erwachsenen mit Jagdschein",
+          "en": "Hunting only accompanied by an adult licence holder"
+        },
+        {
+          "de": "Keine Teilnahme an Gesellschaftsjagden",
+          "en": "No participation in group hunts"
+        },
+        {
+          "de": "Berechtigt zur Jagdpacht",
+          "en": "Entitles the holder to lease a hunting ground"
+        }
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanationDe": "§ 16 BJagdG: ab 16 Jahren, nur in Begleitung, keine Gesellschaftsjagden; Pächter kann nur ein langjähriger Jahresjagdscheininhaber sein.",
+      "explanationEn": "§ 16 BJagdG: from 16, accompanied only, no group hunts; only a long-time annual licence holder can lease.",
+      "origin": "seed"
+    }
+  ]
+}

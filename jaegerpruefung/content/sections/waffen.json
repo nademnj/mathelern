@@ -1,0 +1,471 @@
+{
+  "id": "waffen",
+  "order": 3,
+  "titleDe": "Waffenrecht, Waffentechnik und Führen von Jagdwaffen",
+  "titleEn": "Firearms law, firearms technology and handling hunting guns",
+  "summaryDe": "Jagdliche Waffen und Munition, Ballistik, sachliche Verbote nach § 19 BJagdG, Waffengesetz (Erwerb, Führen, Aufbewahrung) und sichere Handhabung.",
+  "summaryEn": "Hunting guns and ammunition, ballistics, the prohibitions of § 19 BJagdG, the Weapons Act (acquiring, carrying, storage) and safe handling.",
+  "researchTopics": [
+    "Ballistik Jagdgeschosse Deformation Zerlegung",
+    "Zielfernrohr Absehen Einschießen",
+    "bleifreie Munition Landesrecht",
+    "Waffengesetz Jäger Kurzwaffen Bedürfnis",
+    "Schießprüfung Jägerprüfung Ablauf"
+  ],
+  "lessons": [
+    {
+      "id": "jagdwaffen-und-munition",
+      "titleDe": "Jagdwaffen und Munition",
+      "titleEn": "Hunting firearms and ammunition",
+      "paragraphs": [
+        {
+          "de": "Jagdliche Langwaffen sind Büchsen (gezogener Lauf, verschießen Einzelgeschosse), Flinten (glatter Lauf, verschießen vor allem Schrot) und kombinierte Waffen. Zu den kombinierten Waffen gehören zum Beispiel die Bockbüchsflinte (ein Büchsen- und ein Flintenlauf übereinander) und der Drilling (zwei Flintenläufe und ein Büchsenlauf).",
+          "en": "Hunting long guns are rifles (Büchsen — rifled barrel, firing single bullets), shotguns (Flinten — smooth bore, mainly firing shot) and combination guns. Combination guns include, for example, the over-and-under rifle-shotgun (Bockbüchsflinte — one rifle and one shotgun barrel on top of each other) and the drilling (Drilling — two shotgun barrels and one rifle barrel)."
+        },
+        {
+          "de": "Der Lauf einer Büchse hat Züge und Felder, die dem Geschoss einen Drall geben und es dadurch stabilisieren. Das Kaliber gibt den Laufinnendurchmesser an, zum Beispiel 7 × 64 (7 mm Kaliber, 64 mm Hülsenlänge) oder .308 Win. Bei Flinten wird das Kaliber traditionell als Zahl angegeben, etwa Kaliber 12 oder 20 – je größer die Zahl, desto enger der Lauf.",
+          "en": "A rifle barrel has grooves and lands (Züge und Felder) that spin the bullet and so stabilise it. The calibre gives the bore diameter, for example 7 × 64 (7 mm calibre, 64 mm case length) or .308 Win. Shotgun calibres are traditionally given as a gauge number such as 12 or 20 — the larger the number, the narrower the barrel."
+        },
+        {
+          "de": "§ 19 BJagdG verbietet unter anderem, mit Schrot, Posten, gehacktem Blei, Bolzen oder Pfeilen auf Schalenwild zu schießen – auch nicht als Fangschuss. Auf Rehwild dürfen nur Büchsenpatronen verwendet werden, deren Auftreffenergie auf 100 m (E100) mindestens 1.000 Joule beträgt. Auf alles übrige Schalenwild ist ein Kaliber von mindestens 6,5 mm mit einer E100 von mindestens 2.000 Joule vorgeschrieben.",
+          "en": "§ 19 BJagdG prohibits, among other things, shooting cloven-hoofed game with shot, buckshot, chopped lead, bolts or arrows — not even as a finishing shot. For roe deer only rifle cartridges with an impact energy at 100 m (E100) of at least 1,000 joules may be used. For all other cloven-hoofed game a calibre of at least 6.5 mm with an E100 of at least 2,000 joules is required."
+        },
+        {
+          "de": "Pistolen und Revolver dürfen auf Wild grundsätzlich nicht verwendet werden – außer bei der Bau- und Fallenjagd und für Fangschüsse, wenn die Mündungsenergie mindestens 200 Joule beträgt. Mit halbautomatischen Waffen, deren Magazin mehr als zwei Patronen aufnehmen kann, darf nicht auf Wild geschossen werden.",
+          "en": "Pistols and revolvers must generally not be used on game — except in earth-dog and trap hunting and for finishing shots (Fangschuss), provided the muzzle energy is at least 200 joules. Semi-automatic guns whose magazine holds more than two cartridges must not be used to shoot game."
+        },
+        {
+          "de": "Schrotpatronen werden nach der Schrotgröße gewählt: feineres Schrot (etwa 2,5–3 mm) für Kaninchen und Tauben, gröberes (etwa 3,5–4 mm) für Hase, Fuchs und Gänse. Für die Jagd an Gewässern und in vielen Ländern auch allgemein ist bleifreie Munition vorgeschrieben – die Regeln unterscheiden sich je nach Bundesland.",
+          "en": "Shot cartridges are chosen by shot size: finer shot (about 2.5–3 mm) for rabbits and pigeons, coarser (about 3.5–4 mm) for hare, fox and geese. Lead-free ammunition is required for hunting near water and, in many states, generally — the rules differ between federal states."
+        }
+      ],
+      "keyTerms": [
+        {
+          "de": "Büchse",
+          "en": "rifle",
+          "note": "Rifled barrel, single bullet."
+        },
+        {
+          "de": "Flinte",
+          "en": "shotgun",
+          "note": "Smooth bore, shot."
+        },
+        {
+          "de": "Drilling",
+          "en": "drilling",
+          "note": "Two shotgun barrels + one rifle barrel."
+        },
+        {
+          "de": "Bockbüchsflinte",
+          "en": "over-and-under rifle-shotgun"
+        },
+        {
+          "de": "Züge und Felder",
+          "en": "grooves and lands",
+          "note": "Rifling that spins the bullet."
+        },
+        {
+          "de": "Auftreffenergie (E100)",
+          "en": "impact energy at 100 m",
+          "note": "1,000 J roe deer; 2,000 J other Schalenwild."
+        },
+        {
+          "de": "Fangschuss",
+          "en": "finishing shot",
+          "note": "Shot to kill wounded game."
+        },
+        {
+          "de": "Schrot",
+          "en": "shot (pellets)"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Bundesjagdgesetz (BJagdG) – gesetze-im-internet.de",
+          "url": "https://www.gesetze-im-internet.de/bjagdg/"
+        }
+      ],
+      "origin": "seed",
+      "updatedAt": "2026-11-12"
+    },
+    {
+      "id": "waffenrecht-fuer-jaeger",
+      "titleDe": "Waffenrecht für Jäger",
+      "titleEn": "Firearms law for hunters",
+      "paragraphs": [
+        {
+          "de": "Das Waffengesetz (WaffG) unterscheidet zwischen Erwerb, Besitz, Führen und Schießen. Führen bedeutet, die tatsächliche Gewalt über eine Waffe außerhalb der eigenen Wohnung, Geschäftsräume oder des eigenen befriedeten Besitztums auszuüben.",
+          "en": "The Weapons Act (WaffG) distinguishes between acquiring, possessing, carrying (Führen) and shooting. Carrying means having actual control over a weapon outside your own home, business premises or your own enclosed property."
+        },
+        {
+          "de": "Inhaber eines gültigen Jahresjagdscheins dürfen nach § 13 WaffG Langwaffen ohne vorherige Erlaubnis erwerben. Sie müssen aber binnen zwei Wochen nach dem Erwerb bei der zuständigen Behörde die Eintragung in die Waffenbesitzkarte beantragen. Für Kurzwaffen ist dagegen eine Voreintragung erforderlich; Jäger haben in der Regel ein Bedürfnis für zwei Kurzwaffen.",
+          "en": "Under § 13 WaffG, holders of a valid annual hunting licence may acquire long guns without prior permission. But they must apply to the authority for entry in their firearms ownership licence (Waffenbesitzkarte) within two weeks of the purchase. Handguns, by contrast, need a pre-entry (Voreintragung); hunters generally have a recognised need for two handguns."
+        },
+        {
+          "de": "Jäger dürfen Jagdwaffen zur befugten Jagdausübung, zum Jagdschutz, zur Ausbildung von Jagdhunden und zum Ein- und Anschießen im Revier ohne Waffenschein führen und mit ihnen schießen. Auf dem Weg zum und vom Revier dürfen sie die Waffen nur nicht schussbereit und nicht zugriffsbereit transportieren – zum Beispiel entladen in einem verschlossenen Futteral.",
+          "en": "Hunters may carry hunting guns without a carry permit (Waffenschein) and shoot with them for lawful hunting, game protection, training hunting dogs, and zeroing guns in the hunting ground. On the way to and from the hunting ground they may only transport them not ready to fire and not readily accessible — for example unloaded in a locked case."
+        },
+        {
+          "de": "Waffen und Munition müssen so aufbewahrt werden, dass sie nicht abhandenkommen und Unbefugte sie nicht an sich nehmen können. Erlaubnispflichtige Langwaffen gehören mindestens in ein Sicherheitsbehältnis des Widerstandsgrades 0 nach DIN EN 1143-1. Wie viele Kurzwaffen darin Platz finden dürfen und wie die Munition zu lagern ist, regelt § 13 AWaffV im Einzelnen.",
+          "en": "Firearms and ammunition must be stored so that they cannot be lost and unauthorised people cannot take them. Long guns requiring a permit must be kept at least in a security cabinet of resistance grade 0 according to DIN EN 1143-1. How many handguns it may hold and how ammunition must be stored is set out in detail in § 13 AWaffV."
+        },
+        {
+          "de": "Die Waffenbehörde prüft die Zuverlässigkeit und persönliche Eignung regelmäßig, mindestens alle drei Jahre. Wer gegen die Aufbewahrungspflichten verstößt, riskiert den Widerruf der Erlaubnisse und ein Bußgeld oder sogar eine Strafe.",
+          "en": "The firearms authority checks reliability and personal fitness regularly, at least every three years. Anyone who breaches the storage rules risks having their permits revoked and a fine, or even criminal penalties."
+        }
+      ],
+      "keyTerms": [
+        {
+          "de": "Waffenbesitzkarte (WBK)",
+          "en": "firearms ownership licence"
+        },
+        {
+          "de": "Waffenschein",
+          "en": "firearms carry permit",
+          "note": "Not needed for hunters carrying hunting guns while hunting."
+        },
+        {
+          "de": "Führen",
+          "en": "to carry (a weapon)",
+          "note": "Control over it outside your home/property."
+        },
+        {
+          "de": "Voreintrag",
+          "en": "pre-entry",
+          "note": "Permission to acquire entered beforehand, needed for handguns."
+        },
+        {
+          "de": "zugriffsbereit",
+          "en": "readily accessible",
+          "note": "Can be used within a few seconds."
+        },
+        {
+          "de": "Sicherheitsbehältnis",
+          "en": "security cabinet/safe"
+        },
+        {
+          "de": "Zuverlässigkeit",
+          "en": "reliability",
+          "note": "Legal test for gun owners; § 5 WaffG."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Waffengesetz (WaffG) – gesetze-im-internet.de",
+          "url": "https://www.gesetze-im-internet.de/waffg_2002/"
+        },
+        {
+          "title": "Allgemeine Waffengesetz-Verordnung (AWaffV) § 13 – gesetze-im-internet.de",
+          "url": "https://www.gesetze-im-internet.de/awaffv/__13.html"
+        }
+      ],
+      "origin": "seed",
+      "updatedAt": "2026-11-12"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "waffen-drilling",
+      "lessonId": "jagdwaffen-und-munition",
+      "questionDe": "Woraus besteht ein Drilling?",
+      "questionEn": "What does a drilling consist of?",
+      "options": [
+        {
+          "de": "Zwei Flintenläufe und ein Büchsenlauf",
+          "en": "Two shotgun barrels and one rifle barrel"
+        },
+        {
+          "de": "Drei Büchsenläufe",
+          "en": "Three rifle barrels"
+        },
+        {
+          "de": "Ein Flintenlauf und zwei Büchsenläufe",
+          "en": "One shotgun barrel and two rifle barrels"
+        },
+        {
+          "de": "Drei Flintenläufe",
+          "en": "Three shotgun barrels"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Der klassische Drilling hat zwei Schrotläufe und einen Kugellauf.",
+      "explanationEn": "The classic drilling has two shotgun barrels and one rifle barrel.",
+      "origin": "seed"
+    },
+    {
+      "id": "waffen-reh-energie",
+      "lessonId": "jagdwaffen-und-munition",
+      "questionDe": "Welche Mindestanforderung gilt für Büchsenpatronen auf Rehwild?",
+      "questionEn": "What minimum applies to rifle cartridges for roe deer?",
+      "options": [
+        {
+          "de": "E100 mindestens 1.000 Joule",
+          "en": "E100 at least 1,000 joules"
+        },
+        {
+          "de": "E100 mindestens 2.000 Joule",
+          "en": "E100 at least 2,000 joules"
+        },
+        {
+          "de": "Kaliber mindestens 6,5 mm",
+          "en": "Calibre at least 6.5 mm"
+        },
+        {
+          "de": "Mündungsenergie mindestens 200 Joule",
+          "en": "Muzzle energy at least 200 joules"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Für Rehwild genügt E100 ≥ 1.000 J; die 6,5 mm / 2.000 J gelten für das übrige Schalenwild.",
+      "explanationEn": "For roe deer E100 ≥ 1,000 J; 6.5 mm / 2,000 J apply to other cloven-hoofed game.",
+      "origin": "seed"
+    },
+    {
+      "id": "waffen-rotwild",
+      "lessonId": "jagdwaffen-und-munition",
+      "questionDe": "Welche Anforderungen gelten für Patronen auf Rotwild?",
+      "questionEn": "What requirements apply to cartridges for red deer?",
+      "options": [
+        {
+          "de": "Kaliber mindestens 6,5 mm",
+          "en": "Calibre at least 6.5 mm"
+        },
+        {
+          "de": "E100 mindestens 2.000 Joule",
+          "en": "E100 at least 2,000 joules"
+        },
+        {
+          "de": "Schrot ab 4 mm ist zulässig",
+          "en": "Shot from 4 mm is allowed"
+        },
+        {
+          "de": "E100 mindestens 1.000 Joule genügt",
+          "en": "E100 of 1,000 joules is enough"
+        }
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanationDe": "Für alles Schalenwild außer Rehwild: mindestens 6,5 mm und E100 ≥ 2.000 J. Schrot ist auf Schalenwild verboten.",
+      "explanationEn": "For all cloven-hoofed game except roe deer: at least 6.5 mm and E100 ≥ 2,000 J. Shot is banned for cloven-hoofed game.",
+      "origin": "seed"
+    },
+    {
+      "id": "waffen-schrot-schalenwild",
+      "lessonId": "jagdwaffen-und-munition",
+      "questionDe": "Darf ein krankgeschossenes Reh mit Schrot erlegt werden?",
+      "questionEn": "May a wounded roe deer be killed with shot?",
+      "options": [
+        {
+          "de": "Ja, als Fangschuss",
+          "en": "Yes, as a finishing shot"
+        },
+        {
+          "de": "Nein, Schrot ist auf Schalenwild auch als Fangschuss verboten",
+          "en": "No, shot is banned for cloven-hoofed game, even as a finishing shot"
+        },
+        {
+          "de": "Ja, auf kurze Entfernung",
+          "en": "Yes, at short range"
+        },
+        {
+          "de": "Ja, mit Flintenlaufgeschoss-Schrot",
+          "en": "Yes, with buckshot"
+        }
+      ],
+      "correct": [
+        1
+      ],
+      "explanationDe": "§ 19 Abs. 1 Nr. 1 BJagdG verbietet Schrot und Posten auf Schalenwild ausdrücklich auch als Fangschuss.",
+      "explanationEn": "§ 19(1) no. 1 BJagdG explicitly bans shot and buckshot on cloven-hoofed game, even as a finishing shot.",
+      "origin": "seed"
+    },
+    {
+      "id": "waffen-kurzwaffe",
+      "lessonId": "jagdwaffen-und-munition",
+      "questionDe": "Wann darf eine Kurzwaffe auf Wild eingesetzt werden?",
+      "questionEn": "When may a handgun be used on game?",
+      "options": [
+        {
+          "de": "Für den Fangschuss mit mindestens 200 J Mündungsenergie",
+          "en": "For a finishing shot with at least 200 J muzzle energy"
+        },
+        {
+          "de": "Bei der Bau- und Fallenjagd",
+          "en": "In earth-dog and trap hunting"
+        },
+        {
+          "de": "Bei der Drückjagd auf Schwarzwild",
+          "en": "In driven hunts for wild boar"
+        },
+        {
+          "de": "Auf Rehwild bis 50 m",
+          "en": "On roe deer up to 50 m"
+        }
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanationDe": "Pistolen und Revolver nur bei Bau- und Fallenjagd und für Fangschüsse mit E0 ≥ 200 J.",
+      "explanationEn": "Pistols and revolvers only in earth-dog/trap hunting and for finishing shots with muzzle energy ≥ 200 J.",
+      "origin": "seed"
+    },
+    {
+      "id": "waffen-flinten-kaliber",
+      "lessonId": "jagdwaffen-und-munition",
+      "questionDe": "Welche Flinte hat den engeren Lauf?",
+      "questionEn": "Which shotgun has the narrower bore?",
+      "options": [
+        {
+          "de": "Kaliber 12",
+          "en": "12 gauge"
+        },
+        {
+          "de": "Kaliber 20",
+          "en": "20 gauge"
+        },
+        {
+          "de": "Beide gleich",
+          "en": "Both the same"
+        },
+        {
+          "de": "Hängt von der Lauflänge ab",
+          "en": "Depends on barrel length"
+        }
+      ],
+      "correct": [
+        1
+      ],
+      "explanationDe": "Bei Flinten gilt: je größer die Kaliberzahl, desto enger der Lauf.",
+      "explanationEn": "For shotguns: the larger the gauge number, the narrower the bore.",
+      "origin": "seed"
+    },
+    {
+      "id": "waffen-erwerb-langwaffe",
+      "lessonId": "waffenrecht-fuer-jaeger",
+      "questionDe": "Ein Jäger mit Jahresjagdschein kauft eine Büchse. Was muss er tun?",
+      "questionEn": "A hunter with an annual licence buys a rifle. What must they do?",
+      "options": [
+        {
+          "de": "Binnen zwei Wochen die Eintragung in die WBK beantragen",
+          "en": "Apply for entry in the WBK within two weeks"
+        },
+        {
+          "de": "Vorher einen Voreintrag beantragen",
+          "en": "Apply for a pre-entry beforehand"
+        },
+        {
+          "de": "Nichts, der Jagdschein genügt",
+          "en": "Nothing, the licence is enough"
+        },
+        {
+          "de": "Einen Waffenschein beantragen",
+          "en": "Apply for a carry permit"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Langwaffen darf er ohne Voreintrag erwerben, muss aber binnen zwei Wochen die Eintragung beantragen (§ 13 WaffG).",
+      "explanationEn": "Long guns can be bought without pre-entry, but entry must be applied for within two weeks (§ 13 WaffG).",
+      "origin": "seed"
+    },
+    {
+      "id": "waffen-transport",
+      "lessonId": "waffenrecht-fuer-jaeger",
+      "questionDe": "Wie muss die Jagdwaffe auf der Fahrt ins Revier transportiert werden?",
+      "questionEn": "How must the hunting gun be transported on the way to the hunting ground?",
+      "options": [
+        {
+          "de": "Nicht schussbereit",
+          "en": "Not ready to fire"
+        },
+        {
+          "de": "Nicht zugriffsbereit",
+          "en": "Not readily accessible"
+        },
+        {
+          "de": "Geladen, aber gesichert",
+          "en": "Loaded but with safety on"
+        },
+        {
+          "de": "Griffbereit auf dem Beifahrersitz",
+          "en": "Within reach on the passenger seat"
+        }
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanationDe": "Transport nur nicht schussbereit und nicht zugriffsbereit, z. B. entladen im verschlossenen Futteral.",
+      "explanationEn": "Transport only not ready to fire and not readily accessible, e.g. unloaded in a locked case.",
+      "origin": "seed"
+    },
+    {
+      "id": "waffen-aufbewahrung",
+      "lessonId": "waffenrecht-fuer-jaeger",
+      "questionDe": "In welchem Behältnis müssen erlaubnispflichtige Langwaffen mindestens aufbewahrt werden?",
+      "questionEn": "What is the minimum container for long guns requiring a permit?",
+      "options": [
+        {
+          "de": "Sicherheitsbehältnis Widerstandsgrad 0 nach DIN EN 1143-1",
+          "en": "Security cabinet of resistance grade 0 to DIN EN 1143-1"
+        },
+        {
+          "de": "Abschließbarer Holzschrank",
+          "en": "Lockable wooden cabinet"
+        },
+        {
+          "de": "Waffenständer im verschlossenen Raum",
+          "en": "Gun rack in a locked room"
+        },
+        {
+          "de": "Futteral mit Zahlenschloss",
+          "en": "Gun case with combination lock"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Mindeststandard ist Widerstandsgrad 0 nach DIN EN 1143-1 (§ 13 AWaffV).",
+      "explanationEn": "The minimum is resistance grade 0 to DIN EN 1143-1 (§ 13 AWaffV).",
+      "origin": "seed"
+    },
+    {
+      "id": "waffen-fuehren-def",
+      "lessonId": "waffenrecht-fuer-jaeger",
+      "questionDe": "Was bedeutet »Führen« einer Waffe?",
+      "questionEn": "What does “carrying” (Führen) a weapon mean?",
+      "options": [
+        {
+          "de": "Tatsächliche Gewalt außerhalb der eigenen Wohnung oder des befriedeten Besitztums",
+          "en": "Actual control outside your home or enclosed property"
+        },
+        {
+          "de": "Besitz einer Waffe zu Hause",
+          "en": "Owning a weapon at home"
+        },
+        {
+          "de": "Nur das Schießen mit der Waffe",
+          "en": "Only shooting with it"
+        },
+        {
+          "de": "Der Kauf einer Waffe",
+          "en": "Buying a weapon"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Führen = tatsächliche Gewalt außerhalb der eigenen Wohnung, Geschäftsräume oder des eigenen befriedeten Besitztums.",
+      "explanationEn": "Carrying = actual control outside your own home, business premises or enclosed property.",
+      "origin": "seed"
+    }
+  ]
+}

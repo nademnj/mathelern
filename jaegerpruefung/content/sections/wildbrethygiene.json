@@ -1,0 +1,407 @@
+{
+  "id": "wildbrethygiene",
+  "order": 5,
+  "titleDe": "Behandlung des erlegten Wildes, Wildbrethygiene und Wildkrankheiten",
+  "titleEn": "Handling shot game, game meat hygiene and wildlife diseases",
+  "summaryDe": "Aufbrechen, Kühlen und Vermarkten von Wildbret nach dem Lebensmittelhygienerecht, Trichinenuntersuchung, Tierseuchen und Zoonosen.",
+  "summaryEn": "Gutting, chilling and selling game meat under food hygiene law, Trichinella testing, notifiable animal diseases and zoonoses.",
+  "researchTopics": [
+    "Wildbrethygiene Leitfaden kundige Person",
+    "bedenkliche Merkmale Wildbret Liste",
+    "Afrikanische Schweinepest Jäger Maßnahmen",
+    "Wildkrankheiten Feldhase EBHS",
+    "Aviäre Influenza Wildvögel Jäger"
+  ],
+  "lessons": [
+    {
+      "id": "versorgung-erlegtes-wild",
+      "titleDe": "Versorgung des erlegten Wildes",
+      "titleEn": "Handling shot game",
+      "paragraphs": [
+        {
+          "de": "Wildbret ist ein hochwertiges Lebensmittel. Wer Wild in den Verkehr bringt, ist Lebensmittelunternehmer und muss die Vorschriften des Lebensmittelhygienerechts beachten. Die Grundregel lautet: schnell aufbrechen, sauber arbeiten, gut auskühlen.",
+          "en": "Game meat (Wildbret) is a high-quality food. Anyone who puts game on the market is a food business operator and must follow food hygiene law. The basic rule: gut quickly, work cleanly, cool well."
+        },
+        {
+          "de": "Schon vor dem Schuss und beim Ansprechen achtet der Jäger auf Verhaltensauffälligkeiten des lebenden Stückes, etwa Abmagerung, Lahmheit oder fehlende Scheu. Nach dem Erlegen untersucht er das Stück und die Organe beim Aufbrechen auf bedenkliche Merkmale wie Abszesse, Schwellungen, Verfärbungen oder Parasitenbefall.",
+          "en": "Even before the shot, while identifying the animal (ansprechen), the hunter looks for abnormal behaviour such as emaciation, lameness or lack of shyness. After the kill they examine the carcass and the organs while gutting for worrying signs such as abscesses, swellings, discolouration or parasites."
+        },
+        {
+          "de": "Das Wild muss nach dem Erlegen möglichst rasch aufgebrochen werden: Die Bauch- und Brusthöhle wird geöffnet und die Eingeweide werden entnommen. Dabei dürfen Magen-Darm-Inhalt und Blase das Wildbret nicht verunreinigen. Anschließend wird das Stück gelüftet und an einem sauberen, kühlen Ort aufgehängt.",
+          "en": "Game must be gutted (aufbrechen) as quickly as possible after the kill: the abdominal and chest cavities are opened and the viscera removed. Stomach and gut contents and the bladder must not contaminate the meat. Then the carcass is aired and hung in a clean, cool place."
+        },
+        {
+          "de": "Das Wildbret muss so schnell wie möglich gekühlt werden: Großwild auf höchstens +7 °C, Kleinwild auf höchstens +4 °C. Zum Großwild zählt in diesem Sinne zum Beispiel Schalenwild, zum Kleinwild Hase, Kaninchen und Federwild.",
+          "en": "The meat must be chilled as quickly as possible: large game to no more than +7 °C, small game to no more than +4 °C. Large game in this sense means, for example, cloven-hoofed game; small game means hare, rabbit and feathered game."
+        },
+        {
+          "de": "Jäger mit Schulung in Wildbrethygiene gelten als »kundige Person«. Stellt die kundige Person keine bedenklichen Merkmale fest, darf Wild in kleinen Mengen direkt an Verbraucher oder den örtlichen Einzelhandel abgegeben werden. Bei bedenklichen Merkmalen oder Verhaltensstörungen ist eine amtliche Fleischuntersuchung erforderlich. Für Schwarzwild und andere Trichinenträger wie den Dachs ist die Trichinenuntersuchung immer vorgeschrieben.",
+          "en": "Hunters trained in game meat hygiene count as a “trained person” (kundige Person). If the trained person finds no worrying signs, game may be supplied in small quantities directly to consumers or local retailers. If there are worrying signs or abnormal behaviour, an official meat inspection is required. For wild boar and other species that can carry Trichinella, such as the badger, a Trichinella test is always mandatory."
+        }
+      ],
+      "keyTerms": [
+        {
+          "de": "Wildbret",
+          "en": "game meat"
+        },
+        {
+          "de": "aufbrechen",
+          "en": "to gut/field-dress"
+        },
+        {
+          "de": "ansprechen",
+          "en": "to identify the animal",
+          "note": "Species, sex, age, condition before the shot."
+        },
+        {
+          "de": "bedenkliche Merkmale",
+          "en": "signs of concern",
+          "note": "Findings that require official inspection."
+        },
+        {
+          "de": "kundige Person",
+          "en": "trained person",
+          "note": "Hunter trained in game meat hygiene."
+        },
+        {
+          "de": "Großwild / Kleinwild",
+          "en": "large game / small game",
+          "note": "+7 °C / +4 °C maximum."
+        },
+        {
+          "de": "amtliche Fleischuntersuchung",
+          "en": "official meat inspection"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Tierische Lebensmittel-Hygieneverordnung (Tier-LMHV) – gesetze-im-internet.de",
+          "url": "https://www.gesetze-im-internet.de/tier-lmhv/"
+        }
+      ],
+      "origin": "seed",
+      "updatedAt": "2026-11-12"
+    },
+    {
+      "id": "wildkrankheiten",
+      "titleDe": "Wildkrankheiten und Zoonosen",
+      "titleEn": "Wildlife diseases and zoonoses",
+      "paragraphs": [
+        {
+          "de": "Wildkrankheiten werden durch Viren, Bakterien, Parasiten oder Pilze verursacht. Zoonosen sind Krankheiten, die zwischen Tier und Mensch übertragen werden können. Für den Jäger sind sie wichtig, weil er beim Aufbrechen und beim Umgang mit Fallwild engen Kontakt zu Wild hat. Handschuhe und gründliche Hygiene schützen.",
+          "en": "Wildlife diseases are caused by viruses, bacteria, parasites or fungi. Zoonoses are diseases that can pass between animals and humans. They matter to hunters because gutting and handling dead game (Fallwild) means close contact. Gloves and thorough hygiene protect you."
+        },
+        {
+          "de": "Die Afrikanische Schweinepest (ASP) ist eine Viruserkrankung, die nur Haus- und Wildschweine befällt und für sie fast immer tödlich verläuft. Für den Menschen ist sie ungefährlich, er kann das Virus aber über Kleidung, Fahrzeuge oder Lebensmittel verschleppen. Die ASP ist eine anzeigepflichtige Tierseuche; Funde von verendetem Schwarzwild müssen der Behörde gemeldet werden.",
+          "en": "African swine fever (ASF) is a viral disease that only affects domestic pigs and wild boar, and is almost always fatal for them. It is harmless to humans, but people can spread the virus via clothing, vehicles or food. ASF is a notifiable animal disease; finds of dead wild boar must be reported to the authority."
+        },
+        {
+          "de": "Die Tollwut ist eine Viruserkrankung des Nervensystems und eine gefährliche Zoonose. Deutschland gilt seit 2008 als frei von terrestrischer (klassischer) Tollwut, unter anderem dank der Impfköder für Füchse. Fledermaustollwut kommt weiterhin vor. Die Aujeszkysche Krankheit kann bei Schwarzwild vorkommen und ist für Hunde tödlich – deshalb dürfen Hunde kein rohes Schwarzwild bekommen.",
+          "en": "Rabies is a viral disease of the nervous system and a dangerous zoonosis. Germany has been free of terrestrial (classical) rabies since 2008, thanks partly to oral vaccine baits for foxes. Bat rabies still occurs. Aujeszky's disease can occur in wild boar and is fatal to dogs — so dogs must never be fed raw wild boar."
+        },
+        {
+          "de": "Der Kleine Fuchsbandwurm (Echinococcus multilocularis) ist ein Parasit des Fuchses. Seine Eier werden mit dem Kot ausgeschieden; nimmt der Mensch sie auf, kann eine schwere Lebererkrankung entstehen (alveoläre Echinokokkose). Beim Umgang mit Füchsen deshalb Handschuhe tragen. Die Tularämie (Hasenpest) ist eine bakterielle Zoonose, die vor allem Feldhasen befällt.",
+          "en": "The small fox tapeworm (Echinococcus multilocularis) is a parasite of the fox. Its eggs are passed in faeces; if a human swallows them, a serious liver disease can develop (alveolar echinococcosis). So wear gloves when handling foxes. Tularaemia (Hasenpest, “hare plague”) is a bacterial zoonosis that mainly affects brown hares."
+        },
+        {
+          "de": "Weitere wichtige Wildkrankheiten sind die Räude (Milbenbefall, häufig beim Fuchs), die Myxomatose und die Chinaseuche (RHD) beim Wildkaninchen bzw. die EBHS beim Hasen, sowie die Geflügelpest (Aviäre Influenza) bei Wasservögeln. Verdacht auf eine anzeigepflichtige Tierseuche muss sofort der Veterinärbehörde gemeldet werden.",
+          "en": "Other important wildlife diseases are mange (mite infestation, common in foxes), myxomatosis and rabbit haemorrhagic disease (RHD, Chinaseuche) in wild rabbits and EBHS in hares, and avian influenza (bird flu) in waterfowl. Suspicion of a notifiable animal disease must be reported to the veterinary authority immediately."
+        }
+      ],
+      "keyTerms": [
+        {
+          "de": "Zoonose",
+          "en": "zoonosis",
+          "note": "Disease transmissible between animals and humans."
+        },
+        {
+          "de": "Fallwild",
+          "en": "game found dead",
+          "note": "Died of disease or accident."
+        },
+        {
+          "de": "Afrikanische Schweinepest (ASP)",
+          "en": "African swine fever (ASF)",
+          "note": "Notifiable; pigs only; harmless to humans."
+        },
+        {
+          "de": "anzeigepflichtige Tierseuche",
+          "en": "notifiable animal disease",
+          "note": "Must be reported to the authority."
+        },
+        {
+          "de": "Tollwut",
+          "en": "rabies"
+        },
+        {
+          "de": "Fuchsbandwurm",
+          "en": "fox tapeworm",
+          "note": "Echinococcus multilocularis."
+        },
+        {
+          "de": "Räude",
+          "en": "mange"
+        },
+        {
+          "de": "Tularämie (Hasenpest)",
+          "en": "tularaemia"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Friedrich-Loeffler-Institut – Tierseuchen",
+          "url": "https://www.fli.de/"
+        }
+      ],
+      "origin": "seed",
+      "updatedAt": "2026-11-12"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "hyg-kuehlung-gross",
+      "lessonId": "versorgung-erlegtes-wild",
+      "questionDe": "Auf welche Temperatur muss Großwild (z. B. Rehwild) höchstens abgekühlt werden?",
+      "questionEn": "To what maximum temperature must large game (e.g. roe deer) be chilled?",
+      "options": [
+        {
+          "de": "+4 °C",
+          "en": "+4 °C"
+        },
+        {
+          "de": "+7 °C",
+          "en": "+7 °C"
+        },
+        {
+          "de": "+10 °C",
+          "en": "+10 °C"
+        },
+        {
+          "de": "−18 °C",
+          "en": "−18 °C"
+        }
+      ],
+      "correct": [
+        1
+      ],
+      "explanationDe": "Großwild höchstens +7 °C, Kleinwild höchstens +4 °C.",
+      "explanationEn": "Large game max +7 °C, small game max +4 °C.",
+      "origin": "seed"
+    },
+    {
+      "id": "hyg-kuehlung-klein",
+      "lessonId": "versorgung-erlegtes-wild",
+      "questionDe": "Auf welche Temperatur muss Kleinwild (z. B. Hase, Fasan) höchstens abgekühlt werden?",
+      "questionEn": "To what maximum temperature must small game (e.g. hare, pheasant) be chilled?",
+      "options": [
+        {
+          "de": "+4 °C",
+          "en": "+4 °C"
+        },
+        {
+          "de": "+7 °C",
+          "en": "+7 °C"
+        },
+        {
+          "de": "+2 °C",
+          "en": "+2 °C"
+        },
+        {
+          "de": "+12 °C",
+          "en": "+12 °C"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Kleinwild höchstens +4 °C.",
+      "explanationEn": "Small game max +4 °C.",
+      "origin": "seed"
+    },
+    {
+      "id": "hyg-trichinen",
+      "lessonId": "versorgung-erlegtes-wild",
+      "questionDe": "Für welche Wildarten ist eine Trichinenuntersuchung vorgeschrieben?",
+      "questionEn": "For which species is a Trichinella test mandatory?",
+      "options": [
+        {
+          "de": "Schwarzwild",
+          "en": "Wild boar"
+        },
+        {
+          "de": "Dachs",
+          "en": "Badger"
+        },
+        {
+          "de": "Rehwild",
+          "en": "Roe deer"
+        },
+        {
+          "de": "Feldhase",
+          "en": "Brown hare"
+        }
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanationDe": "Trichinenträger wie Schwarzwild und Dachs müssen untersucht werden; Pflanzenfresser wie Reh und Hase nicht.",
+      "explanationEn": "Trichinella carriers such as wild boar and badger must be tested; herbivores like roe deer and hare do not.",
+      "origin": "seed"
+    },
+    {
+      "id": "hyg-bedenklich",
+      "lessonId": "versorgung-erlegtes-wild",
+      "questionDe": "Die kundige Person findet beim Aufbrechen einen Abszess in der Leber. Was ist zu tun?",
+      "questionEn": "The trained person finds an abscess in the liver while gutting. What must be done?",
+      "options": [
+        {
+          "de": "Amtliche Fleischuntersuchung veranlassen",
+          "en": "Arrange an official meat inspection"
+        },
+        {
+          "de": "Die Leber wegwerfen und das Wildbret normal abgeben",
+          "en": "Discard the liver and sell the meat as usual"
+        },
+        {
+          "de": "Das Stück einfrieren, dann ist es unbedenklich",
+          "en": "Freeze the carcass, then it is safe"
+        },
+        {
+          "de": "Nichts, Abszesse sind normal",
+          "en": "Nothing, abscesses are normal"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Bei bedenklichen Merkmalen muss das Stück amtlich untersucht werden.",
+      "explanationEn": "With signs of concern the carcass must be officially inspected.",
+      "origin": "seed"
+    },
+    {
+      "id": "hyg-asp-mensch",
+      "lessonId": "wildkrankheiten",
+      "questionDe": "Welche Aussagen zur Afrikanischen Schweinepest sind richtig?",
+      "questionEn": "Which statements about African swine fever are correct?",
+      "options": [
+        {
+          "de": "Sie befällt nur Haus- und Wildschweine",
+          "en": "It only affects domestic pigs and wild boar"
+        },
+        {
+          "de": "Sie ist für den Menschen ungefährlich",
+          "en": "It is harmless to humans"
+        },
+        {
+          "de": "Der Mensch kann das Virus verschleppen",
+          "en": "Humans can spread the virus"
+        },
+        {
+          "de": "Sie ist nicht anzeigepflichtig",
+          "en": "It is not notifiable"
+        }
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanationDe": "ASP ist anzeigepflichtig; Menschen erkranken nicht, können das Virus aber verbreiten.",
+      "explanationEn": "ASF is notifiable; humans don't get ill but can spread the virus.",
+      "origin": "seed"
+    },
+    {
+      "id": "hyg-aujeszky",
+      "lessonId": "wildkrankheiten",
+      "questionDe": "Warum soll man Jagdhunden kein rohes Schwarzwild füttern?",
+      "questionEn": "Why must hunting dogs not be fed raw wild boar?",
+      "options": [
+        {
+          "de": "Wegen der Aujeszkyschen Krankheit, die für Hunde tödlich ist",
+          "en": "Because of Aujeszky's disease, which is fatal to dogs"
+        },
+        {
+          "de": "Weil Schwarzwild zu fett ist",
+          "en": "Because wild boar is too fatty"
+        },
+        {
+          "de": "Wegen der Myxomatose",
+          "en": "Because of myxomatosis"
+        },
+        {
+          "de": "Weil es den Jagdtrieb schwächt",
+          "en": "Because it weakens hunting drive"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Das Aujeszky-Virus kann bei Schwarzwild vorkommen und tötet Hunde.",
+      "explanationEn": "Aujeszky's virus can occur in wild boar and kills dogs.",
+      "origin": "seed"
+    },
+    {
+      "id": "hyg-zoonosen",
+      "lessonId": "wildkrankheiten",
+      "questionDe": "Welche der folgenden Krankheiten sind Zoonosen?",
+      "questionEn": "Which of these diseases are zoonoses?",
+      "options": [
+        {
+          "de": "Tollwut",
+          "en": "Rabies"
+        },
+        {
+          "de": "Fuchsbandwurm (alveoläre Echinokokkose)",
+          "en": "Fox tapeworm (alveolar echinococcosis)"
+        },
+        {
+          "de": "Tularämie",
+          "en": "Tularaemia"
+        },
+        {
+          "de": "Afrikanische Schweinepest",
+          "en": "African swine fever"
+        }
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanationDe": "Tollwut, Fuchsbandwurm und Tularämie können auf den Menschen übergehen, die ASP nicht.",
+      "explanationEn": "Rabies, fox tapeworm and tularaemia can infect humans; ASF cannot.",
+      "origin": "seed"
+    },
+    {
+      "id": "hyg-raeude",
+      "lessonId": "wildkrankheiten",
+      "questionDe": "Wodurch wird die Räude verursacht?",
+      "questionEn": "What causes mange?",
+      "options": [
+        {
+          "de": "Milben",
+          "en": "Mites"
+        },
+        {
+          "de": "Viren",
+          "en": "Viruses"
+        },
+        {
+          "de": "Bandwürmer",
+          "en": "Tapeworms"
+        },
+        {
+          "de": "Pilze",
+          "en": "Fungi"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Räude wird durch Grabmilben verursacht, häufig beim Fuchs.",
+      "explanationEn": "Mange is caused by burrowing mites, common in foxes.",
+      "origin": "seed"
+    }
+  ]
+}

@@ -1,0 +1,543 @@
+{
+  "id": "jagdbetrieb",
+  "order": 2,
+  "titleDe": "Jagdbetrieb, Wildhege und Wildschadensverhütung",
+  "titleEn": "Hunting practice, game management and damage prevention",
+  "summaryDe": "Jagdarten, Reviereinrichtungen, Hege, Wildschaden und Jagdschaden, Land- und Waldbau sowie Sicherheit bei Einzel- und Gesellschaftsjagden.",
+  "summaryEn": "Hunting methods, hunting-ground infrastructure, game management, game and hunting damage, agriculture and forestry, and safety at individual and group hunts.",
+  "researchTopics": [
+    "Reviereinrichtungen Hochsitz Kirrung Fütterung Landesrecht",
+    "Land- und Waldbau Jägerprüfung Baumarten",
+    "Biotopverbesserung Niederwild",
+    "Abschussplanung Rehwild Rotwild",
+    "Unfallverhütungsvorschrift Jagd"
+  ],
+  "lessons": [
+    {
+      "id": "jagdarten",
+      "titleDe": "Jagdarten",
+      "titleEn": "Methods of hunting",
+      "paragraphs": [
+        {
+          "de": "Man unterscheidet Einzeljagd und Gesellschaftsjagd. Zur Einzeljagd gehören vor allem der Ansitz und die Pirsch, zur Gesellschaftsjagd die Bewegungsjagden wie Drückjagd, Treibjagd und Stöberjagd.",
+          "en": "There are individual hunts (Einzeljagd) and group hunts (Gesellschaftsjagd). Individual hunting is mainly the stand hunt (Ansitz) and stalking (Pirsch); group hunts are driven hunts (Bewegungsjagden) such as Drückjagd, Treibjagd and Stöberjagd."
+        },
+        {
+          "de": "Beim Ansitz wartet der Jäger auf einer Ansitzeinrichtung – etwa einer Kanzel, einem Hochsitz oder einer Leiter – oder am Boden auf das Wild. Der erhöhte Sitz bietet einen guten Überblick und vor allem einen sicheren Kugelfang, weil nach unten in den gewachsenen Boden geschossen wird.",
+          "en": "On a stand hunt the hunter waits for game on a stand — e.g. a closed high seat (Kanzel), a high seat (Hochsitz) or a ladder stand — or on the ground. A raised seat gives a good view and above all a safe backstop (Kugelfang), because the shot goes down into natural ground."
+        },
+        {
+          "de": "Bei der Pirsch bewegt sich der Jäger langsam und leise gegen den Wind durch das Revier, um Wild zu entdecken und sich ihm zu nähern. Die Windrichtung ist entscheidend, weil Wild den Menschen vor allem über den Geruch (Wind) wahrnimmt.",
+          "en": "When stalking (Pirsch) the hunter moves slowly and quietly into the wind through the hunting ground to find and approach game. Wind direction is crucial because game detects people mainly by scent."
+        },
+        {
+          "de": "Bei der Drückjagd wird das Wild von wenigen Treibern und oft von Hunden langsam und ruhig aus den Einständen gedrückt, damit es den Schützen vertraut und nicht hochflüchtig kommt. Bei der Treibjagd treiben viele Treiber in einer Linie, meist auf Niederwild wie Hase und Fasan. Bei der Stöberjagd suchen spurlaute Stöberhunde das Wild selbständig und bringen es in Bewegung.",
+          "en": "In a Drückjagd a few beaters and often dogs push game slowly and calmly out of cover so that it reaches the shooters unhurried rather than in full flight. In a Treibjagd many beaters drive in a line, mostly for small game such as hare and pheasant. In a Stöberjagd flushing dogs that give tongue on the scent find game on their own and set it moving."
+        },
+        {
+          "de": "Weitere Jagdarten sind die Lockjagd (zum Beispiel das Blatten auf den Rehbock in der Blattzeit oder das Reizen auf den Fuchs), die Fallenjagd, die Baujagd mit Erdhunden auf Fuchs und Dachs sowie die Suche und Buschierjagd mit dem Vorstehhund.",
+          "en": "Other methods are calling (Lockjagd — for example imitating a doe's call to attract the roe buck during the rut, Blatten, or a prey distress call for the fox, Reizen), trapping (Fallenjagd), earth-dog hunting at the den with terriers and dachshunds for fox and badger (Baujagd), and hunting with a pointing dog (Suche, Buschieren)."
+        }
+      ],
+      "keyTerms": [
+        {
+          "de": "Ansitz",
+          "en": "stand hunting",
+          "note": "Waiting for game, often from a raised stand."
+        },
+        {
+          "de": "Pirsch",
+          "en": "stalking",
+          "note": "Moving slowly and quietly against the wind."
+        },
+        {
+          "de": "Kugelfang",
+          "en": "backstop",
+          "note": "Ground that safely stops the bullet."
+        },
+        {
+          "de": "Drückjagd",
+          "en": "slow driven hunt",
+          "note": "Few beaters/dogs push game calmly to the shooters."
+        },
+        {
+          "de": "Treibjagd",
+          "en": "driven hunt with many beaters",
+          "note": "Mostly for small game."
+        },
+        {
+          "de": "Stöberjagd",
+          "en": "hunt with flushing dogs"
+        },
+        {
+          "de": "Blatten",
+          "en": "calling the roe buck",
+          "note": "Imitating the doe's call during the rut."
+        },
+        {
+          "de": "Einstand",
+          "en": "cover/resting place of game"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Deutscher Jagdverband (DJV)",
+          "url": "https://www.jagdverband.de/"
+        }
+      ],
+      "origin": "seed",
+      "updatedAt": "2026-11-12"
+    },
+    {
+      "id": "hege-und-wildschaden",
+      "titleDe": "Hege, Wildschaden und Jagdschaden",
+      "titleEn": "Game management, game damage and hunting damage",
+      "paragraphs": [
+        {
+          "de": "Ziel der Hege ist nach § 1 Abs. 2 BJagdG ein artenreicher und gesunder Wildbestand, der an die landschaftlichen und landeskulturellen Verhältnisse angepasst ist, sowie die Pflege und Sicherung seiner Lebensgrundlagen. Die Hege muss so durchgeführt werden, dass Wildschäden an land-, forst- und fischereiwirtschaftlicher Nutzung möglichst vermieden werden.",
+          "en": "Under § 1(2) BJagdG the aim of game management (Hege) is a species-rich, healthy game population adapted to the landscape and land use, and the care and protection of its habitat. It must be carried out so that game damage to farming, forestry and fishery is avoided as far as possible."
+        },
+        {
+          "de": "Wildschaden ist der Schaden, den Wild an Grundstücken anrichtet. Im Wald sind das vor allem Verbiss (Abbeißen von Knospen und Trieben), Schäle (Abziehen der Rinde, vor allem durch Rotwild) und Fegeschäden; auf dem Feld vor allem Fraß und das Brechen des Schwarzwildes.",
+          "en": "Game damage (Wildschaden) is damage caused by game to land. In the forest it is mainly browsing (Verbiss — biting off buds and shoots), bark stripping (Schäle, mainly by red deer) and fraying damage (Fegeschaden); in fields mainly feeding and rooting by wild boar."
+        },
+        {
+          "de": "Nach § 29 BJagdG ist Wildschaden zu ersetzen, der durch Schalenwild, Wildkaninchen oder Fasanen verursacht wird. Ersatzpflichtig ist grundsätzlich die Jagdgenossenschaft; häufig übernimmt der Jagdpächter diese Pflicht ganz oder teilweise im Pachtvertrag.",
+          "en": "Under § 29 BJagdG, damage caused by cloven-hoofed game, wild rabbits or pheasants must be compensated. In principle the hunting cooperative (Jagdgenossenschaft) is liable; the lease contract often transfers this duty wholly or partly to the leaseholder."
+        },
+        {
+          "de": "Der Geschädigte muss den Wildschaden nach § 34 BJagdG binnen einer Woche, nachdem er davon Kenntnis erhalten hat oder hätte erhalten können, bei der zuständigen Behörde (meist der Gemeinde) anmelden. Für Schäden an forstwirtschaftlich genutzten Grundstücken gelten besondere Stichtage (1. Mai und 1. Oktober). Die Länder regeln das Verfahren im Einzelnen.",
+          "en": "Under § 34 BJagdG the injured party must report game damage to the competent authority (usually the municipality) within one week of learning of it or when they could have learned of it. Damage on forest land has special reporting dates (1 May and 1 October). The states regulate the procedure in detail."
+        },
+        {
+          "de": "Jagdschaden ist etwas anderes: Er entsteht nicht durch das Wild, sondern durch die Jagdausübung selbst, etwa wenn bei einer Treibjagd ein Zaun beschädigt oder ein bestelltes Feld zertreten wird. Für Jagdschaden haftet der Jagdausübungsberechtigte (§ 33 BJagdG).",
+          "en": "Hunting damage (Jagdschaden) is something else: it is caused not by game but by the hunting itself, for example when a fence is damaged or a sown field trampled during a drive. The person entitled to hunt is liable for hunting damage (§ 33 BJagdG)."
+        },
+        {
+          "de": "Wildschäden lassen sich vermeiden durch angepasste Wildbestände und Schwerpunktbejagung, durch Schutz der Kulturen (Zäunung, Einzelschutz), durch Ablenkfütterung oder Äsungsflächen, wo erlaubt, und durch Vergrämung, zum Beispiel mit Elektrozäunen gegen Schwarzwild.",
+          "en": "Game damage can be prevented by keeping populations in balance and concentrating hunting where damage occurs, by protecting crops and young trees (fencing, individual tree guards), by diversionary feeding or forage plots where permitted, and by deterrence, for example electric fences against wild boar."
+        }
+      ],
+      "keyTerms": [
+        {
+          "de": "Hege",
+          "en": "game management",
+          "note": "§ 1(2) BJagdG."
+        },
+        {
+          "de": "Wildschaden",
+          "en": "game damage",
+          "note": "Damage caused by game; § 29 BJagdG."
+        },
+        {
+          "de": "Jagdschaden",
+          "en": "hunting damage",
+          "note": "Damage caused by the hunt itself; § 33 BJagdG."
+        },
+        {
+          "de": "Verbiss",
+          "en": "browsing damage"
+        },
+        {
+          "de": "Schäle",
+          "en": "bark stripping",
+          "note": "Mainly red deer."
+        },
+        {
+          "de": "Jagdgenossenschaft",
+          "en": "hunting cooperative",
+          "note": "All landowners of a communal hunting district."
+        },
+        {
+          "de": "Jagdausübungsberechtigter",
+          "en": "person entitled to hunt",
+          "note": "Usually the leaseholder."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Bundesjagdgesetz (BJagdG) – gesetze-im-internet.de",
+          "url": "https://www.gesetze-im-internet.de/bjagdg/"
+        }
+      ],
+      "origin": "seed",
+      "updatedAt": "2026-11-12"
+    },
+    {
+      "id": "sicherheit-bei-der-jagd",
+      "titleDe": "Sicherheit bei der Jagd",
+      "titleEn": "Safety in the field",
+      "paragraphs": [
+        {
+          "de": "Ein Schuss darf nur abgegeben werden, wenn ein sicherer Kugelfang vorhanden ist und niemand gefährdet wird. Auf Wild, das sich auf einer Kuppe oder vor dem Horizont abzeichnet, darf mit der Büchse nicht geschossen werden, weil dahinter kein Kugelfang ist.",
+          "en": "A shot may only be taken if there is a safe backstop and nobody is put at risk. With a rifle you must never shoot at game standing on a hilltop or silhouetted against the skyline, because there is no backstop behind it."
+        },
+        {
+          "de": "Büchsengeschosse können je nach Kaliber mehrere Kilometer weit fliegen. Bei Schrot rechnet man mit der Faustformel »Schrotkorndurchmesser in Millimetern mal 100 ergibt die Gefährdungsweite in Metern« – bei 3 mm Schrot also etwa 300 m.",
+          "en": "Rifle bullets can travel several kilometres depending on the calibre. For shot there is a rule of thumb: “shot diameter in millimetres × 100 = danger range in metres” — so about 300 m for 3 mm shot."
+        },
+        {
+          "de": "Grundregeln im Umgang mit der Waffe: Jede Waffe gilt als geladen, bis man sich selbst vom Gegenteil überzeugt hat. Die Mündung zeigt immer in eine sichere Richtung. Die Waffe wird erst am Stand oder auf dem Hochsitz geladen und vor dem Verlassen, beim Überwinden von Hindernissen und vor dem Besteigen eines Fahrzeugs entladen.",
+          "en": "Basic rules of gun handling: treat every gun as loaded until you have checked it yourself. The muzzle always points in a safe direction. The gun is loaded only at the stand or in the high seat, and unloaded before leaving it, before crossing obstacles and before getting into a vehicle."
+        },
+        {
+          "de": "Bei Gesellschaftsjagden belehrt der Jagdleiter alle Teilnehmer vor Beginn über die Sicherheitsregeln. Jeder Schütze muss sich mit seinen Nachbarn verständigen und seine Schussrichtungen kennen. In das Treiben darf nicht geschossen werden. Nach dem Signal »Hahn in Ruh« bzw. dem Abblasen ist das Schießen einzustellen.",
+          "en": "At group hunts the hunt leader instructs all participants about the safety rules before the start. Each shooter must make contact with his neighbours and know his permitted shooting directions. Never shoot into the drive (towards the beaters). After the signal “Hahn in Ruh” or the end-of-drive horn signal, shooting must stop."
+        },
+        {
+          "de": "Nach der Unfallverhütungsvorschrift Jagd der landwirtschaftlichen Berufsgenossenschaft müssen Schützen, Treiber und Hundeführer bei Bewegungsjagden durch auffällige Signalfarbe (zum Beispiel Warnweste oder Hutband) erkennbar sein.",
+          "en": "Under the hunting accident-prevention rules of the agricultural employers' liability insurance, shooters, beaters and dog handlers at driven hunts must be recognisable by conspicuous high-visibility colours (for example a safety vest or hat band)."
+        }
+      ],
+      "keyTerms": [
+        {
+          "de": "Kugelfang",
+          "en": "backstop"
+        },
+        {
+          "de": "Gefährdungsbereich",
+          "en": "danger zone",
+          "note": "Area a projectile can reach."
+        },
+        {
+          "de": "Jagdleiter",
+          "en": "hunt leader",
+          "note": "Responsible for safety at group hunts."
+        },
+        {
+          "de": "Treiben",
+          "en": "drive (area being driven)"
+        },
+        {
+          "de": "Hahn in Ruh",
+          "en": "cease fire signal",
+          "note": "Horn signal that ends shooting."
+        },
+        {
+          "de": "Signalfarbe",
+          "en": "high-visibility colour"
+        }
+      ],
+      "sources": [
+        {
+          "title": "SVLFG – Unfallverhütungsvorschrift Jagd (VSG 4.4)",
+          "url": "https://www.svlfg.de/"
+        },
+        {
+          "title": "Deutscher Jagdverband (DJV)",
+          "url": "https://www.jagdverband.de/"
+        }
+      ],
+      "origin": "seed",
+      "updatedAt": "2026-11-12"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "betrieb-einzeljagd",
+      "lessonId": "jagdarten",
+      "questionDe": "Welche Jagdarten gehören zur Einzeljagd?",
+      "questionEn": "Which methods are individual hunting?",
+      "options": [
+        {
+          "de": "Ansitz",
+          "en": "Stand hunt"
+        },
+        {
+          "de": "Pirsch",
+          "en": "Stalking"
+        },
+        {
+          "de": "Drückjagd",
+          "en": "Slow driven hunt"
+        },
+        {
+          "de": "Treibjagd",
+          "en": "Driven hunt"
+        }
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanationDe": "Ansitz und Pirsch sind Einzeljagd; Drück- und Treibjagd sind Gesellschaftsjagden.",
+      "explanationEn": "Stand hunting and stalking are individual hunts; drives are group hunts.",
+      "origin": "seed"
+    },
+    {
+      "id": "betrieb-pirsch-wind",
+      "lessonId": "jagdarten",
+      "questionDe": "Wie pirscht man richtig?",
+      "questionEn": "How do you stalk correctly?",
+      "options": [
+        {
+          "de": "Mit dem Wind im Rücken",
+          "en": "With the wind at your back"
+        },
+        {
+          "de": "Gegen den Wind",
+          "en": "Into the wind"
+        },
+        {
+          "de": "Möglichst schnell",
+          "en": "As fast as possible"
+        },
+        {
+          "de": "Langsam und leise",
+          "en": "Slowly and quietly"
+        }
+      ],
+      "correct": [
+        1,
+        3
+      ],
+      "explanationDe": "Wild nimmt den Menschen vor allem über den Geruch wahr, daher pirscht man langsam gegen den Wind.",
+      "explanationEn": "Game mainly smells people, so you stalk slowly into the wind.",
+      "origin": "seed"
+    },
+    {
+      "id": "betrieb-drueckjagd",
+      "lessonId": "jagdarten",
+      "questionDe": "Was ist das Ziel einer Drückjagd?",
+      "questionEn": "What is the aim of a Drückjagd?",
+      "options": [
+        {
+          "de": "Wild ruhig und vertraut vor die Schützen bringen",
+          "en": "Bring game calmly to the shooters"
+        },
+        {
+          "de": "Wild möglichst hochflüchtig machen",
+          "en": "Make game run as fast as possible"
+        },
+        {
+          "de": "Wild mit vielen Treibern in einer Linie treiben",
+          "en": "Drive game with many beaters in a line"
+        },
+        {
+          "de": "Wild anlocken",
+          "en": "Lure game"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Bei der Drückjagd wird das Wild langsam gedrückt, damit sichere Schüsse möglich sind.",
+      "explanationEn": "In a Drückjagd game is pushed slowly so that safe, accurate shots are possible.",
+      "origin": "seed"
+    },
+    {
+      "id": "betrieb-wildschaden-arten",
+      "lessonId": "hege-und-wildschaden",
+      "questionDe": "Für Wildschaden durch welche Arten besteht nach § 29 BJagdG Ersatzpflicht?",
+      "questionEn": "Under § 29 BJagdG, damage by which species must be compensated?",
+      "options": [
+        {
+          "de": "Schalenwild",
+          "en": "Cloven-hoofed game"
+        },
+        {
+          "de": "Wildkaninchen",
+          "en": "Wild rabbits"
+        },
+        {
+          "de": "Fasanen",
+          "en": "Pheasants"
+        },
+        {
+          "de": "Feldhasen",
+          "en": "Brown hares"
+        }
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanationDe": "Ersatzpflichtig ist Schaden durch Schalenwild, Wildkaninchen und Fasanen.",
+      "explanationEn": "Damage by cloven-hoofed game, wild rabbits and pheasants is compensated.",
+      "origin": "seed"
+    },
+    {
+      "id": "betrieb-wildschaden-frist",
+      "lessonId": "hege-und-wildschaden",
+      "questionDe": "Innerhalb welcher Frist muss Wildschaden auf landwirtschaftlichen Flächen angemeldet werden?",
+      "questionEn": "Within what period must game damage on farmland be reported?",
+      "options": [
+        {
+          "de": "Binnen einer Woche nach Kenntnis",
+          "en": "Within one week of learning of it"
+        },
+        {
+          "de": "Binnen eines Monats",
+          "en": "Within one month"
+        },
+        {
+          "de": "Bis zum Ende des Jagdjahres",
+          "en": "By the end of the hunting year"
+        },
+        {
+          "de": "Sofort beim Jagdpächter, eine Behörde ist nicht zuständig",
+          "en": "Immediately to the leaseholder; no authority is involved"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "§ 34 BJagdG: Anmeldung binnen einer Woche bei der zuständigen Behörde.",
+      "explanationEn": "§ 34 BJagdG: report within one week to the competent authority.",
+      "origin": "seed"
+    },
+    {
+      "id": "betrieb-jagdschaden",
+      "lessonId": "hege-und-wildschaden",
+      "questionDe": "Bei einer Treibjagd wird ein Weidezaun beschädigt. Wie nennt man diesen Schaden?",
+      "questionEn": "A pasture fence is damaged during a driven hunt. What is this damage called?",
+      "options": [
+        {
+          "de": "Wildschaden",
+          "en": "Game damage"
+        },
+        {
+          "de": "Jagdschaden",
+          "en": "Hunting damage"
+        },
+        {
+          "de": "Fegeschaden",
+          "en": "Fraying damage"
+        },
+        {
+          "de": "Schälschaden",
+          "en": "Bark-stripping damage"
+        }
+      ],
+      "correct": [
+        1
+      ],
+      "explanationDe": "Schaden durch die Jagdausübung selbst ist Jagdschaden (§ 33 BJagdG).",
+      "explanationEn": "Damage caused by hunting itself is hunting damage (§ 33 BJagdG).",
+      "origin": "seed"
+    },
+    {
+      "id": "betrieb-schaele",
+      "lessonId": "hege-und-wildschaden",
+      "questionDe": "Welche Wildart verursacht vor allem Schälschäden?",
+      "questionEn": "Which species mainly causes bark stripping?",
+      "options": [
+        {
+          "de": "Rotwild",
+          "en": "Red deer"
+        },
+        {
+          "de": "Feldhase",
+          "en": "Brown hare"
+        },
+        {
+          "de": "Fuchs",
+          "en": "Fox"
+        },
+        {
+          "de": "Rebhuhn",
+          "en": "Grey partridge"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Schäle – das Abziehen der Rinde – ist typisch für Rotwild.",
+      "explanationEn": "Bark stripping is typical of red deer.",
+      "origin": "seed"
+    },
+    {
+      "id": "betrieb-horizont",
+      "lessonId": "sicherheit-bei-der-jagd",
+      "questionDe": "Ein Reh steht auf einer Kuppe vor dem Horizont. Darf man mit der Büchse schießen?",
+      "questionEn": "A roe deer stands on a hilltop against the skyline. May you shoot with a rifle?",
+      "options": [
+        {
+          "de": "Ja, wenn das Reh frei steht",
+          "en": "Yes, if it stands clear"
+        },
+        {
+          "de": "Nein, weil kein Kugelfang vorhanden ist",
+          "en": "No, because there is no backstop"
+        },
+        {
+          "de": "Ja, bei Entfernungen unter 100 m",
+          "en": "Yes, under 100 m"
+        },
+        {
+          "de": "Ja, wenn man liegend schießt",
+          "en": "Yes, if shooting prone"
+        }
+      ],
+      "correct": [
+        1
+      ],
+      "explanationDe": "Ohne sicheren Kugelfang darf nicht geschossen werden.",
+      "explanationEn": "Never shoot without a safe backstop.",
+      "origin": "seed"
+    },
+    {
+      "id": "betrieb-schrot-faustregel",
+      "lessonId": "sicherheit-bei-der-jagd",
+      "questionDe": "Wie groß ist nach der Faustformel der Gefährdungsbereich bei 3,5 mm Schrot?",
+      "questionEn": "Using the rule of thumb, what is the danger range for 3.5 mm shot?",
+      "options": [
+        {
+          "de": "etwa 35 m",
+          "en": "about 35 m"
+        },
+        {
+          "de": "etwa 350 m",
+          "en": "about 350 m"
+        },
+        {
+          "de": "etwa 3,5 km",
+          "en": "about 3.5 km"
+        },
+        {
+          "de": "etwa 1.000 m",
+          "en": "about 1,000 m"
+        }
+      ],
+      "correct": [
+        1
+      ],
+      "explanationDe": "Schrotkorndurchmesser in mm × 100 = Meter, also 3,5 × 100 = 350 m.",
+      "explanationEn": "Shot diameter in mm × 100 = metres: 3.5 × 100 = 350 m.",
+      "origin": "seed"
+    },
+    {
+      "id": "betrieb-entladen",
+      "lessonId": "sicherheit-bei-der-jagd",
+      "questionDe": "Wann muss die Waffe entladen werden?",
+      "questionEn": "When must the gun be unloaded?",
+      "options": [
+        {
+          "de": "Vor dem Überwinden von Hindernissen",
+          "en": "Before crossing obstacles"
+        },
+        {
+          "de": "Vor dem Besteigen eines Fahrzeugs",
+          "en": "Before getting into a vehicle"
+        },
+        {
+          "de": "Beim Verlassen des Hochsitzes",
+          "en": "When leaving the high seat"
+        },
+        {
+          "de": "Nur am Ende des Jagdtages",
+          "en": "Only at the end of the hunting day"
+        }
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanationDe": "Die Waffe ist nur am Stand geladen; vor Hindernissen, Fahrzeugen und beim Verlassen des Standes wird entladen.",
+      "explanationEn": "The gun is loaded only at the stand; unload before obstacles, vehicles and when leaving the stand.",
+      "origin": "seed"
+    }
+  ]
+}

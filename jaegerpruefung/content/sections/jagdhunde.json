@@ -1,0 +1,406 @@
+{
+  "id": "jagdhunde",
+  "order": 4,
+  "titleDe": "Jagdhundewesen",
+  "titleEn": "Hunting dogs",
+  "summaryDe": "Jagdhunderassen und ihre Verwendung, Ausbildung und Prüfungen, Brauchbarkeit, Nachsuche und Wildfolge.",
+  "summaryEn": "Hunting dog breeds and their uses, training and trials, legal qualification (Brauchbarkeit), tracking wounded game and following it across boundaries.",
+  "researchTopics": [
+    "Brauchbarkeitsprüfung Landesrecht",
+    "Jagdhundeausbildung Verbandsprüfungen VJP HZP",
+    "Hundekrankheiten Aujeszky Jagdhund",
+    "Wildfolgevereinbarung",
+    "Hundeführer Nachsuche Gespann"
+  ],
+  "lessons": [
+    {
+      "id": "jagdhundegruppen",
+      "titleDe": "Jagdhunderassen und ihre Aufgaben",
+      "titleEn": "Hunting dog breeds and their jobs",
+      "paragraphs": [
+        {
+          "de": "»Jagd ohne Hund ist Schund« – dieser alte Spruch zeigt, wie wichtig der Jagdhund ist. Er hilft beim Finden, Hetzen, Stellen und Bringen von Wild und vor allem bei der Nachsuche auf krankgeschossenes Wild. Jagdhunde werden nach ihrer Hauptaufgabe in Gruppen eingeteilt.",
+          "en": "“Hunting without a dog is rubbish” (Jagd ohne Hund ist Schund) — this old saying shows how important the hunting dog is. Dogs help to find, chase, hold at bay and retrieve game, and above all to track wounded game (Nachsuche). Hunting dogs are grouped by their main job."
+        },
+        {
+          "de": "Vorstehhunde wie Deutsch Drahthaar, Deutsch Kurzhaar, Deutsch Langhaar, Weimaraner und Kleiner Münsterländer sind Vielseitigkeitshunde: Sie suchen Niederwild, zeigen es durch Vorstehen an, bringen (apportieren) erlegtes Wild und arbeiten im Wasser und auf der Schweißfährte.",
+          "en": "Pointing dogs such as the German Wirehaired Pointer (Deutsch Drahthaar), German Shorthaired Pointer, German Longhaired Pointer, Weimaraner and Small Münsterländer are versatile dogs: they search for small game, indicate it by pointing (vorstehen), retrieve shot game and work in water and on blood trails."
+        },
+        {
+          "de": "Stöberhunde wie der Deutsche Wachtelhund und die Spaniel suchen im dichten Bewuchs selbständig und spurlaut, das heißt, sie geben auf der Spur Laut. Bracken jagen Hase und Fuchs laut auf der Spur. Erdhunde – Dachshunde (Teckel) und Terrier wie der Deutsche Jagdterrier – arbeiten im Fuchs- und Dachsbau.",
+          "en": "Flushing dogs such as the German Spaniel (Deutscher Wachtelhund) and the spaniels search dense cover on their own and give tongue on the track (spurlaut). Hounds (Bracken) chase hare and fox, baying on the track. Earth dogs — dachshunds (Teckel) and terriers such as the German Hunting Terrier — work inside fox and badger dens."
+        },
+        {
+          "de": "Schweißhunde – der Hannoversche Schweißhund und der Bayerische Gebirgsschweißhund – sind Spezialisten für die Nachsuche auf Schalenwild, auch auf schwierigen, alten Fährten. Apportierhunde wie die Retriever werden vor allem für das Bringen von Wasser- und Federwild eingesetzt.",
+          "en": "Scent hounds for blood tracking (Schweißhunde) — the Hanoverian Scenthound and the Bavarian Mountain Scenthound — are specialists in tracking wounded cloven-hoofed game, even on difficult, old trails. Retrievers are used mainly to retrieve waterfowl and feathered game."
+        }
+      ],
+      "keyTerms": [
+        {
+          "de": "Vorstehhund",
+          "en": "pointing dog",
+          "note": "Points game by freezing."
+        },
+        {
+          "de": "vorstehen",
+          "en": "to point"
+        },
+        {
+          "de": "apportieren / bringen",
+          "en": "to retrieve"
+        },
+        {
+          "de": "Stöberhund",
+          "en": "flushing dog"
+        },
+        {
+          "de": "spurlaut",
+          "en": "giving tongue on the track",
+          "note": "The dog barks while following a scent track."
+        },
+        {
+          "de": "Erdhund",
+          "en": "earth dog",
+          "note": "Dachshunds and terriers."
+        },
+        {
+          "de": "Schweißhund",
+          "en": "blood-tracking hound"
+        },
+        {
+          "de": "Bracke",
+          "en": "scent hound (hound)"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Jagdgebrauchshundverband (JGHV)",
+          "url": "https://www.jghv.de/"
+        },
+        {
+          "title": "Deutscher Jagdverband (DJV)",
+          "url": "https://www.jagdverband.de/"
+        }
+      ],
+      "origin": "seed",
+      "updatedAt": "2026-11-12"
+    },
+    {
+      "id": "nachsuche",
+      "titleDe": "Nachsuche und brauchbare Jagdhunde",
+      "titleEn": "Tracking wounded game and qualified hunting dogs",
+      "paragraphs": [
+        {
+          "de": "Die Landesjagdgesetze verlangen, dass bei bestimmten Jagdarten brauchbare Jagdhunde eingesetzt oder bereitgehalten werden – insbesondere bei der Nachsuche, bei Bewegungsjagden und bei der Jagd auf Wasserwild. Die Brauchbarkeit wird durch eine Prüfung nachgewiesen. Einzelheiten regelt jedes Land selbst.",
+          "en": "The state hunting laws require qualified hunting dogs (brauchbare Jagdhunde) to be used or kept ready for certain kinds of hunting — especially for tracking wounded game, at driven hunts and when hunting waterfowl. A dog's qualification is proven by a test. Each state sets its own details."
+        },
+        {
+          "de": "Nach jedem Schuss ist der Anschuss zu untersuchen, also die Stelle, an der das Wild beim Schuss stand. Dort findet man Pirschzeichen wie Schweiß (Blut), Schnitthaar, Knochensplitter oder Wildbretfetzen. Sie geben Hinweise auf den Sitz des Schusses. Der Anschuss wird verbrochen (markiert) und darf nicht zertreten werden.",
+          "en": "After every shot the shot site (Anschuss) must be checked — the spot where the animal stood when hit. There you find signs (Pirschzeichen) such as blood (Schweiß), cut hair, bone splinters or pieces of tissue. They indicate where the bullet hit. The shot site is marked with a broken twig (verbrochen) and must not be trampled."
+        },
+        {
+          "de": "Ist das Wild nicht im Feuer gefallen, wartet man in der Regel einige Zeit, bevor die Nachsuche beginnt, damit das kranke Stück sich niedertut und verendet und nicht weiter beunruhigt wird. Bei schwierigen Fällen wird ein Gespann mit erfahrenem Schweißhund geholt. Das Folgen der Fährte mit dem Hund am langen Riemen heißt Riemenarbeit.",
+          "en": "If the animal did not drop on the spot, you usually wait some time before tracking, so that the wounded animal lies down and dies and is not disturbed further. In difficult cases a team with an experienced blood-tracking dog is called. Following the trail with the dog on a long lead is called Riemenarbeit."
+        },
+        {
+          "de": "Findet ein frei suchender Hund verendetes Wild, zeigt er das an: Beim Totverbellen bleibt er am Stück und gibt Laut, bis der Führer kommt; beim Totverweisen läuft er zum Führer zurück und führt ihn zum Stück. Muss die Nachsuche über die Reviergrenze hinaus fortgesetzt werden, gelten die Wildfolge-Regelungen des Landes oder schriftliche Wildfolgevereinbarungen.",
+          "en": "When a dog searching freely finds dead game it signals this: with Totverbellen it stays at the carcass and barks until the handler arrives; with Totverweisen it runs back to the handler and leads them to the carcass. If tracking must continue across the boundary of the hunting ground, the state's rules on following wounded game (Wildfolge) or written Wildfolge agreements apply."
+        }
+      ],
+      "keyTerms": [
+        {
+          "de": "Nachsuche",
+          "en": "tracking wounded game"
+        },
+        {
+          "de": "Anschuss",
+          "en": "shot site",
+          "note": "Where the animal stood when shot."
+        },
+        {
+          "de": "Pirschzeichen",
+          "en": "signs of a hit",
+          "note": "Blood, hair, bone, tissue at the shot site."
+        },
+        {
+          "de": "Schweiß",
+          "en": "blood (of game)",
+          "note": "Hunters' word for blood."
+        },
+        {
+          "de": "Riemenarbeit",
+          "en": "tracking on a long lead"
+        },
+        {
+          "de": "Totverbellen",
+          "en": "barking at dead game"
+        },
+        {
+          "de": "Totverweisen",
+          "en": "leading the handler to dead game"
+        },
+        {
+          "de": "Wildfolge",
+          "en": "following wounded game across boundaries",
+          "note": "Regulated by state law or agreements."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Jagdgebrauchshundverband (JGHV)",
+          "url": "https://www.jghv.de/"
+        }
+      ],
+      "origin": "seed",
+      "updatedAt": "2026-11-12"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "hunde-vorsteh",
+      "lessonId": "jagdhundegruppen",
+      "questionDe": "Welche Rassen sind Vorstehhunde?",
+      "questionEn": "Which breeds are pointing dogs?",
+      "options": [
+        {
+          "de": "Deutsch Drahthaar",
+          "en": "German Wirehaired Pointer"
+        },
+        {
+          "de": "Kleiner Münsterländer",
+          "en": "Small Münsterländer"
+        },
+        {
+          "de": "Dachshund (Teckel)",
+          "en": "Dachshund"
+        },
+        {
+          "de": "Hannoverscher Schweißhund",
+          "en": "Hanoverian Scenthound"
+        }
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanationDe": "Drahthaar und Kleiner Münsterländer sind Vorstehhunde; der Teckel ist Erdhund, der Hannoversche ein Schweißhund.",
+      "explanationEn": "Drahthaar and Small Münsterländer are pointers; the dachshund is an earth dog and the Hanoverian a blood-tracking hound.",
+      "origin": "seed"
+    },
+    {
+      "id": "hunde-schweisshund",
+      "lessonId": "jagdhundegruppen",
+      "questionDe": "Welche Hunde gelten als Spezialisten für die Nachsuche auf Schalenwild?",
+      "questionEn": "Which dogs are specialists for tracking wounded cloven-hoofed game?",
+      "options": [
+        {
+          "de": "Hannoverscher Schweißhund",
+          "en": "Hanoverian Scenthound"
+        },
+        {
+          "de": "Bayerischer Gebirgsschweißhund",
+          "en": "Bavarian Mountain Scenthound"
+        },
+        {
+          "de": "Golden Retriever",
+          "en": "Golden Retriever"
+        },
+        {
+          "de": "Deutscher Jagdterrier",
+          "en": "German Hunting Terrier"
+        }
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanationDe": "Die beiden Schweißhunderassen sind die Nachsuchenspezialisten.",
+      "explanationEn": "The two Schweißhund breeds are the tracking specialists.",
+      "origin": "seed"
+    },
+    {
+      "id": "hunde-erdhund",
+      "lessonId": "jagdhundegruppen",
+      "questionDe": "Welche Hunde werden bei der Baujagd eingesetzt?",
+      "questionEn": "Which dogs are used for hunting at the den (Baujagd)?",
+      "options": [
+        {
+          "de": "Teckel",
+          "en": "Dachshund"
+        },
+        {
+          "de": "Deutscher Jagdterrier",
+          "en": "German Hunting Terrier"
+        },
+        {
+          "de": "Weimaraner",
+          "en": "Weimaraner"
+        },
+        {
+          "de": "Deutscher Wachtelhund",
+          "en": "German Spaniel"
+        }
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanationDe": "Erdhunde (Teckel, Terrier) arbeiten im Bau.",
+      "explanationEn": "Earth dogs (dachshunds, terriers) work in the den.",
+      "origin": "seed"
+    },
+    {
+      "id": "hunde-spurlaut",
+      "lessonId": "jagdhundegruppen",
+      "questionDe": "Was bedeutet »spurlaut«?",
+      "questionEn": "What does “spurlaut” mean?",
+      "options": [
+        {
+          "de": "Der Hund gibt auf der Spur des Wildes Laut",
+          "en": "The dog barks while following the track"
+        },
+        {
+          "de": "Der Hund bellt nur, wenn er Wild sieht",
+          "en": "The dog barks only when it sees game"
+        },
+        {
+          "de": "Der Hund jagt stumm",
+          "en": "The dog hunts silently"
+        },
+        {
+          "de": "Der Hund bellt verendetes Wild an",
+          "en": "The dog barks at dead game"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Spurlaut = Laut auf der Spur; sichtlaut = Laut nur bei Sicht; Totverbellen = am verendeten Stück.",
+      "explanationEn": "Spurlaut = barking on the scent; sichtlaut = only on sight; Totverbellen = at dead game.",
+      "origin": "seed"
+    },
+    {
+      "id": "hunde-anschuss",
+      "lessonId": "nachsuche",
+      "questionDe": "Was sollte man nach dem Schuss am Anschuss tun?",
+      "questionEn": "What should you do at the shot site after the shot?",
+      "options": [
+        {
+          "de": "Nach Pirschzeichen suchen",
+          "en": "Look for signs of a hit"
+        },
+        {
+          "de": "Den Anschuss verbrechen (markieren)",
+          "en": "Mark the shot site"
+        },
+        {
+          "de": "Den Anschuss gründlich zertreten",
+          "en": "Trample the shot site thoroughly"
+        },
+        {
+          "de": "Sofort ohne Hund der Fluchtfährte folgen",
+          "en": "Immediately follow the trail without a dog"
+        }
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanationDe": "Pirschzeichen suchen und den Anschuss markieren, ohne ihn zu zertreten; bei Bedarf Hund einsetzen.",
+      "explanationEn": "Look for signs, mark the site without trampling it, and use a dog if needed.",
+      "origin": "seed"
+    },
+    {
+      "id": "hunde-schweiss",
+      "lessonId": "nachsuche",
+      "questionDe": "Was bedeutet »Schweiß« in der Jägersprache?",
+      "questionEn": "What does “Schweiß” mean in hunters' language?",
+      "options": [
+        {
+          "de": "Blut des Wildes",
+          "en": "Blood of game"
+        },
+        {
+          "de": "Schweiß des Jägers",
+          "en": "The hunter's sweat"
+        },
+        {
+          "de": "Eine Hunderasse",
+          "en": "A dog breed"
+        },
+        {
+          "de": "Fährte im Schnee",
+          "en": "A track in snow"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Schweiß ist das Blut des Wildes; daher Schweißhund und Schweißfährte.",
+      "explanationEn": "Schweiß is the blood of game — hence Schweißhund and Schweißfährte.",
+      "origin": "seed"
+    },
+    {
+      "id": "hunde-totverweiser",
+      "lessonId": "nachsuche",
+      "questionDe": "Wie arbeitet ein Totverweiser?",
+      "questionEn": "How does a Totverweiser work?",
+      "options": [
+        {
+          "de": "Er kehrt zum Führer zurück und führt ihn zum Stück",
+          "en": "Returns to the handler and leads them to the carcass"
+        },
+        {
+          "de": "Er bleibt am Stück und bellt",
+          "en": "Stays at the carcass and barks"
+        },
+        {
+          "de": "Er bringt das Stück zum Führer",
+          "en": "Retrieves the carcass to the handler"
+        },
+        {
+          "de": "Er stellt das kranke Stück",
+          "en": "Holds wounded game at bay"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Totverweiser führen zum Stück; Totverbeller bleiben am Stück und geben Laut.",
+      "explanationEn": "A Totverweiser leads the handler; a Totverbeller stays and barks.",
+      "origin": "seed"
+    },
+    {
+      "id": "hunde-brauchbar",
+      "lessonId": "nachsuche",
+      "questionDe": "Wo schreiben Landesjagdgesetze typischerweise brauchbare Jagdhunde vor?",
+      "questionEn": "Where do state hunting laws typically require qualified hunting dogs?",
+      "options": [
+        {
+          "de": "Bei der Nachsuche",
+          "en": "For tracking wounded game"
+        },
+        {
+          "de": "Bei Bewegungsjagden",
+          "en": "At driven hunts"
+        },
+        {
+          "de": "Bei der Jagd auf Wasserwild",
+          "en": "When hunting waterfowl"
+        },
+        {
+          "de": "Beim Ansitz auf Rehwild ohne Schuss",
+          "en": "On a stand for roe deer without a shot"
+        }
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanationDe": "Nachsuche, Bewegungsjagd und Wasserwildjagd sind die typischen Fälle; Details regelt das Land.",
+      "explanationEn": "Tracking, driven hunts and waterfowl hunting are typical; details are set by each state.",
+      "origin": "seed"
+    }
+  ]
+}
