@@ -1,0 +1,78 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #f6f4ee;
+  --surface: #ffffff;
+  --surface-2: #eef0e8;
+  --text: #1d2318;
+  --muted: #5f6857;
+  --border: #d9dccf;
+  --accent: #3f6b2e;
+  --accent-strong: #2e5121;
+  --accent-soft: #e3ecd9;
+  --warn: #9a5b12;
+  --ok: #2f7a3a;
+  --ok-soft: #e1f2e2;
+  --bad: #a83a2c;
+  --bad-soft: #f8e3df;
+  --quote: #f3ead4;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #121510;
+    --surface: #1a1e17;
+    --surface-2: #22281e;
+    --text: #e6eadf;
+    --muted: #9ba393;
+    --border: #2f362a;
+    --accent: #8fbf6f;
+    --accent-strong: #a9d488;
+    --accent-soft: #263220;
+    --warn: #e0a656;
+    --ok: #79c784;
+    --ok-soft: #1d3020;
+    --bad: #ef8a7a;
+    --bad-soft: #3a201c;
+    --quote: #2c2818;
+  }
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-text: var(--text);
+  --color-muted: var(--muted);
+  --color-border: var(--border);
+  --color-accent: var(--accent);
+  --color-accent-strong: var(--accent-strong);
+  --color-accent-soft: var(--accent-soft);
+  --color-warn: var(--warn);
+  --color-ok: var(--ok);
+  --color-ok-soft: var(--ok-soft);
+  --color-bad: var(--bad);
+  --color-bad-soft: var(--bad-soft);
+  --color-quote: var(--quote);
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+}
+
+@utility btn {
+  @apply inline-flex items-center justify-center gap-2 rounded-lg px-4 py-2 text-sm font-medium transition-colors disabled:cursor-not-allowed disabled:opacity-50;
+}
+@utility btn-primary {
+  @apply btn bg-accent text-white hover:bg-accent-strong dark:text-bg;
+}
+@utility btn-ghost {
+  @apply btn border border-border bg-surface hover:bg-surface-2;
+}
+@utility card {
+  @apply rounded-xl border border-border bg-surface;
+}
+@utility input {
+  @apply w-full rounded-lg border border-border bg-bg px-3 py-2 text-sm outline-none focus:border-accent;
+}

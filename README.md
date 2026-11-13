@@ -22,6 +22,12 @@ separate rows (see `supabase/migrations/0005`-`0007`, `0009`-`0010`).
 See the full architecture/plan behind this build for context on design
 decisions, data model, and the adaptive difficulty algorithm.
 
+## Also in this repo
+
+`jaegerpruefung/` is a separate, self-contained app for preparing for the German
+hunting licence exam. It has bilingual DE/EN lessons, an AI tutor chat, quizzes and a
+web-research collector agent. See [`jaegerpruefung/README.md`](jaegerpruefung/README.md).
+
 ## Tech stack
 
 Next.js 16 (App Router) + TypeScript, Tailwind v4 + shadcn/ui, Supabase

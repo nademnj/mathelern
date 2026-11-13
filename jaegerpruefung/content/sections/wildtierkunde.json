@@ -1,0 +1,616 @@
+{
+  "id": "wildtierkunde",
+  "order": 1,
+  "titleDe": "Wildtierkunde",
+  "titleEn": "Wildlife biology",
+  "summaryDe": "Biologie, Lebensweise und Erkennungsmerkmale der heimischen Wildarten – Haarwild und Federwild, Schalenwild, Raubwild und Niederwild – sowie die Jägersprache.",
+  "summaryEn": "Biology, behaviour and identification of native game species — furred and feathered game, cloven-hoofed game, predators and small game — plus the hunters' vocabulary.",
+  "researchTopics": [
+    "Rotwild Damwild Biologie Brunft",
+    "Fuchs Dachs Marder Biologie",
+    "Federwild Enten Gänse Bestimmung",
+    "Feldhase Wildkaninchen Unterschiede",
+    "Jägersprache Begriffe Prüfung"
+  ],
+  "lessons": [
+    {
+      "id": "einteilung-des-wildes",
+      "titleDe": "Einteilung des Wildes",
+      "titleEn": "How game is classified",
+      "paragraphs": [
+        {
+          "de": "Wild sind nach § 1 Bundesjagdgesetz wildlebende Tiere, die dem Jagdrecht unterliegen. Welche Arten das sind, regelt § 2 BJagdG; die Länder können weitere Arten zum Wild erklären. Man unterscheidet zunächst Haarwild (Säugetiere) und Federwild (Vögel).",
+          "en": "Under § 1 of the Federal Hunting Act, game (Wild) means wild animals that are subject to hunting law. Section 2 BJagdG lists the species; the federal states can declare further species to be game. The first division is into furred game (Haarwild, mammals) and feathered game (Federwild, birds)."
+        },
+        {
+          "de": "Schalenwild ist das Haarwild, das an den Läufen Schalen (Hufe) trägt: Rotwild, Damwild, Sikawild, Rehwild, Gamswild, Steinwild, Muffelwild, Elchwild, Wisent und Schwarzwild.",
+          "en": "Cloven-hoofed game (Schalenwild) is the furred game that has hooves (Schalen) on its legs: red deer, fallow deer, sika deer, roe deer, chamois, ibex, mouflon, elk/moose, European bison and wild boar."
+        },
+        {
+          "de": "Nach der traditionellen Einteilung gehört zum Hochwild alles Schalenwild außer dem Rehwild, außerdem Auerwild, Steinadler und Seeadler. Alles übrige Wild ist Niederwild. Rehwild ist damit die einzige Schalenwildart, die zum Niederwild zählt.",
+          "en": "In the traditional division, high game (Hochwild) is all cloven-hoofed game except roe deer, plus capercaillie, golden eagle and white-tailed eagle. All other game is low game (Niederwild). Roe deer is therefore the only cloven-hoofed species counted as low game."
+        },
+        {
+          "de": "Zum Haarwild gehören neben dem Schalenwild unter anderem Feldhase, Schneehase, Wildkaninchen, Murmeltier, Wildkatze, Luchs, Fuchs, Steinmarder, Baummarder, Iltis, Hermelin, Mauswiesel, Dachs, Fischotter und Seehund. Zum Federwild zählen zum Beispiel Rebhuhn, Fasan, Wachtel, Auer-, Birk- und Haselwild, Wildtauben, Wildgänse, Wildenten, Waldschnepfe, Greifvögel und Falken.",
+          "en": "Besides cloven-hoofed game, furred game includes, among others, brown hare, mountain hare, wild rabbit, marmot, wildcat, lynx, fox, stone marten, pine marten, polecat, stoat, weasel, badger, otter and harbour seal. Feathered game includes, for example, grey partridge, pheasant, quail, capercaillie, black grouse and hazel grouse, wild pigeons, wild geese, wild ducks, woodcock, birds of prey and falcons."
+        },
+        {
+          "de": "Dass eine Art zum Wild gehört, heißt nicht, dass sie bejagt werden darf. Viele Arten – etwa Luchs, Wildkatze, Fischotter oder Greifvögel – haben keine Jagdzeit und sind ganzjährig geschont. Für sie gilt aber die Hegepflicht des Jägers.",
+          "en": "Being game does not mean a species may be hunted. Many species — such as lynx, wildcat, otter or birds of prey — have no open season and are protected all year. The hunter's duty of care (Hegepflicht) still applies to them."
+        },
+        {
+          "de": "In der Jägersprache werden männliche und weibliche Tiere besonders benannt: beim Rehwild Bock und Ricke (Geiß), beim Rotwild Hirsch und Alttier, beim Schwarzwild Keiler und Bache. Junge Tiere heißen Kitz (Reh), Kalb (Rot- und Damwild) und Frischling (Schwarzwild).",
+          "en": "Hunters' language (Jägersprache) has special names for males and females: for roe deer buck (Bock) and doe (Ricke/Geiß); for red deer stag (Hirsch) and hind (Alttier); for wild boar boar (Keiler) and sow (Bache). Young animals are called kid/fawn (Kitz, roe deer), calf (Kalb, red and fallow deer) and piglet (Frischling, wild boar)."
+        }
+      ],
+      "keyTerms": [
+        {
+          "de": "Haarwild",
+          "en": "furred game",
+          "note": "Game mammals."
+        },
+        {
+          "de": "Federwild",
+          "en": "feathered game",
+          "note": "Game birds."
+        },
+        {
+          "de": "Schalenwild",
+          "en": "cloven-hoofed game",
+          "note": "Ungulates whose hooves are called Schalen."
+        },
+        {
+          "de": "Hochwild",
+          "en": "high game",
+          "note": "Traditionally all Schalenwild except roe deer, plus capercaillie and the two eagles."
+        },
+        {
+          "de": "Niederwild",
+          "en": "low game",
+          "note": "Everything that is not Hochwild, including roe deer."
+        },
+        {
+          "de": "Hegepflicht",
+          "en": "duty of game management/care",
+          "note": "Comes with the hunting right, also for species with no open season."
+        },
+        {
+          "de": "Ricke",
+          "en": "roe doe",
+          "note": "Adult female roe deer; also called Geiß."
+        },
+        {
+          "de": "Frischling",
+          "en": "wild boar piglet",
+          "note": "Wild boar in its first year."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Bundesjagdgesetz (BJagdG) – gesetze-im-internet.de",
+          "url": "https://www.gesetze-im-internet.de/bjagdg/"
+        },
+        {
+          "title": "Deutscher Jagdverband (DJV)",
+          "url": "https://www.jagdverband.de/"
+        }
+      ],
+      "origin": "seed",
+      "updatedAt": "2026-11-12"
+    },
+    {
+      "id": "rehwild",
+      "titleDe": "Rehwild",
+      "titleEn": "Roe deer",
+      "paragraphs": [
+        {
+          "de": "Das Reh ist die häufigste Schalenwildart in Deutschland. Es ist ein Konzentratselektierer: Es äst wählerisch energiereiche Knospen, Triebe, Kräuter und Blüten und braucht deshalb viele kleine Äsungsperioden über Tag und Nacht verteilt.",
+          "en": "The roe deer is the most common cloven-hoofed game species in Germany. It is a concentrate selector: it picks energy-rich buds, shoots, herbs and flowers, so it needs many small feeding periods spread over day and night."
+        },
+        {
+          "de": "Die Brunft des Rehwildes, die Blattzeit, liegt etwa von Mitte Juli bis Mitte August. Nach der Befruchtung ruht die Keimblase bis etwa Dezember (Eiruhe oder Keimruhe); erst dann entwickelt sich der Embryo weiter. So werden die Kitze trotz Sommerbrunft erst im Mai oder Juni gesetzt, meist ein bis zwei.",
+          "en": "The roe deer rut, called the Blattzeit, runs from about mid-July to mid-August. After fertilisation the blastocyst rests until about December (delayed implantation, Eiruhe/Keimruhe); only then does the embryo develop further. This is why the kids are born (gesetzt) in May or June despite the summer rut, usually one or two."
+        },
+        {
+          "de": "Der Rehbock trägt ein Gehörn (Geweih). Er wirft es etwa von Oktober bis Dezember ab, ältere Böcke meist früher. Das neue Gehörn wächst im Winter unter einer behaarten, gut durchbluteten Haut, dem Bast. Ist es ausgereift, fegt der Bock den Bast im Frühjahr an Sträuchern und jungen Bäumen ab – dabei entsteht Fegeschaden.",
+          "en": "The roe buck carries antlers, called Gehörn in roe deer. He casts them roughly between October and December, older bucks usually earlier. The new antlers grow over winter under a hairy skin full of blood vessels, the velvet (Bast). When they are mature the buck rubs off the velvet in spring on shrubs and young trees (fegen) — this causes fraying damage (Fegeschaden)."
+        },
+        {
+          "de": "Im Sommer trägt das Reh eine rotbraune Decke, im Winter eine graubraune. Am Hinterteil hat es einen hellen Fleck, den Spiegel; bei der Ricke ist er herzförmig und hat oft einen Haarbüschel (Schürze), beim Bock ist er nierenförmig. Daran kann man Bock und Ricke auch dann unterscheiden, wenn der Bock abgeworfen hat oder nur kurzes Bastgehörn trägt.",
+          "en": "In summer the roe deer has a red-brown coat (Decke), in winter a grey-brown one. On its rump it has a pale patch, the mirror (Spiegel); in the doe it is heart-shaped, often with a tuft of hair (Schürze), in the buck it is kidney-shaped. This lets you tell buck from doe even when the buck has cast his antlers or carries only short antlers in velvet."
+        },
+        {
+          "de": "Die Jagdzeiten nach der Bundesjagdzeitenverordnung sind: Böcke 1. Mai bis 15. Oktober, Schmalrehe 1. Mai bis 31. Januar, Ricken 1. September bis 31. Januar, Kitze 1. September bis 28. Februar. Die Länder dürfen abweichende Jagdzeiten festsetzen – prüfe die Regelung deines Bundeslandes.",
+          "en": "The open seasons under the federal hunting-season regulation are: bucks 1 May to 15 October, yearling does (Schmalrehe) 1 May to 31 January, adult does 1 September to 31 January, kids 1 September to 28 February. The states may set different seasons — check the rules of your own state."
+        },
+        {
+          "de": "Rehwild wird in vielen Ländern nach einem Abschussplan bejagt. Wo Verbiss die Waldverjüngung gefährdet, hängt die Höhe des Abschusses oft vom forstlichen Gutachten zur Situation der Waldverjüngung ab.",
+          "en": "In many states roe deer are hunted under a cull plan (Abschussplan). Where browsing (Verbiss) threatens forest regeneration, the size of the cull often depends on an official forestry report on regeneration."
+        }
+      ],
+      "keyTerms": [
+        {
+          "de": "Konzentratselektierer",
+          "en": "concentrate selector",
+          "note": "Browser that picks nutrient-rich food; roe deer."
+        },
+        {
+          "de": "Blattzeit",
+          "en": "roe deer rut",
+          "note": "Mid-July to mid-August."
+        },
+        {
+          "de": "Eiruhe",
+          "en": "delayed implantation",
+          "note": "The embryo rests until about December."
+        },
+        {
+          "de": "setzen",
+          "en": "to give birth (deer)",
+          "note": "Roe kids are born in May/June."
+        },
+        {
+          "de": "Gehörn",
+          "en": "antlers of the roe buck",
+          "note": "Cast Oct–Dec, regrown in velvet over winter."
+        },
+        {
+          "de": "Bast",
+          "en": "velvet",
+          "note": "Skin covering growing antlers."
+        },
+        {
+          "de": "fegen",
+          "en": "to fray/rub off velvet",
+          "note": "Causes Fegeschaden on young trees."
+        },
+        {
+          "de": "Spiegel",
+          "en": "rump patch",
+          "note": "Heart-shaped in the doe, kidney-shaped in the buck."
+        },
+        {
+          "de": "Schmalreh",
+          "en": "yearling doe",
+          "note": "Female roe deer in its second year, not yet given birth."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Verordnung über die Jagdzeiten (JagdzeitV) – gesetze-im-internet.de",
+          "url": "https://www.gesetze-im-internet.de/jagdzeitv_1977/"
+        },
+        {
+          "title": "Deutscher Jagdverband (DJV)",
+          "url": "https://www.jagdverband.de/"
+        }
+      ],
+      "origin": "seed",
+      "updatedAt": "2026-11-12"
+    },
+    {
+      "id": "schwarzwild",
+      "titleDe": "Schwarzwild",
+      "titleEn": "Wild boar",
+      "paragraphs": [
+        {
+          "de": "Schwarzwild lebt in Familienverbänden, den Rotten. Eine Rotte besteht aus Bachen mit ihren Frischlingen und den Überläufern des Vorjahres und wird von der erfahrensten Bache, der Leitbache, geführt. Ausgewachsene Keiler leben meist allein.",
+          "en": "Wild boar live in family groups called Rotten (sounders). A sounder is made up of sows (Bachen) with their piglets and the previous year's young (Überläufer) and is led by the most experienced sow, the lead sow (Leitbache). Mature boars mostly live alone."
+        },
+        {
+          "de": "Die Paarungszeit, die Rauschzeit, liegt schwerpunktmäßig von November bis Januar. Die Tragzeit beträgt etwa 114 bis 118 Tage – als Merkhilfe »drei Monate, drei Wochen, drei Tage«. Gefrischt wird vor allem von Februar bis April; bei guter Nahrung kommen Frischlinge aber fast das ganze Jahr vor.",
+          "en": "The mating season (Rauschzeit) is mainly November to January. Gestation is about 114 to 118 days — memory hook: “three months, three weeks, three days”. Most piglets are born (frischen) between February and April, but with plenty of food piglets occur almost all year."
+        },
+        {
+          "de": "Frischlinge tragen in den ersten Lebensmonaten Längsstreifen. Im zweiten Lebensjahr heißen die Stücke Überläufer. Der Keiler hat im Gebrech kräftige Eckzähne, das Gewaff (Gewehre im Unterkiefer, Haderer im Oberkiefer); die Eckzähne der Bache heißen Haken.",
+          "en": "Piglets have longitudinal stripes for their first months. In their second year the animals are called Überläufer. The boar has strong canine teeth (Gewaff) in its mouth (Gebrech): the lower tusks are called Gewehre, the upper ones Haderer; the sow's canines are called Haken."
+        },
+        {
+          "de": "Schwarzwild ist ein Allesfresser. Es nimmt Eicheln und Bucheckern (Mast), Feldfrüchte wie Mais und Getreide, Wurzeln, Insektenlarven, Mäuse und Aas auf. Durch das Brechen (Umwühlen) auf Wiesen und durch Fraß in Feldern verursacht es erhebliche Wildschäden.",
+          "en": "Wild boar are omnivores. They eat acorns and beechnuts (mast), crops such as maize and cereals, roots, insect larvae, mice and carrion. Rooting up meadows (brechen) and feeding in fields causes considerable game damage."
+        },
+        {
+          "de": "Nach der Bundesjagdzeitenverordnung darf Schwarzwild ganzjährig bejagt werden. Immer gilt aber der Muttertierschutz nach § 22 Abs. 4 BJagdG: Elterntiere, die für die Aufzucht notwendig sind, dürfen bis zum Selbständigwerden der Jungtiere nicht bejagt werden. Bachen, die Frischlinge führen, sind deshalb tabu. Die Länder können eigene Regelungen treffen.",
+          "en": "Under the federal hunting-season regulation wild boar may be hunted all year. But the protection of mother animals in § 22(4) BJagdG always applies: parent animals needed to raise the young must not be hunted until the young are independent. Sows leading piglets are therefore off limits. The states may have their own rules."
+        },
+        {
+          "de": "Schwarzwild kann Trichinen tragen. Jedes erlegte Stück, das zum Verzehr bestimmt ist, muss deshalb amtlich auf Trichinen untersucht werden. Seit dem Auftreten der Afrikanischen Schweinepest (ASP) in Deutschland gelten in betroffenen Gebieten zusätzlich besondere Regeln für Jagd, Bergung und Verwertung.",
+          "en": "Wild boar can carry Trichinella. Every boar shot for human consumption must therefore be officially tested for Trichinella. Since African swine fever (ASF) appeared in Germany, additional special rules for hunting, recovery and use of carcasses apply in affected areas."
+        }
+      ],
+      "keyTerms": [
+        {
+          "de": "Rotte",
+          "en": "sounder (family group)"
+        },
+        {
+          "de": "Leitbache",
+          "en": "lead sow",
+          "note": "Most experienced sow, leads the sounder."
+        },
+        {
+          "de": "Rauschzeit",
+          "en": "wild boar mating season",
+          "note": "Mainly November to January."
+        },
+        {
+          "de": "frischen",
+          "en": "to give birth (wild boar)"
+        },
+        {
+          "de": "Überläufer",
+          "en": "wild boar in its second year"
+        },
+        {
+          "de": "Gewaff",
+          "en": "tusks of the boar",
+          "note": "Gewehre (lower) and Haderer (upper)."
+        },
+        {
+          "de": "brechen",
+          "en": "to root (wild boar)",
+          "note": "Digging up the soil for food."
+        },
+        {
+          "de": "Muttertierschutz",
+          "en": "protection of mother animals",
+          "note": "§ 22(4) BJagdG."
+        },
+        {
+          "de": "Trichinenuntersuchung",
+          "en": "Trichinella test",
+          "note": "Mandatory for wild boar meat."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Verordnung über die Jagdzeiten (JagdzeitV) – gesetze-im-internet.de",
+          "url": "https://www.gesetze-im-internet.de/jagdzeitv_1977/"
+        },
+        {
+          "title": "Bundesjagdgesetz (BJagdG) – gesetze-im-internet.de",
+          "url": "https://www.gesetze-im-internet.de/bjagdg/"
+        }
+      ],
+      "origin": "seed",
+      "updatedAt": "2026-11-12"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "wild-hochwild-arten",
+      "lessonId": "einteilung-des-wildes",
+      "questionDe": "Welche der folgenden Wildarten gehören zum Hochwild?",
+      "questionEn": "Which of these species are high game (Hochwild)?",
+      "options": [
+        {
+          "de": "Rotwild",
+          "en": "Red deer"
+        },
+        {
+          "de": "Rehwild",
+          "en": "Roe deer"
+        },
+        {
+          "de": "Gamswild",
+          "en": "Chamois"
+        },
+        {
+          "de": "Auerwild",
+          "en": "Capercaillie"
+        }
+      ],
+      "correct": [
+        0,
+        2,
+        3
+      ],
+      "explanationDe": "Zum Hochwild zählt alles Schalenwild außer Rehwild sowie Auerwild, Stein- und Seeadler.",
+      "explanationEn": "High game is all cloven-hoofed game except roe deer, plus capercaillie, golden eagle and white-tailed eagle.",
+      "origin": "seed"
+    },
+    {
+      "id": "wild-schalenwild",
+      "lessonId": "einteilung-des-wildes",
+      "questionDe": "Was versteht man unter Schalenwild?",
+      "questionEn": "What is Schalenwild?",
+      "options": [
+        {
+          "de": "Wild, dessen Läufe in Schalen (Hufen) enden",
+          "en": "Game whose legs end in hooves (Schalen)"
+        },
+        {
+          "de": "Alle Wildarten mit Geweih",
+          "en": "All game species with antlers"
+        },
+        {
+          "de": "Nur Rot- und Damwild",
+          "en": "Only red and fallow deer"
+        },
+        {
+          "de": "Auch das Schwarzwild",
+          "en": "Wild boar too"
+        }
+      ],
+      "correct": [
+        0,
+        3
+      ],
+      "explanationDe": "Schalenwild sind die Paarhufer unter dem Haarwild, also auch Schwarzwild, Gams-, Stein- und Muffelwild.",
+      "explanationEn": "Schalenwild are the cloven-hoofed furred game species, including wild boar, chamois, ibex and mouflon.",
+      "origin": "seed"
+    },
+    {
+      "id": "wild-geschont",
+      "lessonId": "einteilung-des-wildes",
+      "questionDe": "Der Luchs unterliegt dem Jagdrecht. Was folgt daraus?",
+      "questionEn": "The lynx is subject to hunting law. What follows from that?",
+      "options": [
+        {
+          "de": "Er darf in der Jagdzeit bejagt werden",
+          "en": "It may be hunted in the open season"
+        },
+        {
+          "de": "Er hat keine Jagdzeit und ist ganzjährig geschont",
+          "en": "It has no open season and is protected all year"
+        },
+        {
+          "de": "Der Jäger hat für ihn eine Hegepflicht",
+          "en": "The hunter has a duty of care for it"
+        },
+        {
+          "de": "Er darf zur Wildschadensabwehr frei erlegt werden",
+          "en": "It may be shot freely to prevent damage"
+        }
+      ],
+      "correct": [
+        1,
+        2
+      ],
+      "explanationDe": "Der Luchs ist Wild, hat aber keine Jagdzeit. Für ganzjährig geschontes Wild gilt die Hegepflicht.",
+      "explanationEn": "The lynx is game but has no open season. The duty of care applies to game that is protected all year.",
+      "origin": "seed"
+    },
+    {
+      "id": "reh-blattzeit",
+      "lessonId": "rehwild",
+      "questionDe": "Wann ist die Brunft (Blattzeit) des Rehwildes?",
+      "questionEn": "When is the roe deer rut (Blattzeit)?",
+      "options": [
+        {
+          "de": "Oktober bis November",
+          "en": "October to November"
+        },
+        {
+          "de": "Mitte Juli bis Mitte August",
+          "en": "Mid-July to mid-August"
+        },
+        {
+          "de": "Dezember bis Januar",
+          "en": "December to January"
+        },
+        {
+          "de": "März bis April",
+          "en": "March to April"
+        }
+      ],
+      "correct": [
+        1
+      ],
+      "explanationDe": "Die Blattzeit liegt etwa von Mitte Juli bis Mitte August.",
+      "explanationEn": "The roe rut runs from about mid-July to mid-August.",
+      "origin": "seed"
+    },
+    {
+      "id": "reh-eiruhe",
+      "lessonId": "rehwild",
+      "questionDe": "Warum werden Rehkitze erst im Mai/Juni gesetzt, obwohl die Brunft im Sommer ist?",
+      "questionEn": "Why are roe kids born only in May/June although the rut is in summer?",
+      "options": [
+        {
+          "de": "Wegen der Eiruhe (Keimruhe) bis etwa Dezember",
+          "en": "Because of delayed implantation until about December"
+        },
+        {
+          "de": "Weil die Ricke im Winter ein zweites Mal beschlagen wird",
+          "en": "Because the doe is mated a second time in winter"
+        },
+        {
+          "de": "Weil die Tragzeit 11 Monate ohne Pause dauert",
+          "en": "Because gestation lasts 11 months without pause"
+        },
+        {
+          "de": "Wegen der Nachbrunft im November",
+          "en": "Because of a second rut in November"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Die befruchtete Keimblase ruht bis etwa Dezember, erst dann entwickelt sich der Embryo weiter.",
+      "explanationEn": "The fertilised blastocyst rests until about December; only then does the embryo continue to develop.",
+      "origin": "seed"
+    },
+    {
+      "id": "reh-spiegel",
+      "lessonId": "rehwild",
+      "questionDe": "Woran erkennt man im Winter eine Ricke?",
+      "questionEn": "How do you recognise a roe doe in winter?",
+      "options": [
+        {
+          "de": "Herzförmiger Spiegel",
+          "en": "Heart-shaped rump patch"
+        },
+        {
+          "de": "Schürze (Haarbüschel) am Spiegel",
+          "en": "Tuft of hair (Schürze) at the rump patch"
+        },
+        {
+          "de": "Nierenförmiger Spiegel",
+          "en": "Kidney-shaped rump patch"
+        },
+        {
+          "de": "Gehörn im Bast",
+          "en": "Antlers in velvet"
+        }
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanationDe": "Die Ricke hat einen herzförmigen Spiegel mit Schürze; der Bock einen nierenförmigen und trägt im Winter Bastgehörn.",
+      "explanationEn": "The doe has a heart-shaped rump patch with a tuft; the buck's is kidney-shaped, and in winter he carries antlers in velvet.",
+      "origin": "seed"
+    },
+    {
+      "id": "reh-jagdzeit-bock",
+      "lessonId": "rehwild",
+      "questionDe": "Wie lautet die Jagdzeit für Rehböcke nach der Bundesjagdzeitenverordnung?",
+      "questionEn": "What is the open season for roe bucks under the federal regulation?",
+      "options": [
+        {
+          "de": "1. Mai bis 15. Oktober",
+          "en": "1 May to 15 October"
+        },
+        {
+          "de": "1. September bis 31. Januar",
+          "en": "1 September to 31 January"
+        },
+        {
+          "de": "16. Juni bis 31. Januar",
+          "en": "16 June to 31 January"
+        },
+        {
+          "de": "ganzjährig",
+          "en": "all year"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Böcke: 1. Mai bis 15. Oktober. Länder können abweichen.",
+      "explanationEn": "Bucks: 1 May to 15 October. States may differ.",
+      "origin": "seed"
+    },
+    {
+      "id": "schwarz-rotte",
+      "lessonId": "schwarzwild",
+      "questionDe": "Wer führt eine Rotte Schwarzwild?",
+      "questionEn": "Who leads a sounder of wild boar?",
+      "options": [
+        {
+          "de": "Der stärkste Keiler",
+          "en": "The strongest boar"
+        },
+        {
+          "de": "Die Leitbache",
+          "en": "The lead sow"
+        },
+        {
+          "de": "Der älteste Überläufer",
+          "en": "The oldest Überläufer"
+        },
+        {
+          "de": "Keiler und Bache abwechselnd",
+          "en": "Boar and sow taking turns"
+        }
+      ],
+      "correct": [
+        1
+      ],
+      "explanationDe": "Die erfahrenste Bache, die Leitbache, führt die Rotte; Keiler leben meist allein.",
+      "explanationEn": "The most experienced sow leads the sounder; boars mostly live alone.",
+      "origin": "seed"
+    },
+    {
+      "id": "schwarz-tragzeit",
+      "lessonId": "schwarzwild",
+      "questionDe": "Wie lange ist die Tragzeit beim Schwarzwild ungefähr?",
+      "questionEn": "About how long is the gestation of wild boar?",
+      "options": [
+        {
+          "de": "Etwa 6 Wochen",
+          "en": "About 6 weeks"
+        },
+        {
+          "de": "Drei Monate, drei Wochen, drei Tage",
+          "en": "Three months, three weeks, three days"
+        },
+        {
+          "de": "Etwa 9 Monate",
+          "en": "About 9 months"
+        },
+        {
+          "de": "Etwa 6 Monate",
+          "en": "About 6 months"
+        }
+      ],
+      "correct": [
+        1
+      ],
+      "explanationDe": "Rund 114–118 Tage; Merkhilfe: 3 Monate, 3 Wochen, 3 Tage.",
+      "explanationEn": "About 114–118 days; memory hook: 3 months, 3 weeks, 3 days.",
+      "origin": "seed"
+    },
+    {
+      "id": "schwarz-gewaff",
+      "lessonId": "schwarzwild",
+      "questionDe": "Wie heißen die Eckzähne im Oberkiefer des Keilers?",
+      "questionEn": "What are the boar's upper canine teeth called?",
+      "options": [
+        {
+          "de": "Haderer",
+          "en": "Haderer"
+        },
+        {
+          "de": "Gewehre",
+          "en": "Gewehre"
+        },
+        {
+          "de": "Haken",
+          "en": "Haken"
+        },
+        {
+          "de": "Grandeln",
+          "en": "Grandeln"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Oberkiefer: Haderer, Unterkiefer: Gewehre. Zusammen: Gewaff. Haken hat die Bache, Grandeln das Rotwild.",
+      "explanationEn": "Upper jaw: Haderer, lower jaw: Gewehre, together the Gewaff. Sows have Haken; Grandeln are red deer canines.",
+      "origin": "seed"
+    },
+    {
+      "id": "schwarz-trichinen",
+      "lessonId": "schwarzwild",
+      "questionDe": "Was ist vor dem Verzehr von Schwarzwild vorgeschrieben?",
+      "questionEn": "What is required before wild boar meat is eaten?",
+      "options": [
+        {
+          "de": "Amtliche Trichinenuntersuchung",
+          "en": "Official Trichinella test"
+        },
+        {
+          "de": "Nichts, wenn das Stück gesund aussah",
+          "en": "Nothing if the animal looked healthy"
+        },
+        {
+          "de": "Nur Abkochen des Fleisches",
+          "en": "Only boiling the meat"
+        },
+        {
+          "de": "Eine Tollwutuntersuchung",
+          "en": "A rabies test"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Schwarzwild kann Trichinen tragen; die Untersuchung ist vorgeschrieben.",
+      "explanationEn": "Wild boar can carry Trichinella; testing is mandatory.",
+      "origin": "seed"
+    }
+  ]
+}
