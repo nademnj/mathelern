@@ -2,8 +2,9 @@ import { z } from "zod";
 import { collectSection, type CollectorEvent } from "@/lib/agent/collector";
 import { hasApiKey } from "@/lib/claude";
 
-// An agent run does many searches and can take several minutes.
-export const maxDuration = 800;
+// An agent run does many searches and can take several minutes. 300 s is the
+// most Vercel's free (Hobby) plan allows; for longer runs use `npm run collect`.
+export const maxDuration = 300;
 
 const bodySchema = z.object({
   sectionId: z.string().regex(/^[a-z0-9-]+$/),
