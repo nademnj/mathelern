@@ -21,6 +21,23 @@ npm run dev                        # http://localhost:3100
 
 Lessons and quizzes work without a key. The tutor chat and the agent need `ANTHROPIC_API_KEY`.
 
+## Putting it on your phone
+
+The app is a Progressive Web App (PWA): you can install it on your home screen, it opens full-screen like a normal app, and **all lessons and quizzes are saved on the phone**, so they work without internet. Your progress is also stored on the phone. Only the tutor chat needs a connection.
+
+A phone can only install it from an HTTPS address, so host it once:
+
+1. Push this repository to GitHub.
+2. In [Vercel](https://vercel.com/new), import the repository. Set **Root Directory** to `jaegerpruefung` and add the environment variable `ANTHROPIC_API_KEY`. Netlify, Render, or your own server with `npm run build && npm start` also work.
+3. Open the deployed address on your phone:
+   - **iPhone (Safari):** Share button, then *Add to Home Screen*.
+   - **Android (Chrome):** menu ⋮, then *Install app* (or *Add to Home screen*).
+4. Open it once while online. The footer shows "All lessons and quizzes saved on this device" when the download is finished.
+
+When new content is deployed, the app downloads it automatically the next time it is opened online. The service worker is in `public/sw.js`, and `/api/offline-pages` lists the pages to download.
+
+On a serverless host like Vercel, the in-app **Collector agent** page can't save files. Run `npm run collect` on your computer, commit the new `content/sections/*.json`, and redeploy. The phone then picks the new lessons up.
+
 ## Collecting material with the agent
 
 From the terminal:

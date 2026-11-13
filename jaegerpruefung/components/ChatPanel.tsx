@@ -89,7 +89,8 @@ export function ChatPanel({
       }
     } catch (err) {
       if ((err as Error).name === "AbortError") return;
-      setMessages([...history, { role: "assistant", content: `⚠️ ${(err as Error).message}` }]);
+      const text = navigator.onLine ? (err as Error).message : "You're offline. The tutor needs an internet connection; lessons and quizzes still work.";
+      setMessages([...history, { role: "assistant", content: `⚠️ ${text}` }]);
     } finally {
       if (abortRef.current === controller) setBusy(false);
     }
