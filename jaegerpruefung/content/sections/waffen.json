@@ -18,7 +18,10 @@
       "titleEn": "Long guns, handguns, ammunition, ballistics, optics",
       "officialQuestions": 135,
       "lessonIds": [
-        "jagdwaffen-und-munition"
+        "jagdwaffen-und-munition",
+        "waffentechnik",
+        "munition-und-ballistik",
+        "optik"
       ]
     },
     {
@@ -26,14 +29,18 @@
       "titleDe": "Handhabung, Pflege und Aufbewahrung von Waffen, Umgang mit Munition",
       "titleEn": "Handling, care and storage of guns; handling ammunition",
       "officialQuestions": 40,
-      "lessonIds": []
+      "lessonIds": [
+        "handhabung-und-pflege"
+      ]
     },
     {
       "code": "1.3",
       "titleDe": "Jagd- und Fanggeräte, Fallenjagd",
       "titleEn": "Hunting and trapping equipment, trapping",
       "officialQuestions": 29,
-      "lessonIds": []
+      "lessonIds": [
+        "fallenjagd"
+      ]
     },
     {
       "code": "1.4",
@@ -41,7 +48,8 @@
       "titleEn": "Firearms law, accident prevention, self-defence and necessity",
       "officialQuestions": 59,
       "lessonIds": [
-        "waffenrecht-fuer-jaeger"
+        "waffenrecht-fuer-jaeger",
+        "unfallverhuetung-notwehr"
       ]
     }
   ],
@@ -122,29 +130,398 @@
       "updatedAt": "2026-11-12"
     },
     {
+      "id": "waffentechnik",
+      "titleDe": "Waffentechnik: Bauarten, Läufe, Verschlüsse, Sicherungen",
+      "titleEn": "Firearm technology: types, barrels, actions, safeties",
+      "paragraphs": [
+        {
+          "de": "Wesentliche Teile im Sinne des Waffengesetzes sind unter anderem Lauf, Verschluss und die Trommel des Revolvers; sie tragen Beschusszeichen. Bei Repetierbüchsen und Selbstladepistolen wird die Patrone aus dem Magazin direkt ins Patronenlager geführt. Das Patronenlager liegt im Lauf – nur beim Revolver liegt es in der Trommel. Der Hülsenkopf ist das Teil des Verschlusses, in das der Lauf eingeschraubt ist. Kipplaufwaffen wie Bergstutzen, Drilling oder Bockbüchsflinte werden zum Laden abgekippt (gebrochen) und mit Laufhaken und Verschlüssen wie Greener-, Kersten- oder Flankenverschluss verriegelt.",
+          "en": "Essential parts under the Weapons Act include the barrel, the action/bolt and a revolver's cylinder; they carry proof marks. In bolt-action rifles and self-loading pistols the cartridge is fed from the magazine directly into the chamber. The chamber is part of the barrel — only in a revolver is it in the cylinder. The receiver ring (Hülsenkopf) is the part of the action into which the barrel is screwed. Break-action guns such as the mountain carbine (Bergstutzen), drilling or over-and-under rifle-shotgun are opened (broken) to load and are locked with barrel lugs and locking systems such as the Greener, Kersten or side locks."
+        },
+        {
+          "de": "Die zuverlässigste Sicherung ist die Schlagstücksicherung; die Flügelsicherung des Mauser-Systems 98 ist eine Schlagbolzensicherung – steht der Flügel senkrecht nach oben oder nach rechts, ist die Waffe gesichert. Kipplaufwaffen haben meist eine Schiebesicherung. Noch sicherer sind Waffen mit Handspannung, die erst unmittelbar vor dem Schuss gespannt werden; eine Bockbüchsflinte mit Handspannung hat meist gar keine zusätzliche Sicherung. Signalstifte zeigen bei Kipplaufwaffen nur an, dass die Schlosse gespannt sind – nicht, ob die Waffe geladen ist.",
+          "en": "The most reliable safety is a firing-mechanism (sear/hammer) block; the wing safety of the Mauser 98 action is a firing-pin safety — when the wing points straight up or to the right, the gun is safe. Break-action guns usually have a sliding safety. Even safer are guns with manual cocking (Handspannung), cocked only just before the shot; an over-and-under rifle-shotgun with manual cocking usually has no extra safety at all. On break-action guns, cocking indicators only show that the locks are cocked — not whether the gun is loaded."
+        },
+        {
+          "de": "Im Büchsenlauf geben Züge und Felder dem Geschoss Drall; er stabilisiert die Flugbahn und verhindert, dass sich das Geschoss überschlägt. Der Durchmesser von Zug zu Zug ist größer als der von Feld zu Feld. Aus einem kürzeren Lauf ist das Geschoss langsamer und der Knall lauter. Bei Flinten sitzt die Würgebohrung (Choke) am Laufende und beeinflusst die Streuung der Schrotgarbe; bei Doppelflinten hat meist der linke Lauf, bei Bockflinten der obere Lauf die engere Bohrung. Kaliber 12 ist weiter als Kaliber 20.",
+          "en": "In a rifle barrel the grooves and lands spin the bullet; spin stabilises the trajectory and stops the bullet tumbling. The groove-to-groove diameter is larger than the land-to-land diameter. From a shorter barrel the bullet is slower and the report louder. In shotguns the choke sits at the end of the barrel and controls the spread of the shot pattern; in side-by-sides usually the left barrel, in over-and-unders the top barrel has the tighter choke. 12 gauge is wider than 20 gauge."
+        },
+        {
+          "de": "Beim Flintenschießen ist der passende Schaft entscheidend; wer zu viel Schiene sieht, schießt hoch. Schränkung ist die seitliche Abweichung des Schafts von der Laufachse. Ein Selbstspanner wird beim Abkippen der Läufe gespannt, ein Ejektor wirft leere Hülsen per Federdruck aus. »Doppeln« – das ungewollte gleichzeitige Auslösen beider Läufe – ist bei Doppelflinte und Drilling möglich. Eine Büchsflinte hat einen Kugel- und einen Schrotlauf nebeneinander, die Bockbüchsflinte übereinander. Drillinge haben meist einen Rückstecher, bei der Bockbüchsflinte sitzt der Stecher im vorderen Abzug.",
+          "en": "In shotgun shooting a well-fitting stock is decisive; if you see too much of the rib you shoot high. Cast (Schränkung) is the sideways offset of the stock from the barrel axis. A self-cocking gun is cocked by opening the barrels; an ejector throws out empty cases by spring force. “Doubling” — both barrels firing unintentionally at once — is possible in side-by-sides and drillings. A Büchsflinte has one rifle and one shotgun barrel side by side, the Bockbüchsflinte one above the other. Drillings usually have a back set trigger; in an over-and-under rifle-shotgun the set trigger is in the front trigger."
+        },
+        {
+          "de": "Schalldämpfer verringern Mündungsknall, Rückstoß und sichtbares Mündungsfeuer, doch ein deutlicher Schussknall bleibt. Ein Schalldämpfer mit größerem Durchmesser kann technisch auch auf ein kleineres Kaliber mit passendem Mündungsgewinde gesetzt werden.",
+          "en": "Suppressors reduce the muzzle blast, recoil and visible muzzle flash, but a clearly audible report remains. A suppressor with a larger bore can technically also be fitted to a smaller calibre with a matching muzzle thread."
+        }
+      ],
+      "keyTerms": [
+        {
+          "de": "wesentliche Teile",
+          "en": "essential parts (legal term)"
+        },
+        {
+          "de": "Patronenlager",
+          "en": "chamber"
+        },
+        {
+          "de": "Kipplaufwaffe",
+          "en": "break-action gun"
+        },
+        {
+          "de": "Repetierbüchse",
+          "en": "bolt-action rifle"
+        },
+        {
+          "de": "Schlagstücksicherung",
+          "en": "firing-mechanism safety"
+        },
+        {
+          "de": "Handspannung",
+          "en": "manual cocking"
+        },
+        {
+          "de": "Signalstift",
+          "en": "cocking indicator"
+        },
+        {
+          "de": "Würgebohrung (Choke)",
+          "en": "choke"
+        },
+        {
+          "de": "Stecher",
+          "en": "set trigger"
+        },
+        {
+          "de": "Schalldämpfer",
+          "en": "suppressor"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Fragenkatalog zur Jägerprüfung in Bayern – Landesamt für Maß und Gewicht",
+          "url": "https://www.lmg.bayern.de/aufgaben_leistungen/jaegerpruefung/index.html"
+        },
+        {
+          "title": "Waffengesetz (WaffG) – gesetze-im-internet.de",
+          "url": "https://www.gesetze-im-internet.de/waffg_2002/"
+        }
+      ],
+      "origin": "seed",
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "munition-und-ballistik",
+      "titleDe": "Munition und Ballistik",
+      "titleEn": "Ammunition and ballistics",
+      "paragraphs": [
+        {
+          "de": "Die Bezeichnung 6,5 × 68 R bedeutet: 6,5 mm Kaliber, 68 mm Hülsenlänge, Patrone mit Rand (für Kipplaufwaffen); Patronen ohne R haben eine Ausziehrille und sind für Repetierer bestimmt, etwa 8 × 57 IS. Patronen sind nicht austauschbar: Aus einem 7 × 57 lässt sich keine 8 × 57, aus einer 8 × 68 S keine 8 × 57 IS verschießen. Zollkaliber: .222 Remington = 5,6 mm, .243 Winchester = 6,2 mm, .270 Winchester = 6,9 mm (damit über 6,5 mm). Randfeuerpatronen wie .22 lfB und .22 Magnum haben kein Zündhütchen – der Zündsatz sitzt im Hülsenrand; nicht jede Randpatrone hat aber Randfeuerzündung. In der Büchsenpatrone gibt es anders als in der Schrotpatrone keinen Pfropfen.",
+          "en": "The designation 6.5 × 68 R means: 6.5 mm calibre, 68 mm case length, rimmed cartridge (for break-action guns); cartridges without R have an extractor groove and are meant for bolt actions, e.g. 8 × 57 IS. Cartridges are not interchangeable: a 7 × 57 cannot fire 8 × 57, an 8 × 68 S cannot fire 8 × 57 IS. Inch calibres: .222 Remington = 5.6 mm, .243 Winchester = 6.2 mm, .270 Winchester = 6.9 mm (so above 6.5 mm). Rimfire cartridges such as .22 LR and .22 Magnum have no primer — the priming compound sits in the case rim; but not every rimmed cartridge is rimfire. Unlike a shotshell, a rifle cartridge has no wad."
+        },
+        {
+          "de": "Rasanz beschreibt die Krümmung der Flugbahn: Leichte, schnelle Geschosse haben eine gestrecktere Bahn. E 100 ist die Geschossenergie in Joule auf 100 m. Die Günstigste Einschussentfernung (GEE) ist die Entfernung, in der das Geschoss die Visierlinie zum zweiten Mal kreuzt. Die Flugbahn schneidet die Seelenachse (Laufmittellinie) nie. Der höchste Gasdruck entsteht im Bereich des Patronenlagers, die höchste Geschwindigkeit hat das Geschoss beim Verlassen des Laufs. Innenballistik umfasst alle Vorgänge im Lauf von der Zündung bis zum Austritt des Geschosses.",
+          "en": "Flatness (Rasanz) describes the curvature of the trajectory: light, fast bullets fly flatter. E 100 is the bullet's energy in joules at 100 m. The most favourable zero range (GEE) is the distance at which the bullet crosses the line of sight for the second time. The trajectory never crosses the bore axis. The highest gas pressure occurs around the chamber; the bullet is fastest as it leaves the muzzle. Internal ballistics covers everything in the barrel from ignition until the bullet exits."
+        },
+        {
+          "de": "Büchsen werden meist mit 3–4 cm Hochschuss auf 100 m eingeschossen, damit man auch auf 150 m und mehr noch »Fleck« halten kann; auf ganz kurze Entfernung (etwa 5 m beim Fangschuss) liegt der Treffpunkt dagegen rund 4 cm tief, weil das Zielfernrohr über dem Lauf sitzt. Ein Jagdgeschoss soll einen Ausschuss liefern, damit Anschuss und Schweißfährte zu finden sind. Vollmantel- und Flintenlaufgeschosse zerlegen sich nicht; Vollmantelgeschosse durchschlagen am stärksten und sind für gesundes Schalenwild ungeeignet. Bleifreie Büchsengeschosse töten bei richtiger Wahl ebenso zuverlässig und schließen Bleipartikel im Wildbret aus.",
+          "en": "Rifles are usually zeroed 3–4 cm high at 100 m so you can still aim dead on at 150 m and beyond; at very short range (about 5 m for a finishing shot) the point of impact is instead about 4 cm low, because the scope sits above the barrel. A hunting bullet should exit, so that the shot site and blood trail can be found. Full-metal-jacket bullets and shotgun slugs do not fragment; FMJ bullets penetrate most and are unsuitable for healthy cloven-hoofed game. Correctly chosen lead-free rifle bullets kill just as reliably and rule out lead particles in the meat."
+        },
+        {
+          "de": "Gefährdungsbereiche: Ein Geschoss im Kaliber 7 × 57 kann bis etwa 5.000 m weit gefährden, eine .22 lfB bei 30° Abgangswinkel etwa 1.500 m, ein Flintenlaufgeschoss bis 1.500 m; Flintenlaufgeschosse neigen am stärksten zu Abprallern und sind ohne Visierung nur bis etwa 40 m vertretbar. Schrot gefährdet bis »Schrotstärke in mm × 100 m«. Zuverlässig wirksam sind 3,5-mm-Schrot auf den Hasen und 4-mm-Schrot auf den Fuchs bis etwa 35 m, 3-mm-Stahlschrot auf eine Ente bis 25–30 m. Die Schrotgarbe verlässt den Lauf mit 300–400 m/s.",
+          "en": "Danger zones: a 7 × 57 bullet can be dangerous up to about 5,000 m, a .22 LR at a 30° angle about 1,500 m, a shotgun slug up to 1,500 m; slugs are the most prone to ricochet and are only justifiable up to about 40 m without sights. Shot is dangerous up to “shot size in mm × 100 m”. Effective ranges: 3.5 mm shot on hare and 4 mm shot on fox up to about 35 m, 3 mm steel shot on a duck up to 25–30 m. The shot charge leaves the barrel at 300–400 m/s."
+        },
+        {
+          "de": "Schrotpatronen: »12/70« heißt Kaliber 12, Hülsenlänge 70 mm – gemessen an der geöffneten Hülse nach dem Schuss; in ein 70-mm-Lager passen auch 65- und 67,5-mm-Patronen, und eine geschlossene 12/76 passt zwar hinein, ist aber zu lang. Für Fasan und Ente nimmt man 2,7–3 mm Schrot. An und über Gewässern ist Bleischrot verboten; zulässig sind etwa Weicheisen- (Stahl-), Wismut- oder Zinkschrot. Stahlschrot hat eine geringere Reichweite und prallt leichter ab; aus einer normal beschossenen Flinte darf es mit normaler Ladung und höchstens 3,25 mm Schrot verschossen werden. Alte Flinten ohne Beschusszeichen »N« dürfen heutige Patronen nicht verschießen.",
+          "en": "Shotshells: “12/70” means 12 gauge, 70 mm case length — measured on the opened case after firing; a 70 mm chamber also takes 65 and 67.5 mm shells, and a closed 12/76 fits but is too long. For pheasant and duck use 2.7–3 mm shot. Lead shot is banned at and over water; permitted are e.g. soft-iron (steel), bismuth or zinc shot. Steel shot has less range and ricochets more easily; from a gun with standard proof it may be fired with standard loads and shot of at most 3.25 mm. Old shotguns without the “N” proof mark must not fire today's cartridges."
+        }
+      ],
+      "keyTerms": [
+        {
+          "de": "Hülsenlänge",
+          "en": "case length"
+        },
+        {
+          "de": "Randpatrone",
+          "en": "rimmed cartridge"
+        },
+        {
+          "de": "Randfeuer",
+          "en": "rimfire"
+        },
+        {
+          "de": "Rasanz",
+          "en": "flatness of trajectory"
+        },
+        {
+          "de": "GEE",
+          "en": "most favourable zero range"
+        },
+        {
+          "de": "Seelenachse",
+          "en": "bore axis"
+        },
+        {
+          "de": "Vollmantelgeschoss",
+          "en": "full-metal-jacket bullet"
+        },
+        {
+          "de": "Flintenlaufgeschoss",
+          "en": "shotgun slug"
+        },
+        {
+          "de": "Stahlschrot / Weicheisenschrot",
+          "en": "steel (soft-iron) shot"
+        },
+        {
+          "de": "Beschusszeichen",
+          "en": "proof mark"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Fragenkatalog zur Jägerprüfung in Bayern – Landesamt für Maß und Gewicht",
+          "url": "https://www.lmg.bayern.de/aufgaben_leistungen/jaegerpruefung/index.html"
+        }
+      ],
+      "origin": "seed",
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "optik",
+      "titleDe": "Optik: Fernglas, Zielfernrohr, Nachtsicht",
+      "titleEn": "Optics: binoculars, riflescopes, night vision",
+      "paragraphs": [
+        {
+          "de": "Beim Fernglas 8 × 56 bedeutet 8 die Vergrößerung und 56 den Objektivdurchmesser in Millimetern; es hat die größte Dämmerungsleistung und eignet sich für den Mondscheinansitz, während für die Tagespirsch im Hochgebirge ein leichtes 10 × 40 besser ist. Die Sehfeldangabe beim Fernglas bezieht sich auf 1.000 m, beim Zielfernrohr auf 100 m. Für die Leistung bei schwachem Licht zählen Vergrößerung und Objektivdurchmesser – und vor allem die Qualität der Optik. Die Vergütung der Linsen mindert Reflexe.",
+          "en": "In 8 × 56 binoculars, 8 is the magnification and 56 the objective diameter in millimetres; they give the best low-light performance and suit moonlight hunting, while a light 10 × 40 is better for daytime stalking in the mountains. The field-of-view figure refers to 1,000 m for binoculars, 100 m for riflescopes. Low-light performance depends on magnification and objective diameter — and above all on optical quality. Lens coating reduces reflections."
+        },
+        {
+          "de": "Je geringer die Vergrößerung, desto größer das Sehfeld: Für flüchtiges Wild und Drückjagden stellt man ein variables Zielfernrohr auf etwa 1,5-fach, Drückjagdgläser haben geringe Vergrößerung (1,5–2,5-fach) und großes Sehfeld; ein Rotpunktvisier erlaubt das Schießen mit beiden Augen offen und erhält den Überblick. Das Absehen ist die Zieleinrichtung, etwa das Fadenkreuz; ein dünnes Fadenkreuz (Absehen 6) ist bei tiefer Dämmerung am wenigsten geeignet. Bei offener Visierung (Kimme und Korn) wirken sich Zielfehler stärker aus.",
+          "en": "The lower the magnification, the wider the field of view: for running game and driven hunts a variable scope is set to about 1.5×; driven-hunt scopes have low magnification (1.5–2.5×) and a wide field of view; a red-dot sight lets you shoot with both eyes open and keep an overview. The reticle (Absehen) is the aiming mark, e.g. the crosshair; a thin crosshair (reticle 6) is least suitable in deep dusk. With open sights (rear notch and front bead), aiming errors have a much bigger effect."
+        },
+        {
+          "de": "Korrektur beim Einschießen nach der Regel des Fragenkatalogs: Sitzt der Schuss zu tief, wird das Absehen nach unten verstellt, sitzt er zu hoch, nach oben, sitzt er zu weit rechts, nach rechts. Beim Schießen über die offene Visierung führt Feinkorn zum Tiefschuss, links geklemmtes Korn zu Linksschuss, eine links verkantete Waffe zu Links-tief-Schuss. Hartes Auflegen nahe der Mündung führt zu Hochschuss. Abkommen ist der anvisierte Zielpunkt bei der Schussabgabe.",
+          "en": "Correction when zeroing, following the catalogue's rule: if the shot is too low, move the reticle down; if too high, up; if too far right, to the right. With open sights, a fine bead gives a low shot, a bead pressed to the left a left shot, and a gun canted to the left a low-left shot. Resting the rifle hard near the muzzle causes a high shot. Abkommen is the aiming point at the moment of firing."
+        },
+        {
+          "de": "Nachtzielgeräte und Laserzielmarkierer mit Montagevorrichtung sind grundsätzlich verbotene Gegenstände nach dem Waffengesetz; für die Schwarzwildjagd sind Nachtsicht- und Wärmebild-Vorsatzgeräte unter bestimmten Bedingungen erlaubt. Ein BKA-Feststellungsbescheid bescheinigt die »Dual-Use«-Eigenschaft eines Nachtsichtgeräts. Mit Vorsatzgeräten lassen sich Ziel und Hintergelände bis zur Schussabgabe ansprechen; Wärmebildgeräte funktionieren auch am Tag.",
+          "en": "Night-vision rifle sights and laser aiming devices with a mount are in principle prohibited items under the Weapons Act; for wild boar hunting, night-vision and thermal clip-on devices are permitted under certain conditions. A BKA (Federal Criminal Police Office) ruling certifies the “dual-use” status of a night-vision device. With clip-ons you can identify the target and the area behind it right up to the shot; thermal devices also work in daylight."
+        }
+      ],
+      "keyTerms": [
+        {
+          "de": "Objektivdurchmesser",
+          "en": "objective lens diameter"
+        },
+        {
+          "de": "Dämmerungsleistung",
+          "en": "low-light performance"
+        },
+        {
+          "de": "Sehfeld",
+          "en": "field of view"
+        },
+        {
+          "de": "Absehen",
+          "en": "reticle"
+        },
+        {
+          "de": "Vergütung",
+          "en": "lens coating"
+        },
+        {
+          "de": "Rotpunktvisier",
+          "en": "red-dot sight"
+        },
+        {
+          "de": "Abkommen",
+          "en": "aiming point at the shot"
+        },
+        {
+          "de": "Vorsatzgerät",
+          "en": "clip-on device (night vision/thermal)"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Fragenkatalog zur Jägerprüfung in Bayern – Landesamt für Maß und Gewicht",
+          "url": "https://www.lmg.bayern.de/aufgaben_leistungen/jaegerpruefung/index.html"
+        }
+      ],
+      "origin": "seed",
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "handhabung-und-pflege",
+      "titleDe": "Handhabung, Pflege und Aufbewahrung der Waffe",
+      "titleEn": "Handling, care and storage of the gun",
+      "paragraphs": [
+        {
+          "de": "Vor jedem Laden prüft man den Lauf auf Fremdkörper (Schnee, Erde, Putzstock-Reste) und kontrolliert, dass der Stecher nicht eingestochen ist. Eingestochen wird erst unmittelbar vor dem Schuss – bei der Bockbüchsflinte mit Rückstecher durch Vordrücken des vorderen Abzugs. Eine Repetierbüchse herkömmlicher Bauart darf mit Patrone im Lager nicht entspannt werden, weil Stoß oder Fall einen Schuss auslösen können. Waffen mit Schlagbolzenfeder bewahrt man entspannt auf, um die Feder zu schonen; Doppelflinten mit Einabzug entspannt man mit Pufferpatronen.",
+          "en": "Before every loading, check the barrel for obstructions (snow, earth, cleaning debris) and make sure the set trigger is not set. The trigger is set only just before the shot — on an over-and-under rifle-shotgun with a back set trigger, by pushing the front trigger forward. A conventional bolt-action rifle must not be de-cocked with a round in the chamber, because a knock or fall can fire it. Guns with a firing-pin spring are stored uncocked to rest the spring; single-trigger shotguns are uncocked using snap caps."
+        },
+        {
+          "de": "Bei einem Versager wartet man mindestens 15 Sekunden mit der Waffe im Anschlag in Richtung Kugelfang und entlädt dann. Am Drilling löst bei Stellung »Kugel« der vordere Abzug den Büchsenschuss und der hintere den linken Schrotlauf aus; bei Bockdoppelflinten mit Doppelabzug löst der vordere Abzug meist den unteren Lauf, bei Doppelbüchsen den rechten. Ein Einstecklauf, der mit Stecher geschossen werden soll, kommt beim Drilling in den rechten Schrotlauf.",
+          "en": "With a misfire, wait at least 15 seconds with the gun aimed at the backstop, then unload. On a drilling set to “rifle”, the front trigger fires the rifle barrel and the rear trigger the left shotgun barrel; on over-and-under shotguns with two triggers the front trigger usually fires the bottom barrel, on double rifles the right one. An insert barrel that is to be fired with the set trigger goes into the drilling's right shotgun barrel."
+        },
+        {
+          "de": "Die Treffpunktlage einer Büchse kann sich ändern durch ein neues Munitionslos, Öl im Lauf oder Patronenlager, Geschossablagerungen im Lauf oder wenn der Vorderschaft am Lauf anliegt. Bei Drillingen mit verlöteten Läufen wandert der Treffpunkt bei schnellen Schussfolgen nach oben. Nur die für die Waffe bestimmte, einwandfreie Munition darf verwendet werden; vor dem ersten Gebrauch sind Kaliberangabe auf Waffe und Munition zu vergleichen, nicht identifizierbare Munition wird nicht verwendet. Für eine Drückjagd auf Schwarzwild, Reh und Fuchs eignet sich etwa ein Repetierer 7 × 64 mit Zielfernrohr 1,5–6 × 42.",
+          "en": "A rifle's point of impact can shift with a new ammunition lot, oil in the barrel or chamber, fouling in the barrel, or if the fore-end touches the barrel. On drillings with soldered barrels the point of impact climbs during rapid fire. Only the correct ammunition in perfect condition may be used; before first use compare the calibre markings on gun and ammunition, and never use unidentifiable ammunition. For a driven hunt on wild boar, roe deer and fox, a 7 × 64 bolt action with a 1.5–6 × 42 scope is suitable, for example."
+        },
+        {
+          "de": "Schalldämpfer aus Stahl sprüht man vor längerer Lagerung innen leicht mit Waffenöl ein. Kommt man bei Kälte nach Hause, kann der Schalldämpfer bei senkrechter Lagerung mit der Mündung nach unten auf dem Lauf bleiben, damit Kondenswasser ablaufen kann.",
+          "en": "Steel suppressors are lightly sprayed inside with gun oil before longer storage. When you come home from the cold, the suppressor can stay on the barrel if the rifle is stored vertically, muzzle down, so condensation can drain."
+        }
+      ],
+      "keyTerms": [
+        {
+          "de": "einstechen",
+          "en": "to set the set trigger"
+        },
+        {
+          "de": "Rückstecher",
+          "en": "back set trigger"
+        },
+        {
+          "de": "entspannen",
+          "en": "to de-cock"
+        },
+        {
+          "de": "Versager",
+          "en": "misfire"
+        },
+        {
+          "de": "Pufferpatrone",
+          "en": "snap cap"
+        },
+        {
+          "de": "Einstecklauf",
+          "en": "insert barrel"
+        },
+        {
+          "de": "Treffpunktlage",
+          "en": "point of impact"
+        },
+        {
+          "de": "Munitionslos",
+          "en": "ammunition lot"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Fragenkatalog zur Jägerprüfung in Bayern – Landesamt für Maß und Gewicht",
+          "url": "https://www.lmg.bayern.de/aufgaben_leistungen/jaegerpruefung/index.html"
+        },
+        {
+          "title": "SVLFG – Unfallverhütungsvorschrift Jagd (VSG 4.4)",
+          "url": "https://www.svlfg.de/"
+        }
+      ],
+      "origin": "seed",
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "fallenjagd",
+      "titleDe": "Fallenjagd und Jagdgeräte in Bayern",
+      "titleEn": "Trapping and hunting equipment in Bavaria",
+      "paragraphs": [
+        {
+          "de": "Wer in Bayern mit Fallen jagen will, muss die nötigen Kenntnisse durch einen Lehrgang für die Fallenjagd nachweisen. Erlaubt sind nur Fallen, die sofort töten oder unversehrt lebend fangen – zum Beispiel Kastenfalle, Betonrohrfalle (Lebendfang) sowie Schwanenhals und Eiabzugseisen (Totfang). Wer Schlagfallen verwendet, muss das vorher der Jagdbehörde anzeigen. Totschlagfallen stellt man in einem gesicherten Fangbunker auf; Eiabzugseisen werden nach der Unfallverhütungsvorschrift mit einem Spannhebel gespannt. Ein Saufang ist nur mit jagdbehördlicher Genehmigung zulässig.",
+          "en": "Anyone who wants to trap in Bavaria must prove the necessary knowledge by attending a trapping course. Only traps that kill instantly or catch alive and unharmed are allowed — for example box traps and concrete-pipe traps (live capture) and the Schwanenhals and egg-trigger trap (Eiabzugseisen, kill traps). Anyone using kill traps must notify the hunting authority beforehand. Kill traps are set in a secured trap box (Fangbunker); under the accident-prevention rules, egg-trigger traps are set with a setting lever. A wild boar corral trap (Saufang) is only allowed with a permit from the hunting authority."
+        },
+        {
+          "de": "Lebendfallen müssen so gebaut oder abgedeckt sein, dass das gefangene Tier möglichst nicht nach außen sehen kann. Wippbrettfallen ohne Fangmelder sind mindestens zweimal täglich zu kontrollieren; die Kontrolle kann entfallen, wenn ein betriebssicherer elektronischer Fangmelder jeden Fang sofort meldet und seine Funktion täglich geprüft wird. Ein Gewicht von etwa 100 g an der Wippe verhindert Fehlfänge von Mäusen und Mauswieseln; mit der Wippbrettfalle fängt man das Hermelin. Kastenfallen fangen am besten auf Zwangswechseln. Gefangenes Raubwild wird im Abfangkorb durch einen gezielten Kopfschuss getötet.",
+          "en": "Live traps must be built or covered so that the trapped animal can see out as little as possible. Seesaw traps without a trap alarm must be checked at least twice a day; the checks can be dropped if a reliable electronic trap alarm reports every catch at once and is tested daily. A weight of about 100 g on the seesaw prevents catching mice and least weasels; the seesaw trap is used for stoats. Box traps work best on narrow game paths (Zwangswechsel). Trapped predators are killed in a transfer cage with a precise shot to the head."
+        },
+        {
+          "de": "Revierinhaber mit Fallenkenntnissen dürfen ohne Erlaubnis außerhalb befriedeter Bezirke unter anderem Fuchs, Dachs, Wildkaninchen, Stein- und Baummarder, Waschbär und Marderhund fangen. Für den Waschbären ist die Fallenjagd am erfolgversprechendsten; als Köder dienen Trockenobst, Mais und Lockstoffe wie Fischöl. Einen Steinmarder in einer Scheune neben dem Wohnhaus oder auf einem Dachboden darf der Revierinhaber ohne gesonderte Genehmigung fangen. Einen Jagdgenossen ohne Jagdschein darf er nicht mit dem selbständigen Fangen beauftragen.",
+          "en": "Holders of a hunting ground with trapping knowledge may, without a permit and outside enclosed (pacified) areas, trap among others fox, badger, wild rabbit, stone and pine marten, raccoon and raccoon dog. For raccoons, trapping is the most promising method; baits are dried fruit, maize and lures such as fish oil. The holder may trap a stone marten in a barn next to a house or in an attic without a separate permit. They may not instruct a member of the hunting cooperative without a hunting licence to trap on their own."
+        },
+        {
+          "de": "Messer: Ein Multitool mit einhändig zu öffnender, feststellbarer Klinge darf auf dem Weg ins Revier, bei der Jagd und im Zusammenhang damit geführt werden. Ein Faustmesser (Skinner) darf man als Zerwirkwerkzeug besitzen und verwenden.",
+          "en": "Knives: a multitool with a one-hand-opening locking blade may be carried on the way to the hunting ground, while hunting and in connection with it. A fist knife of the “skinner” type (Faustmesser) may be owned and used as a butchering tool."
+        }
+      ],
+      "keyTerms": [
+        {
+          "de": "Fallenjagd",
+          "en": "trapping"
+        },
+        {
+          "de": "Lebendfalle / Totfangfalle",
+          "en": "live trap / kill trap"
+        },
+        {
+          "de": "Kastenfalle",
+          "en": "box trap"
+        },
+        {
+          "de": "Eiabzugseisen",
+          "en": "egg-trigger kill trap"
+        },
+        {
+          "de": "Fangbunker",
+          "en": "trap box for kill traps"
+        },
+        {
+          "de": "Wippbrettfalle",
+          "en": "seesaw trap"
+        },
+        {
+          "de": "Fangmelder",
+          "en": "trap alarm"
+        },
+        {
+          "de": "Zwangswechsel",
+          "en": "narrow game path"
+        },
+        {
+          "de": "Saufang",
+          "en": "wild boar corral trap"
+        },
+        {
+          "de": "Abfangkorb",
+          "en": "transfer cage"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Fragenkatalog zur Jägerprüfung in Bayern – Landesamt für Maß und Gewicht",
+          "url": "https://www.lmg.bayern.de/aufgaben_leistungen/jaegerpruefung/index.html"
+        }
+      ],
+      "origin": "seed",
+      "updatedAt": "2026-11-18"
+    },
+    {
       "id": "waffenrecht-fuer-jaeger",
-      "titleDe": "Waffenrecht für Jäger",
-      "titleEn": "Firearms law for hunters",
+      "titleDe": "Waffenrecht für Jäger: Erwerb, Führen, Transport, Aufbewahrung",
+      "titleEn": "Firearms law for hunters: acquiring, carrying, transport, storage",
       "paragraphs": [
         {
           "de": "Das Waffengesetz (WaffG) unterscheidet zwischen Erwerb, Besitz, Führen und Schießen. Führen bedeutet, die tatsächliche Gewalt über eine Waffe außerhalb der eigenen Wohnung, Geschäftsräume oder des eigenen befriedeten Besitztums auszuüben.",
           "en": "The Weapons Act (WaffG) distinguishes between acquiring, possessing, carrying (Führen) and shooting. Carrying means having actual control over a weapon outside your own home, business premises or your own enclosed property."
         },
         {
-          "de": "Inhaber eines gültigen Jahresjagdscheins dürfen nach § 13 WaffG Langwaffen ohne vorherige Erlaubnis erwerben. Sie müssen aber binnen zwei Wochen nach dem Erwerb bei der zuständigen Behörde die Eintragung in die Waffenbesitzkarte beantragen. Für Kurzwaffen ist dagegen eine Voreintragung erforderlich; Jäger haben in der Regel ein Bedürfnis für zwei Kurzwaffen.",
-          "en": "Under § 13 WaffG, holders of a valid annual hunting licence may acquire long guns without prior permission. But they must apply to the authority for entry in their firearms ownership licence (Waffenbesitzkarte) within two weeks of the purchase. Handguns, by contrast, need a pre-entry (Voreintragung); hunters generally have a recognised need for two handguns."
+          "de": "Inhaber eines gültigen Jahresjagdscheins dürfen Langwaffen – auch Selbstladebüchsen und Flinten – in unbegrenzter Zahl ohne vorherige Erlaubnis erwerben; beim Kauf legen sie den Jagdschein vor. Binnen zwei Wochen müssen sie die Ausstellung einer Waffenbesitzkarte bzw. die Eintragung beantragen. Für Kurzwaffen ist eine Voreintragung (Erwerbserlaubnis) nötig, die ein Jahr gilt; ohne besonderen Bedürfnisnachweis dürfen Jäger zwei Kurzwaffen besitzen. Munition für Kurzwaffen, die nicht aus einer Langwaffe verschossen werden kann, darf nicht allein mit dem Jagdschein gekauft werden. Ein Einstecklauf für einen eingetragenen Drilling ist erlaubnisfrei. Die Besitzerlaubnis gilt zeitlich unbegrenzt.",
+          "en": "Holders of a valid annual hunting licence may acquire long guns — including self-loading rifles and shotguns — in unlimited number without prior permission; they show their hunting licence when buying. Within two weeks they must apply for a firearms ownership licence (Waffenbesitzkarte) or for the entry. Handguns need a pre-entry (purchase permit), valid for one year; without proving a special need, hunters may own two handguns. Handgun ammunition that cannot be fired from a long gun may not be bought with the hunting licence alone. An insert barrel for a registered drilling needs no permit. Ownership permission has no time limit."
         },
         {
-          "de": "Jäger dürfen Jagdwaffen zur befugten Jagdausübung, zum Jagdschutz, zur Ausbildung von Jagdhunden und zum Ein- und Anschießen im Revier ohne Waffenschein führen und mit ihnen schießen. Auf dem Weg zum und vom Revier dürfen sie die Waffen nur nicht schussbereit und nicht zugriffsbereit transportieren – zum Beispiel entladen in einem verschlossenen Futteral.",
-          "en": "Hunters may carry hunting guns without a carry permit (Waffenschein) and shoot with them for lawful hunting, game protection, training hunting dogs, and zeroing guns in the hunting ground. On the way to and from the hunting ground they may only transport them not ready to fire and not readily accessible — for example unloaded in a locked case."
+          "de": "Wer eine Waffe verkauft, muss das binnen zwei Wochen der Behörde anzeigen; den Verlust einer Waffe muss man unverzüglich melden. Wer zur Jagd seine eigene Waffe führt, trägt Jagdschein, Personalausweis oder Pass und Waffenbesitzkarte bei sich; bei einer geliehenen Waffe Jagdschein und Ausweis. Kürzen eines Laufs oder Anbringen eines Mündungsgewindes bedarf einer waffenrechtlichen Erlaubnis; danach muss die Waffe neu beschossen werden. Beim amtlichen Beschuss werden Materialfestigkeit und Maßhaltigkeit geprüft; Beschusszeichen stehen auf allen wesentlichen Teilen.",
+          "en": "Anyone who sells a gun must notify the authority within two weeks; the loss of a gun must be reported without delay. When carrying your own gun for hunting, you carry your hunting licence, ID card or passport and firearms ownership licence; with a borrowed gun, your hunting licence and ID. Shortening a barrel or cutting a muzzle thread requires a permit; afterwards the gun must be re-proofed. Official proof testing checks material strength and dimensional accuracy; proof marks are on all essential parts."
         },
         {
-          "de": "Waffen und Munition müssen so aufbewahrt werden, dass sie nicht abhandenkommen und Unbefugte sie nicht an sich nehmen können. Erlaubnispflichtige Langwaffen gehören mindestens in ein Sicherheitsbehältnis des Widerstandsgrades 0 nach DIN EN 1143-1. Wie viele Kurzwaffen darin Platz finden dürfen und wie die Munition zu lagern ist, regelt § 13 AWaffV im Einzelnen.",
-          "en": "Firearms and ammunition must be stored so that they cannot be lost and unauthorised people cannot take them. Long guns requiring a permit must be kept at least in a security cabinet of resistance grade 0 according to DIN EN 1143-1. How many handguns it may hold and how ammunition must be stored is set out in detail in § 13 AWaffV."
+          "de": "Zur befugten Jagdausübung, zum Jagdschutz, zur Ausbildung von Jagdhunden und zum Ein- und Anschießen im Revier dürfen Jäger Jagdwaffen ohne Waffenschein führen und damit schießen. Auf dem Weg zur und von der Jagd dürfen sie die Waffe nicht schussbereit (entladen) führen – etwa auf dem Beifahrersitz oder im Futteral im Kofferraum. Für andere Fahrten, zum Beispiel zum Schießstand, gilt die strengere Regel: nicht schussbereit und nicht zugriffsbereit, also ungeladen in einem verschlossenen Behältnis. Einen Revolver auf einem Spaziergang durch ein fremdes Revier zu führen, ist nicht erlaubt; ebenso wenig das Anschießen einer Waffe im eigenen ummauerten Garten.",
+          "en": "Hunters may carry hunting guns without a carry permit, and shoot with them, for lawful hunting, game protection, training hunting dogs and zeroing in the hunting ground. On the way to and from hunting they may carry the gun not ready to fire (unloaded) — for example on the passenger seat or in a case in the boot. For other trips, e.g. to a shooting range, the stricter rule applies: not ready to fire and not readily accessible, i.e. unloaded in a locked container. Carrying a revolver on a walk through someone else's hunting ground is not allowed; nor is zeroing a gun in your own walled garden."
         },
         {
-          "de": "Die Waffenbehörde prüft die Zuverlässigkeit und persönliche Eignung regelmäßig, mindestens alle drei Jahre. Wer gegen die Aufbewahrungspflichten verstößt, riskiert den Widerruf der Erlaubnisse und ein Bußgeld oder sogar eine Strafe.",
-          "en": "The firearms authority checks reliability and personal fitness regularly, at least every three years. Anyone who breaches the storage rules risks having their permits revoked and a fine, or even criminal penalties."
+          "de": "Geladen im Sinne des Waffengesetzes ist eine Waffe, wenn Patronen im Patronenlager oder im eingeführten Magazin sind; Patronen nur im Schaftmagazin (Patronenhalter am Schaft) gelten nicht als geladen. Mit Patronen im Magazin ist das Besteigen eines Fahrzeugs deshalb verboten. Zugriffsbereit ist eine Waffe, die unmittelbar in Anschlag gebracht werden kann; in einem verschlossenen Behältnis ist sie es nicht.",
+          "en": "Under the Weapons Act a gun is loaded if there are cartridges in the chamber or in an inserted magazine; cartridges only in a stock cartridge holder do not count as loaded. With rounds in the magazine you therefore may not get into a vehicle. A gun is readily accessible if it can be brought into firing position immediately; in a locked container it is not."
+        },
+        {
+          "de": "Waffen werden ungeladen aufbewahrt. Erlaubnispflichtige Langwaffen gehören mindestens in ein Sicherheitsbehältnis des Widerstandsgrades 0 nach DIN EN 1143-1; darin dürfen Waffen und Munition gemeinsam lagern. Ein älterer Schrank der Stufe A oder B nach VDMA 24992 genügt für neu erworbene Waffen nicht, darf aber zum Beispiel für Munition oder ein erlaubnisfreies Luftgewehr genutzt werden. Schalldämpfer werden wie Langwaffen aufbewahrt und mit ihrer Nummer in die Waffenbesitzkarte eingetragen. Unterwegs, etwa beim Schüsseltreiben, kann man ein wesentliches Teil abnehmen und bei sich tragen, um Missbrauch zu verhindern. Die Behörde prüft Zuverlässigkeit und persönliche Eignung regelmäßig, mindestens alle drei Jahre.",
+          "en": "Guns are stored unloaded. Long guns requiring a permit must be kept at least in a security cabinet of resistance grade 0 to DIN EN 1143-1; guns and ammunition may be stored together in it. An older cabinet of grade A or B to VDMA 24992 is not sufficient for newly acquired guns, but may be used e.g. for ammunition or a permit-free air rifle. Suppressors are stored like long guns and entered with their serial number in the ownership licence. When away, for instance at the post-hunt meal, you can remove an essential part and keep it on you to prevent misuse. The authority checks reliability and personal fitness regularly, at least every three years."
         }
       ],
       "keyTerms": [
@@ -154,35 +531,42 @@
         },
         {
           "de": "Waffenschein",
-          "en": "firearms carry permit",
-          "note": "Not needed for hunters carrying hunting guns while hunting."
+          "en": "carry permit"
         },
         {
           "de": "Führen",
-          "en": "to carry (a weapon)",
-          "note": "Control over it outside your home/property."
+          "en": "to carry (a weapon)"
         },
         {
           "de": "Voreintrag",
-          "en": "pre-entry",
-          "note": "Permission to acquire entered beforehand, needed for handguns."
+          "en": "pre-entry/purchase permit"
+        },
+        {
+          "de": "schussbereit",
+          "en": "ready to fire (loaded)"
         },
         {
           "de": "zugriffsbereit",
-          "en": "readily accessible",
-          "note": "Can be used within a few seconds."
+          "en": "readily accessible"
+        },
+        {
+          "de": "Beschuss",
+          "en": "proof testing"
         },
         {
           "de": "Sicherheitsbehältnis",
-          "en": "security cabinet/safe"
+          "en": "security cabinet"
         },
         {
           "de": "Zuverlässigkeit",
-          "en": "reliability",
-          "note": "Legal test for gun owners; § 5 WaffG."
+          "en": "reliability (legal test)"
         }
       ],
       "sources": [
+        {
+          "title": "Fragenkatalog zur Jägerprüfung in Bayern – Landesamt für Maß und Gewicht",
+          "url": "https://www.lmg.bayern.de/aufgaben_leistungen/jaegerpruefung/index.html"
+        },
         {
           "title": "Waffengesetz (WaffG) – gesetze-im-internet.de",
           "url": "https://www.gesetze-im-internet.de/waffg_2002/"
@@ -193,7 +577,64 @@
         }
       ],
       "origin": "seed",
-      "updatedAt": "2026-11-12"
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "unfallverhuetung-notwehr",
+      "titleDe": "Unfallverhütung, Notwehr und Notstand",
+      "titleEn": "Accident prevention, self-defence and necessity",
+      "paragraphs": [
+        {
+          "de": "Nach der Unfallverhütungsvorschrift Jagd (VSG 4.4) sind die Läufe zu entladen beim Besteigen und Verlassen eines Hochsitzes, beim Überwinden von Hindernissen, beim Besteigen eines Fahrzeugs und nach dem Signal zum Ende eines Treibens. Eine Repetierbüchse mit Patronen im Magazin, aber freiem Patronenlager gilt dabei als entladen; so darf man einen Hochsitz besteigen oder einen Zaun übersteigen – in ein Fahrzeug steigen aber nicht, weil die Waffe nach dem Waffengesetz geladen ist. Jagdwaffen dürfen nur bestimmungsgemäß gebraucht werden – nicht zum Niederhalten von Zäunen, Aufstoßen von Hochsitzluken oder Erschlagen von Wild.",
+          "en": "Under the hunting accident-prevention rules (VSG 4.4), the barrels must be unloaded when climbing onto or down from a high seat, when crossing obstacles, when getting into a vehicle and after the signal ending a drive. A bolt-action rifle with rounds in the magazine but an empty chamber counts as unloaded for this; you may climb a high seat or cross a fence like that — but not get into a vehicle, because under the Weapons Act the gun is loaded. Hunting guns may only be used as intended — not to hold down fences, push open high-seat hatches or club game."
+        },
+        {
+          "de": "Bei Gesellschaftsjagden werden Waffen außerhalb der Treiben entladen und mit geöffnetem Verschluss getragen. Nach dem Einnehmen der Stände verständigen sich die Schützen untereinander; es darf nicht in Richtung von Schützen oder Treibern angeschlagen werden. Ein Durchgehschütze darf seine Waffe bei Bewegungsjagden auf Schalenwild nicht mit Patrone im Lager führen, auch nicht bei separater Handspannung. Sollen bei einer Niederwildjagd auch Sauen beschossen werden, sind Flintenlaufgeschosse getrennt von den Schrotpatronen mitzuführen und ihre Treffpunktlage muss vorher geprüft sein.",
+          "en": "At group hunts, guns are carried unloaded with the action open outside the drives. After taking their stands, shooters make contact with each other; never point a gun towards shooters or beaters. A walking shooter (Durchgehschütze) at driven hunts on cloven-hoofed game may not carry the gun with a round in the chamber, not even with separate manual cocking. If wild boar may also be shot at a small-game drive, slugs must be carried separately from shotshells and their point of impact must have been checked beforehand."
+        },
+        {
+          "de": "Notwehr ist die Verteidigung, die erforderlich ist, um einen gegenwärtigen, rechtswidrigen Angriff von sich oder einem anderen abzuwenden (§ 32 StGB); wer einem anderen hilft, handelt in Nothilfe. Erforderlich ist das mildeste Mittel, das den Angriff sofort und sicher beendet. Notwehr gibt es nur gegen Angriffe von Menschen. Gegen Gefahren durch Tiere – etwa einen angreifenden tollwütigen Fuchs in einem fremden Revier – ist die Abwehr als Notstand gerechtfertigt; wer den Fuchs in dieser Lage erschießt, macht sich nicht strafbar.",
+          "en": "Self-defence (Notwehr) is the defence necessary to ward off a present, unlawful attack on oneself or another (§ 32 StGB); helping someone else is called defence of others (Nothilfe). What is necessary is the mildest means that will end the attack immediately and reliably. Self-defence only exists against attacks by people. Defending against dangers from animals — such as a rabid fox attacking in someone else's hunting ground — is justified as necessity (Notstand); anyone who shoots the fox in that situation commits no offence."
+        }
+      ],
+      "keyTerms": [
+        {
+          "de": "Unfallverhütungsvorschrift (UVV)",
+          "en": "accident-prevention regulation"
+        },
+        {
+          "de": "entladen",
+          "en": "unloaded"
+        },
+        {
+          "de": "Durchgehschütze",
+          "en": "walking shooter at a driven hunt"
+        },
+        {
+          "de": "Notwehr",
+          "en": "self-defence"
+        },
+        {
+          "de": "Nothilfe",
+          "en": "defence of another person"
+        },
+        {
+          "de": "Notstand",
+          "en": "necessity"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Fragenkatalog zur Jägerprüfung in Bayern – Landesamt für Maß und Gewicht",
+          "url": "https://www.lmg.bayern.de/aufgaben_leistungen/jaegerpruefung/index.html"
+        },
+        {
+          "title": "SVLFG – Unfallverhütungsvorschrift Jagd (VSG 4.4)",
+          "url": "https://www.svlfg.de/"
+        }
+      ],
+      "origin": "seed",
+      "updatedAt": "2026-11-18"
     }
   ],
   "quiz": [
@@ -410,67 +851,6 @@
       "origin": "seed"
     },
     {
-      "id": "waffen-transport",
-      "lessonId": "waffenrecht-fuer-jaeger",
-      "questionDe": "Wie muss die Jagdwaffe auf der Fahrt ins Revier transportiert werden?",
-      "questionEn": "How must the hunting gun be transported on the way to the hunting ground?",
-      "options": [
-        {
-          "de": "Nicht schussbereit",
-          "en": "Not ready to fire"
-        },
-        {
-          "de": "Nicht zugriffsbereit",
-          "en": "Not readily accessible"
-        },
-        {
-          "de": "Geladen, aber gesichert",
-          "en": "Loaded but with safety on"
-        },
-        {
-          "de": "Griffbereit auf dem Beifahrersitz",
-          "en": "Within reach on the passenger seat"
-        }
-      ],
-      "correct": [
-        0,
-        1
-      ],
-      "explanationDe": "Transport nur nicht schussbereit und nicht zugriffsbereit, z. B. entladen im verschlossenen Futteral.",
-      "explanationEn": "Transport only not ready to fire and not readily accessible, e.g. unloaded in a locked case.",
-      "origin": "seed"
-    },
-    {
-      "id": "waffen-aufbewahrung",
-      "lessonId": "waffenrecht-fuer-jaeger",
-      "questionDe": "In welchem Behältnis müssen erlaubnispflichtige Langwaffen mindestens aufbewahrt werden?",
-      "questionEn": "What is the minimum container for long guns requiring a permit?",
-      "options": [
-        {
-          "de": "Sicherheitsbehältnis Widerstandsgrad 0 nach DIN EN 1143-1",
-          "en": "Security cabinet of resistance grade 0 to DIN EN 1143-1"
-        },
-        {
-          "de": "Abschließbarer Holzschrank",
-          "en": "Lockable wooden cabinet"
-        },
-        {
-          "de": "Waffenständer im verschlossenen Raum",
-          "en": "Gun rack in a locked room"
-        },
-        {
-          "de": "Futteral mit Zahlenschloss",
-          "en": "Gun case with combination lock"
-        }
-      ],
-      "correct": [
-        0
-      ],
-      "explanationDe": "Mindeststandard ist Widerstandsgrad 0 nach DIN EN 1143-1 (§ 13 AWaffV).",
-      "explanationEn": "The minimum is resistance grade 0 to DIN EN 1143-1 (§ 13 AWaffV).",
-      "origin": "seed"
-    },
-    {
       "id": "waffen-fuehren-def",
       "lessonId": "waffenrecht-fuer-jaeger",
       "questionDe": "Was bedeutet »Führen« einer Waffe?",
@@ -498,6 +878,1355 @@
       ],
       "explanationDe": "Führen = tatsächliche Gewalt außerhalb der eigenen Wohnung, Geschäftsräume oder des eigenen befriedeten Besitztums.",
       "explanationEn": "Carrying = actual control outside your own home, business premises or enclosed property.",
+      "origin": "seed"
+    },
+    {
+      "id": "tech-wesentliche-teile",
+      "lessonId": "waffentechnik",
+      "questionDe": "Welche Teile sind wesentliche Teile im Sinne des Waffengesetzes?",
+      "questionEn": "Which are essential parts under the Weapons Act?",
+      "options": [
+        {
+          "de": "Lauf",
+          "en": "Barrel"
+        },
+        {
+          "de": "Verschluss",
+          "en": "Action/bolt"
+        },
+        {
+          "de": "Trommel",
+          "en": "Cylinder"
+        },
+        {
+          "de": "Schaft",
+          "en": "Stock"
+        }
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanationDe": "Der Schaft ist kein wesentliches Teil.",
+      "explanationEn": "The stock is not an essential part.",
+      "origin": "seed"
+    },
+    {
+      "id": "tech-sicherung",
+      "lessonId": "waffentechnik",
+      "questionDe": "Welche Sicherung ist die zuverlässigste?",
+      "questionEn": "Which safety is most reliable?",
+      "options": [
+        {
+          "de": "Schlagstücksicherung",
+          "en": "Firing-mechanism block"
+        },
+        {
+          "de": "Abzugssicherung",
+          "en": "Trigger block"
+        },
+        {
+          "de": "Abzugsstangensicherung",
+          "en": "Sear-bar block"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Sie blockiert das Schlagstück direkt.",
+      "explanationEn": "It blocks the striker directly.",
+      "origin": "seed"
+    },
+    {
+      "id": "tech-signalstift",
+      "lessonId": "waffentechnik",
+      "questionDe": "Was zeigen herausstehende Signalstifte an einem Drilling an?",
+      "questionEn": "What do raised cocking indicators on a drilling show?",
+      "options": [
+        {
+          "de": "Dass die Schlosse gespannt sind",
+          "en": "That the locks are cocked"
+        },
+        {
+          "de": "Dass die Waffe geladen ist",
+          "en": "That the gun is loaded"
+        },
+        {
+          "de": "Dass die Waffe gesichert ist",
+          "en": "That the gun is safe"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Signalstifte zeigen nicht, ob geladen ist.",
+      "explanationEn": "Indicators don't show whether it's loaded.",
+      "origin": "seed"
+    },
+    {
+      "id": "tech-patronenlager",
+      "lessonId": "waffentechnik",
+      "questionDe": "Bei welcher Waffe liegt das Patronenlager nicht im Lauf?",
+      "questionEn": "In which gun is the chamber not in the barrel?",
+      "options": [
+        {
+          "de": "Revolver",
+          "en": "Revolver"
+        },
+        {
+          "de": "Pistole",
+          "en": "Pistol"
+        },
+        {
+          "de": "Repetierbüchse",
+          "en": "Bolt-action rifle"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Beim Revolver liegt es in der Trommel.",
+      "explanationEn": "In a revolver it's in the cylinder.",
+      "origin": "seed"
+    },
+    {
+      "id": "tech-choke",
+      "lessonId": "waffentechnik",
+      "questionDe": "Wozu dient die Würgebohrung (Choke)?",
+      "questionEn": "What is the choke for?",
+      "options": [
+        {
+          "de": "Zur Beeinflussung der Schrotgarbenstreuung",
+          "en": "To control the shot pattern spread"
+        },
+        {
+          "de": "Zur Verringerung des Rückstoßes",
+          "en": "To reduce recoil"
+        },
+        {
+          "de": "Zum Drall des Geschosses",
+          "en": "To spin the bullet"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Der Choke am Laufende bündelt die Garbe.",
+      "explanationEn": "The choke at the muzzle tightens the pattern.",
+      "origin": "seed"
+    },
+    {
+      "id": "tech-schiene",
+      "lessonId": "waffentechnik",
+      "questionDe": "Wer beim Flintenschießen zu viel Schiene sieht, schießt …",
+      "questionEn": "If you see too much rib when shooting a shotgun, you shoot …",
+      "options": [
+        {
+          "de": "… hoch",
+          "en": "… high"
+        },
+        {
+          "de": "… tief",
+          "en": "… low"
+        },
+        {
+          "de": "… links",
+          "en": "… left"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Der Kopf liegt zu hoch auf dem Schaft.",
+      "explanationEn": "The head is too high on the stock.",
+      "origin": "seed"
+    },
+    {
+      "id": "tech-zuege",
+      "lessonId": "waffentechnik",
+      "questionDe": "Welche Aufgaben haben Züge und Felder?",
+      "questionEn": "What do the grooves and lands do?",
+      "options": [
+        {
+          "de": "Sie geben dem Geschoss Drall",
+          "en": "They spin the bullet"
+        },
+        {
+          "de": "Sie stabilisieren die Flugbahn",
+          "en": "They stabilise the trajectory"
+        },
+        {
+          "de": "Sie erhöhen den Gasdruck im Lauf",
+          "en": "They raise the gas pressure"
+        }
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanationDe": "Der Drall verhindert das Überschlagen des Geschosses.",
+      "explanationEn": "Spin prevents the bullet from tumbling.",
+      "origin": "seed"
+    },
+    {
+      "id": "tech-schalldaempfer",
+      "lessonId": "waffentechnik",
+      "questionDe": "Was bewirkt ein Schalldämpfer?",
+      "questionEn": "What does a suppressor do?",
+      "options": [
+        {
+          "de": "Er reduziert den Mündungsknall",
+          "en": "Reduces muzzle blast"
+        },
+        {
+          "de": "Er reduziert den Rückstoß",
+          "en": "Reduces recoil"
+        },
+        {
+          "de": "Er macht den Schuss lautlos",
+          "en": "Makes the shot silent"
+        }
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanationDe": "Ein deutlicher Knall bleibt.",
+      "explanationEn": "A clear report remains.",
+      "origin": "seed"
+    },
+    {
+      "id": "muni-bezeichnung",
+      "lessonId": "munition-und-ballistik",
+      "questionDe": "Was bedeutet 6,5 × 68 R?",
+      "questionEn": "What does 6.5 × 68 R mean?",
+      "options": [
+        {
+          "de": "6,5 mm Kaliber, 68 mm Hülse, Randpatrone",
+          "en": "6.5 mm calibre, 68 mm case, rimmed"
+        },
+        {
+          "de": "6,5 mm Hülse, 68 mm Kaliber, Repetierer",
+          "en": "6.5 mm case, 68 mm calibre, bolt action"
+        },
+        {
+          "de": "6,5 g Geschoss, 68 grain Pulver",
+          "en": "6.5 g bullet, 68 grain powder"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "R = Rand (für Kipplaufwaffen).",
+      "explanationEn": "R = rimmed (for break-action guns).",
+      "origin": "seed"
+    },
+    {
+      "id": "muni-randfeuer",
+      "lessonId": "munition-und-ballistik",
+      "questionDe": "Welche Patronen haben Randfeuerzündung?",
+      "questionEn": "Which cartridges are rimfire?",
+      "options": [
+        {
+          "de": ".22 lfB",
+          "en": ".22 LR"
+        },
+        {
+          "de": ".22 Magnum",
+          "en": ".22 Magnum"
+        },
+        {
+          "de": "7 × 57 R",
+          "en": "7 × 57 R"
+        }
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanationDe": "7 × 57 R hat einen Rand, aber Zentralfeuer.",
+      "explanationEn": "7 × 57 R is rimmed but centrefire.",
+      "origin": "seed"
+    },
+    {
+      "id": "muni-270",
+      "lessonId": "munition-und-ballistik",
+      "questionDe": "Liegt die .270 Winchester über dem Mindestkaliber von 6,5 mm?",
+      "questionEn": "Is the .270 Winchester above the 6.5 mm minimum?",
+      "options": [
+        {
+          "de": "Ja, sie hat 6,9 mm",
+          "en": "Yes, it is 6.9 mm"
+        },
+        {
+          "de": "Nein, sie hat 6,2 mm",
+          "en": "No, it is 6.2 mm"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": ".270 = 6,9 mm; .243 = 6,2 mm.",
+      "explanationEn": ".270 = 6.9 mm; .243 = 6.2 mm.",
+      "origin": "seed"
+    },
+    {
+      "id": "muni-gee",
+      "lessonId": "munition-und-ballistik",
+      "questionDe": "Was ist die Günstigste Einschussentfernung (GEE)?",
+      "questionEn": "What is the most favourable zero range (GEE)?",
+      "options": [
+        {
+          "de": "Die Entfernung, in der das Geschoss die Visierlinie zum zweiten Mal kreuzt",
+          "en": "Where the bullet crosses the line of sight the second time"
+        },
+        {
+          "de": "Die maximale Schussweite",
+          "en": "The maximum range"
+        },
+        {
+          "de": "Die Entfernung mit der höchsten Energie",
+          "en": "The range with most energy"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Bis zur GEE kann man ohne Haltepunktänderung schießen.",
+      "explanationEn": "Up to the GEE you can aim without holdover.",
+      "origin": "seed"
+    },
+    {
+      "id": "muni-kurz-tief",
+      "lessonId": "munition-und-ballistik",
+      "questionDe": "Eine auf 100 m mit 4 cm Hochschuss eingeschossene Büchse – wo trifft sie auf 5 m?",
+      "questionEn": "A rifle zeroed 4 cm high at 100 m — where does it hit at 5 m?",
+      "options": [
+        {
+          "de": "Ca. 4 cm tief",
+          "en": "About 4 cm low"
+        },
+        {
+          "de": "Ca. 4 cm hoch",
+          "en": "About 4 cm high"
+        },
+        {
+          "de": "Genau Fleck",
+          "en": "Dead on"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Das Zielfernrohr sitzt über dem Lauf.",
+      "explanationEn": "The scope sits above the bore.",
+      "origin": "seed"
+    },
+    {
+      "id": "muni-7x57-gefahr",
+      "lessonId": "munition-und-ballistik",
+      "questionDe": "Wie weit kann ein Geschoss 7 × 57 das Hintergelände gefährden?",
+      "questionEn": "How far can a 7 × 57 bullet be dangerous?",
+      "options": [
+        {
+          "de": "Etwa 5.000 m",
+          "en": "About 5,000 m"
+        },
+        {
+          "de": "Etwa 500 m",
+          "en": "About 500 m"
+        },
+        {
+          "de": "Etwa 1.500 m",
+          "en": "About 1,500 m"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Bis rund 5 km.",
+      "explanationEn": "Up to about 5 km.",
+      "origin": "seed"
+    },
+    {
+      "id": "muni-flg",
+      "lessonId": "munition-und-ballistik",
+      "questionDe": "Bis zu welcher Entfernung ist ein Flintenlaufgeschoss aus einer Flinte ohne Visierung auf Schwarzwild vertretbar?",
+      "questionEn": "Up to what range is a shotgun slug from a gun without sights acceptable on wild boar?",
+      "options": [
+        {
+          "de": "Bis 40 m",
+          "en": "Up to 40 m"
+        },
+        {
+          "de": "Bis 100 m",
+          "en": "Up to 100 m"
+        },
+        {
+          "de": "Bis 150 m",
+          "en": "Up to 150 m"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Etwa 40 m.",
+      "explanationEn": "About 40 m.",
+      "origin": "seed"
+    },
+    {
+      "id": "muni-stahlschrot",
+      "lessonId": "munition-und-ballistik",
+      "questionDe": "Welche Aussagen zu Stahlschrot sind richtig?",
+      "questionEn": "Which statements about steel shot are correct?",
+      "options": [
+        {
+          "de": "Geringere wirksame Reichweite als Blei",
+          "en": "Shorter effective range than lead"
+        },
+        {
+          "de": "Neigt eher zum Abprallen",
+          "en": "More prone to ricochet"
+        },
+        {
+          "de": "Ist an Gewässern verboten",
+          "en": "Banned at water"
+        }
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanationDe": "An Gewässern ist gerade Bleischrot verboten.",
+      "explanationEn": "At water it's lead shot that's banned.",
+      "origin": "seed"
+    },
+    {
+      "id": "muni-vollmantel",
+      "lessonId": "munition-und-ballistik",
+      "questionDe": "Welches Geschoss soll auf gesundes Schalenwild nicht verwendet werden?",
+      "questionEn": "Which bullet should not be used on healthy cloven-hoofed game?",
+      "options": [
+        {
+          "de": "Vollmantelgeschoss",
+          "en": "Full-metal-jacket"
+        },
+        {
+          "de": "Teilmantelgeschoss",
+          "en": "Soft-point"
+        },
+        {
+          "de": "Bleifreies Deformationsgeschoss",
+          "en": "Lead-free expanding"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Vollmantel zerlegt und deformiert sich nicht und tötet nicht sicher.",
+      "explanationEn": "FMJ doesn't expand and doesn't kill reliably.",
+      "origin": "seed"
+    },
+    {
+      "id": "optik-856",
+      "lessonId": "optik",
+      "questionDe": "Was bedeuten die Zahlen beim Fernglas 8 × 56?",
+      "questionEn": "What do the numbers on 8 × 56 binoculars mean?",
+      "options": [
+        {
+          "de": "8-fache Vergrößerung",
+          "en": "8× magnification"
+        },
+        {
+          "de": "56 mm Objektivdurchmesser",
+          "en": "56 mm objective diameter"
+        },
+        {
+          "de": "56 m Sehfeld",
+          "en": "56 m field of view"
+        }
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanationDe": "Vergrößerung × Objektivdurchmesser.",
+      "explanationEn": "Magnification × objective diameter.",
+      "origin": "seed"
+    },
+    {
+      "id": "optik-sehfeld-zf",
+      "lessonId": "optik",
+      "questionDe": "Auf welche Entfernung bezieht sich die Sehfeldangabe eines Zielfernrohrs?",
+      "questionEn": "To what distance does a riflescope's field-of-view figure refer?",
+      "options": [
+        {
+          "de": "100 m",
+          "en": "100 m"
+        },
+        {
+          "de": "1.000 m",
+          "en": "1,000 m"
+        },
+        {
+          "de": "50 m",
+          "en": "50 m"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Zielfernrohr 100 m, Fernglas 1.000 m.",
+      "explanationEn": "Riflescope 100 m, binoculars 1,000 m.",
+      "origin": "seed"
+    },
+    {
+      "id": "optik-drueckjagd",
+      "lessonId": "optik",
+      "questionDe": "Welche Merkmale sollte ein Drückjagd-Zielfernrohr haben?",
+      "questionEn": "What should a driven-hunt scope have?",
+      "options": [
+        {
+          "de": "Geringe Vergrößerung",
+          "en": "Low magnification"
+        },
+        {
+          "de": "Großes Sehfeld",
+          "en": "Wide field of view"
+        },
+        {
+          "de": "Hohe Vergrößerung",
+          "en": "High magnification"
+        }
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanationDe": "Etwa 1,5- bis 2,5-fach mit großem Sehfeld.",
+      "explanationEn": "About 1.5–2.5× with a wide field of view.",
+      "origin": "seed"
+    },
+    {
+      "id": "optik-tief-korrektur",
+      "lessonId": "optik",
+      "questionDe": "Beim Einschießen sitzt der Schuss zu tief. Wohin wird das Absehen nach dem Fragenkatalog verstellt?",
+      "questionEn": "When zeroing, the shot is too low. Which way does the catalogue say to move the reticle?",
+      "options": [
+        {
+          "de": "Nach unten",
+          "en": "Down"
+        },
+        {
+          "de": "Nach oben",
+          "en": "Up"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Laut Katalog: zu tief → Absehen nach unten.",
+      "explanationEn": "Per the catalogue: too low → reticle down.",
+      "origin": "seed"
+    },
+    {
+      "id": "optik-verkantet",
+      "lessonId": "optik",
+      "questionDe": "Wo sitzt der Schuss bei einer nach links verkanteten Waffe?",
+      "questionEn": "Where does the shot go with a rifle canted to the left?",
+      "options": [
+        {
+          "de": "Links tief",
+          "en": "Low left"
+        },
+        {
+          "de": "Rechts hoch",
+          "en": "High right"
+        },
+        {
+          "de": "Genau Fleck",
+          "en": "Dead on"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Verkanten nach links bringt den Treffer links tief.",
+      "explanationEn": "Canting left puts the shot low left.",
+      "origin": "seed"
+    },
+    {
+      "id": "optik-rotpunkt",
+      "lessonId": "optik",
+      "questionDe": "Welche Vorteile hat ein Rotpunktvisier auf der Drückjagd?",
+      "questionEn": "What are the advantages of a red-dot sight at a driven hunt?",
+      "options": [
+        {
+          "de": "Schießen mit beiden Augen offen",
+          "en": "Shooting with both eyes open"
+        },
+        {
+          "de": "Man behält den Überblick",
+          "en": "You keep an overview"
+        },
+        {
+          "de": "Hohe Vergrößerung",
+          "en": "High magnification"
+        }
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanationDe": "Rotpunktvisiere vergrößern nicht.",
+      "explanationEn": "Red dots don't magnify.",
+      "origin": "seed"
+    },
+    {
+      "id": "optik-verboten",
+      "lessonId": "optik",
+      "questionDe": "Welche Gegenstände sind nach dem Waffengesetz grundsätzlich verboten?",
+      "questionEn": "Which items are in principle prohibited under the Weapons Act?",
+      "options": [
+        {
+          "de": "Nachtzielgerät",
+          "en": "Night-vision rifle sight"
+        },
+        {
+          "de": "Laserzielmarkierer mit Montagevorrichtung",
+          "en": "Laser aiming device with mount"
+        },
+        {
+          "de": "Fernglas 8 × 56",
+          "en": "8 × 56 binoculars"
+        }
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanationDe": "Ausnahmen gelten für die Schwarzwildjagd mit Vorsatzgeräten.",
+      "explanationEn": "Exceptions apply to clip-ons for wild boar hunting.",
+      "origin": "seed"
+    },
+    {
+      "id": "hand-vor-laden",
+      "lessonId": "handhabung-und-pflege",
+      "questionDe": "Was ist vor jedem Laden erforderlich?",
+      "questionEn": "What is required before every loading?",
+      "options": [
+        {
+          "de": "Lauf auf Fremdkörper prüfen",
+          "en": "Check the barrel for obstructions"
+        },
+        {
+          "de": "Stecherkontrolle",
+          "en": "Check the set trigger"
+        },
+        {
+          "de": "Waffe einölen",
+          "en": "Oil the gun"
+        }
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanationDe": "Lauf frei und Stecher nicht eingestochen.",
+      "explanationEn": "Barrel clear and trigger not set.",
+      "origin": "seed"
+    },
+    {
+      "id": "hand-versager",
+      "lessonId": "handhabung-und-pflege",
+      "questionDe": "Wie verhält man sich bei einem Versager?",
+      "questionEn": "What do you do after a misfire?",
+      "options": [
+        {
+          "de": "Mindestens 15 Sekunden in Richtung Kugelfang warten, dann entladen",
+          "en": "Wait at least 15 seconds aimed at the backstop, then unload"
+        },
+        {
+          "de": "Sofort öffnen",
+          "en": "Open at once"
+        },
+        {
+          "de": "Sofort nochmal abdrücken",
+          "en": "Pull the trigger again at once"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Ein Nachbrenner könnte noch zünden.",
+      "explanationEn": "A hang fire could still go off.",
+      "origin": "seed"
+    },
+    {
+      "id": "hand-einstechen",
+      "lessonId": "handhabung-und-pflege",
+      "questionDe": "Wann wird der Stecher eingestochen?",
+      "questionEn": "When is the set trigger set?",
+      "options": [
+        {
+          "de": "Unmittelbar vor der Schussabgabe",
+          "en": "Just before firing"
+        },
+        {
+          "de": "Beim Laden",
+          "en": "When loading"
+        },
+        {
+          "de": "Beim Besteigen des Hochsitzes",
+          "en": "When climbing the high seat"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Nur unmittelbar vor dem Schuss.",
+      "explanationEn": "Only just before the shot.",
+      "origin": "seed"
+    },
+    {
+      "id": "hand-drilling-abzug",
+      "lessonId": "handhabung-und-pflege",
+      "questionDe": "Welcher Abzug löst beim auf Kugel gestellten Drilling den Büchsenschuss aus?",
+      "questionEn": "Which trigger fires the rifle barrel on a drilling set to rifle?",
+      "options": [
+        {
+          "de": "Der vordere",
+          "en": "The front"
+        },
+        {
+          "de": "Der hintere",
+          "en": "The rear"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Vorn Kugel, hinten linker Schrotlauf.",
+      "explanationEn": "Front: rifle; rear: left shotgun barrel.",
+      "origin": "seed"
+    },
+    {
+      "id": "hand-treffpunkt",
+      "lessonId": "handhabung-und-pflege",
+      "questionDe": "Was kann die Treffpunktlage einer Büchse verändern?",
+      "questionEn": "What can shift a rifle's point of impact?",
+      "options": [
+        {
+          "de": "Neues Munitionslos",
+          "en": "New ammunition lot"
+        },
+        {
+          "de": "Öl im Lauf",
+          "en": "Oil in the barrel"
+        },
+        {
+          "de": "Vorderschaft liegt am Lauf an",
+          "en": "Fore-end touching the barrel"
+        },
+        {
+          "de": "Neuer Gewehrriemen",
+          "en": "New sling"
+        }
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanationDe": "Der Riemen beeinflusst den Treffpunkt nicht.",
+      "explanationEn": "The sling doesn't affect it.",
+      "origin": "seed"
+    },
+    {
+      "id": "hand-entspannen",
+      "lessonId": "handhabung-und-pflege",
+      "questionDe": "Darf eine Repetierbüchse herkömmlicher Bauart mit Patrone im Lager entspannt werden?",
+      "questionEn": "May a conventional bolt-action rifle be de-cocked with a round in the chamber?",
+      "options": [
+        {
+          "de": "Nein, Stoß oder Fall kann einen Schuss auslösen",
+          "en": "No, a knock or fall can fire it"
+        },
+        {
+          "de": "Ja, das ist die sicherste Trageweise",
+          "en": "Yes, it's the safest way to carry"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Nur Waffen mit separater Handspannung sind dafür gebaut.",
+      "explanationEn": "Only guns with separate manual cocking are designed for this.",
+      "origin": "seed"
+    },
+    {
+      "id": "falle-erlaubt",
+      "lessonId": "fallenjagd",
+      "questionDe": "Welche Fallen sind bei der Fallenjagd erlaubt?",
+      "questionEn": "Which traps are allowed?",
+      "options": [
+        {
+          "de": "Fallen, die sofort töten",
+          "en": "Traps that kill instantly"
+        },
+        {
+          "de": "Fallen, die unversehrt lebend fangen",
+          "en": "Traps that catch alive and unharmed"
+        },
+        {
+          "de": "Tellereisen",
+          "en": "Leg-hold traps"
+        }
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanationDe": "Tellereisen sind verboten.",
+      "explanationEn": "Leg-hold traps are banned.",
+      "origin": "seed"
+    },
+    {
+      "id": "falle-schlagfalle-anzeige",
+      "lessonId": "fallenjagd",
+      "questionDe": "Was muss tun, wer Schlagfallen verwendet?",
+      "questionEn": "What must someone using kill traps do?",
+      "options": [
+        {
+          "de": "Es vorher der Jagdbehörde anzeigen",
+          "en": "Notify the hunting authority beforehand"
+        },
+        {
+          "de": "Nichts",
+          "en": "Nothing"
+        },
+        {
+          "de": "Eine Ausnahmegenehmigung des Ministeriums einholen",
+          "en": "Get an exemption from the ministry"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Schlagfallen sind anzeigepflichtig.",
+      "explanationEn": "Kill traps must be notified.",
+      "origin": "seed"
+    },
+    {
+      "id": "falle-wippbrett",
+      "lessonId": "fallenjagd",
+      "questionDe": "Wie oft sind Wippbrettfallen ohne Fangmelder mindestens zu kontrollieren?",
+      "questionEn": "How often must seesaw traps without an alarm be checked at least?",
+      "options": [
+        {
+          "de": "Zweimal täglich",
+          "en": "Twice a day"
+        },
+        {
+          "de": "Einmal wöchentlich",
+          "en": "Once a week"
+        },
+        {
+          "de": "Dreimal täglich",
+          "en": "Three times a day"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Mindestens zweimal täglich.",
+      "explanationEn": "At least twice a day.",
+      "origin": "seed"
+    },
+    {
+      "id": "falle-saufang",
+      "lessonId": "fallenjagd",
+      "questionDe": "Darf ein Revierinhaber einen Saufang ohne Genehmigung betreiben?",
+      "questionEn": "May a hunting-ground holder operate a wild boar corral trap without a permit?",
+      "options": [
+        {
+          "de": "Nein",
+          "en": "No"
+        },
+        {
+          "de": "Ja",
+          "en": "Yes"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Ein Saufang braucht eine jagdbehördliche Genehmigung.",
+      "explanationEn": "It needs a hunting-authority permit.",
+      "origin": "seed"
+    },
+    {
+      "id": "falle-sichtschutz",
+      "lessonId": "fallenjagd",
+      "questionDe": "Was gilt für Lebendfallen?",
+      "questionEn": "What applies to live traps?",
+      "options": [
+        {
+          "de": "Das Tier soll möglichst nicht nach außen sehen können",
+          "en": "The animal should see out as little as possible"
+        },
+        {
+          "de": "Sie müssen stets durchsichtig sein",
+          "en": "They must always be see-through"
+        },
+        {
+          "de": "Sie müssen nur wöchentlich kontrolliert werden",
+          "en": "Checked only weekly"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Verblendung mindert Stress.",
+      "explanationEn": "Covering reduces stress.",
+      "origin": "seed"
+    },
+    {
+      "id": "falle-toeten",
+      "lessonId": "fallenjagd",
+      "questionDe": "Wie wird in einer Lebendfalle gefangenes Raubwild getötet?",
+      "questionEn": "How is a predator caught in a live trap killed?",
+      "options": [
+        {
+          "de": "Gezielter Kopfschuss im Abfangkorb",
+          "en": "Precise head shot in a transfer cage"
+        },
+        {
+          "de": "Ertränken",
+          "en": "Drowning"
+        },
+        {
+          "de": "Schrotschuss in die Falle",
+          "en": "Shotgun shot into the trap"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Schnell und sicher in den Kopf.",
+      "explanationEn": "Quickly and reliably in the head.",
+      "origin": "seed"
+    },
+    {
+      "id": "falle-ohne-jagdschein",
+      "lessonId": "fallenjagd",
+      "questionDe": "Darf ein Jagdgenosse ohne Jagdschein selbständig Raubwild fangen, wenn der Revierinhaber ihn beauftragt?",
+      "questionEn": "May a cooperative member without a licence trap predators on their own if asked by the holder?",
+      "options": [
+        {
+          "de": "Nein",
+          "en": "No"
+        },
+        {
+          "de": "Ja",
+          "en": "Yes"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Fallenjagd ist Jagdausübung und erfordert einen Jagdschein.",
+      "explanationEn": "Trapping is hunting and needs a licence.",
+      "origin": "seed"
+    },
+    {
+      "id": "waffen-transport",
+      "lessonId": "waffenrecht-fuer-jaeger",
+      "questionDe": "Wie dürfen Sie Ihre Jagdwaffe auf der Fahrt zu einer Ansitzdrückjagd transportieren?",
+      "questionEn": "How may you transport your hunting gun on the way to a driven hunt?",
+      "options": [
+        {
+          "de": "Entladen auf dem Beifahrersitz",
+          "en": "Unloaded on the passenger seat"
+        },
+        {
+          "de": "Entladen im Futteral im Kofferraum",
+          "en": "Unloaded in a case in the boot"
+        },
+        {
+          "de": "Geladen, aber gesichert",
+          "en": "Loaded but with the safety on"
+        }
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanationDe": "Im Zusammenhang mit der Jagd genügt »nicht schussbereit« (§ 13 Abs. 6 WaffG).",
+      "explanationEn": "In connection with hunting, “not ready to fire” is enough (§ 13(6) WaffG).",
+      "origin": "seed"
+    },
+    {
+      "id": "waffen-transport-schiessstand",
+      "lessonId": "waffenrecht-fuer-jaeger",
+      "questionDe": "Wie transportieren Sie die Jagdwaffe zum Übungsschießen auf dem Schießstand?",
+      "questionEn": "How do you transport your gun to practice at a shooting range?",
+      "options": [
+        {
+          "de": "Ungeladen in einem verschlossenen Behältnis",
+          "en": "Unloaded in a locked container"
+        },
+        {
+          "de": "Entladen auf dem Beifahrersitz",
+          "en": "Unloaded on the passenger seat"
+        },
+        {
+          "de": "Geladen im Kofferraum",
+          "en": "Loaded in the boot"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Außerhalb der Jagd: nicht schussbereit und nicht zugriffsbereit.",
+      "explanationEn": "Outside hunting: not ready to fire and not accessible.",
+      "origin": "seed"
+    },
+    {
+      "id": "waffen-geladen",
+      "lessonId": "waffenrecht-fuer-jaeger",
+      "questionDe": "Wann ist eine Waffe »geladen« im Sinne des Waffengesetzes?",
+      "questionEn": "When is a gun “loaded” under the Weapons Act?",
+      "options": [
+        {
+          "de": "Patronen im Patronenlager",
+          "en": "Rounds in the chamber"
+        },
+        {
+          "de": "Patronen im eingeführten Magazin",
+          "en": "Rounds in the inserted magazine"
+        },
+        {
+          "de": "Patronen nur im Schaftmagazin",
+          "en": "Rounds only in a stock holder"
+        }
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanationDe": "Das Schaftmagazin zählt nicht.",
+      "explanationEn": "A stock holder doesn't count.",
+      "origin": "seed"
+    },
+    {
+      "id": "waffen-erwerb-frist",
+      "lessonId": "waffenrecht-fuer-jaeger",
+      "questionDe": "Binnen welcher Frist müssen Sie nach dem Kauf eines Drillings die Eintragung in die WBK beantragen?",
+      "questionEn": "Within what period must you apply for entry in the WBK after buying a drilling?",
+      "options": [
+        {
+          "de": "Zwei Wochen",
+          "en": "Two weeks"
+        },
+        {
+          "de": "Vier Wochen",
+          "en": "Four weeks"
+        },
+        {
+          "de": "Drei Monate",
+          "en": "Three months"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Zwei Wochen (§ 13 WaffG).",
+      "explanationEn": "Two weeks (§ 13 WaffG).",
+      "origin": "seed"
+    },
+    {
+      "id": "waffen-kurzwaffen-zahl",
+      "lessonId": "waffenrecht-fuer-jaeger",
+      "questionDe": "Wie viele Kurzwaffen darf ein Jahresjagdscheininhaber ohne besonderen Bedürfnisnachweis erwerben?",
+      "questionEn": "How many handguns may an annual licence holder acquire without proving special need?",
+      "options": [
+        {
+          "de": "2",
+          "en": "2"
+        },
+        {
+          "de": "1",
+          "en": "1"
+        },
+        {
+          "de": "Unbegrenzt",
+          "en": "Unlimited"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Zwei Kurzwaffen; Langwaffen unbegrenzt.",
+      "explanationEn": "Two handguns; long guns unlimited.",
+      "origin": "seed"
+    },
+    {
+      "id": "waffen-dokumente",
+      "lessonId": "waffenrecht-fuer-jaeger",
+      "questionDe": "Welche Dokumente führen Sie bei der Jagd mit Ihrer eigenen Waffe mit?",
+      "questionEn": "Which documents do you carry when hunting with your own gun?",
+      "options": [
+        {
+          "de": "Jagdschein",
+          "en": "Hunting licence"
+        },
+        {
+          "de": "Personalausweis oder Pass",
+          "en": "ID card or passport"
+        },
+        {
+          "de": "Waffenbesitzkarte",
+          "en": "Firearms ownership licence"
+        },
+        {
+          "de": "Fahrzeugschein",
+          "en": "Vehicle registration"
+        }
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanationDe": "Bei einer geliehenen Waffe genügen Jagdschein und Ausweis.",
+      "explanationEn": "With a borrowed gun, licence and ID are enough.",
+      "origin": "seed"
+    },
+    {
+      "id": "waffen-aufbewahrung",
+      "lessonId": "waffenrecht-fuer-jaeger",
+      "questionDe": "Welche Vorschriften gelten für die Aufbewahrung?",
+      "questionEn": "Which storage rules apply?",
+      "options": [
+        {
+          "de": "Waffen nur ungeladen aufbewahren",
+          "en": "Store guns only unloaded"
+        },
+        {
+          "de": "In einem Schrank Widerstandsgrad 0 dürfen Waffen und Munition zusammen lagern",
+          "en": "Guns and ammunition may be stored together in a grade 0 cabinet"
+        },
+        {
+          "de": "Ein abschließbarer Holzschrank genügt",
+          "en": "A lockable wooden cabinet is enough"
+        }
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanationDe": "Mindeststandard ist Widerstandsgrad 0 nach DIN EN 1143-1.",
+      "explanationEn": "The minimum is grade 0 to DIN EN 1143-1.",
+      "origin": "seed"
+    },
+    {
+      "id": "waffen-verlust",
+      "lessonId": "waffenrecht-fuer-jaeger",
+      "questionDe": "Wann müssen Sie das Abhandenkommen einer Waffe melden?",
+      "questionEn": "When must you report the loss of a gun?",
+      "options": [
+        {
+          "de": "Unverzüglich",
+          "en": "Without delay"
+        },
+        {
+          "de": "Binnen zwei Wochen",
+          "en": "Within two weeks"
+        },
+        {
+          "de": "Beim nächsten Behördentermin",
+          "en": "At the next appointment"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Unverzüglich.",
+      "explanationEn": "Without delay.",
+      "origin": "seed"
+    },
+    {
+      "id": "uvv-entladen",
+      "lessonId": "unfallverhuetung-notwehr",
+      "questionDe": "Wann sind nach der UVV Jagd die Läufe zu entladen?",
+      "questionEn": "When must barrels be unloaded under the hunting accident-prevention rules?",
+      "options": [
+        {
+          "de": "Beim Besteigen eines Hochsitzes",
+          "en": "When climbing a high seat"
+        },
+        {
+          "de": "Beim Überwinden von Hindernissen",
+          "en": "When crossing obstacles"
+        },
+        {
+          "de": "Nach dem Signal zum Ende des Treibens",
+          "en": "After the end-of-drive signal"
+        },
+        {
+          "de": "Beim Ansprechen von Wild",
+          "en": "When identifying game"
+        }
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanationDe": "Beim Ansprechen bleibt man schussbereit am Stand.",
+      "explanationEn": "When identifying game you stay ready at your stand.",
+      "origin": "seed"
+    },
+    {
+      "id": "uvv-magazin",
+      "lessonId": "unfallverhuetung-notwehr",
+      "questionDe": "Ihre Repetierbüchse hat drei Patronen im eingeführten Magazin, das Lager ist leer. Was dürfen Sie?",
+      "questionEn": "Your bolt rifle has three rounds in the inserted magazine and an empty chamber. What may you do?",
+      "options": [
+        {
+          "de": "Einen Hochsitz besteigen",
+          "en": "Climb a high seat"
+        },
+        {
+          "de": "Einen Zaun übersteigen",
+          "en": "Cross a fence"
+        },
+        {
+          "de": "In ein Fahrzeug steigen",
+          "en": "Get into a vehicle"
+        }
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanationDe": "Für das Fahrzeug gilt die Waffe als geladen.",
+      "explanationEn": "For the vehicle the gun counts as loaded.",
+      "origin": "seed"
+    },
+    {
+      "id": "uvv-bestimmungsgemaess",
+      "lessonId": "unfallverhuetung-notwehr",
+      "questionDe": "Was ist kein bestimmungsgemäßer Gebrauch einer Jagdwaffe?",
+      "questionEn": "What is not proper use of a hunting gun?",
+      "options": [
+        {
+          "de": "Zäune damit niederhalten",
+          "en": "Holding down fences with it"
+        },
+        {
+          "de": "Hochsitzluken damit aufstoßen",
+          "en": "Pushing open hatches with it"
+        },
+        {
+          "de": "Wild damit erschlagen",
+          "en": "Clubbing game with it"
+        }
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanationDe": "Alles davon ist verboten.",
+      "explanationEn": "All of these are forbidden.",
+      "origin": "seed"
+    },
+    {
+      "id": "uvv-gesellschaftsjagd",
+      "lessonId": "unfallverhuetung-notwehr",
+      "questionDe": "Welche Regeln gelten bei Gesellschaftsjagden?",
+      "questionEn": "Which rules apply at group hunts?",
+      "options": [
+        {
+          "de": "Außerhalb der Treiben entladen mit offenem Verschluss tragen",
+          "en": "Carry unloaded with action open outside drives"
+        },
+        {
+          "de": "Nach Einnehmen der Stände mit den Nachbarn verständigen",
+          "en": "Make contact with neighbours after taking stands"
+        },
+        {
+          "de": "Nicht auf Schützen oder Treiber anschlagen",
+          "en": "Never point at shooters or beaters"
+        },
+        {
+          "de": "In das Treiben schießen, wenn Wild flüchtet",
+          "en": "Shoot into the drive when game flees"
+        }
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanationDe": "Ins Treiben wird nicht geschossen.",
+      "explanationEn": "Never shoot into the drive.",
+      "origin": "seed"
+    },
+    {
+      "id": "notwehr-fuchs",
+      "lessonId": "unfallverhuetung-notwehr",
+      "questionDe": "Auf dem Weg ins Revier greift Sie in einem fremden Revier ein tollwütiger Fuchs an, und Sie erschießen ihn. Haben Sie sich strafbar gemacht?",
+      "questionEn": "On the way to your ground, a rabid fox attacks you in someone else's ground and you shoot it. Have you committed an offence?",
+      "options": [
+        {
+          "de": "Nein, die Abwehr ist durch Notstand gerechtfertigt",
+          "en": "No, it is justified as necessity"
+        },
+        {
+          "de": "Ja, Wilderei",
+          "en": "Yes, poaching"
+        },
+        {
+          "de": "Ja, weil Notwehr gegen Tiere nicht gilt",
+          "en": "Yes, because self-defence doesn't apply to animals"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Notwehr gilt gegen Menschen; gegen Tiere hilft der Notstand.",
+      "explanationEn": "Self-defence covers people; necessity covers animals.",
+      "origin": "seed"
+    },
+    {
+      "id": "notwehr-def",
+      "lessonId": "unfallverhuetung-notwehr",
+      "questionDe": "Was setzt Notwehr voraus?",
+      "questionEn": "What does self-defence require?",
+      "options": [
+        {
+          "de": "Einen gegenwärtigen, rechtswidrigen Angriff",
+          "en": "A present, unlawful attack"
+        },
+        {
+          "de": "Eine erforderliche Verteidigung",
+          "en": "A necessary defence"
+        },
+        {
+          "de": "Einen Angriff, der schon vorbei ist",
+          "en": "An attack that is already over"
+        }
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanationDe": "Ein beendeter Angriff rechtfertigt keine Notwehr mehr.",
+      "explanationEn": "An attack that's over no longer justifies it.",
       "origin": "seed"
     }
   ]
