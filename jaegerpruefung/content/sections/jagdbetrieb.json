@@ -20,21 +20,27 @@
       "titleDe": "Reviergestaltung, Verbesserung des Wildlebensraums",
       "titleEn": "Habitat improvement",
       "officialQuestions": 11,
-      "lessonIds": []
+      "lessonIds": [
+        "reviergestaltung"
+      ]
     },
     {
       "code": "4.2",
       "titleDe": "Richtlinien für die Hege und Bejagung des Schalenwildes",
       "titleEn": "Guidelines for managing and hunting cloven-hoofed game",
       "officialQuestions": 20,
-      "lessonIds": []
+      "lessonIds": [
+        "hege-und-bejagung-schalenwild"
+      ]
     },
     {
       "code": "4.3",
       "titleDe": "Hegemaßnahmen einschließlich Fütterung",
       "titleEn": "Management measures including feeding",
       "officialQuestions": 41,
-      "lessonIds": []
+      "lessonIds": [
+        "hege-und-fuetterung"
+      ]
     },
     {
       "code": "4.4",
@@ -42,7 +48,8 @@
       "titleEn": "Wildlife epidemics and diseases",
       "officialQuestions": 37,
       "lessonIds": [
-        "wildkrankheiten"
+        "wildkrankheiten",
+        "parasiten-und-seuchen"
       ]
     },
     {
@@ -69,10 +76,346 @@
       "titleDe": "Abnorme Verhaltensweisen und pathologische Veränderungen",
       "titleEn": "Abnormal behaviour and pathological changes",
       "officialQuestions": 22,
-      "lessonIds": []
+      "lessonIds": [
+        "bedenkliche-merkmale"
+      ]
     }
   ],
   "lessons": [
+    {
+      "id": "reviergestaltung",
+      "titleDe": "Reviergestaltung und Reviereinrichtungen",
+      "titleEn": "Improving the hunting ground and its facilities",
+      "paragraphs": [
+        {
+          "de": "Mehrjährige Wildäcker, Hecken und Feldgehölze sollen vor allem Äsung und Deckung in der Feldflur verbessern. Hecken bieten Niederwild und Vögeln Schutz vor Beutegreifern, Einstand, Äsung sowie Brut- und Setzplätze. Für Feldhecken eignen sich heimische Sträucher wie Schlehe (Schwarzdorn), Weißdorn, Wildrose, Pfaffenhütchen, Schneeball, Kreuzdorn und Rote Heckenkirsche; dornige Sträucher am Rand sind besonders günstig. Hecken verjüngt man, indem man sie abschnittsweise auf den Stock setzt – außerhalb der Brutzeit.",
+          "en": "Perennial game plots, hedges and copses are mainly meant to improve food and cover in open farmland. Hedges give small game and birds protection from predators, cover, food, and places to nest and give birth. Native shrubs such as blackthorn, hawthorn, wild rose, spindle, guelder rose, buckthorn and fly honeysuckle are suitable for field hedges; thorny shrubs on the edges are particularly good. Hedges are rejuvenated by coppicing them section by section — outside the breeding season."
+        },
+        {
+          "de": "Mehrjährige Pflanzen für Daueräsungsflächen sind etwa Luzerne, Weißklee und Topinambur. Sonnenblume und Ackersenf bieten Deckung bis in den Winter. Wer Bäume oder Hecken pflanzt, etwa eine Streuobstwiese, muss Mindestabstände zum Nachbargrundstück einhalten.",
+          "en": "Perennial plants for permanent forage plots include lucerne, white clover and Jerusalem artichoke (Topinambur). Sunflower and wild mustard give cover into winter. Anyone planting trees or hedges, such as a traditional orchard, must keep minimum distances to the neighbouring property."
+        },
+        {
+          "de": "Pirschwege dienen dem geräuschlosen Anpirschen und werden sauber gehalten. Hochsitze müssen vor jeder Benutzung auf Schäden geprüft werden; nicht mehr benötigte Hochsitze werden abgebaut. Morsche Sprossen und Bodenteile sind eine häufige Unfallursache.",
+          "en": "Stalking paths allow you to approach quietly and are kept clear. High seats must be checked for damage before every use; seats no longer needed are taken down. Rotten rungs and floorboards are a common cause of accidents."
+        }
+      ],
+      "keyTerms": [
+        {
+          "de": "Feldflur",
+          "en": "open farmland"
+        },
+        {
+          "de": "Hecke / Feldgehölz",
+          "en": "hedge / copse"
+        },
+        {
+          "de": "auf den Stock setzen",
+          "en": "to coppice"
+        },
+        {
+          "de": "Daueräsungsfläche",
+          "en": "permanent forage plot"
+        },
+        {
+          "de": "Pirschweg",
+          "en": "stalking path"
+        },
+        {
+          "de": "Hochsitz",
+          "en": "high seat"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Fragenkatalog zur Jägerprüfung in Bayern – Landesamt für Maß und Gewicht",
+          "url": "https://www.lmg.bayern.de/aufgaben_leistungen/jaegerpruefung/index.html"
+        }
+      ],
+      "origin": "seed",
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "hege-und-bejagung-schalenwild",
+      "titleDe": "Richtlinien für die Hege und Bejagung des Schalenwildes in Bayern",
+      "titleEn": "Bavarian guidelines for managing and hunting cloven-hoofed game",
+      "paragraphs": [
+        {
+          "de": "Die bayerischen Richtlinien für die Hege und Bejagung des Schalenwildes teilen den Bestand in Zuwachs und drei Altersklassen: Jugendklasse, mittlere Altersklasse und obere Altersklasse. Zur Jugendklasse gehören zum Beispiel das Schmalreh und der zweijährige Rothirsch, zur mittleren Altersklasse der zwei- bis dreijährige Rehbock. Beim Rotwild spricht man von Klassen: Ein dreijähriger Achter gehört in Klasse III, in Klasse I steht ein Hirsch ab zehn Jahren. Ein Gamsbock gehört ab acht Jahren zur oberen Altersklasse.",
+          "en": "The Bavarian guidelines for managing and hunting cloven-hoofed game divide a population into the annual increase and three age classes: youth class, middle age class and upper age class. The youth class includes, for example, the yearling doe and the two-year-old red stag; the middle class includes the two- to three-year-old roe buck. Red deer stags are grouped in classes: a three-year-old eight-pointer belongs to class III, while a stag of ten years or older is in class I. A chamois buck belongs to the upper age class from eight years."
+        },
+        {
+          "de": "Abgeschossen wird nach Alter und Klasse, nicht wegen einzelner Merkmale der Trophäe: Ein junger Hirsch mit stumpfen, dunklen Enden oder einer abgebrochenen Stange ist deswegen allein nicht abschussnotwendig. Überhege – zu hohe Bestände – führt zu mehr Wildschäden, mehr Wildkrankheiten und schlechterer körperlicher Verfassung. Den Rehwildbestand kann man durch Zählen nicht exakt ermitteln. Wechselwild ist Wild, das während der Jagdzeit nicht ständig im Revier steht.",
+          "en": "Animals are culled by age and class, not because of single trophy features: a young stag with blunt, dark tips or a broken beam is not a cull animal for that reason alone. Over-management — populations that are too high — leads to more game damage, more disease and poorer body condition. Roe deer numbers cannot be determined exactly by counting. Wechselwild is game that does not stay in the hunting ground all the time during the season."
+        },
+        {
+          "de": "Der Zuwachs beim Rotwild wird mit 70 bis 90 Prozent der Alttiere angesetzt. Beim Gamswild ist er im Hochgebirge geringer, weil die Geißen spät geschlechtsreif werden und Witterung zu Verlusten führt; hier darf bei sonst angemessenem Bestand der Anteil weiblichen Wildes höher sein als der männlichen. Beim Schwarzwild kann der jährliche Zuwachs unter günstigen Bedingungen bis zu 300 Prozent des Gesamtbestands betragen; schneereiche Winter und fehlende Eichel- und Buchenmast senken ihn.",
+          "en": "Red deer increase is set at 70 to 90 per cent of the adult hinds. In chamois it is lower in the high mountains because females mature late and weather causes losses; here the proportion of females may be higher than that of males if the population is otherwise appropriate. In wild boar the annual increase can reach up to 300 per cent of the whole population in good conditions; snowy winters and a lack of acorn and beech mast reduce it."
+        },
+        {
+          "de": "Bei der Schwarzwildstrecke sollen Frischlinge etwa 70 Prozent ausmachen – sie werden ungeachtet ihrer Stärke erlegt. Empfohlen werden revierübergreifende Bewegungsjagden und Sammelansitze, abgestimmte Kirrkonzepte in Schwarzwild-Arbeitsgemeinschaften, höchstens 1 kg Kirrmaterial je Kirrung, keine Kirrung im Feld bis zur Ernte und Übungsschießen zur Steigerung der Treffsicherheit. Wegen der Afrikanischen Schweinepest sollen die Bestände sowohl dort konsequent reduziert werden, wo seit Jahren viel Schwarzwild lebt, als auch dort, wo es sich gerade aufbaut.",
+          "en": "Piglets should make up about 70 per cent of the wild boar bag — they are shot regardless of size. Recommended measures are driven hunts and group stand hunts across hunting-ground boundaries, coordinated baiting plans within wild boar working groups, no more than 1 kg of bait per baiting site, no baiting in fields until the harvest is in, and practice shooting to improve accuracy. Because of African swine fever, populations should be reduced consistently both where there have been many wild boar for years and where they are just building up."
+        }
+      ],
+      "keyTerms": [
+        {
+          "de": "Altersklassen",
+          "en": "age classes"
+        },
+        {
+          "de": "Jugendklasse",
+          "en": "youth class"
+        },
+        {
+          "de": "Zuwachs",
+          "en": "annual increase"
+        },
+        {
+          "de": "Überhege",
+          "en": "over-management (too many animals)"
+        },
+        {
+          "de": "Wechselwild",
+          "en": "game that only passes through"
+        },
+        {
+          "de": "Kirrung",
+          "en": "baiting site"
+        },
+        {
+          "de": "Sammelansitz",
+          "en": "coordinated group stand hunt"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Fragenkatalog zur Jägerprüfung in Bayern – Landesamt für Maß und Gewicht",
+          "url": "https://www.lmg.bayern.de/aufgaben_leistungen/jaegerpruefung/index.html"
+        },
+        {
+          "title": "Bayerisches Wildtierportal – Hege und Bejagung des Schalenwildes",
+          "url": "https://www.wildtierportal.bayern.de/"
+        }
+      ],
+      "origin": "seed",
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "hege-und-fuetterung",
+      "titleDe": "Hegemaßnahmen und Fütterung",
+      "titleEn": "Game management measures and feeding",
+      "paragraphs": [
+        {
+          "de": "Wildäcker dürfen nicht auf Magerrasen oder Feuchtwiesen angelegt werden. Für einjährige Ansaaten eignen sich etwa Buchweizen und Sonnenblumen; Herbst- und Winteräsung für Rehwild liefern Raps, Rübsen und Ölrettich, saftige Grünäsung auch bei Frost bieten Raps, Rübsen und Markstammkohl. Topinambur liefert Blatt- und Knollenäsung, Waldstaudenroggen braucht zwei Jahre bis zur Reife. Acker- und Uferrandstreifen verhindern Nährstoff- und Pflanzenschutzeinträge und schaffen Lebensraum. Stoppelbrache hilft Feldhase und Rebhuhn, die Almbeweidung hält Flächen offen für Rotwild und Birkwild.",
+          "en": "Game plots must not be created on nutrient-poor grassland or wet meadows. Suitable annual sowings are buckwheat and sunflowers; autumn and winter food for roe deer comes from rape, turnip rape and oil radish, and rape, turnip rape and marrow-stem kale stay green and juicy even in frost. Jerusalem artichoke gives leaves and tubers; perennial forest rye takes two years to ripen. Field and riverside margin strips stop nutrients and pesticides getting in and create habitat. Stubble left over winter helps hare and partridge; alpine grazing keeps land open for red deer and black grouse."
+        },
+        {
+          "de": "Proßholz sind abgeschnittene Zweige von Laubgehölzen, die zum Abäsen liegen bleiben – Apfelbaum und Esche sind besonders gut. Natürliche Winteräsung bieten Brombeere (grüne Blätter auch im Winter), Heidelbeere und Ginster. Für trockene, magere Flächen eignen sich Ginster, Sanddorn und Hundsrose. Salzlecken werden von Rot-, Reh- und Schwarzwild und auch von Wildtauben angenommen.",
+          "en": "Proßholz is cut branches of broadleaved trees left for game to browse — apple and ash are especially good. Natural winter food comes from bramble (green leaves even in winter), bilberry and broom. Broom, sea buckthorn and dog rose suit dry, poor sites. Salt licks are used by red deer, roe deer, wild boar and even wild pigeons."
+        },
+        {
+          "de": "Man unterscheidet Kraft-, Saft- und Raufutter. Kraftfutter sind etwa Eicheln, Kastanien, Hafer und getrocknete Zuckerrübenschnitzel; Saftfutter sind Rüben, Maissilage und Apfeltrester; Raufutter ist Heu oder Grummet. In der Notzeit braucht Rotwild vor allem Erhaltungsfutter wie Grummet, Futterrüben und Grassilage. Getreide wie Weizen, Hafer oder Maisschrot als alleiniges Futter entspricht nicht den Bedürfnissen des Rehwilds. Rotwild hat im Oktober/November den höheren Nahrungsbedarf, Rehwild im Januar den geringsten.",
+          "en": "Feed is divided into concentrates, succulent feed and roughage. Concentrates include acorns, chestnuts, oats and dried sugar-beet pulp; succulent feed includes beets, maize silage and apple pomace; roughage is hay or aftermath hay (Grummet). In times of need red deer mainly need maintenance feed such as aftermath hay, fodder beet and grass silage. Grain such as wheat, oats or crushed maize as the only feed does not meet roe deer's needs. Red deer need most food in October/November; roe deer need least in January."
+        },
+        {
+          "de": "Niederwild: Hasen nehmen Obstbaumzweige, Rüben und Maiskolben, Fasane Getreide, Getreideabputz und Rosinen, Rebhühner Getreideabputz und Wildkräutersamen, Wildenten Getreide und Eicheln. Fasanenschütten legt man in Feldgehölzen und Hecken an, Rebhuhnfütterungen in einer Hecke im freien Feld. Stockenten nehmen Brutkörbe an. Gegen das Ausmähen von Kitzen helfen das Absuchen der Wiesen mit Hund (oder Drohne), Scheuchen am Vorabend und Wildretter an der Mähmaschine. Den Besatz an Bodenbrütern mindern Wanderratten, Dachs und Marder; bejagt werden dürfen zum Schutz des Niederwilds etwa Hermelin, Iltis und Steinmarder.",
+          "en": "Small game: hares take fruit-tree twigs, beets and maize cobs; pheasants grain, grain screenings and raisins; partridges grain screenings and wild-herb seeds; wild ducks grain and acorns. Pheasant feeders are placed in copses and hedges, partridge feeders in a hedge in open fields. Mallards use nesting baskets. To stop fawns being killed by mowers, search meadows with a dog (or drone), put up scarers the evening before and fit wildlife savers to the mower. Brown rats, badgers and martens reduce ground-nesting birds; to protect small game, stoat, polecat and stone marten, for example, may be hunted."
+        }
+      ],
+      "keyTerms": [
+        {
+          "de": "Wildacker",
+          "en": "game food plot"
+        },
+        {
+          "de": "Proßholz",
+          "en": "cut branches left for browsing"
+        },
+        {
+          "de": "Kraftfutter",
+          "en": "concentrate feed"
+        },
+        {
+          "de": "Saftfutter",
+          "en": "succulent feed"
+        },
+        {
+          "de": "Raufutter",
+          "en": "roughage"
+        },
+        {
+          "de": "Grummet",
+          "en": "aftermath hay (second cut)"
+        },
+        {
+          "de": "Notzeit",
+          "en": "time of need (hard winter)"
+        },
+        {
+          "de": "Salzlecke",
+          "en": "salt lick"
+        },
+        {
+          "de": "Kitzrettung",
+          "en": "saving fawns from mowers"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Fragenkatalog zur Jägerprüfung in Bayern – Landesamt für Maß und Gewicht",
+          "url": "https://www.lmg.bayern.de/aufgaben_leistungen/jaegerpruefung/index.html"
+        }
+      ],
+      "origin": "seed",
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "wildkrankheiten",
+      "titleDe": "Wildkrankheiten und Zoonosen",
+      "titleEn": "Wildlife diseases and zoonoses",
+      "paragraphs": [
+        {
+          "de": "Wildkrankheiten werden durch Viren, Bakterien, Parasiten oder Pilze verursacht. Zoonosen sind Krankheiten, die zwischen Tier und Mensch übertragen werden können. Für den Jäger sind sie wichtig, weil er beim Aufbrechen und beim Umgang mit Fallwild engen Kontakt zu Wild hat. Handschuhe und gründliche Hygiene schützen.",
+          "en": "Wildlife diseases are caused by viruses, bacteria, parasites or fungi. Zoonoses are diseases that can pass between animals and humans. They matter to hunters because gutting and handling dead game (Fallwild) means close contact. Gloves and thorough hygiene protect you."
+        },
+        {
+          "de": "Die Afrikanische Schweinepest (ASP) ist eine Viruserkrankung, die nur Haus- und Wildschweine befällt und für sie fast immer tödlich verläuft. Für den Menschen ist sie ungefährlich, er kann das Virus aber über Kleidung, Fahrzeuge oder Lebensmittel verschleppen. Die ASP ist eine anzeigepflichtige Tierseuche; Funde von verendetem Schwarzwild müssen der Behörde gemeldet werden.",
+          "en": "African swine fever (ASF) is a viral disease that only affects domestic pigs and wild boar, and is almost always fatal for them. It is harmless to humans, but people can spread the virus via clothing, vehicles or food. ASF is a notifiable animal disease; finds of dead wild boar must be reported to the authority."
+        },
+        {
+          "de": "Die Tollwut ist eine Viruserkrankung des Nervensystems und eine gefährliche Zoonose. Deutschland gilt seit 2008 als frei von terrestrischer (klassischer) Tollwut, unter anderem dank der Impfköder für Füchse. Fledermaustollwut kommt weiterhin vor. Die Aujeszkysche Krankheit kann bei Schwarzwild vorkommen und ist für Hunde tödlich – deshalb dürfen Hunde kein rohes Schwarzwild bekommen.",
+          "en": "Rabies is a viral disease of the nervous system and a dangerous zoonosis. Germany has been free of terrestrial (classical) rabies since 2008, thanks partly to oral vaccine baits for foxes. Bat rabies still occurs. Aujeszky's disease can occur in wild boar and is fatal to dogs — so dogs must never be fed raw wild boar."
+        },
+        {
+          "de": "Der Kleine Fuchsbandwurm (Echinococcus multilocularis) ist ein Parasit des Fuchses. Seine Eier werden mit dem Kot ausgeschieden; nimmt der Mensch sie auf, kann eine schwere Lebererkrankung entstehen (alveoläre Echinokokkose). Beim Umgang mit Füchsen deshalb Handschuhe tragen. Die Tularämie (Hasenpest) ist eine bakterielle Zoonose, die vor allem Feldhasen befällt.",
+          "en": "The small fox tapeworm (Echinococcus multilocularis) is a parasite of the fox. Its eggs are passed in faeces; if a human swallows them, a serious liver disease can develop (alveolar echinococcosis). So wear gloves when handling foxes. Tularaemia (Hasenpest, “hare plague”) is a bacterial zoonosis that mainly affects brown hares."
+        },
+        {
+          "de": "Weitere wichtige Wildkrankheiten sind die Räude (Milbenbefall, häufig beim Fuchs), die Myxomatose und die Chinaseuche (RHD) beim Wildkaninchen bzw. die EBHS beim Hasen, sowie die Geflügelpest (Aviäre Influenza) bei Wasservögeln. Verdacht auf eine anzeigepflichtige Tierseuche muss sofort der Veterinärbehörde gemeldet werden.",
+          "en": "Other important wildlife diseases are mange (mite infestation, common in foxes), myxomatosis and rabbit haemorrhagic disease (RHD, Chinaseuche) in wild rabbits and EBHS in hares, and avian influenza (bird flu) in waterfowl. Suspicion of a notifiable animal disease must be reported to the veterinary authority immediately."
+        }
+      ],
+      "keyTerms": [
+        {
+          "de": "Zoonose",
+          "en": "zoonosis",
+          "note": "Disease transmissible between animals and humans."
+        },
+        {
+          "de": "Fallwild",
+          "en": "game found dead",
+          "note": "Died of disease or accident."
+        },
+        {
+          "de": "Afrikanische Schweinepest (ASP)",
+          "en": "African swine fever (ASF)",
+          "note": "Notifiable; pigs only; harmless to humans."
+        },
+        {
+          "de": "anzeigepflichtige Tierseuche",
+          "en": "notifiable animal disease",
+          "note": "Must be reported to the authority."
+        },
+        {
+          "de": "Tollwut",
+          "en": "rabies"
+        },
+        {
+          "de": "Fuchsbandwurm",
+          "en": "fox tapeworm",
+          "note": "Echinococcus multilocularis."
+        },
+        {
+          "de": "Räude",
+          "en": "mange"
+        },
+        {
+          "de": "Tularämie (Hasenpest)",
+          "en": "tularaemia"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Friedrich-Loeffler-Institut – Tierseuchen",
+          "url": "https://www.fli.de/"
+        }
+      ],
+      "origin": "seed",
+      "updatedAt": "2026-11-12"
+    },
+    {
+      "id": "parasiten-und-seuchen",
+      "titleDe": "Parasiten, Seuchen und Abnormitäten",
+      "titleEn": "Parasites, epidemics and abnormalities",
+      "paragraphs": [
+        {
+          "de": "Rehwild leidet oft unter Rachendasseln (den Larven einer Rachenbremse), Lungenwürmern, Leberegeln und Zecken. Rachendasseln erkennt man im Mai/Juni an häufigem Husten, Niesen und Kopfschütteln; sie kommen auch beim Rotwild vor. Die Larven der Hautdasselfliege bohren sich durch die Decke ein und verlassen den Wirt auch wieder durch die Decke. Larven des Großen Lungenwurms werden mit der Losung ausgeschieden; Magen- und Darmwürmer nimmt das Wild mit der Äsung auf. Auf Darmwürmer deuten ein mit Losung verschmutzter Spiegel und spätes, schlechtes Verfärben.",
+          "en": "Roe deer often suffer from nasal bots (larvae of a bot fly), lungworms, liver flukes and ticks. Nasal bots show in May/June through frequent coughing, sneezing and head-shaking; they also occur in red deer. Warble-fly larvae bore in through the skin and leave the host through the skin again. Larvae of the large lungworm are passed out with the droppings; stomach and intestinal worms are picked up with food. A rump patch soiled with droppings and late, poor coat change point to intestinal worms."
+        },
+        {
+          "de": "Bandwürmer entwickeln sich im Zwischenwirt als Finnen. Beim Kleinen Fuchsbandwurm entstehen sie vor allem in der Leber von Mäusen; Fuchs, Hund und Katze stecken sich durch das Fressen befallener Mäuse an. Der Mensch kann sich als Fehlwirt infizieren und lebensgefährlich erkranken. Trichinen können Schwarzwild, Fuchs und Dachs tragen. Vom Wild auf den Menschen übertragbar sind zum Beispiel Trichinose, Tollwut und Tularämie; Borreliose überträgt die Zecke. Hauptüberträger der Tollwut war der Fuchs; untersucht wird das Gehirn. Ein an Brucellose erkrankter Hase ist nicht genusstauglich.",
+          "en": "Tapeworms develop as cysts (Finnen) in an intermediate host. In the small fox tapeworm these form mainly in the liver of mice; foxes, dogs and cats become infected by eating infected mice. Humans can be infected as accidental hosts and become dangerously ill. Trichinella can be carried by wild boar, fox and badger. Diseases transmissible from game to humans include trichinosis, rabies and tularaemia; Lyme disease (borreliosis) is passed on by ticks. The fox was the main carrier of rabies; the brain is examined. A hare with brucellosis is unfit to eat."
+        },
+        {
+          "de": "Schweinepest und Maul- und Klauenseuche befallen Schwarzwild wie Hausschwein; für die MKS sind auch Rot-, Reh- und Muffelwild empfänglich. Bei der Klassischen Schweinepest sterben vor allem Frischlinge. Zeichen am lebenden Stück sind Fieber, Durst, Durchfall und taumelnder Gang; beim Aufbrechen findet man punktförmige Blutungen auf Kehldeckel, Luftröhre, Nieren und Lymphknoten. Räude kann bei Fuchs und Gamswild seuchenhaft auftreten; beim Gams zeigt sie sich durch grauborkige, verdickte Haut mit Haarausfall und kahle Stellen am Kopf. Myxomatose befällt Wildkaninchen (selten auch Feldhasen), beim Hasen führen Kokzidiose und EBHS zu großen Verlusten; Enten sterben an Botulismus.",
+          "en": "Swine fever and foot-and-mouth disease affect both wild boar and domestic pigs; red deer, roe deer and mouflon are also susceptible to foot-and-mouth. In classical swine fever mostly piglets die. Signs in a living animal are fever, thirst, diarrhoea and a staggering gait; on gutting, pinpoint haemorrhages are found on the epiglottis, windpipe, kidneys and lymph nodes. Mange can become epidemic in fox and chamois; in chamois it shows as grey, crusty, thickened skin with hair loss and bare patches on the head. Myxomatosis affects wild rabbits (rarely hares); in hares coccidiosis and EBHS cause heavy losses; ducks die of botulism."
+        },
+        {
+          "de": "Eine Verletzung der Brunftkugeln (Hoden) löst beim Rehbock ein Perückengehörn aus: Das Gehörn wuchert unter dem Bast weiter und kann nicht mehr abgeworfen werden.",
+          "en": "Injury to the testicles causes a roe buck to grow a perruque (Perückengehörn): the antler keeps growing in velvet into a mass and can no longer be cast."
+        }
+      ],
+      "keyTerms": [
+        {
+          "de": "Rachendasseln",
+          "en": "nasal bots"
+        },
+        {
+          "de": "Lungenwurm",
+          "en": "lungworm"
+        },
+        {
+          "de": "Leberegel",
+          "en": "liver fluke"
+        },
+        {
+          "de": "Hautdassel",
+          "en": "warble fly larva"
+        },
+        {
+          "de": "Finne",
+          "en": "tapeworm cyst"
+        },
+        {
+          "de": "Fehlwirt",
+          "en": "accidental host"
+        },
+        {
+          "de": "Schweinepest",
+          "en": "swine fever"
+        },
+        {
+          "de": "Maul- und Klauenseuche",
+          "en": "foot-and-mouth disease"
+        },
+        {
+          "de": "Perückengehörn",
+          "en": "perruque antlers"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Fragenkatalog zur Jägerprüfung in Bayern – Landesamt für Maß und Gewicht",
+          "url": "https://www.lmg.bayern.de/aufgaben_leistungen/jaegerpruefung/index.html"
+        },
+        {
+          "title": "Friedrich-Loeffler-Institut – Afrikanische Schweinepest",
+          "url": "https://www.fli.de/"
+        }
+      ],
+      "origin": "seed",
+      "updatedAt": "2026-11-18"
+    },
     {
       "id": "jagdarten",
       "titleDe": "Jagdarten",
@@ -286,78 +629,69 @@
       "updatedAt": "2026-11-12"
     },
     {
-      "id": "wildkrankheiten",
-      "titleDe": "Wildkrankheiten und Zoonosen",
-      "titleEn": "Wildlife diseases and zoonoses",
+      "id": "bedenkliche-merkmale",
+      "titleDe": "Bedenkliche Merkmale, Cäsium und ASP",
+      "titleEn": "Signs of concern, caesium and African swine fever",
       "paragraphs": [
         {
-          "de": "Wildkrankheiten werden durch Viren, Bakterien, Parasiten oder Pilze verursacht. Zoonosen sind Krankheiten, die zwischen Tier und Mensch übertragen werden können. Für den Jäger sind sie wichtig, weil er beim Aufbrechen und beim Umgang mit Fallwild engen Kontakt zu Wild hat. Handschuhe und gründliche Hygiene schützen.",
-          "en": "Wildlife diseases are caused by viruses, bacteria, parasites or fungi. Zoonoses are diseases that can pass between animals and humans. They matter to hunters because gutting and handling dead game (Fallwild) means close contact. Gloves and thorough hygiene protect you."
+          "de": "Bedenkliche Merkmale verlangen eine amtliche Fleischuntersuchung. Dazu gehören abnormes Verhalten (etwa wiederholtes Zusammenbrechen ohne erkennbare Verletzung), erhebliche Abmagerung, zahlreiche Geschwülste oder Abszesse, Schwellungen der Gelenke, offene Knochenbrüche ohne Zusammenhang mit dem Erlegen, frisch verheilte Verletzungen wie nach einem früheren Laufschuss, Verklebungen der Organe mit Brust- oder Bauchfell, fremder Inhalt in den Körperhöhlen mit Verfärbung des Brust- oder Bauchfells, erhebliche Gasbildung im Darm mit Verfärbung der Organe und ein auffälliger, unüblicher Geruch. Beim Federwild sind es zum Beispiel verklebte Augenlider, Wucherungen an den Ständern (Füßen) oder eine Entzündung des Herzens.",
+          "en": "Signs of concern require an official meat inspection. They include abnormal behaviour (such as repeatedly collapsing with no visible injury), severe emaciation, numerous tumours or abscesses, swollen joints, open fractures unrelated to the kill, freshly healed wounds such as from an earlier leg shot, organs stuck to the chest or abdominal lining, foreign content in the body cavities with discoloured lining, severe gas in the gut with discoloured organs, and an unusual, striking smell. In feathered game they include stuck-together eyelids, growths on the feet, or inflammation of the heart."
         },
         {
-          "de": "Die Afrikanische Schweinepest (ASP) ist eine Viruserkrankung, die nur Haus- und Wildschweine befällt und für sie fast immer tödlich verläuft. Für den Menschen ist sie ungefährlich, er kann das Virus aber über Kleidung, Fahrzeuge oder Lebensmittel verschleppen. Die ASP ist eine anzeigepflichtige Tierseuche; Funde von verendetem Schwarzwild müssen der Behörde gemeldet werden.",
-          "en": "African swine fever (ASF) is a viral disease that only affects domestic pigs and wild boar, and is almost always fatal for them. It is harmless to humans, but people can spread the virus via clothing, vehicles or food. ASF is a notifiable animal disease; finds of dead wild boar must be reported to the authority."
+          "de": "Keine bedenklichen Merkmale sind für sich allein ein Befall mit Rachenbremsen, ein starker Zeckenbefall oder Lungenwürmer ohne weitere Organveränderungen – solches Wildbret ist genusstauglich. Große Leberegel weist man an den Bohrgängen in der Leber nach. Weiße, punktförmige Flecken in der Leber eines Wildschweins können »Milkspots« durch Spulwurmbefall sein. Wird ein Stück weidwund geschossen und erst am nächsten Morgen verendet gefunden, mit Mageninhalt in der Bauchhöhle und verfärbtem Bauchfell, ist eine amtliche Untersuchung nötig.",
+          "en": "Not in themselves signs of concern are nasal bots, heavy tick infestation, or lungworms without other organ changes — such meat is fit to eat. Large liver flukes are detected by their tunnels in the liver. White pinpoint spots in a wild boar's liver can be “milk spots” from roundworm infection. If an animal is gut-shot and found dead only the next morning, with stomach contents in the abdomen and discoloured lining, an official inspection is needed."
         },
         {
-          "de": "Die Tollwut ist eine Viruserkrankung des Nervensystems und eine gefährliche Zoonose. Deutschland gilt seit 2008 als frei von terrestrischer (klassischer) Tollwut, unter anderem dank der Impfköder für Füchse. Fledermaustollwut kommt weiterhin vor. Die Aujeszkysche Krankheit kann bei Schwarzwild vorkommen und ist für Hunde tödlich – deshalb dürfen Hunde kein rohes Schwarzwild bekommen.",
-          "en": "Rabies is a viral disease of the nervous system and a dangerous zoonosis. Germany has been free of terrestrial (classical) rabies since 2008, thanks partly to oral vaccine baits for foxes. Bat rabies still occurs. Aujeszky's disease can occur in wild boar and is fatal to dogs — so dogs must never be fed raw wild boar."
+          "de": "Radioaktives Cäsium aus dem Unfall von Tschernobyl belastet in Teilen Bayerns noch immer Wildbret, besonders beim Schwarzwild, das es beim Brechen nach Hirschtrüffeln aufnimmt. Der Jäger ist dafür verantwortlich, dass nur unbedenkliches Wildbret in den Verkehr kommt; in belasteten Gebieten wird Schwarzwild gemessen.",
+          "en": "Radioactive caesium from the Chernobyl accident still contaminates game meat in parts of Bavaria, especially wild boar, which take it up when rooting for deer truffles. The hunter is responsible for putting only safe meat on the market; in affected areas wild boar are measured."
         },
         {
-          "de": "Der Kleine Fuchsbandwurm (Echinococcus multilocularis) ist ein Parasit des Fuchses. Seine Eier werden mit dem Kot ausgeschieden; nimmt der Mensch sie auf, kann eine schwere Lebererkrankung entstehen (alveoläre Echinokokkose). Beim Umgang mit Füchsen deshalb Handschuhe tragen. Die Tularämie (Hasenpest) ist eine bakterielle Zoonose, die vor allem Feldhasen befällt.",
-          "en": "The small fox tapeworm (Echinococcus multilocularis) is a parasite of the fox. Its eggs are passed in faeces; if a human swallows them, a serious liver disease can develop (alveolar echinococcosis). So wear gloves when handling foxes. Tularaemia (Hasenpest, “hare plague”) is a bacterial zoonosis that mainly affects brown hares."
-        },
-        {
-          "de": "Weitere wichtige Wildkrankheiten sind die Räude (Milbenbefall, häufig beim Fuchs), die Myxomatose und die Chinaseuche (RHD) beim Wildkaninchen bzw. die EBHS beim Hasen, sowie die Geflügelpest (Aviäre Influenza) bei Wasservögeln. Verdacht auf eine anzeigepflichtige Tierseuche muss sofort der Veterinärbehörde gemeldet werden.",
-          "en": "Other important wildlife diseases are mange (mite infestation, common in foxes), myxomatosis and rabbit haemorrhagic disease (RHD, Chinaseuche) in wild rabbits and EBHS in hares, and avian influenza (bird flu) in waterfowl. Suspicion of a notifiable animal disease must be reported to the veterinary authority immediately."
+          "de": "Die Afrikanische Schweinepest ist eine anzeigepflichtige Viruserkrankung. Fast jedes infizierte Wildschwein erkrankt, unabhängig von Alter, Geschlecht und Kondition; kranke Stücke suchen kühle, schattige Orte wie Suhlen und Dickungen. Wildschweine sind in freier Wildbahn die wichtigsten Überträger, das Virus überlebt in gefrorenem Fleisch jahrelang und kann über Speisereste verbreitet werden. Vorbeugung: Schwarzwildbestände mit allen zulässigen Mitteln deutlich senken, Fallwild unbekannter Todesursache untersuchen lassen, strenge Hygiene, keine Einfuhr von Wildbret oder Trophäen aus betroffenen Gebieten, Auffälligkeiten dem Veterinäramt melden und die Bevölkerung aufklären.",
+          "en": "African swine fever is a notifiable viral disease. Almost every infected wild boar falls ill, regardless of age, sex or condition; sick animals seek cool, shady places such as wallows and thickets. Wild boar are the main carriers in the wild, the virus survives for years in frozen meat and can be spread through food waste. Prevention: reduce wild boar numbers substantially with every legal means, have dead boar of unknown cause tested, keep strict hygiene, bring no game meat or trophies from affected areas, report anything unusual to the veterinary office and inform the public."
         }
       ],
       "keyTerms": [
         {
-          "de": "Zoonose",
-          "en": "zoonosis",
-          "note": "Disease transmissible between animals and humans."
+          "de": "bedenkliche Merkmale",
+          "en": "signs of concern"
         },
         {
-          "de": "Fallwild",
-          "en": "game found dead",
-          "note": "Died of disease or accident."
+          "de": "amtliche Fleischuntersuchung",
+          "en": "official meat inspection"
         },
         {
-          "de": "Afrikanische Schweinepest (ASP)",
-          "en": "African swine fever (ASF)",
-          "note": "Notifiable; pigs only; harmless to humans."
+          "de": "Verklebungen",
+          "en": "adhesions"
         },
         {
-          "de": "anzeigepflichtige Tierseuche",
-          "en": "notifiable animal disease",
-          "note": "Must be reported to the authority."
+          "de": "weidwund",
+          "en": "gut-shot"
         },
         {
-          "de": "Tollwut",
-          "en": "rabies"
+          "de": "Milkspots",
+          "en": "milk spots (roundworm liver scars)"
         },
         {
-          "de": "Fuchsbandwurm",
-          "en": "fox tapeworm",
-          "note": "Echinococcus multilocularis."
+          "de": "Cäsium",
+          "en": "radioactive caesium"
         },
         {
-          "de": "Räude",
-          "en": "mange"
-        },
-        {
-          "de": "Tularämie (Hasenpest)",
-          "en": "tularaemia"
+          "de": "Hirschtrüffel",
+          "en": "deer truffle (accumulates caesium)"
         }
       ],
       "sources": [
         {
-          "title": "Friedrich-Loeffler-Institut – Tierseuchen",
+          "title": "Fragenkatalog zur Jägerprüfung in Bayern – Landesamt für Maß und Gewicht",
+          "url": "https://www.lmg.bayern.de/aufgaben_leistungen/jaegerpruefung/index.html"
+        },
+        {
+          "title": "Friedrich-Loeffler-Institut – Afrikanische Schweinepest",
           "url": "https://www.fli.de/"
         }
       ],
       "origin": "seed",
-      "updatedAt": "2026-11-12"
+      "updatedAt": "2026-11-18"
     }
   ],
   "quiz": [
@@ -788,6 +1122,978 @@
       ],
       "explanationDe": "Räude wird durch Grabmilben verursacht, häufig beim Fuchs.",
       "explanationEn": "Mange is caused by burrowing mites, common in foxes.",
+      "origin": "seed"
+    },
+    {
+      "id": "revier-hecken-gruende",
+      "lessonId": "reviergestaltung",
+      "questionDe": "Welche Gründe sprechen für Hecken und Feldgehölze?",
+      "questionEn": "What are the reasons for hedges and copses?",
+      "options": [
+        {
+          "de": "Schutz vor Beutegreifern",
+          "en": "Protection from predators"
+        },
+        {
+          "de": "Einstand",
+          "en": "Cover"
+        },
+        {
+          "de": "Äsung",
+          "en": "Food"
+        },
+        {
+          "de": "Brut- und Setzplätze",
+          "en": "Nesting and birthing sites"
+        }
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanationDe": "Hecken sind Lebensraum, Deckung und Nahrungsquelle zugleich.",
+      "explanationEn": "Hedges provide habitat, cover and food at once.",
+      "origin": "seed"
+    },
+    {
+      "id": "revier-heckenstraeucher",
+      "lessonId": "reviergestaltung",
+      "questionDe": "Welche Sträucher eignen sich für Feldhecken?",
+      "questionEn": "Which shrubs suit field hedges?",
+      "options": [
+        {
+          "de": "Schlehe",
+          "en": "Blackthorn"
+        },
+        {
+          "de": "Pfaffenhütchen",
+          "en": "Spindle"
+        },
+        {
+          "de": "Schneeball",
+          "en": "Guelder rose"
+        },
+        {
+          "de": "Thuja",
+          "en": "Thuja"
+        }
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanationDe": "Heimische Sträucher – keine Zierkoniferen.",
+      "explanationEn": "Native shrubs — not ornamental conifers.",
+      "origin": "seed"
+    },
+    {
+      "id": "revier-dauer",
+      "lessonId": "reviergestaltung",
+      "questionDe": "Welche Pflanzen sind mehrjährig und für Daueräsungsflächen geeignet?",
+      "questionEn": "Which plants are perennial and suit permanent forage plots?",
+      "options": [
+        {
+          "de": "Luzerne",
+          "en": "Lucerne"
+        },
+        {
+          "de": "Topinambur",
+          "en": "Jerusalem artichoke"
+        },
+        {
+          "de": "Weißklee",
+          "en": "White clover"
+        },
+        {
+          "de": "Buchweizen",
+          "en": "Buckwheat"
+        }
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanationDe": "Buchweizen ist einjährig.",
+      "explanationEn": "Buckwheat is annual.",
+      "origin": "seed"
+    },
+    {
+      "id": "revier-hochsitz",
+      "lessonId": "reviergestaltung",
+      "questionDe": "Was müssen Sie bei Hochsitzen das ganze Jahr beachten?",
+      "questionEn": "What must you observe with high seats all year?",
+      "options": [
+        {
+          "de": "Vor jeder Benutzung auf Schäden prüfen",
+          "en": "Check for damage before every use"
+        },
+        {
+          "de": "Nicht mehr benötigte Hochsitze abbauen",
+          "en": "Remove seats no longer needed"
+        },
+        {
+          "de": "Nur im Herbst kontrollieren",
+          "en": "Check only in autumn"
+        }
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanationDe": "Prüfen vor jeder Benutzung und Abbau nicht mehr genutzter Sitze.",
+      "explanationEn": "Check before each use; take down unused seats.",
+      "origin": "seed"
+    },
+    {
+      "id": "revier-pirschweg",
+      "lessonId": "reviergestaltung",
+      "questionDe": "Wozu dienen Pirschwege?",
+      "questionEn": "What are stalking paths for?",
+      "options": [
+        {
+          "de": "Dem geräuschlosen Anpirschen",
+          "en": "Approaching quietly"
+        },
+        {
+          "de": "Als Rückegassen für Holz",
+          "en": "Hauling timber"
+        },
+        {
+          "de": "Als Wildwechsel",
+          "en": "As game trails"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Zum leisen Pirschen.",
+      "explanationEn": "For quiet stalking.",
+      "origin": "seed"
+    },
+    {
+      "id": "rl-rotwild-klasse1",
+      "lessonId": "hege-und-bejagung-schalenwild",
+      "questionDe": "Ab welchem Alter gehört ein Rothirsch zur Klasse I?",
+      "questionEn": "From what age is a red stag in class I?",
+      "options": [
+        {
+          "de": "10 Jahre",
+          "en": "10 years"
+        },
+        {
+          "de": "5 Jahre",
+          "en": "5 years"
+        },
+        {
+          "de": "3 Jahre",
+          "en": "3 years"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Klasse I ab 10 Jahren.",
+      "explanationEn": "Class I from 10 years.",
+      "origin": "seed"
+    },
+    {
+      "id": "rl-achter",
+      "lessonId": "hege-und-bejagung-schalenwild",
+      "questionDe": "Zu welcher Klasse gehört ein dreijähriger Achter beim Rotwild?",
+      "questionEn": "Which class does a three-year-old eight-pointer belong to?",
+      "options": [
+        {
+          "de": "III",
+          "en": "III"
+        },
+        {
+          "de": "II",
+          "en": "II"
+        },
+        {
+          "de": "I",
+          "en": "I"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Junge Hirsche gehören in Klasse III – unabhängig von der Endenzahl.",
+      "explanationEn": "Young stags are class III — regardless of points.",
+      "origin": "seed"
+    },
+    {
+      "id": "rl-gamsbock",
+      "lessonId": "hege-und-bejagung-schalenwild",
+      "questionDe": "Ab welchem Alter gehört ein Gamsbock zur oberen Altersklasse?",
+      "questionEn": "From what age is a chamois buck in the upper class?",
+      "options": [
+        {
+          "de": "8 Jahre",
+          "en": "8 years"
+        },
+        {
+          "de": "4 Jahre",
+          "en": "4 years"
+        },
+        {
+          "de": "12 Jahre",
+          "en": "12 years"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Ab acht Jahren.",
+      "explanationEn": "From eight years.",
+      "origin": "seed"
+    },
+    {
+      "id": "rl-ueberhege",
+      "lessonId": "hege-und-bejagung-schalenwild",
+      "questionDe": "Wozu kann Überhege beim Schalenwild führen?",
+      "questionEn": "What can over-management of cloven-hoofed game lead to?",
+      "options": [
+        {
+          "de": "Mehr Wildschäden",
+          "en": "More game damage"
+        },
+        {
+          "de": "Mehr Wildkrankheiten",
+          "en": "More disease"
+        },
+        {
+          "de": "Schlechtere Verfassung",
+          "en": "Poorer condition"
+        },
+        {
+          "de": "Stärkere Trophäen",
+          "en": "Stronger trophies"
+        }
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanationDe": "Zu viel Wild schadet Wald, Feld und dem Wild selbst.",
+      "explanationEn": "Too many animals harm forest, fields and the game itself.",
+      "origin": "seed"
+    },
+    {
+      "id": "rl-frischlinge",
+      "lessonId": "hege-und-bejagung-schalenwild",
+      "questionDe": "Wie hoch soll der Anteil der Frischlinge an der Schwarzwildstrecke sein?",
+      "questionEn": "What share of the wild boar bag should be piglets?",
+      "options": [
+        {
+          "de": "Ca. 70 %",
+          "en": "About 70%"
+        },
+        {
+          "de": "Ca. 20 %",
+          "en": "About 20%"
+        },
+        {
+          "de": "Ca. 40 %",
+          "en": "About 40%"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Rund 70 Prozent, ungeachtet der Stärke.",
+      "explanationEn": "About 70 per cent, regardless of size.",
+      "origin": "seed"
+    },
+    {
+      "id": "rl-kirrung",
+      "lessonId": "hege-und-bejagung-schalenwild",
+      "questionDe": "Was empfehlen die Reduktionsempfehlungen zur Kirrung?",
+      "questionEn": "What do the reduction recommendations say about baiting?",
+      "options": [
+        {
+          "de": "Höchstens 1 kg je Kirrung",
+          "en": "At most 1 kg per site"
+        },
+        {
+          "de": "Abstimmung in Schwarzwild-Arbeitsgemeinschaften",
+          "en": "Coordination in wild boar working groups"
+        },
+        {
+          "de": "Keine Kirrung im Feld bis zur Ernte",
+          "en": "No baiting in fields until harvest"
+        },
+        {
+          "de": "Kirrung mit Mais in großen Mengen",
+          "en": "Baiting with large amounts of maize"
+        }
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanationDe": "Kirrung soll Bejagung ermöglichen, nicht füttern.",
+      "explanationEn": "Baiting should enable hunting, not feed the animals.",
+      "origin": "seed"
+    },
+    {
+      "id": "rl-rotwild-zuwachs",
+      "lessonId": "hege-und-bejagung-schalenwild",
+      "questionDe": "Mit welchem Satz wird der Zuwachs beim Rotwild angesetzt?",
+      "questionEn": "At what rate is red deer increase set?",
+      "options": [
+        {
+          "de": "70–90 % der Alttiere",
+          "en": "70–90% of adult hinds"
+        },
+        {
+          "de": "20–30 % des Bestands",
+          "en": "20–30% of the population"
+        },
+        {
+          "de": "Bis 300 % des Bestands",
+          "en": "Up to 300% of the population"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "70–90 % der Alttiere; bis 300 % gilt für Schwarzwild.",
+      "explanationEn": "70–90% of hinds; up to 300% applies to wild boar.",
+      "origin": "seed"
+    },
+    {
+      "id": "rl-hirsch-stange",
+      "lessonId": "hege-und-bejagung-schalenwild",
+      "questionDe": "Ist ein vierjähriger Hirsch allein wegen einer abgebrochenen Stange abschussnotwendig?",
+      "questionEn": "Must a four-year-old stag be culled just because of a broken beam?",
+      "options": [
+        {
+          "de": "Nein",
+          "en": "No"
+        },
+        {
+          "de": "Ja",
+          "en": "Yes"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Verletzungen der Trophäe allein begründen keinen Abschuss.",
+      "explanationEn": "Trophy damage alone is no reason to cull.",
+      "origin": "seed"
+    },
+    {
+      "id": "hege-wildacker-verboten",
+      "lessonId": "hege-und-fuetterung",
+      "questionDe": "Wo dürfen keine Wildäcker angelegt werden?",
+      "questionEn": "Where must game plots not be created?",
+      "options": [
+        {
+          "de": "Auf Magerrasen",
+          "en": "On nutrient-poor grassland"
+        },
+        {
+          "de": "Auf Feuchtwiesen",
+          "en": "On wet meadows"
+        },
+        {
+          "de": "Auf Ackerland",
+          "en": "On arable land"
+        }
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanationDe": "Magerrasen und Feuchtwiesen sind wertvolle Biotope.",
+      "explanationEn": "These are valuable biotopes.",
+      "origin": "seed"
+    },
+    {
+      "id": "hege-winteraesung",
+      "lessonId": "hege-und-fuetterung",
+      "questionDe": "Welche Pflanzen bieten auch bei Frost saftige Grünäsung?",
+      "questionEn": "Which plants give juicy green food even in frost?",
+      "options": [
+        {
+          "de": "Raps",
+          "en": "Rape"
+        },
+        {
+          "de": "Rübsen",
+          "en": "Turnip rape"
+        },
+        {
+          "de": "Markstammkohl",
+          "en": "Marrow-stem kale"
+        },
+        {
+          "de": "Buchweizen",
+          "en": "Buckwheat"
+        }
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanationDe": "Buchweizen erfriert.",
+      "explanationEn": "Buckwheat is killed by frost.",
+      "origin": "seed"
+    },
+    {
+      "id": "hege-topinambur",
+      "lessonId": "hege-und-fuetterung",
+      "questionDe": "Welche Pflanze bietet Blatt- und Knollenäsung?",
+      "questionEn": "Which plant gives both leaves and tubers?",
+      "options": [
+        {
+          "de": "Topinambur",
+          "en": "Jerusalem artichoke"
+        },
+        {
+          "de": "Senf",
+          "en": "Mustard"
+        },
+        {
+          "de": "Luzerne",
+          "en": "Lucerne"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Topinambur.",
+      "explanationEn": "Jerusalem artichoke.",
+      "origin": "seed"
+    },
+    {
+      "id": "hege-prossholz",
+      "lessonId": "hege-und-fuetterung",
+      "questionDe": "Was ist Proßholz?",
+      "questionEn": "What is Proßholz?",
+      "options": [
+        {
+          "de": "Abgeschnittene Laubholzzweige zum Abäsen",
+          "en": "Cut broadleaf branches left for browsing"
+        },
+        {
+          "de": "Brennholz für die Jagdhütte",
+          "en": "Firewood for the hut"
+        },
+        {
+          "de": "Totholz für Spechte",
+          "en": "Dead wood for woodpeckers"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Zweige, z. B. von Apfelbaum oder Esche, bleiben für das Wild liegen.",
+      "explanationEn": "Branches, e.g. of apple or ash, are left for game.",
+      "origin": "seed"
+    },
+    {
+      "id": "hege-kraftfutter",
+      "lessonId": "hege-und-fuetterung",
+      "questionDe": "Welche Futtermittel sind Kraftfutter?",
+      "questionEn": "Which feeds are concentrates?",
+      "options": [
+        {
+          "de": "Eicheln",
+          "en": "Acorns"
+        },
+        {
+          "de": "Hafer",
+          "en": "Oats"
+        },
+        {
+          "de": "Kastanien",
+          "en": "Chestnuts"
+        },
+        {
+          "de": "Rüben",
+          "en": "Beets"
+        }
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanationDe": "Rüben sind Saftfutter.",
+      "explanationEn": "Beets are succulent feed.",
+      "origin": "seed"
+    },
+    {
+      "id": "hege-kitzrettung",
+      "lessonId": "hege-und-fuetterung",
+      "questionDe": "Was verringert Kitzverluste durch das Mähen?",
+      "questionEn": "What reduces fawn losses from mowing?",
+      "options": [
+        {
+          "de": "Absuchen der Wiese mit dem Hund",
+          "en": "Searching the meadow with a dog"
+        },
+        {
+          "de": "Scheuchen aufhängen",
+          "en": "Putting up scarers"
+        },
+        {
+          "de": "Wildretter an der Mähmaschine",
+          "en": "Wildlife savers on the mower"
+        },
+        {
+          "de": "Mähen von außen nach innen",
+          "en": "Mowing from the outside in"
+        }
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanationDe": "Von innen nach außen mähen gibt dem Wild die Chance zur Flucht.",
+      "explanationEn": "Mowing from the inside out lets animals escape.",
+      "origin": "seed"
+    },
+    {
+      "id": "hege-salzlecke",
+      "lessonId": "hege-und-fuetterung",
+      "questionDe": "Welche Wildarten nehmen Salzlecken an?",
+      "questionEn": "Which species use salt licks?",
+      "options": [
+        {
+          "de": "Rotwild",
+          "en": "Red deer"
+        },
+        {
+          "de": "Rehwild",
+          "en": "Roe deer"
+        },
+        {
+          "de": "Wildtauben",
+          "en": "Wild pigeons"
+        },
+        {
+          "de": "Schwarzwild",
+          "en": "Wild boar"
+        }
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanationDe": "Alle genannten.",
+      "explanationEn": "All of them.",
+      "origin": "seed"
+    },
+    {
+      "id": "seuche-rachendassel",
+      "lessonId": "parasiten-und-seuchen",
+      "questionDe": "Ein Reh hustet, niest und schüttelt im Frühsommer immer wieder das Haupt. Worauf deutet das?",
+      "questionEn": "In early summer a roe deer keeps coughing, sneezing and shaking its head. What does this suggest?",
+      "options": [
+        {
+          "de": "Rachendasseln",
+          "en": "Nasal bots"
+        },
+        {
+          "de": "Tollwut",
+          "en": "Rabies"
+        },
+        {
+          "de": "Räude",
+          "en": "Mange"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Typisch im Mai/Juni.",
+      "explanationEn": "Typical in May/June.",
+      "origin": "seed"
+    },
+    {
+      "id": "seuche-peruecke",
+      "lessonId": "parasiten-und-seuchen",
+      "questionDe": "Wodurch entsteht beim Rehbock ein Perückengehörn?",
+      "questionEn": "What causes perruque antlers in a roe buck?",
+      "options": [
+        {
+          "de": "Verletzung der Brunftkugeln",
+          "en": "Injury to the testicles"
+        },
+        {
+          "de": "Mangelernährung",
+          "en": "Malnutrition"
+        },
+        {
+          "de": "Zeckenbefall",
+          "en": "Ticks"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Hormonstörung nach Verletzung der Hoden – der Bock kann nicht mehr abwerfen.",
+      "explanationEn": "Hormonal disorder after testicle injury — the buck can no longer cast.",
+      "origin": "seed"
+    },
+    {
+      "id": "seuche-schweinepest-befund",
+      "lessonId": "parasiten-und-seuchen",
+      "questionDe": "Beim Aufbrechen eines Überläufers finden Sie punktförmige Blutungen auf Kehldeckel und Nieren. Worauf deutet das?",
+      "questionEn": "Gutting a young boar, you find pinpoint bleeding on the epiglottis and kidneys. What does it suggest?",
+      "options": [
+        {
+          "de": "Schweinepest",
+          "en": "Swine fever"
+        },
+        {
+          "de": "Lungenwurmbefall",
+          "en": "Lungworm"
+        },
+        {
+          "de": "Trichinose",
+          "en": "Trichinosis"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Typischer Befund bei Schweinepest – Veterinäramt verständigen.",
+      "explanationEn": "Typical of swine fever — notify the vet office.",
+      "origin": "seed"
+    },
+    {
+      "id": "seuche-mks",
+      "lessonId": "parasiten-und-seuchen",
+      "questionDe": "Welche Wildarten sind für Maul- und Klauenseuche empfänglich?",
+      "questionEn": "Which species are susceptible to foot-and-mouth disease?",
+      "options": [
+        {
+          "de": "Rotwild",
+          "en": "Red deer"
+        },
+        {
+          "de": "Rehwild",
+          "en": "Roe deer"
+        },
+        {
+          "de": "Schwarzwild",
+          "en": "Wild boar"
+        },
+        {
+          "de": "Feldhase",
+          "en": "Brown hare"
+        }
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanationDe": "Alle Paarhufer sind empfänglich.",
+      "explanationEn": "All cloven-hoofed animals are susceptible.",
+      "origin": "seed"
+    },
+    {
+      "id": "seuche-fuchsbandwurm",
+      "lessonId": "parasiten-und-seuchen",
+      "questionDe": "Wo entwickeln sich die Finnen des Kleinen Fuchsbandwurms im Zwischenwirt?",
+      "questionEn": "Where do the small fox tapeworm's cysts develop in the intermediate host?",
+      "options": [
+        {
+          "de": "In der Leber",
+          "en": "In the liver"
+        },
+        {
+          "de": "Im Gehirn",
+          "en": "In the brain"
+        },
+        {
+          "de": "In der Muskulatur",
+          "en": "In the muscles"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Vor allem in der Leber von Mäusen.",
+      "explanationEn": "Mainly in the liver of mice.",
+      "origin": "seed"
+    },
+    {
+      "id": "seuche-zoonosen",
+      "lessonId": "parasiten-und-seuchen",
+      "questionDe": "Welche Krankheiten sind vom Wild auf den Menschen übertragbar?",
+      "questionEn": "Which diseases can pass from game to humans?",
+      "options": [
+        {
+          "de": "Trichinose",
+          "en": "Trichinosis"
+        },
+        {
+          "de": "Tollwut",
+          "en": "Rabies"
+        },
+        {
+          "de": "Tularämie",
+          "en": "Tularaemia"
+        },
+        {
+          "de": "Schweinepest",
+          "en": "Swine fever"
+        }
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanationDe": "Schweinepest ist für den Menschen ungefährlich.",
+      "explanationEn": "Swine fever is harmless to humans.",
+      "origin": "seed"
+    },
+    {
+      "id": "seuche-gamsraeude",
+      "lessonId": "parasiten-und-seuchen",
+      "questionDe": "Woran erkennt man Räude bei einem Gamsbock?",
+      "questionEn": "How do you recognise mange in a chamois buck?",
+      "options": [
+        {
+          "de": "Grauborkige, verdickte Haut mit Haarausfall",
+          "en": "Grey, crusty, thickened skin with hair loss"
+        },
+        {
+          "de": "Kahle Stellen am Kopf",
+          "en": "Bare patches on the head"
+        },
+        {
+          "de": "Geschwollene Gelenke",
+          "en": "Swollen joints"
+        }
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanationDe": "Typisch sind Borken und Haarausfall.",
+      "explanationEn": "Crusts and hair loss are typical.",
+      "origin": "seed"
+    },
+    {
+      "id": "bm-merkmale",
+      "lessonId": "bedenkliche-merkmale",
+      "questionDe": "Welche Befunde sind bedenkliche Merkmale?",
+      "questionEn": "Which findings are signs of concern?",
+      "options": [
+        {
+          "de": "Erhebliche Abmagerung",
+          "en": "Severe emaciation"
+        },
+        {
+          "de": "Schwellungen der Gelenke",
+          "en": "Swollen joints"
+        },
+        {
+          "de": "Multiple Abszesse",
+          "en": "Multiple abscesses"
+        },
+        {
+          "de": "Starker Zeckenbefall allein",
+          "en": "Heavy ticks alone"
+        }
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanationDe": "Zecken allein machen Wildbret nicht bedenklich.",
+      "explanationEn": "Ticks alone don't make meat a concern.",
+      "origin": "seed"
+    },
+    {
+      "id": "bm-verhalten",
+      "lessonId": "bedenkliche-merkmale",
+      "questionDe": "Welches Verhalten eines Rehs gilt als abnorm und erfordert eine Fleischuntersuchung?",
+      "questionEn": "Which roe deer behaviour counts as abnormal and requires meat inspection?",
+      "options": [
+        {
+          "de": "Wiederholtes Zusammenbrechen ohne sichtbare Verletzung",
+          "en": "Repeatedly collapsing without visible injury"
+        },
+        {
+          "de": "Flüchten beim Anblick des Jägers",
+          "en": "Fleeing on seeing the hunter"
+        },
+        {
+          "de": "Äsen am Waldrand",
+          "en": "Feeding at the forest edge"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Abnormes Verhalten ist ein bedenkliches Merkmal.",
+      "explanationEn": "Abnormal behaviour is a sign of concern.",
+      "origin": "seed"
+    },
+    {
+      "id": "bm-lungenwurm",
+      "lessonId": "bedenkliche-merkmale",
+      "questionDe": "Darf Wildbret eines Rehs mit Lungenwurmbefall, aber ohne andere Veränderungen, ohne amtliche Untersuchung zum Eigenverbrauch verwendet werden?",
+      "questionEn": "May meat from a roe deer with lungworms but no other changes be used for your own consumption without official inspection?",
+      "options": [
+        {
+          "de": "Ja",
+          "en": "Yes"
+        },
+        {
+          "de": "Nein",
+          "en": "No"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Lungenwurmbefall allein ist kein bedenkliches Merkmal.",
+      "explanationEn": "Lungworms alone are not a sign of concern.",
+      "origin": "seed"
+    },
+    {
+      "id": "bm-federwild",
+      "lessonId": "bedenkliche-merkmale",
+      "questionDe": "Welche Befunde sind beim Federwild bedenklich?",
+      "questionEn": "Which findings are of concern in feathered game?",
+      "options": [
+        {
+          "de": "Verklebte Augenlider",
+          "en": "Stuck eyelids"
+        },
+        {
+          "de": "Wucherungen an den Ständern",
+          "en": "Growths on the feet"
+        },
+        {
+          "de": "Entzündung des Herzens",
+          "en": "Heart inflammation"
+        },
+        {
+          "de": "Frisches Gefieder",
+          "en": "Fresh plumage"
+        }
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanationDe": "Alle außer frischem Gefieder.",
+      "explanationEn": "All except fresh plumage.",
+      "origin": "seed"
+    },
+    {
+      "id": "bm-caesium",
+      "lessonId": "bedenkliche-merkmale",
+      "questionDe": "Welche Aussagen zu Cäsium im Wildbret sind richtig?",
+      "questionEn": "Which statements about caesium in game meat are correct?",
+      "options": [
+        {
+          "de": "Der Jäger ist verantwortlich, nur unbedenkliches Wildbret abzugeben",
+          "en": "The hunter is responsible for supplying only safe meat"
+        },
+        {
+          "de": "Wildschweine nehmen es vor allem mit Hirschtrüffeln auf",
+          "en": "Wild boar take it up mainly through deer truffles"
+        },
+        {
+          "de": "Rehwild ist stärker belastet als Schwarzwild",
+          "en": "Roe deer are more contaminated than wild boar"
+        }
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanationDe": "Schwarzwild ist am stärksten belastet.",
+      "explanationEn": "Wild boar are the most contaminated.",
+      "origin": "seed"
+    },
+    {
+      "id": "bm-asp",
+      "lessonId": "bedenkliche-merkmale",
+      "questionDe": "Welche Aussagen zur ASP sind richtig?",
+      "questionEn": "Which statements about ASF are correct?",
+      "options": [
+        {
+          "de": "Sie ist anzeigepflichtig",
+          "en": "It is notifiable"
+        },
+        {
+          "de": "Sie ist eine Viruserkrankung",
+          "en": "It is a viral disease"
+        },
+        {
+          "de": "Das Virus überlebt lange in gefrorenem Fleisch",
+          "en": "The virus survives long in frozen meat"
+        },
+        {
+          "de": "Sie ist für den Menschen gefährlich",
+          "en": "It is dangerous to humans"
+        }
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanationDe": "Menschen erkranken nicht, verschleppen aber das Virus.",
+      "explanationEn": "Humans don't get ill but spread the virus.",
+      "origin": "seed"
+    },
+    {
+      "id": "bm-asp-vorbeugung",
+      "lessonId": "bedenkliche-merkmale",
+      "questionDe": "Was senkt das Risiko eines ASP-Ausbruchs?",
+      "questionEn": "What lowers the risk of an ASF outbreak?",
+      "options": [
+        {
+          "de": "Schwarzwildbestände deutlich reduzieren",
+          "en": "Substantially reduce wild boar numbers"
+        },
+        {
+          "de": "Fallwild auf ASP untersuchen lassen",
+          "en": "Have dead boar tested for ASF"
+        },
+        {
+          "de": "Auffälligkeiten dem Veterinäramt melden",
+          "en": "Report anything unusual to the vet office"
+        },
+        {
+          "de": "Mehr kirren",
+          "en": "More baiting"
+        }
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanationDe": "Mehr Kirrung würde die Bestände eher fördern.",
+      "explanationEn": "More baiting would rather boost numbers.",
       "origin": "seed"
     }
   ]
