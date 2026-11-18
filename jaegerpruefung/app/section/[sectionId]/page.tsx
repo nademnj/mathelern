@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { connection } from "next/server";
 import { getSection } from "@/lib/content/store";
 import { LessonList } from "@/components/LessonList";
+import { CatalogCoverage } from "@/components/CatalogCoverage";
 
 export default async function SectionPage(props: PageProps<"/section/[sectionId]">) {
   await connection();
@@ -25,6 +26,8 @@ export default async function SectionPage(props: PageProps<"/section/[sectionId]
 
       <div className="flex flex-wrap gap-2">
         <Link href={`/quiz/${section.id}`} className="btn-primary">Quiz this section ({section.quiz.length} questions)</Link>
+        {section.id === "wildtierkunde" && <Link href="/arten" className="btn-primary">Animal guide with photos</Link>}
+        <Link href="/muendlich" className="btn-ghost">Oral exam questions</Link>
         <Link href={`/agent?section=${section.id}`} className="btn-ghost">Collect more material with the agent</Link>
       </div>
 
@@ -39,6 +42,8 @@ export default async function SectionPage(props: PageProps<"/section/[sectionId]
           questions: section.quiz.filter((q) => q.lessonId === l.id).length,
         }))}
       />
+
+      <CatalogCoverage sectionId={section.id} topics={section.catalogTopics} lessons={section.lessons} />
     </div>
   );
 }

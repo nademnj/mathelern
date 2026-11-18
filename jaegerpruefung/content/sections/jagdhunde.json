@@ -1,18 +1,286 @@
 {
   "id": "jagdhunde",
-  "order": 4,
+  "order": 5,
   "titleDe": "Jagdhundewesen",
   "titleEn": "Hunting dogs",
-  "summaryDe": "Jagdhunderassen und ihre Verwendung, Ausbildung und Prüfungen, Brauchbarkeit, Nachsuche und Wildfolge.",
-  "summaryEn": "Hunting dog breeds and their uses, training and trials, legal qualification (Brauchbarkeit), tracking wounded game and following it across boundaries.",
+  "summaryDe": "Haltung, Erziehung und Führung von Jagdhunden, Jagdhunderassen und ihre Eigenschaften, Brauchbarkeitsprüfung, Tierschutz beim Hundeeinsatz.",
+  "summaryEn": "Keeping, training and handling hunting dogs, breeds and their traits, the Bavarian qualification test (Brauchbarkeitsprüfung), animal welfare when using dogs.",
   "researchTopics": [
-    "Brauchbarkeitsprüfung Landesrecht",
-    "Jagdhundeausbildung Verbandsprüfungen VJP HZP",
-    "Hundekrankheiten Aujeszky Jagdhund",
-    "Wildfolgevereinbarung",
-    "Hundeführer Nachsuche Gespann"
+    "5.1 Haltung, Erziehung und Führung von Jagdhunden",
+    "5.2 Jagdhunderassen und ihre Eigenschaften",
+    "5.3 Brauchbarkeitsprüfung",
+    "5.4 Tierschutz bei Jagdausübung und Hundeeinsatz"
+  ],
+  "catalogTopics": [
+    {
+      "code": "5.1",
+      "titleDe": "Haltung, Erziehung und Führung von Jagdhunden",
+      "titleEn": "Keeping, training and handling hunting dogs",
+      "officialQuestions": 75,
+      "lessonIds": [
+        "nachsuche",
+        "hundehaltung-und-gesundheit",
+        "jagdliche-arbeit-und-ausbildung"
+      ]
+    },
+    {
+      "code": "5.2",
+      "titleDe": "Jagdhunderassen und ihre Eigenschaften",
+      "titleEn": "Breeds and their traits",
+      "officialQuestions": 50,
+      "lessonIds": [
+        "jagdhundegruppen",
+        "laut-und-wesen"
+      ]
+    },
+    {
+      "code": "5.3",
+      "titleDe": "Brauchbarkeitsprüfung",
+      "titleEn": "Qualification test",
+      "officialQuestions": 9,
+      "lessonIds": [
+        "brauchbarkeitspruefung"
+      ]
+    },
+    {
+      "code": "5.4",
+      "titleDe": "Tierschutz bei Jagdausübung und Hundeeinsatz",
+      "titleEn": "Animal welfare when hunting with dogs",
+      "officialQuestions": 12,
+      "lessonIds": [
+        "tierschutz-hundeeinsatz"
+      ]
+    }
   ],
   "lessons": [
+    {
+      "id": "nachsuche",
+      "titleDe": "Nachsuche und brauchbare Jagdhunde",
+      "titleEn": "Tracking wounded game and qualified hunting dogs",
+      "paragraphs": [
+        {
+          "de": "Die Landesjagdgesetze verlangen, dass bei bestimmten Jagdarten brauchbare Jagdhunde eingesetzt oder bereitgehalten werden – insbesondere bei der Nachsuche, bei Bewegungsjagden und bei der Jagd auf Wasserwild. Die Brauchbarkeit wird durch eine Prüfung nachgewiesen. Einzelheiten regelt jedes Land selbst.",
+          "en": "The state hunting laws require qualified hunting dogs (brauchbare Jagdhunde) to be used or kept ready for certain kinds of hunting — especially for tracking wounded game, at driven hunts and when hunting waterfowl. A dog's qualification is proven by a test. Each state sets its own details."
+        },
+        {
+          "de": "Nach jedem Schuss ist der Anschuss zu untersuchen, also die Stelle, an der das Wild beim Schuss stand. Dort findet man Pirschzeichen wie Schweiß (Blut), Schnitthaar, Knochensplitter oder Wildbretfetzen. Sie geben Hinweise auf den Sitz des Schusses. Der Anschuss wird verbrochen (markiert) und darf nicht zertreten werden.",
+          "en": "After every shot the shot site (Anschuss) must be checked — the spot where the animal stood when hit. There you find signs (Pirschzeichen) such as blood (Schweiß), cut hair, bone splinters or pieces of tissue. They indicate where the bullet hit. The shot site is marked with a broken twig (verbrochen) and must not be trampled."
+        },
+        {
+          "de": "Ist das Wild nicht im Feuer gefallen, wartet man in der Regel einige Zeit, bevor die Nachsuche beginnt, damit das kranke Stück sich niedertut und verendet und nicht weiter beunruhigt wird. Bei schwierigen Fällen wird ein Gespann mit erfahrenem Schweißhund geholt. Das Folgen der Fährte mit dem Hund am langen Riemen heißt Riemenarbeit.",
+          "en": "If the animal did not drop on the spot, you usually wait some time before tracking, so that the wounded animal lies down and dies and is not disturbed further. In difficult cases a team with an experienced blood-tracking dog is called. Following the trail with the dog on a long lead is called Riemenarbeit."
+        },
+        {
+          "de": "Findet ein frei suchender Hund verendetes Wild, zeigt er das an: Beim Totverbellen bleibt er am Stück und gibt Laut, bis der Führer kommt; beim Totverweisen läuft er zum Führer zurück und führt ihn zum Stück. Muss die Nachsuche über die Reviergrenze hinaus fortgesetzt werden, gelten die Wildfolge-Regelungen des Landes oder schriftliche Wildfolgevereinbarungen.",
+          "en": "When a dog searching freely finds dead game it signals this: with Totverbellen it stays at the carcass and barks until the handler arrives; with Totverweisen it runs back to the handler and leads them to the carcass. If tracking must continue across the boundary of the hunting ground, the state's rules on following wounded game (Wildfolge) or written Wildfolge agreements apply."
+        }
+      ],
+      "keyTerms": [
+        {
+          "de": "Nachsuche",
+          "en": "tracking wounded game"
+        },
+        {
+          "de": "Anschuss",
+          "en": "shot site",
+          "note": "Where the animal stood when shot."
+        },
+        {
+          "de": "Pirschzeichen",
+          "en": "signs of a hit",
+          "note": "Blood, hair, bone, tissue at the shot site."
+        },
+        {
+          "de": "Schweiß",
+          "en": "blood (of game)",
+          "note": "Hunters' word for blood."
+        },
+        {
+          "de": "Riemenarbeit",
+          "en": "tracking on a long lead"
+        },
+        {
+          "de": "Totverbellen",
+          "en": "barking at dead game"
+        },
+        {
+          "de": "Totverweisen",
+          "en": "leading the handler to dead game"
+        },
+        {
+          "de": "Wildfolge",
+          "en": "following wounded game across boundaries",
+          "note": "Regulated by state law or agreements."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Jagdgebrauchshundverband (JGHV)",
+          "url": "https://www.jghv.de/"
+        }
+      ],
+      "origin": "seed",
+      "updatedAt": "2026-11-12"
+    },
+    {
+      "id": "hundehaltung-und-gesundheit",
+      "titleDe": "Haltung, Zucht und Gesundheit des Jagdhundes",
+      "titleEn": "Keeping, breeding and health of the hunting dog",
+      "paragraphs": [
+        {
+          "de": "Welpen kommen blind und behaart zur Welt. Die Junghündin wird meist mit sieben bis neun Monaten zum ersten Mal läufig (heiß), danach gewöhnlich zweimal im Jahr. Äußere Zeichen sind die geschwollene Schnalle und blutiger Ausfluss (die Hündin »färbt«). Decken lässt sie sich meist ab dem neunten Tag der Hitze. Die Tragzeit beträgt etwa neun Wochen. Wird eine Hündin in einer Hitze von zwei Rüden gedeckt, kann sie Welpen von beiden werfen.",
+          "en": "Puppies are born blind and furred. A young bitch usually comes into season (heat) for the first time at seven to nine months, and then normally twice a year. Outward signs are the swollen vulva (Schnalle) and bloody discharge (the bitch “colours”). She usually accepts the dog from about the ninth day of heat. Gestation is about nine weeks. If a bitch is mated by two dogs in one heat, she can have puppies by both."
+        },
+        {
+          "de": "Alle geworfenen Welpen müssen aufgezogen werden; abgegeben werden dürfen sie frühestens mit acht Wochen. Welpen mit zwei bis drei Monaten werden drei- bis viermal täglich gefüttert, erwachsene Hunde ab etwa 18 Monaten einmal am Tag. Wasser muss jederzeit in ausreichender Menge bereitstehen. Selbst zubereitetes Futter soll neben Fleisch auch pflanzliche Anteile enthalten. Ein korrektes Gebiss ist ein Scherengebiss; Vor- und Rückbeißer gelten als fehlerhaft.",
+          "en": "All puppies born must be raised; they may be handed over at eight weeks at the earliest. Puppies of two to three months are fed three to four times a day, adult dogs from about 18 months once a day. Water must be available at all times in sufficient quantity. Home-made food should contain plant ingredients as well as meat. A correct bite is a scissor bite; undershot and overshot bites are faults."
+        },
+        {
+          "de": "Die Mindestgröße eines Zwingers, in dem ein Hund überwiegend gehalten wird, richtet sich nach der Zahl der Hunde und ihrer Widerristhöhe. Im Zwinger dürfen Hunde nicht angebunden werden.",
+          "en": "The minimum floor area of a kennel in which a dog mainly lives depends on the number of dogs and their height at the withers. Dogs must not be tied up inside a kennel."
+        },
+        {
+          "de": "Vom Wild auf den Hund übertragbar sind unter anderem Tollwut, Räude und die Aujeszkysche Krankheit (Pseudowut). Deshalb darf ein Hund kein rohes Schweinefleisch – auch kein rohes Schwarzwild – bekommen. Staupe kann tödlich verlaufen; typische Zeichen sind gerötete, geschwollene Lider und Nasenausfluss. Auf Tollwut deuten Fressunlust, Beißlust und Lähmungen hin. Gegen Leptospirose (Stuttgarter Hundeseuche) und Tollwut kann man impfen; die Impfabstände richten sich nach den Angaben des Impfstoffherstellers.",
+          "en": "Diseases that can pass from game to dogs include rabies, mange and Aujeszky's disease (pseudorabies). That is why a dog must never get raw pork — including raw wild boar. Distemper can be fatal; typical signs are red, swollen eyelids and nasal discharge. Signs of rabies are loss of appetite, aggression (urge to bite) and paralysis. Dogs can be vaccinated against leptospirosis (Stuttgarter Hundeseuche) and rabies; the intervals follow the vaccine manufacturer's instructions."
+        },
+        {
+          "de": "Darmparasiten des Hundes sind vor allem Spul- und Bandwürmer. Zeichen für Wurmbefall sind stumpfes Haar, Verdauungsstörungen und »Schlittenfahren« auf dem Hinterteil; reiskornähnliche Glieder auf dem Schlafplatz deuten auf Bandwürmer. Welpen können sich schon im Mutterleib und über die Milch mit Spulwurmlarven anstecken und werden erstmals nach etwa zehn Tagen entwurmt. Der Hundefloh ist Zwischenwirt eines Bandwurms – deshalb Flöhe immer zugleich bekämpfen. Gescheide (Eingeweide) von Hasen und Kaninchen nicht verfüttern, da sie Zwischenwirte von Hundebandwürmern sein können.",
+          "en": "The dog's main intestinal parasites are roundworms and tapeworms. Signs of worms are a dull coat, digestive problems and scooting on the hindquarters; rice-grain-like segments where the dog sleeps point to tapeworms. Puppies can catch roundworm larvae in the womb and through the milk, and are first wormed at about ten days. The dog flea is an intermediate host of a tapeworm — so always treat fleas at the same time. Do not feed the guts of hares and rabbits, because they can be intermediate hosts of dog tapeworms."
+        },
+        {
+          "de": "Äußere Parasiten sind Flöhe, Zecken und Räudemilben; ein Erdhund kann sich bei der Bauarbeit an einem räudigen Fuchs anstecken. Schiefhalten und Schütteln des Kopfes deuten auf Ohrenzwang (Ohrentzündung). Besteht Verdacht auf eine Vergiftung, sofort den Tierarzt verständigen und möglichst Hinweise auf das Gift mitteilen.",
+          "en": "External parasites are fleas, ticks and mange mites; an earth dog can catch mange from an infected fox during den work. Holding the head to one side and shaking it point to ear inflammation (Ohrenzwang). If poisoning is suspected, call the vet immediately and pass on any clues about the poison."
+        }
+      ],
+      "keyTerms": [
+        {
+          "de": "läufig / hitzig",
+          "en": "in heat"
+        },
+        {
+          "de": "Schnalle",
+          "en": "vulva (of a bitch)"
+        },
+        {
+          "de": "Zwinger",
+          "en": "kennel"
+        },
+        {
+          "de": "Widerristhöhe",
+          "en": "height at the withers"
+        },
+        {
+          "de": "Staupe",
+          "en": "distemper"
+        },
+        {
+          "de": "Aujeszkysche Krankheit",
+          "en": "Aujeszky's disease (pseudorabies)",
+          "note": "Never feed raw pork/wild boar."
+        },
+        {
+          "de": "Spulwurm",
+          "en": "roundworm"
+        },
+        {
+          "de": "Bandwurm",
+          "en": "tapeworm"
+        },
+        {
+          "de": "Ohrenzwang",
+          "en": "ear inflammation"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Fragenkatalog zur Jägerprüfung in Bayern – Landesamt für Maß und Gewicht",
+          "url": "https://www.lmg.bayern.de/aufgaben_leistungen/jaegerpruefung/index.html"
+        }
+      ],
+      "origin": "seed",
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "jagdliche-arbeit-und-ausbildung",
+      "titleDe": "Jagdliche Arbeit und Ausbildung des Hundes",
+      "titleEn": "Hunting work and training of the dog",
+      "paragraphs": [
+        {
+          "de": "Man unterscheidet Arbeiten vor dem Schuss – Suche, Buschieren, Stöbern, Brackieren, Vorstehen – und Arbeiten nach dem Schuss: Verlorenbringen (Apportieren) und Nachsuche. Bei der Suche im Feld arbeitet der Vorstehhund in flottem Tempo mit hoher Nase, auf Rebhühner in planmäßiger Quersuche. Beim Buschieren sucht der Hund im niedrigen Bewuchs kurz unter der Flinte und macht das Wild hoch. Stöbern ist die selbständige Suche nach Wild, etwa bei einer Bewegungsjagd im Wald oder auf Enten im Schilf. Brackieren ist die laute Jagd der Bracke auf Hase und Fuchs.",
+          "en": "Work before the shot includes searching (Suche), close searching under the gun (Buschieren), flushing (Stöbern), hound hunting (Brackieren) and pointing (Vorstehen); work after the shot is retrieving (Verlorenbringen) and tracking wounded game (Nachsuche). Searching in the field, the pointing dog works at a brisk pace with a high nose, and for partridges in a systematic quartering pattern (Quersuche). In Buschieren the dog searches low cover close under the gun and flushes the game. Stöbern is independent searching for game, e.g. at a driven hunt in the forest or for ducks in reeds. Brackieren is the hound's baying pursuit of hare and fox."
+        },
+        {
+          "de": "Mit tiefer Nase arbeitet der Hund bei der Schweißarbeit am Riemen und bei der Verlorensuche von Haarwild. Die Hasenspur stellt die höchsten Anforderungen an die Hundenase. Ein Kleiner Münsterländer, der Wind von einem Hasen in der Sasse bekommt, soll vorstehen. Fehler eines Vorstehhundes sind das Nachprellen hinter aufgestandenem Wild und das Einspringen ins Wild. Fest vorgestandenes Federwild bringt der Jäger durch Heraustreten zum Aufstehen. Ein Hund, der vor laufendem Federwild nachrückt, um es festzumachen, »zieht nach«.",
+          "en": "The dog works with a low nose when tracking blood on a lead and when searching for lost furred game. The hare's trail demands the most of a dog's nose. A Small Münsterländer that winds a hare in its form should point. Faults in a pointing dog are chasing after flushed game (Nachprellen) and jumping in to flush it. The hunter flushes firmly pointed birds by stepping in. A dog that moves up on running birds to pin them is said to be “drawing on” (Nachziehen)."
+        },
+        {
+          "de": "Die Erziehung beginnt im Welpenalter, gleich nach der Eingewöhnung. Die wichtigste Übung für die Unterordnung ist das »Down« (Halt): Auf Armheben oder Trillerpfiff legt sich ein fertig ausgebildeter Hund sofort hin. Beim Ablegen bleibt der Hund an einer befohlenen Stelle liegen; nach dem Pirschgang holt man ihn dort ab, statt ihn abzurufen. Hetz- und Beutetrieb fördert man beim Welpen mit der Dressurangel; ein Dummy aus Stoff, Leder oder Kunststoff dient der Apportierausbildung.",
+          "en": "Training starts in puppyhood, right after the puppy has settled in. The most important obedience exercise is the “down” (Halt): when the arm is raised or on a trill whistle, a trained dog drops at once. When placed down (Ablegen) the dog stays where it was put; after a stalk you collect it there rather than calling it. Chase and prey drive are encouraged in puppies with a flirt pole (Dressurangel); a dummy made of cloth, leather or plastic is used to train retrieving."
+        },
+        {
+          "de": "Die Schweißarbeit beginnt mit einer Futterschleppe, die mit einem Pansen gezogen wird. Mit dem Fährtenschuh lässt sich eine Fährte auch ohne Schweiß legen. Zur Riemenarbeit gehören Schweißriemen und eine breite Halsung mit Wirbel. Eine Verleitfährte ist die Fährte gesunden Wildes, die die Wundfährte kreuzt. Für die Nachsuche auf nicht tödlich getroffenes Schalenwild sind Schussfestigkeit und Wildschärfe unverzichtbar. Beim Stöbern im Schilfwasser wird die Halsung abgenommen, damit der Hund nicht hängen bleibt. Bringt der Hund eine Ente, soll er sie am Ufer nicht ablegen, weil sie sonst wieder ins Wasser flüchten kann.",
+          "en": "Blood-tracking training begins with a food drag laid with a piece of rumen. With a tracking shoe (Fährtenschuh) a trail can be laid even without blood. Lead tracking needs a tracking lead (Schweißriemen) and a broad collar with a swivel. A false trail (Verleitfährte) is the trail of healthy game crossing the wounded animal's trail. For tracking cloven-hoofed game that is not mortally hit, steadiness to shot and game sharpness are essential. When flushing in reed water the collar is taken off so the dog cannot get caught. A dog retrieving a duck should not put it down on the bank, or it may escape back into the water."
+        },
+        {
+          "de": "In Bayern darf in einem Schwarzwildübungsgatter nur arbeiten, wer einen gültigen Jagdschein besitzt; der Hund muss gesund, ausreichend geimpft und – etwa durch Chip oder Tätowierung – eindeutig identifizierbar sein.",
+          "en": "In Bavaria, only people holding a valid hunting licence may work dogs in a wild boar training enclosure; the dog must be healthy, adequately vaccinated and clearly identifiable, e.g. by microchip or tattoo."
+        }
+      ],
+      "keyTerms": [
+        {
+          "de": "Suche",
+          "en": "quartering/searching (field)"
+        },
+        {
+          "de": "Buschieren",
+          "en": "close searching under the gun"
+        },
+        {
+          "de": "Stöbern",
+          "en": "flushing"
+        },
+        {
+          "de": "Brackieren",
+          "en": "hunting with hounds (baying pursuit)"
+        },
+        {
+          "de": "Verlorenbringen",
+          "en": "retrieving lost game"
+        },
+        {
+          "de": "Down / Halt",
+          "en": "drop command"
+        },
+        {
+          "de": "Ablegen",
+          "en": "placing the dog down"
+        },
+        {
+          "de": "Futterschleppe",
+          "en": "food drag"
+        },
+        {
+          "de": "Fährtenschuh",
+          "en": "tracking shoe"
+        },
+        {
+          "de": "Verleitfährte",
+          "en": "false/crossing trail"
+        },
+        {
+          "de": "Nachprellen",
+          "en": "chasing flushed game (fault)"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Fragenkatalog zur Jägerprüfung in Bayern – Landesamt für Maß und Gewicht",
+          "url": "https://www.lmg.bayern.de/aufgaben_leistungen/jaegerpruefung/index.html"
+        }
+      ],
+      "origin": "seed",
+      "updatedAt": "2026-11-18"
+    },
     {
       "id": "jagdhundegruppen",
       "titleDe": "Jagdhunderassen und ihre Aufgaben",
@@ -86,73 +354,175 @@
       "updatedAt": "2026-11-12"
     },
     {
-      "id": "nachsuche",
-      "titleDe": "Nachsuche und brauchbare Jagdhunde",
-      "titleEn": "Tracking wounded game and qualified hunting dogs",
+      "id": "laut-und-wesen",
+      "titleDe": "Lautgebung und Wesenseigenschaften",
+      "titleEn": "Giving tongue and temperament traits",
       "paragraphs": [
         {
-          "de": "Die Landesjagdgesetze verlangen, dass bei bestimmten Jagdarten brauchbare Jagdhunde eingesetzt oder bereitgehalten werden – insbesondere bei der Nachsuche, bei Bewegungsjagden und bei der Jagd auf Wasserwild. Die Brauchbarkeit wird durch eine Prüfung nachgewiesen. Einzelheiten regelt jedes Land selbst.",
-          "en": "The state hunting laws require qualified hunting dogs (brauchbare Jagdhunde) to be used or kept ready for certain kinds of hunting — especially for tracking wounded game, at driven hunts and when hunting waterfowl. A dog's qualification is proven by a test. Each state sets its own details."
+          "de": "Ein Hund ist spurlaut (bzw. fährtenlaut), wenn er die Spur oder Fährte aufnimmt und sie Laut gebend verfolgt; sichtlaut, wenn er nur sichtbares Wild laut jagt. Standlaut ist das Verbellen eines gestellten Stückes; Hetzlaut und Standlaut lassen sich am Klang unterscheiden. Weidlaut gibt ein Hund, der Laut gibt, ohne eine Spur vor sich zu haben – das ist ebenso unerwünscht wie stummes Jagen. Ein baulauter Hund gibt im Bau Laut, obwohl kein Fuchs darin steckt. Bei der Baujagd liegt der Hund am Raubwild vor und gibt Laut.",
+          "en": "A dog is spurlaut (or fährtenlaut) when it takes up a trail and follows it giving tongue; sichtlaut when it bays only at game it can see. Standlaut is barking at game held at bay; chase barking and bay barking can be told apart by sound. Weidlaut is giving tongue without any trail — just as unwanted as hunting silently. A baulaut dog barks in the den even when no fox is there. In den hunting the dog faces the fox or badger and gives tongue."
         },
         {
-          "de": "Nach jedem Schuss ist der Anschuss zu untersuchen, also die Stelle, an der das Wild beim Schuss stand. Dort findet man Pirschzeichen wie Schweiß (Blut), Schnitthaar, Knochensplitter oder Wildbretfetzen. Sie geben Hinweise auf den Sitz des Schusses. Der Anschuss wird verbrochen (markiert) und darf nicht zertreten werden.",
-          "en": "After every shot the shot site (Anschuss) must be checked — the spot where the animal stood when hit. There you find signs (Pirschzeichen) such as blood (Schweiß), cut hair, bone splinters or pieces of tissue. They indicate where the bullet hit. The shot site is marked with a broken twig (verbrochen) and must not be trampled."
+          "de": "Stumm jagende Hunde sind im Wald ungeeignet: Sie versetzen das Wild in Panik, und der Jäger kann den Verlauf der Jagd nicht verfolgen. Für Bewegungsjagden auf Schalenwild und Schwarzwild braucht ein Hund Fährtenlaut, Spurwillen und Wildschärfe. Bogenrein jagt ein Stöberhund, der das Wild nur bis zur Schützenlinie verfolgt; rehrein ist er, wenn er Rehwild nicht jagt.",
+          "en": "Silent hunting dogs are unsuitable in the forest: they panic the game, and the hunter cannot follow how the hunt is going. For driven hunts on cloven-hoofed game and wild boar a dog needs to give tongue on the trail, a strong will to track and game sharpness. A flushing dog is bogenrein if it follows game only up to the line of shooters, and rehrein if it does not chase roe deer."
         },
         {
-          "de": "Ist das Wild nicht im Feuer gefallen, wartet man in der Regel einige Zeit, bevor die Nachsuche beginnt, damit das kranke Stück sich niedertut und verendet und nicht weiter beunruhigt wird. Bei schwierigen Fällen wird ein Gespann mit erfahrenem Schweißhund geholt. Das Folgen der Fährte mit dem Hund am langen Riemen heißt Riemenarbeit.",
-          "en": "If the animal did not drop on the spot, you usually wait some time before tracking, so that the wounded animal lies down and dies and is not disturbed further. In difficult cases a team with an experienced blood-tracking dog is called. Following the trail with the dog on a long lead is called Riemenarbeit."
+          "de": "Führigkeit ist die angewölfte (vererbte) Bereitschaft, mit dem Führer zusammenzuarbeiten. Auch Spurlaut und Vorstehen sind eher angewölft als anerzogen. Raubwildschärfe zeigt ein Hund, der zum Beispiel einen Marder fängt und abwürgt; Wildschärfe fehlt einem Hund, der vor einer flügelschlagenden Ente zurückweicht. Schussscheu ist ein Hund, der nach dem Schuss die Arbeit abbricht und sich verkriecht; schusshitzig, wer auf den Schuss ungestüm vorprellt. Ein Knautscher drückt das Wild beim Bringen mit dem Fang zusammen.",
+          "en": "Führigkeit is the inborn willingness to work with the handler. Giving tongue on the trail and pointing are also more inborn than trained. A dog shows sharpness on predators if, for example, it catches and kills a marten; a dog that retreats from a duck beating its wings lacks game sharpness. A gun-shy dog (schussscheu) stops working and hides after a shot; a shot-hot dog (schusshitzig) rushes forward wildly at the shot. A Knautscher squeezes the game in its mouth when retrieving."
         },
         {
-          "de": "Findet ein frei suchender Hund verendetes Wild, zeigt er das an: Beim Totverbellen bleibt er am Stück und gibt Laut, bis der Führer kommt; beim Totverweisen läuft er zum Führer zurück und führt ihn zum Stück. Muss die Nachsuche über die Reviergrenze hinaus fortgesetzt werden, gelten die Wildfolge-Regelungen des Landes oder schriftliche Wildfolgevereinbarungen.",
-          "en": "When a dog searching freely finds dead game it signals this: with Totverbellen it stays at the carcass and barks until the handler arrives; with Totverweisen it runs back to the handler and leads them to the carcass. If tracking must continue across the boundary of the hunting ground, the state's rules on following wounded game (Wildfolge) or written Wildfolge agreements apply."
+          "de": "Weitere Rassemerkmale: Zu den deutschen Vorstehhunden gehören Deutsch Kurzhaar, Deutsch Drahthaar, Deutsch Langhaar, Weimaraner, Großer und Kleiner Münsterländer, Griffon und Pudelpointer (Rauhaar: Drahthaar, Griffon, Pudelpointer). Englische Vorstehhunde sind Pointer und die Setter – Irish Setter (kastanien- bis mahagonirot, Langhaar, Rute mit Fahne) und Gordon Setter (schwarz mit roten Abzeichen). Der Weimaraner und der Magyar Vizsla kommen in Kurz- und Langhaar bzw. Drahthaar vor. Dachshunde (Teckel) unterscheiden sich in ihren Schlägen durch das Haarkleid und eignen sich für Bau-, Schweiß- und Stöberarbeit; zum Fuchssprengen eignen sich Dachshund, Fox- und Parson-Russell-Terrier. Die Alpenländische Dachsbracke ist eine anerkannte Schweißhunderasse. Retriever sind Spezialisten für das Apportieren.",
+          "en": "More breed facts: German pointing breeds are the German Shorthaired, Wirehaired and Longhaired Pointer, Weimaraner, Large and Small Münsterländer, Griffon and Pudelpointer (wire-coated: Drahthaar, Griffon, Pudelpointer). English pointing breeds are the Pointer and the setters — Irish Setter (chestnut to mahogany, long coat, feathered tail) and Gordon Setter (black with red markings). The Weimaraner and the Hungarian Vizsla exist in short and long or wire coats. Dachshund varieties differ in their coat; they are suited to den, tracking and flushing work. Dachshunds, Fox Terriers and Parson Russell Terriers are suited to bolting foxes. The Alpine Dachsbracke is a recognised tracking breed. Retrievers specialise in retrieving."
         }
       ],
       "keyTerms": [
         {
-          "de": "Nachsuche",
-          "en": "tracking wounded game"
+          "de": "spurlaut / fährtenlaut",
+          "en": "giving tongue on the trail"
         },
         {
-          "de": "Anschuss",
-          "en": "shot site",
-          "note": "Where the animal stood when shot."
+          "de": "sichtlaut",
+          "en": "giving tongue only on sight"
         },
         {
-          "de": "Pirschzeichen",
-          "en": "signs of a hit",
-          "note": "Blood, hair, bone, tissue at the shot site."
+          "de": "Standlaut",
+          "en": "baying at game held at bay"
         },
         {
-          "de": "Schweiß",
-          "en": "blood (of game)",
-          "note": "Hunters' word for blood."
+          "de": "Weidlaut",
+          "en": "babbling (barking without a trail)"
         },
         {
-          "de": "Riemenarbeit",
-          "en": "tracking on a long lead"
+          "de": "bogenrein",
+          "en": "stops at the line of shooters"
         },
         {
-          "de": "Totverbellen",
-          "en": "barking at dead game"
+          "de": "Führigkeit",
+          "en": "cooperativeness with the handler"
         },
         {
-          "de": "Totverweisen",
-          "en": "leading the handler to dead game"
+          "de": "Wildschärfe",
+          "en": "game sharpness"
         },
         {
-          "de": "Wildfolge",
-          "en": "following wounded game across boundaries",
-          "note": "Regulated by state law or agreements."
+          "de": "schussscheu",
+          "en": "gun-shy"
+        },
+        {
+          "de": "Knautscher",
+          "en": "hard-mouthed dog"
         }
       ],
       "sources": [
         {
-          "title": "Jagdgebrauchshundverband (JGHV)",
-          "url": "https://www.jghv.de/"
+          "title": "Fragenkatalog zur Jägerprüfung in Bayern – Landesamt für Maß und Gewicht",
+          "url": "https://www.lmg.bayern.de/aufgaben_leistungen/jaegerpruefung/index.html"
         }
       ],
       "origin": "seed",
-      "updatedAt": "2026-11-12"
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "brauchbarkeitspruefung",
+      "titleDe": "Brauchbarkeitsprüfung in Bayern",
+      "titleEn": "The qualification test in Bavaria",
+      "paragraphs": [
+        {
+          "de": "Mit der Brauchbarkeitsprüfung (in Bayern nach der Prüfungsordnung des Bayerischen Jagdverbands, BJV) weist ein Hund nach, dass er jagdlich brauchbar ist – und zwar für die Bereiche, in denen er geprüft wurde, nicht automatisch für alle. Auch Hunde ohne diese Prüfung können brauchbar sein und eingesetzt werden, wenn sie die Leistung nachweislich erbringen.",
+          "en": "With the qualification test (Brauchbarkeitsprüfung — in Bavaria under the rules of the Bavarian Hunting Association, BJV) a dog proves that it is fit for hunting use — for the areas it was tested in, not automatically for all. Dogs without this test can also be considered qualified and used if they demonstrably do the work."
+        },
+        {
+          "de": "Für die allgemeine Brauchbarkeit zur Nachsuche auf Niederwild und Schalenwild werden unter anderem Schweißarbeit, Verlorenbringen und Gehorsam geprüft. Zum Gehorsam gehören Appell, Leinenführigkeit und das Verhalten am Stand. Die Haarwildschleppe ist 300 m lang, die Rotfährte (Schweißfährte) ebenfalls 300 m; für die Brauchbarkeit nur zur Nachsuche auf Schalenwild ist die Rotfährte 400 m lang. Findet ein Vorstehhund auf der Federwildschleppe nicht und kommt zurück, darf er noch zweimal angesetzt werden.",
+          "en": "For general qualification for tracking small game and cloven-hoofed game, the test includes blood tracking, retrieving and obedience. Obedience covers responsiveness (Appell), walking on the lead and behaviour on a stand. The furred-game drag is 300 m long, and so is the blood trail; for qualification only for tracking cloven-hoofed game the blood trail is 400 m. If a pointing dog fails to find on the feathered-game drag and comes back, it may be sent twice more."
+        },
+        {
+          "de": "Nicht bestanden hat ein Hund unter anderem, wenn er anschneidet (am Wild frisst), das geschleppte Wild nicht findet oder schussscheu ist.",
+          "en": "A dog fails, among other reasons, if it starts eating the game (anschneiden), fails to find the dragged game, or is gun-shy."
+        }
+      ],
+      "keyTerms": [
+        {
+          "de": "Brauchbarkeitsprüfung",
+          "en": "qualification test for hunting dogs"
+        },
+        {
+          "de": "Schleppe",
+          "en": "drag (scent trail with game)"
+        },
+        {
+          "de": "Rotfährte / Schweißfährte",
+          "en": "blood trail"
+        },
+        {
+          "de": "Appell",
+          "en": "responsiveness to commands"
+        },
+        {
+          "de": "anschneiden",
+          "en": "to start eating the game (fault)"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Fragenkatalog zur Jägerprüfung in Bayern – Landesamt für Maß und Gewicht",
+          "url": "https://www.lmg.bayern.de/aufgaben_leistungen/jaegerpruefung/index.html"
+        },
+        {
+          "title": "Bayerischer Jagdverband (BJV)",
+          "url": "https://www.jagd-bayern.de/"
+        }
+      ],
+      "origin": "seed",
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "tierschutz-hundeeinsatz",
+      "titleDe": "Tierschutz beim Hundeeinsatz",
+      "titleEn": "Animal welfare when using dogs",
+      "paragraphs": [
+        {
+          "de": "Ein Hund darf nicht auf lebende Katzen oder andere Tiere gehetzt werden, um ihn auszubilden – das widerspricht dem Tierschutzrecht. Elektroreizgeräte zur Hundeerziehung sind in Deutschland nicht zulässig. Das Kupieren der Rute ist ein Eingriff, den nur ein Tierarzt vornehmen darf. Jagdhunde werden heute durch einen elektronischen Chip unter der Haut gekennzeichnet; GPS-Ortungsgeräte an der Halsung helfen, den Hund bei Bewegungsjagden wiederzufinden.",
+          "en": "A dog must not be set on live cats or other animals for training — that breaks animal welfare law. Electric shock collars for dog training are not permitted in Germany. Docking the tail is a procedure only a vet may carry out. Hunting dogs are now identified by a microchip under the skin; GPS trackers on the collar help find the dog again at driven hunts."
+        },
+        {
+          "de": "Bei der Nachsuche wird der Schweißhund am warmen Wundbett geschnallt (von der Halsung befreit), wenn das Stück gerade abgesprungen ist. Hat der Hund das kranke Stück gestellt, gibt grundsätzlich der Hundeführer den Fangschuss. Einen wildscharfen Hund zu schnallen ist zulässig, um ein laufkrankes Reh in der Dickung niederzuziehen oder einen flüchtenden, angeschossenen Fuchs zu bringen.",
+          "en": "When tracking, the blood hound is released from the lead (geschnallt) at the still-warm wound bed, when the animal has just fled. Once the dog has held the wounded animal at bay, the dog handler normally gives the finishing shot. It is permitted to release a game-sharp dog to pull down a roe deer wounded in the leg in thick cover, or to retrieve a fleeing wounded fox."
+        },
+        {
+          "de": "Eine geflügelte Ente, die auf dem Wasser der Deckung zustrebt, wird sofort noch einmal beschossen, statt sie dem Hund zu überlassen. Kommt der Hund nach einer unerlaubten Hetze zurück, leint man ihn kommentarlos an – Strafe würde er mit der Rückkehr verbinden. Nach Wasserarbeit bei Frost reibt man den Hund trocken.",
+          "en": "A wing-tipped duck on the water heading for cover is shot again at once rather than left to the dog. If the dog returns after an unauthorised chase, put it on the lead without comment — it would link punishment with coming back. After water work in frost, rub the dog dry."
+        }
+      ],
+      "keyTerms": [
+        {
+          "de": "schnallen / abhalsen",
+          "en": "to release the dog"
+        },
+        {
+          "de": "Wundbett",
+          "en": "wound bed (where wounded game lay)"
+        },
+        {
+          "de": "Fangschuss",
+          "en": "finishing shot"
+        },
+        {
+          "de": "laufkrank",
+          "en": "wounded in the leg"
+        },
+        {
+          "de": "Hetze",
+          "en": "chase"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Fragenkatalog zur Jägerprüfung in Bayern – Landesamt für Maß und Gewicht",
+          "url": "https://www.lmg.bayern.de/aufgaben_leistungen/jaegerpruefung/index.html"
+        }
+      ],
+      "origin": "seed",
+      "updatedAt": "2026-11-18"
     }
   ],
   "quiz": [
@@ -400,6 +770,966 @@
       ],
       "explanationDe": "Nachsuche, Bewegungsjagd und Wasserwildjagd sind die typischen Fälle; Details regelt das Land.",
       "explanationEn": "Tracking, driven hunts and waterfowl hunting are typical; details are set by each state.",
+      "origin": "seed"
+    },
+    {
+      "id": "hund-hitze",
+      "lessonId": "hundehaltung-und-gesundheit",
+      "questionDe": "Wie oft im Jahr wird eine geschlechtsreife Hündin gewöhnlich läufig?",
+      "questionEn": "How often a year does an adult bitch usually come into heat?",
+      "options": [
+        {
+          "de": "Zweimal",
+          "en": "Twice"
+        },
+        {
+          "de": "Einmal",
+          "en": "Once"
+        },
+        {
+          "de": "Viermal",
+          "en": "Four times"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Gewöhnlich zweimal im Jahr.",
+      "explanationEn": "Usually twice a year.",
+      "origin": "seed"
+    },
+    {
+      "id": "hund-tragzeit",
+      "lessonId": "hundehaltung-und-gesundheit",
+      "questionDe": "Wie lange trägt die Hündin?",
+      "questionEn": "How long is a bitch pregnant?",
+      "options": [
+        {
+          "de": "Etwa 9 Wochen",
+          "en": "About 9 weeks"
+        },
+        {
+          "de": "Etwa 4 Wochen",
+          "en": "About 4 weeks"
+        },
+        {
+          "de": "Etwa 4 Monate",
+          "en": "About 4 months"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Rund neun Wochen (ca. 63 Tage).",
+      "explanationEn": "About nine weeks (around 63 days).",
+      "origin": "seed"
+    },
+    {
+      "id": "hund-abgabe",
+      "lessonId": "hundehaltung-und-gesundheit",
+      "questionDe": "Ab welchem Alter dürfen Welpen frühestens abgegeben werden?",
+      "questionEn": "From what age may puppies be handed over at the earliest?",
+      "options": [
+        {
+          "de": "8 Wochen",
+          "en": "8 weeks"
+        },
+        {
+          "de": "4 Wochen",
+          "en": "4 weeks"
+        },
+        {
+          "de": "6 Monate",
+          "en": "6 months"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Frühestens mit acht Wochen.",
+      "explanationEn": "At eight weeks at the earliest.",
+      "origin": "seed"
+    },
+    {
+      "id": "hund-aujeszky",
+      "lessonId": "hundehaltung-und-gesundheit",
+      "questionDe": "Womit darf ein Hund wegen der Aujeszkyschen Krankheit nicht gefüttert werden?",
+      "questionEn": "What must a dog never be fed because of Aujeszky's disease?",
+      "options": [
+        {
+          "de": "Rohes Schweine- bzw. Schwarzwildfleisch",
+          "en": "Raw pork or wild boar"
+        },
+        {
+          "de": "Gekochtes Rindfleisch",
+          "en": "Cooked beef"
+        },
+        {
+          "de": "Trockenfutter",
+          "en": "Dry food"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Rohes Schweinefleisch kann das tödliche Virus übertragen.",
+      "explanationEn": "Raw pork can carry the fatal virus.",
+      "origin": "seed"
+    },
+    {
+      "id": "hund-floh-bandwurm",
+      "lessonId": "hundehaltung-und-gesundheit",
+      "questionDe": "Warum bekämpft man bei Bandwurmbefall zugleich die Flöhe?",
+      "questionEn": "Why treat fleas at the same time as tapeworms?",
+      "options": [
+        {
+          "de": "Der Hundefloh ist Zwischenwirt des Bandwurms",
+          "en": "The dog flea is the tapeworm's intermediate host"
+        },
+        {
+          "de": "Flöhe übertragen Staupe",
+          "en": "Fleas spread distemper"
+        },
+        {
+          "de": "Wurmmittel wirkt sonst nicht",
+          "en": "The wormer won't work otherwise"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Sonst steckt sich der Hund über verschluckte Flöhe neu an.",
+      "explanationEn": "Otherwise the dog is reinfected by swallowing fleas.",
+      "origin": "seed"
+    },
+    {
+      "id": "hund-wurmzeichen",
+      "lessonId": "hundehaltung-und-gesundheit",
+      "questionDe": "Welche Zeichen deuten auf Wurmbefall?",
+      "questionEn": "Which signs point to worms?",
+      "options": [
+        {
+          "de": "Stumpfes Haarkleid",
+          "en": "Dull coat"
+        },
+        {
+          "de": "Verdauungsbeschwerden",
+          "en": "Digestive problems"
+        },
+        {
+          "de": "Rutschen auf dem Hinterteil",
+          "en": "Scooting on the hindquarters"
+        },
+        {
+          "de": "Kopfschütteln",
+          "en": "Head shaking"
+        }
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanationDe": "Kopfschütteln deutet eher auf Ohrenzwang.",
+      "explanationEn": "Head shaking points rather to ear inflammation.",
+      "origin": "seed"
+    },
+    {
+      "id": "hund-zwinger",
+      "lessonId": "hundehaltung-und-gesundheit",
+      "questionDe": "Wonach richtet sich die Mindestfläche eines Zwingers?",
+      "questionEn": "What determines a kennel's minimum floor area?",
+      "options": [
+        {
+          "de": "Zahl der Hunde",
+          "en": "Number of dogs"
+        },
+        {
+          "de": "Widerristhöhe",
+          "en": "Height at the withers"
+        },
+        {
+          "de": "Rasse des Hundes",
+          "en": "Breed of dog"
+        },
+        {
+          "de": "Alter des Hundes",
+          "en": "Age of dog"
+        }
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanationDe": "Nach Anzahl und Widerristhöhe der Hunde.",
+      "explanationEn": "By the number of dogs and their height at the withers.",
+      "origin": "seed"
+    },
+    {
+      "id": "hund-staupe",
+      "lessonId": "hundehaltung-und-gesundheit",
+      "questionDe": "Welche Zeichen sprechen für akute Staupe?",
+      "questionEn": "Which signs suggest acute distemper?",
+      "options": [
+        {
+          "de": "Gerötete, geschwollene Augenlider",
+          "en": "Red, swollen eyelids"
+        },
+        {
+          "de": "Nasenausfluss",
+          "en": "Nasal discharge"
+        },
+        {
+          "de": "Reiskornartige Glieder im Kot",
+          "en": "Rice-grain segments in faeces"
+        }
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanationDe": "Reiskornartige Glieder deuten auf Bandwürmer.",
+      "explanationEn": "Rice-grain segments point to tapeworms.",
+      "origin": "seed"
+    },
+    {
+      "id": "arbeit-vor-schuss",
+      "lessonId": "jagdliche-arbeit-und-ausbildung",
+      "questionDe": "Welche Arbeiten sind Arbeiten vor dem Schuss?",
+      "questionEn": "Which kinds of work are before the shot?",
+      "options": [
+        {
+          "de": "Suche",
+          "en": "Searching"
+        },
+        {
+          "de": "Buschieren",
+          "en": "Close searching under the gun"
+        },
+        {
+          "de": "Brackieren",
+          "en": "Hound hunting"
+        },
+        {
+          "de": "Verlorenbringen",
+          "en": "Retrieving"
+        }
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanationDe": "Verlorenbringen und Nachsuche kommen nach dem Schuss.",
+      "explanationEn": "Retrieving and tracking come after the shot.",
+      "origin": "seed"
+    },
+    {
+      "id": "arbeit-tiefe-nase",
+      "lessonId": "jagdliche-arbeit-und-ausbildung",
+      "questionDe": "Bei welchen Arbeiten soll der Hund mit tiefer Nase arbeiten?",
+      "questionEn": "In which kinds of work should the dog work with a low nose?",
+      "options": [
+        {
+          "de": "Schweißarbeit am Riemen",
+          "en": "Blood tracking on a lead"
+        },
+        {
+          "de": "Verlorensuche von Haarwild",
+          "en": "Searching for lost furred game"
+        },
+        {
+          "de": "Suche nach Federwild im Feld",
+          "en": "Searching for birds in the field"
+        }
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanationDe": "Im Feld auf Federwild arbeitet der Vorstehhund mit hoher Nase.",
+      "explanationEn": "In the field for birds a pointer works with a high nose.",
+      "origin": "seed"
+    },
+    {
+      "id": "arbeit-buschieren",
+      "lessonId": "jagdliche-arbeit-und-ausbildung",
+      "questionDe": "Was ist Buschieren?",
+      "questionEn": "What is Buschieren?",
+      "options": [
+        {
+          "de": "Suche im niedrigen Bewuchs unter der Flinte",
+          "en": "Searching low cover close under the gun"
+        },
+        {
+          "de": "Freie Suche bei der Bewegungsjagd",
+          "en": "Free searching at a driven hunt"
+        },
+        {
+          "de": "Lautes Jagen auf Hase und Fuchs",
+          "en": "Baying pursuit of hare and fox"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Der Hund sucht kurz vor dem Jäger und macht das Wild schussgerecht hoch.",
+      "explanationEn": "The dog searches close in front of the hunter and flushes game within range.",
+      "origin": "seed"
+    },
+    {
+      "id": "arbeit-down",
+      "lessonId": "jagdliche-arbeit-und-ausbildung",
+      "questionDe": "Welche Übung ist für die Unterordnung am wichtigsten?",
+      "questionEn": "Which exercise is most important for obedience?",
+      "options": [
+        {
+          "de": "Down (Halt)",
+          "en": "Down (drop)"
+        },
+        {
+          "de": "Pfote geben",
+          "en": "Giving paw"
+        },
+        {
+          "de": "Apportieren",
+          "en": "Retrieving"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Das Down ist die Grundlage der Unterordnung.",
+      "explanationEn": "The down is the basis of obedience.",
+      "origin": "seed"
+    },
+    {
+      "id": "arbeit-ablegen-abholen",
+      "lessonId": "jagdliche-arbeit-und-ausbildung",
+      "questionDe": "Sie haben Ihren Hund abgelegt und kehren von einer Pirsch zurück. Was tun Sie?",
+      "questionEn": "You placed your dog down and return from a stalk. What do you do?",
+      "options": [
+        {
+          "de": "Ihn am Ablegeplatz abholen",
+          "en": "Collect it where it lies"
+        },
+        {
+          "de": "Ihn abpfeifen",
+          "en": "Whistle it in"
+        },
+        {
+          "de": "Ihn abrufen",
+          "en": "Call it"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Abholen festigt das Ablegen.",
+      "explanationEn": "Collecting it reinforces the stay.",
+      "origin": "seed"
+    },
+    {
+      "id": "arbeit-verleitfaehrte",
+      "lessonId": "jagdliche-arbeit-und-ausbildung",
+      "questionDe": "Was ist eine Verleitfährte?",
+      "questionEn": "What is a Verleitfährte?",
+      "options": [
+        {
+          "de": "Fährte gesunden Wildes, die die Wundfährte kreuzt",
+          "en": "A healthy animal's trail crossing the wounded animal's trail"
+        },
+        {
+          "de": "Eine künstlich gelegte Übungsfährte",
+          "en": "An artificial practice trail"
+        },
+        {
+          "de": "Die Fährte des Hundeführers",
+          "en": "The handler's own track"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Sie kann den Hund von der Wundfährte ablenken.",
+      "explanationEn": "It can lead the dog off the wounded animal's trail.",
+      "origin": "seed"
+    },
+    {
+      "id": "arbeit-nachsuche-eigenschaften",
+      "lessonId": "jagdliche-arbeit-und-ausbildung",
+      "questionDe": "Welche Eigenschaften braucht ein Hund für die Nachsuche auf nicht tödlich getroffenes Schalenwild unbedingt?",
+      "questionEn": "Which traits are essential for tracking cloven-hoofed game that is not mortally hit?",
+      "options": [
+        {
+          "de": "Schussfestigkeit",
+          "en": "Steadiness to shot"
+        },
+        {
+          "de": "Wildschärfe",
+          "en": "Game sharpness"
+        },
+        {
+          "de": "Vorstehen",
+          "en": "Pointing"
+        }
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanationDe": "Der Hund muss das kranke Stück stellen können und darf bei Schüssen nicht weichen.",
+      "explanationEn": "The dog must be able to hold the wounded animal and not flinch at shots.",
+      "origin": "seed"
+    },
+    {
+      "id": "arbeit-faehrtenschuh",
+      "lessonId": "jagdliche-arbeit-und-ausbildung",
+      "questionDe": "Welche Aussagen zum Fährtenschuh sind richtig?",
+      "questionEn": "Which statements about the tracking shoe are correct?",
+      "options": [
+        {
+          "de": "Man kann mit ihm für die Schweißarbeit üben",
+          "en": "It can be used to practise blood tracking"
+        },
+        {
+          "de": "Die Fährte kann auch ohne Schweiß gelegt werden",
+          "en": "The trail can be laid without blood"
+        },
+        {
+          "de": "Er schützt die Pfoten des Hundes",
+          "en": "It protects the dog's paws"
+        }
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanationDe": "Er trägt Schalen von Wild und legt eine natürliche Fährte.",
+      "explanationEn": "It carries real game hooves and lays a natural trail.",
+      "origin": "seed"
+    },
+    {
+      "id": "laut-spurlaut",
+      "lessonId": "laut-und-wesen",
+      "questionDe": "Wann ist ein Hund spurlaut?",
+      "questionEn": "When is a dog spurlaut?",
+      "options": [
+        {
+          "de": "Wenn er eine Spur Laut gebend verfolgt",
+          "en": "When it follows a trail giving tongue"
+        },
+        {
+          "de": "Wenn er nur sichtbares Wild verbellt",
+          "en": "When it barks only at visible game"
+        },
+        {
+          "de": "Wenn er ohne Spur Laut gibt",
+          "en": "When it barks without a trail"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Sichtlaut = nur bei Sicht; Weidlaut = ohne Spur.",
+      "explanationEn": "Sichtlaut = only on sight; Weidlaut = with no trail.",
+      "origin": "seed"
+    },
+    {
+      "id": "laut-weidlaut",
+      "lessonId": "laut-und-wesen",
+      "questionDe": "Welche Lautvarianten sind bei der Jagd unerwünscht?",
+      "questionEn": "Which ways of giving tongue are unwanted when hunting?",
+      "options": [
+        {
+          "de": "Weidlaut",
+          "en": "Babbling"
+        },
+        {
+          "de": "Stummes Jagen",
+          "en": "Hunting silently"
+        },
+        {
+          "de": "Spurlaut",
+          "en": "Giving tongue on the trail"
+        }
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanationDe": "Gewünscht ist spur- bzw. fährtenlautes Jagen.",
+      "explanationEn": "Giving tongue on the trail is what's wanted.",
+      "origin": "seed"
+    },
+    {
+      "id": "laut-bogenrein",
+      "lessonId": "laut-und-wesen",
+      "questionDe": "Wann jagt ein Hund bogenrein?",
+      "questionEn": "When does a dog hunt bogenrein?",
+      "options": [
+        {
+          "de": "Wenn er das Wild nur bis zur Schützenlinie verfolgt",
+          "en": "When it chases game only up to the line of shooters"
+        },
+        {
+          "de": "Wenn er kein Rehwild jagt",
+          "en": "When it doesn't chase roe deer"
+        },
+        {
+          "de": "Wenn er im Bogen zurückkommt",
+          "en": "When it returns in a curve"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Rehrein ist der Hund, der Rehwild nicht verfolgt.",
+      "explanationEn": "A dog that doesn't chase roe deer is rehrein.",
+      "origin": "seed"
+    },
+    {
+      "id": "laut-schussscheu",
+      "lessonId": "laut-und-wesen",
+      "questionDe": "Ein Hund bricht nach dem Schuss die Arbeit ab und verkriecht sich. Wie nennt man das?",
+      "questionEn": "A dog stops working after the shot and hides. What is that called?",
+      "options": [
+        {
+          "de": "Schussscheu",
+          "en": "Gun-shy"
+        },
+        {
+          "de": "Schusshitzig",
+          "en": "Shot-hot"
+        },
+        {
+          "de": "Bogenrein",
+          "en": "Bogenrein"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Schussscheue führt auch zum Nichtbestehen der Brauchbarkeitsprüfung.",
+      "explanationEn": "Gun-shyness also fails the qualification test.",
+      "origin": "seed"
+    },
+    {
+      "id": "laut-rauhaar",
+      "lessonId": "laut-und-wesen",
+      "questionDe": "Welche Rassen sind rauhaarige Vorstehhunde?",
+      "questionEn": "Which breeds are wire-coated pointing dogs?",
+      "options": [
+        {
+          "de": "Deutsch Drahthaar",
+          "en": "German Wirehaired Pointer"
+        },
+        {
+          "de": "Griffon",
+          "en": "Griffon"
+        },
+        {
+          "de": "Pudelpointer",
+          "en": "Pudelpointer"
+        },
+        {
+          "de": "Pointer",
+          "en": "Pointer"
+        }
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanationDe": "Der Pointer ist kurzhaarig.",
+      "explanationEn": "The Pointer is short-coated.",
+      "origin": "seed"
+    },
+    {
+      "id": "laut-englische",
+      "lessonId": "laut-und-wesen",
+      "questionDe": "Welche Rassen sind englische Vorstehhunde?",
+      "questionEn": "Which breeds are English pointing breeds?",
+      "options": [
+        {
+          "de": "Pointer",
+          "en": "Pointer"
+        },
+        {
+          "de": "Irish Setter",
+          "en": "Irish Setter"
+        },
+        {
+          "de": "Gordon Setter",
+          "en": "Gordon Setter"
+        },
+        {
+          "de": "Weimaraner",
+          "en": "Weimaraner"
+        }
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanationDe": "Der Weimaraner ist ein deutscher Vorstehhund.",
+      "explanationEn": "The Weimaraner is a German breed.",
+      "origin": "seed"
+    },
+    {
+      "id": "laut-schwarzwildjagd",
+      "lessonId": "laut-und-wesen",
+      "questionDe": "Welche Eigenschaften braucht ein Hund für Schwarzwildjagden?",
+      "questionEn": "Which traits does a dog need for wild boar hunts?",
+      "options": [
+        {
+          "de": "Fährtenlautes Jagen",
+          "en": "Giving tongue on the trail"
+        },
+        {
+          "de": "Wildschärfe",
+          "en": "Game sharpness"
+        },
+        {
+          "de": "Spurwille",
+          "en": "Will to track"
+        },
+        {
+          "de": "Vorstehen",
+          "en": "Pointing"
+        }
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanationDe": "Vorstehen ist bei der Schwarzwildjagd nicht gefragt.",
+      "explanationEn": "Pointing is not needed for boar hunts.",
+      "origin": "seed"
+    },
+    {
+      "id": "bp-alle-bereiche",
+      "lessonId": "brauchbarkeitspruefung",
+      "questionDe": "Befähigt eine bestandene Brauchbarkeitsprüfung für alle Einsatzbereiche?",
+      "questionEn": "Does passing the qualification test qualify a dog for every kind of work?",
+      "options": [
+        {
+          "de": "Nein, nur für die geprüften Bereiche",
+          "en": "No, only for the areas tested"
+        },
+        {
+          "de": "Ja, für alle",
+          "en": "Yes, for all"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Die Brauchbarkeit gilt für die Fächer, in denen geprüft wurde.",
+      "explanationEn": "Qualification applies to the areas tested.",
+      "origin": "seed"
+    },
+    {
+      "id": "bp-ohne-pruefung",
+      "lessonId": "brauchbarkeitspruefung",
+      "questionDe": "Welche Aussagen zur Brauchbarkeit sind richtig?",
+      "questionEn": "Which statements about qualification are correct?",
+      "options": [
+        {
+          "de": "Ein Hund mit bestandener Prüfung gilt als brauchbar",
+          "en": "A dog that passed is considered qualified"
+        },
+        {
+          "de": "Auch Hunde ohne Prüfung können brauchbar sein",
+          "en": "Dogs without the test can also be qualified"
+        },
+        {
+          "de": "Nur Hunde mit Ahnentafel dürfen eingesetzt werden",
+          "en": "Only pedigree dogs may be used"
+        }
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanationDe": "Brauchbarkeit kann auch ohne Prüfung nachgewiesen sein.",
+      "explanationEn": "Qualification can be shown without the test.",
+      "origin": "seed"
+    },
+    {
+      "id": "bp-rotfaehrte",
+      "lessonId": "brauchbarkeitspruefung",
+      "questionDe": "Wie lang ist die Rotfährte für die Brauchbarkeit nur zur Nachsuche auf Schalenwild?",
+      "questionEn": "How long is the blood trail for qualification only for tracking cloven-hoofed game?",
+      "options": [
+        {
+          "de": "400 m",
+          "en": "400 m"
+        },
+        {
+          "de": "300 m",
+          "en": "300 m"
+        },
+        {
+          "de": "1.000 m",
+          "en": "1,000 m"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "400 m; für Nieder- und Schalenwild 300 m.",
+      "explanationEn": "400 m; for small and cloven-hoofed game 300 m.",
+      "origin": "seed"
+    },
+    {
+      "id": "bp-haarwildschleppe",
+      "lessonId": "brauchbarkeitspruefung",
+      "questionDe": "Wie lang ist die Haarwildschleppe?",
+      "questionEn": "How long is the furred-game drag?",
+      "options": [
+        {
+          "de": "300 m",
+          "en": "300 m"
+        },
+        {
+          "de": "100 m",
+          "en": "100 m"
+        },
+        {
+          "de": "600 m",
+          "en": "600 m"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "300 m.",
+      "explanationEn": "300 m.",
+      "origin": "seed"
+    },
+    {
+      "id": "bp-nicht-bestanden",
+      "lessonId": "brauchbarkeitspruefung",
+      "questionDe": "Wann besteht ein Hund die Prüfung nicht?",
+      "questionEn": "When does a dog fail the test?",
+      "options": [
+        {
+          "de": "Wenn er anschneidet",
+          "en": "If it starts eating the game"
+        },
+        {
+          "de": "Wenn er schussscheu ist",
+          "en": "If it is gun-shy"
+        },
+        {
+          "de": "Wenn er das geschleppte Wild nicht findet",
+          "en": "If it fails to find the dragged game"
+        },
+        {
+          "de": "Wenn er spurlaut ist",
+          "en": "If it gives tongue on the trail"
+        }
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanationDe": "Spurlaut ist erwünscht.",
+      "explanationEn": "Giving tongue on the trail is desirable.",
+      "origin": "seed"
+    },
+    {
+      "id": "bp-gehorsam",
+      "lessonId": "brauchbarkeitspruefung",
+      "questionDe": "Welche Gehorsamsfächer werden geprüft?",
+      "questionEn": "Which obedience areas are tested?",
+      "options": [
+        {
+          "de": "Appell",
+          "en": "Responsiveness"
+        },
+        {
+          "de": "Leinenführigkeit",
+          "en": "Walking on the lead"
+        },
+        {
+          "de": "Verhalten am Stand",
+          "en": "Behaviour on a stand"
+        },
+        {
+          "de": "Kunststücke",
+          "en": "Tricks"
+        }
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanationDe": "Appell, Leinenführigkeit und Verhalten am Stand.",
+      "explanationEn": "Responsiveness, lead work and behaviour on a stand.",
+      "origin": "seed"
+    },
+    {
+      "id": "tsch-katzen",
+      "lessonId": "tierschutz-hundeeinsatz",
+      "questionDe": "Ist es zulässig, Jagdhunde zur Ausbildung auf Katzen zu hetzen?",
+      "questionEn": "Is it allowed to set hunting dogs on cats for training?",
+      "options": [
+        {
+          "de": "Nein, das verstößt gegen das Tierschutzrecht",
+          "en": "No, it breaks animal welfare law"
+        },
+        {
+          "de": "Ja, auf verwilderte Katzen",
+          "en": "Yes, on feral cats"
+        },
+        {
+          "de": "Ja, mit Genehmigung",
+          "en": "Yes, with a permit"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Das ist tierschutzwidrig.",
+      "explanationEn": "It breaks animal welfare law.",
+      "origin": "seed"
+    },
+    {
+      "id": "tsch-elektro",
+      "lessonId": "tierschutz-hundeeinsatz",
+      "questionDe": "Sind Elektroreizgeräte zur Hundeerziehung in Deutschland zulässig?",
+      "questionEn": "Are electric shock collars allowed for dog training in Germany?",
+      "options": [
+        {
+          "de": "Nein",
+          "en": "No"
+        },
+        {
+          "de": "Ja",
+          "en": "Yes"
+        },
+        {
+          "de": "Nur für Jagdhunde",
+          "en": "Only for hunting dogs"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Nein.",
+      "explanationEn": "No.",
+      "origin": "seed"
+    },
+    {
+      "id": "tsch-fangschuss",
+      "lessonId": "tierschutz-hundeeinsatz",
+      "questionDe": "Wer gibt grundsätzlich den Fangschuss, wenn der Hund das kranke Stück gestellt hat?",
+      "questionEn": "Who normally gives the finishing shot when the dog holds the wounded animal?",
+      "options": [
+        {
+          "de": "Der Hundeführer",
+          "en": "The dog handler"
+        },
+        {
+          "de": "Der Jagdleiter",
+          "en": "The hunt leader"
+        },
+        {
+          "de": "Der Schütze, der angeschossen hat",
+          "en": "The shooter who wounded it"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Grundsätzlich die Person, die den Hund führt.",
+      "explanationEn": "Normally the person handling the dog.",
+      "origin": "seed"
+    },
+    {
+      "id": "tsch-hetze-zurueck",
+      "lessonId": "tierschutz-hundeeinsatz",
+      "questionDe": "Ihr Hund kommt nach einer unerlaubten Hetze zurück. Wie verhalten Sie sich?",
+      "questionEn": "Your dog comes back after an unauthorised chase. What do you do?",
+      "options": [
+        {
+          "de": "Kommentarlos anleinen",
+          "en": "Put it on the lead without comment"
+        },
+        {
+          "de": "Kräftig bestrafen",
+          "en": "Punish it hard"
+        },
+        {
+          "de": "Ausgiebig loben",
+          "en": "Praise it lavishly"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Strafe beim Zurückkommen würde der Hund mit dem Zurückkommen verknüpfen.",
+      "explanationEn": "Punishment on return would be linked to returning.",
+      "origin": "seed"
+    },
+    {
+      "id": "tsch-kupieren",
+      "lessonId": "tierschutz-hundeeinsatz",
+      "questionDe": "Wer darf die Rute eines Hundes kupieren?",
+      "questionEn": "Who may dock a dog's tail?",
+      "options": [
+        {
+          "de": "Nur ein Tierarzt",
+          "en": "Only a vet"
+        },
+        {
+          "de": "Der Züchter",
+          "en": "The breeder"
+        },
+        {
+          "de": "Der Hundeführer",
+          "en": "The handler"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Nur der Tierarzt.",
+      "explanationEn": "Only a vet.",
+      "origin": "seed"
+    },
+    {
+      "id": "tsch-schnallen",
+      "lessonId": "tierschutz-hundeeinsatz",
+      "questionDe": "Wann darf ein wildscharfer Hund geschnallt werden?",
+      "questionEn": "When may a game-sharp dog be released on game?",
+      "options": [
+        {
+          "de": "Um ein laufkrankes Reh in der Dickung niederzuziehen",
+          "en": "To pull down a leg-wounded roe deer in thick cover"
+        },
+        {
+          "de": "Um einen angeschossenen, flüchtenden Fuchs zu bringen",
+          "en": "To retrieve a wounded fleeing fox"
+        },
+        {
+          "de": "Auf gesundes Rehwild zur Übung",
+          "en": "On healthy roe deer for practice"
+        }
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanationDe": "Nur auf krankes Wild, nie auf gesundes zur Übung.",
+      "explanationEn": "Only on wounded game, never on healthy game for practice.",
       "origin": "seed"
     }
   ]

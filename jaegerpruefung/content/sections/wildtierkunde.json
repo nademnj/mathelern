@@ -1,16 +1,204 @@
 {
   "id": "wildtierkunde",
-  "order": 1,
-  "titleDe": "Wildtierkunde",
-  "titleEn": "Wildlife biology",
-  "summaryDe": "Biologie, Lebensweise und Erkennungsmerkmale der heimischen Wildarten – Haarwild und Federwild, Schalenwild, Raubwild und Niederwild – sowie die Jägersprache.",
-  "summaryEn": "Biology, behaviour and identification of native game species — furred and feathered game, cloven-hoofed game, predators and small game — plus the hunters' vocabulary.",
+  "order": 2,
+  "titleDe": "Biologie der Wildarten",
+  "titleEn": "Biology of game species",
+  "summaryDe": "Erkennungsmerkmale und Anatomie, Lebensweise, Verhalten, Fortpflanzung und Lebensräume von Haarwild und Federwild.",
+  "summaryEn": "Identification and anatomy, way of life, behaviour, reproduction and habitats of furred and feathered game.",
   "researchTopics": [
-    "Rotwild Damwild Biologie Brunft",
-    "Fuchs Dachs Marder Biologie",
-    "Federwild Enten Gänse Bestimmung",
-    "Feldhase Wildkaninchen Unterschiede",
-    "Jägersprache Begriffe Prüfung"
+    "2.1 Allgemeines und Haarwild allgemein",
+    "2.2.1 Schalenwild allgemein",
+    "2.2.1.1 Rotwild",
+    "2.2.1.2 Damwild",
+    "2.2.1.3 Rehwild",
+    "2.2.1.4 Gamswild",
+    "2.2.1.5 Muffelwild",
+    "2.2.1.6 Schwarzwild",
+    "2.2.2.1 Hasenartige und Nager",
+    "2.2.2.2 Raubwild allgemein",
+    "2.2.2.3 Fuchs",
+    "2.2.2.4 Marder",
+    "2.2.2.5 Neozoen",
+    "2.3.1 Federwild allgemein",
+    "2.3.2 Hühnervögel",
+    "2.3.3 Wasserfederwild",
+    "2.3.4 Greife und Falken",
+    "2.3.5 Rabenvögel",
+    "2.3.6 Sonstiges Federwild"
+  ],
+  "catalogTopics": [
+    {
+      "code": "2.1",
+      "titleDe": "Allgemeines und Haarwild allgemein",
+      "titleEn": "General and furred game in general",
+      "officialQuestions": 19,
+      "lessonIds": [
+        "einteilung-des-wildes",
+        "fortpflanzung-und-koerperbau"
+      ]
+    },
+    {
+      "code": "2.2.1",
+      "titleDe": "Schalenwild allgemein",
+      "titleEn": "Cloven-hoofed game in general",
+      "officialQuestions": 12,
+      "lessonIds": [
+        "schalenwild-allgemein"
+      ]
+    },
+    {
+      "code": "2.2.1.1",
+      "titleDe": "Rotwild",
+      "titleEn": "Red deer",
+      "officialQuestions": 24,
+      "lessonIds": [
+        "rotwild"
+      ]
+    },
+    {
+      "code": "2.2.1.2",
+      "titleDe": "Damwild",
+      "titleEn": "Fallow deer",
+      "officialQuestions": 5,
+      "lessonIds": [
+        "damwild-und-muffelwild"
+      ]
+    },
+    {
+      "code": "2.2.1.3",
+      "titleDe": "Rehwild",
+      "titleEn": "Roe deer",
+      "officialQuestions": 29,
+      "lessonIds": [
+        "rehwild"
+      ]
+    },
+    {
+      "code": "2.2.1.4",
+      "titleDe": "Gamswild",
+      "titleEn": "Chamois",
+      "officialQuestions": 7,
+      "lessonIds": [
+        "gamswild"
+      ]
+    },
+    {
+      "code": "2.2.1.5",
+      "titleDe": "Muffelwild",
+      "titleEn": "Mouflon",
+      "officialQuestions": 2,
+      "lessonIds": [
+        "damwild-und-muffelwild"
+      ]
+    },
+    {
+      "code": "2.2.1.6",
+      "titleDe": "Schwarzwild",
+      "titleEn": "Wild boar",
+      "officialQuestions": 15,
+      "lessonIds": [
+        "schwarzwild"
+      ]
+    },
+    {
+      "code": "2.2.2.1",
+      "titleDe": "Hasenartige und Nager",
+      "titleEn": "Hares, rabbits and rodents",
+      "officialQuestions": 13,
+      "lessonIds": [
+        "hasen-kaninchen-murmeltier"
+      ]
+    },
+    {
+      "code": "2.2.2.2",
+      "titleDe": "Raubwild allgemein",
+      "titleEn": "Predators in general",
+      "officialQuestions": 8,
+      "lessonIds": [
+        "raubwild-luchs-wildkatze"
+      ]
+    },
+    {
+      "code": "2.2.2.3",
+      "titleDe": "Fuchs",
+      "titleEn": "Fox",
+      "officialQuestions": 8,
+      "lessonIds": [
+        "fuchs"
+      ]
+    },
+    {
+      "code": "2.2.2.4",
+      "titleDe": "Marder",
+      "titleEn": "Martens and mustelids",
+      "officialQuestions": 14,
+      "lessonIds": [
+        "marder-und-dachs"
+      ]
+    },
+    {
+      "code": "2.2.2.5",
+      "titleDe": "Neozoen",
+      "titleEn": "Invasive species",
+      "officialQuestions": 3,
+      "lessonIds": [
+        "neozoen"
+      ]
+    },
+    {
+      "code": "2.3.1",
+      "titleDe": "Federwild allgemein",
+      "titleEn": "Feathered game in general",
+      "officialQuestions": 13,
+      "lessonIds": [
+        "federwild-allgemein"
+      ]
+    },
+    {
+      "code": "2.3.2",
+      "titleDe": "Hühnervögel",
+      "titleEn": "Gamebirds (galliformes)",
+      "officialQuestions": 15,
+      "lessonIds": [
+        "huehnervoegel"
+      ]
+    },
+    {
+      "code": "2.3.3",
+      "titleDe": "Wasserfederwild",
+      "titleEn": "Waterfowl",
+      "officialQuestions": 15,
+      "lessonIds": [
+        "wasserfederwild"
+      ]
+    },
+    {
+      "code": "2.3.4",
+      "titleDe": "Greife und Falken",
+      "titleEn": "Birds of prey and falcons",
+      "officialQuestions": 22,
+      "lessonIds": [
+        "greifvoegel"
+      ]
+    },
+    {
+      "code": "2.3.5",
+      "titleDe": "Rabenvögel",
+      "titleEn": "Corvids",
+      "officialQuestions": 6,
+      "lessonIds": [
+        "rabenvoegel"
+      ]
+    },
+    {
+      "code": "2.3.6",
+      "titleDe": "Sonstiges Federwild",
+      "titleEn": "Other feathered game",
+      "officialQuestions": 12,
+      "lessonIds": [
+        "tauben-und-schnepfe"
+      ]
+    }
   ],
   "lessons": [
     {
@@ -35,8 +223,8 @@
           "en": "Besides cloven-hoofed game, furred game includes, among others, brown hare, mountain hare, wild rabbit, marmot, wildcat, lynx, fox, stone marten, pine marten, polecat, stoat, weasel, badger, otter and harbour seal. Feathered game includes, for example, grey partridge, pheasant, quail, capercaillie, black grouse and hazel grouse, wild pigeons, wild geese, wild ducks, woodcock, birds of prey and falcons."
         },
         {
-          "de": "Dass eine Art zum Wild gehört, heißt nicht, dass sie bejagt werden darf. Viele Arten – etwa Luchs, Wildkatze, Fischotter oder Greifvögel – haben keine Jagdzeit und sind ganzjährig geschont. Für sie gilt aber die Hegepflicht des Jägers.",
-          "en": "Being game does not mean a species may be hunted. Many species — such as lynx, wildcat, otter or birds of prey — have no open season and are protected all year. The hunter's duty of care (Hegepflicht) still applies to them."
+          "de": "Dass eine Art zum Wild gehört, heißt nicht, dass sie bejagt werden darf. Viele Arten – etwa Luchs, Wildkatze oder Greifvögel – haben keine Jagdzeit und sind ganzjährig geschont; Fischotter und Wolf dürfen in Bayern nur mit naturschutzrechtlicher Ausnahme bejagt werden. Für sie gilt aber die Hegepflicht des Jägers.",
+          "en": "Being game does not mean a species may be hunted. Many species — such as lynx, wildcat or birds of prey — have no open season and are protected all year; in Bavaria otter and wolf may only be hunted under a nature-conservation exemption. The hunter's duty of care (Hegepflicht) still applies to them."
         },
         {
           "de": "In der Jägersprache werden männliche und weibliche Tiere besonders benannt: beim Rehwild Bock und Ricke (Geiß), beim Rotwild Hirsch und Alttier, beim Schwarzwild Keiler und Bache. Junge Tiere heißen Kitz (Reh), Kalb (Rot- und Damwild) und Frischling (Schwarzwild).",
@@ -99,6 +287,288 @@
       "updatedAt": "2026-11-12"
     },
     {
+      "id": "fortpflanzung-und-koerperbau",
+      "titleDe": "Fortpflanzung, Körperbau und Lebensweise – allgemein",
+      "titleEn": "Reproduction, anatomy and way of life – general",
+      "paragraphs": [
+        {
+          "de": "Einige Wildarten färben oder mausern für den Winter weiß um und sind so im Schnee getarnt: das Hermelin (Großes Wiesel), der Schneehase und das Alpenschneehuhn.",
+          "en": "Some game species turn white for winter (moult into a white coat or plumage) and are camouflaged in snow: the stoat (Hermelin), the mountain hare and the rock ptarmigan."
+        },
+        {
+          "de": "Nesthocker (Nestjunge) kommen hilflos, meist nackt oder blind zur Welt und bleiben lange im Bau oder Nest – zum Beispiel Wildkaninchen, Fuchs, Dachs und Murmeltier. Nestflüchter sind bei der Geburt behaart und sehend, etwa Rehkitze und Junghasen. Fuchs, Dachs, Murmeltier und Wildkaninchen bringen ihre Jungen in Erdbauen zur Welt.",
+          "en": "Altricial young (Nesthocker) are born helpless, usually naked or blind, and stay in the den or nest for a long time — for example wild rabbit, fox, badger and marmot. Precocial young (Nestflüchter) are born furred and with open eyes, such as roe kids and young hares. Fox, badger, marmot and wild rabbit give birth in burrows."
+        },
+        {
+          "de": "Eine Keimruhe (Eiruhe) – also eine Pause in der Entwicklung des befruchteten Eies – gibt es beim Rehwild, beim Dachs und bei den Mardern. Bei diesen Arten liegt die Paarungszeit im Sommer (Juli/August), die Jungen kommen aber erst im Frühjahr zur Welt. Im Winter paaren sich dagegen zum Beispiel Schwarzwild, Gamswild und Fuchs.",
+          "en": "Delayed implantation (Keimruhe/Eiruhe) — a pause in the development of the fertilised egg — occurs in roe deer, badgers and martens. In these species mating is in summer (July/August), but the young are born only in spring. Species that mate in winter include wild boar, chamois and fox."
+        },
+        {
+          "de": "Mehr als einmal im Jahr bringen zum Beispiel Feldhase, Wildkaninchen und Ringeltaube Junge zur Welt. Beim Fuchs kümmern sich beide Elterntiere um die Welpen. Manche Arten können sich mit verwandten Arten kreuzen: Muffelwild mit Hausschafen, Schwarzwild mit Hausschweinen, Birkwild mit Auerwild (Rackelwild) sowie Sika- mit Rotwild.",
+          "en": "Brown hare, wild rabbit and wood pigeon, for example, breed more than once a year. In the fox both parents care for the cubs. Some species can hybridise with related species: mouflon with domestic sheep, wild boar with domestic pigs, black grouse with capercaillie (Rackelwild), and sika with red deer."
+        },
+        {
+          "de": "Der Körper des Haarwildes wird durch das Zwerchfell in Brust- und Bauchraum geteilt. In der Brusthöhle, der Kammer, liegen Herz und Lunge. Zwischen Zwerchfell und Schloss (der Beckenverbindung) liegen im Bauchraum unter anderem Leber, Milz, Nieren, Magen und Gedärm.",
+          "en": "The body of furred game is divided by the diaphragm into chest and abdomen. The chest cavity, called the Kammer, holds the heart and lungs. Between the diaphragm and the Schloss (the pelvic joint) the abdomen holds, among other organs, the liver, spleen, kidneys, stomach and intestines."
+        },
+        {
+          "de": "Duftdrüsen dienen der Reviermarkierung und dem Anlocken des Partners. Ein Pfeifen als Lautäußerung hört man zum Beispiel vom Gamswild, vom Murmeltier und vom Wildkaninchen. Das Murmeltier ist ein echter Winterschläfer. Fuchs und Steinmarder leben heute häufig auch in Städten.",
+          "en": "Scent glands are used to mark territory and attract a mate. Whistling calls are made, for example, by chamois, marmots and wild rabbits. The marmot is a true hibernator. Fox and stone marten now often live in towns too."
+        }
+      ],
+      "keyTerms": [
+        {
+          "de": "Nesthocker",
+          "en": "altricial young",
+          "note": "Born helpless, stay in nest/den."
+        },
+        {
+          "de": "Nestflüchter",
+          "en": "precocial young",
+          "note": "Born furred and seeing."
+        },
+        {
+          "de": "Keimruhe / Eiruhe",
+          "en": "delayed implantation",
+          "note": "Roe deer, badger, martens."
+        },
+        {
+          "de": "Kammer",
+          "en": "chest cavity",
+          "note": "Heart and lungs."
+        },
+        {
+          "de": "Zwerchfell",
+          "en": "diaphragm"
+        },
+        {
+          "de": "Schloss",
+          "en": "pelvic joint (pubic symphysis)"
+        },
+        {
+          "de": "Winterschläfer",
+          "en": "hibernator",
+          "note": "e.g. marmot."
+        },
+        {
+          "de": "Rackelwild",
+          "en": "capercaillie × black grouse hybrid"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Fragenkatalog zur Jägerprüfung in Bayern – Landesamt für Maß und Gewicht",
+          "url": "https://www.lmg.bayern.de/aufgaben_leistungen/jaegerpruefung/index.html"
+        },
+        {
+          "title": "Deutscher Jagdverband (DJV)",
+          "url": "https://www.jagdverband.de/"
+        }
+      ],
+      "origin": "seed",
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "schalenwild-allgemein",
+      "titleDe": "Schalenwild – Gemeinsamkeiten und Unterschiede",
+      "titleEn": "Cloven-hoofed game – shared traits and differences",
+      "paragraphs": [
+        {
+          "de": "Die Wiederkäuer unter dem Schalenwild – Rot-, Dam-, Sika-, Reh-, Gams-, Stein- und Muffelwild – haben einen Magen aus vier Teilen: Pansen, Netzmagen, Blättermagen und Labmagen. Schwarzwild ist kein Wiederkäuer und hat keinen Pansen.",
+          "en": "The ruminants among cloven-hoofed game — red, fallow, sika, roe deer, chamois, ibex and mouflon — have a four-part stomach: rumen (Pansen), reticulum (Netzmagen), omasum (Blättermagen) and abomasum (Labmagen). Wild boar is not a ruminant and has no rumen."
+        },
+        {
+          "de": "Den Wiederkäuern fehlen im Oberkiefer die Schneidezähne; dort sitzt eine Kauplatte. Nur das Schwarzwild hat unter dem heimischen Schalenwild Schneidezähne im Oberkiefer.",
+          "en": "Ruminants have no incisors in the upper jaw; instead they have a dental pad. Among native cloven-hoofed game only wild boar has upper incisors."
+        },
+        {
+          "de": "Hirsche (Rot-, Dam-, Sika- und Rehwild) tragen ein Geweih aus Knochen, das jedes Jahr abgeworfen und neu gebildet wird; nur die männlichen Tiere tragen es. Gams-, Stein- und Muffelwild sind Hornträger (Boviden): Ihre Hörner werden nie abgeworfen und wachsen zeitlebens weiter. Bei Gams- und Steinwild tragen auch die weiblichen Tiere Hörner.",
+          "en": "Deer (red, fallow, sika and roe) carry bone antlers, which are cast and regrown every year; only males carry them. Chamois, ibex and mouflon are horn-bearers (bovids): their horns are never cast and keep growing for life. In chamois and ibex the females carry horns too."
+        },
+        {
+          "de": "Rotwild äst wenig wählerisch, äst Flächen ab und schält auch Baumrinde. Rehwild ist dagegen ein wählerischer Konzentratselektierer. Rot- und Schwarzwild nehmen gern Suhlen an. Die Fährte des Schwarzwildes unterscheidet sich von der des Rotwildes am deutlichsten durch den Abdruck der Afterklauen (Geäfter), die beim Schwarzwild tief sitzen und weit außen abdrücken.",
+          "en": "Red deer graze unselectively, grazing whole areas, and also strip bark. Roe deer, in contrast, are choosy concentrate selectors. Red deer and wild boar like to use wallows (Suhlen). The track of a wild boar differs most clearly from a red deer's by the print of the dewclaws (Geäfter), which sit low on the boar and print wide to the sides."
+        },
+        {
+          "de": "Die Brunft folgt im Jahreslauf einer festen Reihenfolge: zuerst Rehwild (Juli/August), dann Rotwild (Mitte September bis Mitte Oktober), dann Damwild (Oktober/November) und zuletzt Gamswild (Mitte November bis Mitte Dezember).",
+          "en": "The ruts follow a fixed order through the year: first roe deer (July/August), then red deer (mid-September to mid-October), then fallow deer (October/November) and finally chamois (mid-November to mid-December)."
+        }
+      ],
+      "keyTerms": [
+        {
+          "de": "Wiederkäuer",
+          "en": "ruminant"
+        },
+        {
+          "de": "Pansen",
+          "en": "rumen"
+        },
+        {
+          "de": "Hornträger (Boviden)",
+          "en": "horn-bearers (bovids)",
+          "note": "Horns are never cast."
+        },
+        {
+          "de": "Geweih",
+          "en": "antlers",
+          "note": "Bone, cast every year."
+        },
+        {
+          "de": "Geäfter",
+          "en": "dewclaws (prints)"
+        },
+        {
+          "de": "Suhle",
+          "en": "wallow"
+        },
+        {
+          "de": "Brunft",
+          "en": "rut"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Fragenkatalog zur Jägerprüfung in Bayern – Landesamt für Maß und Gewicht",
+          "url": "https://www.lmg.bayern.de/aufgaben_leistungen/jaegerpruefung/index.html"
+        }
+      ],
+      "origin": "seed",
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "rotwild",
+      "titleDe": "Rotwild",
+      "titleEn": "Red deer",
+      "paragraphs": [
+        {
+          "de": "Rotwild lebt gesellig in Rudeln und wandert von Natur aus weit. Ein Kahlwildrudel aus Alttieren, Schmaltieren, Kälbern und jungen Hirschen wird von einem führenden Alttier, dem Leittier, angeführt – das Leittier ist immer ein Stück, das ein Kalb führt. Von Natur aus ist Rotwild tagaktiv; im Winter fährt es seinen Stoffwechsel herunter, um Energie zu sparen.",
+          "en": "Red deer are social, live in herds (Rudel) and naturally roam widely. A herd of hinds, yearling hinds, calves and young stags is led by a hind with a calf, the lead hind (Leittier). Red deer are naturally active by day; in winter they lower their metabolism to save energy."
+        },
+        {
+          "de": "Die Brunft dauert etwa zwei bis vier Wochen und liegt in Bayern von Mitte September bis Mitte Oktober. Im Juli und August, in der Feistzeit, legt der Hirsch Fettreserven an. Das Alttier setzt in der Regel ein Kalb. Weibliches Rotwild verteidigt sich mit den Vorderläufen. Als Warnlaute hört man das Schrecken und das Mahnen.",
+          "en": "The rut lasts about two to four weeks and runs in Bavaria from mid-September to mid-October. In July and August, the Feistzeit, the stag builds up fat reserves. The hind usually gives birth to one calf. Female red deer defend themselves with their front legs. Alarm calls are the bark (Schrecken) and the warning call (Mahnen)."
+        },
+        {
+          "de": "Ältere Hirsche werfen ihr Geweih früher ab als junge: der mittelalte Hirsch etwa im Februar/März. Schon im März beginnt er das neue Geweih zu schieben; etwa fünf Monate später, gewöhnlich im August, hat ein alter Hirsch fertig gefegt. Ein Erstlingsgeweih im ersten Lebensjahr wie beim Rehbock gibt es beim Hirschkalb nicht: Das erste Geweih wird im Frühjahr des Folgejahres geschoben. Rosen hat das Geweih ab dem zweiten Kopf.",
+          "en": "Older stags cast their antlers earlier than young ones: a middle-aged stag around February/March. From March he grows (schieben) the new antlers; about five months later, usually in August, an old stag has finished fraying off the velvet. Unlike the roe buck, a stag calf has no first antlers in its first year: the first antlers grow in the spring after birth. The antlers have burrs (Rosen) from the second set onwards."
+        },
+        {
+          "de": "Der Zahnwechsel ist nach etwa 28 bis 30 Monaten abgeschlossen. Rotwild hat im Oberkiefer zwei Eckzähne, die Grandeln (Haken). Ausgewachsen ist ein Hirsch frühestens mit etwa sechs Jahren; sein stärkstes Geweih trägt er meist mit zehn bis vierzehn Jahren. Alte Hirsche sind heimlich und vorsichtig und haben einen kurzen, starken Träger (Hals) und einen starken Widerrist.",
+          "en": "Tooth change is complete after about 28 to 30 months. Red deer have two canine teeth in the upper jaw, the Grandeln (Haken). A stag is fully grown at about six years at the earliest; his strongest antlers usually come at ten to fourteen years. Old stags are secretive and cautious and have a short, thick neck (Träger) and a strong withers (Widerrist)."
+        },
+        {
+          "de": "Rotwild äst wenig wählerisch, äst ganze Flächen ab und schält im Wald Baumrinde – dadurch kann es erhebliche Schälschäden verursachen. Der Wechsel vom Sommer- zum Winterhaar fällt in den Oktober.",
+          "en": "Red deer feed unselectively, grazing whole areas, and strip bark in the forest — this can cause serious bark-stripping damage. The change from summer to winter coat happens in October."
+        }
+      ],
+      "keyTerms": [
+        {
+          "de": "Kahlwild",
+          "en": "antlerless red deer (hinds, calves)"
+        },
+        {
+          "de": "Leittier",
+          "en": "lead hind",
+          "note": "Always a hind with a calf."
+        },
+        {
+          "de": "Alttier",
+          "en": "adult hind"
+        },
+        {
+          "de": "Schmaltier",
+          "en": "yearling hind"
+        },
+        {
+          "de": "Feistzeit",
+          "en": "fattening period",
+          "note": "July/August."
+        },
+        {
+          "de": "Grandeln",
+          "en": "upper canine teeth of red deer"
+        },
+        {
+          "de": "schieben",
+          "en": "to grow antlers"
+        },
+        {
+          "de": "Rosen",
+          "en": "burrs (antler base)"
+        },
+        {
+          "de": "Schälen",
+          "en": "bark stripping"
+        },
+        {
+          "de": "Träger",
+          "en": "neck (of deer)"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Fragenkatalog zur Jägerprüfung in Bayern – Landesamt für Maß und Gewicht",
+          "url": "https://www.lmg.bayern.de/aufgaben_leistungen/jaegerpruefung/index.html"
+        },
+        {
+          "title": "Bayerisches Wildtierportal",
+          "url": "https://www.wildtierportal.bayern.de/"
+        }
+      ],
+      "origin": "seed",
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "damwild-und-muffelwild",
+      "titleDe": "Damwild und Muffelwild",
+      "titleEn": "Fallow deer and mouflon",
+      "paragraphs": [
+        {
+          "de": "Damwild lebt am liebsten in Mischwäldern, die mit Feldern und Wiesen abwechseln. Es brunftet im Oktober/November. Der Damhirsch, der Schaufler, schlägt in der Brunft Brunftkuhlen (Mulden im Boden), an denen er sich mit Urin und Duft markiert.",
+          "en": "Fallow deer prefer mixed woodland interspersed with fields and meadows. They rut in October/November. The fallow buck, called the Schaufler after his palmate antlers, scrapes rutting pits (Brunftkuhlen) in the ground, which he marks with urine and scent."
+        },
+        {
+          "de": "Der Schaufler wirft sein Geweih im April/Mai ab – später als der Rothirsch – und hat es bis etwa September fertig gefegt. Wie Reh- und Rotwild hat Damwild im Oberkiefer keine Schneidezähne; anders als das Rehwild hat es keinen hellen Muffelfleck am Äser.",
+          "en": "The fallow buck casts his antlers in April/May — later than the red stag — and has finished fraying by about September. Like roe and red deer, fallow deer have no upper incisors; unlike roe deer they have no pale muzzle patch (Muffelfleck)."
+        },
+        {
+          "de": "Muffelwild ist ein Wildschaf und gehört zu den Hornträgern. Die Widder tragen schneckenförmig gewundene Hörner, die nie abgeworfen werden. Die Brunft fällt in die Monate Oktober bis Dezember. Muffelwild kann sich mit Hausschafen kreuzen und kann im Wald auch Schälschäden verursachen.",
+          "en": "Mouflon are wild sheep and belong to the horn-bearers. The rams carry spiral, snail-shaped horns that are never cast. The rut falls between October and December. Mouflon can hybridise with domestic sheep and can also cause bark-stripping damage in the forest."
+        }
+      ],
+      "keyTerms": [
+        {
+          "de": "Schaufler",
+          "en": "mature fallow buck",
+          "note": "Named after the palmate antlers."
+        },
+        {
+          "de": "Brunftkuhle",
+          "en": "rutting pit"
+        },
+        {
+          "de": "Muffelfleck",
+          "en": "pale muzzle patch"
+        },
+        {
+          "de": "Widder",
+          "en": "ram"
+        },
+        {
+          "de": "Schnecke",
+          "en": "spiral horn of the mouflon ram"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Fragenkatalog zur Jägerprüfung in Bayern – Landesamt für Maß und Gewicht",
+          "url": "https://www.lmg.bayern.de/aufgaben_leistungen/jaegerpruefung/index.html"
+        }
+      ],
+      "origin": "seed",
+      "updatedAt": "2026-11-18"
+    },
+    {
       "id": "rehwild",
       "titleDe": "Rehwild",
       "titleEn": "Roe deer",
@@ -108,20 +578,28 @@
           "en": "The roe deer is the most common cloven-hoofed game species in Germany. It is a concentrate selector: it picks energy-rich buds, shoots, herbs and flowers, so it needs many small feeding periods spread over day and night."
         },
         {
+          "de": "Rehwild ist territorial: Der Bock verteidigt im Sommer sein Revier, weil er als Konzentratselektierer unter Konkurrenz durch Artgenossen leiden würde. Er markiert es mit Duftdrüsen an der Stirn (unter der Stirnlocke) und an den Hinterläufen sowie durch Fegen und Plätzen (Scharren). Wie viele Geißen in einem Bockrevier stehen, hängt von der Qualität des Lebensraums als Setzplatz ab. Rehwild erkennt man an Fährten, Losung und Plätzstellen.",
+          "en": "Roe deer are territorial: in summer the buck defends his territory, because as a concentrate selector he would suffer from competition with his own kind. He marks it with scent glands on the forehead (under the forelock) and on the hind legs, and by fraying and scraping (plätzen). How many does live in a buck's territory depends on the quality of the habitat as a birthing place. Signs of roe deer are tracks, droppings (Losung) and scrapes."
+        },
+        {
           "de": "Die Brunft des Rehwildes, die Blattzeit, liegt etwa von Mitte Juli bis Mitte August. Nach der Befruchtung ruht die Keimblase bis etwa Dezember (Eiruhe oder Keimruhe); erst dann entwickelt sich der Embryo weiter. So werden die Kitze trotz Sommerbrunft erst im Mai oder Juni gesetzt, meist ein bis zwei.",
           "en": "The roe deer rut, called the Blattzeit, runs from about mid-July to mid-August. After fertilisation the blastocyst rests until about December (delayed implantation, Eiruhe/Keimruhe); only then does the embryo develop further. This is why the kids are born (gesetzt) in May or June despite the summer rut, usually one or two."
         },
         {
-          "de": "Der Rehbock trägt ein Gehörn (Geweih). Er wirft es etwa von Oktober bis Dezember ab, ältere Böcke meist früher. Das neue Gehörn wächst im Winter unter einer behaarten, gut durchbluteten Haut, dem Bast. Ist es ausgereift, fegt der Bock den Bast im Frühjahr an Sträuchern und jungen Bäumen ab – dabei entsteht Fegeschaden.",
-          "en": "The roe buck carries antlers, called Gehörn in roe deer. He casts them roughly between October and December, older bucks usually earlier. The new antlers grow over winter under a hairy skin full of blood vessels, the velvet (Bast). When they are mature the buck rubs off the velvet in spring on shrubs and young trees (fegen) — this causes fraying damage (Fegeschaden)."
+          "de": "Der Rehbock trägt ein Gehörn (Geweih). Ältere Böcke werfen es meist im Oktober/November ab, jüngere später. Das neue Gehörn wächst im Winter unter dem Bast; der ältere Bock fegt im März/April und hat im April fertig verfegt, der Jährling erst später – ein starker Gabelbock, der Anfang Juni noch nicht verfegt hat, ist deshalb wahrscheinlich ein Jährling. Seine dunkle Farbe erhält das Gehörn durch Pflanzensäfte beim Fegen. Wie stark das Gehörn wird, hängt vor allem von der Ernährung während des Wachstums ab.",
+          "en": "The roe buck carries antlers (Gehörn). Older bucks usually cast them in October/November, younger ones later. The new antlers grow over winter under the velvet (Bast); an older buck frays in March/April and has finished by April, a yearling only later — so a strong fork-antlered buck still in velvet in early June is probably a yearling. The antlers get their dark colour from plant sap while fraying. How strong the antlers grow depends mainly on nutrition during growth."
+        },
+        {
+          "de": "Das Bockkitz schiebt schon im Herbst seines Geburtsjahres ein Erstlingsgehörn (kleine Knöpfe oder Spieße) und wirft es im Januar/Februar wieder ab. Weibliches Rehwild nimmt mit etwa 14 Monaten zum ersten Mal an der Brunft teil; der Zahnwechsel ist ebenfalls mit etwa 14 Monaten abgeschlossen. Kitze werden fünf bis sechs Monate gesäugt. Beim Verfärben im Frühjahr ist der Jährling früher fertig (Juni) als der alte Bock; im Herbst verfärbt der junge Bock früher ins graue Winterhaar – stehen Anfang Oktober ein grauer und ein roter Bock zusammen, ist der rote meist der ältere.",
+          "en": "The buck kid already grows first antlers (small buttons or spikes) in the autumn of its birth year and casts them in January/February. Female roe deer first take part in the rut at about 14 months; tooth change is also complete at about 14 months. Kids are suckled for five to six months. In the spring coat change the yearling finishes earlier (June) than the old buck; in autumn the young buck turns grey earlier — if a grey and a red buck stand together in early October, the red one is usually the older."
         },
         {
           "de": "Im Sommer trägt das Reh eine rotbraune Decke, im Winter eine graubraune. Am Hinterteil hat es einen hellen Fleck, den Spiegel; bei der Ricke ist er herzförmig und hat oft einen Haarbüschel (Schürze), beim Bock ist er nierenförmig. Daran kann man Bock und Ricke auch dann unterscheiden, wenn der Bock abgeworfen hat oder nur kurzes Bastgehörn trägt.",
           "en": "In summer the roe deer has a red-brown coat (Decke), in winter a grey-brown one. On its rump it has a pale patch, the mirror (Spiegel); in the doe it is heart-shaped, often with a tuft of hair (Schürze), in the buck it is kidney-shaped. This lets you tell buck from doe even when the buck has cast his antlers or carries only short antlers in velvet."
         },
         {
-          "de": "Die Jagdzeiten nach der Bundesjagdzeitenverordnung sind: Böcke 1. Mai bis 15. Oktober, Schmalrehe 1. Mai bis 31. Januar, Ricken 1. September bis 31. Januar, Kitze 1. September bis 28. Februar. Die Länder dürfen abweichende Jagdzeiten festsetzen – prüfe die Regelung deines Bundeslandes.",
-          "en": "The open seasons under the federal hunting-season regulation are: bucks 1 May to 15 October, yearling does (Schmalrehe) 1 May to 31 January, adult does 1 September to 31 January, kids 1 September to 28 February. The states may set different seasons — check the rules of your own state."
+          "de": "Jagdzeiten in Bayern (§ 19 AVBayJG): Böcke 16. April bis 15. Oktober, Schmalrehe 16. April bis 15. Januar, Geißen und Kitze 1. September bis 15. Januar. Zum Vergleich die Bundesjagdzeitenverordnung: Böcke 1. Mai bis 15. Oktober, Schmalrehe 1. Mai bis 31. Januar, Ricken 1. September bis 31. Januar, Kitze 1. September bis 28. Februar.",
+          "en": "Seasons in Bavaria (§ 19 AVBayJG): bucks 16 April – 15 October, yearling does 16 April – 15 January, does and kids 1 September – 15 January. For comparison, the federal regulation: bucks 1 May – 15 October, yearling does 1 May – 31 January, does 1 September – 31 January, kids 1 September – 28 February."
         },
         {
           "de": "Rehwild wird in vielen Ländern nach einem Abschussplan bejagt. Wo Verbiss die Waldverjüngung gefährdet, hängt die Höhe des Abschusses oft vom forstlichen Gutachten zur Situation der Waldverjüngung ab.",
@@ -173,9 +651,26 @@
           "de": "Schmalreh",
           "en": "yearling doe",
           "note": "Female roe deer in its second year, not yet given birth."
+        },
+        {
+          "de": "Erstlingsgehörn",
+          "en": "first antlers of the buck kid",
+          "note": "Grown in its first autumn, cast in Jan/Feb."
+        },
+        {
+          "de": "plätzen",
+          "en": "to scrape the ground (roe buck)"
+        },
+        {
+          "de": "verfärben",
+          "en": "to change coat"
         }
       ],
       "sources": [
+        {
+          "title": "Fragenkatalog zur Jägerprüfung in Bayern – Landesamt für Maß und Gewicht",
+          "url": "https://www.lmg.bayern.de/aufgaben_leistungen/jaegerpruefung/index.html"
+        },
         {
           "title": "Verordnung über die Jagdzeiten (JagdzeitV) – gesetze-im-internet.de",
           "url": "https://www.gesetze-im-internet.de/jagdzeitv_1977/"
@@ -183,10 +678,59 @@
         {
           "title": "Deutscher Jagdverband (DJV)",
           "url": "https://www.jagdverband.de/"
+        },
+        {
+          "title": "Ausführungsverordnung zum Bayerischen Jagdgesetz (AVBayJG) § 19 Jagdzeiten – gesetze-bayern.de",
+          "url": "https://www.gesetze-bayern.de/Content/Document/BayAVJG-19"
         }
       ],
       "origin": "seed",
-      "updatedAt": "2026-11-12"
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "gamswild",
+      "titleDe": "Gamswild",
+      "titleEn": "Chamois",
+      "paragraphs": [
+        {
+          "de": "Gamswild ist ein Hornträger und Wiederkäuer des Hochgebirges. Beide Geschlechter tragen hakenförmige Hörner, die Krucken. Die Krucken wachsen in den ersten vier Lebensjahren schnell, danach nur noch wenig. Jedes Jahr entsteht ein Jahresring; an diesen Ringen lässt sich das Alter eines erlegten Stückes am sichersten bestimmen.",
+          "en": "Chamois are horn-bearing ruminants of the high mountains. Both sexes carry hook-shaped horns, the Krucken. The horns grow fast in the first four years and only slowly after that. Each year adds a growth ring; these rings are the surest way to tell the age of a shot animal."
+        },
+        {
+          "de": "Die Brunft liegt von Mitte November bis Mitte Dezember. Der Bock hat hinter den Krucken Brunftfeigen – Drüsen, die zur Brunft anschwellen und stark riechen. Die Tragzeit dauert rund sechs Monate. Die Geiß setzt oft erst im fünften Lebensjahr zum ersten Mal ein Kitz.",
+          "en": "The rut runs from mid-November to mid-December. Behind his horns the buck has rut glands (Brunftfeigen) that swell and smell strongly during the rut. Gestation lasts about six months. The female (Geiß) often gives birth for the first time only in her fifth year."
+        },
+        {
+          "de": "Geißen, Kitze und Jährlinge leben im Rudel (Scharwild), das von einer Geiß angeführt wird; ältere Böcke leben meist allein. Als Warnlaut stößt die Gams einen Pfiff aus. Gamswild hat keinen Muffelfleck und keine Schneidezähne im Oberkiefer.",
+          "en": "Females, kids and yearlings live in groups (Scharwild) led by a female; older bucks mostly live alone. The alarm call is a whistle. Chamois have no pale muzzle patch and no upper incisors."
+        }
+      ],
+      "keyTerms": [
+        {
+          "de": "Krucken",
+          "en": "chamois horns"
+        },
+        {
+          "de": "Brunftfeigen",
+          "en": "rut glands behind the horns"
+        },
+        {
+          "de": "Scharwild",
+          "en": "group of females and young (chamois)"
+        },
+        {
+          "de": "Geiß",
+          "en": "female chamois"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Fragenkatalog zur Jägerprüfung in Bayern – Landesamt für Maß und Gewicht",
+          "url": "https://www.lmg.bayern.de/aufgaben_leistungen/jaegerpruefung/index.html"
+        }
+      ],
+      "origin": "seed",
+      "updatedAt": "2026-11-18"
     },
     {
       "id": "schwarzwild",
@@ -204,6 +748,14 @@
         {
           "de": "Frischlinge tragen in den ersten Lebensmonaten Längsstreifen. Im zweiten Lebensjahr heißen die Stücke Überläufer. Der Keiler hat im Gebrech kräftige Eckzähne, das Gewaff (Gewehre im Unterkiefer, Haderer im Oberkiefer); die Eckzähne der Bache heißen Haken.",
           "en": "Piglets have longitudinal stripes for their first months. In their second year the animals are called Überläufer. The boar has strong canine teeth (Gewaff) in its mouth (Gebrech): the lower tusks are called Gewehre, the upper ones Haderer; the sow's canines are called Haken."
+        },
+        {
+          "de": "Frischlinge werden etwa bis zum vierten Monat gesäugt und verlieren mit etwa vier bis fünf Monaten ihre Streifen. Starke, einfarbig braune Frischlinge sind nicht mehr auf die Führung der Bache angewiesen. Vor dem Frischen sondert sich die Bache von der Rotte ab. Junge Keiler verlassen die Rotte mit etwa 18 Monaten. Der Zahnwechsel beginnt mit etwa zwölf Monaten; das Dauergebiss ist nach 24 Monaten vollständig.",
+          "en": "Piglets are suckled until about four months and lose their stripes at about four to five months. Strong, plain brown piglets no longer depend on the sow. Before giving birth the sow leaves the sounder. Young boars leave the sounder at about 18 months. Tooth change starts at about twelve months; the permanent teeth are complete after 24 months."
+        },
+        {
+          "de": "Ob ein weibliches Stück rauschig wird, hängt mehr von seiner körperlichen Verfassung als vom Alter ab: Bei guter Ernährung – etwa viel Mais – können schon Frischlingsbachen im ersten Lebensjahr beschlagen werden, und es überleben mehr Frischlinge je Wurf. Schwarzwild riecht und hört hervorragend, sieht aber schlecht. Ihr Warnsignal ist ein lautes Blasen.",
+          "en": "Whether a young sow comes into season depends more on her body condition than on her age: with good food — plenty of maize, for example — even piglet sows can be mated in their first year, and more piglets per litter survive. Wild boar have an excellent sense of smell and hearing but poor eyesight. Their alarm signal is a loud snort (Blasen)."
         },
         {
           "de": "Schwarzwild ist ein Allesfresser. Es nimmt Eicheln und Bucheckern (Mast), Feldfrüchte wie Mais und Getreide, Wurzeln, Insektenlarven, Mäuse und Aas auf. Durch das Brechen (Umwühlen) auf Wiesen und durch Fraß in Feldern verursacht es erhebliche Wildschäden.",
@@ -260,9 +812,21 @@
           "de": "Trichinenuntersuchung",
           "en": "Trichinella test",
           "note": "Mandatory for wild boar meat."
+        },
+        {
+          "de": "Blasen",
+          "en": "alarm snort of wild boar"
+        },
+        {
+          "de": "rauschig",
+          "en": "in season (wild boar)"
         }
       ],
       "sources": [
+        {
+          "title": "Fragenkatalog zur Jägerprüfung in Bayern – Landesamt für Maß und Gewicht",
+          "url": "https://www.lmg.bayern.de/aufgaben_leistungen/jaegerpruefung/index.html"
+        },
         {
           "title": "Verordnung über die Jagdzeiten (JagdzeitV) – gesetze-im-internet.de",
           "url": "https://www.gesetze-im-internet.de/jagdzeitv_1977/"
@@ -273,7 +837,626 @@
         }
       ],
       "origin": "seed",
-      "updatedAt": "2026-11-12"
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "hasen-kaninchen-murmeltier",
+      "titleDe": "Hasenartige und Nager",
+      "titleEn": "Hares, rabbits and rodents",
+      "paragraphs": [
+        {
+          "de": "Zu den Hasenartigen gehören Feldhase, Schneehase und Wildkaninchen. Die Häsin setzt meist dreimal im Jahr zwei bis vier Junghasen, die ersten schon im Februar/März. Die Tragzeit beträgt 42 bis 44 Tage, gesäugt wird etwa drei Wochen. Junghasen kommen behaart und sehend in einer flachen Mulde (Sasse) zur Welt.",
+          "en": "Hares and rabbits (Hasenartige) include the brown hare, mountain hare and wild rabbit. The doe hare usually gives birth three times a year to two to four leverets, the first as early as February/March. Gestation is 42 to 44 days and suckling lasts about three weeks. Leverets are born furred and seeing in a shallow scrape in the open (Sasse)."
+        },
+        {
+          "de": "Wildkaninchen leben gesellig in Baukolonien und bevorzugen sandige Böden in tieferen Lagen bis etwa 300 m Seehöhe. Die Tragzeit dauert nur rund vier Wochen, und eine Häsin kann drei- bis fünfmal im Jahr werfen. Kaninchen sind mit sechs bis acht Monaten geschlechtsreif. Die Jungen sind Nesthocker und kommen nackt und blind im Bau zur Welt.",
+          "en": "Wild rabbits live in colonies of burrows and prefer sandy soils at lower altitudes up to about 300 m. Gestation lasts only about four weeks, and a doe can have three to five litters a year. Rabbits are sexually mature at six to eight months. The young are altricial and are born naked and blind in the burrow."
+        },
+        {
+          "de": "Das Murmeltier ist ein Nagetier des Hochgebirges. Es ernährt sich hauptsächlich von Kräutern und Gräsern, warnt mit einem Pfiff und hält einen echten Winterschlaf in seinem Erdbau.",
+          "en": "The marmot is a rodent of the high mountains. It feeds mainly on herbs and grasses, warns with a whistle and truly hibernates in its burrow."
+        }
+      ],
+      "keyTerms": [
+        {
+          "de": "Häsin",
+          "en": "female hare or rabbit"
+        },
+        {
+          "de": "Sasse",
+          "en": "hare's resting scrape"
+        },
+        {
+          "de": "setzen",
+          "en": "to give birth (hare)"
+        },
+        {
+          "de": "Baukolonie",
+          "en": "warren"
+        },
+        {
+          "de": "Murmeltier",
+          "en": "marmot"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Fragenkatalog zur Jägerprüfung in Bayern – Landesamt für Maß und Gewicht",
+          "url": "https://www.lmg.bayern.de/aufgaben_leistungen/jaegerpruefung/index.html"
+        }
+      ],
+      "origin": "seed",
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "raubwild-luchs-wildkatze",
+      "titleDe": "Raubwild allgemein: Luchs und Wildkatze",
+      "titleEn": "Predators in general: lynx and wildcat",
+      "paragraphs": [
+        {
+          "de": "Fuchs und Dachs können gleichzeitig denselben Bau bewohnen; Füchse beziehen häufig verlassene Dachsbaue. Ein Trittsiegel mit fünf deutlichen Krallenabdrücken hinterlassen auf weichem Boden zum Beispiel Steinmarder und Fischotter, während beim Fuchs nur vier Zehen abdrücken.",
+          "en": "Fox and badger can live in the same den at the same time; foxes often move into abandoned badger setts. A print with five clear claw marks is left on soft ground by, for example, the stone marten and the otter, while the fox leaves only four toes."
+        },
+        {
+          "de": "Der Luchs braucht große, zusammenhängende Waldgebiete; sein Streifgebiet umfasst mehrere tausend Hektar. Eine stabile Population lebt in Bayern im Bayerischen Wald. Er tötet seine Beute – oft Rehe – durch einen gezielten Kehlbiss und kehrt häufig zu größeren Rissen zurück. Der Luchs unterliegt dem Jagdrecht, hat aber keine Jagdzeit.",
+          "en": "The lynx needs large, connected forests; its home range covers several thousand hectares. A stable population lives in Bavaria in the Bavarian Forest. It kills its prey — often roe deer — with a targeted bite to the throat and often returns to larger kills. The lynx is subject to hunting law but has no open season."
+        },
+        {
+          "de": "Die Europäische Wildkatze ist ein heimlicher Einzeljäger in Waldgebieten. Sie frisst vor allem Mäuse, nimmt Aas nur ausnahmsweise und schwimmt gut. Von einer Hauskatze unterscheidet sie sich unter anderem durch den buschigen, stumpf endenden Schwanz mit deutlichen dunklen Ringen in der hinteren Hälfte.",
+          "en": "The European wildcat is a secretive solitary hunter of forests. It mainly eats mice, takes carrion only rarely and swims well. It differs from a domestic cat by, among other things, its bushy, blunt-ended tail with clear dark rings on the rear half."
+        }
+      ],
+      "keyTerms": [
+        {
+          "de": "Raubwild",
+          "en": "predatory game"
+        },
+        {
+          "de": "Trittsiegel",
+          "en": "single footprint"
+        },
+        {
+          "de": "Streifgebiet",
+          "en": "home range"
+        },
+        {
+          "de": "Riss",
+          "en": "kill (prey animal killed by a predator)"
+        },
+        {
+          "de": "Wildkatze",
+          "en": "European wildcat"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Fragenkatalog zur Jägerprüfung in Bayern – Landesamt für Maß und Gewicht",
+          "url": "https://www.lmg.bayern.de/aufgaben_leistungen/jaegerpruefung/index.html"
+        },
+        {
+          "title": "Bayerisches Wildtierportal",
+          "url": "https://www.wildtierportal.bayern.de/"
+        }
+      ],
+      "origin": "seed",
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "fuchs",
+      "titleDe": "Fuchs",
+      "titleEn": "Red fox",
+      "paragraphs": [
+        {
+          "de": "Die Paarungszeit des Fuchses, die Ranz, liegt im Januar/Februar. Die Fähe ist etwa zwei Monate tragend (sie »geht dick«) und wölft im Bau meist vier bis sechs Welpen, die ebenfalls etwa zwei Monate gesäugt werden. Beide Elterntiere versorgen die Jungen. Im Juli/August löst sich das Geheck auf.",
+          "en": "The fox's mating season, the Ranz, is in January/February. The vixen (Fähe) is pregnant for about two months and gives birth in the den to usually four to six cubs, which are also suckled for about two months. Both parents care for the young. The family (Geheck) breaks up in July/August."
+        },
+        {
+          "de": "Füchse können schon im ersten Lebensjahr geschlechtsreif werden. Auf der Oberseite der Lunte (Schwanz), nahe der Wurzel, sitzt eine Duftdrüse, die Viole. Füchse erreichen hohe Dichten, wo Wald und Feld sich abwechseln, und besiedeln zunehmend auch Städte.",
+          "en": "Foxes can be sexually mature in their first year. On the upper side of the tail (Lunte), near its base, there is a scent gland, the Viole. Foxes reach high densities where woodland and fields alternate, and are increasingly moving into towns."
+        },
+        {
+          "de": "Der Fuchs ist Hauptüberträger des Kleinen Fuchsbandwurms und war früher Hauptträger der Tollwut. Er ist ein Allesfresser mit Schwerpunkt auf Mäusen und ein bedeutender Fressfeind von Bodenbrütern und Junghasen.",
+          "en": "The fox is the main host of the small fox tapeworm and used to be the main carrier of rabies. It is an omnivore that feeds mainly on mice, and an important predator of ground-nesting birds and leverets."
+        }
+      ],
+      "keyTerms": [
+        {
+          "de": "Ranz",
+          "en": "mating season (fox)"
+        },
+        {
+          "de": "Fähe",
+          "en": "vixen"
+        },
+        {
+          "de": "Rüde",
+          "en": "dog fox"
+        },
+        {
+          "de": "Geheck",
+          "en": "litter/family of cubs"
+        },
+        {
+          "de": "Lunte",
+          "en": "fox's tail"
+        },
+        {
+          "de": "Viole",
+          "en": "scent gland on the fox's tail"
+        },
+        {
+          "de": "dick gehen",
+          "en": "to be pregnant (fox)"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Fragenkatalog zur Jägerprüfung in Bayern – Landesamt für Maß und Gewicht",
+          "url": "https://www.lmg.bayern.de/aufgaben_leistungen/jaegerpruefung/index.html"
+        }
+      ],
+      "origin": "seed",
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "marder-und-dachs",
+      "titleDe": "Marderartige: Marder, Iltis, Wiesel, Dachs, Fischotter",
+      "titleEn": "Mustelids: martens, polecat, weasels, badger, otter",
+      "paragraphs": [
+        {
+          "de": "Zur Familie der Marderartigen gehören Baummarder, Steinmarder, Iltis, Hermelin (Großes Wiesel), Mauswiesel (Kleines Wiesel), Dachs, Fischotter und der Mink. Baum- und Steinmarder ranzen im Juli/August und haben eine Keimruhe.",
+          "en": "The mustelid family includes the pine marten, stone marten, polecat, stoat (large weasel), least weasel, badger, otter and the American mink. Pine and stone martens mate in July/August and have delayed implantation."
+        },
+        {
+          "de": "Den Steinmarder erkennt man am weißen, gegabelten Kehlfleck; er lebt gern in Gebäuden und Feldscheunen und auch in Städten. Der Baummarder hat einen gelblichen, nicht gegabelten Kehlfleck und behaarte Sohlen. Er bewohnt Wälder und nutzt Baumhöhlen und alte Greifvogelhorste als Tagesverstecke.",
+          "en": "The stone marten has a white, forked throat patch; it likes to live in buildings and barns, and also in towns. The pine marten has a yellowish, unforked throat patch and hairy soles. It lives in forests and uses tree holes and old raptor nests as daytime hiding places."
+        },
+        {
+          "de": "Der Iltis erbeutet häufig Frösche, Wanderratten und Mäuse und legt Nahrungsvorräte an. Das Hermelin lebt vor allem in waldarmer Landschaft, frisst hauptsächlich Mäuse und andere kleine Nager, wird im Winter weiß, behält aber ganzjährig eine schwarze Schwanzspitze. Das Mauswiesel frisst fast nur Mäuse und jagt sie sogar in ihren Gängen.",
+          "en": "The polecat often catches frogs, brown rats and mice and stores food. The stoat lives mainly in open country with little woodland, eats mainly mice and other small rodents, turns white in winter but keeps a black tail tip all year. The least weasel eats almost only mice and even hunts them in their tunnels."
+        },
+        {
+          "de": "Der Dachs ranzt im Juli/August, hat eine Keimruhe und bringt seine Jungen im Februar/März im Bau zur Welt. Sein Trittsiegel zeigt fünf Zehen mit langen Krallenabdrücken. Den Fischotter erkennt man an den Abdrücken der Schwimmhäute; er hat keine Jagdzeit.",
+          "en": "The badger mates in July/August, has delayed implantation and gives birth in the sett in February/March. Its print shows five toes with long claw marks. The otter can be recognised by the prints of its webbed feet; it has no open season."
+        }
+      ],
+      "keyTerms": [
+        {
+          "de": "Marderartige",
+          "en": "mustelids"
+        },
+        {
+          "de": "Kehlfleck",
+          "en": "throat patch"
+        },
+        {
+          "de": "Hermelin",
+          "en": "stoat"
+        },
+        {
+          "de": "Mauswiesel",
+          "en": "least weasel"
+        },
+        {
+          "de": "Iltis",
+          "en": "polecat"
+        },
+        {
+          "de": "Fischotter",
+          "en": "otter"
+        },
+        {
+          "de": "Dachsbau",
+          "en": "badger sett"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Fragenkatalog zur Jägerprüfung in Bayern – Landesamt für Maß und Gewicht",
+          "url": "https://www.lmg.bayern.de/aufgaben_leistungen/jaegerpruefung/index.html"
+        }
+      ],
+      "origin": "seed",
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "neozoen",
+      "titleDe": "Neozoen: Waschbär, Marderhund, Nutria, Mink",
+      "titleEn": "Invasive species: raccoon, raccoon dog, coypu, mink",
+      "paragraphs": [
+        {
+          "de": "Neozoen sind Tierarten, die durch den Menschen eingeschleppt wurden und sich in freier Wildbahn ausbreiten. Der Waschbär ist überwiegend nachtaktiv, klettert und schwimmt sehr gut und plündert Gelege. Der Marderhund gehört zu den Hundeartigen, ist ein nachtaktiver Allesfresser und lebt gern in feuchten Lebensräumen.",
+          "en": "Neozoa are animal species introduced by humans that spread in the wild. The raccoon is mostly nocturnal, climbs and swims very well and raids nests. The raccoon dog belongs to the dog family, is a nocturnal omnivore and likes damp habitats."
+        },
+        {
+          "de": "Der Sumpfbiber (Nutria) ist ein Nagetier aus Südamerika mit rundem, beschupptem Schwanz – daran unterscheidet er sich vom Biber mit seiner flachen Kelle. Waschbär, Mink und Iltis können den Bruterfolg von Enten senken, weil sie Gelege und Küken erbeuten.",
+          "en": "The coypu (nutria) is a South American rodent with a round, scaly tail — unlike the beaver with its flat, paddle-shaped tail. Raccoon, mink and polecat can reduce the breeding success of ducks because they take eggs and ducklings."
+        }
+      ],
+      "keyTerms": [
+        {
+          "de": "Neozoen",
+          "en": "invasive non-native species"
+        },
+        {
+          "de": "Waschbär",
+          "en": "raccoon"
+        },
+        {
+          "de": "Marderhund",
+          "en": "raccoon dog"
+        },
+        {
+          "de": "Sumpfbiber (Nutria)",
+          "en": "coypu"
+        },
+        {
+          "de": "Mink",
+          "en": "American mink"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Fragenkatalog zur Jägerprüfung in Bayern – Landesamt für Maß und Gewicht",
+          "url": "https://www.lmg.bayern.de/aufgaben_leistungen/jaegerpruefung/index.html"
+        }
+      ],
+      "origin": "seed",
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "federwild-allgemein",
+      "titleDe": "Federwild allgemein",
+      "titleEn": "Feathered game in general",
+      "paragraphs": [
+        {
+          "de": "Vögel haben im Vergleich zum Haarwild keine Harnblase. Viele Körner- und Pflanzenfresser nehmen kleine Steine auf, die Magensteine; sie zerkleinern die Nahrung im Muskelmagen.",
+          "en": "Compared with furred game, birds have no urinary bladder. Many seed and plant eaters swallow small stones (gizzard stones) that grind food in the muscular stomach."
+        },
+        {
+          "de": "Standvögel bleiben das ganze Jahr im Brutgebiet, zum Beispiel Rebhuhn, Fasan, Auerhuhn, Haselwild und Blässhuhn. Zugvögel ziehen im Winter fort – etwa Wachtel, Waldschnepfe und Wespenbussard.",
+          "en": "Resident birds stay in their breeding area all year, for example grey partridge, pheasant, capercaillie, hazel grouse and coot. Migratory birds leave for the winter — such as quail, woodcock and honey buzzard."
+        },
+        {
+          "de": "Bodenbrüter legen ihr Nest am Boden an: Rebhuhn, Fasan, Wachtel, Auerwild, Waldschnepfe sowie die Weihen (Rohr- und Wiesenweihe). Auf Bäumen brüten zum Beispiel Ringeltaube, Mäusebussard und Graureiher. In Höhlen brüten Hohltaube, Schellente, Gänsesäger und Brandente.",
+          "en": "Ground nesters build their nest on the ground: grey partridge, pheasant, quail, capercaillie, woodcock and the harriers (marsh and Montagu's harrier). Tree nesters include the wood pigeon, common buzzard and grey heron. Cavity nesters include the stock dove, goldeneye, goosander and shelduck."
+        },
+        {
+          "de": "Die Jungen von Tauben, Greifvögeln und Rabenvögeln (z. B. Ringeltaube, Turmfalke, Habicht, Kolkrabe) sind Nesthocker und werden im Nest gefüttert; die Küken der Hühnervögel und Enten sind Nestflüchter. Mindestens ein Jahr monogam leben zum Beispiel Rebhuhn, Haselwild und Ringeltaube. Bei Ringeltaube, Rebhuhn, Mäusebussard und Steinadler hilft das Männchen bei der Aufzucht.",
+          "en": "The young of pigeons, birds of prey and corvids (e.g. wood pigeon, kestrel, goshawk, raven) are altricial and fed in the nest; the chicks of gamebirds and ducks are precocial. Grey partridge, hazel grouse and wood pigeon, for example, stay monogamous for at least a year. In wood pigeon, grey partridge, common buzzard and golden eagle the male helps raise the young."
+        }
+      ],
+      "keyTerms": [
+        {
+          "de": "Standvogel",
+          "en": "resident bird"
+        },
+        {
+          "de": "Zugvogel",
+          "en": "migratory bird"
+        },
+        {
+          "de": "Bodenbrüter",
+          "en": "ground-nesting bird"
+        },
+        {
+          "de": "Höhlenbrüter",
+          "en": "cavity nester"
+        },
+        {
+          "de": "Magensteine",
+          "en": "gizzard stones"
+        },
+        {
+          "de": "Muskelmagen",
+          "en": "gizzard"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Fragenkatalog zur Jägerprüfung in Bayern – Landesamt für Maß und Gewicht",
+          "url": "https://www.lmg.bayern.de/aufgaben_leistungen/jaegerpruefung/index.html"
+        }
+      ],
+      "origin": "seed",
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "huehnervoegel",
+      "titleDe": "Hühnervögel: Raufußhühner und Feldhühner",
+      "titleEn": "Gamebirds: grouse and field gamebirds",
+      "paragraphs": [
+        {
+          "de": "Zu den Raufußhühnern gehören Auerwild, Birkwild, Haselwild und Alpenschneehuhn; ihre Läufe sind befiedert. Reine Waldbewohner sind Auer- und Haselwild. Auerwild braucht lichte, strukturreiche Altholzbestände; im Sommer ist die Heidelbeere eine wichtige Nahrung, im Winter frisst es Nadeln von Kiefer und Tanne. Der Auerhahn übernachtet auf Bäumen im Altholz.",
+          "en": "Grouse (Raufußhühner) include capercaillie, black grouse, hazel grouse and rock ptarmigan; their legs are feathered. Capercaillie and hazel grouse live only in forests. Capercaillie need open, structured old forest; in summer bilberry is an important food, in winter they eat pine and fir needles. The cock roosts in trees in old stands."
+        },
+        {
+          "de": "Birkwild lebt in ausgedehnten Hochmooren und lichten Bergwäldern an der Baumgrenze. Haselwild braucht junge Wälder mit viel Weichlaubholz (z. B. Birke, Erle, Weide). Das Alpenschneehuhn lebt oberhalb der Baumgrenze und ist im Winter weiß.",
+          "en": "Black grouse live in extensive raised bogs and open mountain forests at the tree line. Hazel grouse need young forests with plenty of softwood broadleaves (e.g. birch, alder, willow). The rock ptarmigan lives above the tree line and is white in winter."
+        },
+        {
+          "de": "Zu den Feldhühnern gehören Rebhuhn, Fasan und Wachtel. Rebhühner leben außerhalb der Brutzeit im Familienverband, der Kette (Volk): Im August besteht sie aus Hahn, Henne und Junghühnern. Die Kette bleibt bis zur Paarung im nächsten Frühjahr zusammen und löst sich im Februar/März auf. Versprengte Hühner finden durch Lockrufe rasch wieder zusammen.",
+          "en": "Field gamebirds include grey partridge, pheasant and quail. Outside the breeding season partridges live in family groups called a covey (Kette or Volk): in August it consists of cock, hen and young birds. The covey stays together until pairing the next spring and breaks up in February/March. Scattered birds quickly regroup using contact calls."
+        },
+        {
+          "de": "Der Fasan bevorzugt abwechslungsreiche Auen und Bruchwälder mit Wald, Wiese, Wasser und Feld.",
+          "en": "The pheasant prefers varied river floodplains and swampy woods with a mix of woodland, meadow, water and fields."
+        }
+      ],
+      "keyTerms": [
+        {
+          "de": "Raufußhühner",
+          "en": "grouse (feathered legs)"
+        },
+        {
+          "de": "Auerwild",
+          "en": "capercaillie"
+        },
+        {
+          "de": "Birkwild",
+          "en": "black grouse"
+        },
+        {
+          "de": "Haselwild",
+          "en": "hazel grouse"
+        },
+        {
+          "de": "Kette / Volk",
+          "en": "covey (partridge family)"
+        },
+        {
+          "de": "Feldhühner",
+          "en": "field gamebirds"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Fragenkatalog zur Jägerprüfung in Bayern – Landesamt für Maß und Gewicht",
+          "url": "https://www.lmg.bayern.de/aufgaben_leistungen/jaegerpruefung/index.html"
+        },
+        {
+          "title": "Bayerisches Wildtierportal",
+          "url": "https://www.wildtierportal.bayern.de/"
+        }
+      ],
+      "origin": "seed",
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "wasserfederwild",
+      "titleDe": "Wasserfederwild",
+      "titleEn": "Waterfowl",
+      "paragraphs": [
+        {
+          "de": "Man unterscheidet Schwimmenten und Tauchenten. Schwimmenten – etwa Stock-, Krick-, Knäk- und Löffelente – gründeln nach Nahrung und starten direkt vom Wasser. Tauchenten – etwa Reiher-, Tafel-, Moor-, Kolben- und Eiderente – tauchen nach Nahrung und laufen beim Auffliegen über das Wasser an.",
+          "en": "There are dabbling ducks and diving ducks. Dabbling ducks — such as mallard, teal, garganey and shoveler — up-end to feed and take off straight from the water. Diving ducks — such as tufted duck, pochard, ferruginous duck, red-crested pochard and eider — dive for food and patter across the water to take off."
+        },
+        {
+          "de": "Bei der Stockente beginnt die Paarbildung schon im Herbst. Die Küken sind sofort nach dem Schlüpfen schwimmfähig und mit etwa zwei Monaten flugfähig. Im Juni/Juli mausern die Erpel ihr Großgefieder und sind dann flugunfähig oder schlecht flugfähig.",
+          "en": "In mallards pairing begins in autumn. The ducklings can swim immediately after hatching and can fly at about two months. In June/July the drakes moult their flight feathers and are then unable or barely able to fly."
+        },
+        {
+          "de": "Säger haben am Schnabel Hornzähne, mit denen sie Fische sicher greifen und halten. Auch der Haubentaucher ernährt sich von Fischen. Das Blässhuhn frisst Wasserpflanzen ebenso wie Kleintiere und Insekten. Höckerschwäne leben hauptsächlich von Wasser- und Unterwasserpflanzen.",
+          "en": "Mergansers (Säger) have horny serrations on the bill to grip and hold fish securely. The great crested grebe also eats fish. The coot eats water plants as well as small animals and insects. Mute swans live mainly on water and underwater plants."
+        },
+        {
+          "de": "Bei allen Gänsen sind Gans und Ganter gleich gefärbt; Graugänse suchen ihre Nahrung fast nur an Land. Möwen können nicht tauchen und brüten meist in Kolonien am Wasser. Der Graureiher brütet in Kolonien auf Bäumen und frisst neben Fischen auch Mäuse, Amphibien, Schnecken und Würmer.",
+          "en": "In all geese the female and gander have the same plumage; greylag geese feed almost only on land. Gulls cannot dive and usually breed in colonies near water. The grey heron nests in colonies in trees and eats mice, amphibians, snails and worms as well as fish."
+        }
+      ],
+      "keyTerms": [
+        {
+          "de": "Schwimmenten",
+          "en": "dabbling ducks"
+        },
+        {
+          "de": "Tauchenten",
+          "en": "diving ducks"
+        },
+        {
+          "de": "gründeln",
+          "en": "to up-end/dabble"
+        },
+        {
+          "de": "Erpel",
+          "en": "drake"
+        },
+        {
+          "de": "Mauser",
+          "en": "moult"
+        },
+        {
+          "de": "Säger",
+          "en": "mergansers"
+        },
+        {
+          "de": "Ganter",
+          "en": "gander"
+        },
+        {
+          "de": "Blässhuhn",
+          "en": "coot"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Fragenkatalog zur Jägerprüfung in Bayern – Landesamt für Maß und Gewicht",
+          "url": "https://www.lmg.bayern.de/aufgaben_leistungen/jaegerpruefung/index.html"
+        }
+      ],
+      "origin": "seed",
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "greifvoegel",
+      "titleDe": "Greifvögel und Falken",
+      "titleEn": "Birds of prey and falcons",
+      "paragraphs": [
+        {
+          "de": "Junge Greifvögel schlüpfen sehend und mit Daunen bedeckt und sind Nesthocker. Bei vielen Greifen ist das Weibchen deutlich größer als das Männchen – besonders bei Habicht, Sperber und Wanderfalke. Das hat Vorteile: Das größere Weibchen wärmt die Eier besser, und das Paar kann im selben Revier unterschiedlich große Beute nutzen. Das Männchen von Habicht heißt Terzel, das des Sperbers Sprinz.",
+          "en": "Young birds of prey hatch with open eyes and covered in down, and are altricial. In many raptors the female is clearly larger than the male — especially goshawk, sparrowhawk and peregrine. This has advantages: the larger female keeps the eggs warmer, and the pair can use prey of different sizes in the same territory. The male goshawk is called a Terzel, the male sparrowhawk a Sprinz."
+        },
+        {
+          "de": "Habicht und Sperber sehen sich ähnlich und jagen gleich – überraschend und im schnellen Flug dicht an Deckung entlang –, unterscheiden sich aber in der Größe. Sie schlagen ihre Beute in der Luft und am Boden. Der Sperber frisst vor allem Kleinvögel, der Habicht auch Tauben und Krähen. Der Habicht horstet in den Kronen alter Waldbäume; das Weibchen beginnt schon während der Brut mit der Mauser.",
+          "en": "Goshawk and sparrowhawk look alike and hunt the same way — by surprise, flying fast and low along cover — but differ in size. They take prey both in the air and on the ground. The sparrowhawk eats mainly small birds, the goshawk also pigeons and crows. The goshawk nests in the crowns of old forest trees; the female begins moulting during the breeding period."
+        },
+        {
+          "de": "Grifftöter wie Habicht, Steinadler, Mäusebussard und die Weihen töten ihre Beute mit den Fängen (Krallen). Falken töten dagegen durch einen Biss ins Genick; sie haben dafür am Oberschnabel den Falkenzahn. Wander- und Baumfalke schlagen ihre Beute nur im Flug. Der Turmfalke rüttelt in der Luft, schlägt Mäuse am Boden – Mäuse sind seine wichtigste Nahrung.",
+          "en": "Talon killers (Grifftöter) such as goshawk, golden eagle, common buzzard and the harriers kill prey with their talons (Fänge). Falcons instead kill with a bite to the neck; they have a tooth-like notch on the upper bill for this, the falcon tooth (Falkenzahn). Peregrine and hobby catch prey only in flight. The kestrel hovers in the air and takes mice on the ground — mice are its main food."
+        },
+        {
+          "de": "Der Mäusebussard sitzt oft auf Zaunpfählen im Feld und stößt von dort auf Mäuse; für ihn und den Rotmilan ist auch Aas eine wichtige Nahrung. Der Schwarzmilan brütet auf Bäumen, die Weihen am Boden. Alle Greifvögel unterliegen dem Jagdrecht, haben aber keine Jagdzeit.",
+          "en": "The common buzzard often sits on fence posts in fields and swoops on mice from there; for it and the red kite, carrion is also an important food. The black kite nests in trees, the harriers on the ground. All birds of prey are subject to hunting law but have no open season."
+        }
+      ],
+      "keyTerms": [
+        {
+          "de": "Greifvögel",
+          "en": "birds of prey (raptors)"
+        },
+        {
+          "de": "Fänge",
+          "en": "talons"
+        },
+        {
+          "de": "Grifftöter",
+          "en": "talon killer"
+        },
+        {
+          "de": "Falkenzahn",
+          "en": "falcon's tomial tooth"
+        },
+        {
+          "de": "Terzel",
+          "en": "male goshawk (or falcon)"
+        },
+        {
+          "de": "Horst",
+          "en": "raptor nest"
+        },
+        {
+          "de": "rütteln",
+          "en": "to hover"
+        },
+        {
+          "de": "blocken",
+          "en": "to perch (raptor)"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Fragenkatalog zur Jägerprüfung in Bayern – Landesamt für Maß und Gewicht",
+          "url": "https://www.lmg.bayern.de/aufgaben_leistungen/jaegerpruefung/index.html"
+        },
+        {
+          "title": "Bayerisches Wildtierportal",
+          "url": "https://www.wildtierportal.bayern.de/"
+        }
+      ],
+      "origin": "seed",
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "rabenvoegel",
+      "titleDe": "Rabenvögel",
+      "titleEn": "Corvids",
+      "paragraphs": [
+        {
+          "de": "Rabenvögel sind sehr anpassungsfähige Singvögel. Zu ihnen gehören unter anderem Rabenkrähe, Elster, Eichelhäher und Kolkrabe. Der Kolkrabe ist der größte Singvogel Bayerns.",
+          "en": "Corvids are highly adaptable songbirds. They include the carrion crow, magpie, jay and common raven. The raven is the largest songbird in Bavaria."
+        },
+        {
+          "de": "Die Rabenkrähe meidet große geschlossene Wälder und lebt in offener, gegliederter Landschaft. Anders als die Saatkrähe hat sie keine helle, grindige (unbefiederte) Schnabelwurzel. Der Eichelhäher versteckt Eicheln und Bucheckern als Wintervorrat und trägt so zur Verbreitung von Waldbäumen bei.",
+          "en": "The carrion crow avoids large, closed forests and lives in open, varied landscapes. Unlike the rook it has no pale, bare, scabby bill base. The jay hides acorns and beechnuts as a winter store and so helps spread forest trees."
+        }
+      ],
+      "keyTerms": [
+        {
+          "de": "Rabenvögel",
+          "en": "corvids"
+        },
+        {
+          "de": "Rabenkrähe",
+          "en": "carrion crow"
+        },
+        {
+          "de": "Saatkrähe",
+          "en": "rook"
+        },
+        {
+          "de": "Eichelhäher",
+          "en": "jay"
+        },
+        {
+          "de": "Kolkrabe",
+          "en": "common raven"
+        },
+        {
+          "de": "Elster",
+          "en": "magpie"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Fragenkatalog zur Jägerprüfung in Bayern – Landesamt für Maß und Gewicht",
+          "url": "https://www.lmg.bayern.de/aufgaben_leistungen/jaegerpruefung/index.html"
+        }
+      ],
+      "origin": "seed",
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "tauben-und-schnepfe",
+      "titleDe": "Wildtauben und Waldschnepfe",
+      "titleEn": "Wild pigeons and woodcock",
+      "paragraphs": [
+        {
+          "de": "Die Ringeltaube legt jeweils nur zwei Eier und brütet mehrmals im Jahr, auch wenn das erste Gelege nicht verloren ging. Tauber und Täubin brüten im Wechsel und füttern die Jungen in den ersten Lebenstagen beide mit Kropfmilch, einem Sekret aus dem Kropf. Bei der Türkentaube füttern ebenfalls beide Eltern. Die Turteltaube brütet zwei- bis dreimal im Jahr.",
+          "en": "The wood pigeon lays only two eggs at a time and breeds several times a year, even if the first clutch was not lost. Male and female incubate in turns and both feed the young in their first days with crop milk, a secretion from the crop. In the collared dove too, both parents feed the young. The turtle dove breeds two to three times a year."
+        },
+        {
+          "de": "Die ältere Ringeltaube trägt einen weißen Halsring, der den Jungtauben im ersten Lebensjahr noch fehlt. Die Hohltaube nistet in Höhlen, besonders in alten Schwarzspechthöhlen.",
+          "en": "The adult wood pigeon has a white neck patch that young birds lack in their first year. The stock dove nests in holes, especially in old black woodpecker holes."
+        },
+        {
+          "de": "Die Waldschnepfe lebt in feuchten Mischwäldern mit eingestreuten Erlenbrüchen. Hahn und Henne sehen gleich aus. Sie brütet am Boden: Ein Gelege aus vier braun gefleckten Eiern in einer runden Mulde am Waldboden im Mai stammt typischerweise von ihr. Die Waldschnepfe ist überwiegend Zugvogel.",
+          "en": "The woodcock lives in damp mixed forests with patches of alder swamp. Male and female look alike. It nests on the ground: a clutch of four brown-speckled eggs in a round hollow on the forest floor in May is typically a woodcock's. The woodcock is mainly a migrant."
+        }
+      ],
+      "keyTerms": [
+        {
+          "de": "Ringeltaube",
+          "en": "wood pigeon"
+        },
+        {
+          "de": "Hohltaube",
+          "en": "stock dove"
+        },
+        {
+          "de": "Türkentaube",
+          "en": "collared dove"
+        },
+        {
+          "de": "Turteltaube",
+          "en": "turtle dove"
+        },
+        {
+          "de": "Kropfmilch",
+          "en": "crop milk"
+        },
+        {
+          "de": "Waldschnepfe",
+          "en": "woodcock"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Fragenkatalog zur Jägerprüfung in Bayern – Landesamt für Maß und Gewicht",
+          "url": "https://www.lmg.bayern.de/aufgaben_leistungen/jaegerpruefung/index.html"
+        }
+      ],
+      "origin": "seed",
+      "updatedAt": "2026-11-18"
     }
   ],
   "quiz": [
@@ -465,20 +1648,20 @@
     {
       "id": "reh-jagdzeit-bock",
       "lessonId": "rehwild",
-      "questionDe": "Wie lautet die Jagdzeit für Rehböcke nach der Bundesjagdzeitenverordnung?",
-      "questionEn": "What is the open season for roe bucks under the federal regulation?",
+      "questionDe": "Wie lautet in Bayern die Jagdzeit für Rehböcke?",
+      "questionEn": "What is the open season for roe bucks in Bavaria?",
       "options": [
         {
+          "de": "16. April bis 15. Oktober",
+          "en": "16 April – 15 October"
+        },
+        {
           "de": "1. Mai bis 15. Oktober",
-          "en": "1 May to 15 October"
+          "en": "1 May – 15 October"
         },
         {
-          "de": "1. September bis 31. Januar",
-          "en": "1 September to 31 January"
-        },
-        {
-          "de": "16. Juni bis 31. Januar",
-          "en": "16 June to 31 January"
+          "de": "1. September bis 15. Januar",
+          "en": "1 September – 15 January"
         },
         {
           "de": "ganzjährig",
@@ -488,8 +1671,8 @@
       "correct": [
         0
       ],
-      "explanationDe": "Böcke: 1. Mai bis 15. Oktober. Länder können abweichen.",
-      "explanationEn": "Bucks: 1 May to 15 October. States may differ.",
+      "explanationDe": "Bayern: 16. April bis 15. Oktober; die Bundesverordnung nennt den 1. Mai.",
+      "explanationEn": "Bavaria: 16 April – 15 October; the federal regulation says 1 May.",
       "origin": "seed"
     },
     {
@@ -610,6 +1793,2820 @@
       ],
       "explanationDe": "Schwarzwild kann Trichinen tragen; die Untersuchung ist vorgeschrieben.",
       "explanationEn": "Wild boar can carry Trichinella; testing is mandatory.",
+      "origin": "seed"
+    },
+    {
+      "id": "bio-winterweiss",
+      "lessonId": "fortpflanzung-und-koerperbau",
+      "questionDe": "Welche Wildarten werden für den Winter weiß?",
+      "questionEn": "Which game species turn white for winter?",
+      "options": [
+        {
+          "de": "Schneehase",
+          "en": "Mountain hare"
+        },
+        {
+          "de": "Hermelin",
+          "en": "Stoat"
+        },
+        {
+          "de": "Alpenschneehuhn",
+          "en": "Rock ptarmigan"
+        },
+        {
+          "de": "Steinmarder",
+          "en": "Stone marten"
+        },
+        {
+          "de": "Wildkaninchen",
+          "en": "Wild rabbit"
+        }
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanationDe": "Schneehase, Hermelin und Alpenschneehuhn tragen im Winter ein weißes Kleid.",
+      "explanationEn": "Mountain hare, stoat and rock ptarmigan wear white in winter.",
+      "origin": "seed"
+    },
+    {
+      "id": "bio-keimruhe-arten",
+      "lessonId": "fortpflanzung-und-koerperbau",
+      "questionDe": "Bei welchen Arten gibt es eine Keimruhe?",
+      "questionEn": "Which species have delayed implantation?",
+      "options": [
+        {
+          "de": "Rehwild",
+          "en": "Roe deer"
+        },
+        {
+          "de": "Dachs",
+          "en": "Badger"
+        },
+        {
+          "de": "Baummarder",
+          "en": "Pine marten"
+        },
+        {
+          "de": "Rotwild",
+          "en": "Red deer"
+        },
+        {
+          "de": "Schwarzwild",
+          "en": "Wild boar"
+        }
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanationDe": "Rehwild, Dachs und Marder paaren sich im Sommer und haben eine Keimruhe.",
+      "explanationEn": "Roe deer, badger and martens mate in summer and have delayed implantation.",
+      "origin": "seed"
+    },
+    {
+      "id": "bio-nesthocker",
+      "lessonId": "fortpflanzung-und-koerperbau",
+      "questionDe": "Welche Arten bringen Nesthocker zur Welt?",
+      "questionEn": "Which species have altricial young (Nesthocker)?",
+      "options": [
+        {
+          "de": "Fuchs",
+          "en": "Fox"
+        },
+        {
+          "de": "Wildkaninchen",
+          "en": "Wild rabbit"
+        },
+        {
+          "de": "Feldhase",
+          "en": "Brown hare"
+        },
+        {
+          "de": "Rehwild",
+          "en": "Roe deer"
+        }
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanationDe": "Fuchs und Kaninchen werden hilflos im Bau geboren; Junghasen und Kitze sind behaart und sehend.",
+      "explanationEn": "Foxes and rabbits are born helpless in the burrow; leverets and kids are born furred and seeing.",
+      "origin": "seed"
+    },
+    {
+      "id": "bio-kammer",
+      "lessonId": "fortpflanzung-und-koerperbau",
+      "questionDe": "Welche Organe liegen beim Schalenwild in der Kammer?",
+      "questionEn": "Which organs lie in the chest cavity (Kammer) of cloven-hoofed game?",
+      "options": [
+        {
+          "de": "Herz",
+          "en": "Heart"
+        },
+        {
+          "de": "Lunge",
+          "en": "Lungs"
+        },
+        {
+          "de": "Leber",
+          "en": "Liver"
+        },
+        {
+          "de": "Milz",
+          "en": "Spleen"
+        }
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanationDe": "In der Kammer liegen Herz und Lunge; Leber und Milz liegen hinter dem Zwerchfell.",
+      "explanationEn": "Heart and lungs are in the chest; liver and spleen are behind the diaphragm.",
+      "origin": "seed"
+    },
+    {
+      "id": "bio-winterschlaf",
+      "lessonId": "fortpflanzung-und-koerperbau",
+      "questionDe": "Welche Wildart hält einen echten Winterschlaf?",
+      "questionEn": "Which game species truly hibernates?",
+      "options": [
+        {
+          "de": "Murmeltier",
+          "en": "Marmot"
+        },
+        {
+          "de": "Dachs",
+          "en": "Badger"
+        },
+        {
+          "de": "Fuchs",
+          "en": "Fox"
+        },
+        {
+          "de": "Feldhase",
+          "en": "Brown hare"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Das Murmeltier ist ein echter Winterschläfer; der Dachs hält nur Winterruhe.",
+      "explanationEn": "The marmot truly hibernates; the badger only has a winter rest.",
+      "origin": "seed"
+    },
+    {
+      "id": "bio-kreuzung",
+      "lessonId": "fortpflanzung-und-koerperbau",
+      "questionDe": "Welche Kreuzungen sind möglich?",
+      "questionEn": "Which hybrids are possible?",
+      "options": [
+        {
+          "de": "Muffelwild × Hausschaf",
+          "en": "Mouflon × domestic sheep"
+        },
+        {
+          "de": "Schwarzwild × Hausschwein",
+          "en": "Wild boar × domestic pig"
+        },
+        {
+          "de": "Birkwild × Auerwild",
+          "en": "Black grouse × capercaillie"
+        },
+        {
+          "de": "Rehwild × Damwild",
+          "en": "Roe deer × fallow deer"
+        }
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanationDe": "Muffel/Schaf, Wildschwein/Hausschwein und Birk-/Auerwild (Rackelwild) können sich kreuzen.",
+      "explanationEn": "Mouflon/sheep, wild boar/pig and black grouse/capercaillie (Rackelwild) can hybridise.",
+      "origin": "seed"
+    },
+    {
+      "id": "schalen-magen",
+      "lessonId": "schalenwild-allgemein",
+      "questionDe": "Aus welchen Teilen besteht der Wiederkäuermagen?",
+      "questionEn": "Which parts make up a ruminant's stomach?",
+      "options": [
+        {
+          "de": "Pansen",
+          "en": "Rumen"
+        },
+        {
+          "de": "Netzmagen",
+          "en": "Reticulum"
+        },
+        {
+          "de": "Blättermagen",
+          "en": "Omasum"
+        },
+        {
+          "de": "Labmagen",
+          "en": "Abomasum"
+        },
+        {
+          "de": "Kropf",
+          "en": "Crop"
+        }
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanationDe": "Pansen, Netzmagen, Blättermagen und Labmagen. Einen Kropf haben Vögel.",
+      "explanationEn": "Rumen, reticulum, omasum and abomasum. Birds have a crop.",
+      "origin": "seed"
+    },
+    {
+      "id": "schalen-schneidezaehne",
+      "lessonId": "schalenwild-allgemein",
+      "questionDe": "Welche Schalenwildart hat Schneidezähne im Oberkiefer?",
+      "questionEn": "Which cloven-hoofed species has upper incisors?",
+      "options": [
+        {
+          "de": "Schwarzwild",
+          "en": "Wild boar"
+        },
+        {
+          "de": "Rotwild",
+          "en": "Red deer"
+        },
+        {
+          "de": "Rehwild",
+          "en": "Roe deer"
+        },
+        {
+          "de": "Gamswild",
+          "en": "Chamois"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Nur das Schwarzwild – die Wiederkäuer haben oben eine Kauplatte.",
+      "explanationEn": "Only wild boar — ruminants have a dental pad on top.",
+      "origin": "seed"
+    },
+    {
+      "id": "schalen-hoerner",
+      "lessonId": "schalenwild-allgemein",
+      "questionDe": "Welche Arten werfen ihren Kopfschmuck nie ab?",
+      "questionEn": "Which species never cast their headgear?",
+      "options": [
+        {
+          "de": "Gamswild",
+          "en": "Chamois"
+        },
+        {
+          "de": "Steinwild",
+          "en": "Ibex"
+        },
+        {
+          "de": "Muffelwild",
+          "en": "Mouflon"
+        },
+        {
+          "de": "Damwild",
+          "en": "Fallow deer"
+        }
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanationDe": "Hornträger (Gams, Stein, Muffel) behalten ihre Hörner; Hirsche werfen das Geweih jährlich ab.",
+      "explanationEn": "Horn-bearers keep their horns; deer cast antlers every year.",
+      "origin": "seed"
+    },
+    {
+      "id": "schalen-weibl-kopfschmuck",
+      "lessonId": "schalenwild-allgemein",
+      "questionDe": "Bei welchen Arten tragen auch die weiblichen Tiere Kopfschmuck?",
+      "questionEn": "In which species do females also carry headgear?",
+      "options": [
+        {
+          "de": "Gamswild",
+          "en": "Chamois"
+        },
+        {
+          "de": "Steinwild",
+          "en": "Ibex"
+        },
+        {
+          "de": "Rotwild",
+          "en": "Red deer"
+        },
+        {
+          "de": "Rehwild",
+          "en": "Roe deer"
+        }
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanationDe": "Gams- und Steinwild; bei den Hirschen trägt nur das männliche Tier ein Geweih.",
+      "explanationEn": "Chamois and ibex; in deer only males carry antlers.",
+      "origin": "seed"
+    },
+    {
+      "id": "schalen-brunftfolge",
+      "lessonId": "schalenwild-allgemein",
+      "questionDe": "In welcher Reihenfolge brunften die Arten im Jahreslauf?",
+      "questionEn": "In what order do these species rut during the year?",
+      "options": [
+        {
+          "de": "Reh – Rot – Dam – Gams",
+          "en": "Roe – red – fallow – chamois"
+        },
+        {
+          "de": "Rot – Reh – Gams – Dam",
+          "en": "Red – roe – chamois – fallow"
+        },
+        {
+          "de": "Dam – Rot – Reh – Gams",
+          "en": "Fallow – red – roe – chamois"
+        },
+        {
+          "de": "Gams – Reh – Rot – Dam",
+          "en": "Chamois – roe – red – fallow"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Reh (Juli/Aug.), Rot (Sept./Okt.), Dam (Okt./Nov.), Gams (Nov./Dez.).",
+      "explanationEn": "Roe (Jul/Aug), red (Sep/Oct), fallow (Oct/Nov), chamois (Nov/Dec).",
+      "origin": "seed"
+    },
+    {
+      "id": "schalen-suhle",
+      "lessonId": "schalenwild-allgemein",
+      "questionDe": "Welche Arten nehmen Suhlen an?",
+      "questionEn": "Which species use wallows?",
+      "options": [
+        {
+          "de": "Rotwild",
+          "en": "Red deer"
+        },
+        {
+          "de": "Schwarzwild",
+          "en": "Wild boar"
+        },
+        {
+          "de": "Gamswild",
+          "en": "Chamois"
+        },
+        {
+          "de": "Rehwild",
+          "en": "Roe deer"
+        }
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanationDe": "Rot- und Schwarzwild suhlen sich.",
+      "explanationEn": "Red deer and wild boar wallow.",
+      "origin": "seed"
+    },
+    {
+      "id": "rot-brunft",
+      "lessonId": "rotwild",
+      "questionDe": "Wann brunftet das Rotwild in Bayern?",
+      "questionEn": "When do red deer rut in Bavaria?",
+      "options": [
+        {
+          "de": "Mitte September bis Mitte Oktober",
+          "en": "Mid-September to mid-October"
+        },
+        {
+          "de": "Mitte Juli bis Mitte August",
+          "en": "Mid-July to mid-August"
+        },
+        {
+          "de": "Oktober/November",
+          "en": "October/November"
+        },
+        {
+          "de": "Mitte November bis Mitte Dezember",
+          "en": "Mid-November to mid-December"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Rotwildbrunft: Mitte September bis Mitte Oktober, Dauer etwa 2–4 Wochen.",
+      "explanationEn": "Red deer rut: mid-Sep to mid-Oct, lasting about 2–4 weeks.",
+      "origin": "seed"
+    },
+    {
+      "id": "rot-leittier",
+      "lessonId": "rotwild",
+      "questionDe": "Wer führt ein Kahlwildrudel an?",
+      "questionEn": "Who leads a herd of hinds and calves?",
+      "options": [
+        {
+          "de": "Ein führendes Alttier",
+          "en": "A hind with a calf"
+        },
+        {
+          "de": "Der stärkste Hirsch",
+          "en": "The strongest stag"
+        },
+        {
+          "de": "Ein Schmaltier",
+          "en": "A yearling hind"
+        },
+        {
+          "de": "Ein nicht führendes Alttier",
+          "en": "A hind without a calf"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Das Leittier ist immer ein führendes Alttier.",
+      "explanationEn": "The lead hind is always a hind with a calf.",
+      "origin": "seed"
+    },
+    {
+      "id": "rot-abwurf",
+      "lessonId": "rotwild",
+      "questionDe": "Wann wirft der mittelalte Rothirsch sein Geweih ab?",
+      "questionEn": "When does a middle-aged stag cast his antlers?",
+      "options": [
+        {
+          "de": "Februar/März",
+          "en": "February/March"
+        },
+        {
+          "de": "Oktober/November",
+          "en": "October/November"
+        },
+        {
+          "de": "April/Mai",
+          "en": "April/May"
+        },
+        {
+          "de": "Im August",
+          "en": "In August"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Februar/März; alte Hirsche werfen früher ab als junge.",
+      "explanationEn": "February/March; old stags cast before young ones.",
+      "origin": "seed"
+    },
+    {
+      "id": "rot-grandeln",
+      "lessonId": "rotwild",
+      "questionDe": "Wo sitzen die Grandeln des Rotwildes?",
+      "questionEn": "Where are a red deer's Grandeln?",
+      "options": [
+        {
+          "de": "Im Oberkiefer",
+          "en": "In the upper jaw"
+        },
+        {
+          "de": "Im Unterkiefer",
+          "en": "In the lower jaw"
+        },
+        {
+          "de": "Am Geweih",
+          "en": "On the antlers"
+        },
+        {
+          "de": "An den Läufen",
+          "en": "On the legs"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Grandeln sind die Eckzähne im Oberkiefer.",
+      "explanationEn": "Grandeln are the upper canine teeth.",
+      "origin": "seed"
+    },
+    {
+      "id": "rot-kaelber",
+      "lessonId": "rotwild",
+      "questionDe": "Wie viele Kälber setzt ein Alttier in der Regel?",
+      "questionEn": "How many calves does a hind usually have?",
+      "options": [
+        {
+          "de": "Eins",
+          "en": "One"
+        },
+        {
+          "de": "Zwei",
+          "en": "Two"
+        },
+        {
+          "de": "Drei",
+          "en": "Three"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "In der Regel ein Kalb.",
+      "explanationEn": "Usually one calf.",
+      "origin": "seed"
+    },
+    {
+      "id": "rot-feistzeit",
+      "lessonId": "rotwild",
+      "questionDe": "Wann ist die Feistzeit des Rotwildes?",
+      "questionEn": "When is the red deer's fattening period (Feistzeit)?",
+      "options": [
+        {
+          "de": "Juli/August",
+          "en": "July/August"
+        },
+        {
+          "de": "Dezember/Januar",
+          "en": "December/January"
+        },
+        {
+          "de": "März/April",
+          "en": "March/April"
+        },
+        {
+          "de": "Oktober",
+          "en": "October"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Juli/August, vor der Brunft.",
+      "explanationEn": "July/August, before the rut.",
+      "origin": "seed"
+    },
+    {
+      "id": "rot-erstlingsgeweih",
+      "lessonId": "rotwild",
+      "questionDe": "Schiebt ein Hirschkalb schon im ersten Lebensjahr ein Geweih, das es noch im Winter abwirft?",
+      "questionEn": "Does a stag calf grow antlers it casts in its first winter?",
+      "options": [
+        {
+          "de": "Nein, das erste Geweih wird im Frühjahr des Folgejahres geschoben",
+          "en": "No, the first antlers grow the following spring"
+        },
+        {
+          "de": "Ja, wie das Rehbockkitz",
+          "en": "Yes, like the roe buck kid"
+        },
+        {
+          "de": "Nur in milden Wintern",
+          "en": "Only in mild winters"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Anders als beim Rehbock gibt es kein Erstlingsgeweih im ersten Lebensjahr.",
+      "explanationEn": "Unlike the roe buck, there are no first-year antlers.",
+      "origin": "seed"
+    },
+    {
+      "id": "rot-alter-hirsch",
+      "lessonId": "rotwild",
+      "questionDe": "Welche Merkmale passen zu einem alten Hirsch?",
+      "questionEn": "Which traits fit an old stag?",
+      "options": [
+        {
+          "de": "Heimlich und vorsichtig",
+          "en": "Secretive and cautious"
+        },
+        {
+          "de": "Kurzer, starker Träger",
+          "en": "Short, thick neck"
+        },
+        {
+          "de": "Starker Widerrist",
+          "en": "Strong withers"
+        },
+        {
+          "de": "Schlanker, langer Träger",
+          "en": "Slim, long neck"
+        }
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanationDe": "Alte Hirsche sind heimlich, mit kurzem starkem Träger und starkem Widerrist.",
+      "explanationEn": "Old stags are secretive, with a short thick neck and strong withers.",
+      "origin": "seed"
+    },
+    {
+      "id": "dam-brunft",
+      "lessonId": "damwild-und-muffelwild",
+      "questionDe": "Wann brunftet das Damwild?",
+      "questionEn": "When do fallow deer rut?",
+      "options": [
+        {
+          "de": "Oktober/November",
+          "en": "October/November"
+        },
+        {
+          "de": "Juli/August",
+          "en": "July/August"
+        },
+        {
+          "de": "September",
+          "en": "September"
+        },
+        {
+          "de": "Dezember/Januar",
+          "en": "December/January"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Damwild brunftet im Oktober/November.",
+      "explanationEn": "Fallow deer rut in October/November.",
+      "origin": "seed"
+    },
+    {
+      "id": "dam-abwurf",
+      "lessonId": "damwild-und-muffelwild",
+      "questionDe": "Wann wirft der Damschaufler ab?",
+      "questionEn": "When does the fallow buck cast his antlers?",
+      "options": [
+        {
+          "de": "April/Mai",
+          "en": "April/May"
+        },
+        {
+          "de": "Februar/März",
+          "en": "February/March"
+        },
+        {
+          "de": "Oktober/November",
+          "en": "October/November"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Im April/Mai, deutlich später als der Rothirsch.",
+      "explanationEn": "In April/May, clearly later than the red stag.",
+      "origin": "seed"
+    },
+    {
+      "id": "dam-brunftkuhle",
+      "lessonId": "damwild-und-muffelwild",
+      "questionDe": "Welches Wild schlägt Brunftkuhlen?",
+      "questionEn": "Which animal scrapes rutting pits?",
+      "options": [
+        {
+          "de": "Damschaufler",
+          "en": "Fallow buck"
+        },
+        {
+          "de": "Rehbock",
+          "en": "Roe buck"
+        },
+        {
+          "de": "Keiler",
+          "en": "Wild boar"
+        },
+        {
+          "de": "Gamsbock",
+          "en": "Chamois buck"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Der Damschaufler schlägt Brunftkuhlen.",
+      "explanationEn": "The fallow buck scrapes rutting pits.",
+      "origin": "seed"
+    },
+    {
+      "id": "muffel-brunft",
+      "lessonId": "damwild-und-muffelwild",
+      "questionDe": "Wann ist die Brunft des Muffelwildes?",
+      "questionEn": "When is the mouflon rut?",
+      "options": [
+        {
+          "de": "Oktober bis Dezember",
+          "en": "October to December"
+        },
+        {
+          "de": "Juli/August",
+          "en": "July/August"
+        },
+        {
+          "de": "Februar/März",
+          "en": "February/March"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Oktober/November/Dezember.",
+      "explanationEn": "October/November/December.",
+      "origin": "seed"
+    },
+    {
+      "id": "muffel-aussagen",
+      "lessonId": "damwild-und-muffelwild",
+      "questionDe": "Welche Aussagen zum Muffelwild sind richtig?",
+      "questionEn": "Which statements about mouflon are correct?",
+      "options": [
+        {
+          "de": "Es gehört zu den Hornträgern",
+          "en": "It is a horn-bearer"
+        },
+        {
+          "de": "Es kann Schälschäden verursachen",
+          "en": "It can cause bark-stripping damage"
+        },
+        {
+          "de": "Der Widder wirft jährlich ab",
+          "en": "The ram casts his horns yearly"
+        },
+        {
+          "de": "Es kann sich mit Hausschafen kreuzen",
+          "en": "It can hybridise with domestic sheep"
+        }
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "explanationDe": "Muffel sind Wildschafe mit bleibenden Hörnern; sie schälen und kreuzen sich mit Hausschafen.",
+      "explanationEn": "Mouflon are wild sheep with permanent horns; they strip bark and hybridise with domestic sheep.",
+      "origin": "seed"
+    },
+    {
+      "id": "gams-brunft",
+      "lessonId": "gamswild",
+      "questionDe": "Wann brunftet das Gamswild?",
+      "questionEn": "When do chamois rut?",
+      "options": [
+        {
+          "de": "Mitte November bis Mitte Dezember",
+          "en": "Mid-November to mid-December"
+        },
+        {
+          "de": "Mitte September bis Mitte Oktober",
+          "en": "Mid-September to mid-October"
+        },
+        {
+          "de": "Juli/August",
+          "en": "July/August"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Mitte November bis Mitte Dezember – als letzte Schalenwildart.",
+      "explanationEn": "Mid-November to mid-December — last of the cloven-hoofed species.",
+      "origin": "seed"
+    },
+    {
+      "id": "gams-alter",
+      "lessonId": "gamswild",
+      "questionDe": "Woran bestimmt man das Alter eines erlegten Gamses am sichersten?",
+      "questionEn": "What is the surest way to age a shot chamois?",
+      "options": [
+        {
+          "de": "An den Jahresringen der Krucken",
+          "en": "By the growth rings on the horns"
+        },
+        {
+          "de": "An der Länge der Krucken",
+          "en": "By horn length"
+        },
+        {
+          "de": "Am Körpergewicht",
+          "en": "By body weight"
+        },
+        {
+          "de": "An der Fellfarbe",
+          "en": "By coat colour"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Die Jahresringe an den Krucken zeigen das Alter.",
+      "explanationEn": "The growth rings on the horns show the age.",
+      "origin": "seed"
+    },
+    {
+      "id": "gams-brunftfeigen",
+      "lessonId": "gamswild",
+      "questionDe": "Wo sitzen die Brunftfeigen des Gamsbocks?",
+      "questionEn": "Where are the chamois buck's rut glands?",
+      "options": [
+        {
+          "de": "Hinter den Krucken",
+          "en": "Behind the horns"
+        },
+        {
+          "de": "An den Hinterläufen",
+          "en": "On the hind legs"
+        },
+        {
+          "de": "Unter dem Kinn",
+          "en": "Under the chin"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Hinter den Krucken.",
+      "explanationEn": "Behind the horns.",
+      "origin": "seed"
+    },
+    {
+      "id": "gams-tragzeit",
+      "lessonId": "gamswild",
+      "questionDe": "Wie lange dauert die Tragzeit beim Gamswild?",
+      "questionEn": "How long is chamois gestation?",
+      "options": [
+        {
+          "de": "Rund 6 Monate",
+          "en": "About 6 months"
+        },
+        {
+          "de": "Rund 3 Monate",
+          "en": "About 3 months"
+        },
+        {
+          "de": "Rund 9 Monate",
+          "en": "About 9 months"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Etwa sechs Monate: Brunft Nov./Dez., Setzzeit Mai/Juni.",
+      "explanationEn": "About six months: rut Nov/Dec, birth May/June.",
+      "origin": "seed"
+    },
+    {
+      "id": "gams-scharwild",
+      "lessonId": "gamswild",
+      "questionDe": "Wer führt das Scharwild beim Gamswild?",
+      "questionEn": "Who leads a chamois group (Scharwild)?",
+      "options": [
+        {
+          "de": "Eine Geiß",
+          "en": "A female"
+        },
+        {
+          "de": "Der älteste Bock",
+          "en": "The oldest buck"
+        },
+        {
+          "de": "Ein Jährling",
+          "en": "A yearling"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Eine Geiß führt das Scharwild.",
+      "explanationEn": "A female leads the group.",
+      "origin": "seed"
+    },
+    {
+      "id": "reh-abwurf-alt",
+      "lessonId": "rehwild",
+      "questionDe": "Wann wirft der ältere Rehbock in der Regel ab?",
+      "questionEn": "When does an older roe buck usually cast his antlers?",
+      "options": [
+        {
+          "de": "Oktober/November",
+          "en": "October/November"
+        },
+        {
+          "de": "Februar/März",
+          "en": "February/March"
+        },
+        {
+          "de": "Mai/Juni",
+          "en": "May/June"
+        },
+        {
+          "de": "August",
+          "en": "August"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Ältere Böcke werfen im Oktober/November ab, jüngere später.",
+      "explanationEn": "Older bucks cast in October/November, younger ones later.",
+      "origin": "seed"
+    },
+    {
+      "id": "reh-verfegt",
+      "lessonId": "rehwild",
+      "questionDe": "Wann hat ein älterer Rehbock gewöhnlich fertig verfegt?",
+      "questionEn": "When has an older roe buck usually finished fraying?",
+      "options": [
+        {
+          "de": "Im April",
+          "en": "In April"
+        },
+        {
+          "de": "Im Juni",
+          "en": "In June"
+        },
+        {
+          "de": "Im August",
+          "en": "In August"
+        },
+        {
+          "de": "Im Januar",
+          "en": "In January"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Der ältere Bock fegt im März/April und ist im April fertig; Jährlinge später.",
+      "explanationEn": "Older bucks fray in March/April and finish in April; yearlings later.",
+      "origin": "seed"
+    },
+    {
+      "id": "reh-erstlingsgehoern",
+      "lessonId": "rehwild",
+      "questionDe": "Wann schiebt das Bockkitz sein Erstlingsgehörn und wann wirft es ab?",
+      "questionEn": "When does the buck kid grow and cast its first antlers?",
+      "options": [
+        {
+          "de": "Schieben im ersten Herbst, Abwurf im Januar/Februar",
+          "en": "Grows in its first autumn, casts in Jan/Feb"
+        },
+        {
+          "de": "Schieben im zweiten Frühjahr, Abwurf im Oktober",
+          "en": "Grows in its second spring, casts in Oct"
+        },
+        {
+          "de": "Es hat kein Erstlingsgehörn",
+          "en": "It has no first antlers"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Das Erstlingsgehörn wird im ersten Lebensjahr geschoben und im Januar/Februar abgeworfen.",
+      "explanationEn": "First antlers grow in the first year and are cast in Jan/Feb.",
+      "origin": "seed"
+    },
+    {
+      "id": "reh-saeugen",
+      "lessonId": "rehwild",
+      "questionDe": "Wie lange werden Rehkitze gesäugt?",
+      "questionEn": "How long are roe kids suckled?",
+      "options": [
+        {
+          "de": "5 bis 6 Monate",
+          "en": "5 to 6 months"
+        },
+        {
+          "de": "4 bis 6 Wochen",
+          "en": "4 to 6 weeks"
+        },
+        {
+          "de": "10 bis 12 Monate",
+          "en": "10 to 12 months"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Etwa fünf bis sechs Monate.",
+      "explanationEn": "About five to six months.",
+      "origin": "seed"
+    },
+    {
+      "id": "reh-duftdruesen",
+      "lessonId": "rehwild",
+      "questionDe": "Wo hat der Rehbock Duftdrüsen zur Markierung?",
+      "questionEn": "Where does the roe buck have scent glands for marking?",
+      "options": [
+        {
+          "de": "Unter der Stirnlocke",
+          "en": "Under the forelock"
+        },
+        {
+          "de": "An den Hinterläufen",
+          "en": "On the hind legs"
+        },
+        {
+          "de": "Hinter den Ohren",
+          "en": "Behind the ears"
+        },
+        {
+          "de": "Am Spiegel",
+          "en": "At the rump patch"
+        }
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanationDe": "Stirndrüse unter der Stirnlocke und Drüsen an den Hinterläufen.",
+      "explanationEn": "Forehead gland under the forelock and glands on the hind legs.",
+      "origin": "seed"
+    },
+    {
+      "id": "reh-ernaehrung-gehoern",
+      "lessonId": "rehwild",
+      "questionDe": "Was bestimmt vor allem die Stärke des Rehbockgehörns?",
+      "questionEn": "What mainly determines how strong a roe buck's antlers are?",
+      "options": [
+        {
+          "de": "Die Ernährung während des Wachstums",
+          "en": "Nutrition while they grow"
+        },
+        {
+          "de": "Die Länge der Brunft",
+          "en": "The length of the rut"
+        },
+        {
+          "de": "Die Farbe des Haarkleids",
+          "en": "Coat colour"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Vor allem die Ernährung während des Gehörnwachstums.",
+      "explanationEn": "Mainly nutrition during antler growth.",
+      "origin": "seed"
+    },
+    {
+      "id": "schwarz-streifen",
+      "lessonId": "schwarzwild",
+      "questionDe": "Wann verlieren Frischlinge ihre Streifen?",
+      "questionEn": "When do wild boar piglets lose their stripes?",
+      "options": [
+        {
+          "de": "Mit etwa 4 bis 5 Monaten",
+          "en": "At about 4 to 5 months"
+        },
+        {
+          "de": "Mit etwa 4 Wochen",
+          "en": "At about 4 weeks"
+        },
+        {
+          "de": "Mit etwa 12 Monaten",
+          "en": "At about 12 months"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Mit rund vier bis fünf Monaten.",
+      "explanationEn": "At around four to five months.",
+      "origin": "seed"
+    },
+    {
+      "id": "schwarz-mais",
+      "lessonId": "schwarzwild",
+      "questionDe": "Welche Folgen kann viel Mais in der Nahrung des Schwarzwildes haben?",
+      "questionEn": "What can a lot of maize in a wild boar's diet lead to?",
+      "options": [
+        {
+          "de": "Frühere Geschlechtsreife",
+          "en": "Earlier sexual maturity"
+        },
+        {
+          "de": "Mehr überlebende Frischlinge je Wurf",
+          "en": "More surviving piglets per litter"
+        },
+        {
+          "de": "Kleinere Rotten",
+          "en": "Smaller sounders"
+        },
+        {
+          "de": "Spätere Rauschzeit",
+          "en": "Later mating"
+        }
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanationDe": "Gute Ernährung beschleunigt die Geschlechtsreife und erhöht die Zuwachsrate.",
+      "explanationEn": "Good food speeds maturity and raises the growth rate.",
+      "origin": "seed"
+    },
+    {
+      "id": "schwarz-sinne",
+      "lessonId": "schwarzwild",
+      "questionDe": "Welcher Sinn ist beim Schwarzwild am schwächsten?",
+      "questionEn": "Which sense is weakest in wild boar?",
+      "options": [
+        {
+          "de": "Sehen",
+          "en": "Sight"
+        },
+        {
+          "de": "Riechen",
+          "en": "Smell"
+        },
+        {
+          "de": "Hören",
+          "en": "Hearing"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Schwarzwild sieht schlecht, riecht und hört aber sehr gut.",
+      "explanationEn": "Wild boar see poorly but smell and hear very well.",
+      "origin": "seed"
+    },
+    {
+      "id": "schwarz-warnlaut",
+      "lessonId": "schwarzwild",
+      "questionDe": "Wie heißt das Warnsignal der Bache?",
+      "questionEn": "What is the sow's alarm signal called?",
+      "options": [
+        {
+          "de": "Blasen",
+          "en": "Blasen (snorting)"
+        },
+        {
+          "de": "Schrecken",
+          "en": "Schrecken (barking)"
+        },
+        {
+          "de": "Pfeifen",
+          "en": "Whistling"
+        },
+        {
+          "de": "Mahnen",
+          "en": "Mahnen"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Schwarzwild warnt durch Blasen; Schrecken und Mahnen sind Laute des Rotwildes.",
+      "explanationEn": "Wild boar warn by snorting; barking and Mahnen are red deer calls.",
+      "origin": "seed"
+    },
+    {
+      "id": "schwarz-frischlingsbache",
+      "lessonId": "schwarzwild",
+      "questionDe": "Können Frischlingsbachen schon im ersten Lebensjahr beschlagen werden?",
+      "questionEn": "Can piglet sows be mated in their first year?",
+      "options": [
+        {
+          "de": "Ja, bei guter körperlicher Verfassung",
+          "en": "Yes, if in good body condition"
+        },
+        {
+          "de": "Nein, frühestens mit drei Jahren",
+          "en": "No, at three years at the earliest"
+        },
+        {
+          "de": "Nur in Gattern",
+          "en": "Only in enclosures"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Ja – entscheidend ist die körperliche Verfassung, nicht das Alter.",
+      "explanationEn": "Yes — body condition matters more than age.",
+      "origin": "seed"
+    },
+    {
+      "id": "hase-tragzeit",
+      "lessonId": "hasen-kaninchen-murmeltier",
+      "questionDe": "Wie lange dauert die Tragzeit des Feldhasen?",
+      "questionEn": "How long is the brown hare's gestation?",
+      "options": [
+        {
+          "de": "42 bis 44 Tage",
+          "en": "42 to 44 days"
+        },
+        {
+          "de": "Etwa 4 Wochen",
+          "en": "About 4 weeks"
+        },
+        {
+          "de": "Etwa 3 Monate",
+          "en": "About 3 months"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "42–44 Tage; beim Kaninchen etwa 4 Wochen.",
+      "explanationEn": "42–44 days; rabbit about 4 weeks.",
+      "origin": "seed"
+    },
+    {
+      "id": "hase-saetze",
+      "lessonId": "hasen-kaninchen-murmeltier",
+      "questionDe": "Wie oft setzt die Feldhäsin normalerweise im Jahr?",
+      "questionEn": "How many times a year does a brown hare usually give birth?",
+      "options": [
+        {
+          "de": "Dreimal",
+          "en": "Three times"
+        },
+        {
+          "de": "Einmal",
+          "en": "Once"
+        },
+        {
+          "de": "Siebenmal",
+          "en": "Seven times"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Meist dreimal, mit je 2–4 Junghasen.",
+      "explanationEn": "Usually three times, 2–4 leverets each.",
+      "origin": "seed"
+    },
+    {
+      "id": "kanin-tragzeit",
+      "lessonId": "hasen-kaninchen-murmeltier",
+      "questionDe": "Welche Art hat eine Tragzeit von rund vier Wochen?",
+      "questionEn": "Which species has a gestation of about four weeks?",
+      "options": [
+        {
+          "de": "Wildkaninchen",
+          "en": "Wild rabbit"
+        },
+        {
+          "de": "Feldhase",
+          "en": "Brown hare"
+        },
+        {
+          "de": "Fuchs",
+          "en": "Fox"
+        },
+        {
+          "de": "Dachs",
+          "en": "Badger"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Das Wildkaninchen.",
+      "explanationEn": "The wild rabbit.",
+      "origin": "seed"
+    },
+    {
+      "id": "kanin-lebensraum",
+      "lessonId": "hasen-kaninchen-murmeltier",
+      "questionDe": "Welche Aussagen zum Wildkaninchen sind richtig?",
+      "questionEn": "Which statements about wild rabbits are correct?",
+      "options": [
+        {
+          "de": "Es bevorzugt sandige Böden",
+          "en": "It prefers sandy soils"
+        },
+        {
+          "de": "Es lebt gesellig in Baukolonien",
+          "en": "It lives socially in warrens"
+        },
+        {
+          "de": "Es lebt vor allem im Hochgebirge",
+          "en": "It lives mainly in high mountains"
+        },
+        {
+          "de": "Es wirft drei- bis fünfmal im Jahr",
+          "en": "It has three to five litters a year"
+        }
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "explanationDe": "Kaninchen mögen sandige, tiefe Lagen, leben in Kolonien und vermehren sich stark.",
+      "explanationEn": "Rabbits like sandy lowland, live in colonies and breed fast.",
+      "origin": "seed"
+    },
+    {
+      "id": "murmel-nahrung",
+      "lessonId": "hasen-kaninchen-murmeltier",
+      "questionDe": "Wovon ernährt sich das Murmeltier hauptsächlich?",
+      "questionEn": "What does the marmot mainly eat?",
+      "options": [
+        {
+          "de": "Kräuter und Gräser",
+          "en": "Herbs and grasses"
+        },
+        {
+          "de": "Insekten",
+          "en": "Insects"
+        },
+        {
+          "de": "Wurzeln und Pilze",
+          "en": "Roots and fungi"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Hauptsächlich Kräuter und Gräser.",
+      "explanationEn": "Mainly herbs and grasses.",
+      "origin": "seed"
+    },
+    {
+      "id": "raub-fuenf-krallen",
+      "lessonId": "raubwild-luchs-wildkatze",
+      "questionDe": "Welche Arten hinterlassen ein Trittsiegel mit fünf Krallenabdrücken?",
+      "questionEn": "Which species leave a print with five claw marks?",
+      "options": [
+        {
+          "de": "Steinmarder",
+          "en": "Stone marten"
+        },
+        {
+          "de": "Fischotter",
+          "en": "Otter"
+        },
+        {
+          "de": "Fuchs",
+          "en": "Fox"
+        },
+        {
+          "de": "Wildkatze",
+          "en": "Wildcat"
+        }
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanationDe": "Marderartige drücken fünf Zehen ab; der Fuchs vier, Katzen ziehen die Krallen ein.",
+      "explanationEn": "Mustelids print five toes; foxes four; cats retract their claws.",
+      "origin": "seed"
+    },
+    {
+      "id": "raub-luchs",
+      "lessonId": "raubwild-luchs-wildkatze",
+      "questionDe": "Welche Aussagen zum Luchs sind richtig?",
+      "questionEn": "Which statements about the lynx are correct?",
+      "options": [
+        {
+          "de": "Er tötet meist durch Kehlbiss",
+          "en": "It usually kills with a throat bite"
+        },
+        {
+          "de": "Er kehrt oft zu größeren Rissen zurück",
+          "en": "It often returns to larger kills"
+        },
+        {
+          "de": "Sein Streifgebiet umfasst mehrere tausend Hektar",
+          "en": "Its range covers several thousand hectares"
+        },
+        {
+          "de": "Er lebt in Rudeln",
+          "en": "It lives in packs"
+        }
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanationDe": "Der Luchs ist ein Einzelgänger mit großem Streifgebiet.",
+      "explanationEn": "The lynx is solitary with a large home range.",
+      "origin": "seed"
+    },
+    {
+      "id": "raub-luchs-bayern",
+      "lessonId": "raubwild-luchs-wildkatze",
+      "questionDe": "Wo lebt in Bayern eine stabile Luchspopulation?",
+      "questionEn": "Where in Bavaria is there a stable lynx population?",
+      "options": [
+        {
+          "de": "Im Bayerischen Wald",
+          "en": "In the Bavarian Forest"
+        },
+        {
+          "de": "Im Allgäu",
+          "en": "In the Allgäu"
+        },
+        {
+          "de": "In Unterfranken",
+          "en": "In Lower Franconia"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Im Bayerischen Wald.",
+      "explanationEn": "In the Bavarian Forest.",
+      "origin": "seed"
+    },
+    {
+      "id": "raub-wildkatze",
+      "lessonId": "raubwild-luchs-wildkatze",
+      "questionDe": "Woran erkennt man eine Wildkatze?",
+      "questionEn": "How do you recognise a wildcat?",
+      "options": [
+        {
+          "de": "Buschiger, stumpf endender Schwanz",
+          "en": "Bushy, blunt-ended tail"
+        },
+        {
+          "de": "Dunkle Ringe in der hinteren Schwanzhälfte",
+          "en": "Dark rings on the rear half of the tail"
+        },
+        {
+          "de": "Spitz zulaufender, dünner Schwanz",
+          "en": "Thin, pointed tail"
+        },
+        {
+          "de": "Weiße Pfoten",
+          "en": "White paws"
+        }
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanationDe": "Der dicke, stumpfe Schwanz mit dunklen Ringen ist typisch.",
+      "explanationEn": "The thick, blunt, ringed tail is typical.",
+      "origin": "seed"
+    },
+    {
+      "id": "fuchs-ranz",
+      "lessonId": "fuchs",
+      "questionDe": "Wann ist die Ranzzeit des Fuchses?",
+      "questionEn": "When is the fox's mating season?",
+      "options": [
+        {
+          "de": "Januar/Februar",
+          "en": "January/February"
+        },
+        {
+          "de": "Juli/August",
+          "en": "July/August"
+        },
+        {
+          "de": "Oktober/November",
+          "en": "October/November"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Januar/Februar.",
+      "explanationEn": "January/February.",
+      "origin": "seed"
+    },
+    {
+      "id": "fuchs-welpen",
+      "lessonId": "fuchs",
+      "questionDe": "Aus wie vielen Welpen besteht ein Fuchsgeheck gewöhnlich?",
+      "questionEn": "How many cubs are usually in a fox litter?",
+      "options": [
+        {
+          "de": "4 bis 6",
+          "en": "4 to 6"
+        },
+        {
+          "de": "1 bis 2",
+          "en": "1 to 2"
+        },
+        {
+          "de": "10 bis 12",
+          "en": "10 to 12"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Meist 4–6 Welpen.",
+      "explanationEn": "Usually 4–6 cubs.",
+      "origin": "seed"
+    },
+    {
+      "id": "fuchs-viole",
+      "lessonId": "fuchs",
+      "questionDe": "Wo sitzt die Viole des Fuchses?",
+      "questionEn": "Where is the fox's Viole?",
+      "options": [
+        {
+          "de": "Oben an der Luntenwurzel",
+          "en": "On top of the tail base"
+        },
+        {
+          "de": "Unter dem Kinn",
+          "en": "Under the chin"
+        },
+        {
+          "de": "Zwischen den Zehen",
+          "en": "Between the toes"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Auf der Oberseite der Lunte nahe der Wurzel.",
+      "explanationEn": "On the upper side of the tail near its base.",
+      "origin": "seed"
+    },
+    {
+      "id": "fuchs-tragzeit",
+      "lessonId": "fuchs",
+      "questionDe": "Wie lange ist die Fähe tragend?",
+      "questionEn": "How long is the vixen pregnant?",
+      "options": [
+        {
+          "de": "Ca. zwei Monate",
+          "en": "About two months"
+        },
+        {
+          "de": "Ca. vier Monate",
+          "en": "About four months"
+        },
+        {
+          "de": "Ca. drei Wochen",
+          "en": "About three weeks"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Rund zwei Monate.",
+      "explanationEn": "About two months.",
+      "origin": "seed"
+    },
+    {
+      "id": "fuchs-geheck-aufloesung",
+      "lessonId": "fuchs",
+      "questionDe": "Wann löst sich das Fuchsgeheck in der Regel auf?",
+      "questionEn": "When does a fox family usually break up?",
+      "options": [
+        {
+          "de": "Juli/August",
+          "en": "July/August"
+        },
+        {
+          "de": "März/April",
+          "en": "March/April"
+        },
+        {
+          "de": "Dezember/Januar",
+          "en": "December/January"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Im Juli/August.",
+      "explanationEn": "In July/August.",
+      "origin": "seed"
+    },
+    {
+      "id": "marder-steinmarder",
+      "lessonId": "marder-und-dachs",
+      "questionDe": "Welcher Marder hat einen weißen, gegabelten Kehlfleck?",
+      "questionEn": "Which marten has a white, forked throat patch?",
+      "options": [
+        {
+          "de": "Steinmarder",
+          "en": "Stone marten"
+        },
+        {
+          "de": "Baummarder",
+          "en": "Pine marten"
+        },
+        {
+          "de": "Iltis",
+          "en": "Polecat"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Steinmarder: weiß und gegabelt; Baummarder: gelblich, ungegabelt.",
+      "explanationEn": "Stone marten: white and forked; pine marten: yellowish, unforked.",
+      "origin": "seed"
+    },
+    {
+      "id": "marder-baummarder",
+      "lessonId": "marder-und-dachs",
+      "questionDe": "Welche Merkmale hat der Baummarder?",
+      "questionEn": "What are the pine marten's features?",
+      "options": [
+        {
+          "de": "Gelblicher Kehlfleck",
+          "en": "Yellowish throat patch"
+        },
+        {
+          "de": "Behaarte Sohlen",
+          "en": "Hairy soles"
+        },
+        {
+          "de": "Nicht gegabelter Kehlfleck",
+          "en": "Unforked throat patch"
+        },
+        {
+          "de": "Lebt bevorzugt in Scheunen",
+          "en": "Prefers barns"
+        }
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanationDe": "Der Baummarder lebt im Wald; in Scheunen findet man den Steinmarder.",
+      "explanationEn": "The pine marten lives in forests; stone martens use barns.",
+      "origin": "seed"
+    },
+    {
+      "id": "marder-familie",
+      "lessonId": "marder-und-dachs",
+      "questionDe": "Welche Arten gehören zu den Marderartigen?",
+      "questionEn": "Which species are mustelids?",
+      "options": [
+        {
+          "de": "Dachs",
+          "en": "Badger"
+        },
+        {
+          "de": "Fischotter",
+          "en": "Otter"
+        },
+        {
+          "de": "Hermelin",
+          "en": "Stoat"
+        },
+        {
+          "de": "Waschbär",
+          "en": "Raccoon"
+        },
+        {
+          "de": "Marderhund",
+          "en": "Raccoon dog"
+        }
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanationDe": "Waschbär und Marderhund gehören nicht dazu.",
+      "explanationEn": "Raccoon and raccoon dog are not mustelids.",
+      "origin": "seed"
+    },
+    {
+      "id": "marder-ranz",
+      "lessonId": "marder-und-dachs",
+      "questionDe": "Wann ist die Ranzzeit von Baum- und Steinmarder?",
+      "questionEn": "When do pine and stone martens mate?",
+      "options": [
+        {
+          "de": "Juli/August",
+          "en": "July/August"
+        },
+        {
+          "de": "Januar/Februar",
+          "en": "January/February"
+        },
+        {
+          "de": "April/Mai",
+          "en": "April/May"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Juli/August – gleichzeitig mit der Rehbrunft und der Dachsranz.",
+      "explanationEn": "July/August — same time as the roe rut and the badger.",
+      "origin": "seed"
+    },
+    {
+      "id": "marder-dachs-trittsiegel",
+      "lessonId": "marder-und-dachs",
+      "questionDe": "Welche Merkmale hat das Trittsiegel des Dachses?",
+      "questionEn": "What does a badger's print look like?",
+      "options": [
+        {
+          "de": "Fünf Zehen sichtbar",
+          "en": "Five toes visible"
+        },
+        {
+          "de": "Lange Krallenabdrücke",
+          "en": "Long claw marks"
+        },
+        {
+          "de": "Vier Zehen ohne Krallen",
+          "en": "Four toes without claws"
+        },
+        {
+          "de": "Schwimmhäute",
+          "en": "Webbing"
+        }
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanationDe": "Der Dachs drückt fünf Zehen mit langen Nägeln ab.",
+      "explanationEn": "The badger prints five toes with long claws.",
+      "origin": "seed"
+    },
+    {
+      "id": "marder-hermelin",
+      "lessonId": "marder-und-dachs",
+      "questionDe": "Was trifft auf das Hermelin zu?",
+      "questionEn": "What is true of the stoat?",
+      "options": [
+        {
+          "de": "Die Schwanzspitze ist auch im Sommer schwarz",
+          "en": "The tail tip is black in summer too"
+        },
+        {
+          "de": "Es frisst vor allem kleine Nager",
+          "en": "It eats mainly small rodents"
+        },
+        {
+          "de": "Es lebt bevorzugt in großen Wäldern",
+          "en": "It prefers large forests"
+        },
+        {
+          "de": "Es wird im Winter weiß",
+          "en": "It turns white in winter"
+        }
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "explanationDe": "Das Hermelin lebt eher in waldarmer Landschaft.",
+      "explanationEn": "The stoat prefers open country with little woodland.",
+      "origin": "seed"
+    },
+    {
+      "id": "neo-marderhund",
+      "lessonId": "neozoen",
+      "questionDe": "Welche Aussagen zum Marderhund sind richtig?",
+      "questionEn": "Which statements about the raccoon dog are correct?",
+      "options": [
+        {
+          "de": "Er ist ein Allesfresser",
+          "en": "It is an omnivore"
+        },
+        {
+          "de": "Er ist überwiegend nachtaktiv",
+          "en": "It is mostly nocturnal"
+        },
+        {
+          "de": "Er gehört zu den Hundeartigen",
+          "en": "It belongs to the dog family"
+        },
+        {
+          "de": "Er gehört zu den Marderartigen",
+          "en": "It is a mustelid"
+        }
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanationDe": "Trotz des Namens ist er ein Hundeartiger.",
+      "explanationEn": "Despite its name it belongs to the dog family.",
+      "origin": "seed"
+    },
+    {
+      "id": "neo-nutria",
+      "lessonId": "neozoen",
+      "questionDe": "Woran unterscheidet sich der Sumpfbiber vom Biber?",
+      "questionEn": "How does the coypu differ from the beaver?",
+      "options": [
+        {
+          "de": "Runder, beschuppter Schwanz",
+          "en": "Round, scaly tail"
+        },
+        {
+          "de": "Flache, breite Kelle",
+          "en": "Flat, broad tail"
+        },
+        {
+          "de": "Er ist kein Nagetier",
+          "en": "It is not a rodent"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Die Nutria hat einen runden Schwanz und ist ebenfalls ein Nagetier.",
+      "explanationEn": "The coypu has a round tail and is also a rodent.",
+      "origin": "seed"
+    },
+    {
+      "id": "neo-entengelege",
+      "lessonId": "neozoen",
+      "questionDe": "Welche Arten können den Bruterfolg von Enten mindern?",
+      "questionEn": "Which species can reduce duck breeding success?",
+      "options": [
+        {
+          "de": "Waschbär",
+          "en": "Raccoon"
+        },
+        {
+          "de": "Mink",
+          "en": "Mink"
+        },
+        {
+          "de": "Iltis",
+          "en": "Polecat"
+        },
+        {
+          "de": "Murmeltier",
+          "en": "Marmot"
+        }
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanationDe": "Waschbär, Mink und Iltis erbeuten Gelege und Küken.",
+      "explanationEn": "Raccoon, mink and polecat take eggs and ducklings.",
+      "origin": "seed"
+    },
+    {
+      "id": "feder-harnblase",
+      "lessonId": "federwild-allgemein",
+      "questionDe": "Welches Organ fehlt allen Vögeln im Vergleich zum Haarwild?",
+      "questionEn": "Which organ do all birds lack compared with furred game?",
+      "options": [
+        {
+          "de": "Die Harnblase",
+          "en": "The urinary bladder"
+        },
+        {
+          "de": "Die Leber",
+          "en": "The liver"
+        },
+        {
+          "de": "Die Nieren",
+          "en": "The kidneys"
+        },
+        {
+          "de": "Die Milz",
+          "en": "The spleen"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Vögel haben keine Harnblase.",
+      "explanationEn": "Birds have no urinary bladder.",
+      "origin": "seed"
+    },
+    {
+      "id": "feder-zugvoegel",
+      "lessonId": "federwild-allgemein",
+      "questionDe": "Welche Arten sind überwiegend Zugvögel?",
+      "questionEn": "Which species are mainly migratory?",
+      "options": [
+        {
+          "de": "Wachtel",
+          "en": "Quail"
+        },
+        {
+          "de": "Waldschnepfe",
+          "en": "Woodcock"
+        },
+        {
+          "de": "Wespenbussard",
+          "en": "Honey buzzard"
+        },
+        {
+          "de": "Rebhuhn",
+          "en": "Grey partridge"
+        },
+        {
+          "de": "Fasan",
+          "en": "Pheasant"
+        }
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanationDe": "Rebhuhn und Fasan sind Standvögel.",
+      "explanationEn": "Partridge and pheasant are residents.",
+      "origin": "seed"
+    },
+    {
+      "id": "feder-bodenbrueter",
+      "lessonId": "federwild-allgemein",
+      "questionDe": "Welche Arten sind Bodenbrüter?",
+      "questionEn": "Which species nest on the ground?",
+      "options": [
+        {
+          "de": "Rebhuhn",
+          "en": "Grey partridge"
+        },
+        {
+          "de": "Waldschnepfe",
+          "en": "Woodcock"
+        },
+        {
+          "de": "Wiesenweihe",
+          "en": "Montagu's harrier"
+        },
+        {
+          "de": "Ringeltaube",
+          "en": "Wood pigeon"
+        }
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanationDe": "Die Ringeltaube brütet auf Bäumen.",
+      "explanationEn": "The wood pigeon nests in trees.",
+      "origin": "seed"
+    },
+    {
+      "id": "feder-hoehlenbrueter",
+      "lessonId": "federwild-allgemein",
+      "questionDe": "Welche Arten brüten in Höhlen?",
+      "questionEn": "Which species nest in cavities?",
+      "options": [
+        {
+          "de": "Hohltaube",
+          "en": "Stock dove"
+        },
+        {
+          "de": "Schellente",
+          "en": "Goldeneye"
+        },
+        {
+          "de": "Gänsesäger",
+          "en": "Goosander"
+        },
+        {
+          "de": "Stockente",
+          "en": "Mallard"
+        }
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanationDe": "Hohltaube, Schellente und Gänsesäger sind Höhlenbrüter.",
+      "explanationEn": "Stock dove, goldeneye and goosander nest in cavities.",
+      "origin": "seed"
+    },
+    {
+      "id": "feder-magensteine",
+      "lessonId": "federwild-allgemein",
+      "questionDe": "Wozu dienen Magensteine?",
+      "questionEn": "What are gizzard stones for?",
+      "options": [
+        {
+          "de": "Zum Zerkleinern der Nahrung im Magen",
+          "en": "Grinding food in the stomach"
+        },
+        {
+          "de": "Als Ballast beim Tauchen",
+          "en": "Ballast for diving"
+        },
+        {
+          "de": "Als Mineralstoffquelle für die Eischale",
+          "en": "As a mineral source for eggshells"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Sie zermahlen die Nahrung im Muskelmagen.",
+      "explanationEn": "They grind food in the gizzard.",
+      "origin": "seed"
+    },
+    {
+      "id": "huhn-raufuss",
+      "lessonId": "huehnervoegel",
+      "questionDe": "Welche Arten gehören zu den Raufußhühnern?",
+      "questionEn": "Which species are grouse (Raufußhühner)?",
+      "options": [
+        {
+          "de": "Birkwild",
+          "en": "Black grouse"
+        },
+        {
+          "de": "Haselwild",
+          "en": "Hazel grouse"
+        },
+        {
+          "de": "Alpenschneehuhn",
+          "en": "Rock ptarmigan"
+        },
+        {
+          "de": "Rebhuhn",
+          "en": "Grey partridge"
+        },
+        {
+          "de": "Fasan",
+          "en": "Pheasant"
+        }
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanationDe": "Rebhuhn und Fasan sind Feldhühner.",
+      "explanationEn": "Partridge and pheasant are field gamebirds.",
+      "origin": "seed"
+    },
+    {
+      "id": "huhn-auer-winter",
+      "lessonId": "huehnervoegel",
+      "questionDe": "Was frisst das Auerwild vor allem im Winter?",
+      "questionEn": "What do capercaillie mainly eat in winter?",
+      "options": [
+        {
+          "de": "Kiefern- und Tannennadeln",
+          "en": "Pine and fir needles"
+        },
+        {
+          "de": "Heidelbeeren",
+          "en": "Bilberries"
+        },
+        {
+          "de": "Getreide",
+          "en": "Grain"
+        },
+        {
+          "de": "Insekten",
+          "en": "Insects"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Im Winter Nadeln; im Sommer ist die Heidelbeere wichtig.",
+      "explanationEn": "Needles in winter; bilberry is important in summer.",
+      "origin": "seed"
+    },
+    {
+      "id": "huhn-haselwild",
+      "lessonId": "huehnervoegel",
+      "questionDe": "Welcher Lebensraum passt zum Haselwild?",
+      "questionEn": "Which habitat suits hazel grouse?",
+      "options": [
+        {
+          "de": "Junge Wälder mit viel Weichlaubholz",
+          "en": "Young forests rich in softwood broadleaves"
+        },
+        {
+          "de": "Offene Ackerflächen",
+          "en": "Open farmland"
+        },
+        {
+          "de": "Gebiete oberhalb der Baumgrenze",
+          "en": "Above the tree line"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Haselwild braucht junge, unterholzreiche Wälder mit Weichlaubholz.",
+      "explanationEn": "Hazel grouse need young, shrubby forests with softwood broadleaves.",
+      "origin": "seed"
+    },
+    {
+      "id": "huhn-rebhuhn-kette",
+      "lessonId": "huehnervoegel",
+      "questionDe": "Wann löst sich die Rebhuhnkette zur Paarung auf?",
+      "questionEn": "When does a partridge covey break up to pair?",
+      "options": [
+        {
+          "de": "Februar/März",
+          "en": "February/March"
+        },
+        {
+          "de": "Juni/Juli",
+          "en": "June/July"
+        },
+        {
+          "de": "Oktober",
+          "en": "October"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Im Februar/März.",
+      "explanationEn": "In February/March.",
+      "origin": "seed"
+    },
+    {
+      "id": "huhn-feldhuehner",
+      "lessonId": "huehnervoegel",
+      "questionDe": "Welche Arten zählen zu den Feldhühnern?",
+      "questionEn": "Which species are field gamebirds?",
+      "options": [
+        {
+          "de": "Rebhuhn",
+          "en": "Grey partridge"
+        },
+        {
+          "de": "Fasan",
+          "en": "Pheasant"
+        },
+        {
+          "de": "Wachtel",
+          "en": "Quail"
+        },
+        {
+          "de": "Birkwild",
+          "en": "Black grouse"
+        }
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanationDe": "Birkwild ist ein Raufußhuhn.",
+      "explanationEn": "Black grouse is a grouse.",
+      "origin": "seed"
+    },
+    {
+      "id": "wasser-schwimmenten",
+      "lessonId": "wasserfederwild",
+      "questionDe": "Welche Arten sind Schwimmenten?",
+      "questionEn": "Which species are dabbling ducks?",
+      "options": [
+        {
+          "de": "Stockente",
+          "en": "Mallard"
+        },
+        {
+          "de": "Krickente",
+          "en": "Teal"
+        },
+        {
+          "de": "Löffelente",
+          "en": "Shoveler"
+        },
+        {
+          "de": "Reiherente",
+          "en": "Tufted duck"
+        },
+        {
+          "de": "Tafelente",
+          "en": "Pochard"
+        }
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanationDe": "Reiher- und Tafelente sind Tauchenten.",
+      "explanationEn": "Tufted duck and pochard are diving ducks.",
+      "origin": "seed"
+    },
+    {
+      "id": "wasser-tauchenten",
+      "lessonId": "wasserfederwild",
+      "questionDe": "Welche Arten sind Tauchenten?",
+      "questionEn": "Which species are diving ducks?",
+      "options": [
+        {
+          "de": "Reiherente",
+          "en": "Tufted duck"
+        },
+        {
+          "de": "Tafelente",
+          "en": "Pochard"
+        },
+        {
+          "de": "Kolbenente",
+          "en": "Red-crested pochard"
+        },
+        {
+          "de": "Knäkente",
+          "en": "Garganey"
+        }
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanationDe": "Die Knäkente ist eine Schwimmente.",
+      "explanationEn": "The garganey is a dabbling duck.",
+      "origin": "seed"
+    },
+    {
+      "id": "wasser-mauser",
+      "lessonId": "wasserfederwild",
+      "questionDe": "Wann sind Stockerpel wegen der Mauser flugunfähig?",
+      "questionEn": "When are mallard drakes flightless because of moult?",
+      "options": [
+        {
+          "de": "Juni/Juli",
+          "en": "June/July"
+        },
+        {
+          "de": "Dezember/Januar",
+          "en": "December/January"
+        },
+        {
+          "de": "März/April",
+          "en": "March/April"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Im Juni/Juli.",
+      "explanationEn": "In June/July.",
+      "origin": "seed"
+    },
+    {
+      "id": "wasser-saeger",
+      "lessonId": "wasserfederwild",
+      "questionDe": "Wozu dienen die Hornzähne der Säger?",
+      "questionEn": "What are a merganser's bill serrations for?",
+      "options": [
+        {
+          "de": "Fische sicher zu greifen",
+          "en": "To grip fish securely"
+        },
+        {
+          "de": "Pflanzen abzuschneiden",
+          "en": "To cut plants"
+        },
+        {
+          "de": "Muscheln zu knacken",
+          "en": "To crack mussels"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Säger fangen Fische und halten sie mit den Hornzähnen.",
+      "explanationEn": "Mergansers catch fish and hold them with the serrations.",
+      "origin": "seed"
+    },
+    {
+      "id": "wasser-gaense",
+      "lessonId": "wasserfederwild",
+      "questionDe": "Welche Aussagen zu Gänsen sind richtig?",
+      "questionEn": "Which statements about geese are correct?",
+      "options": [
+        {
+          "de": "Gans und Ganter sind gleich gefärbt",
+          "en": "Goose and gander look alike"
+        },
+        {
+          "de": "Graugänse suchen ihre Nahrung fast nur an Land",
+          "en": "Greylags feed almost only on land"
+        },
+        {
+          "de": "Gänse tauchen nach Fischen",
+          "en": "Geese dive for fish"
+        }
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanationDe": "Gänse sind Pflanzenfresser und weiden an Land.",
+      "explanationEn": "Geese are plant eaters and graze on land.",
+      "origin": "seed"
+    },
+    {
+      "id": "wasser-reiher",
+      "lessonId": "wasserfederwild",
+      "questionDe": "Welche Wildart brütet in Kolonien auf Bäumen?",
+      "questionEn": "Which species nests in colonies in trees?",
+      "options": [
+        {
+          "de": "Graureiher",
+          "en": "Grey heron"
+        },
+        {
+          "de": "Stockente",
+          "en": "Mallard"
+        },
+        {
+          "de": "Höckerschwan",
+          "en": "Mute swan"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Der Graureiher.",
+      "explanationEn": "The grey heron.",
+      "origin": "seed"
+    },
+    {
+      "id": "greif-schluepfen",
+      "lessonId": "greifvoegel",
+      "questionDe": "Wie schlüpfen junge Greifvögel?",
+      "questionEn": "How do young raptors hatch?",
+      "options": [
+        {
+          "de": "Sehend und mit Daunen",
+          "en": "Seeing and downy"
+        },
+        {
+          "de": "Blind und nackt",
+          "en": "Blind and naked"
+        },
+        {
+          "de": "Voll befiedert und flugfähig",
+          "en": "Fully feathered and able to fly"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Sehend und beflaumt, aber Nesthocker.",
+      "explanationEn": "Seeing and downy, but altricial.",
+      "origin": "seed"
+    },
+    {
+      "id": "greif-falken-toeten",
+      "lessonId": "greifvoegel",
+      "questionDe": "Wie töten Falken ihre Beute?",
+      "questionEn": "How do falcons kill their prey?",
+      "options": [
+        {
+          "de": "Mit einem Biss ins Genick",
+          "en": "With a bite to the neck"
+        },
+        {
+          "de": "Mit den Fängen",
+          "en": "With their talons"
+        },
+        {
+          "de": "Durch Fallenlassen",
+          "en": "By dropping it"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Falken töten mit dem Schnabel; dafür haben sie den Falkenzahn.",
+      "explanationEn": "Falcons kill with the bill, using the falcon tooth.",
+      "origin": "seed"
+    },
+    {
+      "id": "greif-grifftoeter",
+      "lessonId": "greifvoegel",
+      "questionDe": "Welche Arten sind Grifftöter?",
+      "questionEn": "Which species are talon killers?",
+      "options": [
+        {
+          "de": "Habicht",
+          "en": "Goshawk"
+        },
+        {
+          "de": "Steinadler",
+          "en": "Golden eagle"
+        },
+        {
+          "de": "Mäusebussard",
+          "en": "Common buzzard"
+        },
+        {
+          "de": "Wanderfalke",
+          "en": "Peregrine"
+        }
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanationDe": "Der Wanderfalke tötet mit dem Schnabel.",
+      "explanationEn": "The peregrine kills with its bill.",
+      "origin": "seed"
+    },
+    {
+      "id": "greif-turmfalke",
+      "lessonId": "greifvoegel",
+      "questionDe": "Welche Merkmale passen zum Turmfalken?",
+      "questionEn": "Which traits fit the kestrel?",
+      "options": [
+        {
+          "de": "Er rüttelt",
+          "en": "It hovers"
+        },
+        {
+          "de": "Mäuse sind seine Hauptnahrung",
+          "en": "Mice are its main food"
+        },
+        {
+          "de": "Er schlägt seine Beute meist am Boden",
+          "en": "It usually takes prey on the ground"
+        },
+        {
+          "de": "Er schlägt nur im Flug",
+          "en": "It only catches in flight"
+        }
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanationDe": "Nur im Flug schlagen Wander- und Baumfalke.",
+      "explanationEn": "Only peregrine and hobby catch exclusively in flight.",
+      "origin": "seed"
+    },
+    {
+      "id": "greif-groesse",
+      "lessonId": "greifvoegel",
+      "questionDe": "Bei welchen Arten ist das Weibchen deutlich größer?",
+      "questionEn": "In which species is the female clearly larger?",
+      "options": [
+        {
+          "de": "Habicht",
+          "en": "Goshawk"
+        },
+        {
+          "de": "Wanderfalke",
+          "en": "Peregrine"
+        },
+        {
+          "de": "Sperber",
+          "en": "Sparrowhawk"
+        },
+        {
+          "de": "Ringeltaube",
+          "en": "Wood pigeon"
+        }
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanationDe": "Bei vielen Greifen ist das Weibchen größer.",
+      "explanationEn": "In many raptors the female is larger.",
+      "origin": "seed"
+    },
+    {
+      "id": "greif-habicht-jagd",
+      "lessonId": "greifvoegel",
+      "questionDe": "Ein Greifvogel streicht schnell und tief am Waldrand entlang und schlägt eine Taube am Boden. Welcher ist es wahrscheinlich?",
+      "questionEn": "A raptor flies fast and low along a forest edge and takes a pigeon on the ground. Which one is it probably?",
+      "options": [
+        {
+          "de": "Habicht",
+          "en": "Goshawk"
+        },
+        {
+          "de": "Mäusebussard",
+          "en": "Common buzzard"
+        },
+        {
+          "de": "Turmfalke",
+          "en": "Kestrel"
+        },
+        {
+          "de": "Wespenbussard",
+          "en": "Honey buzzard"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Typischer Überraschungsangriff des Habichts.",
+      "explanationEn": "A typical surprise attack by the goshawk.",
+      "origin": "seed"
+    },
+    {
+      "id": "greif-weihen",
+      "lessonId": "greifvoegel",
+      "questionDe": "Welche Greifvögel brüten am Boden?",
+      "questionEn": "Which raptors nest on the ground?",
+      "options": [
+        {
+          "de": "Weihen",
+          "en": "Harriers"
+        },
+        {
+          "de": "Milane",
+          "en": "Kites"
+        },
+        {
+          "de": "Habichte",
+          "en": "Goshawks"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Die Weihen sind Bodenbrüter.",
+      "explanationEn": "Harriers nest on the ground.",
+      "origin": "seed"
+    },
+    {
+      "id": "raben-singvoegel",
+      "lessonId": "rabenvoegel",
+      "questionDe": "Welche Aussage zu Rabenvögeln ist richtig?",
+      "questionEn": "Which statement about corvids is correct?",
+      "options": [
+        {
+          "de": "Sie sind anpassungsfähige Singvögel",
+          "en": "They are adaptable songbirds"
+        },
+        {
+          "de": "Sie sind Greifvögel",
+          "en": "They are birds of prey"
+        },
+        {
+          "de": "Sie sind Zugvögel, die nur im Sommer in Bayern leben",
+          "en": "They are summer migrants only"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Rabenvögel gehören zu den Singvögeln.",
+      "explanationEn": "Corvids are songbirds.",
+      "origin": "seed"
+    },
+    {
+      "id": "raben-kolkrabe",
+      "lessonId": "rabenvoegel",
+      "questionDe": "Welcher Vogel ist der größte Singvogel Bayerns?",
+      "questionEn": "Which bird is the largest songbird in Bavaria?",
+      "options": [
+        {
+          "de": "Kolkrabe",
+          "en": "Common raven"
+        },
+        {
+          "de": "Rabenkrähe",
+          "en": "Carrion crow"
+        },
+        {
+          "de": "Elster",
+          "en": "Magpie"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Der Kolkrabe.",
+      "explanationEn": "The raven.",
+      "origin": "seed"
+    },
+    {
+      "id": "raben-eichelhaeher",
+      "lessonId": "rabenvoegel",
+      "questionDe": "Welche Aussagen zum Eichelhäher sind richtig?",
+      "questionEn": "Which statements about the jay are correct?",
+      "options": [
+        {
+          "de": "Er ist ein Rabenvogel",
+          "en": "It is a corvid"
+        },
+        {
+          "de": "Er verbreitet Samen von Waldbäumen",
+          "en": "It spreads forest-tree seeds"
+        },
+        {
+          "de": "Er ist ein Greifvogel",
+          "en": "It is a bird of prey"
+        }
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanationDe": "Er versteckt Eicheln und hilft so bei der Waldverjüngung.",
+      "explanationEn": "It caches acorns and so helps forest regeneration.",
+      "origin": "seed"
+    },
+    {
+      "id": "raben-rabenkraehe",
+      "lessonId": "rabenvoegel",
+      "questionDe": "Welcher Lebensraum passt zur Rabenkrähe?",
+      "questionEn": "Which habitat suits the carrion crow?",
+      "options": [
+        {
+          "de": "Offene, gegliederte Landschaft",
+          "en": "Open, varied landscape"
+        },
+        {
+          "de": "Große geschlossene Wälder",
+          "en": "Large closed forests"
+        },
+        {
+          "de": "Hochgebirge über der Baumgrenze",
+          "en": "Mountains above the tree line"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Sie meidet große geschlossene Wälder.",
+      "explanationEn": "It avoids large closed forests.",
+      "origin": "seed"
+    },
+    {
+      "id": "taube-gelege",
+      "lessonId": "tauben-und-schnepfe",
+      "questionDe": "Wie viele Eier legt die Ringeltaube je Gelege?",
+      "questionEn": "How many eggs does a wood pigeon lay per clutch?",
+      "options": [
+        {
+          "de": "Zwei",
+          "en": "Two"
+        },
+        {
+          "de": "Vier bis sechs",
+          "en": "Four to six"
+        },
+        {
+          "de": "Zehn bis zwölf",
+          "en": "Ten to twelve"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Nur zwei, dafür brütet sie mehrmals im Jahr.",
+      "explanationEn": "Only two, but it breeds several times a year.",
+      "origin": "seed"
+    },
+    {
+      "id": "taube-kropfmilch",
+      "lessonId": "tauben-und-schnepfe",
+      "questionDe": "Was bekommen junge Ringeltauben in den ersten Lebenstagen?",
+      "questionEn": "What do young wood pigeons get in their first days?",
+      "options": [
+        {
+          "de": "Kropfmilch beider Eltern",
+          "en": "Crop milk from both parents"
+        },
+        {
+          "de": "Insekten von der Mutter",
+          "en": "Insects from the mother"
+        },
+        {
+          "de": "Getreidekörner",
+          "en": "Grain"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Tauber und Täubin füttern Kropfmilch.",
+      "explanationEn": "Both parents feed crop milk.",
+      "origin": "seed"
+    },
+    {
+      "id": "taube-halsring",
+      "lessonId": "tauben-und-schnepfe",
+      "questionDe": "Woran erkennt man im Spätsommer die ältere Ringeltaube?",
+      "questionEn": "How do you recognise an adult wood pigeon in late summer?",
+      "options": [
+        {
+          "de": "Am weißen Halsring",
+          "en": "By the white neck patch"
+        },
+        {
+          "de": "Am roten Schnabel",
+          "en": "By a red bill"
+        },
+        {
+          "de": "An weißen Flügelspitzen",
+          "en": "By white wingtips"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Jungtauben fehlt der weiße Halsring noch.",
+      "explanationEn": "Young pigeons lack the white neck patch.",
+      "origin": "seed"
+    },
+    {
+      "id": "taube-hohltaube",
+      "lessonId": "tauben-und-schnepfe",
+      "questionDe": "Wo nistet die Hohltaube?",
+      "questionEn": "Where does the stock dove nest?",
+      "options": [
+        {
+          "de": "In alten Schwarzspechthöhlen",
+          "en": "In old black woodpecker holes"
+        },
+        {
+          "de": "Am Boden",
+          "en": "On the ground"
+        },
+        {
+          "de": "In Schilfgürteln",
+          "en": "In reed beds"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "In Baumhöhlen, besonders des Schwarzspechts.",
+      "explanationEn": "In tree holes, especially of the black woodpecker.",
+      "origin": "seed"
+    },
+    {
+      "id": "schnepfe-gelege",
+      "lessonId": "tauben-und-schnepfe",
+      "questionDe": "Im Mai finden Sie am Waldboden in einer runden Mulde vier braun gefleckte Eier. Von welcher Art stammen sie?",
+      "questionEn": "In May you find four brown-speckled eggs in a round hollow on the forest floor. Which species laid them?",
+      "options": [
+        {
+          "de": "Waldschnepfe",
+          "en": "Woodcock"
+        },
+        {
+          "de": "Ringeltaube",
+          "en": "Wood pigeon"
+        },
+        {
+          "de": "Habicht",
+          "en": "Goshawk"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Typisch für die bodenbrütende Waldschnepfe.",
+      "explanationEn": "Typical of the ground-nesting woodcock.",
+      "origin": "seed"
+    },
+    {
+      "id": "schnepfe-lebensraum",
+      "lessonId": "tauben-und-schnepfe",
+      "questionDe": "Welchen Lebensraum bevorzugt die Waldschnepfe?",
+      "questionEn": "Which habitat does the woodcock prefer?",
+      "options": [
+        {
+          "de": "Mischwälder mit Erlenbrüchen",
+          "en": "Mixed woods with alder swamps"
+        },
+        {
+          "de": "Trockene Kiefernheiden",
+          "en": "Dry pine heaths"
+        },
+        {
+          "de": "Offene Äcker",
+          "en": "Open arable land"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Feuchte Mischwälder mit Erlenbrüchen.",
+      "explanationEn": "Damp mixed forests with alder swamps.",
       "origin": "seed"
     }
   ]

@@ -1,0 +1,914 @@
+[
+  {
+    "sectionId": "waffen",
+    "items": [
+      {
+        "id": "o1-waffe-erklaeren",
+        "questionDe": "Hier liegt ein Drilling. Erklären Sie mir die Waffe: Läufe, Abzüge, Sicherung, Umschaltung.",
+        "questionEn": "Here is a drilling. Explain the gun: barrels, triggers, safety, barrel selector.",
+        "answerDe": [
+          "Kombinierte Kipplaufwaffe: zwei Schrotläufe nebeneinander, darunter ein Kugellauf",
+          "Umschaltschieber auf dem Kolbenhals schaltet den vorderen Abzug von Schrot auf Kugel",
+          "Bei Stellung Kugel: vorderer Abzug Kugel, hinterer Abzug linker Schrotlauf",
+          "Meist Rückstecher; Signalstifte zeigen gespannte Schlosse, nicht ob geladen",
+          "Schiebesicherung; Mündung immer in sichere Richtung"
+        ],
+        "answerEn": [
+          "Combination break-action gun: two shotgun barrels side by side, rifle barrel below",
+          "Selector on the stock neck switches the front trigger from shot to rifle",
+          "Set to rifle: front trigger fires the rifle, rear trigger the left shotgun barrel",
+          "Usually a back set trigger; cocking indicators show cocked locks, not whether loaded",
+          "Sliding safety; muzzle always in a safe direction"
+        ],
+        "lessonId": "waffentechnik"
+      },
+      {
+        "id": "o1-patrone-lesen",
+        "questionDe": "Lesen Sie mir diese Patronenschachtel vor: 7 × 64, Teilmantel, 10,5 g, E100 2.800 J. Auf welches Wild dürfen Sie damit schießen?",
+        "questionEn": "Read this cartridge box to me: 7 × 64, soft point, 10.5 g, E100 2,800 J. Which game may you shoot with it?",
+        "answerDe": [
+          "7 mm Kaliber, 64 mm Hülsenlänge, ohne R = für Repetierer",
+          "Teilmantelgeschoss, 10,5 g Geschossgewicht",
+          "E100 = Energie auf 100 m: 2.800 J",
+          "Erfüllt 6,5 mm und 2.000 J → auf alles Schalenwild zulässig, auch Rehwild"
+        ],
+        "answerEn": [
+          "7 mm calibre, 64 mm case, no R = for bolt actions",
+          "Soft-point bullet, 10.5 g",
+          "E100 = energy at 100 m: 2,800 J",
+          "Meets 6.5 mm and 2,000 J → allowed on all cloven-hoofed game, roe deer included"
+        ],
+        "lessonId": "munition-und-ballistik"
+      },
+      {
+        "id": "o1-schrot-gefahr",
+        "questionDe": "Wie weit gefährdet ein Schrotschuss mit 3,5-mm-Schrot, und wie weit ein Büchsenschuss?",
+        "questionEn": "How far is a 3.5 mm shot charge dangerous, and how far a rifle bullet?",
+        "answerDe": [
+          "Faustformel: Schrotstärke in mm × 100 m → 3,5 mm ≈ 350 m",
+          "Büchsengeschoss je nach Kaliber mehrere Kilometer, z. B. 7 × 57 bis etwa 5 km",
+          "Deshalb immer auf sicheren Kugelfang achten"
+        ],
+        "answerEn": [
+          "Rule of thumb: shot size in mm × 100 m → 3.5 mm ≈ 350 m",
+          "Rifle bullet several kilometres depending on calibre, e.g. 7 × 57 up to about 5 km",
+          "So always make sure of a safe backstop"
+        ],
+        "lessonId": "munition-und-ballistik"
+      },
+      {
+        "id": "o1-aufbewahrung",
+        "questionDe": "Wie bewahren Sie Ihre Jagdwaffen und Munition zu Hause auf?",
+        "questionEn": "How do you store your hunting guns and ammunition at home?",
+        "answerDe": [
+          "Waffen ungeladen",
+          "Mindestens Sicherheitsbehältnis Widerstandsgrad 0 nach DIN EN 1143-1",
+          "Munition darf im Schrank Grad 0 mit den Waffen zusammen lagern",
+          "Schlüssel bzw. Code so verwahren, dass Unbefugte keinen Zugriff haben",
+          "Behörde kann die Aufbewahrung kontrollieren"
+        ],
+        "answerEn": [
+          "Guns unloaded",
+          "At least a security cabinet resistance grade 0 to DIN EN 1143-1",
+          "Ammunition may be stored with the guns in a grade 0 cabinet",
+          "Keep key or code away from unauthorised people",
+          "The authority may check storage"
+        ],
+        "lessonId": "waffenrecht-fuer-jaeger"
+      },
+      {
+        "id": "o1-transport",
+        "questionDe": "Sie fahren mit Ihrer Büchse zur Drückjagd ins Nachbarrevier. Wie transportieren Sie die Waffe? Und zum Schießstand?",
+        "questionEn": "You drive with your rifle to a driven hunt in the neighbouring ground. How do you transport the gun? And to the shooting range?",
+        "answerDe": [
+          "Zur Jagd: nicht schussbereit, also entladen – z. B. im Futteral (§ 13 Abs. 6 WaffG)",
+          "Zum Schießstand: nicht schussbereit und nicht zugriffsbereit, ungeladen im verschlossenen Behältnis",
+          "Patronen im eingeführten Magazin = geladen, auch bei leerem Lager"
+        ],
+        "answerEn": [
+          "To a hunt: not ready to fire, i.e. unloaded — e.g. in a case (§ 13(6) WaffG)",
+          "To the range: not ready to fire and not accessible, unloaded in a locked container",
+          "Rounds in an inserted magazine = loaded, even with an empty chamber"
+        ],
+        "lessonId": "waffenrecht-fuer-jaeger"
+      },
+      {
+        "id": "o1-versager",
+        "questionDe": "Beim Schuss klickt es nur – ein Versager. Was tun Sie?",
+        "questionEn": "You pull the trigger and there's only a click — a misfire. What do you do?",
+        "answerDe": [
+          "Waffe in Richtung Kugelfang im Anschlag halten",
+          "Mindestens 15 Sekunden warten (Nachbrenner möglich)",
+          "Dann entladen und Patrone sowie Lauf prüfen"
+        ],
+        "answerEn": [
+          "Keep the gun aimed at the backstop",
+          "Wait at least 15 seconds (hang fire possible)",
+          "Then unload and check cartridge and barrel"
+        ],
+        "lessonId": "handhabung-und-pflege"
+      },
+      {
+        "id": "o1-zielfernrohr",
+        "questionDe": "Hier ist ein Zielfernrohr 2,5–10 × 56. Was bedeuten die Zahlen, und wofür eignet es sich?",
+        "questionEn": "Here is a 2.5–10 × 56 riflescope. What do the numbers mean and what is it suited for?",
+        "answerDe": [
+          "2,5- bis 10-fache variable Vergrößerung, 56 mm Objektivdurchmesser",
+          "Großes Objektiv = gute Dämmerungsleistung → Ansitz",
+          "Auf Drückjagden kleine Vergrößerung wählen (großes Sehfeld)",
+          "Sehfeldangabe bezieht sich auf 100 m"
+        ],
+        "answerEn": [
+          "Variable magnification 2.5× to 10×, 56 mm objective",
+          "Large objective = good low-light performance → stand hunting",
+          "At driven hunts use low magnification (wide field of view)",
+          "Field of view is given at 100 m"
+        ],
+        "lessonId": "optik"
+      },
+      {
+        "id": "o1-falle",
+        "questionDe": "Erklären Sie mir diese Kastenfalle. Welche Regeln gelten für die Fallenjagd in Bayern?",
+        "questionEn": "Explain this box trap to me. What rules apply to trapping in Bavaria?",
+        "answerDe": [
+          "Lebendfangfalle, die unversehrt fängt; verblendet, damit das Tier nicht hinaussieht",
+          "Nachweis eines Fallenjagdlehrgangs nötig",
+          "Nur Fallen, die sofort töten oder unversehrt fangen",
+          "Kontrolle mindestens zweimal täglich, außer mit zuverlässigem Fangmelder",
+          "Gefangenes Raubwild im Abfangkorb mit Kopfschuss töten; Schlagfallen bei der Behörde anzeigen"
+        ],
+        "answerEn": [
+          "Live-capture trap that catches unharmed; covered so the animal can't see out",
+          "Trapping course certificate required",
+          "Only traps that kill instantly or catch unharmed",
+          "Check at least twice daily unless a reliable trap alarm is fitted",
+          "Kill trapped predators with a head shot in a transfer cage; notify the authority of kill traps"
+        ],
+        "lessonId": "fallenjagd"
+      },
+      {
+        "id": "o1-notwehr",
+        "questionDe": "Was ist Notwehr, und gilt sie, wenn Sie ein tollwütiger Fuchs angreift?",
+        "questionEn": "What is self-defence, and does it apply if a rabid fox attacks you?",
+        "answerDe": [
+          "Notwehr: erforderliche Verteidigung gegen einen gegenwärtigen, rechtswidrigen Angriff eines Menschen",
+          "Gegen Tiere gilt nicht Notwehr, sondern Notstand",
+          "Den Fuchs zu erschießen ist durch Notstand gerechtfertigt"
+        ],
+        "answerEn": [
+          "Self-defence: necessary defence against a present, unlawful attack by a person",
+          "Against animals it's not self-defence but necessity (Notstand)",
+          "Shooting the fox is justified by necessity"
+        ],
+        "lessonId": "unfallverhuetung-notwehr"
+      }
+    ]
+  },
+  {
+    "sectionId": "wildtierkunde",
+    "items": [
+      {
+        "id": "o2-praeparat-marder",
+        "questionDe": "Hier stehen zwei Marderpräparate. Welche Arten sind das, und woran erkennen Sie sie?",
+        "questionEn": "Here are two mounted martens. Which species are they and how do you tell them apart?",
+        "answerDe": [
+          "Steinmarder: weißer, gegabelter Kehlfleck, nackte Sohlen, Kulturfolger",
+          "Baummarder: gelblicher, nicht gegabelter Kehlfleck, behaarte Sohlen, Waldbewohner",
+          "Beide ranzen im Juli/August und haben Keimruhe"
+        ],
+        "answerEn": [
+          "Stone marten: white, forked throat patch, bare soles, lives near people",
+          "Pine marten: yellowish, unforked throat patch, hairy soles, forest dweller",
+          "Both mate in July/August and have delayed implantation"
+        ],
+        "lessonId": "marder-und-dachs",
+        "speciesId": "steinmarder"
+      },
+      {
+        "id": "o2-gehoern",
+        "questionDe": "Hier ist ein Rehgehörn. Wie entsteht es im Jahreslauf, und was können Sie über das Alter sagen?",
+        "questionEn": "Here is a set of roe antlers. How does it develop through the year, and what can you say about age?",
+        "answerDe": [
+          "Abwurf beim älteren Bock Oktober/November, Neubildung unter dem Bast im Winter",
+          "Fegen im März/April; Jährlinge später",
+          "Stärke hängt vor allem von der Ernährung ab",
+          "Alter sicherer am Unterkiefer (Zahnabnutzung) als am Gehörn"
+        ],
+        "answerEn": [
+          "Older bucks cast in October/November, regrow in velvet over winter",
+          "Fraying in March/April; yearlings later",
+          "Strength depends mainly on nutrition",
+          "Age is judged more reliably from the lower jaw (tooth wear) than from the antlers"
+        ],
+        "lessonId": "rehwild",
+        "speciesId": "rehwild"
+      },
+      {
+        "id": "o2-reh-jahr",
+        "questionDe": "Beschreiben Sie das Fortpflanzungsjahr des Rehwildes.",
+        "questionEn": "Describe the roe deer's reproductive year.",
+        "answerDe": [
+          "Brunft (Blattzeit) Mitte Juli bis Mitte August",
+          "Keimruhe bis etwa Dezember",
+          "Setzzeit Mai/Juni, meist ein bis zwei Kitze",
+          "Kitze werden fünf bis sechs Monate gesäugt"
+        ],
+        "answerEn": [
+          "Rut (Blattzeit) mid-July to mid-August",
+          "Delayed implantation until about December",
+          "Births in May/June, usually one or two kids",
+          "Kids suckled for five to six months"
+        ],
+        "lessonId": "rehwild",
+        "speciesId": "rehwild"
+      },
+      {
+        "id": "o2-schwarzwild-rotte",
+        "questionDe": "Wie ist eine Rotte Schwarzwild aufgebaut, und was bedeutet das für die Bejagung?",
+        "questionEn": "How is a wild boar sounder organised, and what does that mean for hunting?",
+        "answerDe": [
+          "Bachen mit Frischlingen und Überläufern, geführt von der Leitbache",
+          "Keiler leben meist allein",
+          "Leitbache und führende Bachen schonen – sonst zerfällt die Rotte und es gibt mehr Schäden",
+          "Schwerpunkt auf Frischlinge (etwa 70 % der Strecke)"
+        ],
+        "answerEn": [
+          "Sows with piglets and yearlings, led by the lead sow",
+          "Boars mostly live alone",
+          "Spare the lead sow and sows with young — otherwise the sounder breaks up and damage increases",
+          "Focus on piglets (about 70% of the bag)"
+        ],
+        "lessonId": "schwarzwild",
+        "speciesId": "schwarzwild"
+      },
+      {
+        "id": "o2-rotwild-geweih",
+        "questionDe": "Wann wirft ein mittelalter Rothirsch ab, und wann hat er verfegt?",
+        "questionEn": "When does a middle-aged red stag cast his antlers, and when has he finished fraying?",
+        "answerDe": [
+          "Abwurf Februar/März, alte Hirsche zuerst",
+          "Schieben ab März unter dem Bast",
+          "Verfegt etwa im August, rund fünf Monate nach dem Abwurf"
+        ],
+        "answerEn": [
+          "Casts in February/March, old stags first",
+          "Regrows in velvet from March",
+          "Finished fraying around August, about five months after casting"
+        ],
+        "lessonId": "rotwild",
+        "speciesId": "rotwild"
+      },
+      {
+        "id": "o2-federwild-entenarten",
+        "questionDe": "Hier sind drei Entenpräparate. Bestimmen Sie sie und sagen Sie, ob es Schwimm- oder Tauchenten sind.",
+        "questionEn": "Here are three mounted ducks. Identify them and say whether they are dabbling or diving ducks.",
+        "answerDe": [
+          "Stockente: grüner Kopf, weißer Halsring, Locke – Schwimmente",
+          "Reiherente: schwarz-weiß mit Schopf – Tauchente",
+          "Tafelente: rotbrauner Kopf, schwarze Brust – Tauchente",
+          "Schwimmenten gründeln und starten direkt; Tauchenten tauchen und laufen beim Start an"
+        ],
+        "answerEn": [
+          "Mallard: green head, white neck ring, curl — dabbling duck",
+          "Tufted duck: black and white with a crest — diving duck",
+          "Pochard: red-brown head, black breast — diving duck",
+          "Dabblers up-end and take off directly; divers dive and patter to take off"
+        ],
+        "lessonId": "wasserfederwild",
+        "speciesId": "stockente"
+      },
+      {
+        "id": "o2-greif-unterschied",
+        "questionDe": "Wie unterscheiden Sie einen Habicht von einem Mäusebussard?",
+        "questionEn": "How do you tell a goshawk from a common buzzard?",
+        "answerDe": [
+          "Habicht: kurze, breite Flügel, langer Stoß, gesperberte Unterseite, Überraschungsjäger",
+          "Bussard: breite Flügel, kurzer gefächerter Schwanz, variables Gefieder, jagt von Ansitzwarten Mäuse",
+          "Beide Grifftöter, ganzjährig geschont"
+        ],
+        "answerEn": [
+          "Goshawk: short broad wings, long tail, barred underside, surprise hunter",
+          "Buzzard: broad wings, short fanned tail, variable plumage, hunts mice from perches",
+          "Both kill with their talons; protected all year"
+        ],
+        "lessonId": "greifvoegel",
+        "speciesId": "habicht"
+      },
+      {
+        "id": "o2-raufuss",
+        "questionDe": "Welche Raufußhühner kommen in Bayern vor, und wo leben sie?",
+        "questionEn": "Which grouse occur in Bavaria and where do they live?",
+        "answerDe": [
+          "Auerwild: lichte Altholzbestände mit Heidelbeere",
+          "Birkwild: Hochmoore, lichte Bergwälder an der Baumgrenze",
+          "Haselwild: junge Wälder mit Weichlaubholz",
+          "Alpenschneehuhn: oberhalb der Baumgrenze, im Winter weiß",
+          "Alle ganzjährig geschont bzw. ohne Jagdzeit"
+        ],
+        "answerEn": [
+          "Capercaillie: open old forest with bilberry",
+          "Black grouse: raised bogs, open mountain forest at the tree line",
+          "Hazel grouse: young forests with softwood broadleaves",
+          "Rock ptarmigan: above the tree line, white in winter",
+          "All protected / no open season"
+        ],
+        "lessonId": "huehnervoegel",
+        "speciesId": "auerwild"
+      },
+      {
+        "id": "o2-fuchs-jahr",
+        "questionDe": "Erzählen Sie mir etwas über das Jahr des Fuchses.",
+        "questionEn": "Tell me about the fox's year.",
+        "answerDe": [
+          "Ranz Januar/Februar, Tragzeit etwa zwei Monate",
+          "4–6 Welpen im Bau, beide Eltern versorgen sie",
+          "Geheck löst sich im Juli/August auf",
+          "Ganzjährig jagdbar, Elterntiere während der Aufzucht geschont",
+          "Fuchsbandwurm, Räude, früher Tollwut"
+        ],
+        "answerEn": [
+          "Mating January/February, gestation about two months",
+          "4–6 cubs in the den, both parents care for them",
+          "The family breaks up in July/August",
+          "Huntable all year, parents protected during rearing",
+          "Fox tapeworm, mange, formerly rabies"
+        ],
+        "lessonId": "fuchs",
+        "speciesId": "fuchs"
+      }
+    ]
+  },
+  {
+    "sectionId": "jagdrecht",
+    "items": [
+      {
+        "id": "o3-jagdrecht",
+        "questionDe": "Was ist das Jagdrecht, und wer hat es?",
+        "questionEn": "What is the hunting right and who holds it?",
+        "answerDe": [
+          "Ausschließliche Befugnis, Wild zu hegen, zu bejagen und sich anzueignen (§ 1 BJagdG)",
+          "Mit Hegepflicht verbunden",
+          "Steht dem Grundeigentümer zu, ausgeübt aber nur in Jagdbezirken (Reviersystem)"
+        ],
+        "answerEn": [
+          "Exclusive right to manage, hunt and appropriate game (§ 1 BJagdG)",
+          "Comes with the duty of game management",
+          "Belongs to the landowner but is exercised only in hunting districts (district system)"
+        ],
+        "lessonId": "jagdrecht-grundlagen"
+      },
+      {
+        "id": "o3-revierarten",
+        "questionDe": "Welche Arten von Jagdrevieren gibt es in Bayern, und wie groß müssen sie sein?",
+        "questionEn": "What types of hunting grounds exist in Bavaria and how large must they be?",
+        "answerDe": [
+          "Eigenjagdrevier: mindestens 81,755 ha zusammenhängende Fläche eines Eigentümers (Flachland)",
+          "Gemeinschaftsjagdrevier: mindestens 250 ha, Jagdgenossenschaft der Eigentümer",
+          "Pachtvertrag schriftlich, Anzeige bei der unteren Jagdbehörde; mindestens 9 Jahre"
+        ],
+        "answerEn": [
+          "Private ground: at least 81.755 ha of connected land of one owner (lowlands)",
+          "Communal ground: at least 250 ha, hunting cooperative of the owners",
+          "Lease in writing, notified to the lower hunting authority; at least 9 years"
+        ],
+        "lessonId": "jagdreviere-bayern"
+      },
+      {
+        "id": "o3-jagdzeiten-reh",
+        "questionDe": "Nennen Sie mir die Jagdzeiten für Rehwild in Bayern.",
+        "questionEn": "Give me the open seasons for roe deer in Bavaria.",
+        "answerDe": [
+          "Böcke 16. April – 15. Oktober",
+          "Schmalrehe 16. April – 15. Januar",
+          "Geißen und Kitze 1. September – 15. Januar",
+          "Elterntierschutz: führende Geiß erst nach dem Kitz"
+        ],
+        "answerEn": [
+          "Bucks 16 April – 15 October",
+          "Yearling does 16 April – 15 January",
+          "Does and kids 1 September – 15 January",
+          "Parent protection: a doe with a kid only after the kid"
+        ],
+        "lessonId": "jagdzeiten-bayern"
+      },
+      {
+        "id": "o3-sachliche-verbote",
+        "questionDe": "Nennen Sie sachliche Verbote bei der Jagd.",
+        "questionEn": "Name prohibited hunting practices.",
+        "answerDe": [
+          "Kein Schrot oder Posten auf Schalenwild, auch nicht als Fangschuss",
+          "Mindestanforderungen an Büchsenpatronen (Reh 1.000 J; übriges Schalenwild 6,5 mm und 2.000 J)",
+          "Keine Nachtjagd auf Schalenwild außer Schwarzwild (Bayern: auch Fuchs, Dachs, Nutria erlaubt)",
+          "Nicht aus Kraftfahrzeugen schießen; keine Tonbandlockrufe",
+          "Selbstlader höchstens zwei Patronen im Magazin"
+        ],
+        "answerEn": [
+          "No shot or buckshot on cloven-hoofed game, not even as a finishing shot",
+          "Minimum rifle cartridge requirements (roe 1,000 J; other cloven-hoofed 6.5 mm and 2,000 J)",
+          "No night hunting of cloven-hoofed game except wild boar (Bavaria: also fox, badger, coypu)",
+          "No shooting from vehicles; no recorded calls",
+          "Self-loaders at most two rounds in the magazine"
+        ],
+        "lessonId": "jagdausuebung-bayern"
+      },
+      {
+        "id": "o3-abschussplan",
+        "questionDe": "Für welche Wildarten gibt es einen Abschussplan, und was müssen Sie nach einem Abschuss tun?",
+        "questionEn": "Which species have a cull plan, and what must you do after shooting one?",
+        "answerDe": [
+          "Schalenwild außer Schwarzwild: Rot-, Dam-, Gams-, Muffel-, Rehwild",
+          "Rehwild: Dreijahresplan; Verbissgutachten ist maßgeblich",
+          "Eintrag in die Streckenliste binnen einer Woche, auch Fallwild",
+          "Rotwild zusätzlich binnen einer Woche der unteren Jagdbehörde melden"
+        ],
+        "answerEn": [
+          "Cloven-hoofed game except wild boar: red, fallow, chamois, mouflon, roe deer",
+          "Roe deer: three-year plan; the browsing report is decisive",
+          "Enter in the bag record within a week, including animals found dead",
+          "Red deer also reported to the lower hunting authority within a week"
+        ],
+        "lessonId": "abschussplan-und-streckenliste"
+      },
+      {
+        "id": "o3-wildschaden",
+        "questionDe": "Ein Landwirt meldet Schwarzwildschaden im Mais. Wer zahlt, und was muss er beachten?",
+        "questionEn": "A farmer reports wild boar damage in maize. Who pays and what must he observe?",
+        "answerDe": [
+          "Ersatzpflichtig: Schalenwild, Wildkaninchen, Fasan",
+          "Grundsätzlich die Jagdgenossenschaft, oft vertraglich der Pächter",
+          "Anmeldung binnen einer Woche bei der Gemeinde",
+          "Kein Ersatz z. B. für Mieten, Silos, befriedete Gärten"
+        ],
+        "answerEn": [
+          "Compensable: cloven-hoofed game, wild rabbit, pheasant",
+          "In principle the hunting cooperative, often the leaseholder by contract",
+          "Report to the municipality within one week",
+          "No compensation e.g. for clamps, silos, pacified gardens"
+        ],
+        "lessonId": "wildfolge-wildschaden-aneignung"
+      },
+      {
+        "id": "o3-wildunfall",
+        "questionDe": "Ihnen wird ein angefahrenes Reh gemeldet. Was ist zu tun?",
+        "questionEn": "You are told about a roe deer hit by a car. What has to be done?",
+        "answerDe": [
+          "Fahrer muss Polizei oder Revierinhaber unverzüglich verständigen",
+          "Verletztes Stück erlösen bzw. nachsuchen lassen",
+          "Aneignungsrecht hat der Revierinhaber, durch dessen Revier die Straße führt",
+          "Fallwild ist genussuntauglich; in die Streckenliste eintragen"
+        ],
+        "answerEn": [
+          "The driver must notify the police or the ground holder immediately",
+          "Put a wounded animal down or have it tracked",
+          "The holder of the ground the road runs through may appropriate it",
+          "Road-killed game is unfit to eat; enter it in the bag record"
+        ],
+        "lessonId": "wildfolge-wildschaden-aneignung"
+      },
+      {
+        "id": "o3-tierschutz",
+        "questionDe": "Welchen Grundsatz enthält das Tierschutzgesetz, und was bedeutet er für die Jagd?",
+        "questionEn": "What principle does the Animal Welfare Act contain and what does it mean for hunting?",
+        "answerDe": [
+          "Niemand darf einem Tier ohne vernünftigen Grund Schmerzen, Leiden oder Schäden zufügen",
+          "Gilt auch für Wildtiere",
+          "Für die Jagd: sicherer Schuss, Schießtraining, Nachsuche mit brauchbarem Hund, Elterntierschutz"
+        ],
+        "answerEn": [
+          "Nobody may cause an animal pain, suffering or harm without good reason",
+          "Applies to wild animals too",
+          "For hunting: accurate shots, practice, tracking with a qualified dog, protecting parent animals"
+        ],
+        "lessonId": "tier-und-naturschutzrecht"
+      },
+      {
+        "id": "o3-kundige-person",
+        "questionDe": "Was ist eine kundige Person, und wann muss Wildbret amtlich untersucht werden?",
+        "questionEn": "What is a trained person and when must game meat be officially inspected?",
+        "answerDe": [
+          "Jäger mit Schulung in Wildbrethygiene",
+          "Untersucht das Stück auf bedenkliche Merkmale und fragt das Verhalten vor dem Schuss ab",
+          "Amtliche Untersuchung bei bedenklichen Merkmalen oder abnormem Verhalten",
+          "Trichinenuntersuchung bei Schwarzwild, Dachs und anderen Trichinenträgern immer"
+        ],
+        "answerEn": [
+          "Hunter trained in game meat hygiene",
+          "Examines the animal for signs of concern and asks about its behaviour before the shot",
+          "Official inspection if there are signs of concern or abnormal behaviour",
+          "Trichinella test always for wild boar, badger and other carriers"
+        ],
+        "lessonId": "fleischhygienerecht"
+      }
+    ]
+  },
+  {
+    "sectionId": "jagdbetrieb",
+    "items": [
+      {
+        "id": "o4-ansprechen-reh",
+        "questionDe": "Sie sehen im Juni ein einzelnes weibliches Reh. Woran erkennen Sie, ob es führt?",
+        "questionEn": "In June you see a single female roe deer. How do you know whether she has a kid?",
+        "answerDe": [
+          "Am Gesäuge (Spinne)",
+          "Zusätzlich auf Kitze in der Nähe achten, Verhalten beobachten",
+          "Im Zweifel nicht schießen"
+        ],
+        "answerEn": [
+          "By her udder (Spinne)",
+          "Also look out for kids nearby, observe her behaviour",
+          "If in doubt, do not shoot"
+        ],
+        "lessonId": "ansprechen",
+        "speciesId": "rehwild"
+      },
+      {
+        "id": "o4-schusszeichen",
+        "questionDe": "Ein Bock zeichnet auf den Schuss mit Hochschlagen der Hinterläufe und zieht mit krummem Rücken ab. Was vermuten Sie, und wie gehen Sie vor?",
+        "questionEn": "A buck kicks out with its hind legs at the shot and walks off hunched. What do you suspect and what do you do?",
+        "answerDe": [
+          "Weidwundschuss (Pansen, Gescheide)",
+          "Anschuss verbrechen, Pirschzeichen suchen (Panseninhalt, Schnitthaar)",
+          "Mehrere Stunden warten, nicht nachdrücken",
+          "Schweißhund bzw. Nachsuchengespann holen"
+        ],
+        "answerEn": [
+          "Gut shot (rumen, intestines)",
+          "Mark the shot site, look for signs (rumen contents, cut hair)",
+          "Wait several hours, don't push it",
+          "Call a tracking dog or tracking team"
+        ],
+        "lessonId": "schusszeichen-und-verhalten",
+        "speciesId": "rehwild"
+      },
+      {
+        "id": "o4-pirschzeichen",
+        "questionDe": "Was finden Sie am Anschuss bei Lungenschuss, Leberschuss und Laufschuss?",
+        "questionEn": "What do you find at the shot site after a lung shot, a liver shot and a leg shot?",
+        "answerDe": [
+          "Lunge: hellroter, blasiger Schweiß",
+          "Leber: bräunlicher, körniger Schweiß",
+          "Lauf: Röhrenknochensplitter; schwierigste Nachsuche beim Vorderlaufschuss",
+          "Kein Schweiß ist kein sicherer Fehlschuss"
+        ],
+        "answerEn": [
+          "Lungs: bright red, frothy blood",
+          "Liver: brownish, granular blood",
+          "Leg: splinters of long bone; foreleg shots are the hardest to track",
+          "No blood is no sure sign of a miss"
+        ],
+        "lessonId": "schusszeichen-und-verhalten"
+      },
+      {
+        "id": "o4-aufbrechen",
+        "questionDe": "Erklären Sie mir das Aufbrechen eines Rehbocks und die Kühlung.",
+        "questionEn": "Explain how you gut a roe buck and chill it.",
+        "answerDe": [
+          "Bald aufbrechen, auch bei Frost",
+          "Magen, Darm und Blase nicht verletzen; Schloss vorsichtig öffnen",
+          "Organe auf bedenkliche Merkmale prüfen",
+          "Lüften, sauber aufhängen, auf höchstens +7 °C kühlen"
+        ],
+        "answerEn": [
+          "Gut soon, even in frost",
+          "Don't cut stomach, intestines or bladder; open the pelvis carefully",
+          "Check the organs for signs of concern",
+          "Air, hang cleanly, chill to at most +7 °C"
+        ],
+        "lessonId": "aufbrechen-in-der-praxis"
+      },
+      {
+        "id": "o4-bedenklich",
+        "questionDe": "Nennen Sie bedenkliche Merkmale beim Wild.",
+        "questionEn": "Name signs of concern in game.",
+        "answerDe": [
+          "Abnormes Verhalten, erhebliche Abmagerung",
+          "Geschwülste, Abszesse, Gelenkschwellungen",
+          "Verklebungen der Organe, Verfärbungen, fremder Geruch",
+          "Offene Brüche ohne Zusammenhang mit dem Erlegen",
+          "Dann amtliche Fleischuntersuchung mit ganzem Wildkörper und roten Organen"
+        ],
+        "answerEn": [
+          "Abnormal behaviour, severe emaciation",
+          "Tumours, abscesses, swollen joints",
+          "Organs stuck together, discolouration, strange smell",
+          "Open fractures unrelated to the kill",
+          "Then official meat inspection with the whole carcass and red organs"
+        ],
+        "lessonId": "bedenkliche-merkmale"
+      },
+      {
+        "id": "o4-asp",
+        "questionDe": "Was wissen Sie über die Afrikanische Schweinepest, und was tun Sie bei einem Fund?",
+        "questionEn": "What do you know about African swine fever, and what do you do if you find a dead boar?",
+        "answerDe": [
+          "Anzeigepflichtige Viruserkrankung nur bei Haus- und Wildschweinen, für Menschen ungefährlich",
+          "Verschleppung durch Menschen, Fleisch, Speisereste möglich",
+          "Fund von verendetem Schwarzwild sofort dem Veterinäramt melden, nicht berühren",
+          "Vorbeugung: Bestände senken, Hygiene"
+        ],
+        "answerEn": [
+          "Notifiable viral disease of domestic pigs and wild boar only, harmless to humans",
+          "Can be spread by people, meat, food waste",
+          "Report dead wild boar to the veterinary office immediately, don't touch",
+          "Prevention: reduce numbers, hygiene"
+        ],
+        "lessonId": "bedenkliche-merkmale",
+        "speciesId": "schwarzwild"
+      },
+      {
+        "id": "o4-hege-fuetterung",
+        "questionDe": "Wann und wie dürfen Sie Schalenwild füttern?",
+        "questionEn": "When and how may you feed cloven-hoofed game?",
+        "answerDe": [
+          "Fütterung in Notzeiten ist Pflicht",
+          "Artgerecht: Raufutter (Heu, Grummet), Saftfutter; beim Reh nicht überwiegend Getreide",
+          "Missbräuchlich: stärkereiches Kraftfutter, Füttern außerhalb der Notzeit zur Wildschadensvermeidung",
+          "Im Umkreis von 200 m um Fütterungen in Notzeiten kein Abschuss"
+        ],
+        "answerEn": [
+          "Feeding in times of need is compulsory",
+          "Species-appropriate: roughage (hay), succulent feed; for roe deer not mainly grain",
+          "Misuse: starchy concentrates, feeding outside times of need",
+          "No shooting within 200 m of feeders in times of need"
+        ],
+        "lessonId": "hege-und-fuetterung"
+      },
+      {
+        "id": "o4-gesellschaftsjagd",
+        "questionDe": "Was beachten Sie als Schütze auf einer Drückjagd?",
+        "questionEn": "What do you observe as a shooter at a driven hunt?",
+        "answerDe": [
+          "Belehrung durch den Jagdleiter, Signalfarbe tragen",
+          "Stand nicht verlassen, mit Nachbarn verständigen, Schussrichtungen kennen",
+          "Nicht ins Treiben schießen, nur bei sicherem Kugelfang",
+          "Nach »Hahn in Ruh« entladen; jeden Schuss melden"
+        ],
+        "answerEn": [
+          "Briefing by the hunt leader, wear high-visibility colour",
+          "Don't leave the stand, make contact with neighbours, know shooting directions",
+          "Never shoot into the drive, only with a safe backstop",
+          "Unload after the end signal; report every shot"
+        ],
+        "lessonId": "sicherheit-bei-der-jagd"
+      }
+    ]
+  },
+  {
+    "sectionId": "jagdhunde",
+    "items": [
+      {
+        "id": "o5-rassen-bild",
+        "questionDe": "Hier sehen Sie Bilder von Jagdhunden. Ordnen Sie sie den Gruppen zu: Deutsch Drahthaar, Teckel, Hannoverscher Schweißhund, Deutscher Wachtelhund.",
+        "questionEn": "Here are pictures of hunting dogs. Assign them to their groups: German Wirehaired Pointer, Dachshund, Hanoverian Scenthound, German Spaniel.",
+        "answerDe": [
+          "Deutsch Drahthaar: Vorstehhund (Vielseitigkeitshund)",
+          "Teckel: Erdhund",
+          "Hannoverscher Schweißhund: Schweißhund für die Nachsuche",
+          "Deutscher Wachtelhund: Stöberhund"
+        ],
+        "answerEn": [
+          "German Wirehaired Pointer: pointing dog (all-rounder)",
+          "Dachshund: earth dog",
+          "Hanoverian Scenthound: blood-tracking hound",
+          "German Spaniel: flushing dog"
+        ],
+        "lessonId": "jagdhundegruppen"
+      },
+      {
+        "id": "o5-vor-nach-schuss",
+        "questionDe": "Welche Arbeiten leistet ein Jagdhund vor und nach dem Schuss?",
+        "questionEn": "What work does a hunting dog do before and after the shot?",
+        "answerDe": [
+          "Vor dem Schuss: Suche, Vorstehen, Buschieren, Stöbern, Brackieren",
+          "Nach dem Schuss: Verlorenbringen, Nachsuche (Riemenarbeit)",
+          "Totverbeller / Totverweiser zeigen gefundenes Stück an"
+        ],
+        "answerEn": [
+          "Before the shot: searching, pointing, close searching, flushing, hound work",
+          "After the shot: retrieving, tracking (on a lead)",
+          "Dead-game barkers / leaders indicate found game"
+        ],
+        "lessonId": "jagdliche-arbeit-und-ausbildung"
+      },
+      {
+        "id": "o5-nachsuche",
+        "questionDe": "Wie läuft eine Nachsuche ab?",
+        "questionEn": "How does tracking a wounded animal work?",
+        "answerDe": [
+          "Anschuss markieren und nicht zertreten, Pirschzeichen sichern",
+          "Wartezeit je nach Schuss",
+          "Hund am Schweißriemen mit breiter Halsung, Riemenarbeit",
+          "Am warmen Wundbett schnallen, Hundeführer gibt den Fangschuss",
+          "Wildfolge beachten, anerkannte Gespanne dürfen die Grenze überschreiten"
+        ],
+        "answerEn": [
+          "Mark the shot site without trampling it, secure the signs",
+          "Waiting time depending on the shot",
+          "Dog on a tracking lead with broad collar",
+          "Release at the warm wound bed; the handler gives the finishing shot",
+          "Mind the rules for crossing boundaries; recognised teams may cross"
+        ],
+        "lessonId": "nachsuche"
+      },
+      {
+        "id": "o5-laut",
+        "questionDe": "Was bedeuten spurlaut, sichtlaut, Standlaut und Weidlaut?",
+        "questionEn": "What do spurlaut, sichtlaut, Standlaut and Weidlaut mean?",
+        "answerDe": [
+          "Spurlaut: gibt auf der Spur Laut (erwünscht)",
+          "Sichtlaut: nur bei Sicht des Wildes",
+          "Standlaut: verbellt gestelltes Wild",
+          "Weidlaut: Laut ohne Spur (unerwünscht)"
+        ],
+        "answerEn": [
+          "Spurlaut: barks on the trail (desirable)",
+          "Sichtlaut: only when it sees the game",
+          "Standlaut: bays game held at bay",
+          "Weidlaut: barking without a trail (unwanted)"
+        ],
+        "lessonId": "laut-und-wesen"
+      },
+      {
+        "id": "o5-brauchbarkeit",
+        "questionDe": "Was ist die Brauchbarkeitsprüfung, und wann brauchen Sie einen brauchbaren Hund?",
+        "questionEn": "What is the qualification test, and when do you need a qualified dog?",
+        "answerDe": [
+          "Prüfung nach BJV-Ordnung: Gehorsam, Schweißarbeit, Verlorenbringen; Rotfährte 300 m bzw. 400 m nur Schalenwild",
+          "Gilt für die geprüften Fächer",
+          "Vorgeschrieben z. B. bei Nachsuche, Bewegungsjagden, Wasserwildjagd, Suche auf Hasen"
+        ],
+        "answerEn": [
+          "Test under BJV rules: obedience, blood tracking, retrieving; blood trail 300 m, or 400 m for cloven-hoofed game only",
+          "Applies to the areas tested",
+          "Required e.g. for tracking, driven hunts, waterfowl hunting, searching for hares"
+        ],
+        "lessonId": "brauchbarkeitspruefung"
+      },
+      {
+        "id": "o5-gesundheit",
+        "questionDe": "Welche Krankheiten können Ihr Hund vom Wild bekommen, und wie schützen Sie ihn?",
+        "questionEn": "Which diseases can your dog catch from game and how do you protect it?",
+        "answerDe": [
+          "Aujeszkysche Krankheit über rohes Schweine-/Schwarzwildfleisch – tödlich, nie roh füttern",
+          "Tollwut, Räude, Fuchsbandwurm, Spulwürmer",
+          "Impfen (z. B. Tollwut, Leptospirose, Staupe), regelmäßig entwurmen, Flöhe bekämpfen"
+        ],
+        "answerEn": [
+          "Aujeszky's disease from raw pork/wild boar — fatal, never feed raw",
+          "Rabies, mange, fox tapeworm, roundworms",
+          "Vaccinate (e.g. rabies, leptospirosis, distemper), worm regularly, control fleas"
+        ],
+        "lessonId": "hundehaltung-und-gesundheit"
+      },
+      {
+        "id": "o5-tierschutz-hund",
+        "questionDe": "Was ist bei der Ausbildung und Haltung des Jagdhundes tierschutzrechtlich verboten?",
+        "questionEn": "What is forbidden under animal welfare law in training and keeping a hunting dog?",
+        "answerDe": [
+          "Hetzen auf lebende Katzen oder andere Tiere zur Ausbildung",
+          "Elektroreizgeräte",
+          "Kupieren durch Laien (nur Tierarzt)",
+          "Anbinden im Zwinger; Welpen vor 8 Wochen abgeben"
+        ],
+        "answerEn": [
+          "Setting it on live cats or other animals for training",
+          "Electric shock collars",
+          "Docking by non-vets (vets only)",
+          "Tying up in a kennel; handing over puppies before 8 weeks"
+        ],
+        "lessonId": "tierschutz-hundeeinsatz"
+      }
+    ]
+  },
+  {
+    "sectionId": "naturschutz",
+    "items": [
+      {
+        "id": "o6-zweige",
+        "questionDe": "Hier liegen Zweige. Bestimmen Sie Fichte, Tanne, Kiefer, Lärche und Douglasie.",
+        "questionEn": "Here are twigs. Identify spruce, fir, pine, larch and Douglas fir.",
+        "answerDe": [
+          "Fichte: spitze, rundum stehende Nadeln, hängende Zapfen",
+          "Weißtanne: flache Nadeln mit zwei weißen Streifen unten, Zapfen stehen und zerfallen am Baum",
+          "Kiefer: lange Nadeln zu zweit",
+          "Lärche: weiche Nadeln in Büscheln, wirft im Herbst ab",
+          "Douglasie: weiche Nadeln, Zapfen mit dreizipfligen Deckschuppen, aus Nordamerika"
+        ],
+        "answerEn": [
+          "Spruce: sharp needles all round the twig, hanging cones",
+          "Silver fir: flat needles with two white stripes below, cones stand upright and break up on the tree",
+          "Pine: long needles in pairs",
+          "Larch: soft needles in tufts, shed in autumn",
+          "Douglas fir: soft needles, cones with three-pointed bracts, from North America"
+        ],
+        "lessonId": "baumarten"
+      },
+      {
+        "id": "o6-geschuetzt",
+        "questionDe": "Nennen Sie besonders geschützte Tier- und Pflanzenarten.",
+        "questionEn": "Name specially protected animal and plant species.",
+        "answerDe": [
+          "Tiere: Igel, Fledermäuse, Feldhamster, Haselmaus, Eichhörnchen, Rote Waldameise, Hirschkäfer",
+          "Pflanzen: Enziane, Edelweiß, Frauenschuh und alle Orchideen, Trollblume, Seidelbast, Sonnentau",
+          "Hecken vom 1. März bis 30. September nicht schneiden"
+        ],
+        "answerEn": [
+          "Animals: hedgehog, bats, common hamster, hazel dormouse, red squirrel, red wood ant, stag beetle",
+          "Plants: gentians, edelweiss, lady's slipper and all orchids, globeflower, mezereon, sundew",
+          "Don't cut hedges from 1 March to 30 September"
+        ],
+        "lessonId": "naturschutz-geschuetzte-arten"
+      },
+      {
+        "id": "o6-wildacker",
+        "questionDe": "Wie legen Sie einen Wildacker an, und welche Pflanzen nehmen Sie?",
+        "questionEn": "How do you create a game plot and which plants do you use?",
+        "answerDe": [
+          "Nicht auf Magerrasen oder Feuchtwiesen",
+          "Boden prüfen, bei niedrigem pH kalken",
+          "Winteräsung: Raps, Rübsen, Markstammkohl; Daueräsung: Klee, Luzerne, Topinambur",
+          "Deckung: Sonnenblume, Senf"
+        ],
+        "answerEn": [
+          "Not on nutrient-poor grassland or wet meadows",
+          "Test the soil, lime if the pH is low",
+          "Winter food: rape, turnip rape, marrow-stem kale; permanent: clover, lucerne, Jerusalem artichoke",
+          "Cover: sunflower, mustard"
+        ],
+        "lessonId": "landbau"
+      },
+      {
+        "id": "o6-verbiss",
+        "questionDe": "Woran erkennen Sie Rehverbiss im Vergleich zu Hasenverbiss, und welche Folgen hat Verbiss?",
+        "questionEn": "How do you tell roe deer browsing from hare browsing, and what are the consequences of browsing?",
+        "answerDe": [
+          "Reh: faserig-gequetscht, weil oben keine Schneidezähne",
+          "Hase: glatt und schräg abgebissen",
+          "Folgen: Zwiesel, Entmischung (Tanne und Laubholz fallen aus)",
+          "Forstliches Gutachten bewertet die Verbisssituation je Hegegemeinschaft"
+        ],
+        "answerEn": [
+          "Roe: frayed and crushed, because no upper incisors",
+          "Hare: cut cleanly at an angle",
+          "Consequences: forked stems, loss of mixture (fir and broadleaves lost)",
+          "The forestry report assesses browsing per game management association"
+        ],
+        "lessonId": "wildschaeden-erkennen-und-verhueten"
+      },
+      {
+        "id": "o6-waldbau",
+        "questionDe": "Was versteht man unter naturnahem Waldbau, und warum ist der Bergmischwald wichtig?",
+        "questionEn": "What is close-to-nature silviculture and why is mountain mixed forest important?",
+        "answerDe": [
+          "Standortgemäße Mischbestände, Naturverjüngung, keine Kahlschläge",
+          "Bergmischwald aus Fichte, Tanne, Buche – stabil gegen Sturm und Käfer",
+          "Schutzwald schützt vor Lawinen, Steinschlag, Erosion",
+          "Angepasste Schalenwildbestände sind Voraussetzung für Verjüngung"
+        ],
+        "answerEn": [
+          "Site-appropriate mixed stands, natural regeneration, no clear-cuts",
+          "Mountain mixed forest of spruce, fir and beech — stable against storms and beetles",
+          "Protection forest guards against avalanches, rockfall, erosion",
+          "Balanced deer numbers are a precondition for regeneration"
+        ],
+        "lessonId": "waldbau-und-waldgesetz"
+      },
+      {
+        "id": "o6-landbau",
+        "questionDe": "Welche Feldfrüchte und landwirtschaftlichen Maßnahmen helfen dem Niederwild?",
+        "questionEn": "Which crops and farming measures help small game?",
+        "answerDe": [
+          "Zwischenfrüchte (Senf, Ölrettich) und Wintergetreide als Äsung und Deckung",
+          "Stoppelbrache, Blühstreifen, Acker- und Uferrandstreifen",
+          "Hecken und Feldgehölze",
+          "Kitzrettung vor dem Mähen (Absuchen, Scheuchen, Wildretter)"
+        ],
+        "answerEn": [
+          "Catch crops (mustard, oil radish) and winter cereal for food and cover",
+          "Overwinter stubble, flower strips, field and riverside margins",
+          "Hedges and copses",
+          "Saving fawns before mowing (searching, scarers, wildlife savers)"
+        ],
+        "lessonId": "landbau"
+      },
+      {
+        "id": "o6-schaden-vermeiden",
+        "questionDe": "Wie verhüten Sie Wildschäden im Wald und auf dem Feld?",
+        "questionEn": "How do you prevent game damage in forest and field?",
+        "answerDe": [
+          "Angepasste Bestände, Schwerpunktbejagung",
+          "Zaun (Reh: mindestens 150 cm), Einzelschutz, Fegeschutz",
+          "Mais: verstärkte Bejagung im Bereich der Felder, Elektrozaun",
+          "Wintergatter für Rotwild"
+        ],
+        "answerEn": [
+          "Balanced numbers, focused hunting",
+          "Fencing (roe: at least 150 cm), individual guards, fray guards",
+          "Maize: more hunting around the fields, electric fence",
+          "Winter enclosures for red deer"
+        ],
+        "lessonId": "wildschaeden-erkennen-und-verhueten"
+      }
+    ]
+  }
+]

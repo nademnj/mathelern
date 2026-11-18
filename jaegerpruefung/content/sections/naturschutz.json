@@ -1,0 +1,1879 @@
+{
+  "id": "naturschutz",
+  "order": 6,
+  "titleDe": "Naturschutz, Landbau, Forstwesen, Wild- und Jagdschadensverhütung",
+  "titleEn": "Nature conservation, agriculture, forestry, preventing game and hunting damage",
+  "summaryDe": "Natur- und Artenschutz mit besonders geschützten Arten, Landbau, Forstwesen und Waldbau sowie die Verhütung von Wild- und Jagdschäden. In der Prüfung kommen 20 der 100 Fragen aus diesem Sachgebiet.",
+  "summaryEn": "Nature and species protection including specially protected species, agriculture, forestry and silviculture, and preventing game and hunting damage. 20 of the 100 exam questions come from this area.",
+  "researchTopics": [
+    "6.1 Natur- und Artenschutz, besonders geschützte Arten",
+    "6.2 Landbau",
+    "6.3 Forstwesen, insbesondere Waldbau",
+    "6.4 Wild- und Jagdschadensverhütung"
+  ],
+  "catalogTopics": [
+    {
+      "code": "6.1",
+      "titleDe": "Natur- und Artenschutz, besonders geschützte Arten",
+      "titleEn": "Nature and species protection, specially protected species",
+      "officialQuestions": 65,
+      "lessonIds": [
+        "naturschutz-geschuetzte-arten",
+        "lebensraeume-und-arten"
+      ]
+    },
+    {
+      "code": "6.2",
+      "titleDe": "Landbau",
+      "titleEn": "Agriculture",
+      "officialQuestions": 47,
+      "lessonIds": [
+        "landbau"
+      ]
+    },
+    {
+      "code": "6.3",
+      "titleDe": "Forstwesen, insbesondere Waldbau",
+      "titleEn": "Forestry and silviculture",
+      "officialQuestions": 70,
+      "lessonIds": [
+        "baumarten",
+        "waldbau-und-waldgesetz"
+      ]
+    },
+    {
+      "code": "6.4",
+      "titleDe": "Wild- und Jagdschadensverhütung",
+      "titleEn": "Preventing game and hunting damage",
+      "officialQuestions": 24,
+      "lessonIds": [
+        "hege-und-wildschaden",
+        "wildschaeden-erkennen-und-verhueten"
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "id": "naturschutz-geschuetzte-arten",
+      "titleDe": "Natur- und Artenschutz: geschützte Arten und Biotope",
+      "titleEn": "Nature and species protection: protected species and habitats",
+      "paragraphs": [
+        {
+          "de": "Nach dem Naturschutzrecht besonders geschützt sind unter anderem Igel, Eichhörnchen, Spitzmäuse, Feldhamster, Haselmaus und Siebenschläfer, Insekten wie die Rote Waldameise und der Hirschkäfer sowie Pflanzen wie Enziane, Alpen-Edelweiß, Trollblume, Weiße Seerose, Sonnentau, Schwertlilie, Silberdistel, Küchenschelle und alle heimischen Orchideen, zum Beispiel Frauenschuh und Rotes Waldvögelein. Die Rote Liste ist eine Aufstellung der in ihrem Bestand gefährdeten Tier- und Pflanzenarten.",
+          "en": "Under nature conservation law, specially protected species include hedgehog, red squirrel, shrews, common hamster, hazel dormouse and edible dormouse; insects such as the red wood ant and stag beetle; and plants such as gentians, edelweiss, globeflower, white water lily, sundew, iris, carline thistle, pasque flower and all native orchids, e.g. lady's slipper and red helleborine. The Red List is a list of animal and plant species whose populations are endangered."
+        },
+        {
+          "de": "Hecken, Gebüsche und andere Gehölze in der freien Natur dürfen vom 1. März bis 30. September nicht abgeschnitten oder auf den Stock gesetzt werden, damit das Brutgeschäft der Vögel nicht gestört wird. Feuchtwiesen, Moore und andere wertvolle Lebensräume sind nach dem Bayerischen Naturschutzgesetz gesetzlich geschützte Biotope. FFH-Gebiete gehören zum europäischen Schutzgebietsnetz Natura 2000; für ihre Schutzgüter gilt ein Verschlechterungsverbot.",
+          "en": "Hedges, bushes and other woody plants in the open countryside must not be cut back or coppiced from 1 March to 30 September, so that nesting birds are not disturbed. Wet meadows, bogs and other valuable habitats are legally protected biotopes under the Bavarian Nature Conservation Act. FFH areas are part of the European Natura 2000 network of protected sites; their protected features must not be allowed to deteriorate."
+        },
+        {
+          "de": "Hochmoore sind nährstoffarm; dort wächst der Sonnentau, der mit klebrigen Tentakeln Insekten fängt. Ihre Pflanzendecke ist trittempfindlich und wird durch Erholungssuchende gefährdet. Auf Niedermooren (Flachmooren) wachsen etwa Mehlprimel, Trollblume und Blaue Schwertlilie; ihre wichtigste Pflege ist ein jährlicher, später Schnitt mit Abtransport des Mähguts. Die Silberdistel wächst auf Trockenrasen, der Seidelbast in Wäldern und Gebüschen. Unter Biozönose versteht man die Lebensgemeinschaft aller Tier- und Pflanzenarten eines Lebensraums.",
+          "en": "Raised bogs are nutrient-poor; sundew grows there, catching insects with sticky tentacles. Their plant cover is sensitive to trampling and threatened by visitors. Fens (low-lying bogs) support, for example, bird's-eye primrose, globeflower and Siberian iris; the most important care for them is a late annual mowing with the cuttings removed. Carline thistle grows on dry grassland, mezereon in woods and scrub. A biocoenosis is the community of all plant and animal species in a habitat."
+        },
+        {
+          "de": "Bleihaltige Munition gefährdet Greifvögel: Fressen sie Aufbruch oder Wildteile mit Bleisplittern, kann es zu schweren Bleivergiftungen kommen, die das Nervensystem schädigen und durch Organversagen qualvoll zum Tod führen können. Blei ist ein hochgiftiges Schwermetall.",
+          "en": "Lead ammunition endangers birds of prey: if they eat gut piles or game parts with lead fragments, they can suffer severe lead poisoning, which damages the nervous system and can lead to a painful death through organ failure. Lead is a highly toxic heavy metal."
+        }
+      ],
+      "keyTerms": [
+        {
+          "de": "besonders geschützt",
+          "en": "specially protected (legal status)"
+        },
+        {
+          "de": "Rote Liste",
+          "en": "Red List of endangered species"
+        },
+        {
+          "de": "Biotop",
+          "en": "habitat"
+        },
+        {
+          "de": "Natura 2000 / FFH-Gebiet",
+          "en": "EU protected-area network / Habitats Directive site"
+        },
+        {
+          "de": "Hochmoor",
+          "en": "raised bog"
+        },
+        {
+          "de": "Niedermoor / Flachmoor",
+          "en": "fen"
+        },
+        {
+          "de": "Trockenrasen",
+          "en": "dry grassland"
+        },
+        {
+          "de": "Biozönose",
+          "en": "biocoenosis (living community)"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Fragenkatalog zur Jägerprüfung in Bayern – Landesamt für Maß und Gewicht",
+          "url": "https://www.lmg.bayern.de/aufgaben_leistungen/jaegerpruefung/index.html"
+        },
+        {
+          "title": "Bundesnaturschutzgesetz (BNatSchG) – gesetze-im-internet.de",
+          "url": "https://www.gesetze-im-internet.de/bnatschg_2009/"
+        },
+        {
+          "title": "Bayerisches Naturschutzgesetz (BayNatSchG) – gesetze-bayern.de",
+          "url": "https://www.gesetze-bayern.de/Content/Document/BayNatSchG"
+        }
+      ],
+      "origin": "seed",
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "lebensraeume-und-arten",
+      "titleDe": "Lebensräume und ihre Tierarten",
+      "titleEn": "Habitats and their species",
+      "paragraphs": [
+        {
+          "de": "Hecken und Feldgehölze sind Lebensraum von Neuntöter und Haselmaus; der Neuntöter ist auf Dornenhecken angewiesen. Röhricht an stehenden Gewässern brauchen Rohrdommel, Drosselrohrsänger und Blässhuhn. Weite feuchte Wiesen und Moore sind der Brutraum der Wiesenbrüter Großer Brachvogel und Bekassine – Bayern fördert ihren Schutz mit dem Vertragsnaturschutzprogramm. Eisvogel und Uferschwalbe graben ihre Bruthöhlen in Steilufer.",
+          "en": "Hedges and copses are home to the red-backed shrike and hazel dormouse; the shrike depends on thorny hedges. Reed beds on still waters are needed by the bittern, great reed warbler and coot. Extensive wet meadows and bogs are the breeding grounds of the meadow birds curlew and snipe — Bavaria funds their protection with its contract nature conservation programme. Kingfisher and sand martin dig their nest holes in steep banks."
+        },
+        {
+          "de": "Nadelwälder bewohnen etwa Tannenmeise und Fichtenkreuzschnabel, Laubwälder der Pirol, Buchenwälder der Waldlaubsänger und die Hohltaube. Baumhöhlen und ersatzweise Nistkästen nutzen Bilche, Grünspecht und Sperlingskauz. Spechte fördert man, indem man totes Holz und Höhlenbäume erhält. Buntspecht, Kleiber und Baumläufer klettern an Stämmen auf Nahrungssuche. Der Hirschkäfer lebt in alten, lichten Eichenwäldern, die Ringelnatter in Mooren und sumpfigen Wiesen.",
+          "en": "Coniferous forests are home to, for example, the coal tit and common crossbill; broadleaved forests to the golden oriole; beech forests to the wood warbler and stock dove. Tree holes — or nest boxes instead — are used by dormice, green woodpecker and pygmy owl. Woodpeckers are helped by keeping dead wood and trees with holes. Great spotted woodpecker, nuthatch and treecreeper climb trunks looking for food. The stag beetle lives in old, open oak woods; the grass snake in bogs and marshy meadows."
+        },
+        {
+          "de": "Eulen: Die Sumpfohreule brütet am Boden und jagt wie der Sperlingskauz auch bei Tag; der Sperlingskauz erbeutet Kleinvögel und Mäuse, die Schleiereule fast nur Mäuse. Eulengewölle enthalten gut erkennbare Knochen. Eichel- und Tannenhäher legen Nahrungsvorräte an; der Tannenhäher frisst vor allem Haselnüsse und Baumsamen. Insektenfresser unter den Säugern sind Igel, Maulwurf und Spitzmaus; Fledermäuse sind Säugetiere, fressen Insekten, orten mit Ultraschall, schlafen tagsüber in Dachstühlen oder Baumhöhlen und halten Winterschlaf.",
+          "en": "Owls: the short-eared owl nests on the ground and, like the pygmy owl, also hunts by day; the pygmy owl takes small birds and mice, the barn owl almost only mice. Owl pellets contain clearly visible bones. Jays and nutcrackers store food; the nutcracker eats mainly hazelnuts and tree seeds. Insectivorous mammals are hedgehog, mole and shrew; bats are mammals that eat insects, locate prey by ultrasound, roost by day in warm attics or tree holes, and hibernate."
+        },
+        {
+          "de": "Der Biber frisst ausschließlich Pflanzen. Der Bisam frisst überwiegend Pflanzen, nimmt aber auch Insekten und Krebse, kann Uferdämme unterwühlen und hat einen fast kahlen, beschuppten, seitlich abgeplatteten Schwanz. Weißstorch und Schwarzstorch sind Zugvögel mit Winterquartier in Afrika; der Schwarzstorch lebt in abgelegenen Wäldern. Störche und Schwäne fliegen mit gestrecktem Hals. Der Kormoran frisst ausschließlich Fische. Feldlerche, Kiebitz und Großer Brachvogel sind Zugvögel; Kiebitz und Bachstelze kehren als erste aus dem Winterquartier zurück.",
+          "en": "The beaver eats only plants. The muskrat eats mostly plants but also insects and crayfish, can undermine embankments, and has an almost bare, scaly tail flattened from side to side. White and black storks are migrants that winter in Africa; the black stork lives in remote forests. Storks and swans fly with outstretched necks. The cormorant eats only fish. Skylark, lapwing and curlew are migrants; lapwing and white wagtail are among the first to return from their winter quarters."
+        }
+      ],
+      "keyTerms": [
+        {
+          "de": "Wiesenbrüter",
+          "en": "meadow-nesting birds"
+        },
+        {
+          "de": "Röhricht",
+          "en": "reed bed"
+        },
+        {
+          "de": "Neuntöter",
+          "en": "red-backed shrike"
+        },
+        {
+          "de": "Bilche",
+          "en": "dormice"
+        },
+        {
+          "de": "Gewölle",
+          "en": "pellet (regurgitated)"
+        },
+        {
+          "de": "Bisam",
+          "en": "muskrat"
+        },
+        {
+          "de": "Totholz",
+          "en": "dead wood"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Fragenkatalog zur Jägerprüfung in Bayern – Landesamt für Maß und Gewicht",
+          "url": "https://www.lmg.bayern.de/aufgaben_leistungen/jaegerpruefung/index.html"
+        }
+      ],
+      "origin": "seed",
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "landbau",
+      "titleDe": "Landbau: Boden, Feldfrüchte und Pflanzenschutz",
+      "titleEn": "Agriculture: soil, crops and crop protection",
+      "paragraphs": [
+        {
+          "de": "Tonboden gilt als schwerer Boden, Sandboden als leichter; Sand erwärmt sich im Frühjahr am schnellsten. Den Boden bearbeitet man mit Pflug, Grubber und Fräse. Ein zu niedriger pH-Wert (saurer Boden, etwa 4,5) wird durch Kalkdüngung verbessert. Organische Dünger sind zum Beispiel Stallmist, Gülle und Hornspäne, Mineraldünger etwa Kalkammonsalpeter und Blaukorn. Hülsenfrüchte (Lupinen, Erbsen, Bohnen, Wicken) und Klee reichern mit Knöllchenbakterien den Boden mit Stickstoff an.",
+          "en": "Clay soil counts as heavy soil, sandy soil as light; sand warms fastest in spring. Soil is worked with plough, cultivator and rotary tiller. Too low a pH (acid soil, around 4.5) is corrected with lime. Organic fertilisers include farmyard manure, slurry and horn shavings; mineral fertilisers include calcium ammonium nitrate and blue NPK granules. Legumes (lupins, peas, beans, vetches) and clover enrich the soil with nitrogen via root-nodule bacteria."
+        },
+        {
+          "de": "Zum Getreide gehören zum Beispiel Weizen, Gerste, Roggen, Hafer und Mais. Weizen und Gerste gibt es als Winter- und Sommerung, Mais in Bayern nur als Sommerfrucht. Gerste und Roggen haben stark begrannte Ähren. Als erste Kultur wird in Bayern der Raps geerntet, als letzte der Körnermais – er bietet dem Wild am längsten Deckung und Äsung. In der Milchreife (Körner weiß-gelblich, Inhalt milchig) ist Mais für Schwarzwild besonders anziehend. Hackfrüchte sind zum Beispiel Kartoffeln und Rüben; Kartoffeln gedeihen am besten auf lockerem, warmem Boden.",
+          "en": "Cereals include wheat, barley, rye, oats and maize. Wheat and barley are grown as winter and spring crops, maize in Bavaria only as a spring crop. Barley and rye have long-awned ears. The first crop harvested in Bavaria is oilseed rape, the last is grain maize — it gives game cover and food the longest. At the milk-ripe stage (kernels whitish-yellow with milky content) maize is especially attractive to wild boar. Root crops include potatoes and beets; potatoes grow best on loose, warm soil."
+        },
+        {
+          "de": "Zwischenfrüchte werden zwischen zwei Hauptfrüchten angebaut, etwa Senf, Ölrettich, Rübsen und Alexandrinerklee. Sie verbessern die Bodengare, liefern Futter und bieten dem Wild Äsung und Deckung – ebenso wie Wintergetreide im Herbst und Winter. Raps dient der Ölgewinnung, als Futter und zur Gründüngung. Für Wildäcker eignen sich unter anderem Raps, Senf, Ackerbohne, Wicken, Felderbsen, Sonnenblumen und Luzerne; im Feldfutterbau werden Rotklee und Luzerne angebaut. Mulchsaaten bieten nach der Ernte rasch neue Deckung. Silage ist durch Milchsäuregärung haltbar gemachtes Saftfutter.",
+          "en": "Catch crops are grown between two main crops, e.g. mustard, oil radish, turnip rape and Egyptian clover. They improve soil structure, provide fodder and give game food and cover — as does winter cereal in autumn and winter. Rapeseed is grown for oil, fodder and green manure. Suitable for game plots are, among others, rape, mustard, field beans, vetches, field peas, sunflowers and lucerne; red clover and lucerne are grown as forage crops. Mulch sowing quickly gives new cover after harvest. Silage is moist fodder preserved by lactic-acid fermentation."
+        },
+        {
+          "de": "Herbizide sind Mittel gegen Unkraut, Fungizide gegen Pilzbefall, Molluskizide gegen Schnecken (die Blätter und Stängel fressen). Saatgetreide wird gebeizt, um es vor Pilzkrankheiten und Vogelfraß zu schützen. Beim integrierten Pflanzenschutz werden vorbeugende, biologische und mechanische Verfahren kombiniert, Chemie nur so viel wie nötig. Pflanzenschutzmittel dürfen nur Personen mit Sachkundenachweis ausbringen und nicht auf Feldrainen. Reste gehören in die Sondermüllentsorgung. Die Karenzzeit (Wartezeit) ist die Mindestzeit zwischen letzter Anwendung und Ernte.",
+          "en": "Herbicides control weeds, fungicides fungal disease, molluscicides slugs and snails (which eat leaves and stems). Seed grain is dressed to protect it against fungal disease and birds. Integrated crop protection combines preventive, biological and mechanical methods, using chemicals only as much as necessary. Only people with a certificate of competence may apply pesticides, and never on field margins. Leftovers go to hazardous-waste disposal. The pre-harvest interval (Karenzzeit) is the minimum time between the last application and harvest."
+        }
+      ],
+      "keyTerms": [
+        {
+          "de": "Tonboden / Sandboden",
+          "en": "clay soil / sandy soil"
+        },
+        {
+          "de": "Gülle",
+          "en": "slurry"
+        },
+        {
+          "de": "Stickstoffsammler",
+          "en": "nitrogen-fixing plants"
+        },
+        {
+          "de": "Wintergetreide",
+          "en": "winter cereal"
+        },
+        {
+          "de": "Zwischenfrucht",
+          "en": "catch crop"
+        },
+        {
+          "de": "Wildacker",
+          "en": "game food plot"
+        },
+        {
+          "de": "Hackfrucht",
+          "en": "root crop"
+        },
+        {
+          "de": "Herbizid / Fungizid",
+          "en": "herbicide / fungicide"
+        },
+        {
+          "de": "beizen",
+          "en": "to dress (seed)"
+        },
+        {
+          "de": "Karenzzeit",
+          "en": "pre-harvest interval"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Fragenkatalog zur Jägerprüfung in Bayern – Landesamt für Maß und Gewicht",
+          "url": "https://www.lmg.bayern.de/aufgaben_leistungen/jaegerpruefung/index.html"
+        }
+      ],
+      "origin": "seed",
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "baumarten",
+      "titleDe": "Forstwesen: Baumarten und ihre Eigenschaften",
+      "titleEn": "Forestry: tree species and their traits",
+      "paragraphs": [
+        {
+          "de": "Licht- und Schattbaumarten: Kiefer und Lärche brauchen viel Licht, Buche und Tanne ertragen Schatten. Pionierbaumarten wie Birke, Vogelbeere und Weide wachsen in der Jugend sehr rasch, sind frosthart und kommen auch mit extremen Böden zurecht. Am schnellsten wächst die Pappel, unter den Nadelbäumen hat die Lärche das schnellste, die Weißtanne das langsamste Jugendwachstum. Am anspruchslosesten an Boden und Wasser sind Sandbirke und Kiefer. Weichhölzer sind zum Beispiel Pappel und Baumweide.",
+          "en": "Light-demanding and shade-tolerant trees: pine and larch need plenty of light; beech and fir tolerate shade. Pioneer species such as birch, rowan and willow grow very fast when young, are frost-hardy and cope with extreme soils. Poplar grows fastest of all; among conifers larch has the fastest and silver fir the slowest early growth. Silver birch and pine are the least demanding about soil nutrients and water. Softwood broadleaves include poplar and tree willows."
+        },
+        {
+          "de": "Jedes Jahr ihre Blätter bzw. Nadeln ab werfen Laubbäume wie Buche, Ahorn, Eiche und Schwarzerle – und unter den Nadelbäumen die Lärche. Bei der Weißtanne stehen die reifen Zapfen aufrecht und zerfallen am Baum. Flugfähige Samen haben Ahorn, Birke, Fichte und Kiefer. Das Alter einer jungen Fichte lässt sich an den Astquirlen abzählen. Nach dem Fällen schlagen Erle und Eiche wieder aus dem Stock aus. Nicht aus Europa stammen Douglasie, Küstentanne und Roteiche.",
+          "en": "Trees that shed their leaves or needles every year are broadleaves such as beech, maple, oak and black alder — and, among conifers, the larch. In silver fir the ripe cones stand upright and break up on the tree. Maple, birch, spruce and pine have winged seeds carried by wind. A young spruce's age can be counted from its branch whorls. Alder and oak resprout from the stump after felling. Douglas fir, grand fir and red oak are not native to Europe."
+        },
+        {
+          "de": "Die Fichte wird am häufigsten vom Wind geworfen, besonders auf flachgründigen Böden, und ist durch Borkenkäfer – vor allem den Buchdrucker – stark gefährdet. Eiche und Tanne stabilisieren Bestände mit ihren tiefen Wurzeln. Buche und Eiche liefern mit ihrer Mast (Bucheckern, Eicheln) wertvolle Wildäsung. Die Roterle wächst an Bächen und Gewässern. Den Bergmischwald bilden Fichte, Tanne und Buche; Hainbuche und Traubeneiche gehören nicht dazu. In Auwäldern entlang der Flüsse wachsen von Natur aus Esche, Silberweide und Stieleiche, an Hochmooren Spirke, Birke und Fichte.",
+          "en": "Spruce is the species most often blown down, especially on shallow soils, and is highly threatened by bark beetles — above all the eight-toothed spruce bark beetle (Buchdrucker). Oak and fir stabilise stands with their deep roots. Beech and oak provide valuable game food with their mast (beechnuts, acorns). Black alder grows along streams and water. Mountain mixed forest is made up of spruce, fir and beech; hornbeam and sessile oak are not part of it. Floodplain forests along rivers naturally hold ash, white willow and pedunculate oak; bogs, mountain pine, birch and spruce."
+        },
+        {
+          "de": "Standortzeiger verraten den Boden: Heidekraut zeigt nährstoffarmen, Brennnessel nährstoffreichen Boden an. Schädlinge sind neben dem Buchdrucker etwa Nonne und Rüsselkäfer an Fichte sowie der Eichenwickler. Rotfäule der Fichte entsteht unter anderem durch Rindenverletzungen am Wurzelanlauf beim Holzrücken und durch Schälen des Rotwildes; bei der Kiefer führt Schälen nicht zu Fäulnis.",
+          "en": "Indicator plants reveal the soil: heather indicates nutrient-poor soil, nettles nutrient-rich soil. Pests besides the spruce bark beetle include the nun moth and pine weevil on spruce, and the oak leaf roller moth. Red rot in spruce is caused, among other things, by bark damage at the root collar during timber extraction and by red deer bark stripping; in pine, bark stripping does not lead to rot."
+        }
+      ],
+      "keyTerms": [
+        {
+          "de": "Lichtbaumart / Schattbaumart",
+          "en": "light-demanding / shade-tolerant tree"
+        },
+        {
+          "de": "Pionierbaumart",
+          "en": "pioneer tree species"
+        },
+        {
+          "de": "Weichholz",
+          "en": "softwood broadleaf"
+        },
+        {
+          "de": "Astquirl",
+          "en": "branch whorl"
+        },
+        {
+          "de": "Mast",
+          "en": "mast (beechnuts, acorns)"
+        },
+        {
+          "de": "Bergmischwald",
+          "en": "mountain mixed forest (spruce–fir–beech)"
+        },
+        {
+          "de": "Buchdrucker",
+          "en": "eight-toothed spruce bark beetle"
+        },
+        {
+          "de": "Rotfäule",
+          "en": "red rot (spruce)"
+        },
+        {
+          "de": "Standortzeiger",
+          "en": "indicator plant"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Fragenkatalog zur Jägerprüfung in Bayern – Landesamt für Maß und Gewicht",
+          "url": "https://www.lmg.bayern.de/aufgaben_leistungen/jaegerpruefung/index.html"
+        }
+      ],
+      "origin": "seed",
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "waldbau-und-waldgesetz",
+      "titleDe": "Waldbau, Waldgesetz und Forstliches Gutachten",
+      "titleEn": "Silviculture, the forest act and the forestry report",
+      "paragraphs": [
+        {
+          "de": "Den größten Anteil an Bayerns Wald hat der Privatwald. Nachhaltige Forstwirtschaft heißt, dass grundsätzlich nicht mehr Holz eingeschlagen wird als nachwächst. Naturnaher Waldbau setzt auf standortgemäße Mischbestände, viel Naturverjüngung und vermeidet Kahlschläge. Reinbestände, besonders reine Fichtenbestände, sind anfälliger für Schädlinge und Sturm; unter ihnen bilden sich oft nährstoffarme Rohhumusböden. Standortgemäß ist eine Bestockung, die die Leistungsfähigkeit des Standorts nutzt und erhält.",
+          "en": "Private forest makes up the largest share of Bavaria's woodland. Sustainable forestry means that, in principle, no more timber is harvested than grows back. Close-to-nature silviculture relies on site-appropriate mixed stands and plenty of natural regeneration, and avoids clear-cuts. Pure stands, especially pure spruce, are more vulnerable to pests and storms; under them, nutrient-poor raw humus often forms. A site-appropriate stand is one that uses and maintains the site's productivity."
+        },
+        {
+          "de": "Naturverjüngung entsteht aus Samen der Altbäume, Kunstverjüngung durch Saat oder Pflanzung. Naturverjüngung kostet keine Kulturkosten, wurzelt besser und ist weniger verbissgefährdet. Eichel- und Tannenhäher fördern die natürliche Verjüngung: Junge Buchen weitab von Samenbäumen gehen auf Hähersaat zurück. Im Plenterwald werden einzelne hiebsreife Bäume auf der ganzen Fläche entnommen; dort stehen mehrere Baumarten unterschiedlichen Alters auf kleiner Fläche. Ein Bestand mit etwa 15 cm Brusthöhendurchmesser heißt Stangenholz. Rehwild findet Äsung vor allem im Jungwuchs und im lichten Altholz.",
+          "en": "Natural regeneration grows from the seed of the old trees; artificial regeneration from sowing or planting. Natural regeneration has no planting costs, roots better and is less prone to browsing. Jays and nutcrackers help natural regeneration: young beeches far from seed trees come from jay sowing. In selection forest (Plenterwald) single mature trees are harvested across the whole area; several species of different ages grow together on a small area. A stand with a breast-height diameter of about 15 cm is called pole wood (Stangenholz). Roe deer find food mainly in young growth and open old stands."
+        },
+        {
+          "de": "Nach dem Bayerischen Waldgesetz ist Schutzwald unter anderem Wald im Hochgebirge und Wald, der vor Lawinen, Erosion und Steinschlag oder benachbarte Bestände vor Sturm schützt; Kahlhiebe im Schutzwald bedürfen einer Erlaubnis. Bannwald ist Wald, der vor allem in Verdichtungsräumen wegen seiner Lage und Größe unersetzlich ist und deshalb in seiner Fläche erhalten werden muss. Naturwaldreservate werden nicht bewirtschaftet und dienen der Erhaltung und Erforschung natürlicher Wälder. Wälder schützen vor Erosion, Lawinen und Steinschlag und sind wichtig für das Trinkwasser.",
+          "en": "Under the Bavarian Forest Act, protection forest (Schutzwald) includes forest in the high mountains and forest that protects against avalanches, erosion and rockfall, or protects neighbouring stands from storms; clear-cuts in protection forest need a permit. Bannwald is forest that, mainly in densely populated areas, is irreplaceable because of its location and size and must therefore be kept in its full area. Natural forest reserves are not managed and serve to preserve and study natural forests. Forests protect against erosion, avalanches and rockfall and are important for drinking water."
+        },
+        {
+          "de": "Das Forstliche Gutachten zur Situation der Waldverjüngung erstellt die Forstverwaltung für jede Hegegemeinschaft; es ist eine wichtige Grundlage für die Abschussplanung beim Schalenwild. Die Verbissaufnahme erfolgt auf Flächen, die nach einem systematischen Gitternetz ausgewählt werden. Ergänzende revierweise Aussagen bewerten die Verbisssituation im einzelnen Revier. Im Zusammenhang mit der Jagdausübung darf im Wald Feuer gemacht werden; ein Wildacker gilt als dem Wald gleichgestellte Fläche.",
+          "en": "The forestry report on the state of forest regeneration (Forstliches Gutachten) is prepared by the forestry administration for each game management association (Hegegemeinschaft); it is an important basis for planning the cull of cloven-hoofed game. Browsing is surveyed on plots chosen on a systematic grid. Additional statements for individual hunting grounds assess the browsing situation in each one. Lighting a fire in the forest is allowed in connection with hunting; a game plot counts as land equivalent to forest."
+        }
+      ],
+      "keyTerms": [
+        {
+          "de": "Naturverjüngung",
+          "en": "natural regeneration"
+        },
+        {
+          "de": "Kunstverjüngung",
+          "en": "artificial regeneration (planting/sowing)"
+        },
+        {
+          "de": "Kahlhieb / Kahlschlag",
+          "en": "clear-cut"
+        },
+        {
+          "de": "Plenterwald",
+          "en": "selection forest"
+        },
+        {
+          "de": "Stangenholz",
+          "en": "pole stand"
+        },
+        {
+          "de": "Schutzwald",
+          "en": "protection forest"
+        },
+        {
+          "de": "Bannwald",
+          "en": "protected forest that must not be reduced"
+        },
+        {
+          "de": "Forstliches Gutachten",
+          "en": "official report on forest regeneration and browsing"
+        },
+        {
+          "de": "Hähersaat",
+          "en": "seeds planted by jays"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Fragenkatalog zur Jägerprüfung in Bayern – Landesamt für Maß und Gewicht",
+          "url": "https://www.lmg.bayern.de/aufgaben_leistungen/jaegerpruefung/index.html"
+        },
+        {
+          "title": "Bayerisches Waldgesetz (BayWaldG) – gesetze-bayern.de",
+          "url": "https://www.gesetze-bayern.de/Content/Document/BayWaldG"
+        }
+      ],
+      "origin": "seed",
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "hege-und-wildschaden",
+      "titleDe": "Hege, Wildschaden und Jagdschaden",
+      "titleEn": "Game management, game damage and hunting damage",
+      "paragraphs": [
+        {
+          "de": "Ziel der Hege ist nach § 1 Abs. 2 BJagdG ein artenreicher und gesunder Wildbestand, der an die landschaftlichen und landeskulturellen Verhältnisse angepasst ist, sowie die Pflege und Sicherung seiner Lebensgrundlagen. Die Hege muss so durchgeführt werden, dass Wildschäden an land-, forst- und fischereiwirtschaftlicher Nutzung möglichst vermieden werden.",
+          "en": "Under § 1(2) BJagdG the aim of game management (Hege) is a species-rich, healthy game population adapted to the landscape and land use, and the care and protection of its habitat. It must be carried out so that game damage to farming, forestry and fishery is avoided as far as possible."
+        },
+        {
+          "de": "Wildschaden ist der Schaden, den Wild an Grundstücken anrichtet. Im Wald sind das vor allem Verbiss (Abbeißen von Knospen und Trieben), Schäle (Abziehen der Rinde, vor allem durch Rotwild) und Fegeschäden; auf dem Feld vor allem Fraß und das Brechen des Schwarzwildes.",
+          "en": "Game damage (Wildschaden) is damage caused by game to land. In the forest it is mainly browsing (Verbiss — biting off buds and shoots), bark stripping (Schäle, mainly by red deer) and fraying damage (Fegeschaden); in fields mainly feeding and rooting by wild boar."
+        },
+        {
+          "de": "Nach § 29 BJagdG ist Wildschaden zu ersetzen, der durch Schalenwild, Wildkaninchen oder Fasanen verursacht wird. Ersatzpflichtig ist grundsätzlich die Jagdgenossenschaft; häufig übernimmt der Jagdpächter diese Pflicht ganz oder teilweise im Pachtvertrag.",
+          "en": "Under § 29 BJagdG, damage caused by cloven-hoofed game, wild rabbits or pheasants must be compensated. In principle the hunting cooperative (Jagdgenossenschaft) is liable; the lease contract often transfers this duty wholly or partly to the leaseholder."
+        },
+        {
+          "de": "Der Geschädigte muss den Wildschaden nach § 34 BJagdG binnen einer Woche, nachdem er davon Kenntnis erhalten hat oder hätte erhalten können, bei der zuständigen Behörde (meist der Gemeinde) anmelden. Für Schäden an forstwirtschaftlich genutzten Grundstücken gelten besondere Stichtage (1. Mai und 1. Oktober). Die Länder regeln das Verfahren im Einzelnen.",
+          "en": "Under § 34 BJagdG the injured party must report game damage to the competent authority (usually the municipality) within one week of learning of it or when they could have learned of it. Damage on forest land has special reporting dates (1 May and 1 October). The states regulate the procedure in detail."
+        },
+        {
+          "de": "Jagdschaden ist etwas anderes: Er entsteht nicht durch das Wild, sondern durch die Jagdausübung selbst, etwa wenn bei einer Treibjagd ein Zaun beschädigt oder ein bestelltes Feld zertreten wird. Für Jagdschaden haftet der Jagdausübungsberechtigte (§ 33 BJagdG).",
+          "en": "Hunting damage (Jagdschaden) is something else: it is caused not by game but by the hunting itself, for example when a fence is damaged or a sown field trampled during a drive. The person entitled to hunt is liable for hunting damage (§ 33 BJagdG)."
+        },
+        {
+          "de": "Wildschäden lassen sich vermeiden durch angepasste Wildbestände und Schwerpunktbejagung, durch Schutz der Kulturen (Zäunung, Einzelschutz), durch Ablenkfütterung oder Äsungsflächen, wo erlaubt, und durch Vergrämung, zum Beispiel mit Elektrozäunen gegen Schwarzwild.",
+          "en": "Game damage can be prevented by keeping populations in balance and concentrating hunting where damage occurs, by protecting crops and young trees (fencing, individual tree guards), by diversionary feeding or forage plots where permitted, and by deterrence, for example electric fences against wild boar."
+        }
+      ],
+      "keyTerms": [
+        {
+          "de": "Hege",
+          "en": "game management",
+          "note": "§ 1(2) BJagdG."
+        },
+        {
+          "de": "Wildschaden",
+          "en": "game damage",
+          "note": "Damage caused by game; § 29 BJagdG."
+        },
+        {
+          "de": "Jagdschaden",
+          "en": "hunting damage",
+          "note": "Damage caused by the hunt itself; § 33 BJagdG."
+        },
+        {
+          "de": "Verbiss",
+          "en": "browsing damage"
+        },
+        {
+          "de": "Schäle",
+          "en": "bark stripping",
+          "note": "Mainly red deer."
+        },
+        {
+          "de": "Jagdgenossenschaft",
+          "en": "hunting cooperative",
+          "note": "All landowners of a communal hunting district."
+        },
+        {
+          "de": "Jagdausübungsberechtigter",
+          "en": "person entitled to hunt",
+          "note": "Usually the leaseholder."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Bundesjagdgesetz (BJagdG) – gesetze-im-internet.de",
+          "url": "https://www.gesetze-im-internet.de/bjagdg/"
+        }
+      ],
+      "origin": "seed",
+      "updatedAt": "2026-11-12"
+    },
+    {
+      "id": "wildschaeden-erkennen-und-verhueten",
+      "titleDe": "Wildschäden erkennen und verhüten",
+      "titleEn": "Recognising and preventing game damage",
+      "paragraphs": [
+        {
+          "de": "Rehverbiss erkennt man am faserig-gequetschten Abbiss, weil das Reh oben keine Schneidezähne hat; der Hase beißt Triebe glatt und schräg ab und verbeißt bevorzugt Buche. Verbiss an der Naturverjüngung kann zu Stammverformungen (Zwieseln) und zur Entmischung führen, weil begehrte Baumarten wie Tanne und Laubholz zuerst ausfallen. Naturverjüngung ist am wenigsten verbissgefährdet.",
+          "en": "Roe deer browsing is recognised by a frayed, crushed bite, because roe deer have no upper incisors; the hare bites shoots off cleanly at an angle and prefers beech. Browsing of natural regeneration can cause stem deformations (forks, Zwiesel) and loss of mixture, because favoured species such as fir and broadleaves are lost first. Natural regeneration is least at risk from browsing."
+        },
+        {
+          "de": "Geschält wird von Rot- und Muffelwild, nicht vom Schwarzwild. Rehböcke verfegen bevorzugt seltene oder fremde Nadelhölzer wie Douglasie und Lärche. Gegen Fegeschäden helfen Fegeschutz an den gefährdeten Pflanzen und eine Schwerpunktbejagung auf den Kulturen zu Beginn der Bockjagd. Ein Kulturzaun muss im Flachland mindestens 150 cm hoch sein, um rehwilddicht zu sein. In Rotwildgebieten werden Wintergatter errichtet, um Wildschäden zu vermeiden.",
+          "en": "Bark is stripped by red deer and mouflon, not by wild boar. Roe bucks prefer to fray rare or non-native conifers such as Douglas fir and larch. Fraying damage is prevented by fray guards on vulnerable plants and by concentrated hunting on the plantations at the start of the buck season. A plantation fence must be at least 150 cm high in the lowlands to keep out roe deer. In red deer areas, winter enclosures are built to avoid game damage."
+        },
+        {
+          "de": "Auf dem Feld sucht Schwarzwild in Wiesen nach tierischem Eiweiß und Wurzeln; bei der Saat ist der Mais am stärksten gefährdet. Viele führungslose Frischlinge erhöhen die Feldschäden. Gegen Schäden im Mais hilft vor allem eine verstärkte Bejagung im Bereich der Maisfelder während der Vegetationszeit. Lagerschäden in halbreifem Getreide verursachen Rot-, Dam- und Schwarzwild; auch der Dachs schadet Getreide. Graugans und Ringeltaube können größere Feldschäden anrichten; Fasanen hält man durch gebeiztes Maissaatgut fern.",
+          "en": "In fields, wild boar search meadows for animal protein and roots; at sowing, maize is most at risk. Many piglets without a leading sow increase field damage. The main remedy for damage in maize is stepped-up hunting around the maize fields during the growing season. Red, fallow deer and wild boar flatten half-ripe cereals; badgers also damage cereals. Greylag geese and wood pigeons can cause major field damage; pheasants are kept off maize seed by seed dressing."
+        },
+        {
+          "de": "Schaden, der bei der Jagdausübung entsteht – etwa eine Schleifspur im Weizen beim Bergen eines erlegten Hirsches –, ist Jagdschaden. Für Jagdschaden, den ein Jagdgast anrichtet, haftet der Revierinhaber (Jagdausübungsberechtigte), auch wenn der Gast grob fahrlässig oder missbräuchlich gehandelt hat.",
+          "en": "Damage caused while hunting — such as a drag trail through wheat when recovering a shot stag — is hunting damage (Jagdschaden). The holder of the hunting ground (person entitled to hunt) is liable for hunting damage caused by a guest, even if the guest acted with gross negligence or improperly."
+        }
+      ],
+      "keyTerms": [
+        {
+          "de": "Verbiss",
+          "en": "browsing"
+        },
+        {
+          "de": "Zwiesel",
+          "en": "forked stem"
+        },
+        {
+          "de": "Entmischung",
+          "en": "loss of tree-species mixture"
+        },
+        {
+          "de": "Fegeschutz",
+          "en": "fray guard"
+        },
+        {
+          "de": "Kulturzaun",
+          "en": "plantation fence"
+        },
+        {
+          "de": "Wintergatter",
+          "en": "winter enclosure (red deer)"
+        },
+        {
+          "de": "Lagerschaden",
+          "en": "flattened crop damage"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Fragenkatalog zur Jägerprüfung in Bayern – Landesamt für Maß und Gewicht",
+          "url": "https://www.lmg.bayern.de/aufgaben_leistungen/jaegerpruefung/index.html"
+        }
+      ],
+      "origin": "seed",
+      "updatedAt": "2026-11-18"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "betrieb-wildschaden-arten",
+      "lessonId": "hege-und-wildschaden",
+      "questionDe": "Für Wildschaden durch welche Arten besteht nach § 29 BJagdG Ersatzpflicht?",
+      "questionEn": "Under § 29 BJagdG, damage by which species must be compensated?",
+      "options": [
+        {
+          "de": "Schalenwild",
+          "en": "Cloven-hoofed game"
+        },
+        {
+          "de": "Wildkaninchen",
+          "en": "Wild rabbits"
+        },
+        {
+          "de": "Fasanen",
+          "en": "Pheasants"
+        },
+        {
+          "de": "Feldhasen",
+          "en": "Brown hares"
+        }
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanationDe": "Ersatzpflichtig ist Schaden durch Schalenwild, Wildkaninchen und Fasanen.",
+      "explanationEn": "Damage by cloven-hoofed game, wild rabbits and pheasants is compensated.",
+      "origin": "seed"
+    },
+    {
+      "id": "betrieb-wildschaden-frist",
+      "lessonId": "hege-und-wildschaden",
+      "questionDe": "Innerhalb welcher Frist muss Wildschaden auf landwirtschaftlichen Flächen angemeldet werden?",
+      "questionEn": "Within what period must game damage on farmland be reported?",
+      "options": [
+        {
+          "de": "Binnen einer Woche nach Kenntnis",
+          "en": "Within one week of learning of it"
+        },
+        {
+          "de": "Binnen eines Monats",
+          "en": "Within one month"
+        },
+        {
+          "de": "Bis zum Ende des Jagdjahres",
+          "en": "By the end of the hunting year"
+        },
+        {
+          "de": "Sofort beim Jagdpächter, eine Behörde ist nicht zuständig",
+          "en": "Immediately to the leaseholder; no authority is involved"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "§ 34 BJagdG: Anmeldung binnen einer Woche bei der zuständigen Behörde.",
+      "explanationEn": "§ 34 BJagdG: report within one week to the competent authority.",
+      "origin": "seed"
+    },
+    {
+      "id": "betrieb-jagdschaden",
+      "lessonId": "hege-und-wildschaden",
+      "questionDe": "Bei einer Treibjagd wird ein Weidezaun beschädigt. Wie nennt man diesen Schaden?",
+      "questionEn": "A pasture fence is damaged during a driven hunt. What is this damage called?",
+      "options": [
+        {
+          "de": "Wildschaden",
+          "en": "Game damage"
+        },
+        {
+          "de": "Jagdschaden",
+          "en": "Hunting damage"
+        },
+        {
+          "de": "Fegeschaden",
+          "en": "Fraying damage"
+        },
+        {
+          "de": "Schälschaden",
+          "en": "Bark-stripping damage"
+        }
+      ],
+      "correct": [
+        1
+      ],
+      "explanationDe": "Schaden durch die Jagdausübung selbst ist Jagdschaden (§ 33 BJagdG).",
+      "explanationEn": "Damage caused by hunting itself is hunting damage (§ 33 BJagdG).",
+      "origin": "seed"
+    },
+    {
+      "id": "betrieb-schaele",
+      "lessonId": "hege-und-wildschaden",
+      "questionDe": "Welche Wildart verursacht vor allem Schälschäden?",
+      "questionEn": "Which species mainly causes bark stripping?",
+      "options": [
+        {
+          "de": "Rotwild",
+          "en": "Red deer"
+        },
+        {
+          "de": "Feldhase",
+          "en": "Brown hare"
+        },
+        {
+          "de": "Fuchs",
+          "en": "Fox"
+        },
+        {
+          "de": "Rebhuhn",
+          "en": "Grey partridge"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Schäle – das Abziehen der Rinde – ist typisch für Rotwild.",
+      "explanationEn": "Bark stripping is typical of red deer.",
+      "origin": "seed"
+    },
+    {
+      "id": "natur-geschuetzt-saeuger",
+      "lessonId": "naturschutz-geschuetzte-arten",
+      "questionDe": "Welche Säugetiere sind besonders geschützt?",
+      "questionEn": "Which mammals are specially protected?",
+      "options": [
+        {
+          "de": "Igel",
+          "en": "Hedgehog"
+        },
+        {
+          "de": "Eichhörnchen",
+          "en": "Red squirrel"
+        },
+        {
+          "de": "Feldhamster",
+          "en": "Common hamster"
+        },
+        {
+          "de": "Wanderratte",
+          "en": "Brown rat"
+        }
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanationDe": "Igel, Eichhörnchen und Feldhamster sind besonders geschützt.",
+      "explanationEn": "Hedgehog, squirrel and hamster are specially protected.",
+      "origin": "seed"
+    },
+    {
+      "id": "natur-geschuetzt-pflanzen",
+      "lessonId": "naturschutz-geschuetzte-arten",
+      "questionDe": "Welche Pflanzen sind besonders geschützt?",
+      "questionEn": "Which plants are specially protected?",
+      "options": [
+        {
+          "de": "Alpen-Edelweiß",
+          "en": "Edelweiss"
+        },
+        {
+          "de": "Küchenschelle",
+          "en": "Pasque flower"
+        },
+        {
+          "de": "Frauenschuh",
+          "en": "Lady's slipper orchid"
+        },
+        {
+          "de": "Löwenzahn",
+          "en": "Dandelion"
+        }
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanationDe": "Edelweiß, Küchenschelle und alle Orchideen sind besonders geschützt.",
+      "explanationEn": "Edelweiss, pasque flower and all orchids are protected.",
+      "origin": "seed"
+    },
+    {
+      "id": "natur-hecken",
+      "lessonId": "naturschutz-geschuetzte-arten",
+      "questionDe": "In welchem Zeitraum dürfen Hecken in der freien Natur nicht geschnitten werden, und warum?",
+      "questionEn": "When must hedges in the countryside not be cut, and why?",
+      "options": [
+        {
+          "de": "1. März bis 30. September – wegen der Vogelbrut",
+          "en": "1 March to 30 September — because of nesting birds"
+        },
+        {
+          "de": "1. Oktober bis 28. Februar – wegen der Winterruhe",
+          "en": "1 October to end of February — because of winter rest"
+        },
+        {
+          "de": "Ganzjährig erlaubt",
+          "en": "Allowed all year"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Der Schutz der Brutzeit ist der Grund.",
+      "explanationEn": "Protecting the breeding season is the reason.",
+      "origin": "seed"
+    },
+    {
+      "id": "natur-rote-liste",
+      "lessonId": "naturschutz-geschuetzte-arten",
+      "questionDe": "Was ist die Rote Liste?",
+      "questionEn": "What is the Red List?",
+      "options": [
+        {
+          "de": "Eine Liste der gefährdeten Tier- und Pflanzenarten",
+          "en": "A list of endangered animal and plant species"
+        },
+        {
+          "de": "Eine Liste der jagdbaren Arten",
+          "en": "A list of huntable species"
+        },
+        {
+          "de": "Eine Liste giftiger Pflanzen",
+          "en": "A list of poisonous plants"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Sie listet Arten nach Gefährdungsgrad.",
+      "explanationEn": "It lists species by degree of threat.",
+      "origin": "seed"
+    },
+    {
+      "id": "natur-ffh",
+      "lessonId": "naturschutz-geschuetzte-arten",
+      "questionDe": "Welche Aussagen zu FFH-Gebieten sind richtig?",
+      "questionEn": "Which statements about FFH sites are correct?",
+      "options": [
+        {
+          "de": "Sie gehören zu Natura 2000",
+          "en": "They are part of Natura 2000"
+        },
+        {
+          "de": "Es gilt ein Verschlechterungsverbot",
+          "en": "Deterioration is prohibited"
+        },
+        {
+          "de": "In ihnen ist die Jagd immer verboten",
+          "en": "Hunting is always banned in them"
+        }
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanationDe": "Jagd ist in FFH-Gebieten nicht grundsätzlich verboten.",
+      "explanationEn": "Hunting is not banned in principle in FFH sites.",
+      "origin": "seed"
+    },
+    {
+      "id": "natur-niedermoor-pflege",
+      "lessonId": "naturschutz-geschuetzte-arten",
+      "questionDe": "Was ist die wichtigste Pflege für wertvolle Niedermoore?",
+      "questionEn": "What is the most important care for valuable fens?",
+      "options": [
+        {
+          "de": "Jährlicher später Schnitt mit Abtransport des Mähguts",
+          "en": "Late annual mowing with the cuttings removed"
+        },
+        {
+          "de": "Düngung",
+          "en": "Fertilising"
+        },
+        {
+          "de": "Entwässerung",
+          "en": "Draining"
+        },
+        {
+          "de": "Aufforstung",
+          "en": "Afforestation"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Später Schnitt und Abräumen halten die Fläche offen und mager.",
+      "explanationEn": "Late mowing and removal keep the site open and nutrient-poor.",
+      "origin": "seed"
+    },
+    {
+      "id": "natur-blei",
+      "lessonId": "naturschutz-geschuetzte-arten",
+      "questionDe": "Was kann bleihaltige Munition bei Greifvögeln bewirken?",
+      "questionEn": "What can lead ammunition do to birds of prey?",
+      "options": [
+        {
+          "de": "Schwere Bleivergiftung",
+          "en": "Severe lead poisoning"
+        },
+        {
+          "de": "Schädigung des Nervensystems",
+          "en": "Damage to the nervous system"
+        },
+        {
+          "de": "Tod durch Organversagen",
+          "en": "Death through organ failure"
+        },
+        {
+          "de": "Bessere Verdauung",
+          "en": "Better digestion"
+        }
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanationDe": "Blei ist ein hochgiftiges Schwermetall.",
+      "explanationEn": "Lead is a highly toxic heavy metal.",
+      "origin": "seed"
+    },
+    {
+      "id": "lebens-wiesenbrueter",
+      "lessonId": "lebensraeume-und-arten",
+      "questionDe": "Welche Arten sind Wiesenbrüter?",
+      "questionEn": "Which species are meadow-nesting birds?",
+      "options": [
+        {
+          "de": "Großer Brachvogel",
+          "en": "Curlew"
+        },
+        {
+          "de": "Bekassine",
+          "en": "Snipe"
+        },
+        {
+          "de": "Pirol",
+          "en": "Golden oriole"
+        },
+        {
+          "de": "Kleiber",
+          "en": "Nuthatch"
+        }
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanationDe": "Brachvogel und Bekassine brüten in feuchten Wiesen.",
+      "explanationEn": "Curlew and snipe breed in wet meadows.",
+      "origin": "seed"
+    },
+    {
+      "id": "lebens-hecken",
+      "lessonId": "lebensraeume-und-arten",
+      "questionDe": "Welche Tiere bewohnen vor allem Hecken und Feldgehölze?",
+      "questionEn": "Which animals mainly live in hedges and copses?",
+      "options": [
+        {
+          "de": "Neuntöter",
+          "en": "Red-backed shrike"
+        },
+        {
+          "de": "Haselmaus",
+          "en": "Hazel dormouse"
+        },
+        {
+          "de": "Rohrdommel",
+          "en": "Bittern"
+        },
+        {
+          "de": "Eisvogel",
+          "en": "Kingfisher"
+        }
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanationDe": "Rohrdommel lebt im Röhricht, der Eisvogel an Gewässern.",
+      "explanationEn": "Bitterns live in reeds, kingfishers by water.",
+      "origin": "seed"
+    },
+    {
+      "id": "lebens-steilufer",
+      "lessonId": "lebensraeume-und-arten",
+      "questionDe": "Welche Vögel graben Bruthöhlen in Steilufer?",
+      "questionEn": "Which birds dig nest holes in steep banks?",
+      "options": [
+        {
+          "de": "Eisvogel",
+          "en": "Kingfisher"
+        },
+        {
+          "de": "Uferschwalbe",
+          "en": "Sand martin"
+        },
+        {
+          "de": "Buntspecht",
+          "en": "Great spotted woodpecker"
+        }
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanationDe": "Der Buntspecht zimmert seine Höhle in Bäume.",
+      "explanationEn": "The woodpecker carves its hole in trees.",
+      "origin": "seed"
+    },
+    {
+      "id": "lebens-gewoelle",
+      "lessonId": "lebensraeume-und-arten",
+      "questionDe": "Woran erkennt man, dass ein Gewölle von einer Eule stammt?",
+      "questionEn": "How can you tell a pellet comes from an owl?",
+      "options": [
+        {
+          "de": "Es enthält gut erkennbare Knochenteile",
+          "en": "It contains clearly visible bones"
+        },
+        {
+          "de": "Es ist rot gefärbt",
+          "en": "It is red"
+        },
+        {
+          "de": "Es enthält nur Federn",
+          "en": "It contains only feathers"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Eulen verdauen Knochen kaum, Greifvögel stärker.",
+      "explanationEn": "Owls barely digest bones; raptors digest more.",
+      "origin": "seed"
+    },
+    {
+      "id": "lebens-spechte",
+      "lessonId": "lebensraeume-und-arten",
+      "questionDe": "Wie kann man Spechte im Wald fördern?",
+      "questionEn": "How can woodpeckers be helped in the forest?",
+      "options": [
+        {
+          "de": "Totholz belassen",
+          "en": "Leave dead wood"
+        },
+        {
+          "de": "Höhlenbäume erhalten",
+          "en": "Keep trees with holes"
+        },
+        {
+          "de": "Alle alten Bäume fällen",
+          "en": "Fell all old trees"
+        }
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanationDe": "Totholz und Höhlenbäume sind entscheidend.",
+      "explanationEn": "Dead wood and hole trees are key.",
+      "origin": "seed"
+    },
+    {
+      "id": "lebens-fledermaus",
+      "lessonId": "lebensraeume-und-arten",
+      "questionDe": "Welche Aussagen zu Fledermäusen sind richtig?",
+      "questionEn": "Which statements about bats are correct?",
+      "options": [
+        {
+          "de": "Sie sind Säugetiere",
+          "en": "They are mammals"
+        },
+        {
+          "de": "Sie orten mit Ultraschall",
+          "en": "They locate with ultrasound"
+        },
+        {
+          "de": "Sie halten Winterschlaf",
+          "en": "They hibernate"
+        },
+        {
+          "de": "Sie fressen vor allem Früchte",
+          "en": "They mainly eat fruit"
+        }
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanationDe": "Heimische Fledermäuse fressen Insekten.",
+      "explanationEn": "Native bats eat insects.",
+      "origin": "seed"
+    },
+    {
+      "id": "lebens-bisam",
+      "lessonId": "lebensraeume-und-arten",
+      "questionDe": "Welche Aussagen zum Bisam sind richtig?",
+      "questionEn": "Which statements about the muskrat are correct?",
+      "options": [
+        {
+          "de": "Er kann Uferdämme unterwühlen",
+          "en": "It can undermine embankments"
+        },
+        {
+          "de": "Sein Schwanz ist beschuppt und seitlich abgeplattet",
+          "en": "Its tail is scaly and flattened sideways"
+        },
+        {
+          "de": "Er frisst ausschließlich Fische",
+          "en": "It eats only fish"
+        }
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanationDe": "Er frisst überwiegend Pflanzen.",
+      "explanationEn": "It eats mostly plants.",
+      "origin": "seed"
+    },
+    {
+      "id": "land-schwer",
+      "lessonId": "landbau",
+      "questionDe": "Welche Bodenart gilt als schwerer Boden?",
+      "questionEn": "Which soil type counts as heavy soil?",
+      "options": [
+        {
+          "de": "Tonboden",
+          "en": "Clay soil"
+        },
+        {
+          "de": "Sandboden",
+          "en": "Sandy soil"
+        },
+        {
+          "de": "Moorboden",
+          "en": "Peat soil"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Ton ist schwer; Sand ist leicht und erwärmt sich schnell.",
+      "explanationEn": "Clay is heavy; sand is light and warms fast.",
+      "origin": "seed"
+    },
+    {
+      "id": "land-kalk",
+      "lessonId": "landbau",
+      "questionDe": "Ein Wildacker hat einen pH-Wert von 4,5. Was hilft?",
+      "questionEn": "A game plot has a pH of 4.5. What helps?",
+      "options": [
+        {
+          "de": "Kalkdüngung",
+          "en": "Liming"
+        },
+        {
+          "de": "Mehr Gülle",
+          "en": "More slurry"
+        },
+        {
+          "de": "Herbizid",
+          "en": "Herbicide"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Kalk hebt den pH-Wert saurer Böden.",
+      "explanationEn": "Lime raises the pH of acid soils.",
+      "origin": "seed"
+    },
+    {
+      "id": "land-stickstoff",
+      "lessonId": "landbau",
+      "questionDe": "Welche Pflanzen sammeln mit Knöllchenbakterien Stickstoff?",
+      "questionEn": "Which plants fix nitrogen with root-nodule bacteria?",
+      "options": [
+        {
+          "de": "Wicke",
+          "en": "Vetch"
+        },
+        {
+          "de": "Felderbse",
+          "en": "Field pea"
+        },
+        {
+          "de": "Klee",
+          "en": "Clover"
+        },
+        {
+          "de": "Mais",
+          "en": "Maize"
+        }
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanationDe": "Hülsenfrüchtler und Klee sind Stickstoffsammler.",
+      "explanationEn": "Legumes and clover fix nitrogen.",
+      "origin": "seed"
+    },
+    {
+      "id": "land-letzte-ernte",
+      "lessonId": "landbau",
+      "questionDe": "Welche Feldfrucht wird in Bayern als letzte geerntet?",
+      "questionEn": "Which crop is harvested last in Bavaria?",
+      "options": [
+        {
+          "de": "Körnermais",
+          "en": "Grain maize"
+        },
+        {
+          "de": "Raps",
+          "en": "Oilseed rape"
+        },
+        {
+          "de": "Wintergerste",
+          "en": "Winter barley"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Körnermais – Raps wird als erster geerntet.",
+      "explanationEn": "Grain maize — rape is harvested first.",
+      "origin": "seed"
+    },
+    {
+      "id": "land-zwischenfrucht",
+      "lessonId": "landbau",
+      "questionDe": "Was sind Zwischenfrüchte?",
+      "questionEn": "What are catch crops?",
+      "options": [
+        {
+          "de": "Pflanzen, die zwischen zwei Hauptfrüchten angebaut werden",
+          "en": "Plants grown between two main crops"
+        },
+        {
+          "de": "Unkräuter zwischen den Reihen",
+          "en": "Weeds between the rows"
+        },
+        {
+          "de": "Früchte von Hecken",
+          "en": "Fruits of hedges"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Zum Beispiel Senf oder Ölrettich nach der Getreideernte.",
+      "explanationEn": "E.g. mustard or oil radish after the grain harvest.",
+      "origin": "seed"
+    },
+    {
+      "id": "land-organisch",
+      "lessonId": "landbau",
+      "questionDe": "Welche Dünger sind organisch?",
+      "questionEn": "Which fertilisers are organic?",
+      "options": [
+        {
+          "de": "Stallmist",
+          "en": "Farmyard manure"
+        },
+        {
+          "de": "Gülle",
+          "en": "Slurry"
+        },
+        {
+          "de": "Hornspäne",
+          "en": "Horn shavings"
+        },
+        {
+          "de": "Blaukorn",
+          "en": "Blue NPK granules"
+        }
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanationDe": "Blaukorn ist ein Mineraldünger.",
+      "explanationEn": "Blue NPK is a mineral fertiliser.",
+      "origin": "seed"
+    },
+    {
+      "id": "land-beizen",
+      "lessonId": "landbau",
+      "questionDe": "Warum wird Saatgetreide gebeizt?",
+      "questionEn": "Why is seed grain dressed?",
+      "options": [
+        {
+          "de": "Gegen Pilzkrankheiten",
+          "en": "Against fungal disease"
+        },
+        {
+          "de": "Gegen Vogelfraß",
+          "en": "Against birds eating it"
+        },
+        {
+          "de": "Damit es schneller reift",
+          "en": "To ripen faster"
+        }
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanationDe": "Beizen schützt vor Pilzen und Vogelfraß.",
+      "explanationEn": "Dressing protects against fungi and birds.",
+      "origin": "seed"
+    },
+    {
+      "id": "land-feldrain",
+      "lessonId": "landbau",
+      "questionDe": "Wo darf ein Landwirt keine chemischen Pflanzenschutzmittel anwenden?",
+      "questionEn": "Where may a farmer not use chemical pesticides?",
+      "options": [
+        {
+          "de": "Am Feldrain",
+          "en": "On field margins"
+        },
+        {
+          "de": "Auf dem Acker",
+          "en": "On the field"
+        },
+        {
+          "de": "Im Gewächshaus",
+          "en": "In the greenhouse"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Feldraine sind Nichtkulturland und geschützt.",
+      "explanationEn": "Field margins are uncultivated land and protected.",
+      "origin": "seed"
+    },
+    {
+      "id": "baum-licht",
+      "lessonId": "baumarten",
+      "questionDe": "Welche Baumarten sind Lichtbaumarten?",
+      "questionEn": "Which trees are light-demanding?",
+      "options": [
+        {
+          "de": "Kiefer",
+          "en": "Pine"
+        },
+        {
+          "de": "Lärche",
+          "en": "Larch"
+        },
+        {
+          "de": "Buche",
+          "en": "Beech"
+        },
+        {
+          "de": "Tanne",
+          "en": "Fir"
+        }
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanationDe": "Buche und Tanne sind Schattbaumarten.",
+      "explanationEn": "Beech and fir are shade-tolerant.",
+      "origin": "seed"
+    },
+    {
+      "id": "baum-pionier",
+      "lessonId": "baumarten",
+      "questionDe": "Welche Baumarten sind Pionierbaumarten?",
+      "questionEn": "Which are pioneer species?",
+      "options": [
+        {
+          "de": "Birke",
+          "en": "Birch"
+        },
+        {
+          "de": "Vogelbeere",
+          "en": "Rowan"
+        },
+        {
+          "de": "Weißtanne",
+          "en": "Silver fir"
+        },
+        {
+          "de": "Buche",
+          "en": "Beech"
+        }
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanationDe": "Pioniere wachsen schnell, sind frosthart und anspruchslos.",
+      "explanationEn": "Pioneers grow fast, are frost-hardy and undemanding.",
+      "origin": "seed"
+    },
+    {
+      "id": "baum-laerche",
+      "lessonId": "baumarten",
+      "questionDe": "Welcher Nadelbaum wirft jährlich seine Nadeln ab?",
+      "questionEn": "Which conifer sheds its needles every year?",
+      "options": [
+        {
+          "de": "Lärche",
+          "en": "Larch"
+        },
+        {
+          "de": "Fichte",
+          "en": "Spruce"
+        },
+        {
+          "de": "Kiefer",
+          "en": "Pine"
+        },
+        {
+          "de": "Tanne",
+          "en": "Fir"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Die Lärche.",
+      "explanationEn": "The larch.",
+      "origin": "seed"
+    },
+    {
+      "id": "baum-zapfen",
+      "lessonId": "baumarten",
+      "questionDe": "Bei welcher Baumart stehen die reifen Zapfen aufrecht?",
+      "questionEn": "In which tree do the ripe cones stand upright?",
+      "options": [
+        {
+          "de": "Weißtanne",
+          "en": "Silver fir"
+        },
+        {
+          "de": "Fichte",
+          "en": "Spruce"
+        },
+        {
+          "de": "Kiefer",
+          "en": "Pine"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Tannenzapfen stehen und zerfallen am Baum; Fichtenzapfen hängen.",
+      "explanationEn": "Fir cones stand and break up on the tree; spruce cones hang.",
+      "origin": "seed"
+    },
+    {
+      "id": "baum-windwurf",
+      "lessonId": "baumarten",
+      "questionDe": "Welche Baumart wird am häufigsten vom Wind geworfen?",
+      "questionEn": "Which species is most often windthrown?",
+      "options": [
+        {
+          "de": "Fichte",
+          "en": "Spruce"
+        },
+        {
+          "de": "Eiche",
+          "en": "Oak"
+        },
+        {
+          "de": "Tanne",
+          "en": "Fir"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Die flach wurzelnde Fichte, besonders auf flachgründigen Böden.",
+      "explanationEn": "The shallow-rooted spruce, especially on thin soils.",
+      "origin": "seed"
+    },
+    {
+      "id": "baum-bergmischwald",
+      "lessonId": "baumarten",
+      "questionDe": "Welche Baumarten bilden den Bergmischwald?",
+      "questionEn": "Which trees make up mountain mixed forest?",
+      "options": [
+        {
+          "de": "Fichte",
+          "en": "Spruce"
+        },
+        {
+          "de": "Tanne",
+          "en": "Fir"
+        },
+        {
+          "de": "Buche",
+          "en": "Beech"
+        },
+        {
+          "de": "Hainbuche",
+          "en": "Hornbeam"
+        }
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanationDe": "Fichte, Tanne, Buche.",
+      "explanationEn": "Spruce, fir, beech.",
+      "origin": "seed"
+    },
+    {
+      "id": "baum-nicht-europa",
+      "lessonId": "baumarten",
+      "questionDe": "Welche Baumarten stammen nicht aus Europa?",
+      "questionEn": "Which tree species are not native to Europe?",
+      "options": [
+        {
+          "de": "Douglasie",
+          "en": "Douglas fir"
+        },
+        {
+          "de": "Roteiche",
+          "en": "Red oak"
+        },
+        {
+          "de": "Küstentanne",
+          "en": "Grand fir"
+        },
+        {
+          "de": "Stieleiche",
+          "en": "Pedunculate oak"
+        }
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanationDe": "Sie stammen aus Nordamerika.",
+      "explanationEn": "They come from North America.",
+      "origin": "seed"
+    },
+    {
+      "id": "baum-zeiger",
+      "lessonId": "baumarten",
+      "questionDe": "Welche Pflanze zeigt einen besonders nährstoffreichen Boden an?",
+      "questionEn": "Which plant indicates very nutrient-rich soil?",
+      "options": [
+        {
+          "de": "Brennnessel",
+          "en": "Nettle"
+        },
+        {
+          "de": "Heidekraut",
+          "en": "Heather"
+        },
+        {
+          "de": "Heidelbeere",
+          "en": "Bilberry"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Heidekraut zeigt nährstoffarme Böden.",
+      "explanationEn": "Heather indicates poor soils.",
+      "origin": "seed"
+    },
+    {
+      "id": "wald-privat",
+      "lessonId": "waldbau-und-waldgesetz",
+      "questionDe": "Welche Waldbesitzart hat in Bayern den größten Anteil?",
+      "questionEn": "Which forest ownership type has the largest share in Bavaria?",
+      "options": [
+        {
+          "de": "Privatwald",
+          "en": "Private forest"
+        },
+        {
+          "de": "Staatswald",
+          "en": "State forest"
+        },
+        {
+          "de": "Körperschaftswald",
+          "en": "Municipal forest"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Der Privatwald.",
+      "explanationEn": "Private forest.",
+      "origin": "seed"
+    },
+    {
+      "id": "wald-naturnah",
+      "lessonId": "waldbau-und-waldgesetz",
+      "questionDe": "Was kennzeichnet naturnahen Waldbau?",
+      "questionEn": "What characterises close-to-nature silviculture?",
+      "options": [
+        {
+          "de": "Hoher Anteil an Naturverjüngung",
+          "en": "High share of natural regeneration"
+        },
+        {
+          "de": "Vermeidung von Kahlschlägen",
+          "en": "Avoiding clear-cuts"
+        },
+        {
+          "de": "Großflächige Fichtenreinbestände",
+          "en": "Large pure spruce stands"
+        }
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanationDe": "Reinbestände widersprechen dem naturnahen Waldbau.",
+      "explanationEn": "Pure stands contradict close-to-nature forestry.",
+      "origin": "seed"
+    },
+    {
+      "id": "wald-naturverjuengung",
+      "lessonId": "waldbau-und-waldgesetz",
+      "questionDe": "Welche Vorteile hat Naturverjüngung?",
+      "questionEn": "What are the advantages of natural regeneration?",
+      "options": [
+        {
+          "de": "Keine Kulturkosten",
+          "en": "No planting costs"
+        },
+        {
+          "de": "Bessere Wurzelentwicklung",
+          "en": "Better root development"
+        },
+        {
+          "de": "Geringerer Wildverbiss",
+          "en": "Less browsing"
+        },
+        {
+          "de": "Schnellere Holzernte",
+          "en": "Faster timber harvest"
+        }
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanationDe": "Naturverjüngung ist kostengünstig, gut verwurzelt und weniger verbissgefährdet.",
+      "explanationEn": "It's cheap, well-rooted and less browsed.",
+      "origin": "seed"
+    },
+    {
+      "id": "wald-plenter",
+      "lessonId": "waldbau-und-waldgesetz",
+      "questionDe": "Was kennzeichnet den Plenterwald?",
+      "questionEn": "What characterises selection forest?",
+      "options": [
+        {
+          "de": "Entnahme einzelner hiebsreifer Bäume auf der ganzen Fläche",
+          "en": "Harvesting single mature trees across the area"
+        },
+        {
+          "de": "Mehrere Baumarten unterschiedlichen Alters auf kleiner Fläche",
+          "en": "Several species of different ages on a small area"
+        },
+        {
+          "de": "Kahlschlag alle 100 Jahre",
+          "en": "A clear-cut every 100 years"
+        }
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanationDe": "Im Plenterwald gibt es keine Kahlschläge.",
+      "explanationEn": "Selection forest has no clear-cuts.",
+      "origin": "seed"
+    },
+    {
+      "id": "wald-schutzwald",
+      "lessonId": "waldbau-und-waldgesetz",
+      "questionDe": "Was gilt für Kahlhiebe im Schutzwald?",
+      "questionEn": "What applies to clear-cuts in protection forest?",
+      "options": [
+        {
+          "de": "Sie bedürfen einer Erlaubnis",
+          "en": "They need a permit"
+        },
+        {
+          "de": "Sie sind ohne Weiteres erlaubt",
+          "en": "They are freely allowed"
+        },
+        {
+          "de": "Sie sind nur im Winter erlaubt",
+          "en": "Only allowed in winter"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Im Schutzwald sind Kahlhiebe erlaubnispflichtig.",
+      "explanationEn": "Clear-cuts in protection forest need a permit.",
+      "origin": "seed"
+    },
+    {
+      "id": "wald-gutachten",
+      "lessonId": "waldbau-und-waldgesetz",
+      "questionDe": "Wie werden die Flächen für die Verbissaufnahme zum Forstlichen Gutachten ausgewählt?",
+      "questionEn": "How are browsing survey plots for the forestry report chosen?",
+      "options": [
+        {
+          "de": "Nach einem systematischen Gitternetz",
+          "en": "On a systematic grid"
+        },
+        {
+          "de": "Vom Jagdpächter",
+          "en": "By the leaseholder"
+        },
+        {
+          "de": "Dort, wo der Verbiss am stärksten ist",
+          "en": "Where browsing is worst"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Ein systematisches Gitternetz sorgt für Objektivität.",
+      "explanationEn": "A systematic grid ensures objectivity.",
+      "origin": "seed"
+    },
+    {
+      "id": "wald-haehersaat",
+      "lessonId": "waldbau-und-waldgesetz",
+      "questionDe": "Warum wachsen junge Buchen weit entfernt von Samenbäumen?",
+      "questionEn": "Why do young beeches grow far from seed trees?",
+      "options": [
+        {
+          "de": "Durch Hähersaat",
+          "en": "Jays planted the seeds"
+        },
+        {
+          "de": "Durch Windverbreitung der Bucheckern",
+          "en": "Wind spread the beechnuts"
+        },
+        {
+          "de": "Durch Wildschweine",
+          "en": "Wild boar spread them"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Eichelhäher verstecken Bucheckern und Eicheln.",
+      "explanationEn": "Jays cache beechnuts and acorns.",
+      "origin": "seed"
+    },
+    {
+      "id": "schaden-rehverbiss",
+      "lessonId": "wildschaeden-erkennen-und-verhueten",
+      "questionDe": "Wie sieht Rehverbiss aus?",
+      "questionEn": "What does roe deer browsing look like?",
+      "options": [
+        {
+          "de": "Faserig, gequetscht",
+          "en": "Frayed, crushed"
+        },
+        {
+          "de": "Glatt, schräg abgeschnitten",
+          "en": "Clean, cut at an angle"
+        },
+        {
+          "de": "Rinde in Streifen abgezogen",
+          "en": "Bark pulled off in strips"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Das Reh hat oben keine Schneidezähne; glatter Schnitt deutet auf den Hasen.",
+      "explanationEn": "Roe have no upper incisors; a clean cut points to a hare.",
+      "origin": "seed"
+    },
+    {
+      "id": "schaden-schaelen",
+      "lessonId": "wildschaeden-erkennen-und-verhueten",
+      "questionDe": "Welche Arten schälen?",
+      "questionEn": "Which species strip bark?",
+      "options": [
+        {
+          "de": "Rotwild",
+          "en": "Red deer"
+        },
+        {
+          "de": "Muffelwild",
+          "en": "Mouflon"
+        },
+        {
+          "de": "Schwarzwild",
+          "en": "Wild boar"
+        },
+        {
+          "de": "Rehwild",
+          "en": "Roe deer"
+        }
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanationDe": "Schwarzwild schält nicht.",
+      "explanationEn": "Wild boar don't strip bark.",
+      "origin": "seed"
+    },
+    {
+      "id": "schaden-zaun",
+      "lessonId": "wildschaeden-erkennen-und-verhueten",
+      "questionDe": "Wie hoch muss ein rehwilddichter Kulturzaun im Flachland mindestens sein?",
+      "questionEn": "How high must a roe-proof plantation fence in the lowlands be?",
+      "options": [
+        {
+          "de": "150 cm",
+          "en": "150 cm"
+        },
+        {
+          "de": "100 cm",
+          "en": "100 cm"
+        },
+        {
+          "de": "200 cm",
+          "en": "200 cm"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Mindestens 150 cm.",
+      "explanationEn": "At least 150 cm.",
+      "origin": "seed"
+    },
+    {
+      "id": "schaden-verfegen",
+      "lessonId": "wildschaeden-erkennen-und-verhueten",
+      "questionDe": "Welche Nadelbäume verfegen Rehböcke bevorzugt?",
+      "questionEn": "Which conifers do roe bucks prefer to fray?",
+      "options": [
+        {
+          "de": "Douglasie",
+          "en": "Douglas fir"
+        },
+        {
+          "de": "Lärche",
+          "en": "Larch"
+        },
+        {
+          "de": "Fichte",
+          "en": "Spruce"
+        }
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanationDe": "Seltene, auffällige Baumarten werden bevorzugt verfegt.",
+      "explanationEn": "Rare, conspicuous species are frayed preferentially.",
+      "origin": "seed"
+    },
+    {
+      "id": "schaden-mais",
+      "lessonId": "wildschaeden-erkennen-und-verhueten",
+      "questionDe": "Was verringert Schwarzwildschäden im Mais am wirksamsten?",
+      "questionEn": "What best reduces wild boar damage in maize?",
+      "options": [
+        {
+          "de": "Verstärkte Bejagung an den Maisfeldern während der Vegetationszeit",
+          "en": "Stepped-up hunting at the maize fields during the growing season"
+        },
+        {
+          "de": "Füttern im Wald",
+          "en": "Feeding in the forest"
+        },
+        {
+          "de": "Jagdruhe im Sommer",
+          "en": "No hunting in summer"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Bejagungsdruck dort, wo der Schaden entsteht.",
+      "explanationEn": "Hunting pressure where the damage happens.",
+      "origin": "seed"
+    },
+    {
+      "id": "schaden-jagdgast",
+      "lessonId": "wildschaeden-erkennen-und-verhueten",
+      "questionDe": "Ein Jagdgast verursacht grob fahrlässig erheblichen Schaden in einem Maisfeld. Wer haftet?",
+      "questionEn": "A guest causes major damage in a maize field through gross negligence. Who is liable?",
+      "options": [
+        {
+          "de": "Der Revierinhaber",
+          "en": "The holder of the hunting ground"
+        },
+        {
+          "de": "Nur der Jagdgast",
+          "en": "Only the guest"
+        },
+        {
+          "de": "Die Jagdgenossenschaft",
+          "en": "The hunting cooperative"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Für Jagdschaden haftet der Jagdausübungsberechtigte.",
+      "explanationEn": "The person entitled to hunt is liable for hunting damage.",
+      "origin": "seed"
+    }
+  ]
+}

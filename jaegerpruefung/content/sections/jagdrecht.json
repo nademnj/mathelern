@@ -1,16 +1,49 @@
 {
   "id": "jagdrecht",
-  "order": 6,
-  "titleDe": "Rechtsvorschriften: Jagd-, Tierschutz-, Naturschutz- und Landschaftspflegerecht",
-  "titleEn": "Law: hunting, animal welfare, nature conservation and landscape law",
-  "summaryDe": "Bundesjagdgesetz und Landesjagdgesetz, Jagdbezirke und Jagdpacht, Jagdschein, sachliche Verbote, Jagd- und Schonzeiten, Tierschutz- und Naturschutzrecht.",
-  "summaryEn": "Federal and state hunting acts, hunting districts and leases, the hunting licence, prohibited practices, open and closed seasons, animal welfare and nature conservation law.",
+  "order": 3,
+  "titleDe": "Rechtliche Vorschriften",
+  "titleEn": "Law",
+  "summaryDe": "Jagdrecht (Bundesjagdgesetz und Bayerisches Jagdgesetz), Tier-, Natur- und Artenschutzrecht, Landschaftspflegerecht sowie Hygienevorschriften für Wildbret.",
+  "summaryEn": "Hunting law (federal and Bavarian hunting acts), animal welfare, nature and species protection law, landscape law, and hygiene rules for game meat.",
   "researchTopics": [
-    "Landesjagdgesetz Besonderheiten",
-    "Jagdschutz Befugnisse Jagdaufseher",
-    "Wildfolge Landesrecht",
-    "Bundesnaturschutzgesetz besonders geschützte Arten Jäger",
-    "Landesjagdzeitenverordnung"
+    "3.1 Jagdrecht",
+    "3.2 Tier-, Natur- und Artenschutzrecht, Landschaftspflegerecht",
+    "3.3 Hygienevorschriften für Wildbret, Umweltverschmutzung"
+  ],
+  "catalogTopics": [
+    {
+      "code": "3.1",
+      "titleDe": "Jagdrecht",
+      "titleEn": "Hunting law",
+      "officialQuestions": 210,
+      "lessonIds": [
+        "jagdrecht-grundlagen",
+        "jagdschein-und-verbote",
+        "jagdreviere-bayern",
+        "jagdzeiten-bayern",
+        "abschussplan-und-streckenliste",
+        "jagdausuebung-bayern",
+        "wildfolge-wildschaden-aneignung"
+      ]
+    },
+    {
+      "code": "3.2",
+      "titleDe": "Tier-, Natur- und Artenschutzrecht, Landschaftspflegerecht",
+      "titleEn": "Animal welfare, nature and species protection, landscape law",
+      "officialQuestions": 37,
+      "lessonIds": [
+        "tier-und-naturschutzrecht"
+      ]
+    },
+    {
+      "code": "3.3",
+      "titleDe": "Hygienevorschriften für Wildbret, Umweltverschmutzung",
+      "titleEn": "Hygiene rules for game meat, environmental pollution",
+      "officialQuestions": 19,
+      "lessonIds": [
+        "fleischhygienerecht"
+      ]
+    }
   ],
   "lessons": [
     {
@@ -32,8 +65,8 @@
           "en": "The hunting right belongs to the owner of the land and is inseparably linked to ownership (§ 3 BJagdG). But the owner may only exercise it within a hunting district (Jagdbezirk). So Germany has a district system: you may hunt only in hunting districts, and only if you are entitled to hunt there or have permission."
         },
         {
-          "de": "Ein Eigenjagdbezirk entsteht, wenn zusammenhängende land-, forst- oder fischereiwirtschaftlich nutzbare Flächen desselben Eigentümers mindestens 75 Hektar umfassen (§ 7 BJagdG). Alle übrigen Flächen einer Gemeinde bilden einen gemeinschaftlichen Jagdbezirk, wenn sie zusammen mindestens 150 Hektar groß sind (§ 8 BJagdG). Die Länder können die Mindestgrößen anders festsetzen.",
-          "en": "A private hunting district (Eigenjagdbezirk) exists when connected land usable for farming, forestry or fishing belonging to the same owner covers at least 75 hectares (§ 7 BJagdG). All other land in a municipality forms a communal hunting district (gemeinschaftlicher Jagdbezirk) if it totals at least 150 hectares (§ 8 BJagdG). The states may set different minimum sizes."
+          "de": "Ein Eigenjagdbezirk entsteht, wenn zusammenhängende land-, forst- oder fischereiwirtschaftlich nutzbare Flächen desselben Eigentümers mindestens 75 Hektar umfassen (§ 7 BJagdG). Alle übrigen Flächen einer Gemeinde bilden einen gemeinschaftlichen Jagdbezirk, wenn sie zusammen mindestens 150 Hektar groß sind (§ 8 BJagdG). Die Länder können die Mindestgrößen anders festsetzen. In Bayern sind es im Flachland 81,755 ha (Eigenjagd) und 250 ha (Gemeinschaftsjagd).",
+          "en": "A private hunting district (Eigenjagdbezirk) exists when connected land usable for farming, forestry or fishing belonging to the same owner covers at least 75 hectares (§ 7 BJagdG). All other land in a municipality forms a communal hunting district (gemeinschaftlicher Jagdbezirk) if it totals at least 150 hectares (§ 8 BJagdG). The states may set different minimum sizes. In Bavaria's lowlands the figures are 81.755 ha (private) and 250 ha (communal)."
         },
         {
           "de": "Die Eigentümer der Flächen eines gemeinschaftlichen Jagdbezirks bilden die Jagdgenossenschaft. Sie verpachtet die Jagd in der Regel. Die Pachtdauer soll mindestens neun Jahre betragen; die Länder können eine längere Mindestpachtzeit festsetzen (§ 11 BJagdG). Pächter kann nur sein, wer einen Jahresjagdschein besitzt und schon vorher einen solchen drei Jahre lang besessen hat.",
@@ -95,7 +128,7 @@
         }
       ],
       "origin": "seed",
-      "updatedAt": "2026-11-12"
+      "updatedAt": "2026-11-18"
     },
     {
       "id": "jagdschein-und-verbote",
@@ -107,8 +140,8 @@
           "en": "Anyone hunting must carry a hunting licence (Jagdschein) in their own name (§ 15 BJagdG). The annual licence (Jahresjagdschein) is valid for at most three hunting years, the day licence (Tagesjagdschein) for 14 consecutive days. Passing the hunting exam is required for the first licence."
         },
         {
-          "de": "Der Jagdschein wird unter anderem versagt, wenn keine ausreichende Jagdhaftpflichtversicherung nachgewiesen wird – mindestens 500.000 Euro für Personenschäden und 50.000 Euro für Sachschäden (§ 17 BJagdG). Jugendliche ab 16 Jahren können einen Jugendjagdschein erhalten; mit ihm dürfen sie nur in Begleitung eines Erwachsenen mit Jagdschein jagen und nicht an Gesellschaftsjagden teilnehmen (§ 16 BJagdG).",
-          "en": "The licence is refused, among other reasons, if adequate hunting liability insurance is not proven — at least €500,000 for personal injury and €50,000 for property damage (§ 17 BJagdG). Young people aged 16 or over can get a youth hunting licence; with it they may only hunt accompanied by an adult licence holder and may not take part in group hunts (§ 16 BJagdG)."
+          "de": "Der Jagdschein wird unter anderem versagt, wenn keine ausreichende Jagdhaftpflichtversicherung nachgewiesen wird – mindestens 500.000 Euro für Personenschäden und 50.000 Euro für Sachschäden (§ 17 BJagdG). Jugendliche ab 16 Jahren können einen Jugendjagdschein erhalten; mit ihm dürfen sie nur in Begleitung eines Erwachsenen mit Jagdschein jagen und nicht als Schütze an Treibjagden (auch Streifen) teilnehmen (§ 16 BJagdG); eine Baujagd mit wenigen Schützen ist dagegen möglich.",
+          "en": "The licence is refused, among other reasons, if adequate hunting liability insurance is not proven — at least €500,000 for personal injury and €50,000 for property damage (§ 17 BJagdG). Young people aged 16 or over can get a youth hunting licence; with it they may only hunt accompanied by an adult licence holder and may not take part as a shooter in driven hunts (including field sweeps) (§ 16 BJagdG); a den hunt with a few shooters, however, is possible."
         },
         {
           "de": "§ 19 BJagdG enthält die sachlichen Verbote. Verboten ist zum Beispiel, Schalenwild sowie Auer-, Birk- und Rackelwild zur Nachtzeit zu erlegen – ausgenommen ist Schwarzwild. Als Nachtzeit gilt die Zeit von eineinhalb Stunden nach Sonnenuntergang bis eineinhalb Stunden vor Sonnenaufgang. Verboten ist auch, künstliche Lichtquellen und Nachtzielgeräte zu verwenden, soweit das Landesrecht nichts anderes zulässt, sowie Wild aus Kraftfahrzeugen zu beschießen.",
@@ -182,7 +215,466 @@
         }
       ],
       "origin": "seed",
-      "updatedAt": "2026-11-12"
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "jagdreviere-bayern",
+      "titleDe": "Jagdreviere, Jagdgenossenschaft und Jagdpacht in Bayern",
+      "titleEn": "Hunting grounds, hunting cooperative and leases in Bavaria",
+      "paragraphs": [
+        {
+          "de": "In Bayern ist ein Eigenjagdrevier im Flachland mindestens 81,755 ha groß, ein Gemeinschaftsjagdrevier mindestens 250 ha (Bundesrecht: 75 ha bzw. 150 ha). Einem Pächter darf im Flachland höchstens eine Fläche von 1.000 ha zur Jagdausübung überlassen werden. Ein Revier, in dem regelmäßig Rot- und Schwarzwild erlegt wird, ist ein Hochwildrevier. Auch auf eingezäunten Forstkulturen und in einem eingegatterten Eigenjagdrevier wird gejagt – mit Jagdschein.",
+          "en": "In Bavaria a private hunting ground (Eigenjagdrevier) in the lowlands must be at least 81.755 ha, a communal hunting ground at least 250 ha (federal law: 75 ha and 150 ha). A leaseholder may be given at most 1,000 ha to hunt in the lowlands. A ground in which red deer and wild boar are regularly shot is a high-game ground (Hochwildrevier). Hunting also takes place on fenced forest plantations and in a fenced private hunting ground — with a hunting licence."
+        },
+        {
+          "de": "Befriedete Bezirke – etwa Friedhöfe oder ein eingezäunter Obstgarten, der unmittelbar an ein bewohntes Anwesen grenzt – gehören keinem Jagdrevier an; ihre Eigentümer sind keine Jagdgenossen. Dort ruht die Jagd; die Jagdbehörde kann aber zum Beispiel erlauben, Wildkaninchen oder Steinmarder zu bejagen. Fängt ein Landwirt mit Erlaubnis einen Steinmarder im Hühnerstall, gehört der Marder dem Landwirt. Mitglieder der Jagdgenossenschaft sind die Eigentümer der bejagbaren Flächen, nicht deren Pächter; verwaltet die Genossenschaft die Jagd selbst mit einem angestellten Jäger, ist sie selbst jagdausübungsberechtigt.",
+          "en": "Pacified areas (befriedete Bezirke) — such as cemeteries or a fenced orchard directly next to an inhabited farmstead — belong to no hunting ground; their owners are not members of the hunting cooperative. Hunting is suspended there, but the hunting authority can, for example, allow wild rabbits or stone martens to be hunted. If a farmer traps a stone marten in his hen house with permission, the marten belongs to the farmer. Members of the hunting cooperative are the owners of the huntable land, not their tenants; if the cooperative manages the hunting itself with an employed hunter, it is itself the person entitled to hunt."
+        },
+        {
+          "de": "Ein Jagdpachtvertrag muss schriftlich geschlossen werden – ein Handschlag genügt nicht – und ist der unteren Jagdbehörde anzuzeigen. Die Jagdgenossenschaft verpachtet in der Regel für mindestens neun Jahre. Wer im Revier ohne Begleitung des Revierinhabers jagt, braucht eine Jagderlaubnis in Textform; bei mehreren Pächtern müssen sie sämtliche Mitpächter erteilen, wenn nichts anderes vereinbart ist. Ein Jagdgast, der allein jagt, führt Jagdschein, Jagderlaubnis, Waffenbesitzkarte und Personalausweis mit.",
+          "en": "A hunting lease must be made in writing — a handshake is not enough — and notified to the lower hunting authority. The hunting cooperative usually leases for at least nine years. Anyone hunting in a ground without the holder accompanying them needs a hunting permit in text form; with several leaseholders, all of them must grant it unless agreed otherwise. A guest hunting alone carries hunting licence, hunting permit, firearms ownership licence and ID card."
+        },
+        {
+          "de": "Hegegemeinschaften stimmen die Hegemaßnahmen der Reviere ab, arbeiten bei der Abschussplanung zusammen und wirken auf die Erfüllung der Abschusspläne hin; stimmberechtigt sind die Jagdausübungsberechtigten. Ihre Abschussvorschläge binden die Jagdbehörde nicht. Im Jagdbeirat der unteren Jagdbehörde sind Landwirtschaft, Forstwirtschaft, Jagdgenossenschaften und Jäger vertreten. Die Jagdabgabe, die mit der Jagdscheingebühr erhoben wird, dient der Förderung des Jagdwesens. Zum Schutz brütenden Auerwilds kann das Betreten von Lebensräumen zeitweise verboten werden; Möwen- und Reiherkolonien darf man zur Brutzeit nicht ohne Erlaubnis betreten.",
+          "en": "Game management associations (Hegegemeinschaften) coordinate the hunting grounds' management measures, cooperate on cull planning and work towards fulfilment of the cull plans; the persons entitled to hunt have the vote. Their cull proposals do not bind the hunting authority. The hunting advisory board of the lower hunting authority includes agriculture, forestry, hunting cooperatives and hunters. The hunting levy, collected with the licence fee, is used to support hunting. To protect breeding capercaillie, entry to their habitats can be banned temporarily; gull and heron colonies must not be entered without permission during the breeding season."
+        }
+      ],
+      "keyTerms": [
+        {
+          "de": "Eigenjagdrevier",
+          "en": "private hunting ground"
+        },
+        {
+          "de": "Gemeinschaftsjagdrevier",
+          "en": "communal hunting ground"
+        },
+        {
+          "de": "befriedeter Bezirk",
+          "en": "pacified area (no hunting)"
+        },
+        {
+          "de": "Jagdgenosse",
+          "en": "member of the hunting cooperative"
+        },
+        {
+          "de": "Jagderlaubnis",
+          "en": "hunting permit for a guest"
+        },
+        {
+          "de": "Hegegemeinschaft",
+          "en": "game management association"
+        },
+        {
+          "de": "untere Jagdbehörde",
+          "en": "lower hunting authority (district office)"
+        },
+        {
+          "de": "Jagdabgabe",
+          "en": "hunting levy"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Fragenkatalog zur Jägerprüfung in Bayern – Landesamt für Maß und Gewicht",
+          "url": "https://www.lmg.bayern.de/aufgaben_leistungen/jaegerpruefung/index.html"
+        },
+        {
+          "title": "Bayerisches Jagdgesetz (BayJG) – gesetze-bayern.de",
+          "url": "https://www.gesetze-bayern.de/Content/Document/BayJG"
+        }
+      ],
+      "origin": "seed",
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "jagdzeiten-bayern",
+      "titleDe": "Jagd- und Schonzeiten in Bayern",
+      "titleEn": "Open and closed seasons in Bavaria",
+      "paragraphs": [
+        {
+          "de": "Rehwild (AVBayJG § 19): Böcke 16. April bis 15. Oktober, Schmalrehe 16. April bis 15. Januar, Geißen und Kitze 1. September bis 15. Januar. Rotwild: Schmaltiere und Schmalspießer 1. Mai bis 15. Januar, Kälber und Alttiere 16. Juli bis 15. Januar, alle übrigen Hirsche 1. August bis 15. Januar. Dam- und Sikawild: Schmaltiere und Schmalspießer ab 1. Juli, sonst ab 1. September, jeweils bis 31. Januar. Gamswild 1. August bis 15. Dezember, Muffelwild 1. August bis 31. Januar. Schwarzwild ganzjährig.",
+          "en": "Roe deer (AVBayJG § 19): bucks 16 April – 15 October, yearling does 16 April – 15 January, does and kids 1 September – 15 January. Red deer: yearling hinds and yearling stags (spikers) 1 May – 15 January, calves and adult hinds 16 July – 15 January, all other stags 1 August – 15 January. Fallow and sika deer: yearlings from 1 July, others from 1 September, all until 31 January. Chamois 1 August – 15 December, mouflon 1 August – 31 January. Wild boar all year."
+        },
+        {
+          "de": "Niederwild und Raubwild: Feldhase 16. Oktober bis 31. Dezember; Fuchs, Wildkaninchen, Waschbär, Marderhund, Mink und Nutria ganzjährig; Steinmarder 1. August (Jungtiere 1. Juni) bis 28. Februar, Baummarder 16. Oktober bis 28. Februar, Iltis, Hermelin und Mauswiesel 1. August bis 28. Februar; Dachs 1. August (Jungdachse 16. April) bis 31. Januar.",
+          "en": "Small game and predators: brown hare 16 October – 31 December; fox, wild rabbit, raccoon, raccoon dog, mink and coypu all year; stone marten 1 August (young 1 June) – 28 February, pine marten 16 October – 28 February, polecat, stoat and least weasel 1 August – 28 February; badger 1 August (young badgers 16 April) – 31 January."
+        },
+        {
+          "de": "Federwild: Rebhuhn 1. September bis 31. Oktober, Fasan 1. Oktober bis 31. Dezember, Stockente 1. September bis 15. Januar, die übrigen jagdbaren Enten (z. B. Krick- und Reiherente) 1. Oktober bis 15. Januar, Grau- und Kanadagänse 1. August bis 28. Februar (sitzende Junggänse auch im Juli), Ringel- und Türkentauben 1. November bis 20. Februar (zur Schadensabwehr an Trupps auf Äckern auch zu weiteren Zeiten), Waldschnepfe 16. Oktober bis 15. Januar – einen Frühjahrs-Schnepfenstrich gibt es nicht –, Blässhuhn 11. September bis 20. Februar, Rabenkrähe, Elster und Eichelhäher 16. Juli bis 14. März.",
+          "en": "Feathered game: grey partridge 1 September – 31 October, pheasant 1 October – 31 December, mallard 1 September – 15 January, the other huntable ducks (e.g. teal and tufted duck) 1 October – 15 January, greylag and Canada geese 1 August – 28 February (sitting young geese also in July), wood and collared doves 1 November – 20 February (and at other times to prevent damage by flocks on fields), woodcock 16 October – 15 January — there is no spring woodcock shooting —, coot 11 September – 20 February, carrion crow, magpie and jay 16 July – 14 March."
+        },
+        {
+          "de": "Ganzjährig geschont sind in Bayern zum Beispiel Steinwild, Schneehase, Murmeltier, Birk- und Haselwild, Turteltaube, Haubentaucher, Luchs, Wildkatze und Greifvögel; der Fischotter und der Wolf dürfen nur bejagt werden, soweit eine naturschutzrechtliche Ausnahme es zulässt. Immer gilt der Elterntierschutz: Die für die Aufzucht nötigen Elterntiere sind bis zum Selbständigwerden der Jungen geschont – beim Fuchs beide Eltern; auf Drückjagden dürfen führende Bachen mit gestreiften Frischlingen nicht beschossen werden. Junge Füchse dürfen dagegen im April erlegt werden. Wer ganzjährig geschontes Wild erlegt, kann sich strafbar machen (Schonzeitvergehen); wer Wild kurz nach Ende der Jagdzeit erlegt, begeht in der Regel eine Ordnungswidrigkeit. Die vorsätzliche oder fahrlässige Tötung von Luchs oder Wildkatze ist eine Straftat.",
+          "en": "Protected all year in Bavaria are, for example, ibex, mountain hare, marmot, black and hazel grouse, turtle dove, great crested grebe, lynx, wildcat and birds of prey; otter and wolf may only be hunted where an exemption under nature conservation law allows it. Parent protection always applies: parent animals needed for rearing are protected until the young are independent — in the fox, both parents; at driven hunts, sows leading striped piglets must not be shot. Young foxes, however, may be shot in April. Anyone who kills game protected all year may commit a criminal offence (closed-season offence); killing game shortly after its season ends is usually an administrative offence. Killing a lynx or wildcat, intentionally or negligently, is a criminal offence."
+        }
+      ],
+      "keyTerms": [
+        {
+          "de": "Jagdzeit",
+          "en": "open season"
+        },
+        {
+          "de": "Schonzeit",
+          "en": "closed season"
+        },
+        {
+          "de": "ganzjährig geschont",
+          "en": "protected all year"
+        },
+        {
+          "de": "Elterntierschutz",
+          "en": "protection of parent animals"
+        },
+        {
+          "de": "Schonzeitvergehen",
+          "en": "closed-season offence (crime)"
+        },
+        {
+          "de": "Ordnungswidrigkeit",
+          "en": "administrative offence"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Fragenkatalog zur Jägerprüfung in Bayern – Landesamt für Maß und Gewicht",
+          "url": "https://www.lmg.bayern.de/aufgaben_leistungen/jaegerpruefung/index.html"
+        },
+        {
+          "title": "Ausführungsverordnung zum Bayerischen Jagdgesetz (AVBayJG) § 19 Jagdzeiten – gesetze-bayern.de",
+          "url": "https://www.gesetze-bayern.de/Content/Document/BayAVJG-19"
+        }
+      ],
+      "origin": "seed",
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "abschussplan-und-streckenliste",
+      "titleDe": "Abschussplan, Streckenliste und Meldepflichten",
+      "titleEn": "Cull plan, bag record and reporting duties",
+      "paragraphs": [
+        {
+          "de": "Schalenwild außer Schwarzwild – also Rot-, Dam-, Gams-, Muffel- und Rehwild – darf nur aufgrund und im Rahmen eines Abschussplans erlegt werden. Für Rehwild wird der Abschussplan für drei Jahre aufgestellt; im Gemeinschaftsjagdrevier ist der Jagdvorstand zu beteiligen. Bei der Planung ist neben der körperlichen Verfassung des Wildes vorrangig der Zustand der Vegetation zu berücksichtigen, vor allem die Ergebnisse der Verbissinventur im Forstlichen Gutachten, das alle drei Jahre je Hegegemeinschaft erstellt wird. Für Rot- und Gamswild sind Gruppenabschusspläne möglich.",
+          "en": "Cloven-hoofed game other than wild boar — red, fallow, chamois, mouflon and roe deer — may only be shot on the basis of and within a cull plan. For roe deer the plan covers three years; in a communal hunting ground the cooperative's board must be involved. Planning must take account above all of the state of the vegetation, especially the browsing survey results in the forestry report drawn up every three years for each game management association, besides the animals' condition. Group cull plans are possible for red deer and chamois."
+        },
+        {
+          "de": "Rotwild darf nur in den festgelegten Rotwildgebieten gehegt werden; außerhalb – etwa 10 km davon entfernt – darf ein Stück auch ohne Abschussplan erlegt werden. Krankes, kümmerndes oder verletztes Wild – etwa ein abgekommenes Reh mit verschmutztem Spiegel, eine Geiß mit gebrochenem Lauf oder ein zuvor angeschossener Bock – darf und soll man sofort erlegen, auch über den Plan hinaus und in der Schonzeit, und die untere Jagdbehörde danach unverzüglich verständigen. Ein schwacher, kranker Gamsjährling darf auch dann erlegt werden, wenn nur noch ein Bock der Klasse I frei ist.",
+          "en": "Red deer may only be managed in the designated red deer areas; outside them — say 10 km away — an animal may be shot even without a cull plan. Sick, ailing or injured game — such as an emaciated roe deer with a soiled rump, a doe with a broken leg or a previously wounded buck — may and should be shot at once, even beyond the plan and in the closed season, and the lower hunting authority notified immediately afterwards. A weak, sick chamois yearling may be shot even if only a class I buck is left on the plan."
+        },
+        {
+          "de": "Jedes erlegte und jedes verendet aufgefundene Stück Schalenwild, das unter den Abschussplan fällt, wird binnen einer Woche in die Streckenliste eingetragen – auch Fallwild wie ein überfahrenes Rotwildkalb oder eine im Winter verendete Geiß und ihr Kitz. Rotwild ist außerdem binnen einer Woche der unteren Jagdbehörde zu melden. Die Streckenliste wird mit dem letzten Tag des Jagdjahres abgeschlossen; die Behörde kann jederzeit Einblick verlangen. Ein angeschossen in das Nachbarrevier gewechselter Bock zählt auf den Plan des Reviers, in dem er beschossen wurde. Öffentliche Hegeschauen informieren über Wildschäden, Waldverjüngung, Planerfüllung und die Entwicklung der Bestände.",
+          "en": "Every cloven-hoofed animal covered by the cull plan that is shot or found dead is entered in the bag record (Streckenliste) within one week — including dead animals such as a red deer calf hit by a car or a doe and her kid that died in winter. Red deer must also be reported to the lower hunting authority within one week. The bag record is closed on the last day of the hunting year; the authority may inspect it at any time. A wounded buck that crossed into the neighbouring ground counts against the plan of the ground where it was shot. Public game shows (Hegeschauen) inform about game damage, forest regeneration, plan fulfilment and population trends."
+        }
+      ],
+      "keyTerms": [
+        {
+          "de": "Abschussplan",
+          "en": "cull plan"
+        },
+        {
+          "de": "Streckenliste",
+          "en": "bag record"
+        },
+        {
+          "de": "Strecke",
+          "en": "bag (game shot)"
+        },
+        {
+          "de": "Rotwildgebiet",
+          "en": "designated red deer area"
+        },
+        {
+          "de": "Gruppenabschussplan",
+          "en": "group cull plan"
+        },
+        {
+          "de": "Verbissinventur",
+          "en": "browsing survey"
+        },
+        {
+          "de": "Hegeschau",
+          "en": "public game show/review"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Fragenkatalog zur Jägerprüfung in Bayern – Landesamt für Maß und Gewicht",
+          "url": "https://www.lmg.bayern.de/aufgaben_leistungen/jaegerpruefung/index.html"
+        },
+        {
+          "title": "Bayerisches Jagdgesetz (BayJG) – gesetze-bayern.de",
+          "url": "https://www.gesetze-bayern.de/Content/Document/BayJG"
+        }
+      ],
+      "origin": "seed",
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "jagdausuebung-bayern",
+      "titleDe": "Regeln der Jagdausübung in Bayern",
+      "titleEn": "Rules for hunting in Bavaria",
+      "paragraphs": [
+        {
+          "de": "Zur Nachtzeit (1½ Stunden nach Sonnenuntergang bis 1½ Stunden vor Sonnenaufgang) dürfen in Bayern im Rahmen ihrer Jagdzeit Schwarzwild, Fuchs, Dachs und Nutria erlegt werden – bayernweit auch mit künstlichen Lichtquellen sowie Nachtsichtvorsatz- und -aufsatzgeräten. Auf Feldhasen, Wildkaninchen und Wildenten ist die Nachtjagd verboten. Rot-, Dam-, Reh-, Gams- und Muffelwild dürfen nicht auf Treibjagden erlegt werden. Bei Drück- und Riegeljagden dürfen höchstens vier Treiber drücken, Hunde dürfen frei laufen. Brackieren ist erst auf Flächen ab 1.000 ha erlaubt. In Notzeiten darf Schalenwild im Umkreis von 200 m um Fütterungen nicht erlegt werden.",
+          "en": "At night (1½ hours after sunset to 1½ hours before sunrise) wild boar, fox, badger and coypu may be shot in Bavaria in their season — throughout Bavaria also with artificial light and night-vision clip-on and mounted devices. Night hunting of brown hares, wild rabbits and wild ducks is forbidden. Red, fallow, roe deer, chamois and mouflon may not be shot at drives. At Drück- and Riegeljagden, at most four beaters may push, and dogs may run free. Hunting with hounds (Brackieren) is only allowed on areas of 1,000 ha or more. In times of need, cloven-hoofed game must not be shot within 200 m of feeding sites."
+        },
+        {
+          "de": "Schon eine Jagd mit zum Beispiel zwei Jägern und drei Treibern gilt als Gesellschaftsjagd; für jede Gesellschaftsjagd muss ein Jagdleiter bestimmt werden. Bei brauchbaren Jagdhunden schreibt das Gesetz eine genügende Zahl vor – etwa beim Enteneinfall am Wasser, bei der Suche auf Hasen, bei Drückjagden auf Fuchs oder Rehwild und Treibjagden auf Schwarzwild; auch wer auf dem Heimweg über einen Acker einen Hasen erlegen will, muss einen brauchbaren Hund dabeihaben. Tonbänder mit Lockrufen sind verboten. Aus dem Auto darf nicht geschossen werden; man steigt aus und kann zum Beispiel auf dem Autodach auflegen. Weibliches Rehwild darf in der Jagdzeit auch an Kirrungen erlegt werden, Hasen und Enten dürfen auch mit der Kugel geschossen werden. Bleischrot an und über Gewässern ist eine Ordnungswidrigkeit.",
+          "en": "Even a hunt with, for example, two hunters and three beaters counts as a group hunt; every group hunt must have a hunt leader. The law requires a sufficient number of qualified dogs, e.g. for duck flighting at water, searching for hares, driven hunts on fox or roe deer and drives on wild boar; even someone who wants to shoot a hare crossing a field on the way home must have a qualified dog. Recorded calls are forbidden. Shooting from a car is not allowed; you get out and can, for instance, rest on the car roof. Female roe deer may also be shot at bait sites in season, and hares and ducks may also be shot with a rifle. Lead shot at and over water is an administrative offence."
+        },
+        {
+          "de": "Selbstladewaffen: Entscheidend ist, wie viele Patronen geladen sind – mehr als zwei im Magazin (also mehr als drei Schuss ohne Nachladen) sind verboten. Eine Selbstladebüchse mit vier Patronen Magazinkapazität darf am Ansitz verwendet werden, wenn nicht mehr geladen ist; eine Selbstladeflinte mit vier oder fünf geladenen Patronen dagegen nicht. Kurzwaffen dürfen mit mindestens 200 Joule Mündungsenergie für den Fangschuss auf krankes, nicht mehr flüchtiges Schalenwild und auf den gegrabenen Fuchs oder Dachs verwendet werden. Mit Flintenlaufgeschossen darf auch Schalenwild wie ein Keiler erlegt werden.",
+          "en": "Self-loading guns: what counts is how many rounds are loaded — more than two in the magazine (i.e. more than three shots without reloading) is forbidden. A self-loading rifle with a four-round magazine may be used on a stand if no more than that is loaded; a self-loading shotgun loaded with four or five shells may not. Handguns with at least 200 joules of muzzle energy may be used for the finishing shot on wounded cloven-hoofed game that can no longer flee, and on a dug-out fox or badger. Slugs may also be used on cloven-hoofed game such as a boar."
+        },
+        {
+          "de": "Kaliber in der Praxis: Für Rehwild genügen Patronen mit E100 ab 1.000 J, etwa .222 Remington, 5,6 × 50 Magnum oder .243 Winchester – diese reichen aber nicht für Frischlinge, Muffellämmer oder Gamswild, weil dort mindestens 6,5 mm und 2.000 J vorgeschrieben sind (eine 5,6 × 57 ist auf Frischlinge also verboten, selbst mit über 2.000 J). Ein Hirschkalb darf mit einer 6,5 × 57 mit mindestens 2.000 J erlegt werden, ein Fuchs auf 50 m mit .22 Magnum. Wer mit einer Erlaubnis nur für einen Rehbock einen Keiler erlegt, kann den Straftatbestand der Wilderei erfüllen.",
+          "en": "Calibres in practice: for roe deer, cartridges with E100 of 1,000 J or more are enough, such as .222 Remington, 5.6 × 50 Magnum or .243 Winchester — but not for wild boar piglets, mouflon lambs or chamois, because those require at least 6.5 mm and 2,000 J (so a 5.6 × 57 is forbidden on piglets, even with over 2,000 J). A red deer calf may be shot with a 6.5 × 57 with at least 2,000 J, a fox at 50 m with .22 Magnum. Anyone with a permit only for a roe buck who shoots a boar may commit the criminal offence of poaching."
+        }
+      ],
+      "keyTerms": [
+        {
+          "de": "Nachtjagd",
+          "en": "night hunting"
+        },
+        {
+          "de": "Nachtsichtvorsatzgerät",
+          "en": "night-vision clip-on"
+        },
+        {
+          "de": "Treibjagd",
+          "en": "driven hunt with beaters"
+        },
+        {
+          "de": "Riegeljagd",
+          "en": "drive with stops on game paths"
+        },
+        {
+          "de": "Gesellschaftsjagd",
+          "en": "group hunt"
+        },
+        {
+          "de": "Jagdleiter",
+          "en": "hunt leader"
+        },
+        {
+          "de": "Kirrung",
+          "en": "bait site"
+        },
+        {
+          "de": "Wilderei",
+          "en": "poaching"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Fragenkatalog zur Jägerprüfung in Bayern – Landesamt für Maß und Gewicht",
+          "url": "https://www.lmg.bayern.de/aufgaben_leistungen/jaegerpruefung/index.html"
+        },
+        {
+          "title": "Bayerisches Jagdgesetz (BayJG) – gesetze-bayern.de",
+          "url": "https://www.gesetze-bayern.de/Content/Document/BayJG"
+        },
+        {
+          "title": "Bundesjagdgesetz (BJagdG) – gesetze-im-internet.de",
+          "url": "https://www.gesetze-im-internet.de/bjagdg/"
+        }
+      ],
+      "origin": "seed",
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "wildfolge-wildschaden-aneignung",
+      "titleDe": "Wildfolge, Wildschadensersatz, Aneignung und Jagdschutz",
+      "titleEn": "Following wounded game, compensation for game damage, appropriation and game protection",
+      "paragraphs": [
+        {
+          "de": "Wechselt angeschossenes Wild über die Reviergrenze, darf man ohne Wildfolgevereinbarung nicht einfach folgen. Verendet ein Stück in Sichtweite im Nachbarrevier, ist es zu versorgen und der Nachbar zu verständigen; ein Jagdgast darf mit ungeladener Waffe hinübergehen und das sichtbar verendete Stück versorgen. Tut sich ein krankes Stück jenseits der Grenze außer Sicht nieder, darf man nicht ohne Weiteres nachsetzen. Einen im Nachbarrevier verendeten Hasen darf der Hund apportieren. Ein anerkanntes Nachsuchengespann darf zur Nachsuche die Reviergrenze auch ohne Zustimmung des Nachbarn überschreiten. In befriedete Grundstücke darf man gegen den Willen des Eigentümers nicht.",
+          "en": "If wounded game crosses the boundary, you may not simply follow it without a following agreement (Wildfolgevereinbarung). If an animal dies within sight in the neighbouring ground, it must be gutted and the neighbour informed; a guest may cross with an unloaded gun to deal with an animal visibly dead. If a wounded animal lies down out of sight across the boundary, you may not just go after it. A dog may retrieve a hare that died in the neighbouring ground. A recognised tracking team may cross the boundary while tracking even without the neighbour's consent. You may not enter pacified property against the owner's will."
+        },
+        {
+          "de": "Ersatzpflichtig ist Wildschaden durch Schalenwild (z. B. Rot-, Reh-, Schwarz-, Muffelwild), Wildkaninchen und Fasane – nicht durch Dachs, Hase oder Steinmarder. Bei Feldfrüchten muss der Schaden binnen einer Woche bei der Gemeinde angemeldet werden (wer am 2. Juni Schaden bemerkt und erst am 15. Juni meldet, verliert den Anspruch); bei Forstflächen gelten der 1. Mai und der 1. Oktober. Kein Ersatz gibt es für Schäden an ungeschützten Einzelpflanzungen von Baumarten, die nicht Hauptholzarten des Reviers sind, an Mieten, Silos und eingelagerten Erzeugnissen und in befriedeten Hausgärten. Ersatzpflichtig ist die Jagdgenossenschaft, sofern der Pachtvertrag nichts anderes regelt; ausgebrochenes Gatterwild verantwortet der Halter. Für Jagdschaden – auch durch Jagdgäste – haftet der Revierinhaber.",
+          "en": "Compensation is owed for damage by cloven-hoofed game (e.g. red deer, roe deer, wild boar, mouflon), wild rabbits and pheasants — not by badgers, hares or stone martens. For crops, the damage must be reported to the municipality within a week (someone who notices damage on 2 June and reports it only on 15 June loses the claim); for forest land the dates are 1 May and 1 October. There is no compensation for damage to unprotected single plantings of tree species that are not the ground's main species, to clamps, silos and stored produce, or in pacified house gardens. The hunting cooperative pays unless the lease says otherwise; for escaped enclosure game the keeper is responsible. The ground holder is liable for hunting damage — including that caused by guests."
+        },
+        {
+          "de": "Grundeigentümer dürfen Wild von ihren Grundstücken verscheuchen, aber nicht in einer Nacht, in der der Revierinhaber angekündigt hat, dort zu jagen; einen in eine eingezäunte Kultur eingedrungenen Rehbock darf der Eigentümer hinaustreiben. Das Aneignungsrecht an einem überfahrenen Reh hat der Revierinhaber des Reviers, durch das die Straße führt; wer Schalenwild anfährt, muss das unverzüglich der Polizei oder dem Revierinhaber melden. Abwurfstangen darf sich nur der Jagdausübungsberechtigte aneignen; Dritte brauchen seine schriftliche Erlaubnis. Ein Spaziergänger muss einen Hochsitz auf Aufforderung verlassen. Wer befugt einen Jägernotweg benutzt, darf Waffen nur ungeladen und Hunde nur angeleint mitführen. Schwarzwild und Wildkaninchen dürfen nicht ausgesetzt werden.",
+          "en": "Landowners may chase game off their land, but not on a night when the ground holder has announced he will hunt there; the owner may drive out a roe buck that got into a fenced plantation. The right to appropriate a roe deer killed by a car belongs to the holder of the ground the road runs through; anyone who hits cloven-hoofed game must report it at once to the police or the ground holder. Only the person entitled to hunt may take cast antlers; others need written permission. A walker must leave a high seat when asked. Anyone lawfully using a hunter's right of way through another ground may carry guns only unloaded and dogs only on a lead. Wild boar and wild rabbits must not be released into the wild."
+        },
+        {
+          "de": "Jagdschutzberechtigt ist der Revierinhaber, nicht ein Gast mit einer bloßen Jagderlaubnis – dieser darf deshalb auch keine wildernden Hunde oder Katzen töten. Eine Katze gilt in Bayern als wildernd, wenn sie mehr als 300 m vom nächsten bewohnten Gebäude entfernt angetroffen wird. In tollwutfreien Gebieten müssen Spaziergänger ihre Hunde im Revier nicht grundsätzlich anleinen.",
+          "en": "The right to protect game (Jagdschutz) belongs to the ground holder, not to a guest with a mere hunting permit — so a guest may not kill poaching dogs or cats either. In Bavaria a cat counts as poaching if found more than 300 m from the nearest inhabited building. In rabies-free areas, walkers do not generally have to keep their dogs on a lead in the hunting ground."
+        }
+      ],
+      "keyTerms": [
+        {
+          "de": "Wildfolge",
+          "en": "following wounded game across a boundary"
+        },
+        {
+          "de": "Nachsuchengespann",
+          "en": "tracking team (handler and dog)"
+        },
+        {
+          "de": "Wildschadensersatz",
+          "en": "compensation for game damage"
+        },
+        {
+          "de": "Hauptholzart",
+          "en": "main tree species"
+        },
+        {
+          "de": "Aneignungsrecht",
+          "en": "right to appropriate game"
+        },
+        {
+          "de": "Abwurfstangen",
+          "en": "cast antlers"
+        },
+        {
+          "de": "Jagdschutz",
+          "en": "game protection duty"
+        },
+        {
+          "de": "Jägernotweg",
+          "en": "hunter's right of way"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Fragenkatalog zur Jägerprüfung in Bayern – Landesamt für Maß und Gewicht",
+          "url": "https://www.lmg.bayern.de/aufgaben_leistungen/jaegerpruefung/index.html"
+        },
+        {
+          "title": "Bayerisches Jagdgesetz (BayJG) – gesetze-bayern.de",
+          "url": "https://www.gesetze-bayern.de/Content/Document/BayJG"
+        },
+        {
+          "title": "Bundesjagdgesetz (BJagdG) – gesetze-im-internet.de",
+          "url": "https://www.gesetze-im-internet.de/bjagdg/"
+        }
+      ],
+      "origin": "seed",
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "tier-und-naturschutzrecht",
+      "titleDe": "Tierschutz-, Naturschutz- und Artenschutzrecht",
+      "titleEn": "Animal welfare, nature and species protection law",
+      "paragraphs": [
+        {
+          "de": "Das Tierschutzgesetz soll aus der Verantwortung des Menschen für das Tier als Mitgeschöpf dessen Leben und Wohlbefinden schützen: Niemand darf einem Tier ohne vernünftigen Grund Schmerzen, Leiden oder Schäden zufügen, und ein Wirbeltier darf nicht ohne vernünftigen Grund getötet werden – das kann eine Straftat sein. Das Gesetz gilt für Haus- und Wildtiere gleichermaßen, also auch für jagdbares Wild, Wild in der Schonzeit, Jagdhunde und naturschutzrechtlich geschützte Arten. Den Hofhund, dessen Bellen den Nachbarn stört, erschießt man deshalb nicht; einen unheilbar kranken Jagdhund lässt man vom Tierarzt einschläfern, einen schussscheuen Hund gibt man an Nicht-Jäger ab. Ein Tier auszusetzen ist ein Verstoß gegen das Tierschutzgesetz.",
+          "en": "The Animal Welfare Act aims to protect the life and well-being of animals as fellow creatures, out of human responsibility: nobody may cause an animal pain, suffering or harm without good reason, and a vertebrate may not be killed without good reason — that can be a criminal offence. The act applies equally to domestic and wild animals, including huntable game, game in the closed season, hunting dogs and protected species. So you do not shoot a farm dog whose barking annoys its owner; an incurably ill hunting dog is put down by a vet, and a gun-shy dog is given to non-hunters. Abandoning an animal breaks the Animal Welfare Act."
+        },
+        {
+          "de": "Jeder darf die freie Natur betreten, etwa zum Skifahren oder Pilzesammeln im Wald. Reiten ist im Wald grundsätzlich nur auf Straßen und geeigneten Wegen zulässig, nicht abseits davon in einem Fichtenaltbestand. Unbefugtes Zelten im fremden Wald ist eine Ordnungswidrigkeit.",
+          "en": "Everyone may enter the open countryside, for example to ski or gather mushrooms in the forest. Horse riding in the forest is in principle allowed only on roads and suitable paths, not off them in an old spruce stand. Camping in someone else's forest without permission is an administrative offence."
+        },
+        {
+          "de": "Besonders geschützte Arten wie Igel, Fledermäuse, Feldhamster, Haselmaus, Baum- und Gartenschläfer, Eichhörnchen oder Maulwurf dürfen grundsätzlich nicht gefangen oder getötet werden – auch nicht der Maulwurf auf einer Wildwiese ohne Erlaubnis. Eier der Roten Waldameise darf man nicht sammeln. Pflanzen wie Akelei, Seidelbast, Enzian, Trollblume, Frauenschuh, Türkenbund, Arnika, Silberdistel, Adonisröschen und Sonnentau dürfen nicht gepflückt werden; eine Wiese mit Trollblumen darf der Landwirt aber mähen. Verendet aufgefundene geschützte Arten wie Uhu, Waldohreule oder Auerhahn darf man nicht ohne Weiteres behalten, präparieren lassen oder verkaufen. Kormorane dürfen in Bayern unter bestimmten Voraussetzungen vom Revierinhaber oder einem befugten Jagdgast getötet werden. Als invasiv gelten unter anderem Waschbär, Nutria, Nilgans und Bisam.",
+          "en": "Specially protected species such as hedgehog, bats, common hamster, hazel dormouse, forest and garden dormouse, red squirrel or mole may in principle not be trapped or killed — not even a mole in a game meadow without permission. Red wood ant eggs must not be collected. Plants such as columbine, mezereon, gentian, globeflower, lady's slipper, Turk's cap lily, arnica, carline thistle, pheasant's eye and sundew must not be picked; but a farmer may mow a meadow with globeflowers. Protected species found dead, such as eagle owl, long-eared owl or capercaillie, may not simply be kept, mounted or sold. In Bavaria cormorants may, under certain conditions, be killed by the ground holder or an authorised guest. Invasive species include raccoon, coypu, Egyptian goose and muskrat."
+        },
+        {
+          "de": "Hecken und lebende Zäune in der freien Natur dürfen vom 1. März bis 30. September nicht zurückgeschnitten oder auf den Stock gesetzt werden; schneiden darf man sie – etwa um einen beschatteten Wildacker freizustellen – nur außerhalb dieser Zeit. Eine Hecke zu roden, um Ackerfläche zu gewinnen, oder abzubrennen ist nicht zulässig. Röhricht und Schilf dürfen nur vom 1. Oktober bis 28. Februar gemäht werden.",
+          "en": "Hedges and living fences in the countryside must not be cut back or coppiced from 1 March to 30 September; they may only be cut outside this period — for example to free a shaded game plot. Grubbing up a hedge to gain arable land, or burning it, is not permitted. Reeds may only be cut from 1 October to the end of February."
+        }
+      ],
+      "keyTerms": [
+        {
+          "de": "Tierschutzgesetz",
+          "en": "Animal Welfare Act"
+        },
+        {
+          "de": "vernünftiger Grund",
+          "en": "good reason (legal test)"
+        },
+        {
+          "de": "Betretungsrecht",
+          "en": "right of access to the countryside"
+        },
+        {
+          "de": "besonders geschützt",
+          "en": "specially protected"
+        },
+        {
+          "de": "invasive Arten",
+          "en": "invasive species"
+        },
+        {
+          "de": "Röhricht",
+          "en": "reed beds"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Fragenkatalog zur Jägerprüfung in Bayern – Landesamt für Maß und Gewicht",
+          "url": "https://www.lmg.bayern.de/aufgaben_leistungen/jaegerpruefung/index.html"
+        },
+        {
+          "title": "Tierschutzgesetz (TierSchG) – gesetze-im-internet.de",
+          "url": "https://www.gesetze-im-internet.de/tierschg/"
+        },
+        {
+          "title": "Bayerisches Naturschutzgesetz (BayNatSchG) – gesetze-bayern.de",
+          "url": "https://www.gesetze-bayern.de/Content/Document/BayNatSchG"
+        }
+      ],
+      "origin": "seed",
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "fleischhygienerecht",
+      "titleDe": "Fleischhygienerecht für Jäger",
+      "titleEn": "Meat hygiene law for hunters",
+      "paragraphs": [
+        {
+          "de": "Vorgeschrieben sind beim Versorgen von Schalenwild unter anderem das Zuschneiden verschmutzter Teile (etwa am Ausschuss) und die alsbaldige Kühlung auf höchstens +7 °C Kerntemperatur. Fallwild ist stets genussuntauglich; ein bei einem Verkehrsunfall sofort getötetes Reh darf über die Tierkörperbeseitigung entsorgt oder an die eigenen Hunde verfüttert werden. Erlegen im Sinne des Fleischhygienerechts ist das Töten von Wild nach jagdrechtlichen Vorschriften.",
+          "en": "Required when handling cloven-hoofed game are, among other things, trimming soiled parts (e.g. at the exit wound) and prompt chilling to a core temperature of no more than +7 °C. Game found dead is always unfit to eat; a roe deer killed outright in a road accident may be disposed of through the carcass disposal service or fed to your own dogs. In meat hygiene law, “erlegen” (to kill) means killing game in accordance with hunting law."
+        },
+        {
+          "de": "Ohne bedenkliche Merkmale darf der Jäger Wild in der Decke ohne amtliche Untersuchung an einen Gastwirt oder an den Nachbarn zum eigenen Verbrauch abgeben – in kleinen Mengen, das heißt die Strecke eines Jagdtages. Selbst hergestellten Wildschinken darf er an Endverbraucher abgeben. Ein Perückenbock allein muss nicht untersucht werden. Untersuchungspflichtig ist dagegen ein Stück mit einem offenen Knochenbruch, der nicht vom Erlegen stammt – auch wenn es nur für den Erleger bestimmt ist –, oder mit bläulich verfärbtem Bauch- und Brustfell, selbst zum Eigenverbrauch.",
+          "en": "Without signs of concern, the hunter may supply game in its skin without official inspection to a restaurateur or to a neighbour for their own consumption — in small quantities, meaning one day's bag. Home-made game ham may be sold to end consumers. A buck with perruque antlers does not need inspection for that reason alone. Inspection is required, however, for an animal with an open fracture not caused by the kill — even if it is only for the shooter — or with bluish discoloured abdominal and chest lining, even for your own consumption."
+        },
+        {
+          "de": "Schwarzwild jeden Alters muss vor dem Verzehr auf Trichinen untersucht werden – auch Frischlinge für den Eigenverbrauch oder als Geschenk. Die Probenahme darf eine kundige Person nicht ohne Weiteres vornehmen, dafür braucht sie eine Beauftragung durch die Behörde. Die kundige Person holt beim Erleger Erkenntnisse über das Verhalten vor dem Schuss ein, untersucht den Wildkörper auf bedenkliche Merkmale und entscheidet, ob das Wildbret bedenkenlos verwertet werden kann. Stellt sie bedenkliche Merkmale fest und gibt das Stück an einen zugelassenen Wildverarbeitungsbetrieb ab, legt sie eine Erklärung mit den Merkmalen bei und liefert den ganzen Wildkörper samt roten Organen. Den Verdacht auf eine Wildseuche meldet man unverzüglich der Behörde.",
+          "en": "Wild boar of any age must be tested for Trichinella before eating — including piglets for your own use or as a gift. A trained person may not simply take samples; they need to be appointed by the authority. The trained person asks the shooter about the animal's behaviour before the shot, examines the carcass for signs of concern and decides whether the meat can be used without concern. If they find signs of concern and pass the animal to an approved game-handling establishment, they attach a declaration naming the signs and deliver the whole carcass with the red organs. Suspected wildlife epidemics are reported to the authority without delay."
+        }
+      ],
+      "keyTerms": [
+        {
+          "de": "Kerntemperatur",
+          "en": "core temperature"
+        },
+        {
+          "de": "Fallwild",
+          "en": "game found dead"
+        },
+        {
+          "de": "kleine Menge",
+          "en": "small quantity (one day's bag)"
+        },
+        {
+          "de": "Wildverarbeitungsbetrieb",
+          "en": "game-handling establishment"
+        },
+        {
+          "de": "Trichinenprobe",
+          "en": "Trichinella sample"
+        },
+        {
+          "de": "Tierkörperbeseitigung",
+          "en": "carcass disposal service"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Fragenkatalog zur Jägerprüfung in Bayern – Landesamt für Maß und Gewicht",
+          "url": "https://www.lmg.bayern.de/aufgaben_leistungen/jaegerpruefung/index.html"
+        },
+        {
+          "title": "Tierische Lebensmittel-Hygieneverordnung (Tier-LMHV) – gesetze-im-internet.de",
+          "url": "https://www.gesetze-im-internet.de/tier-lmhv/"
+        }
+      ],
+      "origin": "seed",
+      "updatedAt": "2026-11-18"
     }
   ],
   "quiz": [
@@ -504,8 +996,8 @@
           "en": "Hunting only accompanied by an adult licence holder"
         },
         {
-          "de": "Keine Teilnahme an Gesellschaftsjagden",
-          "en": "No participation in group hunts"
+          "de": "Keine Teilnahme als Schütze an Treibjagden",
+          "en": "No taking part as a shooter in driven hunts"
         },
         {
           "de": "Berechtigt zur Jagdpacht",
@@ -517,8 +1009,1479 @@
         1,
         2
       ],
-      "explanationDe": "§ 16 BJagdG: ab 16 Jahren, nur in Begleitung, keine Gesellschaftsjagden; Pächter kann nur ein langjähriger Jahresjagdscheininhaber sein.",
-      "explanationEn": "§ 16 BJagdG: from 16, accompanied only, no group hunts; only a long-time annual licence holder can lease.",
+      "explanationDe": "§ 16 BJagdG: ab 16 Jahren, nur in Begleitung, keine Treibjagden; Pächter kann nur ein langjähriger Jahresjagdscheininhaber sein.",
+      "explanationEn": "§ 16 BJagdG: from 16, accompanied only, no driven hunts; only a long-time annual licence holder can lease.",
+      "origin": "seed"
+    },
+    {
+      "id": "by-eigenjagd",
+      "lessonId": "jagdreviere-bayern",
+      "questionDe": "Wie groß muss ein Eigenjagdrevier in Bayern im Flachland mindestens sein?",
+      "questionEn": "What is the minimum size of a private hunting ground in Bavaria's lowlands?",
+      "options": [
+        {
+          "de": "81,755 ha",
+          "en": "81.755 ha"
+        },
+        {
+          "de": "75 ha",
+          "en": "75 ha"
+        },
+        {
+          "de": "250 ha",
+          "en": "250 ha"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "In Bayern 81,755 ha; 75 ha ist die Bundesregel.",
+      "explanationEn": "In Bavaria 81.755 ha; 75 ha is the federal rule.",
+      "origin": "seed"
+    },
+    {
+      "id": "by-gemeinschaftsjagd",
+      "lessonId": "jagdreviere-bayern",
+      "questionDe": "Wie groß muss ein Gemeinschaftsjagdrevier in Bayern im Flachland mindestens sein?",
+      "questionEn": "What is the minimum size of a communal hunting ground in Bavaria's lowlands?",
+      "options": [
+        {
+          "de": "250 ha",
+          "en": "250 ha"
+        },
+        {
+          "de": "150 ha",
+          "en": "150 ha"
+        },
+        {
+          "de": "500 ha",
+          "en": "500 ha"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "250 ha; Bundesrecht 150 ha.",
+      "explanationEn": "250 ha; federal 150 ha.",
+      "origin": "seed"
+    },
+    {
+      "id": "by-befriedet",
+      "lessonId": "jagdreviere-bayern",
+      "questionDe": "Welche Flächen sind gesetzlich befriedete Bezirke?",
+      "questionEn": "Which areas are legally pacified areas?",
+      "options": [
+        {
+          "de": "Friedhof",
+          "en": "Cemetery"
+        },
+        {
+          "de": "Eingezäunter Obstgarten direkt am bewohnten Anwesen",
+          "en": "Fenced orchard next to an inhabited farmstead"
+        },
+        {
+          "de": "Eingezäunte Forstkultur",
+          "en": "Fenced forest plantation"
+        }
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanationDe": "Auf eingezäunten Forstkulturen darf gejagt werden.",
+      "explanationEn": "Hunting is allowed on fenced plantations.",
+      "origin": "seed"
+    },
+    {
+      "id": "by-pacht-schriftlich",
+      "lessonId": "jagdreviere-bayern",
+      "questionDe": "Ist eine Jagdpacht per Handschlag wirksam?",
+      "questionEn": "Is a hunting lease by handshake valid?",
+      "options": [
+        {
+          "de": "Nein, sie muss schriftlich geschlossen werden",
+          "en": "No, it must be in writing"
+        },
+        {
+          "de": "Ja",
+          "en": "Yes"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Schriftform; Anzeige bei der unteren Jagdbehörde.",
+      "explanationEn": "Written form; notify the lower hunting authority.",
+      "origin": "seed"
+    },
+    {
+      "id": "by-jagdgast-papiere",
+      "lessonId": "jagdreviere-bayern",
+      "questionDe": "Welche Papiere führt ein allein jagender Jagdgast mit?",
+      "questionEn": "Which documents does a guest hunting alone carry?",
+      "options": [
+        {
+          "de": "Jagdschein",
+          "en": "Hunting licence"
+        },
+        {
+          "de": "Jagderlaubnis in Textform",
+          "en": "Hunting permit in text form"
+        },
+        {
+          "de": "Waffenbesitzkarte",
+          "en": "Firearms ownership licence"
+        },
+        {
+          "de": "Personalausweis",
+          "en": "ID card"
+        }
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanationDe": "Alle vier.",
+      "explanationEn": "All four.",
+      "origin": "seed"
+    },
+    {
+      "id": "by-hegegemeinschaft",
+      "lessonId": "jagdreviere-bayern",
+      "questionDe": "Welche Aufgaben haben Hegegemeinschaften?",
+      "questionEn": "What do game management associations do?",
+      "options": [
+        {
+          "de": "Hegemaßnahmen abstimmen",
+          "en": "Coordinate management measures"
+        },
+        {
+          "de": "Bei der Abschussplanung zusammenarbeiten",
+          "en": "Cooperate on cull planning"
+        },
+        {
+          "de": "Auf die Erfüllung der Abschusspläne hinwirken",
+          "en": "Work towards cull plan fulfilment"
+        },
+        {
+          "de": "Jagdscheine erteilen",
+          "en": "Issue licences"
+        }
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanationDe": "Jagdscheine erteilt die Behörde.",
+      "explanationEn": "Licences are issued by the authority.",
+      "origin": "seed"
+    },
+    {
+      "id": "by-jagdgenossen",
+      "lessonId": "jagdreviere-bayern",
+      "questionDe": "Sind Pächter landwirtschaftlicher Flächen Mitglieder der Jagdgenossenschaft?",
+      "questionEn": "Are tenants of farmland members of the hunting cooperative?",
+      "options": [
+        {
+          "de": "Nein, nur die Eigentümer",
+          "en": "No, only the owners"
+        },
+        {
+          "de": "Ja",
+          "en": "Yes"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Mitglieder sind die Grundeigentümer.",
+      "explanationEn": "Members are the landowners.",
+      "origin": "seed"
+    },
+    {
+      "id": "jz-rehbock-by",
+      "lessonId": "jagdzeiten-bayern",
+      "questionDe": "Wann ist in Bayern die Jagdzeit für Rehböcke?",
+      "questionEn": "What is the open season for roe bucks in Bavaria?",
+      "options": [
+        {
+          "de": "16. April bis 15. Oktober",
+          "en": "16 April – 15 October"
+        },
+        {
+          "de": "1. Mai bis 15. Oktober",
+          "en": "1 May – 15 October"
+        },
+        {
+          "de": "1. September bis 15. Januar",
+          "en": "1 September – 15 January"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Bayern: 16.4.–15.10. (Bundesrecht 1.5.–15.10.).",
+      "explanationEn": "Bavaria: 16 Apr – 15 Oct (federal 1 May – 15 Oct).",
+      "origin": "seed"
+    },
+    {
+      "id": "jz-16april",
+      "lessonId": "jagdzeiten-bayern",
+      "questionDe": "Welche Wildarten haben in Bayern am 16. April Jagdzeit?",
+      "questionEn": "Which species are in season in Bavaria on 16 April?",
+      "options": [
+        {
+          "de": "Rehbock",
+          "en": "Roe buck"
+        },
+        {
+          "de": "Schmalreh",
+          "en": "Yearling doe"
+        },
+        {
+          "de": "Junge Dachse",
+          "en": "Young badgers"
+        },
+        {
+          "de": "Rehgeiß",
+          "en": "Adult doe"
+        }
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanationDe": "Geißen erst ab 1. September.",
+      "explanationEn": "Adult does only from 1 September.",
+      "origin": "seed"
+    },
+    {
+      "id": "jz-3januar",
+      "lessonId": "jagdzeiten-bayern",
+      "questionDe": "Welche Wildarten dürfen in Bayern am 3. Januar bejagt werden?",
+      "questionEn": "Which species may be hunted in Bavaria on 3 January?",
+      "options": [
+        {
+          "de": "Ringeltauben",
+          "en": "Wood pigeons"
+        },
+        {
+          "de": "Frischlinge",
+          "en": "Wild boar piglets"
+        },
+        {
+          "de": "Schmalrehe",
+          "en": "Yearling does"
+        },
+        {
+          "de": "Rotwildkälber",
+          "en": "Red deer calves"
+        },
+        {
+          "de": "Feldhasen",
+          "en": "Brown hares"
+        }
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanationDe": "Feldhasen nur bis 31. Dezember.",
+      "explanationEn": "Hares only until 31 December.",
+      "origin": "seed"
+    },
+    {
+      "id": "jz-geschont",
+      "lessonId": "jagdzeiten-bayern",
+      "questionDe": "Welche Arten sind in Bayern ganzjährig geschont?",
+      "questionEn": "Which species are protected all year in Bavaria?",
+      "options": [
+        {
+          "de": "Steinwild",
+          "en": "Ibex"
+        },
+        {
+          "de": "Schneehase",
+          "en": "Mountain hare"
+        },
+        {
+          "de": "Murmeltier",
+          "en": "Marmot"
+        },
+        {
+          "de": "Gamswild",
+          "en": "Chamois"
+        }
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanationDe": "Gams hat vom 1. August bis 15. Dezember Jagdzeit.",
+      "explanationEn": "Chamois are in season 1 Aug – 15 Dec.",
+      "origin": "seed"
+    },
+    {
+      "id": "jz-schnepfe",
+      "lessonId": "jagdzeiten-bayern",
+      "questionDe": "Darf im Frühjahr auf Waldschnepfen gejagt werden (Schnepfenstrich)?",
+      "questionEn": "May woodcock be shot in spring?",
+      "options": [
+        {
+          "de": "Nein",
+          "en": "No"
+        },
+        {
+          "de": "Ja, im März",
+          "en": "Yes, in March"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Jagdzeit nur 16. Oktober bis 15. Januar.",
+      "explanationEn": "Season only 16 Oct – 15 Jan.",
+      "origin": "seed"
+    },
+    {
+      "id": "jz-fuchs-eltern",
+      "lessonId": "jagdzeiten-bayern",
+      "questionDe": "Was gilt beim Fuchs während der Jungenaufzucht?",
+      "questionEn": "What applies to foxes while raising young?",
+      "options": [
+        {
+          "de": "Beide Elterntiere sind bis zum Selbständigwerden der Jungen geschont",
+          "en": "Both parents are protected until the young are independent"
+        },
+        {
+          "de": "Nur die Fähe ist geschont",
+          "en": "Only the vixen is protected"
+        },
+        {
+          "de": "Es gilt keine Einschränkung",
+          "en": "No restriction"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Beim Fuchs versorgen beide Eltern die Welpen.",
+      "explanationEn": "Both parents care for the cubs.",
+      "origin": "seed"
+    },
+    {
+      "id": "jz-steinbock",
+      "lessonId": "jagdzeiten-bayern",
+      "questionDe": "Ein Revierinhaber erlegt am 1. August einen Steinbock. Wie ist das zu bewerten?",
+      "questionEn": "A ground holder shoots an ibex on 1 August. How is that judged?",
+      "options": [
+        {
+          "de": "Mögliches Schonzeitvergehen (Straftat)",
+          "en": "Possible closed-season offence (crime)"
+        },
+        {
+          "de": "Erlaubt",
+          "en": "Allowed"
+        },
+        {
+          "de": "Nur eine Ordnungswidrigkeit",
+          "en": "Only an administrative offence"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Steinwild ist ganzjährig geschont.",
+      "explanationEn": "Ibex are protected all year.",
+      "origin": "seed"
+    },
+    {
+      "id": "jz-hubertus",
+      "lessonId": "jagdzeiten-bayern",
+      "questionDe": "Welche Wildarten darf der Jagdleiter bei einer Treibjagd am 3. November freigeben?",
+      "questionEn": "Which species may the hunt leader allow at a drive on 3 November?",
+      "options": [
+        {
+          "de": "Feldhase",
+          "en": "Brown hare"
+        },
+        {
+          "de": "Fasan",
+          "en": "Pheasant"
+        },
+        {
+          "de": "Schwarzwild",
+          "en": "Wild boar"
+        },
+        {
+          "de": "Rehwild",
+          "en": "Roe deer"
+        }
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanationDe": "Rehwild darf auf Treibjagden nicht erlegt werden.",
+      "explanationEn": "Roe deer may not be shot at drives.",
+      "origin": "seed"
+    },
+    {
+      "id": "ap-arten",
+      "lessonId": "abschussplan-und-streckenliste",
+      "questionDe": "Welche Wildarten dürfen nur im Rahmen eines Abschussplans erlegt werden?",
+      "questionEn": "Which species may only be shot within a cull plan?",
+      "options": [
+        {
+          "de": "Muffelwild",
+          "en": "Mouflon"
+        },
+        {
+          "de": "Gamswild",
+          "en": "Chamois"
+        },
+        {
+          "de": "Damwild",
+          "en": "Fallow deer"
+        },
+        {
+          "de": "Schwarzwild",
+          "en": "Wild boar"
+        }
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanationDe": "Schwarzwild unterliegt keinem Abschussplan.",
+      "explanationEn": "Wild boar have no cull plan.",
+      "origin": "seed"
+    },
+    {
+      "id": "ap-rehwild-zeitraum",
+      "lessonId": "abschussplan-und-streckenliste",
+      "questionDe": "Für welchen Zeitraum wird der Abschussplan für Rehwild aufgestellt?",
+      "questionEn": "For what period is the roe deer cull plan set?",
+      "options": [
+        {
+          "de": "Für 3 Jahre",
+          "en": "3 years"
+        },
+        {
+          "de": "Für 1 Jahr",
+          "en": "1 year"
+        },
+        {
+          "de": "Für 9 Jahre",
+          "en": "9 years"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Dreijahresplan.",
+      "explanationEn": "Three-year plan.",
+      "origin": "seed"
+    },
+    {
+      "id": "ap-vegetation",
+      "lessonId": "abschussplan-und-streckenliste",
+      "questionDe": "Worauf ist bei der Abschussplanung vorrangig zu achten?",
+      "questionEn": "What must cull planning mainly take into account?",
+      "options": [
+        {
+          "de": "Ergebnisse der Verbissinventur",
+          "en": "Browsing survey results"
+        },
+        {
+          "de": "Trophäenstärke",
+          "en": "Trophy strength"
+        },
+        {
+          "de": "Wunsch des Pächters",
+          "en": "The leaseholder's wishes"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Der Zustand der Vegetation steht im Vordergrund.",
+      "explanationEn": "The state of the vegetation comes first.",
+      "origin": "seed"
+    },
+    {
+      "id": "ap-rotwild-meldung",
+      "lessonId": "abschussplan-und-streckenliste",
+      "questionDe": "Bei welcher Schalenwildart muss der Abschuss binnen einer Woche der Jagdbehörde gemeldet werden?",
+      "questionEn": "For which species must a kill be reported to the authority within a week?",
+      "options": [
+        {
+          "de": "Rotwild",
+          "en": "Red deer"
+        },
+        {
+          "de": "Rehwild",
+          "en": "Roe deer"
+        },
+        {
+          "de": "Schwarzwild",
+          "en": "Wild boar"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Rotwild.",
+      "explanationEn": "Red deer.",
+      "origin": "seed"
+    },
+    {
+      "id": "ap-streckenliste-frist",
+      "lessonId": "abschussplan-und-streckenliste",
+      "questionDe": "Bis wann muss eine erlegte Rehgeiß in die Streckenliste eingetragen werden?",
+      "questionEn": "By when must a shot doe be entered in the bag record?",
+      "options": [
+        {
+          "de": "Binnen einer Woche",
+          "en": "Within one week"
+        },
+        {
+          "de": "Am Ende des Jagdjahres",
+          "en": "At the end of the hunting year"
+        },
+        {
+          "de": "Binnen eines Monats",
+          "en": "Within a month"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Binnen einer Woche nach der Erlegung.",
+      "explanationEn": "Within one week of the kill.",
+      "origin": "seed"
+    },
+    {
+      "id": "ap-krankes-stueck",
+      "lessonId": "abschussplan-und-streckenliste",
+      "questionDe": "Im Februar sehen Sie ein abgekommenes Reh mit verschmutztem Spiegel und geringer Fluchtdistanz. Was tun Sie?",
+      "questionEn": "In February you see an emaciated roe deer with a soiled rump that barely flees. What do you do?",
+      "options": [
+        {
+          "de": "Sofort erlegen und danach die untere Jagdbehörde benachrichtigen",
+          "en": "Shoot it at once, then notify the lower hunting authority"
+        },
+        {
+          "de": "Erst die Genehmigung abwarten",
+          "en": "Wait for a permit first"
+        },
+        {
+          "de": "Nichts, es ist Schonzeit",
+          "en": "Nothing, it's closed season"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Krankes Wild ist zu erlösen – Meldung danach.",
+      "explanationEn": "Sick game must be put down — report afterwards.",
+      "origin": "seed"
+    },
+    {
+      "id": "ap-nachbarrevier",
+      "lessonId": "abschussplan-und-streckenliste",
+      "questionDe": "Auf wessen Abschussplan wird ein angeschossener Bock angerechnet, der im Nachbarrevier verendet?",
+      "questionEn": "Whose plan does a wounded buck count against if it dies in the neighbouring ground?",
+      "options": [
+        {
+          "de": "Des Reviers, in dem er beschossen wurde",
+          "en": "The ground where it was shot"
+        },
+        {
+          "de": "Des Reviers, in dem er verendet ist",
+          "en": "The ground where it died"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Angerechnet wird dort, wo geschossen wurde.",
+      "explanationEn": "It counts where it was shot.",
+      "origin": "seed"
+    },
+    {
+      "id": "jab-nacht-licht",
+      "lessonId": "jagdausuebung-bayern",
+      "questionDe": "Welche Wildarten dürfen in Bayern mit künstlichen Lichtquellen und Nachtsichtgeräten erlegt werden?",
+      "questionEn": "Which species may be shot in Bavaria with artificial light and night vision?",
+      "options": [
+        {
+          "de": "Schwarzwild",
+          "en": "Wild boar"
+        },
+        {
+          "de": "Fuchs",
+          "en": "Fox"
+        },
+        {
+          "de": "Dachs",
+          "en": "Badger"
+        },
+        {
+          "de": "Nutria",
+          "en": "Coypu"
+        },
+        {
+          "de": "Rehwild",
+          "en": "Roe deer"
+        }
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanationDe": "Rehwild darf nachts nicht bejagt werden.",
+      "explanationEn": "Roe deer may not be hunted at night.",
+      "origin": "seed"
+    },
+    {
+      "id": "jab-nacht-verboten",
+      "lessonId": "jagdausuebung-bayern",
+      "questionDe": "Auf welche Arten ist die Nachtjagd in Bayern verboten?",
+      "questionEn": "On which species is night hunting forbidden in Bavaria?",
+      "options": [
+        {
+          "de": "Feldhase",
+          "en": "Brown hare"
+        },
+        {
+          "de": "Wildkaninchen",
+          "en": "Wild rabbit"
+        },
+        {
+          "de": "Wildenten",
+          "en": "Wild ducks"
+        },
+        {
+          "de": "Fuchs",
+          "en": "Fox"
+        }
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanationDe": "Der Fuchs darf nachts bejagt werden.",
+      "explanationEn": "Foxes may be hunted at night.",
+      "origin": "seed"
+    },
+    {
+      "id": "jab-treibjagd",
+      "lessonId": "jagdausuebung-bayern",
+      "questionDe": "Welche Arten dürfen in Bayern nicht auf einer Treibjagd erlegt werden?",
+      "questionEn": "Which species may not be shot at a driven hunt in Bavaria?",
+      "options": [
+        {
+          "de": "Rotwild",
+          "en": "Red deer"
+        },
+        {
+          "de": "Rehwild",
+          "en": "Roe deer"
+        },
+        {
+          "de": "Gamswild",
+          "en": "Chamois"
+        },
+        {
+          "de": "Schwarzwild",
+          "en": "Wild boar"
+        }
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanationDe": "Schwarzwild darf auf Treibjagden erlegt werden.",
+      "explanationEn": "Wild boar may be shot at drives.",
+      "origin": "seed"
+    },
+    {
+      "id": "jab-fuetterung",
+      "lessonId": "jagdausuebung-bayern",
+      "questionDe": "In welchem Umkreis von Fütterungen darf Schalenwild in Notzeiten nicht erlegt werden?",
+      "questionEn": "Within what radius of feeding sites may cloven-hoofed game not be shot in times of need?",
+      "options": [
+        {
+          "de": "200 m",
+          "en": "200 m"
+        },
+        {
+          "de": "50 m",
+          "en": "50 m"
+        },
+        {
+          "de": "1.000 m",
+          "en": "1,000 m"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "200 m.",
+      "explanationEn": "200 m.",
+      "origin": "seed"
+    },
+    {
+      "id": "jab-auto",
+      "lessonId": "jagdausuebung-bayern",
+      "questionDe": "Sie sehen bei einer Revierfahrt im Oktober ein Schmalreh. Wie dürfen Sie es erlegen?",
+      "questionEn": "On a drive in October you see a yearling doe. How may you shoot it?",
+      "options": [
+        {
+          "de": "Aussteigen und z. B. auf dem Autodach auflegen",
+          "en": "Get out and rest e.g. on the car roof"
+        },
+        {
+          "de": "Aus dem offenen Autofenster",
+          "en": "From the open car window"
+        },
+        {
+          "de": "Gar nicht",
+          "en": "Not at all"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Aus Kraftfahrzeugen darf nicht geschossen werden.",
+      "explanationEn": "No shooting from motor vehicles.",
+      "origin": "seed"
+    },
+    {
+      "id": "jab-selbstlader-ente",
+      "lessonId": "jagdausuebung-bayern",
+      "questionDe": "Dürfen Sie zur Entenjagd eine Selbstladeflinte mit vier geladenen Patronen verwenden?",
+      "questionEn": "May you use a self-loading shotgun loaded with four shells for duck hunting?",
+      "options": [
+        {
+          "de": "Nein",
+          "en": "No"
+        },
+        {
+          "de": "Ja",
+          "en": "Yes"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Höchstens drei Schuss ohne Nachladen.",
+      "explanationEn": "At most three shots without reloading.",
+      "origin": "seed"
+    },
+    {
+      "id": "jab-frischling-56",
+      "lessonId": "jagdausuebung-bayern",
+      "questionDe": "Dürfen Sie einen Frischling mit einer 5,6 × 57 (E100 2.031 J) erlegen?",
+      "questionEn": "May you shoot a wild boar piglet with a 5.6 × 57 (E100 2,031 J)?",
+      "options": [
+        {
+          "de": "Nein, das Mindestkaliber 6,5 mm fehlt",
+          "en": "No, the 6.5 mm minimum calibre is not met"
+        },
+        {
+          "de": "Ja, die Energie reicht",
+          "en": "Yes, the energy is enough"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Für Schalenwild außer Rehwild gelten 6,5 mm UND 2.000 J.",
+      "explanationEn": "For cloven-hoofed game except roe deer: 6.5 mm AND 2,000 J.",
+      "origin": "seed"
+    },
+    {
+      "id": "jab-hund-pflicht",
+      "lessonId": "jagdausuebung-bayern",
+      "questionDe": "Bei welchen Jagdarten ist die Verwendung brauchbarer Jagdhunde vorgeschrieben?",
+      "questionEn": "For which methods are qualified dogs required?",
+      "options": [
+        {
+          "de": "Enteneinfall am Wasser",
+          "en": "Duck flighting at water"
+        },
+        {
+          "de": "Suche auf Hasen im Feld",
+          "en": "Searching for hares in fields"
+        },
+        {
+          "de": "Drückjagd auf Rehwild",
+          "en": "Driven hunt on roe deer"
+        },
+        {
+          "de": "Ansitz auf den Rehbock",
+          "en": "Stand hunting for roe buck"
+        }
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanationDe": "Beim Ansitz ist ein Hund nicht vorgeschrieben – aber für die Nachsuche bereitzuhalten.",
+      "explanationEn": "Not required on a stand — but must be available for tracking.",
+      "origin": "seed"
+    },
+    {
+      "id": "jab-wilderei",
+      "lessonId": "jagdausuebung-bayern",
+      "questionDe": "Sie haben eine Erlaubnis für einen Rehbock und erlegen am 1. Juli einen Keiler. Wie ist das zu bewerten?",
+      "questionEn": "You have a permit for a roe buck and shoot a boar on 1 July. How is that judged?",
+      "options": [
+        {
+          "de": "Möglicherweise Wilderei (Straftat)",
+          "en": "Possibly poaching (crime)"
+        },
+        {
+          "de": "Erlaubt, weil Schwarzwild ganzjährig Jagdzeit hat",
+          "en": "Allowed, because wild boar are open all year"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Die Erlaubnis bestimmt, was der Gast erlegen darf.",
+      "explanationEn": "The permit decides what the guest may shoot.",
+      "origin": "seed"
+    },
+    {
+      "id": "ws-ersatz-arten",
+      "lessonId": "wildfolge-wildschaden-aneignung",
+      "questionDe": "Für Schäden welcher Arten besteht Ersatzpflicht?",
+      "questionEn": "For damage by which species is compensation owed?",
+      "options": [
+        {
+          "de": "Schwarzwild",
+          "en": "Wild boar"
+        },
+        {
+          "de": "Rehwild",
+          "en": "Roe deer"
+        },
+        {
+          "de": "Fasan",
+          "en": "Pheasant"
+        },
+        {
+          "de": "Dachs",
+          "en": "Badger"
+        },
+        {
+          "de": "Feldhase",
+          "en": "Brown hare"
+        }
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanationDe": "Dachs und Hase verursachen keinen ersatzpflichtigen Wildschaden.",
+      "explanationEn": "Badger and hare damage is not compensated.",
+      "origin": "seed"
+    },
+    {
+      "id": "ws-frist",
+      "lessonId": "wildfolge-wildschaden-aneignung",
+      "questionDe": "Ein Landwirt bemerkt am 2. Juni Fasanenschaden und meldet ihn am 15. Juni. Hat er Anspruch auf Ersatz?",
+      "questionEn": "A farmer notices pheasant damage on 2 June and reports it on 15 June. Is he entitled to compensation?",
+      "options": [
+        {
+          "de": "Nein, die Wochenfrist ist versäumt",
+          "en": "No, the one-week deadline was missed"
+        },
+        {
+          "de": "Ja",
+          "en": "Yes"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Anmeldung binnen einer Woche.",
+      "explanationEn": "Report within one week.",
+      "origin": "seed"
+    },
+    {
+      "id": "ws-kein-ersatz",
+      "lessonId": "wildfolge-wildschaden-aneignung",
+      "questionDe": "In welchen Fällen besteht kein gesetzlicher Ersatzanspruch?",
+      "questionEn": "In which cases is there no legal claim?",
+      "options": [
+        {
+          "de": "Schwarzwild bricht eine Kartoffelmiete auf",
+          "en": "Wild boar break into a potato clamp"
+        },
+        {
+          "de": "Schwarzwild schadet im umfriedeten Hausgarten",
+          "en": "Wild boar damage a fenced house garden"
+        },
+        {
+          "de": "Ungeschützte Lärchen werden verfegt, obwohl Lärche keine Hauptholzart ist",
+          "en": "Unprotected larches, not a main species, are frayed"
+        },
+        {
+          "de": "Schwarzwild schadet im Maisfeld",
+          "en": "Wild boar damage a maize field"
+        }
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanationDe": "Der Maisschaden ist ersatzpflichtig.",
+      "explanationEn": "The maize damage is compensable.",
+      "origin": "seed"
+    },
+    {
+      "id": "ws-ueberfahren",
+      "lessonId": "wildfolge-wildschaden-aneignung",
+      "questionDe": "Wem steht ein auf einer Kreisstraße überfahrenes Reh zu?",
+      "questionEn": "Who may appropriate a roe deer killed on a county road?",
+      "options": [
+        {
+          "de": "Dem Revierinhaber, durch dessen Revier die Straße führt",
+          "en": "The holder of the ground the road runs through"
+        },
+        {
+          "de": "Dem Autofahrer",
+          "en": "The driver"
+        },
+        {
+          "de": "Der Straßenbaubehörde",
+          "en": "The road authority"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Das Aneignungsrecht liegt beim Revierinhaber.",
+      "explanationEn": "The right of appropriation lies with the ground holder.",
+      "origin": "seed"
+    },
+    {
+      "id": "ws-abwurfstangen",
+      "lessonId": "wildfolge-wildschaden-aneignung",
+      "questionDe": "Was muss vorliegen, damit Dritte Abwurfstangen sammeln dürfen?",
+      "questionEn": "What is needed for others to collect cast antlers?",
+      "options": [
+        {
+          "de": "Schriftliche Erlaubnis des Revierinhabers",
+          "en": "Written permission of the ground holder"
+        },
+        {
+          "de": "Nichts",
+          "en": "Nothing"
+        },
+        {
+          "de": "Ein Jagdschein",
+          "en": "A hunting licence"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Aneignungsberechtigt ist nur der Jagdausübungsberechtigte.",
+      "explanationEn": "Only the person entitled to hunt may appropriate them.",
+      "origin": "seed"
+    },
+    {
+      "id": "ws-katze",
+      "lessonId": "wildfolge-wildschaden-aneignung",
+      "questionDe": "Ab welcher Entfernung vom nächsten bewohnten Gebäude gilt eine Katze als wildernd?",
+      "questionEn": "From what distance from the nearest inhabited building does a cat count as poaching?",
+      "options": [
+        {
+          "de": "Mehr als 300 m",
+          "en": "More than 300 m"
+        },
+        {
+          "de": "Mehr als 100 m",
+          "en": "More than 100 m"
+        },
+        {
+          "de": "Mehr als 1 km",
+          "en": "More than 1 km"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Mehr als 300 m.",
+      "explanationEn": "More than 300 m.",
+      "origin": "seed"
+    },
+    {
+      "id": "ws-jagdgast-katze",
+      "lessonId": "wildfolge-wildschaden-aneignung",
+      "questionDe": "Darf ein Jagdgast mit Erlaubnis für einen Rehbock eine wildernde Katze erlegen?",
+      "questionEn": "May a guest with a roe buck permit shoot a poaching cat?",
+      "options": [
+        {
+          "de": "Nein, er ist nicht jagdschutzberechtigt",
+          "en": "No, he has no game-protection rights"
+        },
+        {
+          "de": "Ja",
+          "en": "Yes"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Jagdschutz steht dem Revierinhaber zu.",
+      "explanationEn": "Game protection belongs to the ground holder.",
+      "origin": "seed"
+    },
+    {
+      "id": "ws-nachsuchengespann",
+      "lessonId": "wildfolge-wildschaden-aneignung",
+      "questionDe": "Darf ein vom Revierinhaber beauftragtes, anerkanntes Nachsuchengespann die Reviergrenze überschreiten?",
+      "questionEn": "May a recognised tracking team hired by the holder cross the boundary?",
+      "options": [
+        {
+          "de": "Ja, auch ohne Zustimmung des Nachbarn",
+          "en": "Yes, even without the neighbour's consent"
+        },
+        {
+          "de": "Nur mit schriftlicher Zustimmung",
+          "en": "Only with written consent"
+        },
+        {
+          "de": "Nein",
+          "en": "No"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Für anerkannte Gespanne gilt eine gesetzliche Sonderregel.",
+      "explanationEn": "Recognised teams have a special statutory rule.",
+      "origin": "seed"
+    },
+    {
+      "id": "tnr-tierschutzgesetz",
+      "lessonId": "tier-und-naturschutzrecht",
+      "questionDe": "Für welche Tiere gilt das Tierschutzgesetz?",
+      "questionEn": "Which animals does the Animal Welfare Act cover?",
+      "options": [
+        {
+          "de": "Jagdbare Tiere",
+          "en": "Huntable animals"
+        },
+        {
+          "de": "Wildtiere in der Schonzeit",
+          "en": "Game in the closed season"
+        },
+        {
+          "de": "Jagdhunde",
+          "en": "Hunting dogs"
+        },
+        {
+          "de": "Nur Haustiere",
+          "en": "Only pets"
+        }
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanationDe": "Es gilt für Haus- und Wildtiere.",
+      "explanationEn": "It covers both domestic and wild animals.",
+      "origin": "seed"
+    },
+    {
+      "id": "tnr-hofhund",
+      "lessonId": "tier-und-naturschutzrecht",
+      "questionDe": "Ein Bauer bittet Sie, seinen ständig bellenden Hofhund zu erschießen. Was tun Sie?",
+      "questionEn": "A farmer asks you to shoot his constantly barking dog. What do you do?",
+      "options": [
+        {
+          "de": "Ablehnen",
+          "en": "Refuse"
+        },
+        {
+          "de": "Ihn erschießen",
+          "en": "Shoot it"
+        },
+        {
+          "de": "Ihn erschießen, wenn der Bauer schriftlich zustimmt",
+          "en": "Shoot it with written consent"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Bellen ist kein vernünftiger Grund zum Töten.",
+      "explanationEn": "Barking is no good reason to kill.",
+      "origin": "seed"
+    },
+    {
+      "id": "tnr-reiten",
+      "lessonId": "tier-und-naturschutzrecht",
+      "questionDe": "Wo ist Reiten im Wald grundsätzlich zulässig?",
+      "questionEn": "Where is horse riding in the forest generally allowed?",
+      "options": [
+        {
+          "de": "Auf Straßen und geeigneten Wegen",
+          "en": "On roads and suitable paths"
+        },
+        {
+          "de": "Überall",
+          "en": "Everywhere"
+        },
+        {
+          "de": "Nur im Altholz abseits der Wege",
+          "en": "Only off-path in old stands"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Abseits der Wege nicht.",
+      "explanationEn": "Not off the paths.",
+      "origin": "seed"
+    },
+    {
+      "id": "tnr-nicht-toeten",
+      "lessonId": "tier-und-naturschutzrecht",
+      "questionDe": "Welche Säugetiere ohne Jagdrecht dürfen grundsätzlich nicht getötet werden?",
+      "questionEn": "Which non-game mammals may in principle not be killed?",
+      "options": [
+        {
+          "de": "Igel",
+          "en": "Hedgehog"
+        },
+        {
+          "de": "Fledermaus",
+          "en": "Bat"
+        },
+        {
+          "de": "Feldhamster",
+          "en": "Common hamster"
+        },
+        {
+          "de": "Wanderratte",
+          "en": "Brown rat"
+        }
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanationDe": "Igel, Fledermäuse und Hamster sind besonders geschützt.",
+      "explanationEn": "Hedgehog, bats and hamster are specially protected.",
+      "origin": "seed"
+    },
+    {
+      "id": "tnr-uhu",
+      "lessonId": "tier-und-naturschutzrecht",
+      "questionDe": "Darf ein Revierinhaber einen verendet gefundenen Uhu für private Zwecke präparieren lassen?",
+      "questionEn": "May a holder have a found dead eagle owl mounted for private use?",
+      "options": [
+        {
+          "de": "Nein",
+          "en": "No"
+        },
+        {
+          "de": "Ja",
+          "en": "Yes"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Geschützte Arten darf man sich nicht ohne Weiteres aneignen.",
+      "explanationEn": "Protected species may not simply be kept.",
+      "origin": "seed"
+    },
+    {
+      "id": "tnr-schilf",
+      "lessonId": "tier-und-naturschutzrecht",
+      "questionDe": "Wann dürfen Röhricht und Schilf gemäht werden?",
+      "questionEn": "When may reeds be cut?",
+      "options": [
+        {
+          "de": "1. Oktober bis 28. Februar",
+          "en": "1 October – 28 February"
+        },
+        {
+          "de": "1. März bis 30. September",
+          "en": "1 March – 30 September"
+        },
+        {
+          "de": "Ganzjährig",
+          "en": "All year"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Außerhalb der Brutzeit.",
+      "explanationEn": "Outside the breeding season.",
+      "origin": "seed"
+    },
+    {
+      "id": "tnr-hecke-roden",
+      "lessonId": "tier-und-naturschutzrecht",
+      "questionDe": "Darf ein Eigentümer eine Hecke samt Wurzeln roden, um seine Ackerfläche zu vergrößern?",
+      "questionEn": "May an owner grub up a hedge to enlarge his field?",
+      "options": [
+        {
+          "de": "Nein",
+          "en": "No"
+        },
+        {
+          "de": "Ja, außerhalb der Brutzeit",
+          "en": "Yes, outside the breeding season"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Hecken in der freien Natur sind geschützt.",
+      "explanationEn": "Hedges in the countryside are protected.",
+      "origin": "seed"
+    },
+    {
+      "id": "tnr-invasiv",
+      "lessonId": "tier-und-naturschutzrecht",
+      "questionDe": "Welche Arten gelten als invasiv?",
+      "questionEn": "Which species count as invasive?",
+      "options": [
+        {
+          "de": "Waschbär",
+          "en": "Raccoon"
+        },
+        {
+          "de": "Nutria",
+          "en": "Coypu"
+        },
+        {
+          "de": "Nilgans",
+          "en": "Egyptian goose"
+        },
+        {
+          "de": "Feldhase",
+          "en": "Brown hare"
+        }
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanationDe": "Der Feldhase ist heimisch.",
+      "explanationEn": "The brown hare is native.",
+      "origin": "seed"
+    },
+    {
+      "id": "fh-kleine-menge",
+      "lessonId": "fleischhygienerecht",
+      "questionDe": "Was gilt als »kleine Menge« bei der Abgabe von Wildbret?",
+      "questionEn": "What counts as a “small quantity” of game meat?",
+      "options": [
+        {
+          "de": "Die Strecke eines Jagdtages",
+          "en": "One day's bag"
+        },
+        {
+          "de": "Höchstens ein Stück pro Woche",
+          "en": "At most one animal a week"
+        },
+        {
+          "de": "Bis 10 kg",
+          "en": "Up to 10 kg"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Die Strecke eines Jagdtages.",
+      "explanationEn": "One day's bag.",
+      "origin": "seed"
+    },
+    {
+      "id": "fh-gastwirt",
+      "lessonId": "fleischhygienerecht",
+      "questionDe": "Darf ein Jäger ein unauffälliges Reh in der Decke ohne amtliche Untersuchung an einen Gastwirt verkaufen?",
+      "questionEn": "May a hunter sell an unremarkable roe deer in its skin to a restaurateur without inspection?",
+      "options": [
+        {
+          "de": "Ja",
+          "en": "Yes"
+        },
+        {
+          "de": "Nein",
+          "en": "No"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Ohne bedenkliche Merkmale ist das in kleinen Mengen erlaubt.",
+      "explanationEn": "Without signs of concern, allowed in small quantities.",
+      "origin": "seed"
+    },
+    {
+      "id": "fh-knochenbruch",
+      "lessonId": "fleischhygienerecht",
+      "questionDe": "Ein erlegter Bock hat einen offenen Knochenbruch, der nicht vom Erlegen stammt. Muss er untersucht werden?",
+      "questionEn": "A shot buck has an open fracture not caused by the kill. Must it be inspected?",
+      "options": [
+        {
+          "de": "Ja",
+          "en": "Yes"
+        },
+        {
+          "de": "Nein, nur wenn er verkauft wird",
+          "en": "No, only if sold"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Das ist ein bedenkliches Merkmal.",
+      "explanationEn": "That is a sign of concern.",
+      "origin": "seed"
+    },
+    {
+      "id": "fh-frischlinge",
+      "lessonId": "fleischhygienerecht",
+      "questionDe": "Ein Gast erlegt drei Frischlinge: einen behält der Revierinhaber, einen bekommt der Gast, einer geht an den Gastwirt. Welche müssen auf Trichinen untersucht werden?",
+      "questionEn": "A guest shoots three piglets: one for the holder, one for the guest, one for a restaurant. Which must be tested for Trichinella?",
+      "options": [
+        {
+          "de": "Alle drei",
+          "en": "All three"
+        },
+        {
+          "de": "Nur der für den Gastwirt",
+          "en": "Only the restaurant one"
+        },
+        {
+          "de": "Keiner",
+          "en": "None"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Schwarzwild jeden Alters, egal für wen.",
+      "explanationEn": "Wild boar of any age, whoever it is for.",
+      "origin": "seed"
+    },
+    {
+      "id": "fh-kundige-person",
+      "lessonId": "fleischhygienerecht",
+      "questionDe": "Welche Aufgaben hat die kundige Person?",
+      "questionEn": "What are the trained person's tasks?",
+      "options": [
+        {
+          "de": "Beim Erleger das Verhalten vor dem Schuss erfragen",
+          "en": "Ask the shooter about behaviour before the shot"
+        },
+        {
+          "de": "Den Wildkörper auf bedenkliche Merkmale untersuchen",
+          "en": "Examine the carcass for signs of concern"
+        },
+        {
+          "de": "Entscheiden, ob das Wildbret bedenkenlos verwertet werden kann",
+          "en": "Decide whether the meat can be used"
+        },
+        {
+          "de": "Ohne Weiteres Trichinenproben nehmen",
+          "en": "Take Trichinella samples without further ado"
+        }
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanationDe": "Probenahme nur mit behördlicher Beauftragung.",
+      "explanationEn": "Sampling only when appointed by the authority.",
+      "origin": "seed"
+    },
+    {
+      "id": "fh-fallwild",
+      "lessonId": "fleischhygienerecht",
+      "questionDe": "Ein Reh wird bei einem Unfall sofort getötet und ist noch warm. Was ist erlaubt?",
+      "questionEn": "A roe deer is killed outright in a road accident and is still warm. What is allowed?",
+      "options": [
+        {
+          "de": "Entsorgung über die Tierkörperbeseitigung",
+          "en": "Disposal via carcass disposal"
+        },
+        {
+          "de": "Verfütterung an die eigenen Hunde",
+          "en": "Feeding it to your own dogs"
+        },
+        {
+          "de": "Verkauf an den Gastwirt",
+          "en": "Selling it to a restaurant"
+        }
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanationDe": "Fallwild ist genussuntauglich.",
+      "explanationEn": "Game found dead is unfit to eat.",
+      "origin": "seed"
+    },
+    {
+      "id": "fh-seuche",
+      "lessonId": "fleischhygienerecht",
+      "questionDe": "Innerhalb welcher Frist ist der Verdacht auf eine Wildseuche zu melden?",
+      "questionEn": "How soon must a suspected wildlife epidemic be reported?",
+      "options": [
+        {
+          "de": "Unverzüglich",
+          "en": "Without delay"
+        },
+        {
+          "de": "Binnen einer Woche",
+          "en": "Within a week"
+        },
+        {
+          "de": "Zum Ende des Jagdjahres",
+          "en": "At the end of the hunting year"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Unverzüglich.",
+      "explanationEn": "Without delay.",
       "origin": "seed"
     }
   ]

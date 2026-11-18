@@ -9,6 +9,7 @@ describe("content files", () => {
       const lessonIds = new Set(s.lessons.map((l) => l.id));
       for (const q of s.quiz) if (q.lessonId) expect(lessonIds.has(q.lessonId), `${s.id}/${q.id}`).toBe(true);
       expect(new Set(s.quiz.map((q) => q.id)).size).toBe(s.quiz.length);
+      for (const t of s.catalogTopics) for (const id of t.lessonIds) expect(lessonIds.has(id), `${s.id} ${t.code} -> ${id}`).toBe(true);
     }
   });
 });

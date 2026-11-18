@@ -16,12 +16,13 @@ export default async function QuizPage(props: PageProps<"/quiz/[sectionId]">) {
     return (
       <div className="space-y-4">
         <Link href="/" className="text-sm text-muted hover:text-text">← All sections</Link>
-        <h1 className="text-2xl font-semibold">Mock exam · Prüfungssimulation</h1>
+        <h1 className="text-2xl font-semibold">Mock exam · Prüfungssimulation (Bayern)</h1>
         <p className="max-w-3xl text-sm text-muted">
-          Questions from every section, with no feedback until you hand in — like the written exam. Pass marks and the
-          number of questions differ between federal states; check your state&apos;s exam regulations.
+          Like the written part of the Bavarian exam: 16 questions from each of subject areas 1–5 and 20 from area 6,
+          no feedback until you hand in, pass with at least 75% fully correct answers. The real exam allows 100 minutes.{" "}
+          <Link href="/pruefung" className="text-accent hover:underline">About the exam</Link>
         </p>
-        <Quiz items={items} mode="exam" perSection={10} />
+        <Quiz items={items} mode="exam" perSection={Object.fromEntries(sections.map((s) => [s.id, s.order === 6 ? 20 : 16]))} />
       </div>
     );
   }

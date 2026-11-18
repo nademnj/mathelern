@@ -6,18 +6,42 @@ import { useSyncExternalStore } from "react";
 export interface Progress {
   lessonsRead: Record<string, string>; // "section/lesson" -> ISO date
   answers: Record<string, { attempts: number; correct: number; lastCorrect: boolean }>; // "section/question"
+  oral: Record<string, "good" | "partly" | "no">; // oral question id -> self-rating
 }
 
 const KEY = "jagd-progress-v1";
-const EMPTY: Progress = { lessonsRead: {}, answers: {} };
+const EMPTY: Progress = { lessonsRead: {}, answers: {}, oral: {} };
 let cache: Progress | null = null;
 const listeners = new Set<() => void>();
+
+/**
+ * Lessons that moved to another section when the app switched to the six
+ * Bavarian subject areas. Old progress keys are rewritten on load.
+ */
+const MOVED: [string, string][] = [
+  ["wildbrethygiene/", "jagdbetrieb/"],
+  ["jagdbetrieb/hege-und-wildschaden", "naturschutz/hege-und-wildschaden"],
+  ["jagdbetrieb/betrieb-wildschaden-arten", "naturschutz/betrieb-wildschaden-arten"],
+  ["jagdbetrieb/betrieb-wildschaden-frist", "naturschutz/betrieb-wildschaden-frist"],
+  ["jagdbetrieb/betrieb-jagdschaden", "naturschutz/betrieb-jagdschaden"],
+  ["jagdbetrieb/betrieb-schaele", "naturschutz/betrieb-schaele"],
+];
+
+export function migrateKeys<T>(record: Record<string, T>): Record<string, T> {
+  const out: Record<string, T> = {};
+  for (const [key, value] of Object.entries(record)) {
+    const move = MOVED.find(([from]) => (from.endsWith("/") ? key.startsWith(from) : key === from));
+    out[move ? move[1] + key.slice(move[0].length) : key] = value;
+  }
+  return out;
+}
 
 function load(): Progress {
   if (cache) return cache;
   try {
     const raw = localStorage.getItem(KEY);
-    cache = raw ? { ...EMPTY, ...JSON.parse(raw) } : EMPTY;
+    const parsed: Progress = raw ? { ...EMPTY, ...JSON.parse(raw) } : EMPTY;
+    cache = { lessonsRead: migrateKeys(parsed.lessonsRead), answers: migrateKeys(parsed.answers), oral: parsed.oral ?? {} };
   } catch {
     cache = EMPTY;
   }
@@ -67,4 +91,9 @@ export function recordAnswer(sectionId: string, questionId: string, isCorrect: b
 
 export function resetProgress() {
   save(EMPTY);
+}
+
+export function rateOral(id: string, rating: "good" | "partly" | "no") {
+  const p = load();
+  save({ ...p, oral: { ...p.oral, [id]: rating } });
 }

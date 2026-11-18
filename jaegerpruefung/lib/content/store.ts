@@ -1,7 +1,7 @@
 import { promises as fs } from "node:fs";
 import path from "node:path";
 import { sectionSchema, type Lesson, type QuizQuestion, type Section } from "./schema";
-import { mergeLesson, mergeQuiz } from "./merge";
+import { linkTopic, mergeLesson, mergeQuiz } from "./merge";
 
 export const CONTENT_DIR = path.join(process.cwd(), "content", "sections");
 
@@ -44,11 +44,15 @@ function withLock<T>(id: string, fn: () => Promise<T>): Promise<T> {
   return next;
 }
 
-export function saveLesson(sectionId: string, lesson: Lesson): Promise<Section> {
+export function saveLesson(sectionId: string, lesson: Lesson, catalogCode?: string): Promise<Section> {
   return withLock(sectionId, async () => {
     const section = await getSection(sectionId);
     if (!section) throw new Error(`Unknown section ${sectionId}`);
-    const updated = { ...section, lessons: mergeLesson(section.lessons, lesson) };
+    const updated = {
+      ...section,
+      lessons: mergeLesson(section.lessons, lesson),
+      catalogTopics: linkTopic(section.catalogTopics, catalogCode, lesson.id),
+    };
     await writeSection(updated);
     return updated;
   });
@@ -62,4 +66,23 @@ export function saveQuizQuestions(sectionId: string, questions: QuizQuestion[]):
     await writeSection(updated);
     return updated;
   });
+}
+
+// ---- Species and oral exam -----------------------------------------------------
+import { oralSectionSchema, speciesSchema, type OralSection, type Species } from "./schema";
+
+const ROOT_CONTENT = path.join(process.cwd(), "content");
+
+export async function listSpecies(): Promise<Species[]> {
+  const raw = JSON.parse(await fs.readFile(path.join(ROOT_CONTENT, "species.json"), "utf8"));
+  return speciesSchema.array().parse(raw);
+}
+
+export async function getSpecies(id: string): Promise<Species | null> {
+  return (await listSpecies()).find((s) => s.id === id) ?? null;
+}
+
+export async function listOral(): Promise<OralSection[]> {
+  const raw = JSON.parse(await fs.readFile(path.join(ROOT_CONTENT, "oral.json"), "utf8"));
+  return oralSectionSchema.array().parse(raw);
 }

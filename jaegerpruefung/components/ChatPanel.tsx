@@ -1,6 +1,25 @@
 "use client";
 
-import { useEffect, useRef, useState, type ReactNode } from "react";
+import { useEffect, useRef, useState, useSyncExternalStore, type ReactNode } from "react";
+
+/* Minimal typing for the Web Speech API (not in the TS DOM lib everywhere). */
+interface SpeechRecognitionLike {
+  lang: string;
+  interimResults: boolean;
+  continuous: boolean;
+  onresult: ((e: { results: ArrayLike<ArrayLike<{ transcript: string }>> }) => void) | null;
+  onend: (() => void) | null;
+  onerror: (() => void) | null;
+  start(): void;
+  stop(): void;
+}
+type SpeechCtor = new () => SpeechRecognitionLike;
+function speechCtor(): SpeechCtor | null {
+  if (typeof window === "undefined") return null;
+  const w = window as unknown as { SpeechRecognition?: SpeechCtor; webkitSpeechRecognition?: SpeechCtor };
+  return w.SpeechRecognition ?? w.webkitSpeechRecognition ?? null;
+}
+const noop = () => () => {};
 
 export interface ChatRequest {
   /** Changes every time a new request is made, so the same text can be asked twice. */
@@ -34,16 +53,55 @@ export function ChatPanel({
   quiz,
   request,
   title = "Tutor",
+  speciesId,
+  suggestions,
+  mode,
+  oralSectionId,
+  intro,
 }: {
   sectionId: string;
   lessonId?: string;
   quiz?: QuizContext;
   request?: ChatRequest | null;
   title?: string;
+  /** Animal shown on the page, so the tutor gets its fact sheet. */
+  speciesId?: string;
+  suggestions?: string[];
+  /** "examiner" turns the tutor into an oral-exam examiner. */
+  mode?: "tutor" | "examiner";
+  oralSectionId?: string;
+  intro?: string;
 }) {
   const [messages, setMessages] = useState<Msg[]>([]);
   const [input, setInput] = useState("");
   const [busy, setBusy] = useState(false);
+  const canDictate = useSyncExternalStore(noop, () => speechCtor() !== null, () => false);
+  const [listening, setListening] = useState(false);
+  const [dictLang, setDictLang] = useState<"de-DE" | "en-US">(mode === "examiner" ? "de-DE" : "en-US");
+  const recRef = useRef<SpeechRecognitionLike | null>(null);
+
+  const toggleDictation = () => {
+    if (listening) {
+      recRef.current?.stop();
+      return;
+    }
+    const Ctor = speechCtor();
+    if (!Ctor) return;
+    const rec = new Ctor();
+    rec.lang = dictLang;
+    rec.interimResults = false;
+    rec.continuous = true;
+    rec.onresult = (e) => {
+      const parts: string[] = [];
+      for (let i = 0; i < e.results.length; i++) parts.push(e.results[i][0].transcript);
+      setInput(parts.join(" "));
+    };
+    rec.onend = () => setListening(false);
+    rec.onerror = () => setListening(false);
+    recRef.current = rec;
+    setListening(true);
+    rec.start();
+  };
   const abortRef = useRef<AbortController | null>(null);
   const scrollRef = useRef<HTMLDivElement>(null);
   const lastRequest = useRef<number | null>(null);
@@ -57,6 +115,7 @@ export function ChatPanel({
   useEffect(() => () => abortRef.current?.abort(), []);
 
   const send = async (text: string, focus?: string) => {
+    recRef.current?.stop();
     const trimmed = text.trim();
     if (!trimmed) return;
     abortRef.current?.abort();
@@ -71,7 +130,7 @@ export function ChatPanel({
       const res = await fetch("/api/chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ messages: history.slice(-20).filter((m) => m.content), sectionId, lessonId, quizQuestion: quiz, focusParagraph: focus }),
+        body: JSON.stringify({ messages: history.slice(-20).filter((m) => m.content), sectionId, lessonId, quizQuestion: quiz, focusParagraph: focus, speciesId, mode, oralSectionId }),
         signal: controller.signal,
       });
       if (!res.ok || !res.body) {
@@ -117,9 +176,9 @@ export function ChatPanel({
       <div ref={scrollRef} className="flex-1 space-y-3 overflow-y-auto p-4 text-sm">
         {messages.length === 0 && (
           <div className="space-y-3 text-muted">
-            <p>Ask anything about this material, in English or German. The tutor sees the text you are reading.</p>
+            <p>{intro ?? "Ask anything about this material, in English or German. The tutor sees the text you are reading."}</p>
             <div className="flex flex-col gap-2">
-              {(quiz ? ["Give me a hint", "Why is this the right answer?", "Explain the German wording of the question"] : SUGGESTIONS).map((s) => (
+              {(suggestions ?? (quiz ? ["Give me a hint", "Why is this the right answer?", "Explain the German wording of the question"] : SUGGESTIONS)).map((s) => (
                 <button key={s} className="rounded-lg border border-border px-3 py-2 text-left hover:bg-surface-2" onClick={() => send(s)}>
                   {s}
                 </button>
@@ -143,6 +202,27 @@ export function ChatPanel({
           void send(input);
         }}
       >
+        {canDictate && (
+          <>
+            <button
+              type="button"
+              onClick={toggleDictation}
+              title={listening ? "Stop dictation" : "Answer by voice"}
+              aria-pressed={listening}
+              className={`btn-ghost px-3 ${listening ? "animate-pulse border-bad text-bad" : ""}`}
+            >
+              {listening ? "■" : "🎤"}
+            </button>
+            <button
+              type="button"
+              className="text-xs text-muted hover:text-text"
+              title="Dictation language"
+              onClick={() => setDictLang((l) => (l === "de-DE" ? "en-US" : "de-DE"))}
+            >
+              {dictLang === "de-DE" ? "DE" : "EN"}
+            </button>
+          </>
+        )}
         <input
           value={input}
           onChange={(e) => setInput(e.target.value)}

@@ -21,6 +21,12 @@ npm run dev                        # http://localhost:3100
 
 Lessons and quizzes work without a key. The tutor chat and the agent need `ANTHROPIC_API_KEY`.
 
+## Animal guide and oral exam
+
+- **Animal guide (`/arten`)**: 59 game species, each with a photo and a German/English fact sheet: identification, size, habitat, food, reproduction, hunters' vocabulary, an exam tip, and its Bavarian open season (from § 19 AVBayJG). In "Identify mode" the names are hidden, which is good practice for the specimens shown in the oral exam. Data: `content/species.json`. Photos: `public/arten/`.
+- **Photo credits**: the photos come from iNaturalist and are under Creative Commons licences (CC0, BY, BY-SA, BY-NC or BY-NC-SA). The photographer and licence are shown under every photo. Several are licensed **non-commercial**, so if the app is ever used commercially, those photos must be replaced.
+- **Oral exam (`/muendlich`)**: 49 typical examiner questions across the six subject areas, with model answers in German and English, flashcards with self-rating, and an **AI examiner**. The examiner asks one question at a time in German, gives feedback and a model answer, and ends with a rating on the official scale. You can answer by voice with the 🎤 button (browser speech recognition, German or English). Data: `content/oral.json`. Bavaria publishes no official oral question list; the questions follow § 13 JFPO and the catalogue topics.
+
 ## Putting it on your phone
 
 The app is a Progressive Web App (PWA): you can install it on your home screen, it opens full-screen like a normal app, and **all lessons and quizzes are saved on the phone**, so they work without internet. Your progress is also stored on the phone. Only the tutor chat needs a connection.
@@ -71,6 +77,10 @@ On copyright: statutes are public domain in Germany (§ 5 UrhG), so the agent qu
 | `npm run validate` | Validate all content files |
 | `npm test` | Unit tests (quiz scoring, merge logic, agent loop with a mocked client, content files) |
 
-## About the starter content
+## Content: built around the Bavarian exam
 
-The starter lessons (`"origin": "seed"`) cover the core of each section. They were written from the Bundesjagdgesetz, the federal Jagdzeitenverordnung, the Waffengesetz/AWaffV and food-hygiene law. They follow **federal** law. Your state's Landesjagdgesetz may differ, for example on seasons, minimum district sizes, lead-free ammunition or night-vision devices. Run the agent with your `--state` to get state-specific material, and always check legal details against the official texts.
+The six sections are the six subject areas (Sachgebiete) of the Bavarian Jägerprüfung (JFPO § 10). Each section lists every sub-topic of the official Bavarian question catalogue (edition 11 November 2026, published by the Landesamt für Maß und Gewicht), with the number of official questions on that topic, and links the lessons that cover it. All 41 topics have at least one lesson: 63 lessons and 399 practice questions in total.
+
+- The practice questions are written for this app; they are not copied from the catalogue. The official PDFs are copy-protected, so they were used as a map of what the exam asks. Practise with the original questions on the [LMG website](https://www.lmg.bayern.de/aufgaben_leistungen/jaegerpruefung/index.html), linked from the app's "The exam" page.
+- The mock exam follows § 12 JFPO: 16 questions each from areas 1–5, 20 from area 6, and a pass mark of 75% fully correct answers.
+- Bavarian law is used where it differs from federal law (hunting seasons from § 19 AVBayJG, minimum district sizes, night hunting, cull plans, game damage). Statutes are summarised; check them against the official text before relying on legal details.
