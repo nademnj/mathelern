@@ -72,8 +72,8 @@
           "en": "§ 19 BJagdG prohibits, among other things, shooting cloven-hoofed game with shot, buckshot, chopped lead, bolts or arrows — not even as a finishing shot. For roe deer only rifle cartridges with an impact energy at 100 m (E100) of at least 1,000 joules may be used. For all other cloven-hoofed game a calibre of at least 6.5 mm with an E100 of at least 2,000 joules is required."
         },
         {
-          "de": "Pistolen und Revolver dürfen auf Wild grundsätzlich nicht verwendet werden – außer bei der Bau- und Fallenjagd und für Fangschüsse, wenn die Mündungsenergie mindestens 200 Joule beträgt. Mit halbautomatischen Waffen, deren Magazin mehr als zwei Patronen aufnehmen kann, darf nicht auf Wild geschossen werden.",
-          "en": "Pistols and revolvers must generally not be used on game — except in earth-dog and trap hunting and for finishing shots (Fangschuss), provided the muzzle energy is at least 200 joules. Semi-automatic guns whose magazine holds more than two cartridges must not be used to shoot game."
+          "de": "Pistolen und Revolver dürfen auf Wild grundsätzlich nicht verwendet werden – außer bei der Bau- und Fallenjagd und für Fangschüsse, wenn die Mündungsenergie mindestens 200 Joule beträgt. Mit Selbstladewaffen darf nicht geschossen werden, wenn mehr als zwei Patronen im Magazin geladen sind – entscheidend ist die Zahl der geladenen Patronen, also höchstens drei Schuss ohne Nachladen.",
+          "en": "Pistols and revolvers must generally not be used on game — except in earth-dog and trap hunting and for finishing shots (Fangschuss), provided the muzzle energy is at least 200 joules. Self-loading guns must not be used with more than two rounds loaded in the magazine — what counts is the number of rounds loaded, i.e. at most three shots without reloading."
         },
         {
           "de": "Schrotpatronen werden nach der Schrotgröße gewählt: feineres Schrot (etwa 2,5–3 mm) für Kaninchen und Tauben, gröberes (etwa 3,5–4 mm) für Hase, Fuchs und Gänse. Für die Jagd an Gewässern und in vielen Ländern auch allgemein ist bleifreie Munition vorgeschrieben – die Regeln unterscheiden sich je nach Bundesland.",
@@ -127,7 +127,7 @@
         }
       ],
       "origin": "seed",
-      "updatedAt": "2026-11-12"
+      "updatedAt": "2026-11-18"
     },
     {
       "id": "waffentechnik",

@@ -71,6 +71,10 @@ On copyright: statutes are public domain in Germany (§ 5 UrhG), so the agent qu
 | `npm run validate` | Validate all content files |
 | `npm test` | Unit tests (quiz scoring, merge logic, agent loop with a mocked client, content files) |
 
-## About the starter content
+## Content: built around the Bavarian exam
 
-The starter lessons (`"origin": "seed"`) cover the core of each section. They were written from the Bundesjagdgesetz, the federal Jagdzeitenverordnung, the Waffengesetz/AWaffV and food-hygiene law. They follow **federal** law. Your state's Landesjagdgesetz may differ, for example on seasons, minimum district sizes, lead-free ammunition or night-vision devices. Run the agent with your `--state` to get state-specific material, and always check legal details against the official texts.
+The six sections are the six subject areas (Sachgebiete) of the Bavarian Jägerprüfung (JFPO § 10). Each section lists every sub-topic of the official Bavarian question catalogue (edition 11 November 2026, published by the Landesamt für Maß und Gewicht), with the number of official questions on that topic, and links the lessons that cover it. All 41 topics have at least one lesson: 63 lessons and 399 practice questions in total.
+
+- The practice questions are written for this app; they are not copied from the catalogue. The official PDFs are copy-protected, so they were used as a map of what the exam asks. Practise with the original questions on the [LMG website](https://www.lmg.bayern.de/aufgaben_leistungen/jaegerpruefung/index.html), linked from the app's "The exam" page.
+- The mock exam follows § 12 JFPO: 16 questions each from areas 1–5, 20 from area 6, and a pass mark of 75% fully correct answers.
+- Bavarian law is used where it differs from federal law (hunting seasons from § 19 AVBayJG, minimum district sizes, night hunting, cull plans, game damage). Statutes are summarised; check them against the official text before relying on legal details.

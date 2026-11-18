@@ -223,8 +223,8 @@
           "en": "Besides cloven-hoofed game, furred game includes, among others, brown hare, mountain hare, wild rabbit, marmot, wildcat, lynx, fox, stone marten, pine marten, polecat, stoat, weasel, badger, otter and harbour seal. Feathered game includes, for example, grey partridge, pheasant, quail, capercaillie, black grouse and hazel grouse, wild pigeons, wild geese, wild ducks, woodcock, birds of prey and falcons."
         },
         {
-          "de": "Dass eine Art zum Wild gehört, heißt nicht, dass sie bejagt werden darf. Viele Arten – etwa Luchs, Wildkatze, Fischotter oder Greifvögel – haben keine Jagdzeit und sind ganzjährig geschont. Für sie gilt aber die Hegepflicht des Jägers.",
-          "en": "Being game does not mean a species may be hunted. Many species — such as lynx, wildcat, otter or birds of prey — have no open season and are protected all year. The hunter's duty of care (Hegepflicht) still applies to them."
+          "de": "Dass eine Art zum Wild gehört, heißt nicht, dass sie bejagt werden darf. Viele Arten – etwa Luchs, Wildkatze oder Greifvögel – haben keine Jagdzeit und sind ganzjährig geschont; Fischotter und Wolf dürfen in Bayern nur mit naturschutzrechtlicher Ausnahme bejagt werden. Für sie gilt aber die Hegepflicht des Jägers.",
+          "en": "Being game does not mean a species may be hunted. Many species — such as lynx, wildcat or birds of prey — have no open season and are protected all year; in Bavaria otter and wolf may only be hunted under a nature-conservation exemption. The hunter's duty of care (Hegepflicht) still applies to them."
         },
         {
           "de": "In der Jägersprache werden männliche und weibliche Tiere besonders benannt: beim Rehwild Bock und Ricke (Geiß), beim Rotwild Hirsch und Alttier, beim Schwarzwild Keiler und Bache. Junge Tiere heißen Kitz (Reh), Kalb (Rot- und Damwild) und Frischling (Schwarzwild).",
@@ -598,8 +598,8 @@
           "en": "In summer the roe deer has a red-brown coat (Decke), in winter a grey-brown one. On its rump it has a pale patch, the mirror (Spiegel); in the doe it is heart-shaped, often with a tuft of hair (Schürze), in the buck it is kidney-shaped. This lets you tell buck from doe even when the buck has cast his antlers or carries only short antlers in velvet."
         },
         {
-          "de": "Die Jagdzeiten nach der Bundesjagdzeitenverordnung sind: Böcke 1. Mai bis 15. Oktober, Schmalrehe 1. Mai bis 31. Januar, Ricken 1. September bis 31. Januar, Kitze 1. September bis 28. Februar. Die Länder dürfen abweichende Jagdzeiten festsetzen – prüfe die Regelung deines Bundeslandes.",
-          "en": "The open seasons under the federal hunting-season regulation are: bucks 1 May to 15 October, yearling does (Schmalrehe) 1 May to 31 January, adult does 1 September to 31 January, kids 1 September to 28 February. The states may set different seasons — check the rules of your own state."
+          "de": "Jagdzeiten in Bayern (§ 19 AVBayJG): Böcke 16. April bis 15. Oktober, Schmalrehe 16. April bis 15. Januar, Geißen und Kitze 1. September bis 15. Januar. Zum Vergleich die Bundesjagdzeitenverordnung: Böcke 1. Mai bis 15. Oktober, Schmalrehe 1. Mai bis 31. Januar, Ricken 1. September bis 31. Januar, Kitze 1. September bis 28. Februar.",
+          "en": "Seasons in Bavaria (§ 19 AVBayJG): bucks 16 April – 15 October, yearling does 16 April – 15 January, does and kids 1 September – 15 January. For comparison, the federal regulation: bucks 1 May – 15 October, yearling does 1 May – 31 January, does 1 September – 31 January, kids 1 September – 28 February."
         },
         {
           "de": "Rehwild wird in vielen Ländern nach einem Abschussplan bejagt. Wo Verbiss die Waldverjüngung gefährdet, hängt die Höhe des Abschusses oft vom forstlichen Gutachten zur Situation der Waldverjüngung ab.",
@@ -678,6 +678,10 @@
         {
           "title": "Deutscher Jagdverband (DJV)",
           "url": "https://www.jagdverband.de/"
+        },
+        {
+          "title": "Ausführungsverordnung zum Bayerischen Jagdgesetz (AVBayJG) § 19 Jagdzeiten – gesetze-bayern.de",
+          "url": "https://www.gesetze-bayern.de/Content/Document/BayAVJG-19"
         }
       ],
       "origin": "seed",
@@ -1644,20 +1648,20 @@
     {
       "id": "reh-jagdzeit-bock",
       "lessonId": "rehwild",
-      "questionDe": "Wie lautet die Jagdzeit für Rehböcke nach der Bundesjagdzeitenverordnung?",
-      "questionEn": "What is the open season for roe bucks under the federal regulation?",
+      "questionDe": "Wie lautet in Bayern die Jagdzeit für Rehböcke?",
+      "questionEn": "What is the open season for roe bucks in Bavaria?",
       "options": [
         {
+          "de": "16. April bis 15. Oktober",
+          "en": "16 April – 15 October"
+        },
+        {
           "de": "1. Mai bis 15. Oktober",
-          "en": "1 May to 15 October"
+          "en": "1 May – 15 October"
         },
         {
-          "de": "1. September bis 31. Januar",
-          "en": "1 September to 31 January"
-        },
-        {
-          "de": "16. Juni bis 31. Januar",
-          "en": "16 June to 31 January"
+          "de": "1. September bis 15. Januar",
+          "en": "1 September – 15 January"
         },
         {
           "de": "ganzjährig",
@@ -1667,8 +1671,8 @@
       "correct": [
         0
       ],
-      "explanationDe": "Böcke: 1. Mai bis 15. Oktober. Länder können abweichen.",
-      "explanationEn": "Bucks: 1 May to 15 October. States may differ.",
+      "explanationDe": "Bayern: 16. April bis 15. Oktober; die Bundesverordnung nennt den 1. Mai.",
+      "explanationEn": "Bavaria: 16 April – 15 October; the federal regulation says 1 May.",
       "origin": "seed"
     },
     {
