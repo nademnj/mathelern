@@ -26,6 +26,8 @@ export default async function SectionPage(props: PageProps<"/section/[sectionId]
 
       <div className="flex flex-wrap gap-2">
         <Link href={`/quiz/${section.id}`} className="btn-primary">Quiz this section ({section.quiz.length} questions)</Link>
+        {section.id === "wildtierkunde" && <Link href="/arten" className="btn-primary">Animal guide with photos</Link>}
+        <Link href="/muendlich" className="btn-ghost">Oral exam questions</Link>
         <Link href={`/agent?section=${section.id}`} className="btn-ghost">Collect more material with the agent</Link>
       </div>
 

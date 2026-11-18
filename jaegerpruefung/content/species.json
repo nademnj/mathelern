@@ -1,0 +1,3188 @@
+[
+  {
+    "id": "rotwild",
+    "nameDe": "Rothirsch (Rotwild)",
+    "nameEn": "Red deer",
+    "latin": "Cervus elaphus",
+    "group": "schalenwild",
+    "lessonId": "rotwild",
+    "seasonDe": "Schmaltiere und Schmalspießer 1.5.–15.1.; Kälber und Alttiere 16.7.–15.1.; übrige Hirsche 1.8.–15.1.",
+    "seasonEn": "Yearling hinds and spikers 1 May – 15 Jan; calves and hinds 16 Jul – 15 Jan; other stags 1 Aug – 15 Jan",
+    "facts": [
+      {
+        "key": "kennzeichen",
+        "de": "Größte heimische Hirschart; rotbraunes Sommer-, graubraunes Winterhaar, heller Spiegel. Hirsche tragen ein Stangengeweih mit Augsprossen, Mittelsprossen und Krone.",
+        "en": "Largest native deer; red-brown summer coat, grey-brown winter coat, pale rump patch. Stags carry branched antlers with brow tines, middle tines and a crown."
+      },
+      {
+        "key": "groesse",
+        "de": "Schulterhöhe etwa 1,2–1,5 m; Hirsche 120–250 kg, Tiere 80–120 kg (lebend).",
+        "en": "Shoulder height about 1.2–1.5 m; stags 120–250 kg, hinds 80–120 kg (live)."
+      },
+      {
+        "key": "lebensraum",
+        "de": "Große, zusammenhängende Waldgebiete mit Freiflächen; in Bayern nur in festgelegten Rotwildgebieten.",
+        "en": "Large connected forests with open areas; in Bavaria only in designated red deer areas."
+      },
+      {
+        "key": "nahrung",
+        "de": "Wenig wählerischer Mischäser: Gräser, Kräuter, Triebe, Rinde (Schäle).",
+        "en": "Unselective mixed feeder: grasses, herbs, shoots, bark (stripping)."
+      },
+      {
+        "key": "fortpflanzung",
+        "de": "Brunft Mitte September bis Mitte Oktober; Tragzeit rund 34 Wochen; meist ein Kalb im Mai/Juni.",
+        "en": "Rut mid-September to mid-October; gestation about 34 weeks; usually one calf in May/June."
+      },
+      {
+        "key": "jaegersprache",
+        "de": "Hirsch, Alttier, Schmaltier, Kalb; Rudel; Grandeln (Eckzähne); Brunftschrei = Röhren.",
+        "en": "Stag (Hirsch), hind (Alttier), yearling hind (Schmaltier), calf (Kalb); herd (Rudel); canine teeth (Grandeln); rutting roar = Röhren."
+      },
+      {
+        "key": "pruefung",
+        "de": "Abwurf beim mittelalten Hirsch Februar/März, verfegt im August; alte Hirsche werfen zuerst ab.",
+        "en": "Middle-aged stags cast in February/March and finish fraying in August; old stags cast first."
+      }
+    ],
+    "image": {
+      "src": "/arten/rotwild.jpg",
+      "author": "(c) Jon J. Laysell, some rights reserved (CC BY-NC), uploaded by Jon J. Laysell",
+      "license": "CC BY-NC 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "sourceUrl": "https://www.inaturalist.org/photos/25186445"
+    }
+  },
+  {
+    "id": "damwild",
+    "nameDe": "Damhirsch (Damwild)",
+    "nameEn": "Fallow deer",
+    "latin": "Dama dama",
+    "group": "schalenwild",
+    "lessonId": "damwild-und-muffelwild",
+    "seasonDe": "Schmaltiere und Schmalspießer 1.7.–31.1.; übrige 1.9.–31.1.",
+    "seasonEn": "Yearlings 1 Jul – 31 Jan; others 1 Sep – 31 Jan",
+    "facts": [
+      {
+        "key": "kennzeichen",
+        "de": "Sommerdecke rotbraun mit weißen Flecken, Winterdecke graubraun; weißer Spiegel mit schwarzem Rand, lange Wedel (Schwanz). Der Hirsch trägt ein Schaufelgeweih.",
+        "en": "Summer coat red-brown with white spots, winter coat grey-brown; white rump patch edged black, long tail. The buck carries palmate antlers."
+      },
+      {
+        "key": "groesse",
+        "de": "Schulterhöhe 80–100 cm; Hirsch 60–100 kg, Tier 35–50 kg.",
+        "en": "Shoulder height 80–100 cm; buck 60–100 kg, doe 35–50 kg."
+      },
+      {
+        "key": "lebensraum",
+        "de": "Lichte Mischwälder im Wechsel mit Feldern und Wiesen; oft auch in Gehegen.",
+        "en": "Open mixed woodland alternating with fields and meadows; often kept in enclosures."
+      },
+      {
+        "key": "nahrung",
+        "de": "Mischäser: Gräser, Kräuter, Laub, Mast.",
+        "en": "Mixed feeder: grasses, herbs, leaves, mast."
+      },
+      {
+        "key": "fortpflanzung",
+        "de": "Brunft Oktober/November mit Brunftkuhlen; Tragzeit rund 33 Wochen; ein Kalb im Juni.",
+        "en": "Rut October/November with rutting pits; gestation about 33 weeks; one fawn in June."
+      },
+      {
+        "key": "jaegersprache",
+        "de": "Schaufler (reifer Hirsch), Tier, Kalb; Brunftlaut = Rülpsen.",
+        "en": "Schaufler (mature buck), doe (Tier), fawn (Kalb); rutting call = groaning (Rülpsen)."
+      },
+      {
+        "key": "pruefung",
+        "de": "Abwurf im April/Mai – später als beim Rothirsch; fertig verfegt etwa im September.",
+        "en": "Casts in April/May — later than red deer; finished fraying around September."
+      }
+    ],
+    "image": {
+      "src": "/arten/damwild.jpg",
+      "author": "(c) Hedwig.cz, some rights reserved (CC BY-NC), uploaded by Hedwig.cz",
+      "license": "CC BY-NC 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "sourceUrl": "https://www.inaturalist.org/photos/169989920"
+    }
+  },
+  {
+    "id": "sikawild",
+    "nameDe": "Sikahirsch (Sikawild)",
+    "nameEn": "Sika deer",
+    "latin": "Cervus nippon",
+    "group": "schalenwild",
+    "lessonId": "schalenwild-allgemein",
+    "seasonDe": "Schmaltiere und Schmalspießer 1.7.–31.1.; übrige 1.9.–31.1.",
+    "seasonEn": "Yearlings 1 Jul – 31 Jan; others 1 Sep – 31 Jan",
+    "facts": [
+      {
+        "key": "kennzeichen",
+        "de": "Kleiner als Rotwild, Sommerdecke kastanienbraun mit hellen Flecken, weißer, beim Flüchten gespreizter Spiegel; Geweih mit meist acht Enden.",
+        "en": "Smaller than red deer, chestnut summer coat with pale spots, white rump patch flared when fleeing; antlers usually with eight points."
+      },
+      {
+        "key": "groesse",
+        "de": "Schulterhöhe 70–95 cm; Hirsch 40–70 kg.",
+        "en": "Shoulder height 70–95 cm; stag 40–70 kg."
+      },
+      {
+        "key": "lebensraum",
+        "de": "Aus Ostasien eingebürgert; Wälder mit dichtem Unterwuchs.",
+        "en": "Introduced from East Asia; forests with dense undergrowth."
+      },
+      {
+        "key": "nahrung",
+        "de": "Gräser, Kräuter, Triebe, Rinde.",
+        "en": "Grasses, herbs, shoots, bark."
+      },
+      {
+        "key": "fortpflanzung",
+        "de": "Brunft Oktober/November; ein Kalb im Juni.",
+        "en": "Rut October/November; one calf in June."
+      },
+      {
+        "key": "jaegersprache",
+        "de": "Hirsch, Tier, Kalb – wie beim Rotwild; Brunftlaut ist ein Pfeifen.",
+        "en": "Stag, hind, calf — as in red deer; the rutting call is a whistle."
+      },
+      {
+        "key": "pruefung",
+        "de": "Kann sich mit Rotwild kreuzen – deshalb unerwünscht in Rotwildgebieten.",
+        "en": "Can hybridise with red deer — hence unwanted in red deer areas."
+      }
+    ],
+    "image": {
+      "src": "/arten/sikawild.jpg",
+      "author": "(c) stproc, some rights reserved (CC BY-NC)",
+      "license": "CC BY-NC 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "sourceUrl": "https://www.inaturalist.org/photos/186070135"
+    }
+  },
+  {
+    "id": "rehwild",
+    "nameDe": "Reh (Rehwild)",
+    "nameEn": "Roe deer",
+    "latin": "Capreolus capreolus",
+    "group": "schalenwild",
+    "lessonId": "rehwild",
+    "seasonDe": "Böcke 16.4.–15.10.; Schmalrehe 16.4.–15.1.; Geißen und Kitze 1.9.–15.1.",
+    "seasonEn": "Bucks 16 Apr – 15 Oct; yearling does 16 Apr – 15 Jan; does and kids 1 Sep – 15 Jan",
+    "facts": [
+      {
+        "key": "kennzeichen",
+        "de": "Kleiner Hirsch mit rotbraunem Sommer- und graubraunem Winterhaar, weißem Spiegel (Geiß herzförmig mit Schürze, Bock nierenförmig) und schwarzem Äser mit weißem Kinnfleck. Der Bock trägt ein Gehörn mit meist bis zu sechs Enden.",
+        "en": "Small deer with red-brown summer and grey-brown winter coat, white rump patch (doe heart-shaped with tuft, buck kidney-shaped) and black nose with white chin patch. The buck carries antlers (Gehörn) with usually up to six points."
+      },
+      {
+        "key": "groesse",
+        "de": "Schulterhöhe 60–75 cm; 15–30 kg.",
+        "en": "Shoulder height 60–75 cm; 15–30 kg."
+      },
+      {
+        "key": "lebensraum",
+        "de": "Sehr anpassungsfähig: Waldränder, Feldflur, Wald mit Unterwuchs.",
+        "en": "Very adaptable: forest edges, farmland, woods with undergrowth."
+      },
+      {
+        "key": "nahrung",
+        "de": "Konzentratselektierer: Knospen, Triebe, Kräuter, Blüten – viele kleine Äsungsperioden.",
+        "en": "Concentrate selector: buds, shoots, herbs, flowers — many small feeding periods."
+      },
+      {
+        "key": "fortpflanzung",
+        "de": "Blattzeit Mitte Juli bis Mitte August, Keimruhe bis Dezember; ein bis zwei Kitze im Mai/Juni.",
+        "en": "Rut (Blattzeit) mid-July to mid-August, delayed implantation until December; one or two kids in May/June."
+      },
+      {
+        "key": "jaegersprache",
+        "de": "Bock, Geiß (Ricke), Schmalreh, Kitz; Gehörn; plätzen, fegen, blatten.",
+        "en": "Buck (Bock), doe (Geiß/Ricke), yearling doe (Schmalreh), kid (Kitz); antlers (Gehörn); scraping, fraying, calling."
+      },
+      {
+        "key": "pruefung",
+        "de": "Älterer Bock wirft im Oktober/November ab und hat im April verfegt; Bockkitz schiebt schon im ersten Herbst Knöpfe.",
+        "en": "Older bucks cast in October/November and finish fraying in April; buck kids grow buttons in their first autumn."
+      }
+    ],
+    "image": {
+      "src": "/arten/rehwild.jpg",
+      "author": "(c) romanvrbicek, some rights reserved (CC BY-NC), uploaded by romanvrbicek",
+      "license": "CC BY-NC 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "sourceUrl": "https://www.inaturalist.org/photos/148547129"
+    }
+  },
+  {
+    "id": "gamswild",
+    "nameDe": "Gämse (Gamswild)",
+    "nameEn": "Chamois",
+    "latin": "Rupicapra rupicapra",
+    "group": "schalenwild",
+    "lessonId": "gamswild",
+    "seasonDe": "1.8.–15.12.",
+    "seasonEn": "1 Aug – 15 Dec",
+    "facts": [
+      {
+        "key": "kennzeichen",
+        "de": "Ziegenartig; Sommerdecke rötlich-graubraun, Winterdecke fast schwarz; weißes Gesicht mit dunklem Zügelstreif. Beide Geschlechter tragen hakenförmige Krucken.",
+        "en": "Goat-like; summer coat reddish grey-brown, winter coat almost black; white face with a dark stripe through the eye. Both sexes carry hook-shaped horns (Krucken)."
+      },
+      {
+        "key": "groesse",
+        "de": "Schulterhöhe 70–85 cm; Bock 30–45 kg, Geiß 25–35 kg.",
+        "en": "Shoulder height 70–85 cm; buck 30–45 kg, female 25–35 kg."
+      },
+      {
+        "key": "lebensraum",
+        "de": "Hochgebirge, Felsen und Bergwald.",
+        "en": "High mountains, rocks and mountain forest."
+      },
+      {
+        "key": "nahrung",
+        "de": "Gräser, Kräuter, im Winter auch Flechten, Triebe und Nadeln.",
+        "en": "Grasses, herbs; in winter also lichens, shoots and needles."
+      },
+      {
+        "key": "fortpflanzung",
+        "de": "Brunft Mitte November bis Mitte Dezember; Tragzeit rund 6 Monate; ein Kitz im Mai/Juni.",
+        "en": "Rut mid-November to mid-December; gestation about 6 months; one kid in May/June."
+      },
+      {
+        "key": "jaegersprache",
+        "de": "Bock, Geiß, Kitz, Jährling; Krucken; Brunftfeigen; Gamsbart; Warnpfiff.",
+        "en": "Buck, female (Geiß), kid, yearling; horns (Krucken); rut glands (Brunftfeigen); chamois beard (Gamsbart); alarm whistle."
+      },
+      {
+        "key": "pruefung",
+        "de": "Alter am sichersten an den Jahresringen der Krucken; Räude kann seuchenhaft auftreten.",
+        "en": "Age is best judged from the growth rings on the horns; mange can become epidemic."
+      }
+    ],
+    "image": {
+      "src": "/arten/gamswild.jpg",
+      "author": "(c) Giles Laurent, some rights reserved (CC BY-SA)",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "sourceUrl": "https://www.inaturalist.org/photos/456684191"
+    }
+  },
+  {
+    "id": "steinwild",
+    "nameDe": "Alpensteinbock (Steinwild)",
+    "nameEn": "Alpine ibex",
+    "latin": "Capra ibex",
+    "group": "schalenwild",
+    "lessonId": "schalenwild-allgemein",
+    "seasonDe": "Ganzjährig geschont",
+    "seasonEn": "Protected all year",
+    "facts": [
+      {
+        "key": "kennzeichen",
+        "de": "Kräftige Wildziege mit graubrauner Decke; der Bock trägt bis zu 1 m lange, gebogene Hörner mit Schmuckwülsten, die Geiß kurze Hörner.",
+        "en": "Stocky wild goat with grey-brown coat; the male carries curved horns up to 1 m long with knobbly ridges, the female short horns."
+      },
+      {
+        "key": "groesse",
+        "de": "Bock bis 100 kg, Geiß 40–50 kg.",
+        "en": "Male up to 100 kg, female 40–50 kg."
+      },
+      {
+        "key": "lebensraum",
+        "de": "Felsiges Hochgebirge oberhalb der Waldgrenze.",
+        "en": "Rocky high mountains above the tree line."
+      },
+      {
+        "key": "nahrung",
+        "de": "Gräser, Kräuter, Zwergsträucher.",
+        "en": "Grasses, herbs, dwarf shrubs."
+      },
+      {
+        "key": "fortpflanzung",
+        "de": "Brunft Dezember/Januar; meist ein Kitz im Juni.",
+        "en": "Rut December/January; usually one kid in June."
+      },
+      {
+        "key": "jaegersprache",
+        "de": "Bock, Geiß, Kitz; Hornträger (Bovide).",
+        "en": "Male (Bock), female (Geiß), kid; horn-bearer (bovid)."
+      },
+      {
+        "key": "pruefung",
+        "de": "In Bayern ganzjährig geschont; Alter an den Jahresringen der Hörner ablesbar.",
+        "en": "Protected all year in Bavaria; age can be read from the horn growth rings."
+      }
+    ],
+    "image": {
+      "src": "/arten/steinwild.jpg",
+      "author": "(c) Fabrizio Gottardi, some rights reserved (CC BY-NC), uploaded by Fabrizio Gottardi",
+      "license": "CC BY-NC 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "sourceUrl": "https://www.inaturalist.org/photos/109112986"
+    }
+  },
+  {
+    "id": "muffelwild",
+    "nameDe": "Mufflon (Muffelwild)",
+    "nameEn": "Mouflon",
+    "latin": "Ovis gmelini musimon",
+    "group": "schalenwild",
+    "lessonId": "damwild-und-muffelwild",
+    "seasonDe": "1.8.–31.1.",
+    "seasonEn": "1 Aug – 31 Jan",
+    "facts": [
+      {
+        "key": "kennzeichen",
+        "de": "Wildschaf mit kurzem, rotbraunem Haar; der Widder hat einen hellen Sattelfleck und schneckenförmig gewundene Hörner, Schafe sind meist hornlos.",
+        "en": "Wild sheep with short red-brown hair; the ram has a pale saddle patch and spiral horns (Schnecken); ewes are usually hornless."
+      },
+      {
+        "key": "groesse",
+        "de": "Widder 35–50 kg, Schaf 25–35 kg.",
+        "en": "Ram 35–50 kg, ewe 25–35 kg."
+      },
+      {
+        "key": "lebensraum",
+        "de": "Trockene, steinige, laubholzreiche Hanglagen; eingebürgert.",
+        "en": "Dry, stony slopes with broadleaf woods; introduced."
+      },
+      {
+        "key": "nahrung",
+        "de": "Gräser, Kräuter, Laub; schält auch.",
+        "en": "Grasses, herbs, leaves; also strips bark."
+      },
+      {
+        "key": "fortpflanzung",
+        "de": "Brunft Oktober bis Dezember; ein bis zwei Lämmer im Frühjahr.",
+        "en": "Rut October to December; one or two lambs in spring."
+      },
+      {
+        "key": "jaegersprache",
+        "de": "Widder, Schaf, Lamm; Schnecken (Hörner).",
+        "en": "Ram (Widder), ewe (Schaf), lamb (Lamm); horns (Schnecken)."
+      },
+      {
+        "key": "pruefung",
+        "de": "Hornträger – Alter an den Jahresringen der Schnecken besser bestimmbar als an den Zähnen.",
+        "en": "Horn-bearer — age better read from horn rings than from teeth."
+      }
+    ],
+    "image": {
+      "src": "/arten/muffelwild.jpg",
+      "author": "(c) Hedwig.cz, some rights reserved (CC BY-NC), uploaded by Hedwig.cz",
+      "license": "CC BY-NC 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "sourceUrl": "https://www.inaturalist.org/photos/132857303"
+    }
+  },
+  {
+    "id": "schwarzwild",
+    "nameDe": "Wildschwein (Schwarzwild)",
+    "nameEn": "Wild boar",
+    "latin": "Sus scrofa",
+    "group": "schalenwild",
+    "lessonId": "schwarzwild",
+    "seasonDe": "Ganzjährig (Elterntierschutz beachten)",
+    "seasonEn": "All year (protect parent animals)",
+    "facts": [
+      {
+        "key": "kennzeichen",
+        "de": "Kräftiger Körper mit keilförmigem Kopf, dunkle Borsten; Frischlinge längsgestreift. Keiler tragen das Gewaff (Gewehre und Haderer), Bachen Haken.",
+        "en": "Powerful body with wedge-shaped head and dark bristles; piglets have lengthwise stripes. Boars carry tusks (Gewaff: Gewehre and Haderer), sows small tusks (Haken)."
+      },
+      {
+        "key": "groesse",
+        "de": "Keiler 80–150 kg (selten mehr), Bache 50–80 kg.",
+        "en": "Boar 80–150 kg (rarely more), sow 50–80 kg."
+      },
+      {
+        "key": "lebensraum",
+        "de": "Laub- und Mischwälder mit Dickungen, Feldnähe, Suhlen.",
+        "en": "Broadleaf and mixed forest with thickets, near fields, with wallows."
+      },
+      {
+        "key": "nahrung",
+        "de": "Allesfresser: Mast, Feldfrüchte (Mais), Wurzeln, Larven, Mäuse, Aas.",
+        "en": "Omnivore: mast, crops (maize), roots, larvae, mice, carrion."
+      },
+      {
+        "key": "fortpflanzung",
+        "de": "Rauschzeit vor allem November–Januar; Tragzeit etwa 4 Monate (3 Monate, 3 Wochen, 3 Tage); 4–8 Frischlinge, vor allem Februar–April.",
+        "en": "Mating mainly November–January; gestation about 4 months (3 months, 3 weeks, 3 days); 4–8 piglets, mostly February–April."
+      },
+      {
+        "key": "jaegersprache",
+        "de": "Keiler, Bache, Überläufer, Frischling; Rotte; Gebrech (Rüssel), Pürzel (Schwanz), Schwarte; brechen, suhlen, blasen.",
+        "en": "Boar (Keiler), sow (Bache), yearling (Überläufer), piglet (Frischling); sounder (Rotte); snout (Gebrech), tail (Pürzel), hide (Schwarte); rooting, wallowing, snorting."
+      },
+      {
+        "key": "pruefung",
+        "de": "Trichinenuntersuchung immer Pflicht; führende Bachen sind tabu; ASP-Risiko – Bestände senken.",
+        "en": "Trichinella test always required; sows leading piglets are off-limits; ASF risk — reduce numbers."
+      }
+    ],
+    "image": {
+      "src": "/arten/schwarzwild.jpg",
+      "author": "(c) Paolo Mazzei, some rights reserved (CC BY-NC), uploaded by Paolo Mazzei",
+      "license": "CC BY-NC 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "sourceUrl": "https://www.inaturalist.org/photos/259197247"
+    }
+  },
+  {
+    "id": "feldhase",
+    "nameDe": "Feldhase",
+    "nameEn": "Brown hare",
+    "latin": "Lepus europaeus",
+    "group": "hasen-nager",
+    "lessonId": "hasen-kaninchen-murmeltier",
+    "seasonDe": "16.10.–31.12.",
+    "seasonEn": "16 Oct – 31 Dec",
+    "facts": [
+      {
+        "key": "kennzeichen",
+        "de": "Graubraun mit langen, schwarz gespitzten Löffeln (Ohren) und langen Hinterläufen; Blume (Schwanz) oben schwarz.",
+        "en": "Grey-brown with long, black-tipped ears (Löffel) and long hind legs; tail (Blume) black on top."
+      },
+      {
+        "key": "groesse",
+        "de": "Etwa 3,5–5 kg.",
+        "en": "About 3.5–5 kg."
+      },
+      {
+        "key": "lebensraum",
+        "de": "Offene, abwechslungsreiche Feldflur.",
+        "en": "Open, varied farmland."
+      },
+      {
+        "key": "nahrung",
+        "de": "Kräuter, Gräser, Feldfrüchte, im Winter Rinde und Knospen.",
+        "en": "Herbs, grasses, crops; in winter bark and buds."
+      },
+      {
+        "key": "fortpflanzung",
+        "de": "Rammelzeit ab Januar; Tragzeit 42–44 Tage; meist dreimal jährlich 2–4 behaarte, sehende Junge in der Sasse.",
+        "en": "Mating from January; gestation 42–44 days; usually three times a year 2–4 furred, seeing young in a form (Sasse)."
+      },
+      {
+        "key": "jaegersprache",
+        "de": "Rammler, Häsin, Junghase; Löffel, Blume, Sasse; Stroh'sches Zeichen.",
+        "en": "Buck (Rammler), doe (Häsin), leveret; ears (Löffel), tail (Blume), form (Sasse); Stroh's sign."
+      },
+      {
+        "key": "pruefung",
+        "de": "Zum Alter: Stroh'sches Zeichen an den Vorderläufen; Krankheiten EBHS, Kokzidiose, Tularämie.",
+        "en": "For age: Stroh's sign on the forelegs; diseases EBHS, coccidiosis, tularaemia."
+      }
+    ],
+    "image": {
+      "src": "/arten/feldhase.jpg",
+      "author": "(c) Paul Cools, some rights reserved (CC BY-NC), uploaded by Paul Cools",
+      "license": "CC BY-NC 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "sourceUrl": "https://www.inaturalist.org/photos/1843520"
+    }
+  },
+  {
+    "id": "schneehase",
+    "nameDe": "Schneehase",
+    "nameEn": "Mountain hare",
+    "latin": "Lepus timidus",
+    "group": "hasen-nager",
+    "lessonId": "hasen-kaninchen-murmeltier",
+    "seasonDe": "Ganzjährig geschont",
+    "seasonEn": "Protected all year",
+    "facts": [
+      {
+        "key": "kennzeichen",
+        "de": "Kürzere Löffel als der Feldhase; im Winter weiß bis auf die schwarzen Ohrspitzen, im Sommer graubraun.",
+        "en": "Shorter ears than the brown hare; white in winter except for black ear tips, grey-brown in summer."
+      },
+      {
+        "key": "groesse",
+        "de": "Etwa 2–3,5 kg.",
+        "en": "About 2–3.5 kg."
+      },
+      {
+        "key": "lebensraum",
+        "de": "Alpen oberhalb und an der Waldgrenze.",
+        "en": "Alps at and above the tree line."
+      },
+      {
+        "key": "nahrung",
+        "de": "Gräser, Kräuter, Zwergsträucher, Rinde.",
+        "en": "Grasses, herbs, dwarf shrubs, bark."
+      },
+      {
+        "key": "fortpflanzung",
+        "de": "Zwei- bis dreimal im Jahr Junge.",
+        "en": "Two to three litters a year."
+      },
+      {
+        "key": "jaegersprache",
+        "de": "Wie beim Feldhasen.",
+        "en": "As for the brown hare."
+      },
+      {
+        "key": "pruefung",
+        "de": "In Bayern ganzjährig geschont; färbt für den Winter weiß um.",
+        "en": "Protected all year in Bavaria; turns white for winter."
+      }
+    ],
+    "image": {
+      "src": "/arten/schneehase.jpg",
+      "author": "(c) Andrew, some rights reserved (CC BY)",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sourceUrl": "https://www.inaturalist.org/photos/1711232"
+    }
+  },
+  {
+    "id": "wildkaninchen",
+    "nameDe": "Wildkaninchen",
+    "nameEn": "Wild rabbit",
+    "latin": "Oryctolagus cuniculus",
+    "group": "hasen-nager",
+    "lessonId": "hasen-kaninchen-murmeltier",
+    "seasonDe": "Ganzjährig",
+    "seasonEn": "All year",
+    "facts": [
+      {
+        "key": "kennzeichen",
+        "de": "Kleiner als der Hase, kurze Löffel ohne schwarze Spitzen, kurze Hinterläufe.",
+        "en": "Smaller than a hare, short ears without black tips, short hind legs."
+      },
+      {
+        "key": "groesse",
+        "de": "Etwa 1,5–2 kg.",
+        "en": "About 1.5–2 kg."
+      },
+      {
+        "key": "lebensraum",
+        "de": "Sandige Böden in tieferen Lagen; gesellig in Baukolonien.",
+        "en": "Sandy soils at lower altitudes; social, living in warrens."
+      },
+      {
+        "key": "nahrung",
+        "de": "Gräser, Kräuter, Feldfrüchte, Rinde.",
+        "en": "Grasses, herbs, crops, bark."
+      },
+      {
+        "key": "fortpflanzung",
+        "de": "Tragzeit etwa 4 Wochen; drei- bis fünfmal im Jahr nackte, blinde Junge im Bau.",
+        "en": "Gestation about 4 weeks; three to five litters a year of naked, blind young in the burrow."
+      },
+      {
+        "key": "jaegersprache",
+        "de": "Rammler, Häsin; Bau; frettieren.",
+        "en": "Buck, doe; burrow (Bau); ferreting (frettieren)."
+      },
+      {
+        "key": "pruefung",
+        "de": "Myxomatose und RHD (Chinaseuche); Wildschaden ist ersatzpflichtig; darf nicht ausgesetzt werden.",
+        "en": "Myxomatosis and RHD; damage is compensable; must not be released."
+      }
+    ],
+    "image": {
+      "src": "/arten/wildkaninchen.jpg",
+      "author": "(c) jitensha2021, some rights reserved (CC BY-NC)",
+      "license": "CC BY-NC 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "sourceUrl": "https://www.inaturalist.org/photos/520690657"
+    }
+  },
+  {
+    "id": "murmeltier",
+    "nameDe": "Alpenmurmeltier",
+    "nameEn": "Alpine marmot",
+    "latin": "Marmota marmota",
+    "group": "hasen-nager",
+    "lessonId": "hasen-kaninchen-murmeltier",
+    "seasonDe": "Ganzjährig geschont",
+    "seasonEn": "Protected all year",
+    "facts": [
+      {
+        "key": "kennzeichen",
+        "de": "Großes, gedrungenes Nagetier mit graubraunem Fell und kurzem Schwanz; warnt mit lautem Pfiff.",
+        "en": "Large, stocky rodent with grey-brown fur and short tail; warns with a loud whistle."
+      },
+      {
+        "key": "groesse",
+        "de": "Etwa 3–6 kg (im Herbst am schwersten).",
+        "en": "About 3–6 kg (heaviest in autumn)."
+      },
+      {
+        "key": "lebensraum",
+        "de": "Alpine Matten oberhalb der Waldgrenze; Erdbaue.",
+        "en": "Alpine meadows above the tree line; burrows."
+      },
+      {
+        "key": "nahrung",
+        "de": "Kräuter und Gräser.",
+        "en": "Herbs and grasses."
+      },
+      {
+        "key": "fortpflanzung",
+        "de": "Paarung nach dem Winterschlaf; 2–6 Junge im Bau.",
+        "en": "Mating after hibernation; 2–6 young in the burrow."
+      },
+      {
+        "key": "jaegersprache",
+        "de": "Bär (Männchen), Katze (Weibchen), Affe (Junges).",
+        "en": "Male called Bär, female Katze, young Affe."
+      },
+      {
+        "key": "pruefung",
+        "de": "Echter Winterschläfer; in Bayern ganzjährig geschont.",
+        "en": "True hibernator; protected all year in Bavaria."
+      }
+    ],
+    "image": {
+      "src": "/arten/murmeltier.jpg",
+      "author": "(c) Boris Mittermeier, some rights reserved (CC BY-NC), uploaded by Boris Mittermeier",
+      "license": "CC BY-NC 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "sourceUrl": "https://www.inaturalist.org/photos/281597745"
+    }
+  },
+  {
+    "id": "nutria",
+    "nameDe": "Nutria (Sumpfbiber)",
+    "nameEn": "Coypu",
+    "latin": "Myocastor coypus",
+    "group": "hasen-nager",
+    "lessonId": "neozoen",
+    "seasonDe": "Ganzjährig",
+    "seasonEn": "All year",
+    "facts": [
+      {
+        "key": "kennzeichen",
+        "de": "Großes Nagetier mit orangefarbenen Nagezähnen und rundem, schuppigem Schwanz (Biber: flache Kelle).",
+        "en": "Large rodent with orange incisors and a round, scaly tail (beaver: flat paddle)."
+      },
+      {
+        "key": "groesse",
+        "de": "Etwa 5–9 kg.",
+        "en": "About 5–9 kg."
+      },
+      {
+        "key": "lebensraum",
+        "de": "Gewässer und Ufer; aus Südamerika eingeschleppt.",
+        "en": "Water bodies and banks; introduced from South America."
+      },
+      {
+        "key": "nahrung",
+        "de": "Wasser- und Uferpflanzen, Feldfrüchte.",
+        "en": "Water and bank plants, crops."
+      },
+      {
+        "key": "fortpflanzung",
+        "de": "Mehrmals im Jahr Junge.",
+        "en": "Several litters a year."
+      },
+      {
+        "key": "jaegersprache",
+        "de": "Sumpfbiber.",
+        "en": "Also called Sumpfbiber."
+      },
+      {
+        "key": "pruefung",
+        "de": "Invasive Art; in Bayern ganzjährig jagdbar, auch nachts und mit Nachtsichttechnik.",
+        "en": "Invasive species; huntable all year in Bavaria, also at night and with night vision."
+      }
+    ],
+    "image": {
+      "src": "/arten/nutria.jpg",
+      "author": "(c) ctumer, some rights reserved (CC BY-NC), uploaded by ctumer",
+      "license": "CC BY-NC 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "sourceUrl": "https://www.inaturalist.org/photos/349974188"
+    }
+  },
+  {
+    "id": "fuchs",
+    "nameDe": "Rotfuchs",
+    "nameEn": "Red fox",
+    "latin": "Vulpes vulpes",
+    "group": "raubwild",
+    "lessonId": "fuchs",
+    "seasonDe": "Ganzjährig (Elterntiere während der Aufzucht geschont)",
+    "seasonEn": "All year (parents protected while rearing)",
+    "facts": [
+      {
+        "key": "kennzeichen",
+        "de": "Rotbraunes Fell, weiße Kehle, schwarze Läufe und Ohrrückseiten, buschige Lunte mit oft weißer Spitze. Trittsiegel mit vier Zehen, Spur »geschnürt« wie an einer Schnur.",
+        "en": "Red-brown fur, white throat, black legs and ear backs, bushy tail (Lunte), often with a white tip. Print with four toes; the trail runs in a straight line (geschnürt)."
+      },
+      {
+        "key": "groesse",
+        "de": "Etwa 5–8 kg.",
+        "en": "About 5–8 kg."
+      },
+      {
+        "key": "lebensraum",
+        "de": "Fast überall – besonders Wald-Feld-Gemengelagen, zunehmend auch Städte.",
+        "en": "Almost everywhere — especially mixed woodland and farmland, increasingly towns."
+      },
+      {
+        "key": "nahrung",
+        "de": "Allesfresser mit Schwerpunkt Mäuse; auch Bodenbrüter, Junghasen, Aas, Früchte.",
+        "en": "Omnivore, mainly mice; also ground-nesting birds, leverets, carrion, fruit."
+      },
+      {
+        "key": "fortpflanzung",
+        "de": "Ranz Januar/Februar; Tragzeit etwa zwei Monate; 4–6 Welpen im Bau; beide Eltern versorgen die Jungen.",
+        "en": "Mating (Ranz) January/February; gestation about two months; 4–6 cubs in the den; both parents care for them."
+      },
+      {
+        "key": "jaegersprache",
+        "de": "Rüde, Fähe, Welpen, Geheck; Lunte, Viole, Fang; ranzen, schnüren, bellen.",
+        "en": "Dog fox (Rüde), vixen (Fähe), cubs, litter (Geheck); tail (Lunte), scent gland (Viole), mouth (Fang)."
+      },
+      {
+        "key": "pruefung",
+        "de": "Hauptwirt des Kleinen Fuchsbandwurms, früher Hauptüberträger der Tollwut; Räude.",
+        "en": "Main host of the small fox tapeworm, formerly the main rabies carrier; mange."
+      }
+    ],
+    "image": {
+      "src": "/arten/fuchs.jpg",
+      "author": "(c) Joanne Muis Redwood, some rights reserved (CC BY-NC), uploaded by Joanne Muis Redwood",
+      "license": "CC BY-NC 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "sourceUrl": "https://www.inaturalist.org/photos/6568074"
+    }
+  },
+  {
+    "id": "dachs",
+    "nameDe": "Dachs",
+    "nameEn": "European badger",
+    "latin": "Meles meles",
+    "group": "raubwild",
+    "lessonId": "marder-und-dachs",
+    "seasonDe": "1.8.–31.1.; Jungdachse 16.4.–31.1.",
+    "seasonEn": "1 Aug – 31 Jan; young badgers 16 Apr – 31 Jan",
+    "facts": [
+      {
+        "key": "kennzeichen",
+        "de": "Grau, gedrungen, mit schwarz-weiß gestreiftem Kopf; kurze Läufe mit langen Grabkrallen. Trittsiegel mit fünf Zehen und langen Krallen.",
+        "en": "Grey and stocky, with a black-and-white striped head; short legs with long digging claws. Print with five toes and long claws."
+      },
+      {
+        "key": "groesse",
+        "de": "Etwa 10–15 kg, im Herbst mehr.",
+        "en": "About 10–15 kg, more in autumn."
+      },
+      {
+        "key": "lebensraum",
+        "de": "Laub- und Mischwälder mit großen, über Generationen genutzten Bauen.",
+        "en": "Broadleaf and mixed woods with large setts used for generations."
+      },
+      {
+        "key": "nahrung",
+        "de": "Allesfresser: Regenwürmer, Insektenlarven, Mäuse, Früchte, Mais.",
+        "en": "Omnivore: earthworms, larvae, mice, fruit, maize."
+      },
+      {
+        "key": "fortpflanzung",
+        "de": "Ranz Juli/August, Keimruhe; 2–4 Junge im Februar/März.",
+        "en": "Mating July/August, delayed implantation; 2–4 young in February/March."
+      },
+      {
+        "key": "jaegersprache",
+        "de": "Dachs (Männchen), Dächsin, Jungdachse; Schwarte (Fell); Dachskern; Winterruhe.",
+        "en": "Boar badger, sow (Dächsin), cubs; badger meat (Dachskern); winter rest."
+      },
+      {
+        "key": "pruefung",
+        "de": "Trichinenträger – Fleisch nur nach Untersuchung essen; kein ersatzpflichtiger Wildschaden.",
+        "en": "Can carry Trichinella — eat only after testing; its damage is not compensable."
+      }
+    ],
+    "image": {
+      "src": "/arten/dachs.jpg",
+      "author": "(c) caroline legg, some rights reserved (CC BY)",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sourceUrl": "https://www.inaturalist.org/photos/172054371"
+    }
+  },
+  {
+    "id": "baummarder",
+    "nameDe": "Baummarder",
+    "nameEn": "Pine marten",
+    "latin": "Martes martes",
+    "group": "raubwild",
+    "lessonId": "marder-und-dachs",
+    "seasonDe": "16.10.–28.2.",
+    "seasonEn": "16 Oct – 28 Feb",
+    "facts": [
+      {
+        "key": "kennzeichen",
+        "de": "Dunkelbraun mit gelblichem, nicht gegabeltem Kehlfleck; behaarte Sohlen.",
+        "en": "Dark brown with a yellowish, unforked throat patch; hairy soles."
+      },
+      {
+        "key": "groesse",
+        "de": "Etwa 1–1,8 kg.",
+        "en": "About 1–1.8 kg."
+      },
+      {
+        "key": "lebensraum",
+        "de": "Wälder; Tagesverstecke in Baumhöhlen und alten Greifvogelhorsten.",
+        "en": "Forests; daytime dens in tree holes and old raptor nests."
+      },
+      {
+        "key": "nahrung",
+        "de": "Mäuse, Eichhörnchen, Vögel, Eier, Früchte.",
+        "en": "Mice, squirrels, birds, eggs, fruit."
+      },
+      {
+        "key": "fortpflanzung",
+        "de": "Ranz Juli/August, Keimruhe; Junge im März/April.",
+        "en": "Mating July/August, delayed implantation; young in March/April."
+      },
+      {
+        "key": "jaegersprache",
+        "de": "Rüde, Fähe; Kehlfleck (Latz).",
+        "en": "Male (Rüde), female (Fähe); throat patch (Latz)."
+      },
+      {
+        "key": "pruefung",
+        "de": "Unterschied zum Steinmarder: Kehlfleck gelb und ungegabelt.",
+        "en": "Difference from stone marten: yellow, unforked throat patch."
+      }
+    ],
+    "image": {
+      "src": "/arten/baummarder.jpg",
+      "author": "(c) Jan-Åge Pedersen, some rights reserved (CC BY-NC), uploaded by Jan-Åge Pedersen",
+      "license": "CC BY-NC 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "sourceUrl": "https://www.inaturalist.org/photos/677731962"
+    }
+  },
+  {
+    "id": "steinmarder",
+    "nameDe": "Steinmarder",
+    "nameEn": "Stone marten",
+    "latin": "Martes foina",
+    "group": "raubwild",
+    "lessonId": "marder-und-dachs",
+    "seasonDe": "1.8.–28.2.; Jungtiere 1.6.–28.2.",
+    "seasonEn": "1 Aug – 28 Feb; young 1 Jun – 28 Feb",
+    "facts": [
+      {
+        "key": "kennzeichen",
+        "de": "Graubraun mit weißem, gegabeltem Kehlfleck; nackte Sohlen.",
+        "en": "Grey-brown with a white, forked throat patch; bare soles."
+      },
+      {
+        "key": "groesse",
+        "de": "Etwa 1,1–2,3 kg.",
+        "en": "About 1.1–2.3 kg."
+      },
+      {
+        "key": "lebensraum",
+        "de": "Kulturfolger: Scheunen, Dachböden, Dörfer, Städte.",
+        "en": "Follows humans: barns, attics, villages, towns."
+      },
+      {
+        "key": "nahrung",
+        "de": "Mäuse, Ratten, Vögel, Eier, Obst; Schäden an Autokabeln.",
+        "en": "Mice, rats, birds, eggs, fruit; damages car cables."
+      },
+      {
+        "key": "fortpflanzung",
+        "de": "Ranz Juli/August, Keimruhe; Junge im März/April.",
+        "en": "Mating July/August, delayed implantation; young in March/April."
+      },
+      {
+        "key": "jaegersprache",
+        "de": "Rüde, Fähe; Hausmarder.",
+        "en": "Male, female; also called house marten."
+      },
+      {
+        "key": "pruefung",
+        "de": "Bejagung: Ausklopfen aus Scheunen, Fallenjagd, Mondscheinansitz.",
+        "en": "Hunting: knocking out of barns, trapping, moonlight stand."
+      }
+    ],
+    "image": {
+      "src": "/arten/steinmarder.jpg",
+      "author": "(c) janconl, some rights reserved (CC BY-NC-SA), uploaded by janconl",
+      "license": "CC BY-NC-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "sourceUrl": "https://www.inaturalist.org/photos/161528563"
+    }
+  },
+  {
+    "id": "iltis",
+    "nameDe": "Iltis",
+    "nameEn": "European polecat",
+    "latin": "Mustela putorius",
+    "group": "raubwild",
+    "lessonId": "marder-und-dachs",
+    "seasonDe": "1.8.–28.2.",
+    "seasonEn": "1 Aug – 28 Feb",
+    "facts": [
+      {
+        "key": "kennzeichen",
+        "de": "Dunkles Fell mit hellgelber Unterwolle und weißer Gesichtsmaske um die Augen.",
+        "en": "Dark fur with pale yellow underfur and a white facial mask around the eyes."
+      },
+      {
+        "key": "groesse",
+        "de": "Etwa 0,5–1,5 kg.",
+        "en": "About 0.5–1.5 kg."
+      },
+      {
+        "key": "lebensraum",
+        "de": "Gewässernähe, Feldgehölze, Siedlungsränder.",
+        "en": "Near water, copses, edges of settlements."
+      },
+      {
+        "key": "nahrung",
+        "de": "Frösche, Wanderratten, Mäuse; legt Vorräte an.",
+        "en": "Frogs, brown rats, mice; stores food."
+      },
+      {
+        "key": "fortpflanzung",
+        "de": "Ranz März/April; Junge im Mai/Juni.",
+        "en": "Mating March/April; young in May/June."
+      },
+      {
+        "key": "jaegersprache",
+        "de": "Rüde, Fähe; Stinkmarder (wegen des Drüsensekrets).",
+        "en": "Male, female; also called Stinkmarder (from its gland secretion)."
+      },
+      {
+        "key": "pruefung",
+        "de": "Kann den Bruterfolg von Enten mindern.",
+        "en": "Can reduce duck breeding success."
+      }
+    ],
+    "image": {
+      "src": "/arten/iltis.jpg",
+      "author": "(c) Peter Trimming, some rights reserved (CC BY)",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sourceUrl": "https://www.inaturalist.org/photos/1307109"
+    }
+  },
+  {
+    "id": "hermelin",
+    "nameDe": "Hermelin (Großes Wiesel)",
+    "nameEn": "Stoat",
+    "latin": "Mustela erminea",
+    "group": "raubwild",
+    "lessonId": "marder-und-dachs",
+    "seasonDe": "1.8.–28.2.",
+    "seasonEn": "1 Aug – 28 Feb",
+    "facts": [
+      {
+        "key": "kennzeichen",
+        "de": "Im Sommer braun mit weißem Bauch, im Winter weiß; die Schwanzspitze ist immer schwarz.",
+        "en": "Brown with white belly in summer, white in winter; the tail tip is always black."
+      },
+      {
+        "key": "groesse",
+        "de": "Etwa 150–350 g.",
+        "en": "About 150–350 g."
+      },
+      {
+        "key": "lebensraum",
+        "de": "Eher waldarme, strukturreiche Landschaft.",
+        "en": "Rather open, varied landscape with little woodland."
+      },
+      {
+        "key": "nahrung",
+        "de": "Vor allem Mäuse und andere kleine Nager.",
+        "en": "Mainly mice and other small rodents."
+      },
+      {
+        "key": "fortpflanzung",
+        "de": "Ranz im Sommer, Keimruhe; Junge im Frühjahr.",
+        "en": "Mating in summer, delayed implantation; young in spring."
+      },
+      {
+        "key": "jaegersprache",
+        "de": "Großes Wiesel.",
+        "en": "Also called large weasel (Großes Wiesel)."
+      },
+      {
+        "key": "pruefung",
+        "de": "Wird mit der Wippbrettfalle gefangen; färbt für den Winter weiß um.",
+        "en": "Caught with the seesaw trap; turns white for winter."
+      }
+    ],
+    "image": {
+      "src": "/arten/hermelin.jpg",
+      "author": "(c) あるたるふ, some rights reserved (CC BY-NC), uploaded by あるたるふ",
+      "license": "CC BY-NC 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "sourceUrl": "https://www.inaturalist.org/photos/629743085"
+    }
+  },
+  {
+    "id": "mauswiesel",
+    "nameDe": "Mauswiesel (Kleines Wiesel)",
+    "nameEn": "Least weasel",
+    "latin": "Mustela nivalis",
+    "group": "raubwild",
+    "lessonId": "marder-und-dachs",
+    "seasonDe": "1.8.–28.2.",
+    "seasonEn": "1 Aug – 28 Feb",
+    "facts": [
+      {
+        "key": "kennzeichen",
+        "de": "Kleinster Marder; braun mit weißem Bauch, Schwanz kurz und ohne schwarze Spitze.",
+        "en": "Smallest mustelid; brown with white belly, short tail without a black tip."
+      },
+      {
+        "key": "groesse",
+        "de": "Etwa 30–100 g.",
+        "en": "About 30–100 g."
+      },
+      {
+        "key": "lebensraum",
+        "de": "Feld, Wiese, Hecken.",
+        "en": "Fields, meadows, hedges."
+      },
+      {
+        "key": "nahrung",
+        "de": "Fast nur Mäuse – jagt sie auch in ihren Gängen.",
+        "en": "Almost only mice — even hunts them in their tunnels."
+      },
+      {
+        "key": "fortpflanzung",
+        "de": "Bis zu zwei Würfe im Jahr.",
+        "en": "Up to two litters a year."
+      },
+      {
+        "key": "jaegersprache",
+        "de": "Kleines Wiesel.",
+        "en": "Also called small weasel (Kleines Wiesel)."
+      },
+      {
+        "key": "pruefung",
+        "de": "Ein Gewicht von etwa 100 g an der Wippbrettfalle verhindert Fehlfänge von Mauswieseln.",
+        "en": "A weight of about 100 g on the seesaw trap prevents catching least weasels."
+      }
+    ],
+    "image": {
+      "src": "/arten/mauswiesel.jpg",
+      "author": "(c) Sue Cro, some rights reserved (CC BY-NC)",
+      "license": "CC BY-NC 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "sourceUrl": "https://www.inaturalist.org/photos/755710840"
+    }
+  },
+  {
+    "id": "fischotter",
+    "nameDe": "Fischotter",
+    "nameEn": "Eurasian otter",
+    "latin": "Lutra lutra",
+    "group": "raubwild",
+    "lessonId": "marder-und-dachs",
+    "seasonDe": "Geschont – nur mit naturschutzrechtlicher Ausnahme",
+    "seasonEn": "Protected — only under a nature-conservation exemption",
+    "facts": [
+      {
+        "key": "kennzeichen",
+        "de": "Langgestreckter Wassermarder mit dichtem braunem Fell, breitem Kopf und kräftigem Schwanz; Schwimmhäute im Trittsiegel.",
+        "en": "Elongated aquatic mustelid with dense brown fur, broad head and strong tail; webbing visible in its print."
+      },
+      {
+        "key": "groesse",
+        "de": "Etwa 6–12 kg.",
+        "en": "About 6–12 kg."
+      },
+      {
+        "key": "lebensraum",
+        "de": "Naturnahe Flüsse, Bäche und Seen.",
+        "en": "Natural rivers, streams and lakes."
+      },
+      {
+        "key": "nahrung",
+        "de": "Fische, Krebse, Amphibien.",
+        "en": "Fish, crayfish, amphibians."
+      },
+      {
+        "key": "fortpflanzung",
+        "de": "Ganzjährig möglich; 1–3 Junge.",
+        "en": "Possible all year; 1–3 young."
+      },
+      {
+        "key": "jaegersprache",
+        "de": "Rüde, Fähe.",
+        "en": "Male, female."
+      },
+      {
+        "key": "pruefung",
+        "de": "Grundsätzlich geschont; Bejagung nur mit naturschutzrechtlicher Ausnahme.",
+        "en": "Protected in principle; hunting only under a nature-conservation exemption."
+      }
+    ],
+    "image": {
+      "src": "/arten/fischotter.jpg",
+      "author": "(c) Tomi Tirkkonen, some rights reserved (CC BY-NC-SA)",
+      "license": "CC BY-NC-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "sourceUrl": "https://www.inaturalist.org/photos/100389336"
+    }
+  },
+  {
+    "id": "luchs",
+    "nameDe": "Luchs",
+    "nameEn": "Eurasian lynx",
+    "latin": "Lynx lynx",
+    "group": "raubwild",
+    "lessonId": "raubwild-luchs-wildkatze",
+    "seasonDe": "Ganzjährig geschont",
+    "seasonEn": "Protected all year",
+    "facts": [
+      {
+        "key": "kennzeichen",
+        "de": "Hochbeinige Katze mit Pinselohren, Backenbart und kurzem Stummelschwanz mit schwarzer Spitze; geflecktes Fell.",
+        "en": "Long-legged cat with tufted ears, facial ruff and a short stubby tail with a black tip; spotted fur."
+      },
+      {
+        "key": "groesse",
+        "de": "Etwa 15–30 kg.",
+        "en": "About 15–30 kg."
+      },
+      {
+        "key": "lebensraum",
+        "de": "Große, zusammenhängende Wälder; in Bayern vor allem im Bayerischen Wald.",
+        "en": "Large connected forests; in Bavaria mainly the Bavarian Forest."
+      },
+      {
+        "key": "nahrung",
+        "de": "Vor allem Rehe; tötet durch Kehlbiss, kehrt zum Riss zurück.",
+        "en": "Mainly roe deer; kills with a throat bite, returns to the kill."
+      },
+      {
+        "key": "fortpflanzung",
+        "de": "Ranz Februar/März; 2–3 Junge im Mai/Juni.",
+        "en": "Mating February/March; 2–3 kittens in May/June."
+      },
+      {
+        "key": "jaegersprache",
+        "de": "Kuder (Männchen), Katze (Weibchen).",
+        "en": "Male (Kuder), female (Katze)."
+      },
+      {
+        "key": "pruefung",
+        "de": "Ganzjährig geschont; illegale Tötung ist eine Straftat. Streifgebiet mehrere tausend Hektar.",
+        "en": "Protected all year; illegal killing is a crime. Home range several thousand hectares."
+      }
+    ],
+    "image": {
+      "src": "/arten/luchs.jpg",
+      "author": "(c) Christoph Moning, some rights reserved (CC BY), uploaded by Christoph Moning",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sourceUrl": "https://www.inaturalist.org/photos/186702089"
+    }
+  },
+  {
+    "id": "wildkatze",
+    "nameDe": "Wildkatze",
+    "nameEn": "European wildcat",
+    "latin": "Felis silvestris",
+    "group": "raubwild",
+    "lessonId": "raubwild-luchs-wildkatze",
+    "seasonDe": "Ganzjährig geschont",
+    "seasonEn": "Protected all year",
+    "facts": [
+      {
+        "key": "kennzeichen",
+        "de": "Wie eine kräftige, grau getigerte Hauskatze, aber mit buschigem, stumpf endendem Schwanz mit deutlichen dunklen Ringen und schwarzer Spitze.",
+        "en": "Like a sturdy grey tabby cat, but with a bushy, blunt-ended tail with clear dark rings and a black tip."
+      },
+      {
+        "key": "groesse",
+        "de": "Etwa 3–7 kg.",
+        "en": "About 3–7 kg."
+      },
+      {
+        "key": "lebensraum",
+        "de": "Strukturreiche Laub- und Mischwälder.",
+        "en": "Varied broadleaf and mixed forests."
+      },
+      {
+        "key": "nahrung",
+        "de": "Vor allem Mäuse; Aas nur ausnahmsweise.",
+        "en": "Mainly mice; carrion only rarely."
+      },
+      {
+        "key": "fortpflanzung",
+        "de": "Ranz Februar/März; 2–4 Junge.",
+        "en": "Mating February/March; 2–4 kittens."
+      },
+      {
+        "key": "jaegersprache",
+        "de": "Kuder, Katze.",
+        "en": "Male (Kuder), female (Katze)."
+      },
+      {
+        "key": "pruefung",
+        "de": "Ganzjährig geschont; nicht mit wildernden Hauskatzen verwechseln.",
+        "en": "Protected all year; do not confuse with feral house cats."
+      }
+    ],
+    "image": {
+      "src": "/arten/wildkatze.jpg",
+      "author": "(c) Javisa Hun, some rights reserved (CC BY-NC), uploaded by Javisa Hun",
+      "license": "CC BY-NC 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "sourceUrl": "https://www.inaturalist.org/photos/40361708"
+    }
+  },
+  {
+    "id": "waschbaer",
+    "nameDe": "Waschbär",
+    "nameEn": "Raccoon",
+    "latin": "Procyon lotor",
+    "group": "raubwild",
+    "lessonId": "neozoen",
+    "seasonDe": "Ganzjährig",
+    "seasonEn": "All year",
+    "facts": [
+      {
+        "key": "kennzeichen",
+        "de": "Graubraun mit schwarzer Gesichtsmaske und geringeltem Schwanz.",
+        "en": "Grey-brown with a black face mask and a ringed tail."
+      },
+      {
+        "key": "groesse",
+        "de": "Etwa 5–9 kg.",
+        "en": "About 5–9 kg."
+      },
+      {
+        "key": "lebensraum",
+        "de": "Gewässerreiche Wälder, Siedlungen; aus Nordamerika eingeschleppt.",
+        "en": "Wooded areas near water, settlements; introduced from North America."
+      },
+      {
+        "key": "nahrung",
+        "de": "Allesfresser: Früchte, Insekten, Amphibien, Gelege.",
+        "en": "Omnivore: fruit, insects, amphibians, eggs."
+      },
+      {
+        "key": "fortpflanzung",
+        "de": "Paarung im Winter; 3–5 Junge im Frühjahr.",
+        "en": "Mating in winter; 3–5 young in spring."
+      },
+      {
+        "key": "jaegersprache",
+        "de": "Rüde, Fähe.",
+        "en": "Male, female."
+      },
+      {
+        "key": "pruefung",
+        "de": "Invasiv; ganzjährig jagdbar, auch in der Setzzeit; am wirksamsten mit der Falle (Köder: Trockenobst, Mais, Fischöl).",
+        "en": "Invasive; huntable all year, even during the breeding season; most effective by trapping (bait: dried fruit, maize, fish oil)."
+      }
+    ],
+    "image": {
+      "src": "/arten/waschbaer.jpg",
+      "author": "(c) Kat Halsey, some rights reserved (CC BY-NC), uploaded by Kat Halsey",
+      "license": "CC BY-NC 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "sourceUrl": "https://www.inaturalist.org/photos/290431922"
+    }
+  },
+  {
+    "id": "marderhund",
+    "nameDe": "Marderhund",
+    "nameEn": "Raccoon dog",
+    "latin": "Nyctereutes procyonoides",
+    "group": "raubwild",
+    "lessonId": "neozoen",
+    "seasonDe": "Ganzjährig",
+    "seasonEn": "All year",
+    "facts": [
+      {
+        "key": "kennzeichen",
+        "de": "Hundeartig, waschbärähnliche Gesichtsmaske, aber ungeringelter, kurzer Schwanz.",
+        "en": "Dog-like with a raccoon-like face mask, but a short, unringed tail."
+      },
+      {
+        "key": "groesse",
+        "de": "Etwa 4–10 kg.",
+        "en": "About 4–10 kg."
+      },
+      {
+        "key": "lebensraum",
+        "de": "Feuchte, deckungsreiche Gebiete; aus Ostasien eingewandert.",
+        "en": "Damp areas with plenty of cover; spread from East Asia."
+      },
+      {
+        "key": "nahrung",
+        "de": "Nachtaktiver Allesfresser.",
+        "en": "Nocturnal omnivore."
+      },
+      {
+        "key": "fortpflanzung",
+        "de": "Paarung Februar/März; große Würfe.",
+        "en": "Mating February/March; large litters."
+      },
+      {
+        "key": "jaegersprache",
+        "de": "Rüde, Fähe.",
+        "en": "Male, female."
+      },
+      {
+        "key": "pruefung",
+        "de": "Gehört zu den Hundeartigen, nicht zu den Mardern; ganzjährig jagdbar.",
+        "en": "Belongs to the dog family, not the mustelids; huntable all year."
+      }
+    ],
+    "image": {
+      "src": "/arten/marderhund.jpg",
+      "author": "(c) misooksun, some rights reserved (CC BY-NC), uploaded by misooksun",
+      "license": "CC BY-NC 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "sourceUrl": "https://www.inaturalist.org/photos/2802310"
+    }
+  },
+  {
+    "id": "mink",
+    "nameDe": "Mink (Amerikanischer Nerz)",
+    "nameEn": "American mink",
+    "latin": "Neogale vison",
+    "group": "raubwild",
+    "lessonId": "neozoen",
+    "seasonDe": "Ganzjährig",
+    "seasonEn": "All year",
+    "facts": [
+      {
+        "key": "kennzeichen",
+        "de": "Dunkelbraun, meist nur kleiner weißer Kinnfleck; ähnlich dem Iltis, aber ohne Gesichtsmaske.",
+        "en": "Dark brown, usually only a small white chin patch; similar to a polecat but without a face mask."
+      },
+      {
+        "key": "groesse",
+        "de": "Etwa 0,5–1,5 kg.",
+        "en": "About 0.5–1.5 kg."
+      },
+      {
+        "key": "lebensraum",
+        "de": "Gewässer; aus Pelzfarmen entkommen.",
+        "en": "Waterways; escaped from fur farms."
+      },
+      {
+        "key": "nahrung",
+        "de": "Fische, Krebse, Wasservögel und ihre Gelege.",
+        "en": "Fish, crayfish, waterbirds and their eggs."
+      },
+      {
+        "key": "fortpflanzung",
+        "de": "Paarung im Frühjahr.",
+        "en": "Mating in spring."
+      },
+      {
+        "key": "jaegersprache",
+        "de": "Amerikanischer Nerz.",
+        "en": "American mink."
+      },
+      {
+        "key": "pruefung",
+        "de": "Invasiv; ganzjährig jagdbar; erbeutet Entenküken.",
+        "en": "Invasive; huntable all year; takes ducklings."
+      }
+    ],
+    "image": {
+      "src": "/arten/mink.jpg",
+      "author": "(c) mangoat1, some rights reserved (CC BY-NC), uploaded by mangoat1",
+      "license": "CC BY-NC 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "sourceUrl": "https://www.inaturalist.org/photos/457258730"
+    }
+  },
+  {
+    "id": "auerwild",
+    "nameDe": "Auerhuhn (Auerwild)",
+    "nameEn": "Western capercaillie",
+    "latin": "Tetrao urogallus",
+    "group": "huehnervoegel",
+    "lessonId": "huehnervoegel",
+    "seasonDe": "Ganzjährig geschont",
+    "seasonEn": "Protected all year",
+    "facts": [
+      {
+        "key": "kennzeichen",
+        "de": "Größtes Raufußhuhn. Hahn schiefergrau mit grünem Brustschild, rotem »Rosen«-Fleck über dem Auge und Fächerstoß; Henne kleiner, rostbraun gebändert.",
+        "en": "Largest grouse. Cock slate-grey with green breast shield, red wattle above the eye and fan tail; hen smaller, rust-brown and barred."
+      },
+      {
+        "key": "groesse",
+        "de": "Hahn 4–5 kg, Henne etwa 2 kg.",
+        "en": "Cock 4–5 kg, hen about 2 kg."
+      },
+      {
+        "key": "lebensraum",
+        "de": "Lichte, strukturreiche Altholzbestände mit Heidelbeere; reiner Waldbewohner.",
+        "en": "Open, structured old forest with bilberry; lives only in forests."
+      },
+      {
+        "key": "nahrung",
+        "de": "Sommer: Heidelbeere, Insekten (Küken: Ameisenpuppen); Winter: Kiefern- und Tannennadeln.",
+        "en": "Summer: bilberry, insects (chicks: ant pupae); winter: pine and fir needles."
+      },
+      {
+        "key": "fortpflanzung",
+        "de": "Balz im April/Mai; Bodenbrüter, 6–10 Eier.",
+        "en": "Display (lek) in April/May; ground nester, 6–10 eggs."
+      },
+      {
+        "key": "jaegersprache",
+        "de": "Hahn, Henne; Balz, Stoß (Schwanz), Spiel; der Hahn »bäumt auf«.",
+        "en": "Cock, hen; display (Balz), tail (Stoß); the cock roosts in trees (aufbaumen)."
+      },
+      {
+        "key": "pruefung",
+        "de": "Zählt traditionell zum Hochwild; ganzjährig geschont; Lebensräume können zur Brutzeit gesperrt werden.",
+        "en": "Traditionally counted as high game; protected all year; habitats can be closed in the breeding season."
+      }
+    ],
+    "image": {
+      "src": "/arten/auerwild.jpg",
+      "author": "(c) Christoph Moning, some rights reserved (CC BY), uploaded by Christoph Moning",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sourceUrl": "https://www.inaturalist.org/photos/92441326"
+    }
+  },
+  {
+    "id": "birkwild",
+    "nameDe": "Birkhuhn (Birkwild)",
+    "nameEn": "Black grouse",
+    "latin": "Lyrurus tetrix",
+    "group": "huehnervoegel",
+    "lessonId": "huehnervoegel",
+    "seasonDe": "Ganzjährig geschont",
+    "seasonEn": "Protected all year",
+    "facts": [
+      {
+        "key": "kennzeichen",
+        "de": "Hahn blauschwarz mit leierförmigem Stoß, weißen Unterschwanzdecken und roten Rosen; Henne braun gebändert.",
+        "en": "Cock blue-black with lyre-shaped tail, white undertail and red wattles; hen brown and barred."
+      },
+      {
+        "key": "groesse",
+        "de": "Hahn etwa 1,2 kg, Henne etwa 0,9 kg.",
+        "en": "Cock about 1.2 kg, hen about 0.9 kg."
+      },
+      {
+        "key": "lebensraum",
+        "de": "Hochmoore und lichte Bergwälder an der Baumgrenze.",
+        "en": "Raised bogs and open mountain forest at the tree line."
+      },
+      {
+        "key": "nahrung",
+        "de": "Knospen, Beeren, Triebe; Küken Insekten.",
+        "en": "Buds, berries, shoots; chicks insects."
+      },
+      {
+        "key": "fortpflanzung",
+        "de": "Gruppenbalz im Frühjahr; Bodenbrüter.",
+        "en": "Communal lek in spring; ground nester."
+      },
+      {
+        "key": "jaegersprache",
+        "de": "Spielhahn (Hahn), Henne; Spiel (Stoß).",
+        "en": "Spielhahn (cock), hen; tail feathers called Spiel."
+      },
+      {
+        "key": "pruefung",
+        "de": "Ganzjährig geschont; Kreuzung mit Auerwild ergibt Rackelwild.",
+        "en": "Protected all year; hybrid with capercaillie = Rackelwild."
+      }
+    ],
+    "image": {
+      "src": "/arten/birkwild.jpg",
+      "author": "(c) Tatyana Zarubo, some rights reserved (CC BY-NC), uploaded by Tatyana Zarubo",
+      "license": "CC BY-NC 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "sourceUrl": "https://www.inaturalist.org/photos/61329120"
+    }
+  },
+  {
+    "id": "haselwild",
+    "nameDe": "Haselhuhn (Haselwild)",
+    "nameEn": "Hazel grouse",
+    "latin": "Tetrastes bonasia",
+    "group": "huehnervoegel",
+    "lessonId": "huehnervoegel",
+    "seasonDe": "Ganzjährig geschont",
+    "seasonEn": "Protected all year",
+    "facts": [
+      {
+        "key": "kennzeichen",
+        "de": "Kleinstes heimisches Raufußhuhn, grau-braun marmoriert, mit kleiner Haube; Hahn mit schwarzer, weiß gesäumter Kehle.",
+        "en": "Smallest native grouse, grey-brown mottled, small crest; cock with black, white-edged throat."
+      },
+      {
+        "key": "groesse",
+        "de": "Etwa 350–450 g.",
+        "en": "About 350–450 g."
+      },
+      {
+        "key": "lebensraum",
+        "de": "Junge, unterholzreiche Wälder mit viel Weichlaubholz (Birke, Erle, Weide).",
+        "en": "Young forests with dense undergrowth and many softwood broadleaves (birch, alder, willow)."
+      },
+      {
+        "key": "nahrung",
+        "de": "Knospen, Kätzchen, Beeren, Insekten.",
+        "en": "Buds, catkins, berries, insects."
+      },
+      {
+        "key": "fortpflanzung",
+        "de": "Monogam; Bodenbrüter.",
+        "en": "Monogamous; ground nester."
+      },
+      {
+        "key": "jaegersprache",
+        "de": "Hahn, Henne.",
+        "en": "Cock, hen."
+      },
+      {
+        "key": "pruefung",
+        "de": "Standvogel und reiner Waldbewohner; in Bayern ganzjährig geschont.",
+        "en": "Resident, lives only in forests; protected all year in Bavaria."
+      }
+    ],
+    "image": {
+      "src": "/arten/haselwild.jpg",
+      "author": "(c) Tatiana Bulyonkova, some rights reserved (CC BY-NC-SA)",
+      "license": "CC BY-NC-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "sourceUrl": "https://www.inaturalist.org/photos/1865717"
+    }
+  },
+  {
+    "id": "alpenschneehuhn",
+    "nameDe": "Alpenschneehuhn",
+    "nameEn": "Rock ptarmigan",
+    "latin": "Lagopus muta",
+    "group": "huehnervoegel",
+    "lessonId": "huehnervoegel",
+    "seasonDe": "Keine Jagdzeit",
+    "seasonEn": "No open season",
+    "facts": [
+      {
+        "key": "kennzeichen",
+        "de": "Im Winter rein weiß (Hahn mit schwarzem Zügel), im Sommer graubraun gesprenkelt mit weißen Flügeln; befiederte Zehen.",
+        "en": "Pure white in winter (cock with a black eye stripe), mottled grey-brown in summer with white wings; feathered toes."
+      },
+      {
+        "key": "groesse",
+        "de": "Etwa 400–550 g.",
+        "en": "About 400–550 g."
+      },
+      {
+        "key": "lebensraum",
+        "de": "Alpine Zone oberhalb der Baumgrenze.",
+        "en": "Alpine zone above the tree line."
+      },
+      {
+        "key": "nahrung",
+        "de": "Knospen, Blätter, Beeren von Zwergsträuchern.",
+        "en": "Buds, leaves, berries of dwarf shrubs."
+      },
+      {
+        "key": "fortpflanzung",
+        "de": "Bodenbrüter, 6–9 Eier.",
+        "en": "Ground nester, 6–9 eggs."
+      },
+      {
+        "key": "jaegersprache",
+        "de": "Hahn, Henne.",
+        "en": "Cock, hen."
+      },
+      {
+        "key": "pruefung",
+        "de": "Mausert für den Winter weiß; Raufußhuhn.",
+        "en": "Moults to white for winter; a grouse."
+      }
+    ],
+    "image": {
+      "src": "/arten/alpenschneehuhn.jpg",
+      "author": "(c) Ryan Shaw, some rights reserved (CC BY-NC)",
+      "license": "CC BY-NC 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "sourceUrl": "https://www.inaturalist.org/photos/45166074"
+    }
+  },
+  {
+    "id": "rebhuhn",
+    "nameDe": "Rebhuhn",
+    "nameEn": "Grey partridge",
+    "latin": "Perdix perdix",
+    "group": "huehnervoegel",
+    "lessonId": "huehnervoegel",
+    "seasonDe": "1.9.–31.10.",
+    "seasonEn": "1 Sep – 31 Oct",
+    "facts": [
+      {
+        "key": "kennzeichen",
+        "de": "Grau mit orangebraunem Gesicht und dunklem, hufeisenförmigem Brustfleck (beim Hahn deutlich).",
+        "en": "Grey with orange-brown face and a dark horseshoe-shaped breast patch (clear in the cock)."
+      },
+      {
+        "key": "groesse",
+        "de": "Etwa 350–450 g.",
+        "en": "About 350–450 g."
+      },
+      {
+        "key": "lebensraum",
+        "de": "Abwechslungsreiche Feldflur mit Hecken, Rainen und Brachen.",
+        "en": "Varied farmland with hedges, field margins and fallow."
+      },
+      {
+        "key": "nahrung",
+        "de": "Sämereien, Grünes; Küken Insekten.",
+        "en": "Seeds, green plants; chicks insects."
+      },
+      {
+        "key": "fortpflanzung",
+        "de": "Monogam; Bodenbrüter mit 10–20 Eiern; Familienverband (Kette, Volk) bis zum Frühjahr.",
+        "en": "Monogamous; ground nester with 10–20 eggs; family covey (Kette, Volk) until spring."
+      },
+      {
+        "key": "jaegersprache",
+        "de": "Hahn, Henne; Kette, Volk; Ständer (Beine).",
+        "en": "Cock, hen; covey (Kette/Volk); legs (Ständer)."
+      },
+      {
+        "key": "pruefung",
+        "de": "Ältere Hühner haben graue Ständer; Kette löst sich im Februar/März auf; stark gefährdet durch Lebensraumverlust.",
+        "en": "Older birds have grey legs; the covey breaks up in Feb/March; heavily threatened by habitat loss."
+      }
+    ],
+    "image": {
+      "src": "/arten/rebhuhn.jpg",
+      "author": "(c) patrickgoa, some rights reserved (CC BY-NC), uploaded by patrickgoa",
+      "license": "CC BY-NC 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "sourceUrl": "https://www.inaturalist.org/photos/344182442"
+    }
+  },
+  {
+    "id": "fasan",
+    "nameDe": "Fasan",
+    "nameEn": "Common pheasant",
+    "latin": "Phasianus colchicus",
+    "group": "huehnervoegel",
+    "lessonId": "huehnervoegel",
+    "seasonDe": "1.10.–31.12.",
+    "seasonEn": "1 Oct – 31 Dec",
+    "facts": [
+      {
+        "key": "kennzeichen",
+        "de": "Hahn bunt mit grün schillerndem Kopf, roten Rosen, oft weißem Halsring und langem Stoß; Henne unscheinbar braun.",
+        "en": "Cock colourful with iridescent green head, red wattles, often a white neck ring and a long tail; hen plain brown."
+      },
+      {
+        "key": "groesse",
+        "de": "Hahn etwa 1,2–1,5 kg, Henne etwa 1 kg.",
+        "en": "Cock about 1.2–1.5 kg, hen about 1 kg."
+      },
+      {
+        "key": "lebensraum",
+        "de": "Auen, Bruchwälder, Feldgehölze im Wechsel mit Feld, Wiese und Wasser.",
+        "en": "Floodplains, swampy woods, copses mixed with fields, meadows and water."
+      },
+      {
+        "key": "nahrung",
+        "de": "Sämereien, Grünes, Insekten, Beeren.",
+        "en": "Seeds, green plants, insects, berries."
+      },
+      {
+        "key": "fortpflanzung",
+        "de": "Hahn mit mehreren Hennen; Bodenbrüter, 8–12 Eier.",
+        "en": "Cock with several hens; ground nester, 8–12 eggs."
+      },
+      {
+        "key": "jaegersprache",
+        "de": "Hahn, Henne; Sporn; Stoß.",
+        "en": "Cock, hen; spur; tail (Stoß)."
+      },
+      {
+        "key": "pruefung",
+        "de": "Älterer Hahn am längeren Sporn erkennbar; Wildschaden ersatzpflichtig.",
+        "en": "Older cocks recognised by longer spurs; damage is compensable."
+      }
+    ],
+    "image": {
+      "src": "/arten/fasan.jpg",
+      "author": "(c) Frank Lin, some rights reserved (CC BY-NC), uploaded by Frank Lin",
+      "license": "CC BY-NC 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "sourceUrl": "https://www.inaturalist.org/photos/176733796"
+    }
+  },
+  {
+    "id": "wachtel",
+    "nameDe": "Wachtel",
+    "nameEn": "Common quail",
+    "latin": "Coturnix coturnix",
+    "group": "huehnervoegel",
+    "lessonId": "huehnervoegel",
+    "seasonDe": "Keine Jagdzeit",
+    "seasonEn": "No open season",
+    "facts": [
+      {
+        "key": "kennzeichen",
+        "de": "Kleinster heimischer Hühnervogel, rebhuhnähnlich gestreift; typischer Ruf »pick-werwick«.",
+        "en": "Smallest native gamebird, streaked like a small partridge; typical call “pick-wer-wick”."
+      },
+      {
+        "key": "groesse",
+        "de": "Etwa 100 g.",
+        "en": "About 100 g."
+      },
+      {
+        "key": "lebensraum",
+        "de": "Offene Feldflur, Getreide- und Kleefelder.",
+        "en": "Open farmland, cereal and clover fields."
+      },
+      {
+        "key": "nahrung",
+        "de": "Sämereien, Insekten.",
+        "en": "Seeds, insects."
+      },
+      {
+        "key": "fortpflanzung",
+        "de": "Bodenbrüter.",
+        "en": "Ground nester."
+      },
+      {
+        "key": "jaegersprache",
+        "de": "Hahn, Henne.",
+        "en": "Cock, hen."
+      },
+      {
+        "key": "pruefung",
+        "de": "Einziger heimischer Hühnervogel, der Zugvogel ist.",
+        "en": "The only native gamebird that migrates."
+      }
+    ],
+    "image": {
+      "src": "/arten/wachtel.jpg",
+      "author": "(c) Dragonfyre, some rights reserved (CC BY-NC), uploaded by Dragonfyre",
+      "license": "CC BY-NC 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "sourceUrl": "https://www.inaturalist.org/photos/227167679"
+    }
+  },
+  {
+    "id": "stockente",
+    "nameDe": "Stockente",
+    "nameEn": "Mallard",
+    "latin": "Anas platyrhynchos",
+    "group": "wasserwild",
+    "lessonId": "wasserfederwild",
+    "seasonDe": "1.9.–15.1.",
+    "seasonEn": "1 Sep – 15 Jan",
+    "facts": [
+      {
+        "key": "kennzeichen",
+        "de": "Erpel im Prachtkleid mit grün glänzendem Kopf, weißem Halsring und Locke (aufgebogene Schwanzfedern); Ente braun gesprenkelt; beide mit blauem Flügelspiegel.",
+        "en": "Drake in breeding plumage with glossy green head, white neck ring and curled tail feathers; duck mottled brown; both with a blue wing speculum."
+      },
+      {
+        "key": "groesse",
+        "de": "Etwa 1–1,4 kg.",
+        "en": "About 1–1.4 kg."
+      },
+      {
+        "key": "lebensraum",
+        "de": "Fast alle Gewässer, auch in Städten.",
+        "en": "Almost all waters, also in towns."
+      },
+      {
+        "key": "nahrung",
+        "de": "Gründelt nach Wasserpflanzen, Samen, Kleintieren.",
+        "en": "Dabbles for water plants, seeds, small animals."
+      },
+      {
+        "key": "fortpflanzung",
+        "de": "Paarbildung im Herbst; Bodenbrüter, auch in Brutkörben; Küken sofort schwimmfähig, flügge mit etwa 2 Monaten.",
+        "en": "Pairs form in autumn; nests on the ground, also in nest baskets; ducklings swim at once and fly at about 2 months."
+      },
+      {
+        "key": "jaegersprache",
+        "de": "Erpel, Ente; Spiegel; Latschen (Füße); Schlichtkleid.",
+        "en": "Drake (Erpel), duck (Ente); speculum (Spiegel); feet (Latschen); eclipse plumage (Schlichtkleid)."
+      },
+      {
+        "key": "pruefung",
+        "de": "Schwimmente; Erpel im Juni/Juli in der Mauser flugunfähig; Jungenten haben dunkle Latschen.",
+        "en": "Dabbling duck; drakes flightless during the June/July moult; young ducks have dark feet."
+      }
+    ],
+    "image": {
+      "src": "/arten/stockente.jpg",
+      "author": "(c) anonymous, some rights reserved (CC BY-SA)",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "sourceUrl": "https://www.inaturalist.org/photos/95268822"
+    }
+  },
+  {
+    "id": "krickente",
+    "nameDe": "Krickente",
+    "nameEn": "Eurasian teal",
+    "latin": "Anas crecca",
+    "group": "wasserwild",
+    "lessonId": "wasserfederwild",
+    "seasonDe": "1.10.–15.1.",
+    "seasonEn": "1 Oct – 15 Jan",
+    "facts": [
+      {
+        "key": "kennzeichen",
+        "de": "Kleinste heimische Ente; Erpel mit kastanienbraunem Kopf und grünem Augenstreif; grüner Spiegel.",
+        "en": "Smallest native duck; drake with chestnut head and green eye stripe; green speculum."
+      },
+      {
+        "key": "groesse",
+        "de": "Etwa 300 g.",
+        "en": "About 300 g."
+      },
+      {
+        "key": "lebensraum",
+        "de": "Flache Gewässer mit dichter Ufervegetation.",
+        "en": "Shallow waters with dense bank vegetation."
+      },
+      {
+        "key": "nahrung",
+        "de": "Samen, Kleintiere.",
+        "en": "Seeds, small animals."
+      },
+      {
+        "key": "fortpflanzung",
+        "de": "Bodenbrüter.",
+        "en": "Ground nester."
+      },
+      {
+        "key": "jaegersprache",
+        "de": "Erpel, Ente.",
+        "en": "Drake, duck."
+      },
+      {
+        "key": "pruefung",
+        "de": "Schwimmente – startet direkt vom Wasser.",
+        "en": "Dabbling duck — takes off straight from the water."
+      }
+    ],
+    "image": {
+      "src": "/arten/krickente.jpg",
+      "author": "(c) Smudge 9000, some rights reserved (CC BY-SA)",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "sourceUrl": "https://www.inaturalist.org/photos/77632197"
+    }
+  },
+  {
+    "id": "reiherente",
+    "nameDe": "Reiherente",
+    "nameEn": "Tufted duck",
+    "latin": "Aythya fuligula",
+    "group": "wasserwild",
+    "lessonId": "wasserfederwild",
+    "seasonDe": "1.10.–15.1.",
+    "seasonEn": "1 Oct – 15 Jan",
+    "facts": [
+      {
+        "key": "kennzeichen",
+        "de": "Erpel schwarz mit weißen Flanken und herabhängendem Federschopf; gelbe Augen.",
+        "en": "Drake black with white flanks and a drooping crest; yellow eyes."
+      },
+      {
+        "key": "groesse",
+        "de": "Etwa 700–900 g.",
+        "en": "About 700–900 g."
+      },
+      {
+        "key": "lebensraum",
+        "de": "Seen und langsam fließende Gewässer.",
+        "en": "Lakes and slow-flowing water."
+      },
+      {
+        "key": "nahrung",
+        "de": "Taucht nach Muscheln, Schnecken, Insektenlarven.",
+        "en": "Dives for mussels, snails, insect larvae."
+      },
+      {
+        "key": "fortpflanzung",
+        "de": "Bodenbrüter in Ufernähe.",
+        "en": "Ground nester near the shore."
+      },
+      {
+        "key": "jaegersprache",
+        "de": "Erpel, Ente.",
+        "en": "Drake, duck."
+      },
+      {
+        "key": "pruefung",
+        "de": "Tauchente – läuft beim Auffliegen über das Wasser an.",
+        "en": "Diving duck — patters across the water to take off."
+      }
+    ],
+    "image": {
+      "src": "/arten/reiherente.jpg",
+      "author": "(c) Irina Krug, some rights reserved (CC BY-NC), uploaded by Irina Krug",
+      "license": "CC BY-NC 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "sourceUrl": "https://www.inaturalist.org/photos/110387197"
+    }
+  },
+  {
+    "id": "tafelente",
+    "nameDe": "Tafelente",
+    "nameEn": "Common pochard",
+    "latin": "Aythya ferina",
+    "group": "wasserwild",
+    "lessonId": "wasserfederwild",
+    "seasonDe": "1.10.–15.1.",
+    "seasonEn": "1 Oct – 15 Jan",
+    "facts": [
+      {
+        "key": "kennzeichen",
+        "de": "Erpel mit rotbraunem Kopf, schwarzer Brust und hellgrauem Rücken.",
+        "en": "Drake with red-brown head, black breast and pale grey back."
+      },
+      {
+        "key": "groesse",
+        "de": "Etwa 800–1.000 g.",
+        "en": "About 800–1,000 g."
+      },
+      {
+        "key": "lebensraum",
+        "de": "Größere Seen mit Pflanzenwuchs.",
+        "en": "Larger lakes with vegetation."
+      },
+      {
+        "key": "nahrung",
+        "de": "Taucht nach Wasserpflanzen und Kleintieren.",
+        "en": "Dives for water plants and small animals."
+      },
+      {
+        "key": "fortpflanzung",
+        "de": "Bodenbrüter.",
+        "en": "Ground nester."
+      },
+      {
+        "key": "jaegersprache",
+        "de": "Erpel, Ente.",
+        "en": "Drake, duck."
+      },
+      {
+        "key": "pruefung",
+        "de": "Tauchente.",
+        "en": "Diving duck."
+      }
+    ],
+    "image": {
+      "src": "/arten/tafelente.jpg",
+      "author": "(c) Erik Eckstein, some rights reserved (CC BY-NC), uploaded by Erik Eckstein",
+      "license": "CC BY-NC 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "sourceUrl": "https://www.inaturalist.org/photos/355915419"
+    }
+  },
+  {
+    "id": "graugans",
+    "nameDe": "Graugans",
+    "nameEn": "Greylag goose",
+    "latin": "Anser anser",
+    "group": "wasserwild",
+    "lessonId": "wasserfederwild",
+    "seasonDe": "1.8.–28.2. (sitzende Junggänse auch 1.–31.7.)",
+    "seasonEn": "1 Aug – 28 Feb (sitting young geese also 1–31 Jul)",
+    "facts": [
+      {
+        "key": "kennzeichen",
+        "de": "Graubraun mit orangefarbenem Schnabel und fleischfarbenen Füßen; Gans und Ganter gleich gefärbt.",
+        "en": "Grey-brown with orange bill and pink feet; goose and gander look alike."
+      },
+      {
+        "key": "groesse",
+        "de": "Etwa 3–4 kg.",
+        "en": "About 3–4 kg."
+      },
+      {
+        "key": "lebensraum",
+        "de": "Seen mit Uferbereichen und angrenzenden Wiesen und Feldern.",
+        "en": "Lakes with banks and nearby meadows and fields."
+      },
+      {
+        "key": "nahrung",
+        "de": "Weidet fast nur an Land: Gräser, Getreide.",
+        "en": "Grazes almost only on land: grasses, cereals."
+      },
+      {
+        "key": "fortpflanzung",
+        "de": "Paare auf Lebenszeit; Bodenbrüter.",
+        "en": "Pairs for life; ground nester."
+      },
+      {
+        "key": "jaegersprache",
+        "de": "Ganter, Gans, Gössel.",
+        "en": "Gander, goose, gosling (Gössel)."
+      },
+      {
+        "key": "pruefung",
+        "de": "Kann größere Feldschäden anrichten.",
+        "en": "Can cause substantial crop damage."
+      }
+    ],
+    "image": {
+      "src": "/arten/graugans.jpg",
+      "author": "(c) Frans Vandewalle, some rights reserved (CC BY-NC)",
+      "license": "CC BY-NC 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "sourceUrl": "https://www.inaturalist.org/photos/61334030"
+    }
+  },
+  {
+    "id": "kanadagans",
+    "nameDe": "Kanadagans",
+    "nameEn": "Canada goose",
+    "latin": "Branta canadensis",
+    "group": "wasserwild",
+    "lessonId": "wasserfederwild",
+    "seasonDe": "1.8.–28.2. (sitzende Junggänse auch 1.–31.7.)",
+    "seasonEn": "1 Aug – 28 Feb (sitting young geese also 1–31 Jul)",
+    "facts": [
+      {
+        "key": "kennzeichen",
+        "de": "Größer als die Graugans, schwarzer Hals und Kopf mit weißem Kinnband.",
+        "en": "Larger than the greylag, black neck and head with a white chin strap."
+      },
+      {
+        "key": "groesse",
+        "de": "Etwa 3,5–6,5 kg.",
+        "en": "About 3.5–6.5 kg."
+      },
+      {
+        "key": "lebensraum",
+        "de": "Gewässer mit Grünland; eingebürgert.",
+        "en": "Water bodies with grassland; introduced."
+      },
+      {
+        "key": "nahrung",
+        "de": "Gräser, Getreide.",
+        "en": "Grasses, cereals."
+      },
+      {
+        "key": "fortpflanzung",
+        "de": "Bodenbrüter.",
+        "en": "Ground nester."
+      },
+      {
+        "key": "jaegersprache",
+        "de": "Ganter, Gans, Gössel.",
+        "en": "Gander, goose, gosling."
+      },
+      {
+        "key": "pruefung",
+        "de": "Gleiche Jagdzeit wie die Graugans.",
+        "en": "Same season as the greylag."
+      }
+    ],
+    "image": {
+      "src": "/arten/kanadagans.jpg",
+      "author": "(c) Daniel LaFrance, some rights reserved (CC BY-NC), uploaded by Daniel LaFrance",
+      "license": "CC BY-NC 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "sourceUrl": "https://www.inaturalist.org/photos/239718896"
+    }
+  },
+  {
+    "id": "hoeckerschwan",
+    "nameDe": "Höckerschwan",
+    "nameEn": "Mute swan",
+    "latin": "Cygnus olor",
+    "group": "wasserwild",
+    "lessonId": "wasserfederwild",
+    "seasonDe": "1.11.–20.2.",
+    "seasonEn": "1 Nov – 20 Feb",
+    "facts": [
+      {
+        "key": "kennzeichen",
+        "de": "Weiß, orangeroter Schnabel mit schwarzem Höcker; fliegt mit gestrecktem Hals.",
+        "en": "White, orange-red bill with a black knob; flies with outstretched neck."
+      },
+      {
+        "key": "groesse",
+        "de": "Etwa 8–12 kg.",
+        "en": "About 8–12 kg."
+      },
+      {
+        "key": "lebensraum",
+        "de": "Seen, Flüsse, Parks.",
+        "en": "Lakes, rivers, parks."
+      },
+      {
+        "key": "nahrung",
+        "de": "Wasser- und Unterwasserpflanzen.",
+        "en": "Water and underwater plants."
+      },
+      {
+        "key": "fortpflanzung",
+        "de": "Großes Bodennest am Ufer.",
+        "en": "Large ground nest on the bank."
+      },
+      {
+        "key": "jaegersprache",
+        "de": "Schwan.",
+        "en": "Swan."
+      },
+      {
+        "key": "pruefung",
+        "de": "Jagdbar vom 1. November bis 20. Februar.",
+        "en": "Huntable 1 Nov – 20 Feb."
+      }
+    ],
+    "image": {
+      "src": "/arten/hoeckerschwan.jpg",
+      "author": "(c) missoulabirdnerd, some rights reserved (CC BY-NC), uploaded by missoulabirdnerd",
+      "license": "CC BY-NC 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "sourceUrl": "https://www.inaturalist.org/photos/622245220"
+    }
+  },
+  {
+    "id": "blaesshuhn",
+    "nameDe": "Blässhuhn",
+    "nameEn": "Eurasian coot",
+    "latin": "Fulica atra",
+    "group": "wasserwild",
+    "lessonId": "wasserfederwild",
+    "seasonDe": "11.9.–20.2.",
+    "seasonEn": "11 Sep – 20 Feb",
+    "facts": [
+      {
+        "key": "kennzeichen",
+        "de": "Schwarz mit weißem Schnabel und weißer Stirnplatte (Blässe); Lappenfüße.",
+        "en": "Black with white bill and white frontal shield; lobed feet."
+      },
+      {
+        "key": "groesse",
+        "de": "Etwa 600–900 g.",
+        "en": "About 600–900 g."
+      },
+      {
+        "key": "lebensraum",
+        "de": "Stehende und langsam fließende Gewässer mit Röhricht.",
+        "en": "Still and slow waters with reeds."
+      },
+      {
+        "key": "nahrung",
+        "de": "Wasserpflanzen, Kleintiere, Insekten.",
+        "en": "Water plants, small animals, insects."
+      },
+      {
+        "key": "fortpflanzung",
+        "de": "Schwimmnest im Röhricht.",
+        "en": "Floating nest in the reeds."
+      },
+      {
+        "key": "jaegersprache",
+        "de": "Blässhuhn, Blässralle.",
+        "en": "Also called coot (Blässralle)."
+      },
+      {
+        "key": "pruefung",
+        "de": "In Bayern Standvogel; Jagdzeit 11.9.–20.2.",
+        "en": "Resident in Bavaria; season 11 Sep – 20 Feb."
+      }
+    ],
+    "image": {
+      "src": "/arten/blaesshuhn.jpg",
+      "author": "(c) Wei Li Jiang, some rights reserved (CC BY-NC), uploaded by Wei Li Jiang",
+      "license": "CC BY-NC 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "sourceUrl": "https://www.inaturalist.org/photos/123574818"
+    }
+  },
+  {
+    "id": "gaensesaeger",
+    "nameDe": "Gänsesäger",
+    "nameEn": "Goosander",
+    "latin": "Mergus merganser",
+    "group": "wasserwild",
+    "lessonId": "wasserfederwild",
+    "seasonDe": "Keine Jagdzeit",
+    "seasonEn": "No open season",
+    "facts": [
+      {
+        "key": "kennzeichen",
+        "de": "Großer Säger mit schmalem, rotem Hakenschnabel; Erpel mit grünem Kopf und weißem Körper.",
+        "en": "Large merganser with a narrow red hooked bill; drake with green head and white body."
+      },
+      {
+        "key": "groesse",
+        "de": "Etwa 1,2–2 kg.",
+        "en": "About 1.2–2 kg."
+      },
+      {
+        "key": "lebensraum",
+        "de": "Klare Flüsse und Seen.",
+        "en": "Clear rivers and lakes."
+      },
+      {
+        "key": "nahrung",
+        "de": "Fische – mit Hornzähnen am Schnabel festgehalten.",
+        "en": "Fish — held with the bill's horny serrations."
+      },
+      {
+        "key": "fortpflanzung",
+        "de": "Höhlenbrüter, auch in Nistkästen.",
+        "en": "Cavity nester, also in nest boxes."
+      },
+      {
+        "key": "jaegersprache",
+        "de": "Erpel, Ente; Säger.",
+        "en": "Drake, duck; merganser."
+      },
+      {
+        "key": "pruefung",
+        "de": "Unterliegt dem Jagdrecht, hat aber keine Jagdzeit.",
+        "en": "Subject to hunting law but has no season."
+      }
+    ],
+    "image": {
+      "src": "/arten/gaensesaeger.jpg",
+      "author": "(c) brian stahls, some rights reserved (CC BY-NC), uploaded by brian stahls",
+      "license": "CC BY-NC 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "sourceUrl": "https://www.inaturalist.org/photos/251363753"
+    }
+  },
+  {
+    "id": "graureiher",
+    "nameDe": "Graureiher",
+    "nameEn": "Grey heron",
+    "latin": "Ardea cinerea",
+    "group": "wasserwild",
+    "lessonId": "wasserfederwild",
+    "seasonDe": "16.9.–31.10. nur im 200-m-Umkreis geschlossener Gewässer",
+    "seasonEn": "16 Sep – 31 Oct only within 200 m of enclosed waters",
+    "facts": [
+      {
+        "key": "kennzeichen",
+        "de": "Großer grauer Vogel mit langem Hals, schwarzem Überaugenstreif und Dolchschnabel; fliegt mit eingezogenem Hals.",
+        "en": "Large grey bird with a long neck, black stripe above the eye and dagger bill; flies with neck drawn in."
+      },
+      {
+        "key": "groesse",
+        "de": "Etwa 1,5–2 kg, Spannweite bis 1,8 m.",
+        "en": "About 1.5–2 kg, wingspan up to 1.8 m."
+      },
+      {
+        "key": "lebensraum",
+        "de": "Gewässer, Wiesen; brütet in Kolonien auf Bäumen.",
+        "en": "Waters, meadows; nests in tree colonies."
+      },
+      {
+        "key": "nahrung",
+        "de": "Fische, Mäuse, Amphibien, Schnecken, Würmer.",
+        "en": "Fish, mice, amphibians, snails, worms."
+      },
+      {
+        "key": "fortpflanzung",
+        "de": "Koloniebrüter auf Bäumen.",
+        "en": "Colonial tree nester."
+      },
+      {
+        "key": "jaegersprache",
+        "de": "Fischreiher.",
+        "en": "Also called Fischreiher."
+      },
+      {
+        "key": "pruefung",
+        "de": "Bejagung nur 16.9.–31.10. im Umkreis von 200 m um geschlossene Gewässer; Kolonien zur Brutzeit nicht betreten.",
+        "en": "Hunting only 16 Sep – 31 Oct within 200 m of enclosed fish waters; colonies off-limits in the breeding season."
+      }
+    ],
+    "image": {
+      "src": "/arten/graureiher.jpg",
+      "author": "(c) Frank Sengpiel, some rights reserved (CC BY), uploaded by Frank Sengpiel",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sourceUrl": "https://www.inaturalist.org/photos/73516715"
+    }
+  },
+  {
+    "id": "lachmoewe",
+    "nameDe": "Lachmöwe",
+    "nameEn": "Black-headed gull",
+    "latin": "Chroicocephalus ridibundus",
+    "group": "wasserwild",
+    "lessonId": "wasserfederwild",
+    "seasonDe": "1.10.–10.2.",
+    "seasonEn": "1 Oct – 10 Feb",
+    "facts": [
+      {
+        "key": "kennzeichen",
+        "de": "Im Sommer schokoladenbrauner Kopf (»Kappe«), im Winter weißer Kopf mit dunklem Ohrfleck; roter Schnabel und rote Füße.",
+        "en": "In summer a chocolate-brown hood, in winter a white head with a dark ear spot; red bill and feet."
+      },
+      {
+        "key": "groesse",
+        "de": "Etwa 200–350 g.",
+        "en": "About 200–350 g."
+      },
+      {
+        "key": "lebensraum",
+        "de": "Binnengewässer; brütet in Kolonien.",
+        "en": "Inland waters; nests in colonies."
+      },
+      {
+        "key": "nahrung",
+        "de": "Allesfresser: Insekten, Würmer, Abfälle.",
+        "en": "Omnivore: insects, worms, waste."
+      },
+      {
+        "key": "fortpflanzung",
+        "de": "Koloniebrüter am Wasser.",
+        "en": "Colonial nester by water."
+      },
+      {
+        "key": "jaegersprache",
+        "de": "Möwe.",
+        "en": "Gull."
+      },
+      {
+        "key": "pruefung",
+        "de": "Möwen können nicht tauchen; Kolonien zur Brutzeit nicht betreten.",
+        "en": "Gulls cannot dive; colonies off-limits in the breeding season."
+      }
+    ],
+    "image": {
+      "src": "/arten/lachmoewe.jpg",
+      "author": "(c) Dmitry Dubikovskiy, some rights reserved (CC BY-NC), uploaded by Dmitry Dubikovskiy",
+      "license": "CC BY-NC 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "sourceUrl": "https://www.inaturalist.org/photos/198109587"
+    }
+  },
+  {
+    "id": "habicht",
+    "nameDe": "Habicht",
+    "nameEn": "Northern goshawk",
+    "latin": "Accipiter gentilis",
+    "group": "greifvoegel",
+    "lessonId": "greifvoegel",
+    "seasonDe": "Ganzjährig geschont (Greifvögel haben keine Jagdzeit)",
+    "seasonEn": "Protected all year (birds of prey have no season)",
+    "facts": [
+      {
+        "key": "kennzeichen",
+        "de": "Kräftiger Greif mit kurzen, breiten Flügeln und langem Stoß; Altvögel oberseits graubraun, unterseits fein quergebändert (»gesperbert«), weißer Überaugenstreif, gelbe bis orange Augen.",
+        "en": "Powerful raptor with short broad wings and long tail; adults grey-brown above, finely barred below, white eyebrow, yellow to orange eyes."
+      },
+      {
+        "key": "groesse",
+        "de": "Weib bis etwa 1,4 kg, Terzel deutlich kleiner (etwa 0,8 kg).",
+        "en": "Female up to about 1.4 kg, male (Terzel) much smaller (about 0.8 kg)."
+      },
+      {
+        "key": "lebensraum",
+        "de": "Wälder mit Altholz; horstet in Kronen alter Bäume.",
+        "en": "Forests with old trees; nests in the crowns of old trees."
+      },
+      {
+        "key": "nahrung",
+        "de": "Vögel bis Krähen- und Taubengröße, Kaninchen, Eichhörnchen; jagt aus dem Überraschungsflug.",
+        "en": "Birds up to crow and pigeon size, rabbits, squirrels; hunts by surprise attack."
+      },
+      {
+        "key": "fortpflanzung",
+        "de": "Baumbrüter; das Weib mausert schon während der Brut.",
+        "en": "Tree nester; the female moults during incubation."
+      },
+      {
+        "key": "jaegersprache",
+        "de": "Weib, Terzel; Fänge, Horst, Stoß; schlagen, kröpfen.",
+        "en": "Female (Weib), male (Terzel); talons (Fänge), nest (Horst), tail (Stoß); to strike, to feed."
+      },
+      {
+        "key": "pruefung",
+        "de": "Grifftöter; Verwechslung mit dem kleineren Sperber, der gleich aussieht und jagt.",
+        "en": "Kills with its talons; can be confused with the smaller sparrowhawk, which looks and hunts alike."
+      }
+    ],
+    "image": {
+      "src": "/arten/habicht.jpg",
+      "author": "(c) Luigi Andena, some rights reserved (CC BY-NC), uploaded by Luigi Andena",
+      "license": "CC BY-NC 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "sourceUrl": "https://www.inaturalist.org/photos/61773674"
+    }
+  },
+  {
+    "id": "sperber",
+    "nameDe": "Sperber",
+    "nameEn": "Eurasian sparrowhawk",
+    "latin": "Accipiter nisus",
+    "group": "greifvoegel",
+    "lessonId": "greifvoegel",
+    "seasonDe": "Ganzjährig geschont (Greifvögel haben keine Jagdzeit)",
+    "seasonEn": "Protected all year (birds of prey have no season)",
+    "facts": [
+      {
+        "key": "kennzeichen",
+        "de": "Wie ein kleiner Habicht; Männchen (Sprinz) mit rötlich gebänderter Brust.",
+        "en": "Like a small goshawk; male (Sprinz) with rufous-barred breast."
+      },
+      {
+        "key": "groesse",
+        "de": "Weib etwa 250–300 g, Sprinz etwa 150 g.",
+        "en": "Female about 250–300 g, male about 150 g."
+      },
+      {
+        "key": "lebensraum",
+        "de": "Wälder, Parks, Siedlungen.",
+        "en": "Forests, parks, settlements."
+      },
+      {
+        "key": "nahrung",
+        "de": "Vor allem Kleinvögel.",
+        "en": "Mainly small birds."
+      },
+      {
+        "key": "fortpflanzung",
+        "de": "Baumbrüter, oft in Nadelholzdickungen.",
+        "en": "Tree nester, often in dense conifers."
+      },
+      {
+        "key": "jaegersprache",
+        "de": "Weib, Sprinz.",
+        "en": "Female (Weib), male (Sprinz)."
+      },
+      {
+        "key": "pruefung",
+        "de": "Schlägt in der Luft und am Boden.",
+        "en": "Takes prey in the air and on the ground."
+      }
+    ],
+    "image": {
+      "src": "/arten/sperber.jpg",
+      "author": "(c) john.purvis, some rights reserved (CC BY-NC-SA)",
+      "license": "CC BY-NC-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "sourceUrl": "https://www.inaturalist.org/photos/60499639"
+    }
+  },
+  {
+    "id": "maeusebussard",
+    "nameDe": "Mäusebussard",
+    "nameEn": "Common buzzard",
+    "latin": "Buteo buteo",
+    "group": "greifvoegel",
+    "lessonId": "greifvoegel",
+    "seasonDe": "Ganzjährig geschont (Greifvögel haben keine Jagdzeit)",
+    "seasonEn": "Protected all year (birds of prey have no season)",
+    "facts": [
+      {
+        "key": "kennzeichen",
+        "de": "Sehr variables, meist braunes Gefieder mit hellem Brustband; breite Flügel, kurzer gefächerter Schwanz; ruft »hiäh«.",
+        "en": "Highly variable, usually brown plumage with a pale breast band; broad wings, short fanned tail; calls “pee-yow”."
+      },
+      {
+        "key": "groesse",
+        "de": "Etwa 0,6–1,2 kg.",
+        "en": "About 0.6–1.2 kg."
+      },
+      {
+        "key": "lebensraum",
+        "de": "Wald-Feld-Landschaft; häufigster Greifvogel.",
+        "en": "Mixed woodland and farmland; the commonest raptor."
+      },
+      {
+        "key": "nahrung",
+        "de": "Vor allem Mäuse, auch Aas; jagt von Ansitzwarten wie Zaunpfählen.",
+        "en": "Mainly mice, also carrion; hunts from perches such as fence posts."
+      },
+      {
+        "key": "fortpflanzung",
+        "de": "Baumbrüter; Männchen hilft bei der Aufzucht.",
+        "en": "Tree nester; the male helps raise the young."
+      },
+      {
+        "key": "jaegersprache",
+        "de": "Bussard; blocken (aufsitzen).",
+        "en": "Buzzard; blocken = to perch."
+      },
+      {
+        "key": "pruefung",
+        "de": "Grifftöter; Aas ist wichtige Nahrung.",
+        "en": "Kills with its talons; carrion is an important food."
+      }
+    ],
+    "image": {
+      "src": "/arten/maeusebussard.jpg",
+      "author": "(c) Manuel Raab, some rights reserved (CC BY-NC), uploaded by Manuel Raab",
+      "license": "CC BY-NC 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "sourceUrl": "https://www.inaturalist.org/photos/457121231"
+    }
+  },
+  {
+    "id": "rotmilan",
+    "nameDe": "Rotmilan",
+    "nameEn": "Red kite",
+    "latin": "Milvus milvus",
+    "group": "greifvoegel",
+    "lessonId": "greifvoegel",
+    "seasonDe": "Ganzjährig geschont (Greifvögel haben keine Jagdzeit)",
+    "seasonEn": "Protected all year (birds of prey have no season)",
+    "facts": [
+      {
+        "key": "kennzeichen",
+        "de": "Rostrot mit tief gegabeltem Schwanz und hellen Flügelfenstern; segelt elegant.",
+        "en": "Rusty red with a deeply forked tail and pale wing patches; glides elegantly."
+      },
+      {
+        "key": "groesse",
+        "de": "Etwa 0,8–1,3 kg, Spannweite bis 1,7 m.",
+        "en": "About 0.8–1.3 kg, wingspan up to 1.7 m."
+      },
+      {
+        "key": "lebensraum",
+        "de": "Offene Landschaft mit Feldgehölzen.",
+        "en": "Open countryside with copses."
+      },
+      {
+        "key": "nahrung",
+        "de": "Kleinsäuger, Aas, Abfälle.",
+        "en": "Small mammals, carrion, waste."
+      },
+      {
+        "key": "fortpflanzung",
+        "de": "Baumbrüter; Zugvogel mit Winterquartier vor allem in Südwesteuropa.",
+        "en": "Tree nester; migrant, wintering mainly in south-western Europe."
+      },
+      {
+        "key": "jaegersprache",
+        "de": "Gabelweihe (alter Name).",
+        "en": "Old name: Gabelweihe."
+      },
+      {
+        "key": "pruefung",
+        "de": "Aas ist wesentliche Nahrung – gefährdet durch Bleireste im Aufbruch.",
+        "en": "Carrion is a key food — endangered by lead in gut piles."
+      }
+    ],
+    "image": {
+      "src": "/arten/rotmilan.jpg",
+      "author": "(c) Dr. Sven Gippner, some rights reserved (CC BY), uploaded by Dr. Sven Gippner",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sourceUrl": "https://www.inaturalist.org/photos/385450468"
+    }
+  },
+  {
+    "id": "wanderfalke",
+    "nameDe": "Wanderfalke",
+    "nameEn": "Peregrine falcon",
+    "latin": "Falco peregrinus",
+    "group": "greifvoegel",
+    "lessonId": "greifvoegel",
+    "seasonDe": "Ganzjährig geschont (Greifvögel haben keine Jagdzeit)",
+    "seasonEn": "Protected all year (birds of prey have no season)",
+    "facts": [
+      {
+        "key": "kennzeichen",
+        "de": "Kompakter Falke mit spitzen Flügeln, schwarzem »Bartstreif« und quergebänderter Unterseite.",
+        "en": "Compact falcon with pointed wings, black moustache stripe and barred underside."
+      },
+      {
+        "key": "groesse",
+        "de": "Weib etwa 1 kg, Terzel etwa 0,6 kg.",
+        "en": "Female about 1 kg, male about 0.6 kg."
+      },
+      {
+        "key": "lebensraum",
+        "de": "Felsen, hohe Bauwerke.",
+        "en": "Cliffs, tall buildings."
+      },
+      {
+        "key": "nahrung",
+        "de": "Vögel, die er im Sturzflug in der Luft schlägt.",
+        "en": "Birds, caught in the air in a stoop."
+      },
+      {
+        "key": "fortpflanzung",
+        "de": "Brütet in Felsnischen und an Gebäuden.",
+        "en": "Nests on cliff ledges and buildings."
+      },
+      {
+        "key": "jaegersprache",
+        "de": "Falke, Terzel; Falkenzahn.",
+        "en": "Falcon, male (Terzel); falcon tooth."
+      },
+      {
+        "key": "pruefung",
+        "de": "Tötet mit Biss ins Genick (Falkenzahn); schlägt nur im Flug.",
+        "en": "Kills with a bite to the neck (falcon tooth); catches prey only in flight."
+      }
+    ],
+    "image": {
+      "src": "/arten/wanderfalke.jpg",
+      "author": "(c) nautiboy, some rights reserved (CC BY-NC)",
+      "license": "CC BY-NC 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "sourceUrl": "https://www.inaturalist.org/photos/212499566"
+    }
+  },
+  {
+    "id": "turmfalke",
+    "nameDe": "Turmfalke",
+    "nameEn": "Common kestrel",
+    "latin": "Falco tinnunculus",
+    "group": "greifvoegel",
+    "lessonId": "greifvoegel",
+    "seasonDe": "Ganzjährig geschont (Greifvögel haben keine Jagdzeit)",
+    "seasonEn": "Protected all year (birds of prey have no season)",
+    "facts": [
+      {
+        "key": "kennzeichen",
+        "de": "Kleiner Falke mit rotbraunem, dunkel geflecktem Rücken und langem Schwanz; Männchen mit grauem Kopf.",
+        "en": "Small falcon with red-brown, dark-spotted back and long tail; male with grey head."
+      },
+      {
+        "key": "groesse",
+        "de": "Etwa 150–300 g.",
+        "en": "About 150–300 g."
+      },
+      {
+        "key": "lebensraum",
+        "de": "Offene Landschaft, auch Städte (Kirchtürme).",
+        "en": "Open countryside, also towns (church towers)."
+      },
+      {
+        "key": "nahrung",
+        "de": "Vor allem Mäuse.",
+        "en": "Mainly mice."
+      },
+      {
+        "key": "fortpflanzung",
+        "de": "Nischen- und Gebäudebrüter, auch in alten Krähennestern.",
+        "en": "Nests in niches and buildings, also old crow nests."
+      },
+      {
+        "key": "jaegersprache",
+        "de": "Rüttelfalke.",
+        "en": "Also called hovering falcon (Rüttelfalke)."
+      },
+      {
+        "key": "pruefung",
+        "de": "Typisch ist das Rütteln; schlägt seine Beute am Boden.",
+        "en": "Hovering is typical; takes prey on the ground."
+      }
+    ],
+    "image": {
+      "src": "/arten/turmfalke.jpg",
+      "author": "(c) Manuel Raab, some rights reserved (CC BY-NC), uploaded by Manuel Raab",
+      "license": "CC BY-NC 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "sourceUrl": "https://www.inaturalist.org/photos/598044895"
+    }
+  },
+  {
+    "id": "steinadler",
+    "nameDe": "Steinadler",
+    "nameEn": "Golden eagle",
+    "latin": "Aquila chrysaetos",
+    "group": "greifvoegel",
+    "lessonId": "greifvoegel",
+    "seasonDe": "Ganzjährig geschont (Greifvögel haben keine Jagdzeit)",
+    "seasonEn": "Protected all year (birds of prey have no season)",
+    "facts": [
+      {
+        "key": "kennzeichen",
+        "de": "Sehr großer, dunkelbrauner Adler mit goldbraunem Nacken; Spannweite bis 2,2 m.",
+        "en": "Very large dark-brown eagle with a golden nape; wingspan up to 2.2 m."
+      },
+      {
+        "key": "groesse",
+        "de": "Etwa 3–6,5 kg.",
+        "en": "About 3–6.5 kg."
+      },
+      {
+        "key": "lebensraum",
+        "de": "Alpen.",
+        "en": "The Alps."
+      },
+      {
+        "key": "nahrung",
+        "de": "Murmeltiere, Hasen, Raufußhühner, junge Gämsen, Aas.",
+        "en": "Marmots, hares, grouse, young chamois, carrion."
+      },
+      {
+        "key": "fortpflanzung",
+        "de": "Horst in Felswänden; beide Eltern versorgen die Jungen.",
+        "en": "Nest on cliffs; both parents rear the young."
+      },
+      {
+        "key": "jaegersprache",
+        "de": "Adler; Fänge.",
+        "en": "Eagle; talons (Fänge)."
+      },
+      {
+        "key": "pruefung",
+        "de": "Zählt traditionell zum Hochwild; Grifftöter.",
+        "en": "Traditionally counted as high game; kills with its talons."
+      }
+    ],
+    "image": {
+      "src": "/arten/steinadler.jpg",
+      "author": "(c) Jef-B, some rights reserved (CC BY-NC), uploaded by Jef-B",
+      "license": "CC BY-NC 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "sourceUrl": "https://www.inaturalist.org/photos/465326450"
+    }
+  },
+  {
+    "id": "rabenkraehe",
+    "nameDe": "Rabenkrähe",
+    "nameEn": "Carrion crow",
+    "latin": "Corvus corone",
+    "group": "rabenvoegel",
+    "lessonId": "rabenvoegel",
+    "seasonDe": "16.7.–14.3.",
+    "seasonEn": "16 Jul – 14 Mar",
+    "facts": [
+      {
+        "key": "kennzeichen",
+        "de": "Ganz schwarz, kräftiger schwarzer Schnabel mit befiederter Schnabelwurzel (anders als die Saatkrähe).",
+        "en": "All black, strong black bill with a feathered base (unlike the rook)."
+      },
+      {
+        "key": "groesse",
+        "de": "Etwa 400–600 g.",
+        "en": "About 400–600 g."
+      },
+      {
+        "key": "lebensraum",
+        "de": "Offene, gegliederte Landschaft; meidet große geschlossene Wälder.",
+        "en": "Open, varied landscape; avoids large closed forests."
+      },
+      {
+        "key": "nahrung",
+        "de": "Allesfresser, auch Gelege und Jungvögel.",
+        "en": "Omnivore, including eggs and nestlings."
+      },
+      {
+        "key": "fortpflanzung",
+        "de": "Baumbrüter.",
+        "en": "Tree nester."
+      },
+      {
+        "key": "jaegersprache",
+        "de": "Krähe.",
+        "en": "Crow."
+      },
+      {
+        "key": "pruefung",
+        "de": "Singvogel; Rabenvögel sind sehr anpassungsfähig.",
+        "en": "A songbird; corvids are highly adaptable."
+      }
+    ],
+    "image": {
+      "src": "/arten/rabenkraehe.jpg",
+      "author": "(c) Eidiu, some rights reserved (CC BY-NC), uploaded by Eidiu",
+      "license": "CC BY-NC 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "sourceUrl": "https://www.inaturalist.org/photos/451700759"
+    }
+  },
+  {
+    "id": "elster",
+    "nameDe": "Elster",
+    "nameEn": "Eurasian magpie",
+    "latin": "Pica pica",
+    "group": "rabenvoegel",
+    "lessonId": "rabenvoegel",
+    "seasonDe": "16.7.–14.3.",
+    "seasonEn": "16 Jul – 14 Mar",
+    "facts": [
+      {
+        "key": "kennzeichen",
+        "de": "Schwarz-weiß mit langem, grün-blau schillerndem Schwanz.",
+        "en": "Black and white with a long, green-blue iridescent tail."
+      },
+      {
+        "key": "groesse",
+        "de": "Etwa 200–250 g.",
+        "en": "About 200–250 g."
+      },
+      {
+        "key": "lebensraum",
+        "de": "Offenes Land mit Hecken, Siedlungen.",
+        "en": "Open land with hedges, settlements."
+      },
+      {
+        "key": "nahrung",
+        "de": "Allesfresser, auch Eier und Jungvögel.",
+        "en": "Omnivore, including eggs and nestlings."
+      },
+      {
+        "key": "fortpflanzung",
+        "de": "Überdachtes Nest in Bäumen und Hecken.",
+        "en": "Domed nest in trees and hedges."
+      },
+      {
+        "key": "jaegersprache",
+        "de": "Elster.",
+        "en": "Magpie."
+      },
+      {
+        "key": "pruefung",
+        "de": "Rabenvogel und Singvogel.",
+        "en": "A corvid and a songbird."
+      }
+    ],
+    "image": {
+      "src": "/arten/elster.jpg",
+      "author": "(c) Agustín Povedano, some rights reserved (CC BY-NC-SA)",
+      "license": "CC BY-NC-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "sourceUrl": "https://www.inaturalist.org/photos/103446096"
+    }
+  },
+  {
+    "id": "eichelhaeher",
+    "nameDe": "Eichelhäher",
+    "nameEn": "Eurasian jay",
+    "latin": "Garrulus glandarius",
+    "group": "rabenvoegel",
+    "lessonId": "rabenvoegel",
+    "seasonDe": "16.7.–14.3.",
+    "seasonEn": "16 Jul – 14 Mar",
+    "facts": [
+      {
+        "key": "kennzeichen",
+        "de": "Rötlich-braun mit blau-schwarz gebänderten Flügelfedern, weißem Bürzel; warnt laut rätschend.",
+        "en": "Pinkish-brown with blue-and-black barred wing feathers, white rump; gives a loud, harsh alarm call."
+      },
+      {
+        "key": "groesse",
+        "de": "Etwa 150–190 g.",
+        "en": "About 150–190 g."
+      },
+      {
+        "key": "lebensraum",
+        "de": "Laub- und Mischwälder.",
+        "en": "Broadleaf and mixed forests."
+      },
+      {
+        "key": "nahrung",
+        "de": "Eicheln, Bucheckern, Insekten, Eier.",
+        "en": "Acorns, beechnuts, insects, eggs."
+      },
+      {
+        "key": "fortpflanzung",
+        "de": "Baumbrüter.",
+        "en": "Tree nester."
+      },
+      {
+        "key": "jaegersprache",
+        "de": "Häher; »Polizist des Waldes« wegen seines Warnrufs.",
+        "en": "Jay; called the forest's policeman because of its alarm call."
+      },
+      {
+        "key": "pruefung",
+        "de": "Versteckt Eicheln und Bucheckern – fördert so die Waldverjüngung (Hähersaat).",
+        "en": "Hides acorns and beechnuts — helping forest regeneration (jay sowing)."
+      }
+    ],
+    "image": {
+      "src": "/arten/eichelhaeher.jpg",
+      "author": "(c) Luc Viatour, some rights reserved (CC BY-SA)",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "sourceUrl": "https://www.inaturalist.org/photos/168146456"
+    }
+  },
+  {
+    "id": "kolkrabe",
+    "nameDe": "Kolkrabe",
+    "nameEn": "Common raven",
+    "latin": "Corvus corax",
+    "group": "rabenvoegel",
+    "lessonId": "rabenvoegel",
+    "seasonDe": "Keine Jagdzeit",
+    "seasonEn": "No open season",
+    "facts": [
+      {
+        "key": "kennzeichen",
+        "de": "Sehr groß, ganz schwarz, mächtiger Schnabel, keilförmiger Schwanz im Flug; tiefer Ruf »krok«.",
+        "en": "Very large, all black, massive bill, wedge-shaped tail in flight; deep “kronk” call."
+      },
+      {
+        "key": "groesse",
+        "de": "Etwa 1–1,5 kg.",
+        "en": "About 1–1.5 kg."
+      },
+      {
+        "key": "lebensraum",
+        "de": "Gebirge, große Wälder, offene Landschaft.",
+        "en": "Mountains, large forests, open country."
+      },
+      {
+        "key": "nahrung",
+        "de": "Allesfresser, viel Aas.",
+        "en": "Omnivore, much carrion."
+      },
+      {
+        "key": "fortpflanzung",
+        "de": "Brütet sehr früh im Jahr auf Bäumen oder Felsen.",
+        "en": "Nests very early in the year in trees or on cliffs."
+      },
+      {
+        "key": "jaegersprache",
+        "de": "Rabe.",
+        "en": "Raven."
+      },
+      {
+        "key": "pruefung",
+        "de": "Größter Singvogel Bayerns; unterliegt dem Jagdrecht, hat aber keine Jagdzeit.",
+        "en": "Largest songbird in Bavaria; subject to hunting law but no season."
+      }
+    ],
+    "image": {
+      "src": "/arten/kolkrabe.jpg",
+      "author": "(c) arbyreed, some rights reserved (CC BY-NC-SA)",
+      "license": "CC BY-NC-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "sourceUrl": "https://www.inaturalist.org/photos/54389687"
+    }
+  },
+  {
+    "id": "ringeltaube",
+    "nameDe": "Ringeltaube",
+    "nameEn": "Common wood pigeon",
+    "latin": "Columba palumbus",
+    "group": "tauben-schnepfe",
+    "lessonId": "tauben-und-schnepfe",
+    "seasonDe": "1.11.–20.2. (Schadensabwehr zusätzlich)",
+    "seasonEn": "1 Nov – 20 Feb (plus damage control)",
+    "facts": [
+      {
+        "key": "kennzeichen",
+        "de": "Größte heimische Taube; grau mit weißem Halsfleck (bei Altvögeln) und weißem Flügelband im Flug.",
+        "en": "Largest native pigeon; grey with a white neck patch (adults) and a white wing bar in flight."
+      },
+      {
+        "key": "groesse",
+        "de": "Etwa 450–550 g.",
+        "en": "About 450–550 g."
+      },
+      {
+        "key": "lebensraum",
+        "de": "Wälder, Feldgehölze, Parks.",
+        "en": "Forests, copses, parks."
+      },
+      {
+        "key": "nahrung",
+        "de": "Sämereien, Feldfrüchte, Knospen.",
+        "en": "Seeds, crops, buds."
+      },
+      {
+        "key": "fortpflanzung",
+        "de": "Mehrere Bruten im Jahr mit je zwei Eiern; beide Eltern brüten und füttern Kropfmilch.",
+        "en": "Several broods a year of two eggs each; both parents incubate and feed crop milk."
+      },
+      {
+        "key": "jaegersprache",
+        "de": "Tauber, Täubin.",
+        "en": "Male (Tauber), female (Täubin)."
+      },
+      {
+        "key": "pruefung",
+        "de": "Jungtauben fehlt der weiße Halsfleck; Schadensabwehr an Trupps auf Äckern auch außerhalb der Jagdzeit erlaubt.",
+        "en": "Young birds lack the white neck patch; damage control of flocks on fields allowed outside the season too."
+      }
+    ],
+    "image": {
+      "src": "/arten/ringeltaube.jpg",
+      "author": "(c) hedera.baltica, some rights reserved (CC BY-SA)",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "sourceUrl": "https://www.inaturalist.org/photos/108521205"
+    }
+  },
+  {
+    "id": "tuerkentaube",
+    "nameDe": "Türkentaube",
+    "nameEn": "Eurasian collared dove",
+    "latin": "Streptopelia decaocto",
+    "group": "tauben-schnepfe",
+    "lessonId": "tauben-und-schnepfe",
+    "seasonDe": "1.11.–20.2.",
+    "seasonEn": "1 Nov – 20 Feb",
+    "facts": [
+      {
+        "key": "kennzeichen",
+        "de": "Hell sandfarben mit schwarzem Nackenband.",
+        "en": "Pale sandy-coloured with a black half-collar."
+      },
+      {
+        "key": "groesse",
+        "de": "Etwa 150–200 g.",
+        "en": "About 150–200 g."
+      },
+      {
+        "key": "lebensraum",
+        "de": "Siedlungen, Gärten.",
+        "en": "Settlements, gardens."
+      },
+      {
+        "key": "nahrung",
+        "de": "Sämereien.",
+        "en": "Seeds."
+      },
+      {
+        "key": "fortpflanzung",
+        "de": "Mehrere Bruten; beide Eltern füttern.",
+        "en": "Several broods; both parents feed."
+      },
+      {
+        "key": "jaegersprache",
+        "de": "Tauber, Täubin.",
+        "en": "Male, female."
+      },
+      {
+        "key": "pruefung",
+        "de": "Gleiche Jagdzeit wie die Ringeltaube.",
+        "en": "Same season as the wood pigeon."
+      }
+    ],
+    "image": {
+      "src": "/arten/tuerkentaube.jpg",
+      "author": "(c) mattecasti, some rights reserved (CC BY-NC)",
+      "license": "CC BY-NC 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "sourceUrl": "https://www.inaturalist.org/photos/100117501"
+    }
+  },
+  {
+    "id": "hohltaube",
+    "nameDe": "Hohltaube",
+    "nameEn": "Stock dove",
+    "latin": "Columba oenas",
+    "group": "tauben-schnepfe",
+    "lessonId": "tauben-und-schnepfe",
+    "seasonDe": "Keine Jagdzeit",
+    "seasonEn": "No open season",
+    "facts": [
+      {
+        "key": "kennzeichen",
+        "de": "Blaugrau, kleiner als die Ringeltaube, ohne weißen Halsfleck und ohne weißes Flügelband.",
+        "en": "Blue-grey, smaller than the wood pigeon, without white neck patch or white wing bar."
+      },
+      {
+        "key": "groesse",
+        "de": "Etwa 250–350 g.",
+        "en": "About 250–350 g."
+      },
+      {
+        "key": "lebensraum",
+        "de": "Alte Buchenwälder.",
+        "en": "Old beech forests."
+      },
+      {
+        "key": "nahrung",
+        "de": "Sämereien.",
+        "en": "Seeds."
+      },
+      {
+        "key": "fortpflanzung",
+        "de": "Höhlenbrüter, vor allem in alten Schwarzspechthöhlen.",
+        "en": "Cavity nester, especially in old black woodpecker holes."
+      },
+      {
+        "key": "jaegersprache",
+        "de": "Tauber, Täubin.",
+        "en": "Male, female."
+      },
+      {
+        "key": "pruefung",
+        "de": "Unterliegt dem Jagdrecht, hat aber keine Jagdzeit.",
+        "en": "Subject to hunting law but no season."
+      }
+    ],
+    "image": {
+      "src": "/arten/hohltaube.jpg",
+      "author": "(c) Paul Lewis, some rights reserved (CC BY), uploaded by Paul Lewis",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sourceUrl": "https://www.inaturalist.org/photos/119807269"
+    }
+  },
+  {
+    "id": "waldschnepfe",
+    "nameDe": "Waldschnepfe",
+    "nameEn": "Eurasian woodcock",
+    "latin": "Scolopax rusticola",
+    "group": "tauben-schnepfe",
+    "lessonId": "tauben-und-schnepfe",
+    "seasonDe": "16.10.–15.1.",
+    "seasonEn": "16 Oct – 15 Jan",
+    "facts": [
+      {
+        "key": "kennzeichen",
+        "de": "Laubbraun getarnt, langer gerader Schnabel, große, weit hinten liegende Augen; Hahn und Henne gleich gefärbt.",
+        "en": "Leaf-brown camouflage, long straight bill, large eyes set far back; male and female look alike."
+      },
+      {
+        "key": "groesse",
+        "de": "Etwa 250–400 g.",
+        "en": "About 250–400 g."
+      },
+      {
+        "key": "lebensraum",
+        "de": "Feuchte Mischwälder mit Erlenbrüchen.",
+        "en": "Damp mixed forests with alder swamps."
+      },
+      {
+        "key": "nahrung",
+        "de": "Regenwürmer, Insektenlarven – stochert im weichen Boden.",
+        "en": "Earthworms, larvae — probes in soft ground."
+      },
+      {
+        "key": "fortpflanzung",
+        "de": "Bodenbrüter; vier braun gefleckte Eier in einer Mulde.",
+        "en": "Ground nester; four brown-speckled eggs in a hollow."
+      },
+      {
+        "key": "jaegersprache",
+        "de": "Schnepfe; Schnepfenstrich (Balzflug); Malerfeder (Schnepfenbart).",
+        "en": "Woodcock; roding (display flight, Schnepfenstrich); pin feather (Malerfeder)."
+      },
+      {
+        "key": "pruefung",
+        "de": "Überwiegend Zugvogel; kein Frühjahrsstrich – Jagdzeit nur im Herbst/Winter.",
+        "en": "Mainly migratory; no spring shooting — season only in autumn/winter."
+      }
+    ],
+    "image": {
+      "src": "/arten/waldschnepfe.jpg",
+      "author": "(c) Roberto Ghiglia, some rights reserved (CC BY-NC), uploaded by Roberto Ghiglia",
+      "license": "CC BY-NC 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "sourceUrl": "https://www.inaturalist.org/photos/64987854"
+    }
+  }
+]

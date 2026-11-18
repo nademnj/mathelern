@@ -1,7 +1,8 @@
 import Anthropic from "@anthropic-ai/sdk";
 import { z } from "zod";
 import { FALLBACK_BETA, MODEL, getClient, hasApiKey } from "@/lib/claude";
-import { getSection } from "@/lib/content/store";
+import { getSection, getSpecies, listOral } from "@/lib/content/store";
+import { FACT_LABELS } from "@/lib/content/schema";
 
 const bodySchema = z.object({
   messages: z
@@ -22,7 +23,19 @@ const bodySchema = z.object({
     .optional(),
   /** Which paragraph the learner clicked "Explain" on. */
   focusParagraph: z.string().max(4000).optional(),
+  speciesId: z.string().max(60).optional(),
+  mode: z.enum(["tutor", "examiner"]).optional(),
+  oralSectionId: z.string().max(60).optional(),
 });
+
+const EXAMINER = `You are a friendly but thorough examiner in the oral part of the Bavarian hunting licence exam (mündliche Jägerprüfung, JFPO § 13). The candidate is an English speaker who must answer in German in the real exam.
+
+How to run the session:
+- Ask ONE question at a time, in German, followed by an English translation in brackets. Prefer questions from the question bank below, in a varied order; you may ask natural follow-up questions like a real examiner ("Und warum?", "Woran erkennen Sie das?").
+- After each answer: say briefly what was right, what was missing or wrong (compare with the key points), and give a model answer in simple German that the candidate could say in the exam, with an English translation. Then ask the next question.
+- If the candidate answers in English, accept it, but show how to say it in German.
+- Keep each turn short. Do not reveal the key points before the candidate has answered.
+- When the candidate writes "Ende" / "stop" / "finish", or after about 8 questions, end with an overall assessment using the official scale (ausreichend / mangelhaft / ungenügend) and list the topics to revise.`;
 
 const SYSTEM = `You are a patient tutor helping an English-speaking learner prepare for the German hunting licence exam (Jägerprüfung). The learner reads German study material with an English translation beside it.
 
@@ -39,7 +52,7 @@ export async function POST(req: Request) {
   }
   const parsed = bodySchema.safeParse(await req.json().catch(() => null));
   if (!parsed.success) return new Response("Bad request", { status: 400 });
-  const { messages, sectionId, lessonId, quizQuestion, focusParagraph } = parsed.data;
+  const { messages, sectionId, lessonId, quizQuestion, focusParagraph, speciesId, mode, oralSectionId } = parsed.data;
   if (messages[0].role !== "user") return new Response("Bad request", { status: 400 });
 
   // Context is looked up on the server, so the client can't inject a fake lesson.
@@ -55,6 +68,20 @@ export async function POST(req: Request) {
       }
     }
   }
+  if (speciesId) {
+    const sp = await getSpecies(speciesId);
+    if (sp) {
+      context += `\n\nThe learner is looking at the species profile "${sp.nameDe}" (${sp.nameEn}, ${sp.latin}). Open season in Bavaria: ${sp.seasonDe}.\n`;
+      context += sp.facts.map((f) => `- ${FACT_LABELS[f.key].de}: ${f.de}`).join("\n");
+    }
+  }
+  if (mode === "examiner") {
+    const oral = (await listOral()).find((o) => o.sectionId === (oralSectionId ?? sectionId));
+    if (oral) {
+      context += `\n\nQuestion bank for this subject area (key points after "=>"):\n`;
+      context += oral.items.map((i) => `- ${i.questionDe} => ${i.answerDe.join("; ")}`).join("\n");
+    }
+  }
   if (focusParagraph) context += `\n\nThe learner selected this passage to ask about:\n"${focusParagraph}"`;
   if (quizQuestion) {
     context += `\n\nQuiz question on screen: ${quizQuestion.questionDe}\nOptions:\n${quizQuestion.options
@@ -66,12 +93,12 @@ export async function POST(req: Request) {
   const stream = client.beta.messages.stream(
     {
       model: MODEL,
-      max_tokens: 4000,
+      max_tokens: mode === "examiner" ? 6000 : 4000,
       betas: [FALLBACK_BETA],
       fallbacks: "default",
       output_config: { effort: "low" },
       system: [
-        { type: "text", text: SYSTEM, cache_control: { type: "ephemeral" } },
+        { type: "text", text: mode === "examiner" ? EXAMINER : SYSTEM, cache_control: { type: "ephemeral" } },
         ...(context ? [{ type: "text" as const, text: context }] : []),
       ],
       messages: messages as Anthropic.Beta.BetaMessageParam[],

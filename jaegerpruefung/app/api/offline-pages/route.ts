@@ -1,6 +1,6 @@
 import { promises as fs } from "node:fs";
 import path from "node:path";
-import { listSections } from "@/lib/content/store";
+import { listSections, listSpecies } from "@/lib/content/store";
 
 /**
  * Every page the service worker should keep on the device, plus a version
@@ -9,7 +9,8 @@ import { listSections } from "@/lib/content/store";
  */
 export async function GET() {
   const sections = await listSections();
-  const pages = ["/", "/quiz/all", "/pruefung"];
+  const pages = ["/", "/quiz/all", "/pruefung", "/muendlich", "/arten"];
+  const assets: string[] = [];
   const stamps: string[] = [];
   for (const s of sections) {
     pages.push(`/section/${s.id}`, `/quiz/${s.id}`);
@@ -20,11 +21,16 @@ export async function GET() {
     stamps.push(`${s.id}~${s.catalogTopics.map((t) => t.lessonIds.join("+")).join("/")}`);
     stamps.push(`${s.id}#${s.quiz.length}:${s.quiz.map((q) => q.id).join(",").length}`);
   }
+  for (const sp of await listSpecies()) {
+    pages.push(`/arten/${sp.id}`);
+    if (sp.image) assets.push(sp.image.src);
+    stamps.push(`${sp.id}:${sp.facts.length}:${sp.image?.src ?? ""}`);
+  }
   // A new deploy changes the script files every page needs, so it must also
   // trigger a fresh download.
   const buildId = await fs.readFile(path.join(process.cwd(), ".next", "BUILD_ID"), "utf8").catch(() => "dev");
   const version = await sha1(`${buildId.trim()}|${stamps.join("|")}`);
-  return Response.json({ version, pages }, { headers: { "Cache-Control": "no-store" } });
+  return Response.json({ version, pages, assets }, { headers: { "Cache-Control": "no-store" } });
 }
 
 async function sha1(text: string): Promise<string> {

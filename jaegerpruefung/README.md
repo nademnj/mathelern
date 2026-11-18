@@ -21,6 +21,12 @@ npm run dev                        # http://localhost:3100
 
 Lessons and quizzes work without a key. The tutor chat and the agent need `ANTHROPIC_API_KEY`.
 
+## Animal guide and oral exam
+
+- **Animal guide (`/arten`)**: 59 game species, each with a photo and a German/English fact sheet: identification, size, habitat, food, reproduction, hunters' vocabulary, an exam tip, and its Bavarian open season (from § 19 AVBayJG). In "Identify mode" the names are hidden, which is good practice for the specimens shown in the oral exam. Data: `content/species.json`. Photos: `public/arten/`.
+- **Photo credits**: the photos come from iNaturalist and are under Creative Commons licences (CC0, BY, BY-SA, BY-NC or BY-NC-SA). The photographer and licence are shown under every photo. Several are licensed **non-commercial**, so if the app is ever used commercially, those photos must be replaced.
+- **Oral exam (`/muendlich`)**: 49 typical examiner questions across the six subject areas, with model answers in German and English, flashcards with self-rating, and an **AI examiner**. The examiner asks one question at a time in German, gives feedback and a model answer, and ends with a rating on the official scale. You can answer by voice with the 🎤 button (browser speech recognition, German or English). Data: `content/oral.json`. Bavaria publishes no official oral question list; the questions follow § 13 JFPO and the catalogue topics.
+
 ## Putting it on your phone
 
 The app is a Progressive Web App (PWA): you can install it on your home screen, it opens full-screen like a normal app, and **all lessons and quizzes are saved on the phone**, so they work without internet. Your progress is also stored on the phone. Only the tutor chat needs a connection.

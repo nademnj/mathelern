@@ -28,9 +28,11 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
               <span aria-hidden className="text-xl">🦌</span>
               Jägerprüfung Trainer
             </Link>
-            <div className="flex gap-4 text-sm text-muted">
+            <div className="-mx-4 flex w-[calc(100%+2rem)] gap-4 overflow-x-auto whitespace-nowrap px-4 text-sm text-muted sm:mx-0 sm:w-auto sm:px-0">
               <Link href="/" className="hover:text-text">Sections</Link>
+              <Link href="/arten" className="hover:text-text">Animals</Link>
               <Link href="/quiz/all" className="hover:text-text">Mock exam</Link>
+              <Link href="/muendlich" className="hover:text-text">Oral exam</Link>
               <Link href="/pruefung" className="hover:text-text">The exam</Link>
               <Link href="/agent" className="hover:text-text">Collector agent</Link>
             </div>

@@ -67,3 +67,22 @@ export function saveQuizQuestions(sectionId: string, questions: QuizQuestion[]):
     return updated;
   });
 }
+
+// ---- Species and oral exam -----------------------------------------------------
+import { oralSectionSchema, speciesSchema, type OralSection, type Species } from "./schema";
+
+const ROOT_CONTENT = path.join(process.cwd(), "content");
+
+export async function listSpecies(): Promise<Species[]> {
+  const raw = JSON.parse(await fs.readFile(path.join(ROOT_CONTENT, "species.json"), "utf8"));
+  return speciesSchema.array().parse(raw);
+}
+
+export async function getSpecies(id: string): Promise<Species | null> {
+  return (await listSpecies()).find((s) => s.id === id) ?? null;
+}
+
+export async function listOral(): Promise<OralSection[]> {
+  const raw = JSON.parse(await fs.readFile(path.join(ROOT_CONTENT, "oral.json"), "utf8"));
+  return oralSectionSchema.array().parse(raw);
+}

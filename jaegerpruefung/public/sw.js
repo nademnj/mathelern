@@ -1,5 +1,5 @@
 /* Service worker for the Jägerprüfung Trainer: keeps lessons and quizzes on the device. */
-const PAGES = "jagd-pages-v1";
+const PAGES = "jagd-pages-v2";
 const ASSETS = "jagd-assets-v1";
 const META = "jagd-meta-v1";
 
@@ -76,7 +76,7 @@ async function doSync(force) {
     await broadcast({ type: "offline-status", state: "syncing", done, total: list.pages.length });
   }
 
-  for (const url of ["/manifest.webmanifest", "/icon-192.png", "/icon-512.png", "/apple-icon.png", ...assetUrls]) {
+  for (const url of ["/manifest.webmanifest", "/icon-192.png", "/icon-512.png", "/apple-icon.png", ...(list.assets || []), ...assetUrls]) {
     if (await assets.match(url)) continue;
     try {
       const res = await fetch(url);
