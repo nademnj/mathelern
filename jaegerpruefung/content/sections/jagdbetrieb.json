@@ -59,7 +59,10 @@
       "officialQuestions": 87,
       "lessonIds": [
         "jagdarten",
-        "sicherheit-bei-der-jagd"
+        "sicherheit-bei-der-jagd",
+        "ansprechen",
+        "jagdarten-im-detail",
+        "schusszeichen-und-verhalten"
       ]
     },
     {
@@ -68,7 +71,8 @@
       "titleEn": "Handling shot game, meat hygiene",
       "officialQuestions": 26,
       "lessonIds": [
-        "versorgung-erlegtes-wild"
+        "versorgung-erlegtes-wild",
+        "aufbrechen-in-der-praxis"
       ]
     },
     {
@@ -560,6 +564,213 @@
       "updatedAt": "2026-11-12"
     },
     {
+      "id": "ansprechen",
+      "titleDe": "Ansprechen: Geschlecht und Alter erkennen",
+      "titleEn": "Identifying game: sex and age",
+      "paragraphs": [
+        {
+          "de": "Ansprechen heißt, vor dem Schuss Wildart, Geschlecht, Alter und Verfassung sicher zu bestimmen. Eine führende Rehgeiß erkennt man im Juni zweifelsfrei am Gesäuge (der »Spinne«), ein führendes Alttier im Juli ebenfalls am Gesäuge. Ende November kann man bei einem einzeln äsenden weiblichen Reh nicht eindeutig feststellen, ob es ein Schmalreh oder eine Geiß ist. Im Winter unterscheidet man den Bock von der Geiß sicher am Pinsel (Haarbüschel am Brunftglied) und am Kurzwildbret (Hoden).",
+          "en": "Ansprechen means identifying species, sex, age and condition with certainty before the shot. A doe with a kid is identified beyond doubt in June by her udder (the “Spinne”); a red deer hind with a calf in July likewise by her udder. At the end of November you cannot tell for certain whether a single feeding female roe deer is a yearling or an adult doe. In winter a buck is reliably told from a doe by the penis tuft (Pinsel) and the testicles (Kurzwildbret)."
+        },
+        {
+          "de": "Sind eine alte Geiß und ihr schwaches Kitz zu erlegen, schießt man zuerst das Kitz, dann die Geiß – nie umgekehrt, sonst bleibt ein verwaistes Kitz zurück. Aus einem Rotwildverband darf das Alttier nicht erlegt werden, solange man das Kalb nicht sicher sieht. Ein zu Beginn der Jagdzeit fast verfärbter Bock mit unverfegten, lauscherhohen Spießen ist ein Jährling. Ende November ist von zwei gleich starken männlichen Rehen dasjenige mit unverfegten Knöpfen das Bockkitz.",
+          "en": "If an old doe and her weak kid are to be shot, shoot the kid first, then the doe — never the other way round, or an orphaned kid is left behind. A hind must not be shot from a red deer family group as long as you cannot clearly see the calf. A buck that has almost finished its coat change at the start of the season and carries spikes still in velvet, as high as its ears, is a yearling. At the end of November, of two equally strong male roe deer the one with unfrayed buttons is the buck kid."
+        },
+        {
+          "de": "Beim Schwarzwild deuten im Frühjahr verzögerter Haarwechsel und sichtbare Zitzen (Striche) auf eine führende Bache. Im Winter haben Frischlinge braunes Winterhaar und einen kurzen Pürzel ohne Quaste. Einen alten Gamsbock erkennt man an herunterhängenden Pinselhaaren und stark gehakelten Krucken. Bei Gams-, Stein- und Muffelwild lässt sich das Alter an der Trophäe besser bestimmen als an der Zahnabnutzung.",
+          "en": "In wild boar, delayed coat change and visible teats in spring suggest a sow with piglets. In winter, piglets have a brown winter coat and a short tail without a tassel. An old chamois buck shows hanging tuft hairs (Pinsel) and strongly hooked horns. In chamois, ibex and mouflon, age is better judged from the horns than from tooth wear."
+        },
+        {
+          "de": "Federwild und Niederwild: Fasanenhahn und -henne sowie Erpel und Ente unterscheidet man im Flug am Gefieder – den Erpel ab etwa Mitte Oktober, wenn er sein Prachtkleid trägt; im Schlichtkleid ist er nur am Schnabel sicher zu erkennen. Ältere Fasanenhähne erkennt man am Sporn, junge Stockenten an dunklen Latschen (Füßen), ältere Rebhühner an grauen Ständern. Beim Feldhasen und Schneehasen hilft das Stroh'sche Zeichen – ein Knötchen an den Vorderläufen junger Hasen – bei der Altersschätzung.",
+          "en": "Feathered and small game: cock and hen pheasant, and drake and duck, are told apart in flight by plumage — the drake from about mid-October, when he wears breeding plumage; in eclipse plumage he can only be told reliably by his bill. Older cock pheasants are recognised by their spurs, young mallards by dark feet, older partridges by grey legs. In brown and mountain hares, Stroh's sign — a small knob on the forelegs of young hares — helps estimate age."
+        }
+      ],
+      "keyTerms": [
+        {
+          "de": "ansprechen",
+          "en": "to identify game before shooting"
+        },
+        {
+          "de": "Spinne",
+          "en": "udder of a nursing doe"
+        },
+        {
+          "de": "Pinsel",
+          "en": "penis tuft (roe buck) / hair tufts (chamois)"
+        },
+        {
+          "de": "Kurzwildbret",
+          "en": "testicles"
+        },
+        {
+          "de": "Pürzel",
+          "en": "tail of wild boar"
+        },
+        {
+          "de": "Prachtkleid / Schlichtkleid",
+          "en": "breeding / eclipse plumage"
+        },
+        {
+          "de": "Stroh'sches Zeichen",
+          "en": "Stroh's sign (age mark on hare's foreleg)"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Fragenkatalog zur Jägerprüfung in Bayern – Landesamt für Maß und Gewicht",
+          "url": "https://www.lmg.bayern.de/aufgaben_leistungen/jaegerpruefung/index.html"
+        }
+      ],
+      "origin": "seed",
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "jagdarten-im-detail",
+      "titleDe": "Jagdarten im Detail: Lockjagd, Treibjagden, Baujagd",
+      "titleEn": "Hunting methods in detail: calling, drives, den hunting",
+      "paragraphs": [
+        {
+          "de": "Bei der Lockjagd ahmt der Jäger Laute nach: beim Rehwild die Stimme der Geiß (Fiepton, Angstgeschrei) – das Blatten –, beim Rotwild und Gamswild die des männlichen Wildes. Einen vorbeischnürenden Fuchs lockt man am besten mit der Mauspfeife heran. Ziehendes Rehwild bringt man durch kurzes Anpfeifen oder Fiepen zum Verhoffen (Stehenbleiben), Rotwild durch Mahnen. Eine lebhafte Hirschbrunft gibt es vor allem bei kaltem, klarem Wetter; die Pirsch verspricht nach Regen den besten Erfolg, weil der Boden leise ist.",
+          "en": "In calling (Lockjagd) the hunter imitates sounds: for roe deer the doe's voice (contact call, distress call) — called Blatten —, for red deer and chamois the male's voice. A fox trotting past is best called in with a mouse squeaker. Walking roe deer are made to stop (verhoffen) by a short whistle or a squeak, red deer by the alarm call (Mahnen). The red deer rut is most active in cold, clear weather; stalking works best after rain, because the ground is quiet."
+        },
+        {
+          "de": "Im Juni bestätigt man Rehböcke an Plätz- und Fegestellen; Hexenringe entstehen, wenn der Bock die Geiß in der Brunft im Kreis treibt. Kreisen heißt, ein Einstandsgebiet zu umgehen, um festzustellen (zu bestätigen), ob Wild darin steckt. Ausneuen ist das Ausgehen einer Marderspur unmittelbar nach nächtlichem Neuschnee. Steinmarder bejagt man durch Ausklopfen aus Feldscheunen oder beim Mondschein an Kirrplätzen; beim Frettieren treibt ein Frettchen Wildkaninchen aus dem Bau.",
+          "en": "In June roe bucks are located (bestätigen) by their scrapes and fraying marks; “witch rings” (Hexenringe) are formed when the buck chases the doe in circles during the rut. Kreisen means walking round a covert to confirm whether game is in it. Ausneuen is following a marten's track right after fresh night snow. Stone martens are hunted by knocking them out of field barns or at bait sites by moonlight; in ferreting (Frettieren) a ferret drives wild rabbits out of their burrow."
+        },
+        {
+          "de": "Feldtreibjagden sind das Kesseltreiben und die Böhmische Streife, bei der Jäger und Treiber in einem nach vorn offenen Rechteck vorgehen. Beim Vorstehtreiben bleiben die Schützen an ihren Ständen, und die Treiber treiben ihnen das Wild zu; es ist auch im Wald möglich, ebenso Drück- und Stöberjagd. Bei einer Drückjagd auf Schalenwild gehen höchstens vier Treiber ohne Lärm durch die Dickung. Auf den Fuchs sind wenige, langsam und leise gehende Treiber am erfolgreichsten. Bei einer Hasentreibjagd an einer Schneise stehen die Schützen auf der dem Treiben zugewandten Seite. Bei Gesellschaftsjagden müssen sich alle Beteiligten farblich deutlich abheben. Buschieren eignet sich für Feldhase, Wildkaninchen und Fasan.",
+          "en": "Field drives are the ring drive (Kesseltreiben) and the Bohemian sweep (Böhmische Streife), in which hunters and beaters advance in a rectangle open at the front. In a Vorstehtreiben the shooters stay at their stands and the beaters drive game towards them; it can also be done in the forest, as can Drückjagd and Stöberjagd. At a Drückjagd on cloven-hoofed game, no more than four beaters move quietly through the thicket. For foxes, a few beaters walking slowly and quietly work best. At a hare drive along a ride, the shooters stand on the side next to the drive. At group hunts all participants must stand out clearly in high-visibility colours. Close searching (Buschieren) suits brown hare, wild rabbit and pheasant."
+        },
+        {
+          "de": "Die Baujagd auf Füchse gelingt am besten bei Wind und tropfendem Nassschnee. Kann der Erdhund einen bestätigten Fuchs nicht sprengen, setzt man sich unmittelbar danach am Bau an. Den Jagddruck auf Schalenwild mindern Intervalljagd und wenige, gut organisierte Bewegungsjagden; Schwerpunktbejagung ist die verstärkte Bejagung auf schadensgefährdeten Flächen. Schwarzwild kirrt man an wenigen, gut bejagbaren Plätzen mit geringen Mengen artgerechten Materials wie Getreide, Mais oder Eicheln.",
+          "en": "Den hunting for foxes works best in wind and dripping wet snow. If the earth dog cannot bolt a confirmed fox, sit and wait at the den right afterwards. Interval hunting and a few well-organised driven hunts reduce hunting pressure on cloven-hoofed game; focused hunting (Schwerpunktbejagung) means hunting harder on areas at risk of damage. Wild boar are baited at a few easily hunted spots with small amounts of suitable bait such as grain, maize or acorns."
+        }
+      ],
+      "keyTerms": [
+        {
+          "de": "Lockjagd",
+          "en": "calling"
+        },
+        {
+          "de": "Blatten",
+          "en": "calling roe bucks with doe sounds"
+        },
+        {
+          "de": "verhoffen",
+          "en": "to stop and look (game)"
+        },
+        {
+          "de": "bestätigen",
+          "en": "to confirm game is present"
+        },
+        {
+          "de": "Kreisen",
+          "en": "circling a covert to confirm game"
+        },
+        {
+          "de": "Ausneuen",
+          "en": "tracking in fresh snow"
+        },
+        {
+          "de": "Frettieren",
+          "en": "ferreting"
+        },
+        {
+          "de": "Böhmische Streife",
+          "en": "Bohemian sweep (field drive)"
+        },
+        {
+          "de": "Kesseltreiben",
+          "en": "ring drive"
+        },
+        {
+          "de": "Intervalljagd",
+          "en": "interval hunting (short intense periods)"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Fragenkatalog zur Jägerprüfung in Bayern – Landesamt für Maß und Gewicht",
+          "url": "https://www.lmg.bayern.de/aufgaben_leistungen/jaegerpruefung/index.html"
+        }
+      ],
+      "origin": "seed",
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "schusszeichen-und-verhalten",
+      "titleDe": "Schusszeichen, Pirschzeichen und richtiges Verhalten nach dem Schuss",
+      "titleEn": "Reactions to the shot, signs at the shot site and what to do after shooting",
+      "paragraphs": [
+        {
+          "de": "Vor jedem Schuss muss man sich fragen: Ist ein sicherer Kugelfang vorhanden und wird das Hintergelände nicht gefährdet? Ist die Schussbahn frei? Können andere Stücke durch Geschoss oder Splitter verletzt werden? Durch Gras kann vor allem ein leichtes Geschoss wie 5,6 × 50 R abgelenkt werden. Nicht weidgerecht sind etwa ein Büchsenschuss spitz von hinten auf ein äsendes Reh oder ein Schrotschuss auf einen Fuchs auf 50 m.",
+          "en": "Before every shot ask yourself: is there a safe backstop, and is the area behind not endangered? Is the line of fire clear? Could other animals be hit by the bullet or fragments? Grass can deflect a bullet, especially a light one such as 5.6 × 50 R. Unethical shots include, for example, a rifle shot from straight behind at a feeding roe deer, or a shotgun shot at a fox at 50 m."
+        },
+        {
+          "de": "Das Wild »zeichnet« auf den Schuss: Bei einem Blattschuss (Herz, Lunge) steigt das Reh oft steil hoch und flüchtet rasend mit tiefem Haupt; am Anschuss findet man hellroten, blasigen Lungenschweiß. Schlägt der Bock mit den Hinterläufen aus und zieht mit krummem Rücken ab, deutet das auf einen Weidwundschuss (Pansen, Gescheide). Bricht er blitzartig zusammen und flüchtet kurz danach wie gesund, war es ein Krellschuss (Dornfortsatz der Wirbelsäule). Bei einem Vorderlaufschuss knickt er vorn ein und schlenkert mit dem Lauf; Röhrenknochensplitter am Anschuss deuten auf einen Laufschuss. Trennt sich ein Stück Rotwild vom Rudel, ist es meist schwer getroffen.",
+          "en": "Game reacts (“zeichnet”) to the shot: with a heart-lung shot a roe deer often rears up steeply and dashes off with its head low; at the shot site you find bright red, frothy lung blood. If the buck kicks out with its hind legs and moves off with a hunched back, that suggests a gut shot (rumen, intestines). If it collapses instantly and soon runs off as if unhurt, it was a spinal graze (Krellschuss, hitting a spinous process). With a foreleg hit it buckles at the front and swings the leg; splinters of long bone at the shot site suggest a leg hit. A red deer that leaves its group is usually badly hit."
+        },
+        {
+          "de": "Bräunlicher, körniger Schweiß deutet auf einen Leberschuss; anfangs viel, dann immer weniger hellroter Schweiß ohne Blasen auf einen Wildbretschuss (Muskel); viel Schnitthaar und Hautfetzen auf einen Streifschuss. Kein Schweiß am Anschuss ist kein sicheres Zeichen für einen Fehlschuss. Die schwierigste Nachsuche verlangt meist der Vorderlaufschuss; nach einem Äserschuss geht das Stück nicht bald ins Wundbett. Federwild, das geständert ist, lässt einen Ständer hängen; ein Fasan, der nach dem Schuss senkrecht steigt (himmelt), ist an Lunge oder Kopf getroffen, streicht er mit hängenden Ständern weiter, ist er weidwund.",
+          "en": "Brownish, granular blood suggests a liver shot; a lot of bright red blood without froth at first, then less and less, suggests a flesh wound; plenty of cut hair and bits of skin suggest a grazing shot. No blood at the shot site is no sure sign of a miss. A foreleg hit usually means the hardest tracking; after a jaw shot the animal will not lie down soon. A bird hit in the leg lets it hang; a pheasant that climbs vertically after the shot (himmeln) is hit in the lung or head, while one that flies on with legs hanging is gut-shot."
+        },
+        {
+          "de": "Bricht ein Stück im Feuer zusammen und ist nicht mehr zu sehen, lädt man nach und wartet mit schussbereiter Waffe mindestens fünf Minuten. Bei vermutetem Weidwundschuss wartet man mehrere Stunden und holt einen Schweißhund. Einen krankgeschossenen Hasen sucht man bei der Einzeljagd sofort mit einem brauchbaren Hund nach; einen geflügelten Fasan, der außerhalb des Treibens davonläuft, beschießt man erneut. Apportierte, noch lebende Hasen und Kaninchen tötet man durch Genickschlag, Federwild durch einen Schlag auf den Kopf. Bei Gesellschaftsjagden verlässt man den Stand nicht; hat man schon zwei Stück beschossen, die möglicherweise nachgesucht werden müssen, lässt man weiteres Wild ziehen. Jeder Schuss wird dem Ansteller gemeldet, damit eine Kontrollsuche stattfinden kann. Tierleid vermeidet man vor allem durch regelmäßiges Schießtraining.",
+          "en": "If an animal drops at the shot and can no longer be seen, reload and wait at least five minutes with the gun ready. If a gut shot is suspected, wait several hours and call a tracking dog. When hunting alone, track a wounded hare immediately with a qualified dog; a wing-tipped pheasant running off outside the drive is shot again. Retrieved hares and rabbits still alive are killed with a blow to the neck, birds with a blow to the head. At group hunts you do not leave your stand; if you have already shot at two animals that may need tracking, let further game pass. Every shot is reported to the person who placed you, so that a check search can be made. Suffering is avoided above all by regular shooting practice."
+        }
+      ],
+      "keyTerms": [
+        {
+          "de": "zeichnen",
+          "en": "to react visibly to the shot"
+        },
+        {
+          "de": "Blattschuss",
+          "en": "heart-lung shot"
+        },
+        {
+          "de": "Weidwundschuss",
+          "en": "gut shot"
+        },
+        {
+          "de": "Krellschuss",
+          "en": "spinal graze (stuns briefly)"
+        },
+        {
+          "de": "Wildbretschuss",
+          "en": "flesh wound"
+        },
+        {
+          "de": "Streifschuss",
+          "en": "grazing shot"
+        },
+        {
+          "de": "Schnitthaar",
+          "en": "cut hair at the shot site"
+        },
+        {
+          "de": "geständert",
+          "en": "hit in the leg (bird)"
+        },
+        {
+          "de": "himmeln",
+          "en": "to tower (shot bird climbing vertically)"
+        },
+        {
+          "de": "Kontrollsuche",
+          "en": "check search after a shot"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Fragenkatalog zur Jägerprüfung in Bayern – Landesamt für Maß und Gewicht",
+          "url": "https://www.lmg.bayern.de/aufgaben_leistungen/jaegerpruefung/index.html"
+        }
+      ],
+      "origin": "seed",
+      "updatedAt": "2026-11-18"
+    },
+    {
       "id": "versorgung-erlegtes-wild",
       "titleDe": "Versorgung des erlegten Wildes",
       "titleEn": "Handling shot game",
@@ -627,6 +838,71 @@
       ],
       "origin": "seed",
       "updatedAt": "2026-11-12"
+    },
+    {
+      "id": "aufbrechen-in-der-praxis",
+      "titleDe": "Aufbrechen und Versorgen in der Praxis",
+      "titleEn": "Gutting and handling in practice",
+      "paragraphs": [
+        {
+          "de": "Die Wildbrethygiene beginnt schon vor dem Schuss beim Ansprechen und Beobachten des Wildes. Schalenwild muss nach dem Erlegen alsbald aufgebrochen werden – an Frosttagen genauso wie im Sommer. Beim Aufbrechen dürfen Magen (Waidsack), Darm (Gescheide) und Blase nicht verletzt werden, damit ihr Inhalt das Wildbret nicht verunreinigt; besonders beim Öffnen des Schlosses ist auf die Blase zu achten. Zugleich achtet man auf Organveränderungen. Schärft man nur bis zur Brustspitze auf, wird bei Wiederkäuern der Schlund von der Drossel (Luftröhre) getrennt und verknotet.",
+          "en": "Game meat hygiene starts before the shot, while identifying and observing the animal. Cloven-hoofed game must be gutted soon after the kill — on frosty days just as in summer. When gutting, the stomach (Waidsack), intestines (Gescheide) and bladder must not be cut, so their contents do not soil the meat; take special care of the bladder when opening the pelvis (Schloss). At the same time, look out for changes in the organs. If you cut only up to the tip of the breastbone, in ruminants the gullet is separated from the windpipe (Drossel) and knotted."
+        },
+        {
+          "de": "Beim Rehwild ist die Milz mit dem Pansen verbunden. Hase, Schwarzwild und Gams haben eine mit der Leber verwachsene Gallenblase, die vor der Verwertung des Geräuschs (Herz, Lunge, Leber) abgetrennt wird; beim Schwarzwild darf sie nicht verletzt werden, und die Zwerchfellpfeiler bleiben möglichst am Stück, weil man sie für die Trichinenprobe braucht (zusätzlich Proben aus der Vorderlaufmuskulatur). Ein Dachskern darf nur nach Trichinenuntersuchung verzehrt werden. Bei Federwild wird beim Ausnehmen der Kropf entfernt; erlegten Hasen drückt man sofort die Blase aus.",
+          "en": "In roe deer the spleen is attached to the rumen. Hare, wild boar and chamois have a gall bladder attached to the liver, which is removed before the pluck (heart, lungs, liver) is used; in wild boar it must not be cut, and the diaphragm pillars are left in place if possible, because they are needed for the Trichinella sample (plus samples from the foreleg muscles). Badger meat may only be eaten after a Trichinella test. When drawing feathered game the crop is removed; a shot hare has its bladder squeezed out at once."
+        },
+        {
+          "de": "Ein weidwund geschossenes Stück spült man mit sauberem Wasser in Trinkwasserqualität aus und schneidet verunreinigte Teile um den Schusskanal großzügig heraus. Verhitztes (stickig gereiftes) Wildbret erkennt man an Verfärbung und süßlich-fauligem Geruch; Ursache ist mangelhafte Auskühlung. Hasen hängt man deshalb im Wildwagen nebeneinander an Stangen statt sie zu stapeln. Auf einem außen am Autoheck montierten Träger kann das Wildbret durch Schmutz und Abgase verunreinigt werden.",
+          "en": "A gut-shot animal is rinsed with clean water of drinking-water quality, and soiled parts around the wound channel are generously cut away. Meat that has gone off from heat (verhitzt) shows discolouration and a sweetish, rotten smell; the cause is insufficient cooling. That is why hares are hung side by side on poles in the game cart rather than piled up. On a carrier mounted outside on the back of a car, the meat can be soiled by dirt and exhaust fumes."
+        },
+        {
+          "de": "Liegen bedenkliche Merkmale vor, muss der gesamte Wildkörper einschließlich der roten Organe für die amtliche Fleischuntersuchung bereitgehalten werden. Schalenwild wird auf höchstens +7 °C, Hasen und Enten auf höchstens +4 °C gekühlt. Den Gamsbart rupft man vor dem Aufbrechen; eine Sauschwarte für den Präparator wird eingesalzen oder getrocknet.",
+          "en": "If there are signs of concern, the entire carcass including the red organs must be kept for the official meat inspection. Cloven-hoofed game is chilled to at most +7 °C, hares and ducks to at most +4 °C. The chamois beard is plucked before gutting; a boar's hide for the taxidermist is salted or dried."
+        }
+      ],
+      "keyTerms": [
+        {
+          "de": "Waidsack",
+          "en": "stomach (rumen) of game"
+        },
+        {
+          "de": "Gescheide",
+          "en": "intestines"
+        },
+        {
+          "de": "Geräusch",
+          "en": "pluck (heart, lungs, liver)"
+        },
+        {
+          "de": "Drossel",
+          "en": "windpipe"
+        },
+        {
+          "de": "Schlund",
+          "en": "gullet"
+        },
+        {
+          "de": "Zwerchfellpfeiler",
+          "en": "diaphragm pillars (Trichinella sample)"
+        },
+        {
+          "de": "verhitzt",
+          "en": "spoiled by heat (meat)"
+        },
+        {
+          "de": "rote Organe",
+          "en": "red organs (heart, lungs, liver, kidneys, spleen)"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Fragenkatalog zur Jägerprüfung in Bayern – Landesamt für Maß und Gewicht",
+          "url": "https://www.lmg.bayern.de/aufgaben_leistungen/jaegerpruefung/index.html"
+        }
+      ],
+      "origin": "seed",
+      "updatedAt": "2026-11-18"
     },
     {
       "id": "bedenkliche-merkmale",
@@ -2094,6 +2370,772 @@
       ],
       "explanationDe": "Mehr Kirrung würde die Bestände eher fördern.",
       "explanationEn": "More baiting would rather boost numbers.",
+      "origin": "seed"
+    },
+    {
+      "id": "ansp-fuehrende-geiss",
+      "lessonId": "ansprechen",
+      "questionDe": "Woran erkennt man im Juni zweifelsfrei eine führende Rehgeiß?",
+      "questionEn": "How do you recognise a nursing doe in June beyond doubt?",
+      "options": [
+        {
+          "de": "Am Gesäuge (Spinne)",
+          "en": "By her udder"
+        },
+        {
+          "de": "An der Fellfarbe",
+          "en": "By coat colour"
+        },
+        {
+          "de": "Am Spiegel",
+          "en": "By the rump patch"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Das Gesäuge ist das sichere Merkmal.",
+      "explanationEn": "The udder is the reliable sign.",
+      "origin": "seed"
+    },
+    {
+      "id": "ansp-reihenfolge",
+      "lessonId": "ansprechen",
+      "questionDe": "Eine alte Geiß und ihr schwaches Kitz sollen erlegt werden. In welcher Reihenfolge?",
+      "questionEn": "An old doe and her weak kid are to be shot. In what order?",
+      "options": [
+        {
+          "de": "Erst das Kitz, dann die Geiß",
+          "en": "Kid first, then doe"
+        },
+        {
+          "de": "Erst die Geiß, dann das Kitz",
+          "en": "Doe first, then kid"
+        },
+        {
+          "de": "Egal",
+          "en": "Doesn't matter"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "So bleibt kein verwaistes Kitz zurück.",
+      "explanationEn": "So no orphaned kid is left.",
+      "origin": "seed"
+    },
+    {
+      "id": "ansp-bock-dezember",
+      "lessonId": "ansprechen",
+      "questionDe": "Woran unterscheidet man im Dezember sicher den Rehbock von der Geiß?",
+      "questionEn": "How do you reliably tell a roe buck from a doe in December?",
+      "options": [
+        {
+          "de": "Am Pinsel",
+          "en": "By the penis tuft"
+        },
+        {
+          "de": "Am Kurzwildbret",
+          "en": "By the testicles"
+        },
+        {
+          "de": "Am Spiegel allein",
+          "en": "By the rump patch alone"
+        }
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanationDe": "Pinsel und Kurzwildbret sind eindeutig.",
+      "explanationEn": "Tuft and testicles are unambiguous.",
+      "origin": "seed"
+    },
+    {
+      "id": "ansp-frischling-winter",
+      "lessonId": "ansprechen",
+      "questionDe": "Woran erkennt man im Winter Frischlinge gegenüber Überläufern?",
+      "questionEn": "How do you tell piglets from yearling boar in winter?",
+      "options": [
+        {
+          "de": "Braunes Winterhaar",
+          "en": "Brown winter coat"
+        },
+        {
+          "de": "Kurzer Pürzel ohne Quaste",
+          "en": "Short tail without a tassel"
+        },
+        {
+          "de": "Deutliche Streifen",
+          "en": "Clear stripes"
+        }
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanationDe": "Die Streifen sind im Winter längst verschwunden.",
+      "explanationEn": "Stripes are long gone by winter.",
+      "origin": "seed"
+    },
+    {
+      "id": "ansp-fasan-sporn",
+      "lessonId": "ansprechen",
+      "questionDe": "Woran erkennt man beim erlegten Fasanenhahn den älteren Hahn?",
+      "questionEn": "How do you recognise an older cock pheasant once shot?",
+      "options": [
+        {
+          "de": "Am Sporn",
+          "en": "By the spur"
+        },
+        {
+          "de": "An der Schwanzlänge",
+          "en": "By tail length"
+        },
+        {
+          "de": "Am roten Gesicht",
+          "en": "By the red face"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Der Sporn wird mit dem Alter länger und spitzer.",
+      "explanationEn": "The spur grows longer and sharper with age.",
+      "origin": "seed"
+    },
+    {
+      "id": "ansp-stroh",
+      "lessonId": "ansprechen",
+      "questionDe": "Wo befindet sich das Stroh'sche Zeichen?",
+      "questionEn": "Where is Stroh's sign?",
+      "options": [
+        {
+          "de": "An den Vorderläufen des Hasen",
+          "en": "On the hare's forelegs"
+        },
+        {
+          "de": "Am Schädel des Fuchses",
+          "en": "On the fox's skull"
+        },
+        {
+          "de": "Am Schnabel der Ente",
+          "en": "On the duck's bill"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Ein Knötchen an den Vorderläufen junger Hasen.",
+      "explanationEn": "A small knob on young hares' forelegs.",
+      "origin": "seed"
+    },
+    {
+      "id": "ansp-erpel",
+      "lessonId": "ansprechen",
+      "questionDe": "Wodurch unterscheidet man den Erpel im Schlichtkleid sicher von der Ente?",
+      "questionEn": "How do you reliably tell a drake in eclipse from a duck?",
+      "options": [
+        {
+          "de": "Am Schnabel",
+          "en": "By the bill"
+        },
+        {
+          "de": "Am Spiegel im Flügel",
+          "en": "By the wing speculum"
+        },
+        {
+          "de": "An der Größe",
+          "en": "By size"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Am Schnabel.",
+      "explanationEn": "By the bill.",
+      "origin": "seed"
+    },
+    {
+      "id": "jart-blatten",
+      "lessonId": "jagdarten-im-detail",
+      "questionDe": "Welche Laute ahmt der Jäger beim Blatten nach?",
+      "questionEn": "Which sounds does the hunter imitate when calling roe bucks?",
+      "options": [
+        {
+          "de": "Fiepton der Geiß",
+          "en": "The doe's contact call"
+        },
+        {
+          "de": "Angstgeschrei der Geiß",
+          "en": "The doe's distress call"
+        },
+        {
+          "de": "Schrecken des Bocks",
+          "en": "The buck's bark"
+        }
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanationDe": "Beim Rehwild wird die Stimme der Geiß nachgeahmt.",
+      "explanationEn": "For roe deer the doe's voice is imitated.",
+      "origin": "seed"
+    },
+    {
+      "id": "jart-maennlich",
+      "lessonId": "jagdarten-im-detail",
+      "questionDe": "Bei welchen Arten ahmt man bei der Lockjagd das männliche Wild nach?",
+      "questionEn": "For which species does calling imitate the male?",
+      "options": [
+        {
+          "de": "Rotwild",
+          "en": "Red deer"
+        },
+        {
+          "de": "Gamswild",
+          "en": "Chamois"
+        },
+        {
+          "de": "Rehwild",
+          "en": "Roe deer"
+        }
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanationDe": "Beim Rehwild die Geiß.",
+      "explanationEn": "For roe deer, the doe.",
+      "origin": "seed"
+    },
+    {
+      "id": "jart-boehmische",
+      "lessonId": "jagdarten-im-detail",
+      "questionDe": "Was ist eine Böhmische Streife?",
+      "questionEn": "What is a Bohemian sweep?",
+      "options": [
+        {
+          "de": "Jäger und Treiber gehen in einem nach vorn offenen Rechteck vor",
+          "en": "Hunters and beaters advance in a rectangle open at the front"
+        },
+        {
+          "de": "Ein Kreis, der sich zusammenzieht",
+          "en": "A circle that closes in"
+        },
+        {
+          "de": "Ein Ansitz an der Waldkante",
+          "en": "A stand at the forest edge"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Das zusammenziehende Viereck ist der Kessel.",
+      "explanationEn": "A closing ring is the Kessel.",
+      "origin": "seed"
+    },
+    {
+      "id": "jart-drueckjagd",
+      "lessonId": "jagdarten-im-detail",
+      "questionDe": "Was kennzeichnet eine Drückjagd?",
+      "questionEn": "What characterises a Drückjagd?",
+      "options": [
+        {
+          "de": "Sie gilt vor allem Schalenwild",
+          "en": "Mainly for cloven-hoofed game"
+        },
+        {
+          "de": "Höchstens vier Treiber gehen leise durch die Dickung",
+          "en": "At most four beaters move quietly through the thicket"
+        },
+        {
+          "de": "Viele Treiber mit Lärm",
+          "en": "Many noisy beaters"
+        }
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanationDe": "Leise drücken, damit das Wild vertraut kommt.",
+      "explanationEn": "Push quietly so the game comes calmly.",
+      "origin": "seed"
+    },
+    {
+      "id": "jart-ausneuen",
+      "lessonId": "jagdarten-im-detail",
+      "questionDe": "Was versteht man unter Ausneuen?",
+      "questionEn": "What is Ausneuen?",
+      "options": [
+        {
+          "de": "Ausgehen einer Marderspur nach nächtlichem Neuschnee",
+          "en": "Following a marten's track after fresh night snow"
+        },
+        {
+          "de": "Neuanlage eines Wildackers",
+          "en": "Creating a new game plot"
+        },
+        {
+          "de": "Erneuern eines Hochsitzes",
+          "en": "Renewing a high seat"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Im Neuschnee ist die frische Spur eindeutig.",
+      "explanationEn": "In fresh snow the new track is clear.",
+      "origin": "seed"
+    },
+    {
+      "id": "jart-frettieren",
+      "lessonId": "jagdarten-im-detail",
+      "questionDe": "Welche Wildart bejagt man mit dem Frettchen?",
+      "questionEn": "Which species is hunted with a ferret?",
+      "options": [
+        {
+          "de": "Wildkaninchen",
+          "en": "Wild rabbit"
+        },
+        {
+          "de": "Fuchs",
+          "en": "Fox"
+        },
+        {
+          "de": "Dachs",
+          "en": "Badger"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Das Frettchen sprengt Kaninchen aus dem Bau.",
+      "explanationEn": "The ferret bolts rabbits from the burrow.",
+      "origin": "seed"
+    },
+    {
+      "id": "jart-baujagd-wetter",
+      "lessonId": "jagdarten-im-detail",
+      "questionDe": "Bei welchem Wetter ist die Baujagd auf Füchse am erfolgreichsten?",
+      "questionEn": "In what weather is den hunting for foxes most successful?",
+      "options": [
+        {
+          "de": "Bei Wind und tropfendem Nassschnee",
+          "en": "Wind and dripping wet snow"
+        },
+        {
+          "de": "Bei Hitze und Trockenheit",
+          "en": "Heat and drought"
+        },
+        {
+          "de": "Bei klarem Frost und Windstille",
+          "en": "Clear frost and no wind"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Dann stecken die Füchse im Bau.",
+      "explanationEn": "Foxes stay in the den then.",
+      "origin": "seed"
+    },
+    {
+      "id": "schuss-lunge",
+      "lessonId": "schusszeichen-und-verhalten",
+      "questionDe": "Am Anschuss finden Sie hellroten, blasigen Schweiß. Was ist getroffen?",
+      "questionEn": "At the shot site you find bright red frothy blood. What was hit?",
+      "options": [
+        {
+          "de": "Lunge",
+          "en": "Lungs"
+        },
+        {
+          "de": "Leber",
+          "en": "Liver"
+        },
+        {
+          "de": "Pansen",
+          "en": "Rumen"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Blasiger, hellroter Schweiß ist Lungenschweiß.",
+      "explanationEn": "Frothy bright red blood is lung blood.",
+      "origin": "seed"
+    },
+    {
+      "id": "schuss-leber",
+      "lessonId": "schusszeichen-und-verhalten",
+      "questionDe": "Bräunlicher, körniger Schweiß deutet auf …",
+      "questionEn": "Brownish, granular blood suggests …",
+      "options": [
+        {
+          "de": "… einen Leberschuss",
+          "en": "… a liver shot"
+        },
+        {
+          "de": "… einen Blattschuss",
+          "en": "… a heart-lung shot"
+        },
+        {
+          "de": "… einen Laufschuss",
+          "en": "… a leg shot"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Leberschuss.",
+      "explanationEn": "Liver shot.",
+      "origin": "seed"
+    },
+    {
+      "id": "schuss-krell",
+      "lessonId": "schusszeichen-und-verhalten",
+      "questionDe": "Ein Bock bricht im Feuer blitzartig zusammen, wird nach kurzer Zeit hoch und flüchtet wie gesund. Welcher Schuss?",
+      "questionEn": "A buck drops instantly, then gets up and runs off as if unhurt. Which shot?",
+      "options": [
+        {
+          "de": "Krellschuss",
+          "en": "Spinal graze"
+        },
+        {
+          "de": "Blattschuss",
+          "en": "Heart-lung shot"
+        },
+        {
+          "de": "Weidwundschuss",
+          "en": "Gut shot"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Ein Treffer am Dornfortsatz betäubt nur kurz.",
+      "explanationEn": "Hitting a spinous process only stuns briefly.",
+      "origin": "seed"
+    },
+    {
+      "id": "schuss-weidwund",
+      "lessonId": "schusszeichen-und-verhalten",
+      "questionDe": "Ein Bock schlägt mit den Hinterläufen aus und zieht mit krummem Rücken ab. Worauf deutet das?",
+      "questionEn": "A buck kicks out with its hind legs and moves off hunched. What does it suggest?",
+      "options": [
+        {
+          "de": "Weidwundschuss",
+          "en": "Gut shot"
+        },
+        {
+          "de": "Blattschuss",
+          "en": "Heart-lung shot"
+        },
+        {
+          "de": "Fehlschuss",
+          "en": "Miss"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Typisches Zeichnen beim Weidwundschuss – lange warten, Schweißhund holen.",
+      "explanationEn": "Typical gut-shot reaction — wait long, get a tracking dog.",
+      "origin": "seed"
+    },
+    {
+      "id": "schuss-kein-schweiss",
+      "lessonId": "schusszeichen-und-verhalten",
+      "questionDe": "Ist fehlender Schweiß am Anschuss ein sicheres Zeichen für einen Fehlschuss?",
+      "questionEn": "Is the absence of blood at the shot site a sure sign of a miss?",
+      "options": [
+        {
+          "de": "Nein",
+          "en": "No"
+        },
+        {
+          "de": "Ja",
+          "en": "Yes"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Viele Treffer schweißen anfangs kaum – immer kontrollieren.",
+      "explanationEn": "Many hits bleed little at first — always check.",
+      "origin": "seed"
+    },
+    {
+      "id": "schuss-warten",
+      "lessonId": "schusszeichen-und-verhalten",
+      "questionDe": "Ein Bock bricht im Feuer zusammen und ist im Gras nicht mehr zu sehen. Was tun Sie?",
+      "questionEn": "A buck drops at the shot and disappears in the grass. What do you do?",
+      "options": [
+        {
+          "de": "Nachladen und mindestens 5 Minuten schussbereit warten",
+          "en": "Reload and wait at least 5 minutes ready to shoot"
+        },
+        {
+          "de": "Sofort hingehen",
+          "en": "Go there at once"
+        },
+        {
+          "de": "Sofort den Hund schnallen",
+          "en": "Release the dog at once"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Erst warten – das Stück könnte nur gekrellt sein.",
+      "explanationEn": "Wait first — it might only be stunned.",
+      "origin": "seed"
+    },
+    {
+      "id": "schuss-vor-schuss",
+      "lessonId": "schusszeichen-und-verhalten",
+      "questionDe": "Was muss man sich vor jedem Schuss fragen?",
+      "questionEn": "What must you ask yourself before every shot?",
+      "options": [
+        {
+          "de": "Ist ein sicherer Kugelfang vorhanden?",
+          "en": "Is there a safe backstop?"
+        },
+        {
+          "de": "Ist die Schussbahn frei?",
+          "en": "Is the line of fire clear?"
+        },
+        {
+          "de": "Können andere Stücke verletzt werden?",
+          "en": "Could other animals be hit?"
+        },
+        {
+          "de": "Ist die Trophäe stark genug?",
+          "en": "Is the trophy big enough?"
+        }
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanationDe": "Sicherheit und Tierschutz gehen vor.",
+      "explanationEn": "Safety and welfare come first.",
+      "origin": "seed"
+    },
+    {
+      "id": "schuss-melden",
+      "lessonId": "schusszeichen-und-verhalten",
+      "questionDe": "Sie haben auf einer Bewegungsjagd geschossen, finden aber keine Pirschzeichen. Was tun Sie?",
+      "questionEn": "You shot at a driven hunt but find no signs. What do you do?",
+      "options": [
+        {
+          "de": "Den Schuss dem Ansteller melden, damit kontrolliert wird",
+          "en": "Report the shot so a check search is made"
+        },
+        {
+          "de": "Nichts, es war ein Fehlschuss",
+          "en": "Nothing, it was a miss"
+        },
+        {
+          "de": "Selbst ohne Hund nachsuchen",
+          "en": "Track it yourself without a dog"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Jeder Schuss wird gemeldet und kontrolliert.",
+      "explanationEn": "Every shot is reported and checked.",
+      "origin": "seed"
+    },
+    {
+      "id": "aufb-beginn",
+      "lessonId": "aufbrechen-in-der-praxis",
+      "questionDe": "Wo beginnt für den Jäger die Wildbrethygiene?",
+      "questionEn": "Where does game meat hygiene begin for the hunter?",
+      "options": [
+        {
+          "de": "Vor dem Schuss beim Ansprechen",
+          "en": "Before the shot, while identifying the animal"
+        },
+        {
+          "de": "Beim Aufbrechen",
+          "en": "When gutting"
+        },
+        {
+          "de": "In der Kühlkammer",
+          "en": "In the cold room"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Schon das Verhalten des lebenden Stückes zählt.",
+      "explanationEn": "The living animal's behaviour already counts.",
+      "origin": "seed"
+    },
+    {
+      "id": "aufb-frost",
+      "lessonId": "aufbrechen-in-der-praxis",
+      "questionDe": "Muss Schalenwild an Frosttagen ebenso bald aufgebrochen werden wie im Sommer?",
+      "questionEn": "Must cloven-hoofed game be gutted as soon on frosty days as in summer?",
+      "options": [
+        {
+          "de": "Ja",
+          "en": "Yes"
+        },
+        {
+          "de": "Nein, bei Frost kann man bis zum nächsten Tag warten",
+          "en": "No, in frost you can wait until the next day"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Im Körperinneren bleibt es lange warm.",
+      "explanationEn": "The inside stays warm for a long time.",
+      "origin": "seed"
+    },
+    {
+      "id": "aufb-gallenblase",
+      "lessonId": "aufbrechen-in-der-praxis",
+      "questionDe": "Welche Wildarten haben eine Gallenblase?",
+      "questionEn": "Which game species have a gall bladder?",
+      "options": [
+        {
+          "de": "Hase",
+          "en": "Hare"
+        },
+        {
+          "de": "Schwarzwild",
+          "en": "Wild boar"
+        },
+        {
+          "de": "Gams",
+          "en": "Chamois"
+        },
+        {
+          "de": "Rehwild",
+          "en": "Roe deer"
+        }
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanationDe": "Hirsche wie das Reh haben keine Gallenblase.",
+      "explanationEn": "Deer such as roe deer have no gall bladder.",
+      "origin": "seed"
+    },
+    {
+      "id": "aufb-trichinenprobe",
+      "lessonId": "aufbrechen-in-der-praxis",
+      "questionDe": "Woher nimmt man Proben für die Trichinenuntersuchung beim Schwarzwild?",
+      "questionEn": "Where are Trichinella samples taken from wild boar?",
+      "options": [
+        {
+          "de": "Zwerchfellpfeiler",
+          "en": "Diaphragm pillars"
+        },
+        {
+          "de": "Vorderlaufmuskulatur",
+          "en": "Foreleg muscles"
+        },
+        {
+          "de": "Leber",
+          "en": "Liver"
+        }
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanationDe": "Trichinen sitzen in gut durchbluteter Muskulatur.",
+      "explanationEn": "Trichinella sit in well-supplied muscle.",
+      "origin": "seed"
+    },
+    {
+      "id": "aufb-verhitzt",
+      "lessonId": "aufbrechen-in-der-praxis",
+      "questionDe": "Woran erkennt man verhitztes Wildbret?",
+      "questionEn": "How do you recognise heat-spoiled meat?",
+      "options": [
+        {
+          "de": "Verfärbung",
+          "en": "Discolouration"
+        },
+        {
+          "de": "Süßlich-fauliger Geruch",
+          "en": "Sweetish, rotten smell"
+        },
+        {
+          "de": "Besonders helle Farbe",
+          "en": "Especially pale colour"
+        }
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanationDe": "Ursache ist mangelhafte Auskühlung.",
+      "explanationEn": "The cause is poor cooling.",
+      "origin": "seed"
+    },
+    {
+      "id": "aufb-weidwund",
+      "lessonId": "aufbrechen-in-der-praxis",
+      "questionDe": "Wie behandelt man ein weidwund geschossenes Reh?",
+      "questionEn": "How do you handle a gut-shot roe deer?",
+      "options": [
+        {
+          "de": "Mit Trinkwasser ausspülen",
+          "en": "Rinse with drinking water"
+        },
+        {
+          "de": "Verunreinigte Teile großzügig herausschneiden",
+          "en": "Cut soiled parts away generously"
+        },
+        {
+          "de": "Mit Bachwasser auswaschen",
+          "en": "Wash out with stream water"
+        }
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanationDe": "Nur Wasser in Trinkwasserqualität verwenden.",
+      "explanationEn": "Use only drinking-quality water.",
+      "origin": "seed"
+    },
+    {
+      "id": "aufb-hase-blase",
+      "lessonId": "aufbrechen-in-der-praxis",
+      "questionDe": "Was soll man mit einem frisch erlegten Hasen sofort tun?",
+      "questionEn": "What should you do at once with a freshly shot hare?",
+      "options": [
+        {
+          "de": "Die Blase ausdrücken",
+          "en": "Squeeze out the bladder"
+        },
+        {
+          "de": "Ihn in eine Plastiktüte packen",
+          "en": "Put it in a plastic bag"
+        },
+        {
+          "de": "Ihn auf den Stapel legen",
+          "en": "Put it on the pile"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Damit Harn das Wildbret nicht verdirbt.",
+      "explanationEn": "So urine does not spoil the meat.",
       "origin": "seed"
     }
   ]
