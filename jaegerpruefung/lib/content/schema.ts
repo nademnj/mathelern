@@ -54,6 +54,16 @@ export const quizQuestionSchema = z
     path: ["correct"],
   });
 
+/** One sub-topic of the official Bavarian question catalogue, and the lessons that cover it. */
+export const catalogTopicSchema = z.object({
+  code: z.string(),
+  titleDe: z.string().min(1),
+  titleEn: z.string().min(1),
+  /** How many questions the official catalogue has on this topic. */
+  officialQuestions: z.number().int().min(0),
+  lessonIds: z.array(z.string()).default([]),
+});
+
 export const sectionSchema = z.object({
   id: z.string().regex(/^[a-z0-9-]+$/),
   order: z.number().int(),
@@ -63,6 +73,7 @@ export const sectionSchema = z.object({
   summaryEn: z.string().min(1),
   /** Search hints the collector agent uses to find material for this section. */
   researchTopics: z.array(z.string()).default([]),
+  catalogTopics: z.array(catalogTopicSchema).default([]),
   lessons: z.array(lessonSchema),
   quiz: z.array(quizQuestionSchema),
 });
@@ -71,4 +82,5 @@ export type BilingualParagraph = z.infer<typeof bilingualParagraphSchema>;
 export type KeyTerm = z.infer<typeof keyTermSchema>;
 export type Lesson = z.infer<typeof lessonSchema>;
 export type QuizQuestion = z.infer<typeof quizQuestionSchema>;
+export type CatalogTopic = z.infer<typeof catalogTopicSchema>;
 export type Section = z.infer<typeof sectionSchema>;

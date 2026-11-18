@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { connection } from "next/server";
 import { getSection } from "@/lib/content/store";
 import { LessonList } from "@/components/LessonList";
+import { CatalogCoverage } from "@/components/CatalogCoverage";
 
 export default async function SectionPage(props: PageProps<"/section/[sectionId]">) {
   await connection();
@@ -39,6 +40,8 @@ export default async function SectionPage(props: PageProps<"/section/[sectionId]
           questions: section.quiz.filter((q) => q.lessonId === l.id).length,
         }))}
       />
+
+      <CatalogCoverage sectionId={section.id} topics={section.catalogTopics} lessons={section.lessons} />
     </div>
   );
 }

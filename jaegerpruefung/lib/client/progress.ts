@@ -13,11 +13,34 @@ const EMPTY: Progress = { lessonsRead: {}, answers: {} };
 let cache: Progress | null = null;
 const listeners = new Set<() => void>();
 
+/**
+ * Lessons that moved to another section when the app switched to the six
+ * Bavarian subject areas. Old progress keys are rewritten on load.
+ */
+const MOVED: [string, string][] = [
+  ["wildbrethygiene/", "jagdbetrieb/"],
+  ["jagdbetrieb/hege-und-wildschaden", "naturschutz/hege-und-wildschaden"],
+  ["jagdbetrieb/betrieb-wildschaden-arten", "naturschutz/betrieb-wildschaden-arten"],
+  ["jagdbetrieb/betrieb-wildschaden-frist", "naturschutz/betrieb-wildschaden-frist"],
+  ["jagdbetrieb/betrieb-jagdschaden", "naturschutz/betrieb-jagdschaden"],
+  ["jagdbetrieb/betrieb-schaele", "naturschutz/betrieb-schaele"],
+];
+
+export function migrateKeys<T>(record: Record<string, T>): Record<string, T> {
+  const out: Record<string, T> = {};
+  for (const [key, value] of Object.entries(record)) {
+    const move = MOVED.find(([from]) => (from.endsWith("/") ? key.startsWith(from) : key === from));
+    out[move ? move[1] + key.slice(move[0].length) : key] = value;
+  }
+  return out;
+}
+
 function load(): Progress {
   if (cache) return cache;
   try {
     const raw = localStorage.getItem(KEY);
-    cache = raw ? { ...EMPTY, ...JSON.parse(raw) } : EMPTY;
+    const parsed: Progress = raw ? { ...EMPTY, ...JSON.parse(raw) } : EMPTY;
+    cache = { lessonsRead: migrateKeys(parsed.lessonsRead), answers: migrateKeys(parsed.answers) };
   } catch {
     cache = EMPTY;
   }

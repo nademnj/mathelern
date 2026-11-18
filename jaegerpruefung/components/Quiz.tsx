@@ -11,7 +11,7 @@ export type QuizItem = QuizQuestion & { sectionId: string; sectionTitle: string;
 
 const LETTERS = "ABCDE";
 
-export function Quiz({ items, mode, perSection }: { items: QuizItem[]; mode: "practice" | "exam"; perSection?: number }) {
+export function Quiz({ items, mode, perSection }: { items: QuizItem[]; mode: "practice" | "exam"; perSection?: Record<string, number> }) {
   const progress = useProgress();
   const [seed, setSeed] = useState(() => Math.floor(Math.random() * 1e9));
   const [started, setStarted] = useState(mode === "practice");
@@ -23,7 +23,7 @@ export function Quiz({ items, mode, perSection }: { items: QuizItem[]; mode: "pr
     if (mode === "exam") {
       const bySection = new Map<string, QuizItem[]>();
       for (const it of items) bySection.set(it.sectionId, [...(bySection.get(it.sectionId) ?? []), it]);
-      return [...bySection.values()].flatMap((list) => shuffle(list, seed).slice(0, perSection ?? 10));
+      return [...bySection.entries()].flatMap(([id, list]) => shuffle(list, seed).slice(0, perSection?.[id] ?? 10));
     }
     return practiceOrder(items, progress.answers, seed);
   }, [round, items, mode, perSection, seed, progress.answers]);
@@ -67,7 +67,7 @@ export function Quiz({ items, mode, perSection }: { items: QuizItem[]; mode: "pr
   }
 
   const list = round ?? questions;
-  if (finished) return <Results list={list} selected={selected} onRestart={restart} />;
+  if (finished) return <Results list={list} selected={selected} onRestart={restart} exam={mode === "exam"} target={perSection} />;
 
   const q = list[index];
   const sel = selected[q.key] ?? [];
@@ -217,7 +217,7 @@ export function Quiz({ items, mode, perSection }: { items: QuizItem[]; mode: "pr
   );
 }
 
-function Results({ list, selected, onRestart }: { list: QuizItem[]; selected: Record<string, number[]>; onRestart: () => void }) {
+function Results({ list, selected, onRestart, exam, target }: { list: QuizItem[]; selected: Record<string, number[]>; onRestart: () => void; exam: boolean; target?: Record<string, number> }) {
   const answered = list.filter((q) => selected[q.key]?.length);
   const right = list.filter((q) => isAnswerCorrect(q, selected[q.key] ?? []));
   const bySection = new Map<string, { title: string; total: number; right: number }>();
@@ -228,12 +228,26 @@ function Results({ list, selected, onRestart }: { list: QuizItem[]; selected: Re
     bySection.set(q.sectionId, e);
   }
   const pct = list.length ? Math.round((right.length / list.length) * 100) : 0;
+  // Bavarian rule (§ 12 Abs. 2 JFPO): failed if more than a quarter of the
+  // questions are unanswered, wrong or incomplete.
+  const passed = right.length >= Math.ceil(list.length * 0.75);
+  const targetTotal = target ? Object.values(target).reduce((a, b) => a + b, 0) : 0;
   const wrong = list.filter((q) => selected[q.key]?.length && !isAnswerCorrect(q, selected[q.key]));
 
   return (
     <div className="space-y-4">
       <div className="card space-y-3 p-6">
         <p className="text-3xl font-semibold">{pct}%</p>
+        {exam && (
+          <p className={`rounded-lg p-3 font-medium ${passed ? "bg-ok-soft text-ok" : "bg-bad-soft text-bad"}`}>
+            {passed ? "Bestanden – passed" : "Nicht bestanden – not passed"} (pass mark: at least 75% fully correct)
+            {targetTotal > list.length && (
+              <span className="mt-1 block text-xs font-normal text-muted">
+                The real exam has {targetTotal} questions; the app has only {list.length} matching ones so far.
+              </span>
+            )}
+          </p>
+        )}
         <p className="text-muted">
           {right.length} of {list.length} correct ({answered.length} answered).
         </p>

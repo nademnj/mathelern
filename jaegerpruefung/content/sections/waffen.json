@@ -1,16 +1,49 @@
 {
   "id": "waffen",
-  "order": 3,
-  "titleDe": "Waffenrecht, Waffentechnik und Führen von Jagdwaffen",
-  "titleEn": "Firearms law, firearms technology and handling hunting guns",
-  "summaryDe": "Jagdliche Waffen und Munition, Ballistik, sachliche Verbote nach § 19 BJagdG, Waffengesetz (Erwerb, Führen, Aufbewahrung) und sichere Handhabung.",
-  "summaryEn": "Hunting guns and ammunition, ballistics, the prohibitions of § 19 BJagdG, the Weapons Act (acquiring, carrying, storage) and safe handling.",
+  "order": 1,
+  "titleDe": "Jagdwaffen, Jagd- und Fanggeräte",
+  "titleEn": "Hunting firearms, hunting and trapping equipment",
+  "summaryDe": "Lang- und Kurzwaffen, Munition, Ballistik und Optik; Handhabung, Pflege und Aufbewahrung; Fallen und Fallenjagd; jagdbezogenes Waffenrecht, Unfallverhütung, Notwehr und Notstand.",
+  "summaryEn": "Long guns and handguns, ammunition, ballistics and optics; handling, care and storage; traps and trapping; firearms law for hunters, accident prevention, self-defence and necessity.",
   "researchTopics": [
-    "Ballistik Jagdgeschosse Deformation Zerlegung",
-    "Zielfernrohr Absehen Einschießen",
-    "bleifreie Munition Landesrecht",
-    "Waffengesetz Jäger Kurzwaffen Bedürfnis",
-    "Schießprüfung Jägerprüfung Ablauf"
+    "1.1 Lang- und Kurzwaffen, Munition, Ballistik, Optik",
+    "1.2 Handhabung, Pflege und Aufbewahrung von Waffen, Umgang mit Munition",
+    "1.3 Jagd- und Fanggeräte, Fallenjagd",
+    "1.4 Waffenrecht, Unfallverhütung, Notwehr und Notstand"
+  ],
+  "catalogTopics": [
+    {
+      "code": "1.1",
+      "titleDe": "Lang- und Kurzwaffen, Munition, Ballistik, Optik",
+      "titleEn": "Long guns, handguns, ammunition, ballistics, optics",
+      "officialQuestions": 135,
+      "lessonIds": [
+        "jagdwaffen-und-munition"
+      ]
+    },
+    {
+      "code": "1.2",
+      "titleDe": "Handhabung, Pflege und Aufbewahrung von Waffen, Umgang mit Munition",
+      "titleEn": "Handling, care and storage of guns; handling ammunition",
+      "officialQuestions": 40,
+      "lessonIds": []
+    },
+    {
+      "code": "1.3",
+      "titleDe": "Jagd- und Fanggeräte, Fallenjagd",
+      "titleEn": "Hunting and trapping equipment, trapping",
+      "officialQuestions": 29,
+      "lessonIds": []
+    },
+    {
+      "code": "1.4",
+      "titleDe": "Waffenrecht, Unfallverhütung, Notwehr und Notstand",
+      "titleEn": "Firearms law, accident prevention, self-defence and necessity",
+      "officialQuestions": 59,
+      "lessonIds": [
+        "waffenrecht-fuer-jaeger"
+      ]
+    }
   ],
   "lessons": [
     {

@@ -7,8 +7,9 @@ vi.mock("@/lib/content/store", async () => {
   const { mergeLesson, mergeQuiz } = await import("@/lib/content/merge");
   return {
     getSection: async (id: string) => sections[id] ?? null,
-    saveLesson: async (id: string, lesson: Section["lessons"][number]) => {
-      sections[id] = { ...sections[id], lessons: mergeLesson(sections[id].lessons, lesson) };
+    saveLesson: async (id: string, lesson: Section["lessons"][number], code?: string) => {
+      const { linkTopic } = await import("@/lib/content/merge");
+      sections[id] = { ...sections[id], lessons: mergeLesson(sections[id].lessons, lesson), catalogTopics: linkTopic(sections[id].catalogTopics, code, lesson.id) };
       return sections[id];
     },
     saveQuizQuestions: async (id: string, qs: Section["quiz"]) => {
@@ -41,6 +42,7 @@ const { collectSection } = await import("@/lib/agent/collector");
 
 const lessonInput = {
   id: "Fuchs Biologie",
+  catalogCode: "2.2.2.3",
   titleDe: "Fuchs",
   titleEn: "Fox",
   paragraphs: [
@@ -56,6 +58,7 @@ beforeEach(() => {
   requests.length = 0;
   sections.wild = {
     id: "wild", order: 1, titleDe: "Wild", titleEn: "Game", summaryDe: "s", summaryEn: "s", researchTopics: [], lessons: [], quiz: [],
+    catalogTopics: [{ code: "2.2.2.3", titleDe: "Fuchs", titleEn: "Fox", officialQuestions: 8, lessonIds: [] }],
   };
 });
 
@@ -107,6 +110,7 @@ describe("collectSection", () => {
     expect(s.lessons).toHaveLength(1);
     expect(s.lessons[0].id).toBe("fuchs-biologie");
     expect(s.lessons[0].origin).toBe("agent");
+    expect(s.catalogTopics[0].lessonIds).toEqual(["fuchs-biologie"]);
     expect(s.lessons[0].sources.map((x) => x.url)).toEqual(["https://www.jagdverband.de/"]);
     expect(s.quiz.map((q) => q.id)).toEqual(["fuchs-ranz"]);
     expect(s.quiz[0].correct).toEqual([0]);

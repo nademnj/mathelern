@@ -1,16 +1,40 @@
 {
   "id": "jagdrecht",
-  "order": 6,
-  "titleDe": "Rechtsvorschriften: Jagd-, Tierschutz-, Naturschutz- und Landschaftspflegerecht",
-  "titleEn": "Law: hunting, animal welfare, nature conservation and landscape law",
-  "summaryDe": "Bundesjagdgesetz und Landesjagdgesetz, Jagdbezirke und Jagdpacht, Jagdschein, sachliche Verbote, Jagd- und Schonzeiten, Tierschutz- und Naturschutzrecht.",
-  "summaryEn": "Federal and state hunting acts, hunting districts and leases, the hunting licence, prohibited practices, open and closed seasons, animal welfare and nature conservation law.",
+  "order": 3,
+  "titleDe": "Rechtliche Vorschriften",
+  "titleEn": "Law",
+  "summaryDe": "Jagdrecht (Bundesjagdgesetz und Bayerisches Jagdgesetz), Tier-, Natur- und Artenschutzrecht, Landschaftspflegerecht sowie Hygienevorschriften für Wildbret.",
+  "summaryEn": "Hunting law (federal and Bavarian hunting acts), animal welfare, nature and species protection law, landscape law, and hygiene rules for game meat.",
   "researchTopics": [
-    "Landesjagdgesetz Besonderheiten",
-    "Jagdschutz Befugnisse Jagdaufseher",
-    "Wildfolge Landesrecht",
-    "Bundesnaturschutzgesetz besonders geschützte Arten Jäger",
-    "Landesjagdzeitenverordnung"
+    "3.1 Jagdrecht",
+    "3.2 Tier-, Natur- und Artenschutzrecht, Landschaftspflegerecht",
+    "3.3 Hygienevorschriften für Wildbret, Umweltverschmutzung"
+  ],
+  "catalogTopics": [
+    {
+      "code": "3.1",
+      "titleDe": "Jagdrecht",
+      "titleEn": "Hunting law",
+      "officialQuestions": 210,
+      "lessonIds": [
+        "jagdrecht-grundlagen",
+        "jagdschein-und-verbote"
+      ]
+    },
+    {
+      "code": "3.2",
+      "titleDe": "Tier-, Natur- und Artenschutzrecht, Landschaftspflegerecht",
+      "titleEn": "Animal welfare, nature and species protection, landscape law",
+      "officialQuestions": 37,
+      "lessonIds": []
+    },
+    {
+      "code": "3.3",
+      "titleDe": "Hygienevorschriften für Wildbret, Umweltverschmutzung",
+      "titleEn": "Hygiene rules for game meat, environmental pollution",
+      "officialQuestions": 19,
+      "lessonIds": []
+    }
   ],
   "lessons": [
     {

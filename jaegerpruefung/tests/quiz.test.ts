@@ -44,3 +44,14 @@ describe("merge", () => {
     expect(out.map((q) => q.id)).toEqual(["q1", "q3"]);
   });
 });
+
+import { migrateKeys } from "@/lib/client/progress";
+describe("progress migration", () => {
+  it("moves keys of lessons that changed section", () => {
+    expect(migrateKeys({ "wildbrethygiene/wildkrankheiten": 1, "jagdbetrieb/hege-und-wildschaden": 2, "jagdbetrieb/jagdarten": 3 })).toEqual({
+      "jagdbetrieb/wildkrankheiten": 1,
+      "naturschutz/hege-und-wildschaden": 2,
+      "jagdbetrieb/jagdarten": 3,
+    });
+  });
+});

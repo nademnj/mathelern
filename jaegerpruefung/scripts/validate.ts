@@ -10,7 +10,11 @@ listSections()
         ids.add(q.id);
         if (q.lessonId && !s.lessons.some((l) => l.id === q.lessonId)) throw new Error(`${s.id}: ${q.id} points at unknown lesson ${q.lessonId}`);
       }
-      console.log(`✓ ${s.id}: ${s.lessons.length} lessons, ${s.quiz.length} questions`);
+      for (const t of s.catalogTopics)
+        for (const id of t.lessonIds)
+          if (!s.lessons.some((l) => l.id === id)) throw new Error(`${s.id}: topic ${t.code} points at unknown lesson ${id}`);
+      const covered = s.catalogTopics.filter((t) => t.lessonIds.length).length;
+      console.log(`✓ ${s.id}: ${s.lessons.length} lessons, ${s.quiz.length} questions, ${covered}/${s.catalogTopics.length} catalogue topics`);
     }
   })
   .catch((err) => {

@@ -9,7 +9,7 @@ import { listSections } from "@/lib/content/store";
  */
 export async function GET() {
   const sections = await listSections();
-  const pages = ["/", "/quiz/all"];
+  const pages = ["/", "/quiz/all", "/pruefung"];
   const stamps: string[] = [];
   for (const s of sections) {
     pages.push(`/section/${s.id}`, `/quiz/${s.id}`);
@@ -17,6 +17,7 @@ export async function GET() {
       pages.push(`/section/${s.id}/${l.id}`);
       stamps.push(`${s.id}/${l.id}@${l.updatedAt}`);
     }
+    stamps.push(`${s.id}~${s.catalogTopics.map((t) => t.lessonIds.join("+")).join("/")}`);
     stamps.push(`${s.id}#${s.quiz.length}:${s.quiz.map((q) => q.id).join(",").length}`);
   }
   // A new deploy changes the script files every page needs, so it must also

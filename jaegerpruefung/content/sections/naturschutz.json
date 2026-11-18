@@ -1,0 +1,247 @@
+{
+  "id": "naturschutz",
+  "order": 6,
+  "titleDe": "Naturschutz, Landbau, Forstwesen, Wild- und Jagdschadensverhütung",
+  "titleEn": "Nature conservation, agriculture, forestry, preventing game and hunting damage",
+  "summaryDe": "Natur- und Artenschutz mit besonders geschützten Arten, Landbau, Forstwesen und Waldbau sowie die Verhütung von Wild- und Jagdschäden. In der Prüfung kommen 20 der 100 Fragen aus diesem Sachgebiet.",
+  "summaryEn": "Nature and species protection including specially protected species, agriculture, forestry and silviculture, and preventing game and hunting damage. 20 of the 100 exam questions come from this area.",
+  "researchTopics": [
+    "6.1 Natur- und Artenschutz, besonders geschützte Arten",
+    "6.2 Landbau",
+    "6.3 Forstwesen, insbesondere Waldbau",
+    "6.4 Wild- und Jagdschadensverhütung"
+  ],
+  "catalogTopics": [
+    {
+      "code": "6.1",
+      "titleDe": "Natur- und Artenschutz, besonders geschützte Arten",
+      "titleEn": "Nature and species protection, specially protected species",
+      "officialQuestions": 65,
+      "lessonIds": []
+    },
+    {
+      "code": "6.2",
+      "titleDe": "Landbau",
+      "titleEn": "Agriculture",
+      "officialQuestions": 47,
+      "lessonIds": []
+    },
+    {
+      "code": "6.3",
+      "titleDe": "Forstwesen, insbesondere Waldbau",
+      "titleEn": "Forestry and silviculture",
+      "officialQuestions": 70,
+      "lessonIds": []
+    },
+    {
+      "code": "6.4",
+      "titleDe": "Wild- und Jagdschadensverhütung",
+      "titleEn": "Preventing game and hunting damage",
+      "officialQuestions": 24,
+      "lessonIds": [
+        "hege-und-wildschaden"
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "id": "hege-und-wildschaden",
+      "titleDe": "Hege, Wildschaden und Jagdschaden",
+      "titleEn": "Game management, game damage and hunting damage",
+      "paragraphs": [
+        {
+          "de": "Ziel der Hege ist nach § 1 Abs. 2 BJagdG ein artenreicher und gesunder Wildbestand, der an die landschaftlichen und landeskulturellen Verhältnisse angepasst ist, sowie die Pflege und Sicherung seiner Lebensgrundlagen. Die Hege muss so durchgeführt werden, dass Wildschäden an land-, forst- und fischereiwirtschaftlicher Nutzung möglichst vermieden werden.",
+          "en": "Under § 1(2) BJagdG the aim of game management (Hege) is a species-rich, healthy game population adapted to the landscape and land use, and the care and protection of its habitat. It must be carried out so that game damage to farming, forestry and fishery is avoided as far as possible."
+        },
+        {
+          "de": "Wildschaden ist der Schaden, den Wild an Grundstücken anrichtet. Im Wald sind das vor allem Verbiss (Abbeißen von Knospen und Trieben), Schäle (Abziehen der Rinde, vor allem durch Rotwild) und Fegeschäden; auf dem Feld vor allem Fraß und das Brechen des Schwarzwildes.",
+          "en": "Game damage (Wildschaden) is damage caused by game to land. In the forest it is mainly browsing (Verbiss — biting off buds and shoots), bark stripping (Schäle, mainly by red deer) and fraying damage (Fegeschaden); in fields mainly feeding and rooting by wild boar."
+        },
+        {
+          "de": "Nach § 29 BJagdG ist Wildschaden zu ersetzen, der durch Schalenwild, Wildkaninchen oder Fasanen verursacht wird. Ersatzpflichtig ist grundsätzlich die Jagdgenossenschaft; häufig übernimmt der Jagdpächter diese Pflicht ganz oder teilweise im Pachtvertrag.",
+          "en": "Under § 29 BJagdG, damage caused by cloven-hoofed game, wild rabbits or pheasants must be compensated. In principle the hunting cooperative (Jagdgenossenschaft) is liable; the lease contract often transfers this duty wholly or partly to the leaseholder."
+        },
+        {
+          "de": "Der Geschädigte muss den Wildschaden nach § 34 BJagdG binnen einer Woche, nachdem er davon Kenntnis erhalten hat oder hätte erhalten können, bei der zuständigen Behörde (meist der Gemeinde) anmelden. Für Schäden an forstwirtschaftlich genutzten Grundstücken gelten besondere Stichtage (1. Mai und 1. Oktober). Die Länder regeln das Verfahren im Einzelnen.",
+          "en": "Under § 34 BJagdG the injured party must report game damage to the competent authority (usually the municipality) within one week of learning of it or when they could have learned of it. Damage on forest land has special reporting dates (1 May and 1 October). The states regulate the procedure in detail."
+        },
+        {
+          "de": "Jagdschaden ist etwas anderes: Er entsteht nicht durch das Wild, sondern durch die Jagdausübung selbst, etwa wenn bei einer Treibjagd ein Zaun beschädigt oder ein bestelltes Feld zertreten wird. Für Jagdschaden haftet der Jagdausübungsberechtigte (§ 33 BJagdG).",
+          "en": "Hunting damage (Jagdschaden) is something else: it is caused not by game but by the hunting itself, for example when a fence is damaged or a sown field trampled during a drive. The person entitled to hunt is liable for hunting damage (§ 33 BJagdG)."
+        },
+        {
+          "de": "Wildschäden lassen sich vermeiden durch angepasste Wildbestände und Schwerpunktbejagung, durch Schutz der Kulturen (Zäunung, Einzelschutz), durch Ablenkfütterung oder Äsungsflächen, wo erlaubt, und durch Vergrämung, zum Beispiel mit Elektrozäunen gegen Schwarzwild.",
+          "en": "Game damage can be prevented by keeping populations in balance and concentrating hunting where damage occurs, by protecting crops and young trees (fencing, individual tree guards), by diversionary feeding or forage plots where permitted, and by deterrence, for example electric fences against wild boar."
+        }
+      ],
+      "keyTerms": [
+        {
+          "de": "Hege",
+          "en": "game management",
+          "note": "§ 1(2) BJagdG."
+        },
+        {
+          "de": "Wildschaden",
+          "en": "game damage",
+          "note": "Damage caused by game; § 29 BJagdG."
+        },
+        {
+          "de": "Jagdschaden",
+          "en": "hunting damage",
+          "note": "Damage caused by the hunt itself; § 33 BJagdG."
+        },
+        {
+          "de": "Verbiss",
+          "en": "browsing damage"
+        },
+        {
+          "de": "Schäle",
+          "en": "bark stripping",
+          "note": "Mainly red deer."
+        },
+        {
+          "de": "Jagdgenossenschaft",
+          "en": "hunting cooperative",
+          "note": "All landowners of a communal hunting district."
+        },
+        {
+          "de": "Jagdausübungsberechtigter",
+          "en": "person entitled to hunt",
+          "note": "Usually the leaseholder."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Bundesjagdgesetz (BJagdG) – gesetze-im-internet.de",
+          "url": "https://www.gesetze-im-internet.de/bjagdg/"
+        }
+      ],
+      "origin": "seed",
+      "updatedAt": "2026-11-12"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "betrieb-wildschaden-arten",
+      "lessonId": "hege-und-wildschaden",
+      "questionDe": "Für Wildschaden durch welche Arten besteht nach § 29 BJagdG Ersatzpflicht?",
+      "questionEn": "Under § 29 BJagdG, damage by which species must be compensated?",
+      "options": [
+        {
+          "de": "Schalenwild",
+          "en": "Cloven-hoofed game"
+        },
+        {
+          "de": "Wildkaninchen",
+          "en": "Wild rabbits"
+        },
+        {
+          "de": "Fasanen",
+          "en": "Pheasants"
+        },
+        {
+          "de": "Feldhasen",
+          "en": "Brown hares"
+        }
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanationDe": "Ersatzpflichtig ist Schaden durch Schalenwild, Wildkaninchen und Fasanen.",
+      "explanationEn": "Damage by cloven-hoofed game, wild rabbits and pheasants is compensated.",
+      "origin": "seed"
+    },
+    {
+      "id": "betrieb-wildschaden-frist",
+      "lessonId": "hege-und-wildschaden",
+      "questionDe": "Innerhalb welcher Frist muss Wildschaden auf landwirtschaftlichen Flächen angemeldet werden?",
+      "questionEn": "Within what period must game damage on farmland be reported?",
+      "options": [
+        {
+          "de": "Binnen einer Woche nach Kenntnis",
+          "en": "Within one week of learning of it"
+        },
+        {
+          "de": "Binnen eines Monats",
+          "en": "Within one month"
+        },
+        {
+          "de": "Bis zum Ende des Jagdjahres",
+          "en": "By the end of the hunting year"
+        },
+        {
+          "de": "Sofort beim Jagdpächter, eine Behörde ist nicht zuständig",
+          "en": "Immediately to the leaseholder; no authority is involved"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "§ 34 BJagdG: Anmeldung binnen einer Woche bei der zuständigen Behörde.",
+      "explanationEn": "§ 34 BJagdG: report within one week to the competent authority.",
+      "origin": "seed"
+    },
+    {
+      "id": "betrieb-jagdschaden",
+      "lessonId": "hege-und-wildschaden",
+      "questionDe": "Bei einer Treibjagd wird ein Weidezaun beschädigt. Wie nennt man diesen Schaden?",
+      "questionEn": "A pasture fence is damaged during a driven hunt. What is this damage called?",
+      "options": [
+        {
+          "de": "Wildschaden",
+          "en": "Game damage"
+        },
+        {
+          "de": "Jagdschaden",
+          "en": "Hunting damage"
+        },
+        {
+          "de": "Fegeschaden",
+          "en": "Fraying damage"
+        },
+        {
+          "de": "Schälschaden",
+          "en": "Bark-stripping damage"
+        }
+      ],
+      "correct": [
+        1
+      ],
+      "explanationDe": "Schaden durch die Jagdausübung selbst ist Jagdschaden (§ 33 BJagdG).",
+      "explanationEn": "Damage caused by hunting itself is hunting damage (§ 33 BJagdG).",
+      "origin": "seed"
+    },
+    {
+      "id": "betrieb-schaele",
+      "lessonId": "hege-und-wildschaden",
+      "questionDe": "Welche Wildart verursacht vor allem Schälschäden?",
+      "questionEn": "Which species mainly causes bark stripping?",
+      "options": [
+        {
+          "de": "Rotwild",
+          "en": "Red deer"
+        },
+        {
+          "de": "Feldhase",
+          "en": "Brown hare"
+        },
+        {
+          "de": "Fuchs",
+          "en": "Fox"
+        },
+        {
+          "de": "Rebhuhn",
+          "en": "Grey partridge"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Schäle – das Abziehen der Rinde – ist typisch für Rotwild.",
+      "explanationEn": "Bark stripping is typical of red deer.",
+      "origin": "seed"
+    }
+  ]
+}

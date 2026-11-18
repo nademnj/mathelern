@@ -11,6 +11,8 @@ interface SectionSummary {
   summaryEn: string;
   lessonIds: string[];
   questionIds: string[];
+  topicsTotal: number;
+  topicsCovered: number;
 }
 
 export function SectionGrid({ sections }: { sections: SectionSummary[] }) {
@@ -32,6 +34,10 @@ export function SectionGrid({ sections }: { sections: SectionSummary[] }) {
       <div className="card flex flex-wrap items-center gap-x-8 gap-y-3 p-4">
         <Stat label="Lessons read" value={`${totals.read} / ${totals.lessons}`} />
         <Stat label="Questions answered correctly (last try)" value={`${totals.mastered} / ${totals.questions}`} />
+        <Stat
+          label="Official catalogue topics with a lesson"
+          value={`${sections.reduce((n, s) => n + s.topicsCovered, 0)} / ${sections.reduce((n, s) => n + s.topicsTotal, 0)}`}
+        />
         <div className="ml-auto flex gap-2">
           <Link href="/quiz/all" className="btn-primary">Start mock exam</Link>
           <button
@@ -60,7 +66,7 @@ export function SectionGrid({ sections }: { sections: SectionSummary[] }) {
               <p className="text-sm text-muted">{s.summaryEn}</p>
               <div className="mt-auto space-y-2 pt-2">
                 <div className="flex justify-between text-xs text-muted">
-                  <span>{read}/{s.lessonIds.length} lessons read</span>
+                  <span>{read}/{s.lessonIds.length} lessons read · {s.topicsCovered}/{s.topicsTotal} topics</span>
                   <span>{pct}% of quiz correct</span>
                 </div>
                 <div className="h-1.5 overflow-hidden rounded-full bg-surface-2">

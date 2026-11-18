@@ -34,6 +34,7 @@ const MAX_ITERATIONS = 40;
 
 const saveLessonInput = z.object({
   id: z.string().min(3).max(60),
+  catalogCode: z.string(),
   titleDe: z.string().min(1),
   titleEn: z.string().min(1),
   paragraphs: z
@@ -79,9 +80,10 @@ const tools: Anthropic.Beta.BetaToolUnion[] = [
     input_schema: {
       type: "object",
       additionalProperties: false,
-      required: ["id", "titleDe", "titleEn", "paragraphs", "keyTerms", "sources"],
+      required: ["id", "catalogCode", "titleDe", "titleEn", "paragraphs", "keyTerms", "sources"],
       properties: {
         id: { type: "string", description: "kebab-case slug, ASCII only, e.g. 'schalenwild-rehwild'" },
+        catalogCode: { type: "string", description: "code of the official catalogue topic this lesson covers, e.g. '2.2.1.1'; empty string if none" },
         titleDe: { type: "string" },
         titleEn: { type: "string" },
         paragraphs: {
@@ -179,7 +181,7 @@ function buildTask(sectionTitle: string, summary: string, topics: string[], exis
     : "This section has no lessons yet.";
   return `Exam section: ${sectionTitle}
 What it covers: ${summary}
-Suggested research topics: ${topics.join("; ") || "(none)"}
+Official catalogue topics that have no lesson yet (cover these first): ${topics.join("; ") || "(none)"}
 ${existingList}
 ${focus ? `\nFocus for this run: ${focus}\n` : ""}
 Research and save up to ${maxLessons} new lesson(s) for this section, then the quiz questions for them.`;
@@ -200,7 +202,11 @@ export async function collectSection(opts: CollectOptions): Promise<void> {
       content: buildTask(
         `${section.titleDe} (${section.titleEn})`,
         section.summaryEn,
-        section.researchTopics,
+        section.catalogTopics.length
+          ? section.catalogTopics
+              .filter((t) => t.lessonIds.length === 0)
+              .map((t) => `${t.code} ${t.titleDe} (${t.officialQuestions} questions in the official Bavarian catalogue)`)
+          : section.researchTopics,
         section.lessons.map((l) => ({ id: l.id, titleDe: l.titleDe })),
         focus,
         maxLessons
@@ -314,8 +320,9 @@ async function runTool(
     const parsed = saveLessonInput.safeParse(call.input);
     if (!parsed.success) throw new Error(`Invalid input: ${parsed.error.message}`);
     const input = parsed.data;
+    const { catalogCode, ...rest } = input;
     const lesson: Lesson = lessonSchema.parse({
-      ...input,
+      ...rest,
       id: slug(input.id),
       paragraphs: input.paragraphs.map((p) => (p.quote ? p : { de: p.de, en: p.en })),
       keyTerms: input.keyTerms.map((k) => (k.note ? k : { de: k.de, en: k.en })),
@@ -323,7 +330,7 @@ async function runTool(
       origin: "agent",
       updatedAt: new Date().toISOString(),
     });
-    await saveLesson(sectionId, lesson);
+    await saveLesson(sectionId, lesson, catalogCode || undefined);
     cb.onLesson(lesson);
     return `Saved lesson "${lesson.id}".`;
   }

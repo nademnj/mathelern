@@ -1,4 +1,4 @@
-import type { Lesson, QuizQuestion } from "./schema";
+import type { CatalogTopic, Lesson, QuizQuestion } from "./schema";
 
 /** Replace the lesson with the same id, or append it. Keeps the original order. */
 export function mergeLesson(lessons: Lesson[], lesson: Lesson): Lesson[] {
@@ -27,4 +27,10 @@ export function mergeQuiz(existing: QuizQuestion[], incoming: QuizQuestion[]): Q
     result.push(q);
   }
   return result;
+}
+
+/** Records that a lesson covers the catalogue topic with the given code. */
+export function linkTopic(topics: CatalogTopic[], code: string | undefined, lessonId: string): CatalogTopic[] {
+  if (!code) return topics;
+  return topics.map((t) => (t.code === code && !t.lessonIds.includes(lessonId) ? { ...t, lessonIds: [...t.lessonIds, lessonId] } : t));
 }

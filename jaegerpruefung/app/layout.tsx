@@ -31,6 +31,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
             <div className="flex gap-4 text-sm text-muted">
               <Link href="/" className="hover:text-text">Sections</Link>
               <Link href="/quiz/all" className="hover:text-text">Mock exam</Link>
+              <Link href="/pruefung" className="hover:text-text">The exam</Link>
               <Link href="/agent" className="hover:text-text">Collector agent</Link>
             </div>
           </nav>

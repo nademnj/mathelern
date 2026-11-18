@@ -1,7 +1,7 @@
 import { promises as fs } from "node:fs";
 import path from "node:path";
 import { sectionSchema, type Lesson, type QuizQuestion, type Section } from "./schema";
-import { mergeLesson, mergeQuiz } from "./merge";
+import { linkTopic, mergeLesson, mergeQuiz } from "./merge";
 
 export const CONTENT_DIR = path.join(process.cwd(), "content", "sections");
 
@@ -44,11 +44,15 @@ function withLock<T>(id: string, fn: () => Promise<T>): Promise<T> {
   return next;
 }
 
-export function saveLesson(sectionId: string, lesson: Lesson): Promise<Section> {
+export function saveLesson(sectionId: string, lesson: Lesson, catalogCode?: string): Promise<Section> {
   return withLock(sectionId, async () => {
     const section = await getSection(sectionId);
     if (!section) throw new Error(`Unknown section ${sectionId}`);
-    const updated = { ...section, lessons: mergeLesson(section.lessons, lesson) };
+    const updated = {
+      ...section,
+      lessons: mergeLesson(section.lessons, lesson),
+      catalogTopics: linkTopic(section.catalogTopics, catalogCode, lesson.id),
+    };
     await writeSection(updated);
     return updated;
   });

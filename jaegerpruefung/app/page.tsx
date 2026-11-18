@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { connection } from "next/server";
 import { listSections } from "@/lib/content/store";
 import { SectionGrid } from "@/components/SectionGrid";
@@ -13,6 +14,8 @@ export default async function Home() {
     summaryEn: s.summaryEn,
     lessonIds: s.lessons.map((l) => l.id),
     questionIds: s.quiz.map((q) => q.id),
+    topicsTotal: s.catalogTopics.length,
+    topicsCovered: s.catalogTopics.filter((t) => t.lessonIds.length > 0).length,
   }));
 
   return (
@@ -20,12 +23,15 @@ export default async function Home() {
       <section className="space-y-3">
         <h1 className="text-3xl font-semibold tracking-tight">Prepare for the Jägerprüfung</h1>
         <p className="max-w-3xl text-muted">
-          Study each exam section in the original German with an English translation beside it, ask the AI tutor
+          Built around the six subject areas (Sachgebiete) of the official Bavarian exam. Study each exam section in the original German with an English translation beside it, ask the AI tutor
           whenever something is unclear, and test yourself with exam-style questions. The collector agent can search
           the web for more material and add it to any section.
         </p>
       </section>
       <SectionGrid sections={summaries} />
+      <p className="text-sm">
+        <Link href="/pruefung" className="text-accent hover:underline">How the Bavarian exam works, and the official question catalogue →</Link>
+      </p>
       <p className="text-xs text-muted">
         Study aid only. Hunting law differs between the federal states; for anything legally binding, check the official
         text of the Bundesjagdgesetz, your state&apos;s Landesjagdgesetz and its exam regulations (Prüfungsordnung).

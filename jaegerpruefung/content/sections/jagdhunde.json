@@ -1,16 +1,49 @@
 {
   "id": "jagdhunde",
-  "order": 4,
+  "order": 5,
   "titleDe": "Jagdhundewesen",
   "titleEn": "Hunting dogs",
-  "summaryDe": "Jagdhunderassen und ihre Verwendung, Ausbildung und Prüfungen, Brauchbarkeit, Nachsuche und Wildfolge.",
-  "summaryEn": "Hunting dog breeds and their uses, training and trials, legal qualification (Brauchbarkeit), tracking wounded game and following it across boundaries.",
+  "summaryDe": "Haltung, Erziehung und Führung von Jagdhunden, Jagdhunderassen und ihre Eigenschaften, Brauchbarkeitsprüfung, Tierschutz beim Hundeeinsatz.",
+  "summaryEn": "Keeping, training and handling hunting dogs, breeds and their traits, the Bavarian qualification test (Brauchbarkeitsprüfung), animal welfare when using dogs.",
   "researchTopics": [
-    "Brauchbarkeitsprüfung Landesrecht",
-    "Jagdhundeausbildung Verbandsprüfungen VJP HZP",
-    "Hundekrankheiten Aujeszky Jagdhund",
-    "Wildfolgevereinbarung",
-    "Hundeführer Nachsuche Gespann"
+    "5.1 Haltung, Erziehung und Führung von Jagdhunden",
+    "5.2 Jagdhunderassen und ihre Eigenschaften",
+    "5.3 Brauchbarkeitsprüfung",
+    "5.4 Tierschutz bei Jagdausübung und Hundeeinsatz"
+  ],
+  "catalogTopics": [
+    {
+      "code": "5.1",
+      "titleDe": "Haltung, Erziehung und Führung von Jagdhunden",
+      "titleEn": "Keeping, training and handling hunting dogs",
+      "officialQuestions": 75,
+      "lessonIds": [
+        "nachsuche"
+      ]
+    },
+    {
+      "code": "5.2",
+      "titleDe": "Jagdhunderassen und ihre Eigenschaften",
+      "titleEn": "Breeds and their traits",
+      "officialQuestions": 50,
+      "lessonIds": [
+        "jagdhundegruppen"
+      ]
+    },
+    {
+      "code": "5.3",
+      "titleDe": "Brauchbarkeitsprüfung",
+      "titleEn": "Qualification test",
+      "officialQuestions": 9,
+      "lessonIds": []
+    },
+    {
+      "code": "5.4",
+      "titleDe": "Tierschutz bei Jagdausübung und Hundeeinsatz",
+      "titleEn": "Animal welfare when hunting with dogs",
+      "officialQuestions": 12,
+      "lessonIds": []
+    }
   ],
   "lessons": [
     {

@@ -1,16 +1,76 @@
 {
   "id": "jagdbetrieb",
-  "order": 2,
-  "titleDe": "Jagdbetrieb, Wildhege und Wildschadensverhütung",
-  "titleEn": "Hunting practice, game management and damage prevention",
-  "summaryDe": "Jagdarten, Reviereinrichtungen, Hege, Wildschaden und Jagdschaden, Land- und Waldbau sowie Sicherheit bei Einzel- und Gesellschaftsjagden.",
-  "summaryEn": "Hunting methods, hunting-ground infrastructure, game management, game and hunting damage, agriculture and forestry, and safety at individual and group hunts.",
+  "order": 4,
+  "titleDe": "Wildhege, Jagdbetrieb und jagdliche Praxis",
+  "titleEn": "Game management, hunting operations and hunting practice",
+  "summaryDe": "Reviergestaltung, Hege und Bejagung des Schalenwildes, Fütterung, Jagdarten und Ansprechen, Versorgung des erlegten Wildes, Wildbrethygiene, Wildkrankheiten und bedenkliche Merkmale.",
+  "summaryEn": "Habitat improvement, management and hunting of cloven-hoofed game, feeding, hunting methods and identifying game, handling shot game, meat hygiene, wildlife diseases and signs of concern.",
   "researchTopics": [
-    "Reviereinrichtungen Hochsitz Kirrung Fütterung Landesrecht",
-    "Land- und Waldbau Jägerprüfung Baumarten",
-    "Biotopverbesserung Niederwild",
-    "Abschussplanung Rehwild Rotwild",
-    "Unfallverhütungsvorschrift Jagd"
+    "4.1 Reviergestaltung, Verbesserung des Wildlebensraums",
+    "4.2 Richtlinien für die Hege und Bejagung des Schalenwildes",
+    "4.3 Hegemaßnahmen einschließlich Fütterung",
+    "4.4 Wildseuchen und Wildkrankheiten",
+    "4.5 Jagdarten, Ansprechen des Wildes, Jagdausübungsregeln",
+    "4.6 Behandlung und Versorgung des erlegten Wildes, Wildbrethygiene",
+    "4.7 Abnorme Verhaltensweisen und pathologische Veränderungen"
+  ],
+  "catalogTopics": [
+    {
+      "code": "4.1",
+      "titleDe": "Reviergestaltung, Verbesserung des Wildlebensraums",
+      "titleEn": "Habitat improvement",
+      "officialQuestions": 11,
+      "lessonIds": []
+    },
+    {
+      "code": "4.2",
+      "titleDe": "Richtlinien für die Hege und Bejagung des Schalenwildes",
+      "titleEn": "Guidelines for managing and hunting cloven-hoofed game",
+      "officialQuestions": 20,
+      "lessonIds": []
+    },
+    {
+      "code": "4.3",
+      "titleDe": "Hegemaßnahmen einschließlich Fütterung",
+      "titleEn": "Management measures including feeding",
+      "officialQuestions": 41,
+      "lessonIds": []
+    },
+    {
+      "code": "4.4",
+      "titleDe": "Wildseuchen und Wildkrankheiten",
+      "titleEn": "Wildlife epidemics and diseases",
+      "officialQuestions": 37,
+      "lessonIds": [
+        "wildkrankheiten"
+      ]
+    },
+    {
+      "code": "4.5",
+      "titleDe": "Jagdarten, Ansprechen des Wildes, Jagdausübungsregeln",
+      "titleEn": "Hunting methods, identifying game, rules of hunting",
+      "officialQuestions": 87,
+      "lessonIds": [
+        "jagdarten",
+        "sicherheit-bei-der-jagd"
+      ]
+    },
+    {
+      "code": "4.6",
+      "titleDe": "Behandlung und Versorgung des erlegten Wildes, Wildbrethygiene",
+      "titleEn": "Handling shot game, meat hygiene",
+      "officialQuestions": 26,
+      "lessonIds": [
+        "versorgung-erlegtes-wild"
+      ]
+    },
+    {
+      "code": "4.7",
+      "titleDe": "Abnorme Verhaltensweisen und pathologische Veränderungen",
+      "titleEn": "Abnormal behaviour and pathological changes",
+      "officialQuestions": 22,
+      "lessonIds": []
+    }
   ],
   "lessons": [
     {
@@ -89,81 +149,6 @@
       "updatedAt": "2026-11-12"
     },
     {
-      "id": "hege-und-wildschaden",
-      "titleDe": "Hege, Wildschaden und Jagdschaden",
-      "titleEn": "Game management, game damage and hunting damage",
-      "paragraphs": [
-        {
-          "de": "Ziel der Hege ist nach § 1 Abs. 2 BJagdG ein artenreicher und gesunder Wildbestand, der an die landschaftlichen und landeskulturellen Verhältnisse angepasst ist, sowie die Pflege und Sicherung seiner Lebensgrundlagen. Die Hege muss so durchgeführt werden, dass Wildschäden an land-, forst- und fischereiwirtschaftlicher Nutzung möglichst vermieden werden.",
-          "en": "Under § 1(2) BJagdG the aim of game management (Hege) is a species-rich, healthy game population adapted to the landscape and land use, and the care and protection of its habitat. It must be carried out so that game damage to farming, forestry and fishery is avoided as far as possible."
-        },
-        {
-          "de": "Wildschaden ist der Schaden, den Wild an Grundstücken anrichtet. Im Wald sind das vor allem Verbiss (Abbeißen von Knospen und Trieben), Schäle (Abziehen der Rinde, vor allem durch Rotwild) und Fegeschäden; auf dem Feld vor allem Fraß und das Brechen des Schwarzwildes.",
-          "en": "Game damage (Wildschaden) is damage caused by game to land. In the forest it is mainly browsing (Verbiss — biting off buds and shoots), bark stripping (Schäle, mainly by red deer) and fraying damage (Fegeschaden); in fields mainly feeding and rooting by wild boar."
-        },
-        {
-          "de": "Nach § 29 BJagdG ist Wildschaden zu ersetzen, der durch Schalenwild, Wildkaninchen oder Fasanen verursacht wird. Ersatzpflichtig ist grundsätzlich die Jagdgenossenschaft; häufig übernimmt der Jagdpächter diese Pflicht ganz oder teilweise im Pachtvertrag.",
-          "en": "Under § 29 BJagdG, damage caused by cloven-hoofed game, wild rabbits or pheasants must be compensated. In principle the hunting cooperative (Jagdgenossenschaft) is liable; the lease contract often transfers this duty wholly or partly to the leaseholder."
-        },
-        {
-          "de": "Der Geschädigte muss den Wildschaden nach § 34 BJagdG binnen einer Woche, nachdem er davon Kenntnis erhalten hat oder hätte erhalten können, bei der zuständigen Behörde (meist der Gemeinde) anmelden. Für Schäden an forstwirtschaftlich genutzten Grundstücken gelten besondere Stichtage (1. Mai und 1. Oktober). Die Länder regeln das Verfahren im Einzelnen.",
-          "en": "Under § 34 BJagdG the injured party must report game damage to the competent authority (usually the municipality) within one week of learning of it or when they could have learned of it. Damage on forest land has special reporting dates (1 May and 1 October). The states regulate the procedure in detail."
-        },
-        {
-          "de": "Jagdschaden ist etwas anderes: Er entsteht nicht durch das Wild, sondern durch die Jagdausübung selbst, etwa wenn bei einer Treibjagd ein Zaun beschädigt oder ein bestelltes Feld zertreten wird. Für Jagdschaden haftet der Jagdausübungsberechtigte (§ 33 BJagdG).",
-          "en": "Hunting damage (Jagdschaden) is something else: it is caused not by game but by the hunting itself, for example when a fence is damaged or a sown field trampled during a drive. The person entitled to hunt is liable for hunting damage (§ 33 BJagdG)."
-        },
-        {
-          "de": "Wildschäden lassen sich vermeiden durch angepasste Wildbestände und Schwerpunktbejagung, durch Schutz der Kulturen (Zäunung, Einzelschutz), durch Ablenkfütterung oder Äsungsflächen, wo erlaubt, und durch Vergrämung, zum Beispiel mit Elektrozäunen gegen Schwarzwild.",
-          "en": "Game damage can be prevented by keeping populations in balance and concentrating hunting where damage occurs, by protecting crops and young trees (fencing, individual tree guards), by diversionary feeding or forage plots where permitted, and by deterrence, for example electric fences against wild boar."
-        }
-      ],
-      "keyTerms": [
-        {
-          "de": "Hege",
-          "en": "game management",
-          "note": "§ 1(2) BJagdG."
-        },
-        {
-          "de": "Wildschaden",
-          "en": "game damage",
-          "note": "Damage caused by game; § 29 BJagdG."
-        },
-        {
-          "de": "Jagdschaden",
-          "en": "hunting damage",
-          "note": "Damage caused by the hunt itself; § 33 BJagdG."
-        },
-        {
-          "de": "Verbiss",
-          "en": "browsing damage"
-        },
-        {
-          "de": "Schäle",
-          "en": "bark stripping",
-          "note": "Mainly red deer."
-        },
-        {
-          "de": "Jagdgenossenschaft",
-          "en": "hunting cooperative",
-          "note": "All landowners of a communal hunting district."
-        },
-        {
-          "de": "Jagdausübungsberechtigter",
-          "en": "person entitled to hunt",
-          "note": "Usually the leaseholder."
-        }
-      ],
-      "sources": [
-        {
-          "title": "Bundesjagdgesetz (BJagdG) – gesetze-im-internet.de",
-          "url": "https://www.gesetze-im-internet.de/bjagdg/"
-        }
-      ],
-      "origin": "seed",
-      "updatedAt": "2026-11-12"
-    },
-    {
       "id": "sicherheit-bei-der-jagd",
       "titleDe": "Sicherheit bei der Jagd",
       "titleEn": "Safety in the field",
@@ -226,6 +211,149 @@
         {
           "title": "Deutscher Jagdverband (DJV)",
           "url": "https://www.jagdverband.de/"
+        }
+      ],
+      "origin": "seed",
+      "updatedAt": "2026-11-12"
+    },
+    {
+      "id": "versorgung-erlegtes-wild",
+      "titleDe": "Versorgung des erlegten Wildes",
+      "titleEn": "Handling shot game",
+      "paragraphs": [
+        {
+          "de": "Wildbret ist ein hochwertiges Lebensmittel. Wer Wild in den Verkehr bringt, ist Lebensmittelunternehmer und muss die Vorschriften des Lebensmittelhygienerechts beachten. Die Grundregel lautet: schnell aufbrechen, sauber arbeiten, gut auskühlen.",
+          "en": "Game meat (Wildbret) is a high-quality food. Anyone who puts game on the market is a food business operator and must follow food hygiene law. The basic rule: gut quickly, work cleanly, cool well."
+        },
+        {
+          "de": "Schon vor dem Schuss und beim Ansprechen achtet der Jäger auf Verhaltensauffälligkeiten des lebenden Stückes, etwa Abmagerung, Lahmheit oder fehlende Scheu. Nach dem Erlegen untersucht er das Stück und die Organe beim Aufbrechen auf bedenkliche Merkmale wie Abszesse, Schwellungen, Verfärbungen oder Parasitenbefall.",
+          "en": "Even before the shot, while identifying the animal (ansprechen), the hunter looks for abnormal behaviour such as emaciation, lameness or lack of shyness. After the kill they examine the carcass and the organs while gutting for worrying signs such as abscesses, swellings, discolouration or parasites."
+        },
+        {
+          "de": "Das Wild muss nach dem Erlegen möglichst rasch aufgebrochen werden: Die Bauch- und Brusthöhle wird geöffnet und die Eingeweide werden entnommen. Dabei dürfen Magen-Darm-Inhalt und Blase das Wildbret nicht verunreinigen. Anschließend wird das Stück gelüftet und an einem sauberen, kühlen Ort aufgehängt.",
+          "en": "Game must be gutted (aufbrechen) as quickly as possible after the kill: the abdominal and chest cavities are opened and the viscera removed. Stomach and gut contents and the bladder must not contaminate the meat. Then the carcass is aired and hung in a clean, cool place."
+        },
+        {
+          "de": "Das Wildbret muss so schnell wie möglich gekühlt werden: Großwild auf höchstens +7 °C, Kleinwild auf höchstens +4 °C. Zum Großwild zählt in diesem Sinne zum Beispiel Schalenwild, zum Kleinwild Hase, Kaninchen und Federwild.",
+          "en": "The meat must be chilled as quickly as possible: large game to no more than +7 °C, small game to no more than +4 °C. Large game in this sense means, for example, cloven-hoofed game; small game means hare, rabbit and feathered game."
+        },
+        {
+          "de": "Jäger mit Schulung in Wildbrethygiene gelten als »kundige Person«. Stellt die kundige Person keine bedenklichen Merkmale fest, darf Wild in kleinen Mengen direkt an Verbraucher oder den örtlichen Einzelhandel abgegeben werden. Bei bedenklichen Merkmalen oder Verhaltensstörungen ist eine amtliche Fleischuntersuchung erforderlich. Für Schwarzwild und andere Trichinenträger wie den Dachs ist die Trichinenuntersuchung immer vorgeschrieben.",
+          "en": "Hunters trained in game meat hygiene count as a “trained person” (kundige Person). If the trained person finds no worrying signs, game may be supplied in small quantities directly to consumers or local retailers. If there are worrying signs or abnormal behaviour, an official meat inspection is required. For wild boar and other species that can carry Trichinella, such as the badger, a Trichinella test is always mandatory."
+        }
+      ],
+      "keyTerms": [
+        {
+          "de": "Wildbret",
+          "en": "game meat"
+        },
+        {
+          "de": "aufbrechen",
+          "en": "to gut/field-dress"
+        },
+        {
+          "de": "ansprechen",
+          "en": "to identify the animal",
+          "note": "Species, sex, age, condition before the shot."
+        },
+        {
+          "de": "bedenkliche Merkmale",
+          "en": "signs of concern",
+          "note": "Findings that require official inspection."
+        },
+        {
+          "de": "kundige Person",
+          "en": "trained person",
+          "note": "Hunter trained in game meat hygiene."
+        },
+        {
+          "de": "Großwild / Kleinwild",
+          "en": "large game / small game",
+          "note": "+7 °C / +4 °C maximum."
+        },
+        {
+          "de": "amtliche Fleischuntersuchung",
+          "en": "official meat inspection"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Tierische Lebensmittel-Hygieneverordnung (Tier-LMHV) – gesetze-im-internet.de",
+          "url": "https://www.gesetze-im-internet.de/tier-lmhv/"
+        }
+      ],
+      "origin": "seed",
+      "updatedAt": "2026-11-12"
+    },
+    {
+      "id": "wildkrankheiten",
+      "titleDe": "Wildkrankheiten und Zoonosen",
+      "titleEn": "Wildlife diseases and zoonoses",
+      "paragraphs": [
+        {
+          "de": "Wildkrankheiten werden durch Viren, Bakterien, Parasiten oder Pilze verursacht. Zoonosen sind Krankheiten, die zwischen Tier und Mensch übertragen werden können. Für den Jäger sind sie wichtig, weil er beim Aufbrechen und beim Umgang mit Fallwild engen Kontakt zu Wild hat. Handschuhe und gründliche Hygiene schützen.",
+          "en": "Wildlife diseases are caused by viruses, bacteria, parasites or fungi. Zoonoses are diseases that can pass between animals and humans. They matter to hunters because gutting and handling dead game (Fallwild) means close contact. Gloves and thorough hygiene protect you."
+        },
+        {
+          "de": "Die Afrikanische Schweinepest (ASP) ist eine Viruserkrankung, die nur Haus- und Wildschweine befällt und für sie fast immer tödlich verläuft. Für den Menschen ist sie ungefährlich, er kann das Virus aber über Kleidung, Fahrzeuge oder Lebensmittel verschleppen. Die ASP ist eine anzeigepflichtige Tierseuche; Funde von verendetem Schwarzwild müssen der Behörde gemeldet werden.",
+          "en": "African swine fever (ASF) is a viral disease that only affects domestic pigs and wild boar, and is almost always fatal for them. It is harmless to humans, but people can spread the virus via clothing, vehicles or food. ASF is a notifiable animal disease; finds of dead wild boar must be reported to the authority."
+        },
+        {
+          "de": "Die Tollwut ist eine Viruserkrankung des Nervensystems und eine gefährliche Zoonose. Deutschland gilt seit 2008 als frei von terrestrischer (klassischer) Tollwut, unter anderem dank der Impfköder für Füchse. Fledermaustollwut kommt weiterhin vor. Die Aujeszkysche Krankheit kann bei Schwarzwild vorkommen und ist für Hunde tödlich – deshalb dürfen Hunde kein rohes Schwarzwild bekommen.",
+          "en": "Rabies is a viral disease of the nervous system and a dangerous zoonosis. Germany has been free of terrestrial (classical) rabies since 2008, thanks partly to oral vaccine baits for foxes. Bat rabies still occurs. Aujeszky's disease can occur in wild boar and is fatal to dogs — so dogs must never be fed raw wild boar."
+        },
+        {
+          "de": "Der Kleine Fuchsbandwurm (Echinococcus multilocularis) ist ein Parasit des Fuchses. Seine Eier werden mit dem Kot ausgeschieden; nimmt der Mensch sie auf, kann eine schwere Lebererkrankung entstehen (alveoläre Echinokokkose). Beim Umgang mit Füchsen deshalb Handschuhe tragen. Die Tularämie (Hasenpest) ist eine bakterielle Zoonose, die vor allem Feldhasen befällt.",
+          "en": "The small fox tapeworm (Echinococcus multilocularis) is a parasite of the fox. Its eggs are passed in faeces; if a human swallows them, a serious liver disease can develop (alveolar echinococcosis). So wear gloves when handling foxes. Tularaemia (Hasenpest, “hare plague”) is a bacterial zoonosis that mainly affects brown hares."
+        },
+        {
+          "de": "Weitere wichtige Wildkrankheiten sind die Räude (Milbenbefall, häufig beim Fuchs), die Myxomatose und die Chinaseuche (RHD) beim Wildkaninchen bzw. die EBHS beim Hasen, sowie die Geflügelpest (Aviäre Influenza) bei Wasservögeln. Verdacht auf eine anzeigepflichtige Tierseuche muss sofort der Veterinärbehörde gemeldet werden.",
+          "en": "Other important wildlife diseases are mange (mite infestation, common in foxes), myxomatosis and rabbit haemorrhagic disease (RHD, Chinaseuche) in wild rabbits and EBHS in hares, and avian influenza (bird flu) in waterfowl. Suspicion of a notifiable animal disease must be reported to the veterinary authority immediately."
+        }
+      ],
+      "keyTerms": [
+        {
+          "de": "Zoonose",
+          "en": "zoonosis",
+          "note": "Disease transmissible between animals and humans."
+        },
+        {
+          "de": "Fallwild",
+          "en": "game found dead",
+          "note": "Died of disease or accident."
+        },
+        {
+          "de": "Afrikanische Schweinepest (ASP)",
+          "en": "African swine fever (ASF)",
+          "note": "Notifiable; pigs only; harmless to humans."
+        },
+        {
+          "de": "anzeigepflichtige Tierseuche",
+          "en": "notifiable animal disease",
+          "note": "Must be reported to the authority."
+        },
+        {
+          "de": "Tollwut",
+          "en": "rabies"
+        },
+        {
+          "de": "Fuchsbandwurm",
+          "en": "fox tapeworm",
+          "note": "Echinococcus multilocularis."
+        },
+        {
+          "de": "Räude",
+          "en": "mange"
+        },
+        {
+          "de": "Tularämie (Hasenpest)",
+          "en": "tularaemia"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Friedrich-Loeffler-Institut – Tierseuchen",
+          "url": "https://www.fli.de/"
         }
       ],
       "origin": "seed",
@@ -326,128 +454,6 @@
       "origin": "seed"
     },
     {
-      "id": "betrieb-wildschaden-arten",
-      "lessonId": "hege-und-wildschaden",
-      "questionDe": "Für Wildschaden durch welche Arten besteht nach § 29 BJagdG Ersatzpflicht?",
-      "questionEn": "Under § 29 BJagdG, damage by which species must be compensated?",
-      "options": [
-        {
-          "de": "Schalenwild",
-          "en": "Cloven-hoofed game"
-        },
-        {
-          "de": "Wildkaninchen",
-          "en": "Wild rabbits"
-        },
-        {
-          "de": "Fasanen",
-          "en": "Pheasants"
-        },
-        {
-          "de": "Feldhasen",
-          "en": "Brown hares"
-        }
-      ],
-      "correct": [
-        0,
-        1,
-        2
-      ],
-      "explanationDe": "Ersatzpflichtig ist Schaden durch Schalenwild, Wildkaninchen und Fasanen.",
-      "explanationEn": "Damage by cloven-hoofed game, wild rabbits and pheasants is compensated.",
-      "origin": "seed"
-    },
-    {
-      "id": "betrieb-wildschaden-frist",
-      "lessonId": "hege-und-wildschaden",
-      "questionDe": "Innerhalb welcher Frist muss Wildschaden auf landwirtschaftlichen Flächen angemeldet werden?",
-      "questionEn": "Within what period must game damage on farmland be reported?",
-      "options": [
-        {
-          "de": "Binnen einer Woche nach Kenntnis",
-          "en": "Within one week of learning of it"
-        },
-        {
-          "de": "Binnen eines Monats",
-          "en": "Within one month"
-        },
-        {
-          "de": "Bis zum Ende des Jagdjahres",
-          "en": "By the end of the hunting year"
-        },
-        {
-          "de": "Sofort beim Jagdpächter, eine Behörde ist nicht zuständig",
-          "en": "Immediately to the leaseholder; no authority is involved"
-        }
-      ],
-      "correct": [
-        0
-      ],
-      "explanationDe": "§ 34 BJagdG: Anmeldung binnen einer Woche bei der zuständigen Behörde.",
-      "explanationEn": "§ 34 BJagdG: report within one week to the competent authority.",
-      "origin": "seed"
-    },
-    {
-      "id": "betrieb-jagdschaden",
-      "lessonId": "hege-und-wildschaden",
-      "questionDe": "Bei einer Treibjagd wird ein Weidezaun beschädigt. Wie nennt man diesen Schaden?",
-      "questionEn": "A pasture fence is damaged during a driven hunt. What is this damage called?",
-      "options": [
-        {
-          "de": "Wildschaden",
-          "en": "Game damage"
-        },
-        {
-          "de": "Jagdschaden",
-          "en": "Hunting damage"
-        },
-        {
-          "de": "Fegeschaden",
-          "en": "Fraying damage"
-        },
-        {
-          "de": "Schälschaden",
-          "en": "Bark-stripping damage"
-        }
-      ],
-      "correct": [
-        1
-      ],
-      "explanationDe": "Schaden durch die Jagdausübung selbst ist Jagdschaden (§ 33 BJagdG).",
-      "explanationEn": "Damage caused by hunting itself is hunting damage (§ 33 BJagdG).",
-      "origin": "seed"
-    },
-    {
-      "id": "betrieb-schaele",
-      "lessonId": "hege-und-wildschaden",
-      "questionDe": "Welche Wildart verursacht vor allem Schälschäden?",
-      "questionEn": "Which species mainly causes bark stripping?",
-      "options": [
-        {
-          "de": "Rotwild",
-          "en": "Red deer"
-        },
-        {
-          "de": "Feldhase",
-          "en": "Brown hare"
-        },
-        {
-          "de": "Fuchs",
-          "en": "Fox"
-        },
-        {
-          "de": "Rebhuhn",
-          "en": "Grey partridge"
-        }
-      ],
-      "correct": [
-        0
-      ],
-      "explanationDe": "Schäle – das Abziehen der Rinde – ist typisch für Rotwild.",
-      "explanationEn": "Bark stripping is typical of red deer.",
-      "origin": "seed"
-    },
-    {
       "id": "betrieb-horizont",
       "lessonId": "sicherheit-bei-der-jagd",
       "questionDe": "Ein Reh steht auf einer Kuppe vor dem Horizont. Darf man mit der Büchse schießen?",
@@ -537,6 +543,251 @@
       ],
       "explanationDe": "Die Waffe ist nur am Stand geladen; vor Hindernissen, Fahrzeugen und beim Verlassen des Standes wird entladen.",
       "explanationEn": "The gun is loaded only at the stand; unload before obstacles, vehicles and when leaving the stand.",
+      "origin": "seed"
+    },
+    {
+      "id": "hyg-kuehlung-gross",
+      "lessonId": "versorgung-erlegtes-wild",
+      "questionDe": "Auf welche Temperatur muss Großwild (z. B. Rehwild) höchstens abgekühlt werden?",
+      "questionEn": "To what maximum temperature must large game (e.g. roe deer) be chilled?",
+      "options": [
+        {
+          "de": "+4 °C",
+          "en": "+4 °C"
+        },
+        {
+          "de": "+7 °C",
+          "en": "+7 °C"
+        },
+        {
+          "de": "+10 °C",
+          "en": "+10 °C"
+        },
+        {
+          "de": "−18 °C",
+          "en": "−18 °C"
+        }
+      ],
+      "correct": [
+        1
+      ],
+      "explanationDe": "Großwild höchstens +7 °C, Kleinwild höchstens +4 °C.",
+      "explanationEn": "Large game max +7 °C, small game max +4 °C.",
+      "origin": "seed"
+    },
+    {
+      "id": "hyg-kuehlung-klein",
+      "lessonId": "versorgung-erlegtes-wild",
+      "questionDe": "Auf welche Temperatur muss Kleinwild (z. B. Hase, Fasan) höchstens abgekühlt werden?",
+      "questionEn": "To what maximum temperature must small game (e.g. hare, pheasant) be chilled?",
+      "options": [
+        {
+          "de": "+4 °C",
+          "en": "+4 °C"
+        },
+        {
+          "de": "+7 °C",
+          "en": "+7 °C"
+        },
+        {
+          "de": "+2 °C",
+          "en": "+2 °C"
+        },
+        {
+          "de": "+12 °C",
+          "en": "+12 °C"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Kleinwild höchstens +4 °C.",
+      "explanationEn": "Small game max +4 °C.",
+      "origin": "seed"
+    },
+    {
+      "id": "hyg-trichinen",
+      "lessonId": "versorgung-erlegtes-wild",
+      "questionDe": "Für welche Wildarten ist eine Trichinenuntersuchung vorgeschrieben?",
+      "questionEn": "For which species is a Trichinella test mandatory?",
+      "options": [
+        {
+          "de": "Schwarzwild",
+          "en": "Wild boar"
+        },
+        {
+          "de": "Dachs",
+          "en": "Badger"
+        },
+        {
+          "de": "Rehwild",
+          "en": "Roe deer"
+        },
+        {
+          "de": "Feldhase",
+          "en": "Brown hare"
+        }
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanationDe": "Trichinenträger wie Schwarzwild und Dachs müssen untersucht werden; Pflanzenfresser wie Reh und Hase nicht.",
+      "explanationEn": "Trichinella carriers such as wild boar and badger must be tested; herbivores like roe deer and hare do not.",
+      "origin": "seed"
+    },
+    {
+      "id": "hyg-bedenklich",
+      "lessonId": "versorgung-erlegtes-wild",
+      "questionDe": "Die kundige Person findet beim Aufbrechen einen Abszess in der Leber. Was ist zu tun?",
+      "questionEn": "The trained person finds an abscess in the liver while gutting. What must be done?",
+      "options": [
+        {
+          "de": "Amtliche Fleischuntersuchung veranlassen",
+          "en": "Arrange an official meat inspection"
+        },
+        {
+          "de": "Die Leber wegwerfen und das Wildbret normal abgeben",
+          "en": "Discard the liver and sell the meat as usual"
+        },
+        {
+          "de": "Das Stück einfrieren, dann ist es unbedenklich",
+          "en": "Freeze the carcass, then it is safe"
+        },
+        {
+          "de": "Nichts, Abszesse sind normal",
+          "en": "Nothing, abscesses are normal"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Bei bedenklichen Merkmalen muss das Stück amtlich untersucht werden.",
+      "explanationEn": "With signs of concern the carcass must be officially inspected.",
+      "origin": "seed"
+    },
+    {
+      "id": "hyg-asp-mensch",
+      "lessonId": "wildkrankheiten",
+      "questionDe": "Welche Aussagen zur Afrikanischen Schweinepest sind richtig?",
+      "questionEn": "Which statements about African swine fever are correct?",
+      "options": [
+        {
+          "de": "Sie befällt nur Haus- und Wildschweine",
+          "en": "It only affects domestic pigs and wild boar"
+        },
+        {
+          "de": "Sie ist für den Menschen ungefährlich",
+          "en": "It is harmless to humans"
+        },
+        {
+          "de": "Der Mensch kann das Virus verschleppen",
+          "en": "Humans can spread the virus"
+        },
+        {
+          "de": "Sie ist nicht anzeigepflichtig",
+          "en": "It is not notifiable"
+        }
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanationDe": "ASP ist anzeigepflichtig; Menschen erkranken nicht, können das Virus aber verbreiten.",
+      "explanationEn": "ASF is notifiable; humans don't get ill but can spread the virus.",
+      "origin": "seed"
+    },
+    {
+      "id": "hyg-aujeszky",
+      "lessonId": "wildkrankheiten",
+      "questionDe": "Warum soll man Jagdhunden kein rohes Schwarzwild füttern?",
+      "questionEn": "Why must hunting dogs not be fed raw wild boar?",
+      "options": [
+        {
+          "de": "Wegen der Aujeszkyschen Krankheit, die für Hunde tödlich ist",
+          "en": "Because of Aujeszky's disease, which is fatal to dogs"
+        },
+        {
+          "de": "Weil Schwarzwild zu fett ist",
+          "en": "Because wild boar is too fatty"
+        },
+        {
+          "de": "Wegen der Myxomatose",
+          "en": "Because of myxomatosis"
+        },
+        {
+          "de": "Weil es den Jagdtrieb schwächt",
+          "en": "Because it weakens hunting drive"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Das Aujeszky-Virus kann bei Schwarzwild vorkommen und tötet Hunde.",
+      "explanationEn": "Aujeszky's virus can occur in wild boar and kills dogs.",
+      "origin": "seed"
+    },
+    {
+      "id": "hyg-zoonosen",
+      "lessonId": "wildkrankheiten",
+      "questionDe": "Welche der folgenden Krankheiten sind Zoonosen?",
+      "questionEn": "Which of these diseases are zoonoses?",
+      "options": [
+        {
+          "de": "Tollwut",
+          "en": "Rabies"
+        },
+        {
+          "de": "Fuchsbandwurm (alveoläre Echinokokkose)",
+          "en": "Fox tapeworm (alveolar echinococcosis)"
+        },
+        {
+          "de": "Tularämie",
+          "en": "Tularaemia"
+        },
+        {
+          "de": "Afrikanische Schweinepest",
+          "en": "African swine fever"
+        }
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanationDe": "Tollwut, Fuchsbandwurm und Tularämie können auf den Menschen übergehen, die ASP nicht.",
+      "explanationEn": "Rabies, fox tapeworm and tularaemia can infect humans; ASF cannot.",
+      "origin": "seed"
+    },
+    {
+      "id": "hyg-raeude",
+      "lessonId": "wildkrankheiten",
+      "questionDe": "Wodurch wird die Räude verursacht?",
+      "questionEn": "What causes mange?",
+      "options": [
+        {
+          "de": "Milben",
+          "en": "Mites"
+        },
+        {
+          "de": "Viren",
+          "en": "Viruses"
+        },
+        {
+          "de": "Bandwürmer",
+          "en": "Tapeworms"
+        },
+        {
+          "de": "Pilze",
+          "en": "Fungi"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Räude wird durch Grabmilben verursacht, häufig beim Fuchs.",
+      "explanationEn": "Mange is caused by burrowing mites, common in foxes.",
       "origin": "seed"
     }
   ]
