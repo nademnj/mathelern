@@ -34,7 +34,8 @@
       "officialQuestions": 19,
       "lessonIds": [
         "einteilung-des-wildes",
-        "fortpflanzung-und-koerperbau"
+        "fortpflanzung-und-koerperbau",
+        "zahnformeln-und-altersschaetzung"
       ]
     },
     {
@@ -43,7 +44,9 @@
       "titleEn": "Cloven-hoofed game in general",
       "officialQuestions": 12,
       "lessonIds": [
-        "schalenwild-allgemein"
+        "schalenwild-allgemein",
+        "zahnformeln-und-altersschaetzung",
+        "faehrten-und-hirschgerechte-zeichen"
       ]
     },
     {
@@ -52,7 +55,8 @@
       "titleEn": "Red deer",
       "officialQuestions": 24,
       "lessonIds": [
-        "rotwild"
+        "rotwild",
+        "faehrten-und-hirschgerechte-zeichen"
       ]
     },
     {
@@ -369,6 +373,75 @@
       "updatedAt": "2026-11-18"
     },
     {
+      "id": "zahnformeln-und-altersschaetzung",
+      "titleDe": "Gebisse, Zahnformeln und Altersschätzung",
+      "titleEn": "Teeth, dental formulas and ageing",
+      "paragraphs": [
+        {
+          "de": "Eine Zahnformel gibt für eine Kieferhälfte an, wie viele Schneidezähne (I), Eckzähne (C), vordere Backenzähne (P) und hintere Backenzähne (M) oben und unten stehen; die Summe mal zwei ergibt die Zahl der Zähne. Das Gebiss verrät die Ernährung: Wiederkäuer haben oben statt Schneidezähnen eine Kauplatte, Allesfresser haben alle Zahnarten, Raubwild hat Fang- und Reißzähne, Hasenartige und Nager haben keine Eckzähne, aber ständig nachwachsende Nagezähne.",
+          "en": "A dental formula gives, for one half of the jaw, how many incisors (I), canines (C), premolars (P) and molars (M) there are above and below; the sum times two is the number of teeth. The teeth reveal the diet: ruminants have a dental pad instead of upper incisors, omnivores have every type of tooth, predators have fangs and carnassials, hares and rodents have no canines but ever-growing incisors."
+        },
+        {
+          "de": "Rehwild, Damwild sowie Gams-, Stein- und Muffelwild: oben 0 I, 0 C, 3 P, 3 M; unten 3 I, 1 C, 3 P, 3 M = 32 Zähne (der untere Eckzahn sieht wie ein Schneidezahn aus). Rot- und Sikawild haben zusätzlich oben je einen Eckzahn, die Grandeln = 34 Zähne. Schwarzwild hat das vollständige Allesfressergebiss mit oben und unten 3 I, 1 C, 4 P, 3 M = 44 Zähne.",
+          "en": "Roe deer, fallow deer and chamois, ibex and mouflon: upper 0 I, 0 C, 3 P, 3 M; lower 3 I, 1 C, 3 P, 3 M = 32 teeth (the lower canine looks like an incisor). Red and sika deer also have one upper canine on each side, the Grandeln = 34 teeth. Wild boar have the complete omnivore set with 3 I, 1 C, 4 P, 3 M above and below = 44 teeth."
+        },
+        {
+          "de": "Fuchs: oben 3 I, 1 C, 4 P, 2 M; unten 3 I, 1 C, 4 P, 3 M = 42 Zähne. Dachs sowie Baum- und Steinmarder: oben 3-1-4-1, unten 3-1-4-2 = 38 Zähne; Iltis, Hermelin und Mauswiesel: oben 3-1-3-1, unten 3-1-3-2 = 34 Zähne. Wildkatze: oben 3-1-3-1, unten 3-1-2-1 = 30 Zähne. Feldhase und Wildkaninchen: oben 2-0-3-3 (zwei hintereinander stehende Schneidezähne, die »Stiftzähne«), unten 1-0-2-3 = 28 Zähne.",
+          "en": "Fox: upper 3 I, 1 C, 4 P, 2 M; lower 3 I, 1 C, 4 P, 3 M = 42 teeth. Badger and pine and stone marten: upper 3-1-4-1, lower 3-1-4-2 = 38 teeth; polecat, stoat and least weasel: upper 3-1-3-1, lower 3-1-3-2 = 34 teeth. Wildcat: upper 3-1-3-1, lower 3-1-2-1 = 30 teeth. Brown hare and wild rabbit: upper 2-0-3-3 (two incisors one behind the other, the peg teeth), lower 1-0-2-3 = 28 teeth."
+        },
+        {
+          "de": "Das Alter schätzt man am Unterkiefer: Der Zahnwechsel ist beim Rehwild mit etwa 14 Monaten, beim Rotwild mit etwa 28–30 Monaten, beim Schwarzwild mit etwa 24 Monaten abgeschlossen. Ein Jährling erkennt man beim Reh am noch dreiteiligen dritten Prämolaren des Milchgebisses; danach hilft die Abnutzung (Abschliff) der Backenzähne. Bei Hornträgern ist das Alter an den Jahresringen der Hörner sicherer abzulesen.",
+          "en": "Age is judged from the lower jaw: tooth change is complete at about 14 months in roe deer, about 28–30 months in red deer, about 24 months in wild boar. In roe deer a yearling is recognised by the still three-part third milk premolar; after that, wear on the cheek teeth helps. In horn-bearers age is read more reliably from the growth rings of the horns."
+        }
+      ],
+      "keyTerms": [
+        {
+          "de": "Zahnformel",
+          "en": "dental formula"
+        },
+        {
+          "de": "Schneidezahn (I)",
+          "en": "incisor"
+        },
+        {
+          "de": "Eckzahn (C)",
+          "en": "canine"
+        },
+        {
+          "de": "Prämolar (P)",
+          "en": "premolar"
+        },
+        {
+          "de": "Molar (M)",
+          "en": "molar"
+        },
+        {
+          "de": "Kauplatte",
+          "en": "dental pad"
+        },
+        {
+          "de": "Grandeln",
+          "en": "red deer upper canines"
+        },
+        {
+          "de": "Reißzahn",
+          "en": "carnassial"
+        },
+        {
+          "de": "Zahnwechsel",
+          "en": "change from milk to permanent teeth"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Fragenkatalog zur Jägerprüfung in Bayern – Landesamt für Maß und Gewicht",
+          "url": "https://www.lmg.bayern.de/aufgaben_leistungen/jaegerpruefung/index.html"
+        }
+      ],
+      "origin": "seed",
+      "updatedAt": "2026-11-18"
+    },
+    {
       "id": "schalenwild-allgemein",
       "titleDe": "Schalenwild – Gemeinsamkeiten und Unterschiede",
       "titleEn": "Cloven-hoofed game – shared traits and differences",
@@ -424,6 +497,67 @@
         {
           "de": "Brunft",
           "en": "rut"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Fragenkatalog zur Jägerprüfung in Bayern – Landesamt für Maß und Gewicht",
+          "url": "https://www.lmg.bayern.de/aufgaben_leistungen/jaegerpruefung/index.html"
+        }
+      ],
+      "origin": "seed",
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "faehrten-und-hirschgerechte-zeichen",
+      "titleDe": "Fährten, Spuren und hirschgerechte Zeichen",
+      "titleEn": "Tracks, trails and the classic red deer signs",
+      "paragraphs": [
+        {
+          "de": "In der Jägersprache hinterlässt Schalenwild eine Fährte, Hase, Raubwild und Hund eine Spur, Federwild ein Geläuf. Ein einzelner Abdruck heißt beim Schalenwild Tritt, beim übrigen Wild Trittsiegel. Schwarzwild drückt die Afterklauen (das Geäfter) weit außen ab, Rotwild nur bei der Flucht oder wenn es krank ist. Der Fuchs schnürt: Seine Tritte liegen wie auf einer Schnur hintereinander.",
+          "en": "In hunters' language cloven-hoofed game leaves a Fährte, hares, predators and dogs a Spur, birds a Geläuf. A single print is called Tritt in cloven-hoofed game and Trittsiegel in other game. Wild boar print their dewclaws (Geäfter) wide to the sides; red deer only when fleeing or when sick. The fox moves in a straight line (schnüren): its prints lie one behind the other as if on a string."
+        },
+        {
+          "de": "Die hirschgerechten Zeichen sind überlieferte Merkmale, an denen man in der Rotwildfährte Geschlecht, Alter und Gangart erkennt. Der Schrank ist die seitliche Breite der Fährte – beim Hirsch breiter als beim Tier –, auch der Schritt ist beim Hirsch länger. Setzt das Stück den Hinterlauf weit vor den Vorderlauf, »übereilt« es (eher junges Stück); bleibt der Hinterlauf zurück, spricht man vom Zurückbleiben (z. B. hochbeschlagenes Tier). Setzt der Hirsch den Hinterlauf neben den Vorderlauf, nennt man das Beitritt, typisch für den starken, feisten Hirsch.",
+          "en": "The classic red deer signs (hirschgerechte Zeichen) are traditional features in a red deer trail that reveal sex, age and gait. The Schrank is the sideways width of the trail — wider in a stag than a hind — and the stride is also longer in a stag. If the animal places its hind foot well ahead of its fore foot it “overreaches” (Übereilen, rather a young animal); if the hind foot stays behind it's Zurückbleiben (e.g. a heavily pregnant hind). If the stag places the hind foot beside the fore foot it's called Beitritt, typical of a strong, fat stag."
+        },
+        {
+          "de": "Weitere Zeichen findet man nicht im Boden, sondern in der Umgebung: Die Höhe von Fege- und Schlagstellen an Bäumen lässt auf die Größe des Geweihs schließen. In der Brunft gibt der Hirsch neben dem Röhren auch kurze Laute beim Treiben eines Tieres oder beim Vertreiben eines Rivalen von sich. Pirschzeichen am Anschuss sind die »Zeichen« nach dem Schuss: Schweiß, Schnitthaar, Knochensplitter.",
+          "en": "Other signs are found not in the ground but around it: the height of fraying and rubbing marks on trees indicates the size of the antlers. During the rut, besides roaring, the stag gives short grunts when driving a hind or chasing off a rival. Pirschzeichen at the shot site are the signs after the shot: blood, cut hair, bone splinters."
+        }
+      ],
+      "keyTerms": [
+        {
+          "de": "Fährte",
+          "en": "trail of cloven-hoofed game"
+        },
+        {
+          "de": "Spur",
+          "en": "trail of hare, predators, dogs"
+        },
+        {
+          "de": "Geläuf",
+          "en": "trail of birds"
+        },
+        {
+          "de": "Tritt / Trittsiegel",
+          "en": "single print"
+        },
+        {
+          "de": "Geäfter",
+          "en": "dewclaws"
+        },
+        {
+          "de": "schnüren",
+          "en": "to walk in a straight line (fox)"
+        },
+        {
+          "de": "Schrank",
+          "en": "width of the trail"
+        },
+        {
+          "de": "hirschgerechte Zeichen",
+          "en": "classic red deer track signs"
         }
       ],
       "sources": [
@@ -4607,6 +4741,308 @@
       ],
       "explanationDe": "Feuchte Mischwälder mit Erlenbrüchen.",
       "explanationEn": "Damp mixed forests with alder swamps.",
+      "origin": "seed"
+    },
+    {
+      "id": "zahn-reh",
+      "lessonId": "zahnformeln-und-altersschaetzung",
+      "questionDe": "Wie viele Zähne hat das Rehwild im Dauergebiss (in der Regel)?",
+      "questionEn": "How many permanent teeth does a roe deer usually have?",
+      "options": [
+        {
+          "de": "32",
+          "en": "32"
+        },
+        {
+          "de": "34",
+          "en": "34"
+        },
+        {
+          "de": "44",
+          "en": "44"
+        },
+        {
+          "de": "42",
+          "en": "42"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Ohne Grandeln 32; Rotwild mit Grandeln 34.",
+      "explanationEn": "Without upper canines 32; red deer with Grandeln 34.",
+      "origin": "seed"
+    },
+    {
+      "id": "zahn-rot",
+      "lessonId": "zahnformeln-und-altersschaetzung",
+      "questionDe": "Warum hat Rotwild zwei Zähne mehr als Rehwild?",
+      "questionEn": "Why do red deer have two more teeth than roe deer?",
+      "options": [
+        {
+          "de": "Wegen der Grandeln im Oberkiefer",
+          "en": "Because of the upper canines (Grandeln)"
+        },
+        {
+          "de": "Wegen zusätzlicher Schneidezähne oben",
+          "en": "Because of extra upper incisors"
+        },
+        {
+          "de": "Wegen eines vierten Molaren",
+          "en": "Because of a fourth molar"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Die Grandeln sind obere Eckzähne.",
+      "explanationEn": "Grandeln are upper canines.",
+      "origin": "seed"
+    },
+    {
+      "id": "zahn-schwarz",
+      "lessonId": "zahnformeln-und-altersschaetzung",
+      "questionDe": "Wie viele Zähne hat Schwarzwild?",
+      "questionEn": "How many teeth do wild boar have?",
+      "options": [
+        {
+          "de": "44",
+          "en": "44"
+        },
+        {
+          "de": "32",
+          "en": "32"
+        },
+        {
+          "de": "38",
+          "en": "38"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Vollständiges Allesfressergebiss: 3-1-4-3 oben und unten.",
+      "explanationEn": "Complete omnivore set: 3-1-4-3 top and bottom.",
+      "origin": "seed"
+    },
+    {
+      "id": "zahn-fuchs",
+      "lessonId": "zahnformeln-und-altersschaetzung",
+      "questionDe": "Wie viele Zähne hat der Fuchs?",
+      "questionEn": "How many teeth does a fox have?",
+      "options": [
+        {
+          "de": "42",
+          "en": "42"
+        },
+        {
+          "de": "38",
+          "en": "38"
+        },
+        {
+          "de": "28",
+          "en": "28"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Oben 3-1-4-2, unten 3-1-4-3.",
+      "explanationEn": "Upper 3-1-4-2, lower 3-1-4-3.",
+      "origin": "seed"
+    },
+    {
+      "id": "zahn-hase",
+      "lessonId": "zahnformeln-und-altersschaetzung",
+      "questionDe": "Was ist typisch für das Gebiss des Feldhasen?",
+      "questionEn": "What is typical of a hare's teeth?",
+      "options": [
+        {
+          "de": "Keine Eckzähne",
+          "en": "No canines"
+        },
+        {
+          "de": "Stiftzähne hinter den oberen Nagezähnen",
+          "en": "Peg teeth behind the upper incisors"
+        },
+        {
+          "de": "Ständig nachwachsende Nagezähne",
+          "en": "Ever-growing incisors"
+        },
+        {
+          "de": "Grandeln",
+          "en": "Grandeln"
+        }
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanationDe": "28 Zähne, keine Eckzähne.",
+      "explanationEn": "28 teeth, no canines.",
+      "origin": "seed"
+    },
+    {
+      "id": "zahn-wechsel-reh",
+      "lessonId": "zahnformeln-und-altersschaetzung",
+      "questionDe": "Wann ist der Zahnwechsel beim Rehwild abgeschlossen?",
+      "questionEn": "When is tooth change complete in roe deer?",
+      "options": [
+        {
+          "de": "Mit etwa 14 Monaten",
+          "en": "At about 14 months"
+        },
+        {
+          "de": "Mit etwa 28 Monaten",
+          "en": "At about 28 months"
+        },
+        {
+          "de": "Mit etwa 6 Monaten",
+          "en": "At about 6 months"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Rotwild etwa 28–30, Schwarzwild etwa 24 Monate.",
+      "explanationEn": "Red deer about 28–30, wild boar about 24 months.",
+      "origin": "seed"
+    },
+    {
+      "id": "faehrte-begriffe",
+      "lessonId": "faehrten-und-hirschgerechte-zeichen",
+      "questionDe": "Welche Zuordnungen sind richtig?",
+      "questionEn": "Which pairings are correct?",
+      "options": [
+        {
+          "de": "Schalenwild – Fährte",
+          "en": "Cloven-hoofed game – Fährte"
+        },
+        {
+          "de": "Fuchs – Spur",
+          "en": "Fox – Spur"
+        },
+        {
+          "de": "Federwild – Geläuf",
+          "en": "Birds – Geläuf"
+        },
+        {
+          "de": "Hase – Fährte",
+          "en": "Hare – Fährte"
+        }
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanationDe": "Der Hase hinterlässt eine Spur.",
+      "explanationEn": "Hares leave a Spur.",
+      "origin": "seed"
+    },
+    {
+      "id": "faehrte-schnueren",
+      "lessonId": "faehrten-und-hirschgerechte-zeichen",
+      "questionDe": "Was bedeutet »der Fuchs schnürt«?",
+      "questionEn": "What does “the fox schnürt” mean?",
+      "options": [
+        {
+          "de": "Seine Tritte liegen hintereinander wie auf einer Schnur",
+          "en": "Its prints lie in a straight line"
+        },
+        {
+          "de": "Er gräbt einen Bau",
+          "en": "It digs a den"
+        },
+        {
+          "de": "Er markiert mit Losung",
+          "en": "It marks with droppings"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Typisches Spurbild des Fuchses.",
+      "explanationEn": "Typical fox track pattern.",
+      "origin": "seed"
+    },
+    {
+      "id": "faehrte-schrank",
+      "lessonId": "faehrten-und-hirschgerechte-zeichen",
+      "questionDe": "Was ist der Schrank in der Rotwildfährte?",
+      "questionEn": "What is the Schrank in a red deer trail?",
+      "options": [
+        {
+          "de": "Die seitliche Breite der Fährte",
+          "en": "The sideways width of the trail"
+        },
+        {
+          "de": "Die Länge eines Trittes",
+          "en": "The length of one print"
+        },
+        {
+          "de": "Der Abdruck der Afterklauen",
+          "en": "The dewclaw print"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Beim Hirsch breiter als beim Tier.",
+      "explanationEn": "Wider in a stag than a hind.",
+      "origin": "seed"
+    },
+    {
+      "id": "faehrte-geaefter",
+      "lessonId": "faehrten-und-hirschgerechte-zeichen",
+      "questionDe": "Woran unterscheidet man die Fährte von Schwarz- und Rotwild am deutlichsten?",
+      "questionEn": "What most clearly distinguishes wild boar from red deer trails?",
+      "options": [
+        {
+          "de": "Am Abdruck des Geäfters",
+          "en": "The dewclaw print"
+        },
+        {
+          "de": "An der Farbe des Bodens",
+          "en": "The soil colour"
+        },
+        {
+          "de": "An der Schrittlänge allein",
+          "en": "The stride length alone"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Schwarzwild drückt das Geäfter weit außen ab.",
+      "explanationEn": "Wild boar print their dewclaws wide to the sides.",
+      "origin": "seed"
+    },
+    {
+      "id": "faehrte-beitritt",
+      "lessonId": "faehrten-und-hirschgerechte-zeichen",
+      "questionDe": "Welches Fährtenzeichen ist typisch für einen starken, feisten Hirsch?",
+      "questionEn": "Which trail sign is typical of a strong, fat stag?",
+      "options": [
+        {
+          "de": "Beitritt – Hinterlauf neben dem Vorderlauf",
+          "en": "Beitritt — hind foot beside the fore foot"
+        },
+        {
+          "de": "Übereilen – Hinterlauf weit vor dem Vorderlauf",
+          "en": "Übereilen — hind foot well ahead"
+        },
+        {
+          "de": "Geläuf",
+          "en": "Geläuf"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Übereilen deutet eher auf ein junges Stück.",
+      "explanationEn": "Übereilen rather suggests a young animal.",
       "origin": "seed"
     }
   ]

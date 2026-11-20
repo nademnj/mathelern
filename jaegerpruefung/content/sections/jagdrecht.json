@@ -23,7 +23,8 @@
         "jagdzeiten-bayern",
         "abschussplan-und-streckenliste",
         "jagdausuebung-bayern",
-        "wildfolge-wildschaden-aneignung"
+        "wildfolge-wildschaden-aneignung",
+        "jagdschein-wildkamera-schalldaempfer"
       ]
     },
     {
@@ -414,12 +415,12 @@
       "titleEn": "Rules for hunting in Bavaria",
       "paragraphs": [
         {
-          "de": "Zur Nachtzeit (1½ Stunden nach Sonnenuntergang bis 1½ Stunden vor Sonnenaufgang) dürfen in Bayern im Rahmen ihrer Jagdzeit Schwarzwild, Fuchs, Dachs und Nutria erlegt werden – bayernweit auch mit künstlichen Lichtquellen sowie Nachtsichtvorsatz- und -aufsatzgeräten. Auf Feldhasen, Wildkaninchen und Wildenten ist die Nachtjagd verboten. Rot-, Dam-, Reh-, Gams- und Muffelwild dürfen nicht auf Treibjagden erlegt werden. Bei Drück- und Riegeljagden dürfen höchstens vier Treiber drücken, Hunde dürfen frei laufen. Brackieren ist erst auf Flächen ab 1.000 ha erlaubt. In Notzeiten darf Schalenwild im Umkreis von 200 m um Fütterungen nicht erlegt werden.",
-          "en": "At night (1½ hours after sunset to 1½ hours before sunrise) wild boar, fox, badger and coypu may be shot in Bavaria in their season — throughout Bavaria also with artificial light and night-vision clip-on and mounted devices. Night hunting of brown hares, wild rabbits and wild ducks is forbidden. Red, fallow, roe deer, chamois and mouflon may not be shot at drives. At Drück- and Riegeljagden, at most four beaters may push, and dogs may run free. Hunting with hounds (Brackieren) is only allowed on areas of 1,000 ha or more. In times of need, cloven-hoofed game must not be shot within 200 m of feeding sites."
+          "de": "Zur Nachtzeit (1½ Stunden nach Sonnenuntergang bis 1½ Stunden vor Sonnenaufgang) ist das Erlegen von Wild in Bayern grundsätzlich verboten. Ausgenommen sind nach Art. 29 Abs. 2 Nr. 1 n BayJG Schwarzwild, Haarraubwild, Möwen, Waldschnepfen, Auer-, Birk- und Rackelwild sowie invasive Haarwildarten (z. B. Waschbär, Marderhund, Nutria) – jeweils nur in ihrer Jagdzeit. Künstliche Lichtquellen und Nachtzielgeräte mit Bildwandler oder elektronischer Verstärkung sind nach der seit 1. April 2026 geltenden Fassung erlaubt für Schwarzwild, für Haarraubwild, das nicht in Anhang IV oder V der FFH-Richtlinie steht (also z. B. Fuchs, Dachs, Steinmarder, nicht aber Baummarder oder Iltis), und für invasive Haarwildarten. Feldhasen, Wildkaninchen und Wildenten dürfen nachts nicht erlegt werden. Rot-, Dam-, Reh-, Gams- und Muffelwild dürfen nicht auf Treibjagden erlegt werden. Brackenjagd ist erst auf Flächen ab 1.000 ha erlaubt. Schalenwild darf im Umkreis von 200 m um Fütterungen nicht erlegt werden – Kirrungen sind davon ausgenommen.",
+          "en": "At night (1½ hours after sunset to 1½ hours before sunrise) killing game is generally forbidden in Bavaria. Exempt under Art. 29(2) no. 1 n BayJG are wild boar, furred predators, gulls, woodcock, capercaillie, black grouse and their hybrid, and invasive furred species (e.g. raccoon, raccoon dog, coypu) — each only in its open season. Under the version in force since 1 April 2026, artificial light and night sights with an image converter or electronic amplification are allowed for wild boar, for furred predators not listed in Annex IV or V of the Habitats Directive (e.g. fox, badger, stone marten, but not pine marten or polecat) and for invasive furred species. Brown hares, wild rabbits and wild ducks may not be shot at night. Red, fallow, roe deer, chamois and mouflon may not be shot at drives. Hunting with hounds (Brackenjagd) is only allowed on areas of 1,000 ha or more. Cloven-hoofed game must not be shot within 200 m of feeding sites — bait sites (Kirrungen) are excepted."
         },
         {
-          "de": "Schon eine Jagd mit zum Beispiel zwei Jägern und drei Treibern gilt als Gesellschaftsjagd; für jede Gesellschaftsjagd muss ein Jagdleiter bestimmt werden. Bei brauchbaren Jagdhunden schreibt das Gesetz eine genügende Zahl vor – etwa beim Enteneinfall am Wasser, bei der Suche auf Hasen, bei Drückjagden auf Fuchs oder Rehwild und Treibjagden auf Schwarzwild; auch wer auf dem Heimweg über einen Acker einen Hasen erlegen will, muss einen brauchbaren Hund dabeihaben. Tonbänder mit Lockrufen sind verboten. Aus dem Auto darf nicht geschossen werden; man steigt aus und kann zum Beispiel auf dem Autodach auflegen. Weibliches Rehwild darf in der Jagdzeit auch an Kirrungen erlegt werden, Hasen und Enten dürfen auch mit der Kugel geschossen werden. Bleischrot an und über Gewässern ist eine Ordnungswidrigkeit.",
-          "en": "Even a hunt with, for example, two hunters and three beaters counts as a group hunt; every group hunt must have a hunt leader. The law requires a sufficient number of qualified dogs, e.g. for duck flighting at water, searching for hares, driven hunts on fox or roe deer and drives on wild boar; even someone who wants to shoot a hare crossing a field on the way home must have a qualified dog. Recorded calls are forbidden. Shooting from a car is not allowed; you get out and can, for instance, rest on the car roof. Female roe deer may also be shot at bait sites in season, and hares and ducks may also be shot with a rifle. Lead shot at and over water is an administrative offence."
+          "de": "Schon eine Jagd mit zum Beispiel zwei Jägern und drei Treibern gilt als Gesellschaftsjagd; für jede Gesellschaftsjagd muss ein Jagdleiter bestimmt werden. Bei brauchbaren Jagdhunden schreibt das Gesetz eine genügende Zahl vor – etwa beim Enteneinfall am Wasser, bei der Suche auf Hasen, bei Drückjagden auf Fuchs oder Rehwild und Treibjagden auf Schwarzwild; auch wer auf dem Heimweg über einen Acker einen Hasen erlegen will, muss einen brauchbaren Hund dabeihaben. Akustisch-elektronische Lockgeräte sind nur für Haarraubwild (außer FFH-Anhang-IV/V-Arten) und invasive Arten erlaubt, sonst verboten. Aus dem Auto darf nicht geschossen werden; man steigt aus und kann zum Beispiel auf dem Autodach auflegen. Weibliches Rehwild darf in der Jagdzeit auch an Kirrungen erlegt werden, Hasen und Enten dürfen auch mit der Kugel geschossen werden. Bleischrot an und über Gewässern ist eine Ordnungswidrigkeit.",
+          "en": "Even a hunt with, for example, two hunters and three beaters counts as a group hunt; every group hunt must have a hunt leader. The law requires a sufficient number of qualified dogs, e.g. for duck flighting at water, searching for hares, driven hunts on fox or roe deer and drives on wild boar; even someone who wants to shoot a hare crossing a field on the way home must have a qualified dog. Electronic call devices are only allowed for furred predators (except Habitats Directive Annex IV/V species) and invasive species, otherwise forbidden. Shooting from a car is not allowed; you get out and can, for instance, rest on the car roof. Female roe deer may also be shot at bait sites in season, and hares and ducks may also be shot with a rifle. Lead shot at and over water is an administrative offence."
         },
         {
           "de": "Selbstladewaffen: Entscheidend ist, wie viele Patronen geladen sind – mehr als zwei im Magazin (also mehr als drei Schuss ohne Nachladen) sind verboten. Eine Selbstladebüchse mit vier Patronen Magazinkapazität darf am Ansitz verwendet werden, wenn nicht mehr geladen ist; eine Selbstladeflinte mit vier oder fünf geladenen Patronen dagegen nicht. Kurzwaffen dürfen mit mindestens 200 Joule Mündungsenergie für den Fangschuss auf krankes, nicht mehr flüchtiges Schalenwild und auf den gegrabenen Fuchs oder Dachs verwendet werden. Mit Flintenlaufgeschossen darf auch Schalenwild wie ein Keiler erlegt werden.",
@@ -428,6 +429,10 @@
         {
           "de": "Kaliber in der Praxis: Für Rehwild genügen Patronen mit E100 ab 1.000 J, etwa .222 Remington, 5,6 × 50 Magnum oder .243 Winchester – diese reichen aber nicht für Frischlinge, Muffellämmer oder Gamswild, weil dort mindestens 6,5 mm und 2.000 J vorgeschrieben sind (eine 5,6 × 57 ist auf Frischlinge also verboten, selbst mit über 2.000 J). Ein Hirschkalb darf mit einer 6,5 × 57 mit mindestens 2.000 J erlegt werden, ein Fuchs auf 50 m mit .22 Magnum. Wer mit einer Erlaubnis nur für einen Rehbock einen Keiler erlegt, kann den Straftatbestand der Wilderei erfüllen.",
           "en": "Calibres in practice: for roe deer, cartridges with E100 of 1,000 J or more are enough, such as .222 Remington, 5.6 × 50 Magnum or .243 Winchester — but not for wild boar piglets, mouflon lambs or chamois, because those require at least 6.5 mm and 2,000 J (so a 5.6 × 57 is forbidden on piglets, even with over 2,000 J). A red deer calf may be shot with a 6.5 × 57 with at least 2,000 J, a fox at 50 m with .22 Magnum. Anyone with a permit only for a roe buck who shoots a boar may commit the criminal offence of poaching."
+        },
+        {
+          "de": "Weitere Gebote und Verbote aus Art. 29 BayJG: Krankgeschossenes Wild muss zeitgerecht und fachgemäß nachgesucht werden. Verboten sind Armbrüste, Bögen und Vorderlader (auch als Fangschuss), das Schießen aus Kraft-, Luft- oder motorisierten Wasserfahrzeugen, das Lappen von Wild aus seinen Einständen, das Aussetzen von gefangenem oder aufgezogenem Wild später als vier Wochen vor seiner Jagdzeit, das Sammeln von Abwurfstangen ohne Erlaubnis des Revierinhabers sowie das Ausbringen von Arznei- oder Lockmitteln, die die Gesundheit von Wild oder Menschen gefährden können. Wild, das durch Hochwasser, Lawinen oder andere Naturkatastrophen in Not geraten ist, darf nicht bejagt werden, außer um sein Leiden zu beenden.",
+          "en": "Further rules from Art. 29 BayJG: wounded game must be searched for promptly and properly. Forbidden are crossbows, bows and muzzle-loaders (also for the finishing shot), shooting from motor vehicles, aircraft or powered boats, using flags to stop game leaving or entering its cover, releasing captured or reared game later than four weeks before its season, collecting cast antlers without the hunting-right holder's permission, and putting out medicines or attractants that can endanger the health of game or people. Game in distress through floods, avalanches or other natural disasters may not be hunted, except to end its suffering."
         }
       ],
       "keyTerms": [
@@ -476,6 +481,10 @@
         {
           "title": "Bundesjagdgesetz (BJagdG) – gesetze-im-internet.de",
           "url": "https://www.gesetze-im-internet.de/bjagdg/"
+        },
+        {
+          "title": "Bayerisches Jagdgesetz Art. 29 – Sachliche Gebote und Verbote (Fassung ab 1.4.2026)",
+          "url": "https://www.gesetze-bayern.de/Content/Document/BayJG-29"
         }
       ],
       "origin": "seed",
@@ -549,6 +558,75 @@
         {
           "title": "Bundesjagdgesetz (BJagdG) – gesetze-im-internet.de",
           "url": "https://www.gesetze-im-internet.de/bjagdg/"
+        }
+      ],
+      "origin": "seed",
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "jagdschein-wildkamera-schalldaempfer",
+      "titleDe": "Jagdschein, Wildkameras und Schalldämpfer",
+      "titleEn": "Hunting licence, trail cameras and suppressors",
+      "paragraphs": [
+        {
+          "de": "Wer die Jagd ausübt, muss einen Jagdschein mitführen (§ 15 BJagdG). Es gibt den Jahresjagdschein für ein bis drei Jagdjahre (das Jagdjahr läuft vom 1. April bis 31. März), den Tagesjagdschein für 14 aufeinanderfolgende Tage, den Jugendjagdschein ab 16 Jahren (nur in Begleitung eines Erziehungsberechtigten oder einer beauftragten Aufsichtsperson, keine Teilnahme an Gesellschaftsjagden) und den Ausländerjagdschein. Voraussetzung für den ersten Jahresjagdschein ist die bestandene Jägerprüfung; daneben muss eine Jagdhaftpflichtversicherung bestehen.",
+          "en": "Anyone hunting must carry a hunting licence (§ 15 BJagdG). There is the annual licence for one to three hunting years (the hunting year runs from 1 April to 31 March), the day licence for 14 consecutive days, the youth licence from age 16 (only with a parent or appointed supervisor, no group hunts) and the licence for foreigners. The first annual licence requires the passed exam; hunting liability insurance is also required."
+        },
+        {
+          "de": "Der Jagdschein muss versagt werden (§ 17 Abs. 1 BJagdG) bei Personen unter 16 Jahren, bei fehlender Zuverlässigkeit oder persönlicher Eignung im Sinne des Waffengesetzes, ohne Nachweis der Jagdhaftpflichtversicherung (mindestens 500.000 € für Personen- und 50.000 € für Sachschäden), ohne bestandene Jägerprüfung oder wenn ein Jagdschein entzogen und die Sperrfrist noch nicht abgelaufen ist. Versagt werden kann er (Abs. 2) z. B. bei Personen unter 18, bei schweren oder wiederholten Verstößen gegen jagd-, tier- oder naturschutzrechtliche Vorschriften oder gegen die Grundsätze der Waidgerechtigkeit.",
+          "en": "The licence must be refused (§ 17(1) BJagdG) to people under 16, those lacking reliability or personal suitability under the Weapons Act, those without proof of hunting liability insurance (at least €500,000 for personal injury and €50,000 for property damage), those who haven't passed the exam, or when a licence was revoked and the ban period hasn't expired. It can be refused (para. 2) e.g. to people under 18, or for serious or repeated breaches of hunting, animal-welfare or nature-conservation rules or of the principles of fair hunting."
+        },
+        {
+          "de": "Wildkameras sind jagdrechtlich in Bayern nicht genehmigungspflichtig. Sie unterliegen aber dem Datenschutz: Sie dürfen nicht auf Wege, Straßen, Wohnbereiche oder sonst Bereiche gerichtet werden, in denen Menschen erfasst werden können; versehentlich aufgenommene Personen sind unverzüglich zu löschen. Sinnvoll ist ein Hinweisschild. Auf Grundstücken Dritter braucht man die Zustimmung des Eigentümers.",
+          "en": "Under Bavarian hunting law, trail cameras need no permit. They are subject to data protection, however: they must not be aimed at paths, roads, residential areas or other places where people may be recorded; images of people captured by mistake must be deleted at once. A sign is advisable. On other people's land you need the owner's consent."
+        },
+        {
+          "de": "Schalldämpfer: Inhaber eines gültigen Jahresjagdscheins brauchen für Erwerb und Besitz eines Schalldämpfers für Langwaffen mit Zentralfeuer-Büchsenmunition keine vorherige Erlaubnis (§ 13 Abs. 9 WaffG); der Erwerb muss aber binnen zwei Wochen der Waffenbehörde angezeigt und in die Waffenbesitzkarte eingetragen werden. Für Kurzwaffen und Randfeuerkaliber gilt diese Freistellung nicht. Das bayerische Jagdgesetz enthält kein Verbot von Schalldämpfern – ältere Darstellungen, die ein solches Verbot nennen, sind überholt.",
+          "en": "Suppressors: holders of a valid annual hunting licence need no prior permit to acquire and own a suppressor for long guns using centre-fire rifle ammunition (§ 13(9) WaffG); the purchase must be reported to the weapons authority within two weeks and entered in the firearms ownership card. This exemption doesn't cover handguns or rimfire calibres. Bavarian hunting law contains no ban on suppressors — older texts that mention one are out of date."
+        }
+      ],
+      "keyTerms": [
+        {
+          "de": "Jahresjagdschein",
+          "en": "annual hunting licence"
+        },
+        {
+          "de": "Tagesjagdschein",
+          "en": "day hunting licence"
+        },
+        {
+          "de": "Jugendjagdschein",
+          "en": "youth hunting licence"
+        },
+        {
+          "de": "Jagdhaftpflichtversicherung",
+          "en": "hunting liability insurance"
+        },
+        {
+          "de": "Versagungsgrund",
+          "en": "ground for refusal"
+        },
+        {
+          "de": "Wildkamera",
+          "en": "trail camera"
+        },
+        {
+          "de": "Schalldämpfer",
+          "en": "suppressor"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Bundesjagdgesetz §§ 15–18 – gesetze-im-internet.de",
+          "url": "https://www.gesetze-im-internet.de/bjagdg/"
+        },
+        {
+          "title": "Waffengesetz § 13 – gesetze-im-internet.de",
+          "url": "https://www.gesetze-im-internet.de/waffg_2002/__13.html"
+        },
+        {
+          "title": "Bayerisches Jagdgesetz Art. 29 – Sachliche Gebote und Verbote (Fassung ab 1.4.2026)",
+          "url": "https://www.gesetze-bayern.de/Content/Document/BayJG-29"
         }
       ],
       "origin": "seed",
@@ -1621,8 +1699,8 @@
     {
       "id": "jab-nacht-licht",
       "lessonId": "jagdausuebung-bayern",
-      "questionDe": "Welche Wildarten dürfen in Bayern mit künstlichen Lichtquellen und Nachtsichtgeräten erlegt werden?",
-      "questionEn": "Which species may be shot in Bavaria with artificial light and night vision?",
+      "questionDe": "Bei welchen Wildarten sind in Bayern künstliche Lichtquellen und Nachtzielgeräte erlaubt (Art. 29 BayJG, Fassung ab 2026)?",
+      "questionEn": "For which species are artificial light and night sights allowed in Bavaria (Art. 29 BayJG, 2026 version)?",
       "options": [
         {
           "de": "Schwarzwild",
@@ -1633,12 +1711,12 @@
           "en": "Fox"
         },
         {
-          "de": "Dachs",
-          "en": "Badger"
+          "de": "Waschbär",
+          "en": "Raccoon"
         },
         {
-          "de": "Nutria",
-          "en": "Coypu"
+          "de": "Baummarder",
+          "en": "Pine marten"
         },
         {
           "de": "Rehwild",
@@ -1648,11 +1726,10 @@
       "correct": [
         0,
         1,
-        2,
-        3
+        2
       ],
-      "explanationDe": "Rehwild darf nachts nicht bejagt werden.",
-      "explanationEn": "Roe deer may not be hunted at night.",
+      "explanationDe": "Ausgenommen vom Verbot sind Schwarzwild, Haarraubwild außerhalb der FFH-Anhänge IV/V und invasive Arten; der Baummarder steht in Anhang V.",
+      "explanationEn": "Exempt are wild boar, furred predators outside Habitats Directive Annexes IV/V, and invasive species; the pine marten is in Annex V.",
       "origin": "seed"
     },
     {
@@ -1722,8 +1799,8 @@
     {
       "id": "jab-fuetterung",
       "lessonId": "jagdausuebung-bayern",
-      "questionDe": "In welchem Umkreis von Fütterungen darf Schalenwild in Notzeiten nicht erlegt werden?",
-      "questionEn": "Within what radius of feeding sites may cloven-hoofed game not be shot in times of need?",
+      "questionDe": "In welchem Umkreis von Fütterungen darf Schalenwild in Bayern nicht erlegt werden?",
+      "questionEn": "Within what radius of feeding sites may cloven-hoofed game not be shot in Bavaria?",
       "options": [
         {
           "de": "200 m",
@@ -1741,8 +1818,8 @@
       "correct": [
         0
       ],
-      "explanationDe": "200 m.",
-      "explanationEn": "200 m.",
+      "explanationDe": "200 m (Art. 29 Abs. 2 Nr. 8 BayJG); Kirrungen sind ausgenommen.",
+      "explanationEn": "200 m (Art. 29(2) no. 8 BayJG); bait sites are excepted.",
       "origin": "seed"
     },
     {
@@ -2482,6 +2559,218 @@
       ],
       "explanationDe": "Unverzüglich.",
       "explanationEn": "Without delay.",
+      "origin": "seed"
+    },
+    {
+      "id": "jab-lockgeraet",
+      "lessonId": "jagdausuebung-bayern",
+      "questionDe": "Ist ein elektronischer Lockruf (Mauspfeifer vom Lautsprecher) bei der Fuchsjagd in Bayern erlaubt?",
+      "questionEn": "Is an electronic call (mouse squeak from a speaker) allowed for fox hunting in Bavaria?",
+      "options": [
+        {
+          "de": "Ja, für Haarraubwild außerhalb der FFH-Anhänge IV/V",
+          "en": "Yes, for furred predators outside Habitats Directive Annexes IV/V"
+        },
+        {
+          "de": "Nein, Tonträger sind immer verboten",
+          "en": "No, recordings are always forbidden"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Das Verbot akustisch-elektronischer Geräte gilt nicht für solches Haarraubwild und invasive Arten.",
+      "explanationEn": "The ban on electronic call devices doesn't apply to such predators or invasive species.",
+      "origin": "seed"
+    },
+    {
+      "id": "jab-abwurfstangen",
+      "lessonId": "jagdausuebung-bayern",
+      "questionDe": "Was gilt für Abwurfstangen in einem fremden Revier?",
+      "questionEn": "What applies to cast antlers in someone else's hunting ground?",
+      "options": [
+        {
+          "de": "Sammeln nur mit Erlaubnis des Revierinhabers",
+          "en": "Collect only with the holder's permission"
+        },
+        {
+          "de": "Jeder darf sie mitnehmen",
+          "en": "Anyone may take them"
+        },
+        {
+          "de": "Nur Jagdscheininhaber dürfen sie sammeln",
+          "en": "Only licence holders may collect them"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Art. 29 Abs. 2 Nr. 9 BayJG.",
+      "explanationEn": "Art. 29(2) no. 9 BayJG.",
+      "origin": "seed"
+    },
+    {
+      "id": "jab-aussetzen",
+      "lessonId": "jagdausuebung-bayern",
+      "questionDe": "Bis wann darf aufgezogenes Wild (z. B. Fasanen) spätestens ausgesetzt werden?",
+      "questionEn": "What is the latest time reared game (e.g. pheasants) may be released?",
+      "options": [
+        {
+          "de": "Vier Wochen vor Beginn seiner Jagdzeit",
+          "en": "Four weeks before its season opens"
+        },
+        {
+          "de": "Am ersten Tag der Jagdzeit",
+          "en": "On the first day of the season"
+        },
+        {
+          "de": "Jederzeit",
+          "en": "At any time"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Art. 29 Abs. 2 Nr. 1 m BayJG.",
+      "explanationEn": "Art. 29(2) no. 1 m BayJG.",
+      "origin": "seed"
+    },
+    {
+      "id": "js-dauer",
+      "lessonId": "jagdschein-wildkamera-schalldaempfer",
+      "questionDe": "Für wie lange kann ein Jahresjagdschein höchstens erteilt werden?",
+      "questionEn": "For how long at most can an annual licence be issued?",
+      "options": [
+        {
+          "de": "Drei Jagdjahre",
+          "en": "Three hunting years"
+        },
+        {
+          "de": "Ein Kalenderjahr",
+          "en": "One calendar year"
+        },
+        {
+          "de": "Fünf Jahre",
+          "en": "Five years"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Ein bis drei Jagdjahre; das Jagdjahr beginnt am 1. April.",
+      "explanationEn": "One to three hunting years; the hunting year starts on 1 April.",
+      "origin": "seed"
+    },
+    {
+      "id": "js-tages",
+      "lessonId": "jagdschein-wildkamera-schalldaempfer",
+      "questionDe": "Wie lange gilt ein Tagesjagdschein?",
+      "questionEn": "How long is a day licence valid?",
+      "options": [
+        {
+          "de": "14 aufeinanderfolgende Tage",
+          "en": "14 consecutive days"
+        },
+        {
+          "de": "1 Tag",
+          "en": "1 day"
+        },
+        {
+          "de": "1 Monat",
+          "en": "1 month"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "§ 15 Abs. 2 BJagdG.",
+      "explanationEn": "§ 15(2) BJagdG.",
+      "origin": "seed"
+    },
+    {
+      "id": "js-muss-versagt",
+      "lessonId": "jagdschein-wildkamera-schalldaempfer",
+      "questionDe": "In welchen Fällen muss der Jagdschein versagt werden?",
+      "questionEn": "In which cases must the licence be refused?",
+      "options": [
+        {
+          "de": "Bewerber ist unter 16",
+          "en": "Applicant under 16"
+        },
+        {
+          "de": "Keine Jagdhaftpflichtversicherung",
+          "en": "No liability insurance"
+        },
+        {
+          "de": "Fehlende Zuverlässigkeit",
+          "en": "Lack of reliability"
+        },
+        {
+          "de": "Bewerber ist 17 Jahre alt",
+          "en": "Applicant is 17"
+        }
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanationDe": "Unter 18 ist nur ein Kann-Versagungsgrund (Jugendjagdschein).",
+      "explanationEn": "Under 18 is only an optional refusal ground (youth licence).",
+      "origin": "seed"
+    },
+    {
+      "id": "js-wildkamera",
+      "lessonId": "jagdschein-wildkamera-schalldaempfer",
+      "questionDe": "Was müssen Sie bei einer Wildkamera in Bayern beachten?",
+      "questionEn": "What must you watch with a trail camera in Bavaria?",
+      "options": [
+        {
+          "de": "Keine Wege oder Bereiche erfassen, in denen Menschen aufgenommen werden",
+          "en": "Don't cover paths or areas where people are recorded"
+        },
+        {
+          "de": "Aufnahmen von Personen sofort löschen",
+          "en": "Delete images of people at once"
+        },
+        {
+          "de": "Sie braucht eine Genehmigung der Jagdbehörde",
+          "en": "It needs a permit from the hunting authority"
+        }
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanationDe": "Jagdrechtlich genehmigungsfrei, aber Datenschutz beachten.",
+      "explanationEn": "No hunting-law permit, but data protection applies.",
+      "origin": "seed"
+    },
+    {
+      "id": "js-schalldaempfer",
+      "lessonId": "jagdschein-wildkamera-schalldaempfer",
+      "questionDe": "Unter welchen Bedingungen darf ein Jäger einen Schalldämpfer erwerben?",
+      "questionEn": "Under what conditions may a hunter acquire a suppressor?",
+      "options": [
+        {
+          "de": "Mit gültigem Jahresjagdschein für eine Langwaffe mit Zentralfeuer-Büchsenmunition",
+          "en": "With a valid annual licence, for a centre-fire rifle"
+        },
+        {
+          "de": "Anzeige und Eintragung in die WBK binnen zwei Wochen",
+          "en": "Report and WBK entry within two weeks"
+        },
+        {
+          "de": "Auch für die Pistole zum Fangschuss",
+          "en": "Also for the pistol used for finishing shots"
+        }
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanationDe": "Für Kurzwaffen gilt die Freistellung nicht.",
+      "explanationEn": "The exemption doesn't cover handguns.",
       "origin": "seed"
     }
   ]

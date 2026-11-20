@@ -161,6 +161,64 @@
           "Shooting the fox is justified by necessity"
         ],
         "lessonId": "unfallverhuetung-notwehr"
+      },
+      {
+        "id": "o1-sicherheitsueberpruefung",
+        "questionDe": "Sie nehmen diese Repetierbüchse auf. Zeigen und erklären Sie die Sicherheitsüberprüfung.",
+        "questionEn": "You pick up this bolt-action rifle. Show and explain the safety check.",
+        "answerDe": [
+          "Mündung in den sicheren Bereich, Finger lang außerhalb des Abzugsbügels",
+          "Sichern bzw. entspannen",
+          "Entladen: Magazin und Patronenlager",
+          "Stecher kontrollieren bzw. entstechen",
+          "Schloss herausnehmen, Lauf und Patronenlager durchsehen",
+          "Kaliber an der Waffe ablesen und laut nennen"
+        ],
+        "answerEn": [
+          "Muzzle to the safe area, finger straight outside the trigger guard",
+          "Put on safe or de-cock",
+          "Unload: magazine and chamber",
+          "Check / unset the set trigger",
+          "Remove the bolt, look through barrel and chamber",
+          "Read the calibre on the gun and say it out loud"
+        ],
+        "lessonId": "waffenhandhabung-praktische-pruefung"
+      },
+      {
+        "id": "o1-schiessstandgerecht",
+        "questionDe": "Was bedeutet es, eine Waffe schießstandgerecht abzulegen?",
+        "questionEn": "What does putting a gun down range-ready mean?",
+        "answerDe": [
+          "Entladen, Magazin leer",
+          "Verschluss geöffnet",
+          "Gesichert",
+          "Mündung zeigt in den sicheren Bereich"
+        ],
+        "answerEn": [
+          "Unloaded, magazine empty",
+          "Action open",
+          "On safe",
+          "Muzzle pointing to the safe area"
+        ],
+        "lessonId": "waffenhandhabung-praktische-pruefung"
+      },
+      {
+        "id": "o1-erste-hilfe",
+        "questionDe": "Bei einer Drückjagd wird ein Treiber getroffen und blutet stark am Oberschenkel. Was tun Sie?",
+        "questionEn": "At a driven hunt a beater is hit and bleeds heavily from the thigh. What do you do?",
+        "answerDe": [
+          "Jagd sofort abbrechen lassen, Waffen entladen, Eigenschutz",
+          "Blutung mit Druck stillen: Druckverband, notfalls abbinden oberhalb der Wunde",
+          "Notruf 112 mit genauer Ortsangabe und Treffpunkt für den Rettungsdienst",
+          "Verletzten warm halten, beruhigen, nicht allein lassen; bei Bewusstlosigkeit stabile Seitenlage bzw. Wiederbelebung"
+        ],
+        "answerEn": [
+          "Have the hunt stopped at once, unload guns, own safety",
+          "Stop the bleeding with pressure: pressure bandage, if needed a tourniquet above the wound",
+          "Call 112 with exact location and a meeting point for the ambulance",
+          "Keep the casualty warm, reassure, don't leave them alone; if unconscious recovery position or CPR"
+        ],
+        "lessonId": "erste-hilfe-jagd"
       }
     ]
   },
@@ -335,6 +393,60 @@
         ],
         "lessonId": "fuchs",
         "speciesId": "fuchs"
+      },
+      {
+        "id": "o2-zahnformel-reh",
+        "questionDe": "Hier liegt ein Rehunterkiefer. Wie viele Zähne hat das Reh und wie alt ist dieses Stück ungefähr?",
+        "questionEn": "Here is a roe deer lower jaw. How many teeth does a roe deer have and roughly how old is this animal?",
+        "answerDe": [
+          "32 Zähne; oben keine Schneide- und Eckzähne, sondern eine Kauplatte",
+          "Unten 3 Schneidezähne, 1 schneidezahnförmiger Eckzahn, 3 Prämolaren, 3 Molaren",
+          "Dreiteiliger dritter Prämolar: Milchgebiss, also Kitz oder Jährling",
+          "Zahnwechsel mit etwa 14 Monaten abgeschlossen; danach Schätzung über den Abschliff"
+        ],
+        "answerEn": [
+          "32 teeth; no upper incisors or canines but a dental pad",
+          "Lower: 3 incisors, 1 incisor-like canine, 3 premolars, 3 molars",
+          "Three-part third premolar: milk tooth, so a kid or yearling",
+          "Tooth change complete at about 14 months; after that, estimate by wear"
+        ],
+        "lessonId": "zahnformeln-und-altersschaetzung",
+        "speciesId": "rehwild"
+      },
+      {
+        "id": "o2-grandeln",
+        "questionDe": "Was sind Grandeln und welche Wildarten haben sie?",
+        "questionEn": "What are Grandeln and which species have them?",
+        "answerDe": [
+          "Obere Eckzähne, Überbleibsel ehemaliger Hauer",
+          "Rotwild und Sikawild (daher 34 Zähne)",
+          "Werden als Trophäe gefasst, z. B. als Schmuck"
+        ],
+        "answerEn": [
+          "Upper canines, remnants of former tusks",
+          "Red and sika deer (hence 34 teeth)",
+          "Kept as a trophy, e.g. set in jewellery"
+        ],
+        "lessonId": "zahnformeln-und-altersschaetzung",
+        "speciesId": "rotwild"
+      },
+      {
+        "id": "o2-faehrte",
+        "questionDe": "Woran unterscheiden Sie die Fährte von Rotwild und Schwarzwild?",
+        "questionEn": "How do you tell a red deer trail from a wild boar trail?",
+        "answerDe": [
+          "Schwarzwild: Geäfter wird fast immer abgedrückt und steht weit außen",
+          "Rotwild: Schalen länger und spitzer, Geäfter nur bei Flucht oder weichem Boden",
+          "Schwarzwild: Trittsiegel eher rundlich, kurzer Schritt, »trippelnd«",
+          "Hirsch: breiterer Schrank als das Tier"
+        ],
+        "answerEn": [
+          "Wild boar: dewclaws almost always printed and set wide",
+          "Red deer: hooves longer and more pointed, dewclaws only when fleeing or on soft ground",
+          "Wild boar: prints rather round, short stride",
+          "Stag: wider trail than a hind"
+        ],
+        "lessonId": "faehrten-und-hirschgerechte-zeichen"
       }
     ]
   },
@@ -398,15 +510,15 @@
         "answerDe": [
           "Kein Schrot oder Posten auf Schalenwild, auch nicht als Fangschuss",
           "Mindestanforderungen an Büchsenpatronen (Reh 1.000 J; übriges Schalenwild 6,5 mm und 2.000 J)",
-          "Keine Nachtjagd auf Schalenwild außer Schwarzwild (Bayern: auch Fuchs, Dachs, Nutria erlaubt)",
-          "Nicht aus Kraftfahrzeugen schießen; keine Tonbandlockrufe",
-          "Selbstlader höchstens zwei Patronen im Magazin"
+          "Nachts nur Schwarzwild, Haarraubwild, Möwen, Waldschnepfe, Raufußhühner und invasive Haarwildarten (Art. 29 BayJG)",
+          "Nicht aus Kraftfahrzeugen schießen; elektronische Lockrufe nur für Haarraubwild (außer FFH IV/V) und invasive Arten",
+          "Halbautomaten mit insgesamt höchstens drei Patronen geladen"
         ],
         "answerEn": [
           "No shot or buckshot on cloven-hoofed game, not even as a finishing shot",
           "Minimum rifle cartridge requirements (roe 1,000 J; other cloven-hoofed 6.5 mm and 2,000 J)",
-          "No night hunting of cloven-hoofed game except wild boar (Bavaria: also fox, badger, coypu)",
-          "No shooting from vehicles; no recorded calls",
+          "At night only wild boar, furred predators, gulls, woodcock, grouse and invasive furred species (Art. 29 BayJG)",
+          "No shooting from vehicles; electronic calls only for furred predators (except Habitats Directive IV/V) and invasive species",
           "Self-loaders at most two rounds in the magazine"
         ],
         "lessonId": "jagdausuebung-bayern"
@@ -498,6 +610,78 @@
           "Trichinella test always for wild boar, badger and other carriers"
         ],
         "lessonId": "fleischhygienerecht"
+      },
+      {
+        "id": "o3-nachtjagd",
+        "questionDe": "Welche Wildarten dürfen Sie in Bayern nachts erlegen, und wann dürfen Sie ein Wärmebild-Vorsatzgerät verwenden?",
+        "questionEn": "Which species may you shoot at night in Bavaria, and when may you use a thermal clip-on?",
+        "answerDe": [
+          "Nachtzeit: 1½ h nach Sonnenuntergang bis 1½ h vor Sonnenaufgang",
+          "Erlaubt: Schwarzwild, Haarraubwild, Möwen, Waldschnepfe, Auer-, Birk- und Rackelwild, invasive Haarwildarten",
+          "Licht und Nachtzielgeräte: Schwarzwild, Haarraubwild außer FFH-Anhang IV/V (z. B. nicht Baummarder, Iltis), invasive Arten (Art. 29 BayJG, Fassung 2026)",
+          "Waffenrechtlich dürfen Jagdscheininhaber Vor- und Aufsatzgeräte erwerben (§ 40 Abs. 3 WaffG)"
+        ],
+        "answerEn": [
+          "Night: 1½ h after sunset to 1½ h before sunrise",
+          "Allowed: wild boar, furred predators, gulls, woodcock, capercaillie, black grouse and hybrids, invasive furred species",
+          "Light and night sights: wild boar, furred predators except Habitats Directive Annex IV/V (e.g. not pine marten, polecat), invasive species (Art. 29 BayJG, 2026)",
+          "Under gun law, licence holders may acquire clip-on devices (§ 40(3) WaffG)"
+        ],
+        "lessonId": "jagdausuebung-bayern"
+      },
+      {
+        "id": "o3-jagdschein",
+        "questionDe": "Welche Jagdscheinarten gibt es, und wann muss der Jagdschein versagt werden?",
+        "questionEn": "What kinds of hunting licence are there, and when must it be refused?",
+        "answerDe": [
+          "Jahresjagdschein (1–3 Jagdjahre), Tagesjagdschein (14 Tage), Jugendjagdschein (ab 16), Ausländerjagdschein",
+          "Muss-Versagung: unter 16, unzuverlässig oder ungeeignet, keine Jagdhaftpflicht, keine Jägerprüfung, Sperrfrist nach Entzug",
+          "Kann-Versagung: z. B. unter 18, Verstöße gegen Jagd-, Tier- und Naturschutzrecht oder Waidgerechtigkeit"
+        ],
+        "answerEn": [
+          "Annual (1–3 hunting years), day (14 days), youth (from 16), foreigners' licence",
+          "Must refuse: under 16, unreliable or unsuitable, no liability insurance, no exam, ban period after revocation",
+          "May refuse: e.g. under 18, breaches of hunting, animal-welfare or conservation law or fair hunting"
+        ],
+        "lessonId": "jagdschein-wildkamera-schalldaempfer"
+      },
+      {
+        "id": "o3-wildkamera",
+        "questionDe": "Sie wollen am Kirrplatz eine Wildkamera aufhängen. Was müssen Sie beachten?",
+        "questionEn": "You want to put a trail camera at a bait site. What must you consider?",
+        "answerDe": [
+          "Jagdrechtlich nicht genehmigungspflichtig",
+          "Datenschutz: keine Wege oder Bereiche erfassen, in denen Menschen unterwegs sind",
+          "Personenaufnahmen sofort löschen, Hinweisschild sinnvoll",
+          "Zustimmung des Grundeigentümers"
+        ],
+        "answerEn": [
+          "No permit under hunting law",
+          "Data protection: don't cover paths or areas used by people",
+          "Delete images of people at once; a sign is advisable",
+          "Landowner's consent"
+        ],
+        "lessonId": "jagdschein-wildkamera-schalldaempfer"
+      },
+      {
+        "id": "o3-art29",
+        "questionDe": "Nennen Sie einige sachliche Verbote aus Art. 29 BayJG.",
+        "questionEn": "Name some prohibitions from Art. 29 BayJG.",
+        "answerDe": [
+          "Treibjagd auf Schalenwild außer Schwarzwild",
+          "Schalenwild im Umkreis von 200 m um Fütterungen erlegen (Kirrungen ausgenommen)",
+          "Brackenjagd unter 1.000 ha, Hetzjagd, Treibjagd bei Mondschein",
+          "Halbautomaten mit insgesamt mehr als drei Patronen; Armbrust, Bogen, Vorderlader",
+          "Abwurfstangen ohne Erlaubnis sammeln; Wild später als 4 Wochen vor der Jagdzeit aussetzen"
+        ],
+        "answerEn": [
+          "Drives on cloven-hoofed game except wild boar",
+          "Shooting cloven-hoofed game within 200 m of feeders (bait sites excepted)",
+          "Hound hunting under 1,000 ha, coursing, drives by moonlight",
+          "Semi-autos loaded with more than three rounds; crossbow, bow, muzzle-loader",
+          "Collecting cast antlers without permission; releasing game later than 4 weeks before its season"
+        ],
+        "lessonId": "jagdausuebung-bayern"
       }
     ]
   },
@@ -650,6 +834,59 @@
           "Unload after the end signal; report every shot"
         ],
         "lessonId": "sicherheit-bei-der-jagd"
+      },
+      {
+        "id": "o4-brueche",
+        "questionDe": "Welche Brüche kennen Sie, und welche Holzarten sind bruchgerecht?",
+        "questionEn": "Which twig signs do you know, and which trees are proper for them?",
+        "answerDe": [
+          "Bruchgerecht: Eiche, Erle, Kiefer, Fichte, Tanne – brechen, nicht schneiden",
+          "Anschussbruch, Fährtenbruch, Hauptbruch, Leitbruch, Warnbruch, Wartebruch",
+          "Am Stück: letzter Bissen und Inbesitznahmebruch",
+          "Schützenbruch für den Erleger, rechts am Hut"
+        ],
+        "answerEn": [
+          "Proper: oak, alder, pine, spruce, fir — break, don't cut",
+          "Shot-site, trail, main, leading, warning, waiting twig",
+          "On the animal: last bite and ownership twig",
+          "Shooter's twig for the successful hunter, worn on the right of the hat"
+        ],
+        "lessonId": "jagdliches-brauchtum"
+      },
+      {
+        "id": "o4-waidgerechtigkeit",
+        "questionDe": "Was verstehen Sie unter Waidgerechtigkeit?",
+        "questionEn": "What do you understand by fair hunting (Waidgerechtigkeit)?",
+        "answerDe": [
+          "Geschriebene und ungeschriebene Regeln des Jägers, gesetzlich verankert in § 1 Abs. 3 BJagdG",
+          "Tierschutzaspekt: sicher ansprechen, sicher treffen, nachsuchen",
+          "Achtung vor dem Wild als Mitgeschöpf",
+          "Rücksicht auf Mitjäger, Grundeigentümer und Öffentlichkeit"
+        ],
+        "answerEn": [
+          "Written and unwritten rules for hunters, anchored in § 1(3) BJagdG",
+          "Animal welfare: identify surely, hit surely, follow up",
+          "Respect for game as a fellow creature",
+          "Consideration for fellow hunters, landowners and the public"
+        ],
+        "lessonId": "jagdliches-brauchtum"
+      },
+      {
+        "id": "o4-hegesaeulen",
+        "questionDe": "Was sind die Ziele der Hege, und mit welchen Mitteln erreicht man sie?",
+        "questionEn": "What are the aims of game management and how are they achieved?",
+        "answerDe": [
+          "Ziele (§ 1 BJagdG): artenreicher, gesunder, an die Landschaft angepasster Wildbestand; Pflege der Lebensgrundlagen; Wildschäden vermeiden",
+          "Biotophege: Hecken, Blühflächen, Wildäcker, Ruhezonen",
+          "Regulierung der Bestände durch Abschuss nach Plan",
+          "Bejagung von Beutegreifern zum Schutz bedrohter Arten"
+        ],
+        "answerEn": [
+          "Aims (§ 1 BJagdG): species-rich, healthy game adapted to the landscape; care of habitats; avoiding game damage",
+          "Habitat work: hedges, flower strips, game crops, quiet zones",
+          "Regulating numbers by planned culling",
+          "Predator control to protect threatened species"
+        ]
       }
     ]
   },
@@ -908,6 +1145,80 @@
           "Winter enclosures for red deer"
         ],
         "lessonId": "wildschaeden-erkennen-und-verhueten"
+      },
+      {
+        "id": "o6-getreide",
+        "questionDe": "Hier liegen fünf Schalen mit Körnern. Bestimmen Sie sie.",
+        "questionEn": "Here are five bowls of grain. Identify them.",
+        "answerDe": [
+          "Weizen: dick, rundlich, Furche, unbespelzt",
+          "Roggen: lang, schmal, graugrün",
+          "Gerste: spitz, bespelzt (Ähre mit langen Grannen)",
+          "Hafer: schlank, bespelzt (Rispe)",
+          "Mais: groß, abgeflacht; Buchweizen: dreikantig, kein Getreide"
+        ],
+        "answerEn": [
+          "Wheat: plump, round, groove, naked",
+          "Rye: long, narrow, grey-green",
+          "Barley: pointed, hulled (ear with long awns)",
+          "Oats: slim, hulled (panicle)",
+          "Maize: large, flattened; buckwheat: three-edged, not a cereal"
+        ],
+        "lessonId": "pflanzen-erkennen"
+      },
+      {
+        "id": "o6-zeigerpflanzen",
+        "questionDe": "Was sind Zeigerpflanzen? Nennen Sie Beispiele.",
+        "questionEn": "What are indicator plants? Give examples.",
+        "answerDe": [
+          "Pflanzen, die bestimmte Bodeneigenschaften anzeigen",
+          "Stickstoff: Brennnessel, Holunder",
+          "Sauer und nährstoffarm: Heidekraut, Heidelbeere, Adlerfarn",
+          "Nass: Binsen, Mädesüß, Schachtelhalm"
+        ],
+        "answerEn": [
+          "Plants that indicate particular soil conditions",
+          "Nitrogen: nettle, elder",
+          "Acid and poor: heather, bilberry, bracken",
+          "Wet: rushes, meadowsweet, horsetail"
+        ],
+        "lessonId": "pflanzen-erkennen"
+      },
+      {
+        "id": "o6-eulen",
+        "questionDe": "Hier sehen Sie zwei Eulen-Präparate. Welche Arten sind das, und unterliegen sie dem Jagdrecht?",
+        "questionEn": "Here are two mounted owls. Which species are they, and are they covered by hunting law?",
+        "answerDe": [
+          "Uhu: größte Eule, Federohren, orange Augen",
+          "Waldohreule: Federohren, kleiner, brütet in alten Krähennestern; Waldkauz: runder Kopf, dunkle Augen",
+          "Eulen sind kein Wild, sondern streng geschützt nach Naturschutzrecht",
+          "Gewölle enthält Knochen"
+        ],
+        "answerEn": [
+          "Eagle owl: largest owl, ear tufts, orange eyes",
+          "Long-eared owl: ear tufts, smaller, nests in old crow nests; tawny owl: round head, dark eyes",
+          "Owls aren't game but strictly protected under conservation law",
+          "Pellets contain bones"
+        ],
+        "lessonId": "geschuetzte-tiere-erkennen"
+      },
+      {
+        "id": "o6-reptilien",
+        "questionDe": "Blindschleiche, Kreuzotter, Ringelnatter – wie unterscheiden Sie sie?",
+        "questionEn": "Slow worm, adder, grass snake — how do you tell them apart?",
+        "answerDe": [
+          "Blindschleiche: beinlose Echse mit Augenlidern, glänzend, kann Schwanz abwerfen",
+          "Kreuzotter: Zickzackband, senkrechte Pupille, giftig",
+          "Ringelnatter: gelbe Halbmonde am Hinterkopf, runde Pupille, harmlos",
+          "Alle besonders geschützt"
+        ],
+        "answerEn": [
+          "Slow worm: legless lizard with eyelids, shiny, can shed its tail",
+          "Adder: zigzag band, vertical pupil, venomous",
+          "Grass snake: yellow crescents behind the head, round pupil, harmless",
+          "All specially protected"
+        ],
+        "lessonId": "geschuetzte-tiere-erkennen"
       }
     ]
   }
