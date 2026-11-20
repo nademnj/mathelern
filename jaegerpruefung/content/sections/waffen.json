@@ -30,7 +30,8 @@
       "titleEn": "Handling, care and storage of guns; handling ammunition",
       "officialQuestions": 40,
       "lessonIds": [
-        "handhabung-und-pflege"
+        "handhabung-und-pflege",
+        "waffenhandhabung-praktische-pruefung"
       ]
     },
     {
@@ -49,7 +50,8 @@
       "officialQuestions": 59,
       "lessonIds": [
         "waffenrecht-fuer-jaeger",
-        "unfallverhuetung-notwehr"
+        "unfallverhuetung-notwehr",
+        "erste-hilfe-jagd"
       ]
     }
   ],
@@ -305,8 +307,8 @@
           "en": "Correction when zeroing, following the catalogue's rule: if the shot is too low, move the reticle down; if too high, up; if too far right, to the right. With open sights, a fine bead gives a low shot, a bead pressed to the left a left shot, and a gun canted to the left a low-left shot. Resting the rifle hard near the muzzle causes a high shot. Abkommen is the aiming point at the moment of firing."
         },
         {
-          "de": "Nachtzielgeräte und Laserzielmarkierer mit Montagevorrichtung sind grundsätzlich verbotene Gegenstände nach dem Waffengesetz; für die Schwarzwildjagd sind Nachtsicht- und Wärmebild-Vorsatzgeräte unter bestimmten Bedingungen erlaubt. Ein BKA-Feststellungsbescheid bescheinigt die »Dual-Use«-Eigenschaft eines Nachtsichtgeräts. Mit Vorsatzgeräten lassen sich Ziel und Hintergelände bis zur Schussabgabe ansprechen; Wärmebildgeräte funktionieren auch am Tag.",
-          "en": "Night-vision rifle sights and laser aiming devices with a mount are in principle prohibited items under the Weapons Act; for wild boar hunting, night-vision and thermal clip-on devices are permitted under certain conditions. A BKA (Federal Criminal Police Office) ruling certifies the “dual-use” status of a night-vision device. With clip-ons you can identify the target and the area behind it right up to the shot; thermal devices also work in daylight."
+          "de": "Nachtzielgeräte und Laserzielmarkierer mit Montagevorrichtung sind grundsätzlich verbotene Gegenstände nach dem Waffengesetz; Inhaber eines Jagdscheins dürfen jedoch Nachtsicht- und Wärmebild-Vor- und -Aufsatzgeräte erwerben, besitzen und einsetzen (§ 40 Abs. 3 WaffG); auf welche Wildarten, regelt das Jagdrecht – in Bayern Schwarzwild, nicht FFH-geschütztes Haarraubwild und invasive Arten (Art. 29 BayJG). Ein BKA-Feststellungsbescheid bescheinigt die »Dual-Use«-Eigenschaft eines Nachtsichtgeräts. Mit Vorsatzgeräten lassen sich Ziel und Hintergelände bis zur Schussabgabe ansprechen; Wärmebildgeräte funktionieren auch am Tag.",
+          "en": "Night-vision rifle sights and laser aiming devices with a mount are in principle prohibited items under the Weapons Act; holders of a hunting licence may, however, acquire, own and use night-vision and thermal clip-on and add-on devices (§ 40(3) WaffG); hunting law decides for which species — in Bavaria wild boar, furred predators not protected under the Habitats Directive, and invasive species (Art. 29 BayJG). A BKA (Federal Criminal Police Office) ruling certifies the “dual-use” status of a night-vision device. With clip-ons you can identify the target and the area behind it right up to the shot; thermal devices also work in daylight."
         }
       ],
       "keyTerms": [
@@ -416,6 +418,79 @@
         {
           "title": "SVLFG – Unfallverhütungsvorschrift Jagd (VSG 4.4)",
           "url": "https://www.svlfg.de/"
+        }
+      ],
+      "origin": "seed",
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "waffenhandhabung-praktische-pruefung",
+      "titleDe": "Waffenhandhabung in der praktischen Prüfung (Bayern)",
+      "titleEn": "Gun handling in the practical exam (Bavaria)",
+      "paragraphs": [
+        {
+          "de": "Im praktischen Teil der bayerischen Jägerprüfung wird die Handhabung der gebräuchlichen Jagdwaffen getrennt vom Büchsenschießen geprüft (§ 14 JFPO). Die zentrale Prüfungsbehörde gibt dafür einen einheitlichen Prüfungsleitfaden vor. Geprüft werden in der Regel eine Kurzwaffe (Pistole oder Revolver), eine Repetierbüchse (System 98 oder Handspanner), ein Drilling und eine Flinte; welche Modelle an einem Standort verwendet werden, erfragt man vorher. Bewertet wird nur die sichere Handhabung, keine Theorie.",
+          "en": "In the practical part of the Bavarian exam, handling the usual hunting guns is assessed separately from rifle shooting (§ 14 JFPO). The central exam authority sets a uniform examination guide for this. Usually tested are a handgun (pistol or revolver), a bolt-action rifle (Mauser 98 type or manual-cocking), a drilling and a shotgun; ask in advance which models are used at your exam location. Only safe handling is assessed, not theory."
+        },
+        {
+          "de": "An jeder Waffe gibt es zwei Abschnitte: zuerst die Sicherheitsüberprüfung, dann eine Prüfungssituation – zum Beispiel ein Ansitz, eine Drückjagd oder ein Schießstandbesuch. Pflicht sind dabei Munitionsprüfung, Schussabgabe und ein Schussabbruch (etwa weil ein Spaziergänger ins Schussfeld kommt); oft kommen Nachladen, Überwinden eines Hindernisses oder Besteigen eines Hochsitzes hinzu. Jeder Abschnitt endet damit, die Waffe schießstandgerecht abzulegen: entladen, Verschluss offen, gesichert, Magazin leer, Mündung in den sicheren Bereich.",
+          "en": "Each gun has two parts: first the safety check, then an exam situation — for example a stand hunt, a driven hunt or a visit to the range. Compulsory are checking the ammunition, firing a shot and aborting a shot (e.g. because a walker enters the field of fire); often reloading, crossing an obstacle or climbing a high seat are added. Each part ends with putting the gun down range-ready: unloaded, action open, safety on, magazine empty, muzzle pointing to the safe area."
+        },
+        {
+          "de": "Grundregeln: Jede Waffe gilt als geladen, entsichert und gestochen, bis man sich selbst vom Gegenteil überzeugt hat. Die Mündung zeigt immer in den sicheren Bereich (Zielscheiben oder senkrecht nach oben). Der Abzugsfinger bleibt gestreckt außerhalb des Abzugsbügels und kommt nur unmittelbar vor dem Schuss oder zum Entspannen hinein. Die Waffe wird so aufgenommen, wie sie daliegt – man verändert vorher nichts – und eine geschlossene, entsicherte Waffe wird sofort gesichert.",
+          "en": "Basic rules: every gun counts as loaded, off safe and with the trigger set until you have convinced yourself otherwise. The muzzle always points to the safe area (the targets or straight up). The trigger finger stays straight outside the trigger guard and only goes in just before the shot or to de-cock. Pick the gun up exactly as it lies — change nothing first — and immediately put a closed gun that is off safe on safe."
+        },
+        {
+          "de": "Die vollständige Sicherheitsüberprüfung beim ersten Aufnehmen besteht aus: Sicherungskontrolle (sichern bzw. entspannen), Ladekontrolle (entladen), Stecherkontrolle (entstechen), Laufkontrolle einschließlich Patronenlager (bei der Repetierbüchse Schloss herausnehmen) und Kaliberfeststellung an der Waffe. Vor dem Laden wird das Kaliber an der Waffe und an jeder Patrone abgelesen und laut genannt – Kaliber, Hülsenlänge und Zusätze wie »R«, »S« oder »Magnum«. Vor jedem späteren Laden genügt eine eingeschränkte Überprüfung: sichern, Stecher und Lauf kontrollieren. Was man tut, spricht man laut aus, damit der Prüfer es nachvollziehen kann.",
+          "en": "The full safety check on first picking up a gun consists of: safety check (put on safe or de-cock), load check (unload), set-trigger check (unset), barrel check including the chamber (remove the bolt on a bolt-action rifle) and identifying the calibre on the gun. Before loading, read out loud the calibre on the gun and on every cartridge — calibre, case length and markings such as “R”, “S” or “Magnum”. Before any later reloading a reduced check is enough: safety, set trigger and barrel. Say out loud what you are doing so the examiner can follow."
+        },
+        {
+          "de": "Vor dem Schuss erklärt man laut, dass das Ziel angesprochen ist, Vorder- und Hintergelände frei sind und ein Kugelfang vorhanden ist. Taucht eine Gefahr auf, nimmt man die Mündung aus dem Gefahrenbereich und sichert bzw. entsticht. Typische Besonderheiten: Den Rückstecher sticht man mit dem Daumen ein und entsticht ihn mit zwei Fingern, nachdem die Waffe gesichert ist; beim Drilling erst auf Kugel umstellen, dann entsichern und einstechen; bei der Pistole nach dem Schuss den Repetiervorgang simulieren und sofort sichern; beim Revolver alle Kammern prüfen.",
+          "en": "Before the shot, state out loud that the target is identified, the foreground and background are clear and there is a backstop. If a danger appears, take the muzzle out of the danger area and put on safe or unset the trigger. Typical details: set a back set trigger with the thumb and unset it with two fingers after putting the gun on safe; on a drilling first switch to rifle, then take off safe and set; with a pistol simulate cycling the slide after the shot and put on safe at once; with a revolver check every chamber."
+        },
+        {
+          "de": "Fehler werden in drei Schweregrade eingeteilt. Schwere Fehler wie eine fehlende Sicherheitsüberprüfung, eine Mündung, die auf Menschen zeigt, ein unbeabsichtigter Schuss, der Finger am Abzug ohne Schussauftrag oder das Ablegen einer geladenen Waffe führen schon einzeln zum Nichtbestehen; mittlere und leichte Fehler zählen zusammen.",
+          "en": "Faults are graded in three levels of severity. Serious faults such as a missing safety check, pointing the muzzle at people, an unintended shot, a finger on the trigger without being told to shoot, or putting a gun down loaded mean failing on their own; moderate and minor faults add up."
+        }
+      ],
+      "keyTerms": [
+        {
+          "de": "Sicherheitsüberprüfung",
+          "en": "safety check"
+        },
+        {
+          "de": "Ladekontrolle",
+          "en": "load check"
+        },
+        {
+          "de": "Laufkontrolle",
+          "en": "barrel check"
+        },
+        {
+          "de": "Kaliberfeststellung",
+          "en": "identifying the calibre"
+        },
+        {
+          "de": "schießstandgerecht ablegen",
+          "en": "put down range-ready"
+        },
+        {
+          "de": "Schussabbruch",
+          "en": "aborting the shot"
+        },
+        {
+          "de": "sicherer Bereich",
+          "en": "safe area (direction)"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Jäger- und Falknerprüfungsordnung (JFPO) § 14",
+          "url": "https://www.gesetze-bayern.de/Content/Document/BayJFPO-14"
+        },
+        {
+          "title": "Landesamt für Maß und Gewicht – Jägerprüfung (Prüfungsleitfaden praktischer Teil)",
+          "url": "https://www.lmg.bayern.de/aufgaben_leistungen/jaegerpruefung/index.html"
         }
       ],
       "origin": "seed",
@@ -631,6 +706,67 @@
         {
           "title": "SVLFG – Unfallverhütungsvorschrift Jagd (VSG 4.4)",
           "url": "https://www.svlfg.de/"
+        }
+      ],
+      "origin": "seed",
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "erste-hilfe-jagd",
+      "titleDe": "Erste Hilfe bei der Jagd",
+      "titleEn": "First aid while hunting",
+      "paragraphs": [
+        {
+          "de": "Wer bei einem Unglücksfall nicht hilft, obwohl es erforderlich und zumutbar ist, macht sich wegen unterlassener Hilfeleistung strafbar (§ 323c StGB). Bei der Jagd drohen vor allem Schnitt- und Schussverletzungen, Stürze vom Hochsitz, Kreislaufprobleme, Unterkühlung und Zeckenstiche. Ein Verbandkasten mit Einmalhandschuhen, Druckverband, Rettungsdecke und Zeckenzange gehört in den Rucksack; bei Gesellschaftsjagden sollte der Jagdleiter Erste Hilfe und Notruf organisieren.",
+          "en": "Anyone who fails to help in an accident although it is necessary and reasonable commits the offence of failing to render assistance (§ 323c StGB). Typical hunting injuries are cuts and gunshot wounds, falls from high seats, circulatory problems, hypothermia and tick bites. A first-aid kit with disposable gloves, pressure bandage, rescue blanket and tick tweezers belongs in the rucksack; at group hunts the hunt leader should organise first aid and emergency calls."
+        },
+        {
+          "de": "Zuerst die Unfallstelle sichern: Eigenschutz geht vor, Waffen entladen und sichern. Dann den Notruf 112 absetzen und die W-Fragen beantworten: Wo ist es passiert (Koordinaten, Zufahrt, Treffpunkt)? Was ist passiert? Wie viele Verletzte? Welche Verletzungen? Warten auf Rückfragen. Da im Revier oft kein Netz ist, sollte man vorher klären, wo Empfang besteht, und Rettungskräfte an einem markanten Punkt einweisen.",
+          "en": "First secure the scene: your own safety comes first, unload and secure the guns. Then call 112 and answer the W-questions: Where did it happen (coordinates, access route, meeting point)? What happened? How many injured? What injuries? Wait for questions. As there is often no signal in the hunting ground, find out beforehand where there is reception, and guide rescuers in from a landmark."
+        },
+        {
+          "de": "Lebensrettende Maßnahmen: Starke Blutungen sofort mit Druck stillen – Druckverband, notfalls Abbinden oberhalb der Wunde bei einer Gliedmaße. Ist jemand bewusstlos, atmet aber normal, kommt er in die stabile Seitenlage; atmet er nicht normal, beginnt man mit der Herz-Lungen-Wiederbelebung (30 Herzdruckmassagen, 2 Beatmungen) bis der Rettungsdienst übernimmt. Verletzte vor Auskühlung schützen (Rettungsdecke) und bis zum Eintreffen der Hilfe nicht allein lassen.",
+          "en": "Life-saving measures: stop heavy bleeding at once with pressure — a pressure bandage, if necessary a tourniquet above the wound on a limb. If someone is unconscious but breathing normally, put them in the recovery position; if they are not breathing normally, start CPR (30 chest compressions, 2 rescue breaths) until the ambulance takes over. Protect the casualty from cold (rescue blanket) and do not leave them alone until help arrives."
+        },
+        {
+          "de": "Zecken entfernt man möglichst früh mit einer Zeckenzange, ohne sie zu quetschen, und beobachtet die Stelle: Eine sich ausbreitende Rötung (Wanderröte) deutet auf Borreliose; gegen FSME, die in Bayern verbreitet ist, schützt eine Impfung. Schnittwunden beim Aufbrechen werden gereinigt und abgedeckt – auch wegen möglicher Infektionen durch Wild.",
+          "en": "Remove ticks as early as possible with tick tweezers without squeezing them, and watch the spot: a spreading red ring (erythema migrans) points to Lyme disease; vaccination protects against tick-borne encephalitis (FSME), which is widespread in Bavaria. Cuts while gutting are cleaned and covered — also because of possible infections from game."
+        }
+      ],
+      "keyTerms": [
+        {
+          "de": "unterlassene Hilfeleistung",
+          "en": "failure to render assistance"
+        },
+        {
+          "de": "Notruf 112",
+          "en": "emergency number 112"
+        },
+        {
+          "de": "stabile Seitenlage",
+          "en": "recovery position"
+        },
+        {
+          "de": "Herz-Lungen-Wiederbelebung",
+          "en": "CPR"
+        },
+        {
+          "de": "Druckverband",
+          "en": "pressure bandage"
+        },
+        {
+          "de": "FSME",
+          "en": "tick-borne encephalitis"
+        },
+        {
+          "de": "Wanderröte",
+          "en": "erythema migrans (Lyme rash)"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Strafgesetzbuch § 323c – gesetze-im-internet.de",
+          "url": "https://www.gesetze-im-internet.de/stgb/__323c.html"
         }
       ],
       "origin": "seed",
@@ -2227,6 +2363,311 @@
       ],
       "explanationDe": "Ein beendeter Angriff rechtfertigt keine Notwehr mehr.",
       "explanationEn": "An attack that's over no longer justifies it.",
+      "origin": "seed"
+    },
+    {
+      "id": "wh-grundannahme",
+      "lessonId": "waffenhandhabung-praktische-pruefung",
+      "questionDe": "Wovon geht man beim Aufnehmen einer Waffe in der Prüfung aus?",
+      "questionEn": "What do you assume when picking up a gun in the exam?",
+      "options": [
+        {
+          "de": "Sie ist geladen, entsichert und gestochen",
+          "en": "It is loaded, off safe and set"
+        },
+        {
+          "de": "Sie ist entladen, weil der Prüfer sie hingelegt hat",
+          "en": "It is unloaded because the examiner laid it down"
+        },
+        {
+          "de": "Sie ist gesichert",
+          "en": "It is on safe"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Bis man sich selbst überzeugt hat, gilt jede Waffe als geladen, entsichert und gestochen.",
+      "explanationEn": "Until you've checked yourself, every gun counts as loaded, off safe and set.",
+      "origin": "seed"
+    },
+    {
+      "id": "wh-vollstaendig",
+      "lessonId": "waffenhandhabung-praktische-pruefung",
+      "questionDe": "Was gehört zur vollständigen Sicherheitsüberprüfung?",
+      "questionEn": "What belongs to the full safety check?",
+      "options": [
+        {
+          "de": "Sicherungskontrolle",
+          "en": "Safety check"
+        },
+        {
+          "de": "Ladekontrolle",
+          "en": "Load check"
+        },
+        {
+          "de": "Stecherkontrolle",
+          "en": "Set-trigger check"
+        },
+        {
+          "de": "Laufkontrolle mit Patronenlager",
+          "en": "Barrel and chamber check"
+        },
+        {
+          "de": "Waffennummer ablesen",
+          "en": "Reading the serial number"
+        }
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanationDe": "Dazu kommt die Kaliberfeststellung; die Waffennummer wird nicht geprüft.",
+      "explanationEn": "Plus identifying the calibre; the serial number isn't checked.",
+      "origin": "seed"
+    },
+    {
+      "id": "wh-ablegen",
+      "lessonId": "waffenhandhabung-praktische-pruefung",
+      "questionDe": "Was heißt »schießstandgerecht ablegen«?",
+      "questionEn": "What does putting a gun down “range-ready” mean?",
+      "options": [
+        {
+          "de": "Entladen",
+          "en": "Unloaded"
+        },
+        {
+          "de": "Verschluss geöffnet",
+          "en": "Action open"
+        },
+        {
+          "de": "Gesichert",
+          "en": "On safe"
+        },
+        {
+          "de": "Gestochen",
+          "en": "Trigger set"
+        }
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanationDe": "Dazu Magazin leer und Mündung in den sicheren Bereich.",
+      "explanationEn": "Plus magazine empty and muzzle to the safe area.",
+      "origin": "seed"
+    },
+    {
+      "id": "wh-schwerer-fehler",
+      "lessonId": "waffenhandhabung-praktische-pruefung",
+      "questionDe": "Welche Fehler führen schon einzeln zum Nichtbestehen?",
+      "questionEn": "Which faults fail you on their own?",
+      "options": [
+        {
+          "de": "Mündung auf Menschen gerichtet",
+          "en": "Muzzle pointed at people"
+        },
+        {
+          "de": "Unbeabsichtigter Schuss",
+          "en": "Unintended shot"
+        },
+        {
+          "de": "Geladene Waffe abgelegt",
+          "en": "Gun put down loaded"
+        },
+        {
+          "de": "Kaliber etwas langsam abgelesen",
+          "en": "Reading the calibre a bit slowly"
+        }
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanationDe": "Kleinere Unsicherheiten sind leichte Fehler.",
+      "explanationEn": "Minor hesitations are minor faults.",
+      "origin": "seed"
+    },
+    {
+      "id": "wh-drilling-reihenfolge",
+      "lessonId": "waffenhandhabung-praktische-pruefung",
+      "questionDe": "In welcher Reihenfolge macht man einen Drilling für den Kugelschuss fertig?",
+      "questionEn": "In what order do you ready a drilling for a rifle shot?",
+      "options": [
+        {
+          "de": "Auf Kugel umstellen, dann entsichern und einstechen",
+          "en": "Switch to rifle, then off safe and set"
+        },
+        {
+          "de": "Entsichern und einstechen, dann auf Kugel umstellen",
+          "en": "Off safe and set, then switch to rifle"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Erst umstellen – sonst ist die Waffe kurz entsichert und gestochen auf Schrot.",
+      "explanationEn": "Switch first — otherwise it's briefly off safe and set on shot.",
+      "origin": "seed"
+    },
+    {
+      "id": "wh-gefahr",
+      "lessonId": "waffenhandhabung-praktische-pruefung",
+      "questionDe": "Während der Prüfungssituation kommt ein Radfahrer ins Schussfeld. Was tun Sie?",
+      "questionEn": "During the exam situation a cyclist enters the field of fire. What do you do?",
+      "options": [
+        {
+          "de": "Mündung aus dem Gefahrenbereich nehmen und sichern bzw. entstechen",
+          "en": "Take the muzzle out of the danger area and put on safe / unset"
+        },
+        {
+          "de": "Schnell schießen, bevor er näher kommt",
+          "en": "Shoot quickly before he gets closer"
+        },
+        {
+          "de": "Waffe gestochen im Anschlag halten",
+          "en": "Keep aiming with the trigger set"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Schussabbruch ist ein Pflichtteil der Prüfung.",
+      "explanationEn": "Aborting a shot is a compulsory part of the exam.",
+      "origin": "seed"
+    },
+    {
+      "id": "eh-reihenfolge",
+      "lessonId": "erste-hilfe-jagd",
+      "questionDe": "Was tun Sie zuerst an einem Jagdunfall?",
+      "questionEn": "What do you do first at a hunting accident?",
+      "options": [
+        {
+          "de": "Eigenschutz und Waffen entladen/sichern",
+          "en": "Ensure your own safety and unload/secure guns"
+        },
+        {
+          "de": "Sofort die Wunde verbinden",
+          "en": "Bandage the wound straight away"
+        },
+        {
+          "de": "Den Jagdleiter suchen gehen",
+          "en": "Go and look for the hunt leader"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Erst die Unfallstelle sichern, dann Notruf und Erste Hilfe.",
+      "explanationEn": "Secure the scene first, then call and give first aid.",
+      "origin": "seed"
+    },
+    {
+      "id": "eh-bewusstlos",
+      "lessonId": "erste-hilfe-jagd",
+      "questionDe": "Ein Verletzter ist bewusstlos, atmet aber normal. Was tun Sie?",
+      "questionEn": "A casualty is unconscious but breathing normally. What do you do?",
+      "options": [
+        {
+          "de": "Stabile Seitenlage und Notruf",
+          "en": "Recovery position and emergency call"
+        },
+        {
+          "de": "Herzdruckmassage",
+          "en": "Chest compressions"
+        },
+        {
+          "de": "Hinsetzen und Wasser geben",
+          "en": "Sit them up and give water"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Bei normaler Atmung stabile Seitenlage; ohne normale Atmung Wiederbelebung.",
+      "explanationEn": "Breathing normally: recovery position; not breathing: CPR.",
+      "origin": "seed"
+    },
+    {
+      "id": "eh-hlw",
+      "lessonId": "erste-hilfe-jagd",
+      "questionDe": "In welchem Verhältnis werden Herzdruckmassage und Beatmung bei Erwachsenen durchgeführt?",
+      "questionEn": "What is the ratio of compressions to breaths for adults?",
+      "options": [
+        {
+          "de": "30 : 2",
+          "en": "30 : 2"
+        },
+        {
+          "de": "15 : 1",
+          "en": "15 : 1"
+        },
+        {
+          "de": "5 : 5",
+          "en": "5 : 5"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "30 Kompressionen, 2 Beatmungen.",
+      "explanationEn": "30 compressions, 2 breaths.",
+      "origin": "seed"
+    },
+    {
+      "id": "eh-zecke",
+      "lessonId": "erste-hilfe-jagd",
+      "questionDe": "Was deutet nach einem Zeckenstich auf Borreliose hin?",
+      "questionEn": "What suggests Lyme disease after a tick bite?",
+      "options": [
+        {
+          "de": "Eine sich ausbreitende Rötung (Wanderröte)",
+          "en": "A spreading red ring"
+        },
+        {
+          "de": "Juckreiz am ersten Tag",
+          "en": "Itching on the first day"
+        },
+        {
+          "de": "Ein kleiner roter Punkt, der verschwindet",
+          "en": "A small red dot that fades"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Die Wanderröte ist das typische Frühzeichen; gegen FSME hilft eine Impfung.",
+      "explanationEn": "The spreading rash is the typical early sign; vaccination protects against FSME.",
+      "origin": "seed"
+    },
+    {
+      "id": "eh-pflicht",
+      "lessonId": "erste-hilfe-jagd",
+      "questionDe": "Was droht, wenn man bei einem Unglücksfall nicht hilft, obwohl es zumutbar ist?",
+      "questionEn": "What is the consequence of not helping when it's reasonable?",
+      "options": [
+        {
+          "de": "Strafbarkeit wegen unterlassener Hilfeleistung",
+          "en": "Prosecution for failing to render assistance"
+        },
+        {
+          "de": "Nichts",
+          "en": "Nothing"
+        },
+        {
+          "de": "Nur der Entzug des Jagdscheins",
+          "en": "Only losing the licence"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "§ 323c StGB.",
+      "explanationEn": "§ 323c StGB.",
       "origin": "seed"
     }
   ]

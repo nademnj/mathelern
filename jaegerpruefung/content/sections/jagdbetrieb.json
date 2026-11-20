@@ -62,7 +62,8 @@
         "sicherheit-bei-der-jagd",
         "ansprechen",
         "jagdarten-im-detail",
-        "schusszeichen-und-verhalten"
+        "schusszeichen-und-verhalten",
+        "jagdliches-brauchtum"
       ]
     },
     {
@@ -765,6 +766,87 @@
         {
           "title": "Fragenkatalog zur Jägerprüfung in Bayern – Landesamt für Maß und Gewicht",
           "url": "https://www.lmg.bayern.de/aufgaben_leistungen/jaegerpruefung/index.html"
+        }
+      ],
+      "origin": "seed",
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "jagdliches-brauchtum",
+      "titleDe": "Jagdliches Brauchtum und Waidgerechtigkeit",
+      "titleEn": "Hunting customs and fair hunting",
+      "paragraphs": [
+        {
+          "de": "Waidgerechtigkeit ist die Summe der geschriebenen und ungeschriebenen Regeln, nach denen ein Jäger handelt. Sie ruht auf drei Säulen: dem Tierschutz (dem Wild unnötige Qualen ersparen, sicher ansprechen, nur sicher treffende Schüsse abgeben, nachsuchen), der Achtung vor dem Wild als Mitgeschöpf und der Rücksicht gegenüber Mitjägern, Grundeigentümern und der Öffentlichkeit. Das Bundesjagdgesetz verpflichtet ausdrücklich auf die »allgemein anerkannten Grundsätze deutscher Waidgerechtigkeit« (§ 1 Abs. 3 BJagdG).",
+          "en": "Waidgerechtigkeit (fair hunting) is the sum of the written and unwritten rules a hunter follows. It rests on three pillars: animal welfare (sparing game unnecessary suffering, identifying it surely, only taking shots that will hit cleanly, following up wounded game), respect for game as a fellow creature, and consideration for fellow hunters, landowners and the public. The Federal Hunting Act expressly requires the “generally recognised principles of German fair hunting” (§ 1(3) BJagdG)."
+        },
+        {
+          "de": "Brüche sind abgebrochene Zweige, mit denen sich Jäger verständigen. Bruchgerecht sind Eiche, Erle, Kiefer, Fichte und Tanne; Zweige werden abgebrochen, nicht geschnitten. Wichtige Brüche: Der Anschussbruch markiert den Anschuss, der Fährtenbruch zeigt die Fluchtrichtung (beim männlichen Stück mit dem gebrochenen Ende, beim weiblichen mit der Spitze in Fluchtrichtung), der Hauptbruch und der Leitbruch weisen den Weg, der Warnbruch (zu einem Kreis gebogen) warnt vor Gefahr, der Wartebruch (zwei gekreuzte, entästete Zweige) heißt »hier warten«. Am erlegten Stück steckt man ihm den letzten Bissen in den Äser bzw. das Gebrech und legt einen Inbesitznahmebruch auf das Stück; der Schützenbruch wird dem Erleger, mit Schweiß benetzt, auf der Hutkrempe oder einem Messer überreicht und rechts am Hut getragen.",
+          "en": "Brüche are broken-off twigs hunters use to communicate. Suitable are oak, alder, pine, spruce and fir; twigs are broken, not cut. Important ones: the Anschussbruch marks where the animal was hit, the Fährtenbruch shows the direction of flight (for a male animal with the broken end, for a female with the tip pointing that way), the Hauptbruch and Leitbruch show the way, the Warnbruch (bent into a circle) warns of danger, the Wartebruch (two crossed, stripped twigs) means “wait here”. On the dead animal a last bite (letzter Bissen) is put in its mouth and an ownership twig is laid on it; the Schützenbruch, wetted with blood, is handed to the shooter on the hat brim or a knife and worn on the right of the hat."
+        },
+        {
+          "de": "Nach einer Gesellschaftsjagd wird die Strecke gelegt: Jedes Stück liegt auf der rechten Körperseite, Schalenwild vor Raubwild vor Niederwild, das stärkste Stück jeder Art vorne, jedes zehnte Stück Niederwild eine Länge vorgezogen. Die Jäger stehen dahinter, die Treiber gegenüber; die Bläser blasen die Totsignale der Wildarten und »Jagd vorbei«. Über die Strecke steigt man nicht. Nach der Jagd folgt das Schüsseltreiben, ein geselliges Essen; das Jagdgericht kann dort scherzhaft Verstöße gegen das Brauchtum ahnden. Der Jagdkönig ist, wer das meiste oder stärkste Wild erlegt hat.",
+          "en": "After a group hunt the bag (Strecke) is laid out: each animal on its right side, cloven-hoofed game before predators before small game, the strongest of each species in front, every tenth piece of small game pulled forward one length. The hunters stand behind, the beaters opposite; horn players blow the death calls of the species and “hunt over”. You don't step over the Strecke. After the hunt comes the Schüsseltreiben, a convivial meal; a mock “hunting court” may fine breaches of custom there. The Jagdkönig is whoever took the most or strongest game."
+        },
+        {
+          "de": "Das Jägerrecht ist ein Anteil des Aufbrechers bzw. Begleiters: Das kleine Jägerrecht ist das Geräusch (Herz, Lunge, Leber, Nieren, Milz), das große zusätzlich der Hals bis zur dritten Rippe. Erleger ist bei Schalenwild in der Regel, wer den ersten tödlichen Schuss angebracht hat; bei Niederwild mit Schrot meist der, dessen Schuss das Stück zur Strecke brachte – nicht der Fangschuss. Wer verbricht, legt dem Jagdhund nach erfolgreicher Nachsuche ebenfalls einen Bruch an das Halsband.",
+          "en": "The Jägerrecht is the share of the person who guts the animal or accompanies the guest: the small Jägerrecht is the pluck (heart, lungs, liver, kidneys, spleen), the large one also the neck to the third rib. The shooter (Erleger) of cloven-hoofed game is usually whoever made the first fatal shot; for small game with shot it is usually the one whose shot brought it down — not the finishing shot. After a successful tracking search the handler also gives the dog a twig on its collar."
+        }
+      ],
+      "keyTerms": [
+        {
+          "de": "Waidgerechtigkeit",
+          "en": "fair hunting ethics"
+        },
+        {
+          "de": "Bruch",
+          "en": "twig sign"
+        },
+        {
+          "de": "Anschussbruch",
+          "en": "twig marking the shot site"
+        },
+        {
+          "de": "Fährtenbruch",
+          "en": "twig showing direction of flight"
+        },
+        {
+          "de": "Warnbruch",
+          "en": "warning twig"
+        },
+        {
+          "de": "letzter Bissen",
+          "en": "last bite"
+        },
+        {
+          "de": "Schützenbruch",
+          "en": "shooter's twig"
+        },
+        {
+          "de": "Strecke legen",
+          "en": "laying out the bag"
+        },
+        {
+          "de": "Totsignal",
+          "en": "death call"
+        },
+        {
+          "de": "Schüsseltreiben",
+          "en": "post-hunt meal"
+        },
+        {
+          "de": "Jägerrecht",
+          "en": "hunter's share of the offal"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Bundesjagdgesetz § 1 – gesetze-im-internet.de",
+          "url": "https://www.gesetze-im-internet.de/bjagdg/__1.html"
+        },
+        {
+          "title": "Deutscher Jagdverband (DJV)",
+          "url": "https://www.jagdverband.de/"
         }
       ],
       "origin": "seed",
@@ -3136,6 +3218,159 @@
       ],
       "explanationDe": "Damit Harn das Wildbret nicht verdirbt.",
       "explanationEn": "So urine does not spoil the meat.",
+      "origin": "seed"
+    },
+    {
+      "id": "br-holzarten",
+      "lessonId": "jagdliches-brauchtum",
+      "questionDe": "Welche Holzarten gelten als bruchgerecht?",
+      "questionEn": "Which trees are proper for Brüche?",
+      "options": [
+        {
+          "de": "Eiche",
+          "en": "Oak"
+        },
+        {
+          "de": "Fichte",
+          "en": "Spruce"
+        },
+        {
+          "de": "Erle",
+          "en": "Alder"
+        },
+        {
+          "de": "Buche",
+          "en": "Beech"
+        },
+        {
+          "de": "Kiefer",
+          "en": "Pine"
+        }
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "explanationDe": "Eiche, Erle, Kiefer, Fichte, Tanne.",
+      "explanationEn": "Oak, alder, pine, spruce, fir.",
+      "origin": "seed"
+    },
+    {
+      "id": "br-warn",
+      "lessonId": "jagdliches-brauchtum",
+      "questionDe": "Wie sieht ein Warnbruch aus?",
+      "questionEn": "What does a warning twig look like?",
+      "options": [
+        {
+          "de": "Zu einem Kreis gebogener Zweig",
+          "en": "A twig bent into a circle"
+        },
+        {
+          "de": "Zwei gekreuzte Zweige",
+          "en": "Two crossed twigs"
+        },
+        {
+          "de": "Ein Zweig mit Schweiß",
+          "en": "A twig with blood"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Zwei gekreuzte, entästete Zweige sind der Wartebruch.",
+      "explanationEn": "Two crossed stripped twigs are the waiting twig.",
+      "origin": "seed"
+    },
+    {
+      "id": "br-strecke",
+      "lessonId": "jagdliches-brauchtum",
+      "questionDe": "Wie wird die Strecke gelegt?",
+      "questionEn": "How is the bag laid out?",
+      "options": [
+        {
+          "de": "Auf der rechten Körperseite",
+          "en": "On the right side"
+        },
+        {
+          "de": "Schalenwild vor Niederwild",
+          "en": "Cloven-hoofed before small game"
+        },
+        {
+          "de": "Jedes zehnte Stück Niederwild vorgezogen",
+          "en": "Every tenth small-game piece pulled forward"
+        },
+        {
+          "de": "Auf dem Rücken",
+          "en": "On the back"
+        }
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanationDe": "Man steigt nicht über die Strecke.",
+      "explanationEn": "Don't step over the bag.",
+      "origin": "seed"
+    },
+    {
+      "id": "br-jaegerrecht",
+      "lessonId": "jagdliches-brauchtum",
+      "questionDe": "Was ist das kleine Jägerrecht?",
+      "questionEn": "What is the small Jägerrecht?",
+      "options": [
+        {
+          "de": "Das Geräusch: Herz, Lunge, Leber, Nieren, Milz",
+          "en": "The pluck: heart, lungs, liver, kidneys, spleen"
+        },
+        {
+          "de": "Die Decke",
+          "en": "The hide"
+        },
+        {
+          "de": "Die Keulen",
+          "en": "The haunches"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Das große Jägerrecht umfasst zusätzlich den Hals bis zur dritten Rippe.",
+      "explanationEn": "The large one adds the neck to the third rib.",
+      "origin": "seed"
+    },
+    {
+      "id": "br-waidgerecht",
+      "lessonId": "jagdliches-brauchtum",
+      "questionDe": "Was gehört zur Waidgerechtigkeit?",
+      "questionEn": "What belongs to fair hunting?",
+      "options": [
+        {
+          "de": "Tierschutz: sicher ansprechen und sicher treffen",
+          "en": "Animal welfare: identify and hit surely"
+        },
+        {
+          "de": "Achtung vor dem Wild",
+          "en": "Respect for the game"
+        },
+        {
+          "de": "Rücksicht auf Mitjäger und Öffentlichkeit",
+          "en": "Consideration for fellow hunters and the public"
+        },
+        {
+          "de": "Möglichst große Strecke",
+          "en": "As big a bag as possible"
+        }
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanationDe": "§ 1 Abs. 3 BJagdG verweist auf die Grundsätze der Waidgerechtigkeit.",
+      "explanationEn": "§ 1(3) BJagdG refers to the principles of fair hunting.",
       "origin": "seed"
     }
   ]

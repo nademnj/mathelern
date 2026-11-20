@@ -19,7 +19,8 @@
       "officialQuestions": 65,
       "lessonIds": [
         "naturschutz-geschuetzte-arten",
-        "lebensraeume-und-arten"
+        "lebensraeume-und-arten",
+        "geschuetzte-tiere-erkennen"
       ]
     },
     {
@@ -28,7 +29,8 @@
       "titleEn": "Agriculture",
       "officialQuestions": 47,
       "lessonIds": [
-        "landbau"
+        "landbau",
+        "pflanzen-erkennen"
       ]
     },
     {
@@ -38,7 +40,8 @@
       "officialQuestions": 70,
       "lessonIds": [
         "baumarten",
-        "waldbau-und-waldgesetz"
+        "waldbau-und-waldgesetz",
+        "pflanzen-erkennen"
       ]
     },
     {
@@ -188,6 +191,71 @@
       "updatedAt": "2026-11-18"
     },
     {
+      "id": "geschuetzte-tiere-erkennen",
+      "titleDe": "Geschützte Tiere im Revier: Eulen, Spechte, Lurche und Kriechtiere",
+      "titleEn": "Protected animals in the hunting ground: owls, woodpeckers, amphibians and reptiles",
+      "paragraphs": [
+        {
+          "de": "Eulen unterliegen nicht dem Jagdrecht, sondern sind nach Naturschutzrecht streng geschützt. Sie jagen nachts, fliegen dank weicher, am Rand gezähnter Federn fast lautlos und können den Kopf weit drehen. Ihr Gewölle enthält – anders als bei Greifvögeln – Knochen. Der Uhu ist die größte heimische Eule (Federohren, orangefarbene Augen), Waldohreule (Federohren, kleiner, brütet in alten Krähennestern), Waldkauz (runder Kopf ohne Federohren, dunkle Augen, Höhlenbrüter), Schleiereule (herzförmiger heller Schleier, Gebäudebrüter) sowie die kleinen Sperlings- und Raufußkäuze im Bergwald.",
+          "en": "Owls aren't covered by hunting law but are strictly protected under nature-conservation law. They hunt at night, fly almost silently thanks to soft feathers with serrated edges, and can turn their heads very far. Their pellets contain bones, unlike those of birds of prey. The eagle owl is the largest native owl (ear tufts, orange eyes); the long-eared owl (ear tufts, smaller, breeds in old crow nests); the tawny owl (round head without ear tufts, dark eyes, cavity nester); the barn owl (heart-shaped pale facial disc, nests in buildings); and the small pygmy and Tengmalm's owls in mountain forests."
+        },
+        {
+          "de": "Spechte schlagen mit dem Meißelschnabel Höhlen, die später Hohltauben, Käuze, Fledermäuse oder Baummarder nutzen – Totholz und Höhlenbäume zu erhalten hilft vielen Arten. Der Schwarzspecht ist der größte heimische Specht (schwarz mit rotem Scheitel, frisst viele Ameisen), der Buntspecht der häufigste (schwarz-weiß, rote Unterschwanzdecken), der Grünspecht sucht Ameisen am Boden.",
+          "en": "Woodpeckers chisel holes that are later used by stock doves, owls, bats or pine martens — keeping dead wood and hole trees helps many species. The black woodpecker is the largest native woodpecker (black with a red crown, eats many ants), the great spotted woodpecker the commonest (black and white, red under the tail), the green woodpecker looks for ants on the ground."
+        },
+        {
+          "de": "Alle heimischen Amphibien und Reptilien sind besonders geschützt, manche (z. B. Laubfrosch, Gelbbauchunke, Zauneidechse) streng. Der Feuersalamander ist schwarz-gelb gefärbt und warnt damit vor seinem giftigen Hautsekret. Die Blindschleiche ist keine Schlange, sondern eine beinlose Echse (Augenlider, kann den Schwanz abwerfen). Die Kreuzotter ist die verbreitetste Giftschlange Bayerns (Zickzackband auf dem Rücken, senkrechte Pupille), die harmlose Ringelnatter hat gelbe Halbmondflecken am Hinterkopf. Bei Biotoppflege – Tümpel, Lesesteinhaufen, Hecken – profitieren diese Arten ebenso wie das Niederwild.",
+          "en": "All native amphibians and reptiles are specially protected, some (e.g. tree frog, yellow-bellied toad, sand lizard) strictly. The fire salamander's black and yellow colours warn of its poisonous skin secretion. The slow worm isn't a snake but a legless lizard (eyelids, can shed its tail). The adder is Bavaria's most widespread venomous snake (zigzag band on the back, vertical pupil); the harmless grass snake has yellow crescent marks behind the head. Habitat work — ponds, stone piles, hedges — benefits these species as well as small game."
+        }
+      ],
+      "keyTerms": [
+        {
+          "de": "Gewölle",
+          "en": "pellet"
+        },
+        {
+          "de": "Federohren",
+          "en": "ear tufts"
+        },
+        {
+          "de": "Schleier",
+          "en": "facial disc"
+        },
+        {
+          "de": "Höhlenbrüter",
+          "en": "cavity nester"
+        },
+        {
+          "de": "Totholz",
+          "en": "dead wood"
+        },
+        {
+          "de": "besonders / streng geschützt",
+          "en": "specially / strictly protected"
+        },
+        {
+          "de": "Blindschleiche",
+          "en": "slow worm"
+        },
+        {
+          "de": "Kreuzotter",
+          "en": "adder"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Fragenkatalog zur Jägerprüfung in Bayern – Landesamt für Maß und Gewicht",
+          "url": "https://www.lmg.bayern.de/aufgaben_leistungen/jaegerpruefung/index.html"
+        },
+        {
+          "title": "Bundesnaturschutzgesetz § 44 – gesetze-im-internet.de",
+          "url": "https://www.gesetze-im-internet.de/bnatschg_2009/__44.html"
+        }
+      ],
+      "origin": "seed",
+      "updatedAt": "2026-11-18"
+    },
+    {
       "id": "landbau",
       "titleDe": "Landbau: Boden, Feldfrüchte und Pflanzenschutz",
       "titleEn": "Agriculture: soil, crops and crop protection",
@@ -255,6 +323,71 @@
         {
           "title": "Fragenkatalog zur Jägerprüfung in Bayern – Landesamt für Maß und Gewicht",
           "url": "https://www.lmg.bayern.de/aufgaben_leistungen/jaegerpruefung/index.html"
+        }
+      ],
+      "origin": "seed",
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "pflanzen-erkennen",
+      "titleDe": "Getreide, Zeigerpflanzen und Heckensträucher erkennen",
+      "titleEn": "Identifying cereals, indicator plants and hedge shrubs",
+      "paragraphs": [
+        {
+          "de": "In der mündlichen Prüfung werden oft Körner oder Ähren vorgelegt. Weizen hat eine dichte, meist grannenlose Ähre und dicke, rundliche Körner. Roggen hat eine schlanke, überhängende Ähre mit mittellangen Grannen und lange, schmale, graugrüne Körner. Gerste hat sehr lange Grannen; ihre Körner sind spitz und meist bespelzt. Hafer bildet keine Ähre, sondern eine lockere Rispe mit hängenden Ährchen; die Körner sind schlank und bespelzt. Mais hat große, abgeflachte Körner an Kolben. Buchweizen ist kein Getreide, sondern ein Knöterichgewächs mit dreikantigen, braunen Nüsschen – beliebt in Wildäckern.",
+          "en": "In the oral exam you're often shown grains or ears. Wheat has a dense ear, usually without awns, and plump, round grains. Rye has a slim, nodding ear with medium awns and long, narrow, grey-green grains. Barley has very long awns; its grains are pointed and usually hulled. Oats form no ear but a loose panicle with hanging spikelets; the grains are slim and hulled. Maize has large, flattened kernels on cobs. Buckwheat isn't a cereal but a member of the knotweed family with three-edged brown nutlets — popular in game crops."
+        },
+        {
+          "de": "Zeigerpflanzen verraten den Standort: Brennnessel und Holunder zeigen stickstoffreiche Böden, Heidekraut, Heidelbeere und Adlerfarn saure, nährstoffarme Böden, Binsen, Mädesüß und Schachtelhalm nasse Böden, Huflattich verdichteten, lehmigen Boden. Wer Wildäcker oder Hecken anlegt, wählt Arten passend zu diesem Standort.",
+          "en": "Indicator plants reveal the site: nettle and elder indicate nitrogen-rich soils; heather, bilberry and bracken acid, nutrient-poor soils; rushes, meadowsweet and horsetail wet soils; coltsfoot compacted, loamy soil. When planting game crops or hedges, choose species suited to the site."
+        },
+        {
+          "de": "Für Hecken und Feldgehölze eignen sich heimische Sträucher, die Deckung, Äsung und Nistplätze bieten: Schlehe und Weißdorn (dornig, früh blühend, Schutz für Niederwild und Brutvögel), Hundsrose (Hagebutten als Winteräsung), Hasel, Schwarzer Holunder, Eberesche, Kornelkirsche und Liguster. Das Pfaffenhütchen trägt auffällige rosa Früchte, ist aber für Menschen giftig. Eine gute Hecke ist stufig aufgebaut mit Krautsaum, Strauchmantel und einzelnen Überhältern und wird abschnittsweise im Winter auf den Stock gesetzt.",
+          "en": "Native shrubs that give cover, food and nesting sites are suited to hedges and copses: blackthorn and hawthorn (thorny, early flowering, shelter for small game and breeding birds), dog rose (rose hips as winter food), hazel, elder, rowan, cornelian cherry and privet. The spindle tree has striking pink fruit but is poisonous to people. A good hedge is layered, with a herb fringe, a shrub mantle and some taller trees, and is coppiced in sections in winter."
+        }
+      ],
+      "keyTerms": [
+        {
+          "de": "Granne",
+          "en": "awn"
+        },
+        {
+          "de": "Ähre",
+          "en": "ear (of grain)"
+        },
+        {
+          "de": "Rispe",
+          "en": "panicle"
+        },
+        {
+          "de": "bespelzt",
+          "en": "hulled"
+        },
+        {
+          "de": "Zeigerpflanze",
+          "en": "indicator plant"
+        },
+        {
+          "de": "Schlehe",
+          "en": "blackthorn"
+        },
+        {
+          "de": "Weißdorn",
+          "en": "hawthorn"
+        },
+        {
+          "de": "auf den Stock setzen",
+          "en": "to coppice"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Fragenkatalog zur Jägerprüfung in Bayern – Landesamt für Maß und Gewicht",
+          "url": "https://www.lmg.bayern.de/aufgaben_leistungen/jaegerpruefung/index.html"
+        },
+        {
+          "title": "Bayerisches Wildtierportal",
+          "url": "https://www.wildtierportal.bayern.de/"
         }
       ],
       "origin": "seed",
@@ -1873,6 +2006,296 @@
       ],
       "explanationDe": "Für Jagdschaden haftet der Jagdausübungsberechtigte.",
       "explanationEn": "The person entitled to hunt is liable for hunting damage.",
+      "origin": "seed"
+    },
+    {
+      "id": "pf-gerste",
+      "lessonId": "pflanzen-erkennen",
+      "questionDe": "Welches Getreide hat die längsten Grannen?",
+      "questionEn": "Which cereal has the longest awns?",
+      "options": [
+        {
+          "de": "Gerste",
+          "en": "Barley"
+        },
+        {
+          "de": "Weizen",
+          "en": "Wheat"
+        },
+        {
+          "de": "Roggen",
+          "en": "Rye"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Weizen meist ohne, Roggen mit mittellangen Grannen.",
+      "explanationEn": "Wheat usually none, rye medium awns.",
+      "origin": "seed"
+    },
+    {
+      "id": "pf-hafer",
+      "lessonId": "pflanzen-erkennen",
+      "questionDe": "Woran erkennt man Hafer?",
+      "questionEn": "How do you recognise oats?",
+      "options": [
+        {
+          "de": "Lockere Rispe mit hängenden Ährchen",
+          "en": "Loose panicle with hanging spikelets"
+        },
+        {
+          "de": "Dichte Ähre ohne Grannen",
+          "en": "Dense ear without awns"
+        },
+        {
+          "de": "Kolben",
+          "en": "Cob"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Hafer bildet keine Ähre.",
+      "explanationEn": "Oats form no ear.",
+      "origin": "seed"
+    },
+    {
+      "id": "pf-buchweizen",
+      "lessonId": "pflanzen-erkennen",
+      "questionDe": "Was trifft auf Buchweizen zu?",
+      "questionEn": "What is true of buckwheat?",
+      "options": [
+        {
+          "de": "Er ist kein Getreide, sondern ein Knöterichgewächs",
+          "en": "It's not a cereal but a knotweed relative"
+        },
+        {
+          "de": "Er hat dreikantige Nüsschen",
+          "en": "It has three-edged nutlets"
+        },
+        {
+          "de": "Er ist ein Süßgras",
+          "en": "It's a grass"
+        }
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanationDe": "Beliebte Wildackerpflanze.",
+      "explanationEn": "Popular game-crop plant.",
+      "origin": "seed"
+    },
+    {
+      "id": "pf-zeiger",
+      "lessonId": "pflanzen-erkennen",
+      "questionDe": "Welche Pflanze zeigt einen stickstoffreichen Boden an?",
+      "questionEn": "Which plant indicates nitrogen-rich soil?",
+      "options": [
+        {
+          "de": "Brennnessel",
+          "en": "Stinging nettle"
+        },
+        {
+          "de": "Heidekraut",
+          "en": "Heather"
+        },
+        {
+          "de": "Binse",
+          "en": "Rush"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Heidekraut: sauer; Binse: nass.",
+      "explanationEn": "Heather: acid; rush: wet.",
+      "origin": "seed"
+    },
+    {
+      "id": "pf-hecke",
+      "lessonId": "pflanzen-erkennen",
+      "questionDe": "Welche Sträucher eignen sich für eine Niederwildhecke?",
+      "questionEn": "Which shrubs suit a small-game hedge?",
+      "options": [
+        {
+          "de": "Schlehe",
+          "en": "Blackthorn"
+        },
+        {
+          "de": "Weißdorn",
+          "en": "Hawthorn"
+        },
+        {
+          "de": "Hundsrose",
+          "en": "Dog rose"
+        },
+        {
+          "de": "Kirschlorbeer",
+          "en": "Cherry laurel"
+        }
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanationDe": "Heimische, dornige Sträucher bieten Deckung und Äsung; Kirschlorbeer ist nicht heimisch.",
+      "explanationEn": "Native thorny shrubs give cover and food; cherry laurel isn't native.",
+      "origin": "seed"
+    },
+    {
+      "id": "gt-eule-recht",
+      "lessonId": "geschuetzte-tiere-erkennen",
+      "questionDe": "Welchem Recht unterliegen Eulen?",
+      "questionEn": "Which law covers owls?",
+      "options": [
+        {
+          "de": "Dem Naturschutzrecht; sie sind streng geschützt",
+          "en": "Nature-conservation law; strictly protected"
+        },
+        {
+          "de": "Dem Jagdrecht mit ganzjähriger Schonzeit",
+          "en": "Hunting law with a closed season all year"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Eulen sind kein Wild.",
+      "explanationEn": "Owls aren't game.",
+      "origin": "seed"
+    },
+    {
+      "id": "gt-gewoelle",
+      "lessonId": "geschuetzte-tiere-erkennen",
+      "questionDe": "Wodurch unterscheidet sich das Gewölle von Eulen von dem der Greifvögel?",
+      "questionEn": "How do owl pellets differ from those of raptors?",
+      "options": [
+        {
+          "de": "Es enthält Knochen",
+          "en": "They contain bones"
+        },
+        {
+          "de": "Es enthält nur Haare",
+          "en": "Only hair"
+        },
+        {
+          "de": "Eulen bilden kein Gewölle",
+          "en": "Owls produce none"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Greifvögel verdauen Knochen weitgehend.",
+      "explanationEn": "Raptors largely digest bones.",
+      "origin": "seed"
+    },
+    {
+      "id": "gt-kauz",
+      "lessonId": "geschuetzte-tiere-erkennen",
+      "questionDe": "Welche Eule hat keine Federohren und dunkle Augen?",
+      "questionEn": "Which owl has no ear tufts and dark eyes?",
+      "options": [
+        {
+          "de": "Waldkauz",
+          "en": "Tawny owl"
+        },
+        {
+          "de": "Waldohreule",
+          "en": "Long-eared owl"
+        },
+        {
+          "de": "Uhu",
+          "en": "Eagle owl"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Uhu und Waldohreule haben Federohren.",
+      "explanationEn": "Eagle owl and long-eared owl have ear tufts.",
+      "origin": "seed"
+    },
+    {
+      "id": "gt-schwarzspecht",
+      "lessonId": "geschuetzte-tiere-erkennen",
+      "questionDe": "Warum ist der Schwarzspecht für andere Arten wichtig?",
+      "questionEn": "Why is the black woodpecker important for other species?",
+      "options": [
+        {
+          "de": "Seine Höhlen werden von Hohltaube, Käuzen und Baummarder genutzt",
+          "en": "Its holes are used by stock doves, owls and pine martens"
+        },
+        {
+          "de": "Er frisst Borkenkäfer-Fressfeinde",
+          "en": "It eats bark beetle predators"
+        },
+        {
+          "de": "Er verbreitet Eicheln",
+          "en": "It spreads acorns"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Totholz und Höhlenbäume erhalten.",
+      "explanationEn": "Keep dead wood and hole trees.",
+      "origin": "seed"
+    },
+    {
+      "id": "gt-blindschleiche",
+      "lessonId": "geschuetzte-tiere-erkennen",
+      "questionDe": "Was ist eine Blindschleiche?",
+      "questionEn": "What is a slow worm?",
+      "options": [
+        {
+          "de": "Eine beinlose Echse",
+          "en": "A legless lizard"
+        },
+        {
+          "de": "Eine junge Kreuzotter",
+          "en": "A young adder"
+        },
+        {
+          "de": "Ein Lurch",
+          "en": "An amphibian"
+        }
+      ],
+      "correct": [
+        0
+      ],
+      "explanationDe": "Sie hat Augenlider und kann den Schwanz abwerfen.",
+      "explanationEn": "It has eyelids and can shed its tail.",
+      "origin": "seed"
+    },
+    {
+      "id": "gt-kreuzotter",
+      "lessonId": "geschuetzte-tiere-erkennen",
+      "questionDe": "Woran erkennen Sie die Kreuzotter?",
+      "questionEn": "How do you recognise an adder?",
+      "options": [
+        {
+          "de": "Zickzackband auf dem Rücken",
+          "en": "Zigzag band on the back"
+        },
+        {
+          "de": "Senkrechte Pupille",
+          "en": "Vertical pupil"
+        },
+        {
+          "de": "Gelbe Halbmonde am Hinterkopf",
+          "en": "Yellow crescents behind the head"
+        }
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanationDe": "Gelbe Halbmonde hat die harmlose Ringelnatter.",
+      "explanationEn": "Yellow crescents belong to the harmless grass snake.",
       "origin": "seed"
     }
   ]
